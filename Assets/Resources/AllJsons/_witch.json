@@ -1,0 +1,165 @@
+{
+    "Games": [
+        {
+            "id": 1074,
+            "category": 0,
+            "first_release_date": 835488000,
+            "involved_companies": [
+                98352,
+                98353
+            ],
+            "name": "Super Mario 64",
+            "platforms": [
+                4,
+                5,
+                41,
+                130
+            ],
+            "rating": 90.3431157680513
+        },
+        {
+            "id": 1103,
+            "category": 0,
+            "first_release_date": 764035200,
+            "involved_companies": [
+                95416,
+                133091,
+                133093,
+                133402
+            ],
+            "name": "Super Metroid",
+            "platforms": [
+                5,
+                19,
+                37,
+                41,
+                130,
+                137
+            ],
+            "rating": 92.62648538863911
+        },
+        {
+            "id": 1070,
+            "category": 0,
+            "first_release_date": 659145600,
+            "involved_companies": [
+                134915,
+                135300
+            ],
+            "name": "Super Mario World",
+            "platforms": [
+                5,
+                19,
+                37,
+                41,
+                130,
+                137
+            ],
+            "rating": 92.65029140362729
+        },
+        {
+            "id": 7346,
+            "category": 0,
+            "first_release_date": 1488499200,
+            "involved_companies": [
+                131267
+            ],
+            "name": "The Legend of Zelda: Breath of the Wild",
+            "platforms": [
+                41,
+                130
+            ],
+            "rating": 92.22464385867801
+        },
+        {
+            "id": 84799,
+            "category": 0,
+            "first_release_date": 560044800,
+            "involved_companies": [
+                132032
+            ],
+            "name": "Punch-Out!! Featuring Mr. Dream",
+            "platforms": [
+                5,
+                18,
+                37,
+                41,
+                130
+            ],
+            "rating": 90.1834725916607
+        },
+        {
+            "id": 1433,
+            "category": 0,
+            "first_release_date": 640569600,
+            "involved_companies": [
+                20430,
+                20432,
+                95417
+            ],
+            "name": "Fire Emblem: Shadow Dragon and the Blade of Light",
+            "platforms": [
+                5,
+                37,
+                41,
+                99,
+                130
+            ],
+            "rating": 90.12608458563679
+        },
+        {
+            "id": 41829,
+            "category": 2,
+            "first_release_date": 1488499200,
+            "involved_companies": [
+                51589
+            ],
+            "name": "The Legend of Zelda: Breath of the Wild - Expansion Pass",
+            "platforms": [
+                41,
+                130
+            ],
+            "rating": 99.2384874888039
+        },
+        {
+            "id": 2135,
+            "category": 0,
+            "first_release_date": 1411171200,
+            "involved_companies": [
+                58910,
+                58911
+            ],
+            "name": "Bayonetta 2",
+            "platforms": [
+                41,
+                130
+            ],
+            "rating": 90.87647581082021
+        },
+        {
+            "id": 1026,
+            "category": 0,
+            "first_release_date": 690681600,
+            "involved_companies": [
+                101092,
+                101093,
+                101094,
+                129705
+            ],
+            "name": "The Legend of Zelda: A Link to the Past",
+            "platforms": [
+                5,
+                19,
+                24,
+                37,
+                41,
+                47,
+                58,
+                130,
+                137,
+                306
+            ],
+            "rating": 92.256144333278
+        }
+    ]
+}

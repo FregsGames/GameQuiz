@@ -1,0 +1,1238 @@
+{
+    "Games": [
+        {
+            "id": 18866,
+            "category": 0,
+            "first_release_date": 1465862400,
+            "involved_companies": [
+                88395,
+                133092,
+                133389
+            ],
+            "name": "Dead by Daylight",
+            "platforms": [
+                6,
+                48,
+                49,
+                130,
+                167,
+                169,
+                170
+            ],
+            "rating": 72.0492070000965
+        },
+        {
+            "id": 125624,
+            "category": 0,
+            "first_release_date": 1595894400,
+            "involved_companies": [
+                87233,
+                87234
+            ],
+            "name": "Grounded",
+            "platforms": [
+                6,
+                49,
+                169
+            ],
+            "rating": 73.23392444954561
+        },
+        {
+            "id": 133004,
+            "category": 0,
+            "first_release_date": 1604966400,
+            "involved_companies": [
+                104781,
+                104782
+            ],
+            "name": "Assassin\u0027s Creed Valhalla",
+            "platforms": [
+                6,
+                48,
+                49,
+                167,
+                169,
+                170
+            ],
+            "rating": 74.224669312354
+        },
+        {
+            "id": 1877,
+            "category": 0,
+            "first_release_date": 1607472000,
+            "involved_companies": [
+                93176,
+                113775,
+                113776,
+                113777
+            ],
+            "name": "Cyberpunk 2077",
+            "platforms": [
+                6,
+                48,
+                49,
+                167,
+                169,
+                170
+            ],
+            "rating": 78.6198700830734
+        },
+        {
+            "id": 121760,
+            "category": 0,
+            "first_release_date": 1613001600,
+            "involved_companies": [
+                120994,
+                120995
+            ],
+            "name": "Little Nightmares II",
+            "platforms": [
+                6,
+                48,
+                49,
+                130,
+                167,
+                169,
+                170
+            ],
+            "rating": 81.80411188826801
+        },
+        {
+            "id": 19164,
+            "category": 0,
+            "first_release_date": 1568332800,
+            "involved_companies": [
+                86056,
+                86057
+            ],
+            "name": "Borderlands 3",
+            "platforms": [
+                6,
+                48,
+                49,
+                167,
+                169,
+                170
+            ],
+            "rating": 79.4528427278196
+        },
+        {
+            "id": 103291,
+            "category": 0,
+            "first_release_date": 1588032000,
+            "involved_companies": [
+                77209,
+                77210,
+                77211
+            ],
+            "name": "Gears Tactics",
+            "platforms": [
+                6,
+                49,
+                169
+            ],
+            "rating": 74.6501521468106
+        },
+        {
+            "id": 121748,
+            "category": 0,
+            "first_release_date": 1574294400,
+            "involved_companies": [
+                105075
+            ],
+            "name": "The Touryst",
+            "platforms": [
+                6,
+                49,
+                130,
+                169
+            ],
+            "rating": 79.39624039819721
+        },
+        {
+            "id": 46800,
+            "category": 0,
+            "first_release_date": 1590105600,
+            "involved_companies": [
+                65614,
+                125837,
+                125838
+            ],
+            "name": "Maneater",
+            "platforms": [
+                6,
+                48,
+                49,
+                130,
+                167,
+                169
+            ],
+            "rating": 70.1954029151507
+        },
+        {
+            "id": 133887,
+            "category": 3,
+            "first_release_date": 1599177600,
+            "involved_companies": [
+                139192,
+                139193
+            ],
+            "name": "Tony Hawk\u0027s Pro Skater 1+2",
+            "platforms": [
+                6,
+                48,
+                49,
+                130,
+                167,
+                169
+            ],
+            "rating": 86.572128627359
+        },
+        {
+            "id": 20079,
+            "category": 0,
+            "first_release_date": 1344902400,
+            "involved_companies": [
+                135380
+            ],
+            "name": "King Oddball",
+            "platforms": [
+                3,
+                6,
+                9,
+                14,
+                34,
+                39,
+                46,
+                48,
+                49,
+                74,
+                130,
+                167,
+                169
+            ],
+            "rating": 77.3767467889606
+        },
+        {
+            "id": 132097,
+            "category": 9,
+            "first_release_date": 1590105600,
+            "involved_companies": [
+                95977,
+                95978,
+                95979
+            ],
+            "name": "Saints Row: The Third Remastered",
+            "platforms": [
+                6,
+                48,
+                49,
+                167,
+                169
+            ],
+            "rating": 79.8814826541626
+        },
+        {
+            "id": 114684,
+            "category": 0,
+            "first_release_date": 1558483200,
+            "involved_companies": [
+                81013
+            ],
+            "name": "Splitgate: Arena Warfare",
+            "platforms": [
+                6,
+                48,
+                49,
+                167,
+                169
+            ],
+            "rating": 83.9079333986288
+        },
+        {
+            "id": 115427,
+            "category": 0,
+            "first_release_date": 1606953600,
+            "involved_companies": [
+                83390
+            ],
+            "name": "Haven",
+            "platforms": [
+                6,
+                48,
+                49,
+                130,
+                167,
+                169
+            ],
+            "rating": 78.35814580476901
+        },
+        {
+            "id": 82090,
+            "category": 0,
+            "first_release_date": 1538438400,
+            "involved_companies": [
+                104695,
+                104696,
+                115288,
+                115289,
+                118653
+            ],
+            "name": "Forza Horizon 4",
+            "platforms": [
+                6,
+                49,
+                169
+            ],
+            "rating": 81.0657881240116
+        },
+        {
+            "id": 7348,
+            "category": 3,
+            "first_release_date": 1415664000,
+            "involved_companies": [
+                75532,
+                75533,
+                75534,
+                75535,
+                75536,
+                75537,
+                87634,
+                87635,
+                87636
+            ],
+            "name": "Halo: The Master Chief Collection",
+            "platforms": [
+                6,
+                49,
+                169
+            ],
+            "rating": 85.62478360477289
+        },
+        {
+            "id": 7168,
+            "category": 0,
+            "first_release_date": 1377820800,
+            "involved_companies": [
+                16962,
+                133481,
+                135275
+            ],
+            "name": "The Dark Eye: Memoria",
+            "platforms": [
+                6,
+                14,
+                48,
+                49,
+                130,
+                169
+            ],
+            "rating": 80.64607803306271
+        },
+        {
+            "id": 133306,
+            "category": 0,
+            "first_release_date": 1607385600,
+            "involved_companies": [
+                98712,
+                98713
+            ],
+            "name": "Call of the Sea",
+            "platforms": [
+                6,
+                48,
+                49,
+                167,
+                169
+            ],
+            "rating": 71.6468623594305
+        },
+        {
+            "id": 113739,
+            "category": 0,
+            "first_release_date": 1640908800,
+            "involved_companies": [
+                104667,
+                115711
+            ],
+            "name": "Bright Memory: Infinite",
+            "platforms": [
+                6,
+                49,
+                169
+            ],
+            "rating": 80.0
+        },
+        {
+            "id": 122729,
+            "category": 0,
+            "first_release_date": 1583452800,
+            "involved_companies": [
+                128192,
+                128193
+            ],
+            "name": "Yes, Your Grace",
+            "platforms": [
+                6,
+                49,
+                130,
+                169
+            ],
+            "rating": 79.8995863867001
+        },
+        {
+            "id": 134595,
+            "category": 0,
+            "first_release_date": 1611100800,
+            "involved_companies": [
+                104994
+            ],
+            "name": "HITMAN 3",
+            "platforms": [
+                6,
+                48,
+                49,
+                167,
+                169,
+                170
+            ],
+            "rating": 87.9956598583978
+        },
+        {
+            "id": 2165,
+            "category": 0,
+            "first_release_date": 1359331200,
+            "involved_companies": [
+                7490
+            ],
+            "name": "War Thunder",
+            "platforms": [
+                3,
+                6,
+                14,
+                48,
+                49,
+                167,
+                169
+            ],
+            "rating": 75.8653122601403
+        },
+        {
+            "id": 103168,
+            "category": 0,
+            "first_release_date": 1559606400,
+            "involved_companies": [
+                65321,
+                105003,
+                105004
+            ],
+            "name": "Warhammer: Chaosbane",
+            "platforms": [
+                6,
+                48,
+                49,
+                167,
+                169
+            ],
+            "rating": 73.31977713228879
+        },
+        {
+            "id": 109277,
+            "category": 0,
+            "first_release_date": 1561420800,
+            "involved_companies": [
+                121672,
+                121673,
+                121674,
+                133131
+            ],
+            "name": "SAMURAI SHODOWN",
+            "platforms": [
+                6,
+                48,
+                49,
+                52,
+                130,
+                169,
+                170
+            ],
+            "rating": 75.4318710350815
+        },
+        {
+            "id": 11198,
+            "category": 0,
+            "first_release_date": 1436227200,
+            "involved_companies": [
+                57631,
+                96664
+            ],
+            "name": "Rocket League",
+            "platforms": [
+                3,
+                6,
+                14,
+                48,
+                49,
+                130,
+                167,
+                169
+            ],
+            "rating": 83.85185669883211
+        },
+        {
+            "id": 135254,
+            "category": 0,
+            "first_release_date": 1601596800,
+            "involved_companies": [
+                102546,
+                130634,
+                130636
+            ],
+            "name": "Crash Bandicoot 4: It\u0027s About Time",
+            "platforms": [
+                6,
+                48,
+                49,
+                130,
+                167,
+                169
+            ],
+            "rating": 82.5190835414736
+        },
+        {
+            "id": 13621,
+            "category": 0,
+            "first_release_date": 1571356800,
+            "involved_companies": [
+                129966
+            ],
+            "name": "Manifold Garden",
+            "platforms": [
+                6,
+                14,
+                39,
+                48,
+                49,
+                130,
+                167,
+                169
+            ],
+            "rating": 82.97410896333339
+        },
+        {
+            "id": 25837,
+            "category": 0,
+            "first_release_date": 1580256000,
+            "involved_companies": [
+                44813
+            ],
+            "name": "The Pedestrian",
+            "platforms": [
+                6,
+                14,
+                48,
+                130,
+                167,
+                169
+            ],
+            "rating": 79.4005063480631
+        },
+        {
+            "id": 138765,
+            "category": 11,
+            "first_release_date": 1610582400,
+            "involved_companies": [
+                120110,
+                120111,
+                120112,
+                120113,
+                128756,
+                138149
+            ],
+            "name": "Scott Pilgrim vs. the World: The Game - Complete Edition",
+            "platforms": [
+                6,
+                48,
+                49,
+                130,
+                132,
+                167,
+                169,
+                170
+            ],
+            "rating": 70.1561168592082
+        },
+        {
+            "id": 36550,
+            "category": 0,
+            "first_release_date": 1579132800,
+            "involved_companies": [
+                105230,
+                124301
+            ],
+            "name": "Yakuza: Like a Dragon",
+            "platforms": [
+                6,
+                48,
+                49,
+                167,
+                169
+            ],
+            "rating": 95.86984740452151
+        },
+        {
+            "id": 7146,
+            "category": 0,
+            "first_release_date": 1340323200,
+            "involved_companies": [
+                21936,
+                21938,
+                133469,
+                135270
+            ],
+            "name": "The Dark Eye: Chains of Satinav",
+            "platforms": [
+                6,
+                14,
+                48,
+                49,
+                130,
+                169
+            ],
+            "rating": 76.7159007281304
+        },
+        {
+            "id": 109274,
+            "category": 0,
+            "first_release_date": 1544659200,
+            "involved_companies": [
+                75348,
+                124295
+            ],
+            "name": "Judgment",
+            "platforms": [
+                48,
+                167,
+                169,
+                170
+            ],
+            "rating": 80.4713037428602
+        },
+        {
+            "id": 132050,
+            "category": 0,
+            "first_release_date": 1597708800,
+            "involved_companies": [
+                123953,
+                123954
+            ],
+            "name": "Mortal Shell",
+            "platforms": [
+                6,
+                48,
+                49,
+                169
+            ],
+            "rating": 78.9431393797244
+        },
+        {
+            "id": 112916,
+            "category": 0,
+            "first_release_date": 1555891200,
+            "involved_companies": [
+                83257,
+                98481,
+                98482,
+                131351
+            ],
+            "name": "Mortal Kombat 11",
+            "platforms": [
+                6,
+                48,
+                49,
+                130,
+                167,
+                169,
+                170
+            ],
+            "rating": 84.0194836514346
+        },
+        {
+            "id": 83,
+            "category": 0,
+            "first_release_date": 1007251200,
+            "involved_companies": [
+                22525,
+                22527,
+                22530,
+                22531,
+                43346,
+                43347,
+                95635
+            ],
+            "name": "Baldur\u0027s Gate: Dark Alliance",
+            "platforms": [
+                8,
+                11,
+                21,
+                24,
+                48,
+                49,
+                130,
+                169
+            ],
+            "rating": 82.0354701692696
+        },
+        {
+            "id": 100357,
+            "category": 0,
+            "first_release_date": 1579564800,
+            "involved_companies": [
+                87255,
+                87256
+            ],
+            "name": "Temtem",
+            "platforms": [
+                6,
+                48,
+                49,
+                130,
+                167,
+                169
+            ],
+            "rating": 78.70843307550041
+        },
+        {
+            "id": 118607,
+            "category": 0,
+            "first_release_date": 1600819200,
+            "involved_companies": [
+                125860
+            ],
+            "name": "art of rally",
+            "platforms": [
+                3,
+                6,
+                14,
+                48,
+                49,
+                130,
+                167,
+                169
+            ],
+            "rating": 79.4482027236602
+        },
+        {
+            "id": 125009,
+            "category": 9,
+            "first_release_date": 1415664000,
+            "involved_companies": [
+                123476,
+                123477,
+                123478,
+                123479
+            ],
+            "name": "Halo 2: Anniversary",
+            "platforms": [
+                6,
+                49,
+                169
+            ],
+            "rating": 86.7850812387654
+        },
+        {
+            "id": 33333,
+            "category": 0,
+            "first_release_date": 1463616000,
+            "involved_companies": [
+                136419,
+                136420,
+                136422
+            ],
+            "name": "A Little Lily Princess",
+            "platforms": [
+                3,
+                6,
+                14,
+                48,
+                49,
+                130,
+                167,
+                169
+            ],
+            "rating": 80.0
+        },
+        {
+            "id": 129483,
+            "category": 0,
+            "first_release_date": 1590019200,
+            "involved_companies": [
+                98554,
+                98555
+            ],
+            "name": "Monster Train",
+            "platforms": [
+                6,
+                49,
+                169
+            ],
+            "rating": 79.4274929448209
+        },
+        {
+            "id": 103292,
+            "category": 0,
+            "first_release_date": 1568073600,
+            "involved_companies": [
+                104747,
+                104748
+            ],
+            "name": "Gears 5",
+            "platforms": [
+                6,
+                49,
+                169
+            ],
+            "rating": 80.91265221728969
+        },
+        {
+            "id": 74701,
+            "category": 0,
+            "first_release_date": 1573776000,
+            "involved_companies": [
+                82783,
+                82784
+            ],
+            "name": "Star Wars Jedi: Fallen Order",
+            "platforms": [
+                6,
+                48,
+                49,
+                167,
+                169,
+                170
+            ],
+            "rating": 81.1448650466335
+        },
+        {
+            "id": 143615,
+            "category": 0,
+            "first_release_date": 1621555200,
+            "involved_companies": [
+                121072,
+                125835
+            ],
+            "name": "Knockout City",
+            "platforms": [
+                6,
+                48,
+                49,
+                130,
+                167,
+                169
+            ],
+            "rating": 80.0085753201329
+        },
+        {
+            "id": 135919,
+            "category": 0,
+            "first_release_date": 1607644800,
+            "involved_companies": [
+                115996,
+                125813
+            ],
+            "name": "Alba: A Wildlife Adventure",
+            "platforms": [
+                6,
+                39,
+                48,
+                49,
+                130,
+                167,
+                169
+            ],
+            "rating": 90.6528637347064
+        },
+        {
+            "id": 119402,
+            "category": 3,
+            "first_release_date": 1472428800,
+            "involved_companies": [
+                79982,
+                107459
+            ],
+            "name": "The Witcher 3: Wild Hunt - Complete Edition",
+            "platforms": [
+                6,
+                48,
+                130,
+                167,
+                169
+            ],
+            "rating": 97.69162746821021
+        },
+        {
+            "id": 119295,
+            "category": 0,
+            "first_release_date": 1597708800,
+            "involved_companies": [
+                106933,
+                136447
+            ],
+            "name": "Microsoft Flight Simulator",
+            "platforms": [
+                6,
+                49,
+                169
+            ],
+            "rating": 80.0122764214298
+        },
+        {
+            "id": 135243,
+            "category": 0,
+            "first_release_date": 1616630400,
+            "involved_companies": [
+                113024,
+                113025
+            ],
+            "name": "It Takes Two",
+            "platforms": [
+                6,
+                48,
+                49,
+                167,
+                169
+            ],
+            "rating": 91.6457409721947
+        },
+        {
+            "id": 121752,
+            "category": 0,
+            "first_release_date": 1603756800,
+            "involved_companies": [
+                94848,
+                94849,
+                94850,
+                94851,
+                130497
+            ],
+            "name": "Ghostrunner",
+            "platforms": [
+                6,
+                48,
+                49,
+                130,
+                167,
+                169
+            ],
+            "rating": 79.3925039284528
+        },
+        {
+            "id": 136604,
+            "category": 3,
+            "first_release_date": 1598486400,
+            "involved_companies": [
+                105605,
+                105606
+            ],
+            "name": "Control: Ultimate Edition",
+            "platforms": [
+                6,
+                48,
+                49,
+                130,
+                167,
+                169
+            ],
+            "rating": 87.1964491631242
+        },
+        {
+            "id": 107315,
+            "category": 4,
+            "first_release_date": 1548806400,
+            "involved_companies": [
+                130343
+            ],
+            "name": "Subnautica: Below Zero",
+            "platforms": [
+                6,
+                14,
+                48,
+                49,
+                130,
+                167,
+                169
+            ],
+            "rating": 80.0922423355317
+        },
+        {
+            "id": 17479,
+            "category": 0,
+            "first_release_date": 1518048000,
+            "involved_companies": [
+                79000
+            ],
+            "name": "The Wild Eight",
+            "platforms": [
+                6,
+                48,
+                49,
+                169
+            ],
+            "rating": 74.0254768038192
+        },
+        {
+            "id": 119313,
+            "category": 0,
+            "first_release_date": 1596412800,
+            "involved_companies": [
+                105405,
+                125861,
+                125862
+            ],
+            "name": "Fall Guys: Ultimate Knockout",
+            "platforms": [
+                6,
+                48,
+                49,
+                130,
+                169
+            ],
+            "rating": 76.3817956181911
+        },
+        {
+            "id": 25657,
+            "category": 0,
+            "first_release_date": 1504656000,
+            "involved_companies": [
+                45633,
+                47221,
+                47222,
+                51598
+            ],
+            "name": "Destiny 2",
+            "platforms": [
+                6,
+                48,
+                49,
+                167,
+                169,
+                170
+            ],
+            "rating": 74.1211948454944
+        },
+        {
+            "id": 1081,
+            "category": 0,
+            "first_release_date": 1396569600,
+            "involved_companies": [
+                18677,
+                95290
+            ],
+            "name": "The Elder Scrolls Online",
+            "platforms": [
+                6,
+                14,
+                48,
+                49,
+                167,
+                169,
+                170
+            ],
+            "rating": 70.6595424463214
+        },
+        {
+            "id": 37001,
+            "category": 0,
+            "first_release_date": 1583798400,
+            "involved_companies": [
+                104503,
+                128505,
+                128506
+            ],
+            "name": "Ori and the Will of the Wisps",
+            "platforms": [
+                6,
+                49,
+                130,
+                169
+            ],
+            "rating": 87.8728726089905
+        },
+        {
+            "id": 111469,
+            "category": 0,
+            "first_release_date": 1529020800,
+            "involved_companies": [
+                133173,
+                139662
+            ],
+            "name": "Among Us",
+            "platforms": [
+                6,
+                34,
+                39,
+                48,
+                49,
+                130,
+                167,
+                169
+            ],
+            "rating": 71.9521176290713
+        },
+        {
+            "id": 103298,
+            "category": 0,
+            "first_release_date": 1584662400,
+            "involved_companies": [
+                68602,
+                95346,
+                132790
+            ],
+            "name": "DOOM Eternal",
+            "platforms": [
+                6,
+                48,
+                49,
+                130,
+                167,
+                169,
+                170
+            ],
+            "rating": 83.43374982955821
+        },
+        {
+            "id": 55163,
+            "category": 0,
+            "first_release_date": 1620345600,
+            "involved_companies": [
+                124464
+            ],
+            "name": "Resident Evil Village",
+            "platforms": [
+                6,
+                48,
+                49,
+                167,
+                169,
+                170
+            ],
+            "rating": 86.9767970582128
+        },
+        {
+            "id": 113112,
+            "category": 0,
+            "first_release_date": 1600300800,
+            "involved_companies": [
+                108827
+            ],
+            "name": "Hades",
+            "platforms": [
+                6,
+                14,
+                48,
+                49,
+                130,
+                167,
+                169
+            ],
+            "rating": 92.981129577962
+        },
+        {
+            "id": 102058,
+            "category": 0,
+            "first_release_date": 1617235200,
+            "involved_companies": [
+                104563,
+                104564
+            ],
+            "name": "Outriders",
+            "platforms": [
+                6,
+                48,
+                49,
+                167,
+                169,
+                170
+            ],
+            "rating": 75.1244252843681
+        },
+        {
+            "id": 27316,
+            "category": 0,
+            "first_release_date": 1557792000,
+            "involved_companies": [
+                69102,
+                69103
+            ],
+            "name": "A Plague Tale: Innocence",
+            "platforms": [
+                6,
+                48,
+                49,
+                167,
+                169
+            ],
+            "rating": 82.68055263365041
+        },
+        {
+            "id": 119239,
+            "category": 8,
+            "first_release_date": 1592870400,
+            "involved_companies": [
+                79637,
+                134051,
+                139845
+            ],
+            "name": "SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated",
+            "platforms": [
+                6,
+                34,
+                39,
+                48,
+                49,
+                130,
+                167,
+                169,
+                170
+            ],
+            "rating": 81.67522063608249
+        },
+        {
+            "id": 113114,
+            "category": 0,
+            "first_release_date": 1571961600,
+            "involved_companies": [
+                104893,
+                130518,
+                130519
+            ],
+            "name": "The Outer Worlds",
+            "platforms": [
+                6,
+                48,
+                49,
+                130,
+                169
+            ],
+            "rating": 82.47333911575281
+        },
+        {
+            "id": 7360,
+            "category": 0,
+            "first_release_date": 1448928000,
+            "involved_companies": [
+                17420,
+                18038
+            ],
+            "name": "Tom Clancy\u0027s Rainbow Six Siege",
+            "platforms": [
+                6,
+                48,
+                49,
+                167,
+                169
+            ],
+            "rating": 80.7910912723713
+        }
+    ]
+}

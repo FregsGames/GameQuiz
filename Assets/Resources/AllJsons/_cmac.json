@@ -1,0 +1,1710 @@
+{
+    "Games": [
+        {
+            "id": 274,
+            "category": 0,
+            "first_release_date": 987811200,
+            "involved_companies": [
+                484,
+                485,
+                486,
+                8693
+            ],
+            "name": "Tropico",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 82.5391871929836
+        },
+        {
+            "id": 29927,
+            "category": 0,
+            "first_release_date": 1382400000,
+            "involved_companies": [
+                120345
+            ],
+            "name": "Nancy Drew: The Silent Spy",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 90.0
+        },
+        {
+            "id": 15444,
+            "category": 0,
+            "first_release_date": 1453248000,
+            "involved_companies": [
+                29409,
+                29410
+            ],
+            "name": "Homeworld: Deserts of Kharak",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 80.83868216783429
+        },
+        {
+            "id": 9583,
+            "category": 0,
+            "first_release_date": 1397606400,
+            "involved_companies": [
+                24831,
+                24832
+            ],
+            "name": "0rbitalis",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 80.0122949006967
+        },
+        {
+            "id": 8456,
+            "category": 0,
+            "first_release_date": 1413331200,
+            "involved_companies": [
+                20800
+            ],
+            "name": "Legend of Grimrock 2",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 84.88776884689759
+        },
+        {
+            "id": 11593,
+            "category": 2,
+            "first_release_date": 1472515200,
+            "involved_companies": [
+                106261,
+                106262
+            ],
+            "name": "World of Warcraft: Legion",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 84.9473888591266
+        },
+        {
+            "id": 683,
+            "category": 0,
+            "first_release_date": 1169510400,
+            "involved_companies": [
+                1585
+            ],
+            "name": "Europa Universalis III",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 83.97444000270751
+        },
+        {
+            "id": 458,
+            "category": 4,
+            "first_release_date": 1447113600,
+            "involved_companies": [
+                8333
+            ],
+            "name": "StarCraft II: Legacy of the Void",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 87.70498111799529
+        },
+        {
+            "id": 228,
+            "category": 2,
+            "first_release_date": 1226534400,
+            "involved_companies": [
+                7675
+            ],
+            "name": "World of Warcraft: Wrath of the Lich King",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 89.9999403050941
+        },
+        {
+            "id": 5042,
+            "category": 0,
+            "first_release_date": 1258588800,
+            "involved_companies": [
+                19130,
+                19131,
+                19132,
+                19133,
+                19134
+            ],
+            "name": "King\u0027s Bounty: Armored Princess",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 82.46408876194239
+        },
+        {
+            "id": 16203,
+            "category": 10,
+            "first_release_date": 935452800,
+            "involved_companies": [
+                114747,
+                114748,
+                114749
+            ],
+            "name": "Myst: Masterpiece Edition",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 82.80898876404491
+        },
+        {
+            "id": 13212,
+            "category": 0,
+            "first_release_date": 1443657600,
+            "involved_companies": [
+                29474
+            ],
+            "name": "The Beginner\u0027s Guide",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 82.0132527385173
+        },
+        {
+            "id": 28222,
+            "category": 0,
+            "first_release_date": 1350950400,
+            "involved_companies": [
+                97576
+            ],
+            "name": "Nancy Drew: The Deadly Device",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 90.0
+        },
+        {
+            "id": 293,
+            "category": 0,
+            "first_release_date": 1130198400,
+            "involved_companies": [
+                3526,
+                3527,
+                8184,
+                21720
+            ],
+            "name": "Sid Meier\u0027s Civilization IV",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 86.37473513793839
+        },
+        {
+            "id": 16309,
+            "category": 0,
+            "first_release_date": 1467849600,
+            "involved_companies": [
+                37801
+            ],
+            "name": "A Life in Silk - The First Cumming",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 82.66666666666669
+        },
+        {
+            "id": 20275,
+            "category": 10,
+            "first_release_date": 1221523200,
+            "involved_companies": [
+                38435,
+                38436,
+                38437
+            ],
+            "name": "The Witcher: Enhanced Edition",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 80.8628896236539
+        },
+        {
+            "id": 8362,
+            "category": 0,
+            "first_release_date": 1008892800,
+            "involved_companies": [
+                20659
+            ],
+            "name": "Geneforge",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 86.14316104008991
+        },
+        {
+            "id": 32958,
+            "category": 0,
+            "first_release_date": 1465948800,
+            "involved_companies": [
+                67241
+            ],
+            "name": "Clover Tale",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 90.0
+        },
+        {
+            "id": 31292,
+            "category": 0,
+            "first_release_date": 1481155200,
+            "involved_companies": [
+                67153
+            ],
+            "name": "Darkness and Flame: Born of Fire",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 90.0
+        },
+        {
+            "id": 2352,
+            "category": 0,
+            "first_release_date": 1294876800,
+            "involved_companies": [
+                5410,
+                44899
+            ],
+            "name": "Bloodline Champions",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 84.9780752814192
+        },
+        {
+            "id": 30994,
+            "category": 0,
+            "first_release_date": 1476835200,
+            "name": "Arizona Rose and the Pirates\u0027 Riddles",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 90.0
+        },
+        {
+            "id": 289,
+            "category": 0,
+            "first_release_date": 876873600,
+            "involved_companies": [
+                253,
+                52124,
+                52125
+            ],
+            "name": "Age of Empires",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 84.762621945869
+        },
+        {
+            "id": 125175,
+            "category": 2,
+            "first_release_date": 1606089600,
+            "involved_companies": [
+                106252
+            ],
+            "name": "World of Warcraft: Shadowlands",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 89.8680379158664
+        },
+        {
+            "id": 5082,
+            "category": 0,
+            "first_release_date": 1404086400,
+            "involved_companies": [
+                102691
+            ],
+            "name": "Divinity: Original Sin",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 86.2151903543713
+        },
+        {
+            "id": 8511,
+            "category": 0,
+            "first_release_date": 1398297600,
+            "involved_companies": [
+                21066
+            ],
+            "name": "The Blackwell Epiphany",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 84.7597587527579
+        },
+        {
+            "id": 2132,
+            "category": 0,
+            "first_release_date": 1317168000,
+            "involved_companies": [
+                23181
+            ],
+            "name": "The Binding of Isaac",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 83.7195576644787
+        },
+        {
+            "id": 120710,
+            "category": 0,
+            "first_release_date": 1596758400,
+            "involved_companies": [
+                105468,
+                105469
+            ],
+            "name": "The Henry Stickmin Collection",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 84.0
+        },
+        {
+            "id": 51799,
+            "category": 3,
+            "first_release_date": 1285286400,
+            "involved_companies": [
+                82028,
+                82029,
+                82030,
+                82031
+            ],
+            "name": "Tropico 3: Gold Edition",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 90.0
+        },
+        {
+            "id": 3023,
+            "category": 2,
+            "first_release_date": 1149552000,
+            "involved_companies": [
+                7597,
+                7599,
+                7600,
+                42373
+            ],
+            "name": "The Movies: Stunts and Effects",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 86.9435053826324
+        },
+        {
+            "id": 624,
+            "category": 2,
+            "first_release_date": 1095120000,
+            "involved_companies": [
+                1479,
+                2075,
+                38452
+            ],
+            "name": "Call of Duty: United Offensive",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 80.7636625101623
+        },
+        {
+            "id": 633,
+            "category": 2,
+            "first_release_date": 1184716800,
+            "involved_companies": [
+                4398,
+                4399
+            ],
+            "name": "Sid Meier\u0027s Civilization IV: Beyond the Sword",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 85.91889758476799
+        },
+        {
+            "id": 750,
+            "category": 0,
+            "first_release_date": 1063670400,
+            "involved_companies": [
+                1698,
+                18584
+            ],
+            "name": "Homeworld 2",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 88.2709222998969
+        },
+        {
+            "id": 18337,
+            "category": 0,
+            "first_release_date": 1093996800,
+            "involved_companies": [
+                33783
+            ],
+            "name": "Dofus",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 93.737034365519
+        },
+        {
+            "id": 5641,
+            "category": 0,
+            "first_release_date": 1390435200,
+            "involved_companies": [
+                19256,
+                19257
+            ],
+            "name": "Might \u0026 Magic X: Legacy",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 85.28538871795719
+        },
+        {
+            "id": 76110,
+            "category": 0,
+            "first_release_date": 1512259200,
+            "name": "Cookies vs. Claus",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 85.7142857142857
+        },
+        {
+            "id": 14542,
+            "category": 1,
+            "first_release_date": 1338163200,
+            "involved_companies": [
+                28038
+            ],
+            "name": "The Binding of Isaac: Wrath of the Lamb",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 84.7985214424865
+        },
+        {
+            "id": 8220,
+            "category": 2,
+            "first_release_date": 1193097600,
+            "involved_companies": [
+                19887,
+                19888,
+                19889,
+                42313,
+                123852
+            ],
+            "name": "Age of Empires III: The Asian Dynasties",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 81.5601468508975
+        },
+        {
+            "id": 34973,
+            "category": 0,
+            "first_release_date": 1436400000,
+            "name": "Epic Cards Battle",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 90.0
+        },
+        {
+            "id": 7900,
+            "category": 2,
+            "first_release_date": 1070323200,
+            "involved_companies": [
+                18497,
+                18498,
+                18499,
+                18500,
+                18501
+            ],
+            "name": "Neverwinter Nights: Hordes of the Underdark",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 89.78633798050589
+        },
+        {
+            "id": 29371,
+            "category": 0,
+            "first_release_date": 1489536000,
+            "name": "Mystery Riddles",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 90.0
+        },
+        {
+            "id": 3017,
+            "category": 2,
+            "first_release_date": 1161043200,
+            "involved_companies": [
+                7576,
+                7577,
+                42312,
+                123851
+            ],
+            "name": "Age of Empires III: The WarChiefs",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 81.36475708609589
+        },
+        {
+            "id": 14,
+            "category": 0,
+            "first_release_date": 907113600,
+            "involved_companies": [
+                4152,
+                4153
+            ],
+            "name": "Fallout 2",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 90.56297156852979
+        },
+        {
+            "id": 214,
+            "category": 0,
+            "first_release_date": 1162252800,
+            "involved_companies": [
+                18503,
+                18504,
+                18505
+            ],
+            "name": "Neverwinter Nights 2",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 82.8527660484929
+        },
+        {
+            "id": 3745,
+            "category": 0,
+            "first_release_date": 889142400,
+            "involved_companies": [
+                9671,
+                9672,
+                9673
+            ],
+            "name": "Freddi Fish 3: The Case of the Stolen Conch Shell",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 80.2825103741111
+        },
+        {
+            "id": 9070,
+            "category": 0,
+            "first_release_date": 1362441600,
+            "involved_companies": [
+                22209,
+                22210,
+                22211
+            ],
+            "name": "The Showdown Effect",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 84.85657622498559
+        },
+        {
+            "id": 8363,
+            "category": 0,
+            "first_release_date": 1059091200,
+            "involved_companies": [
+                20660
+            ],
+            "name": "Geneforge 2",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 81.71173513095161
+        },
+        {
+            "id": 18453,
+            "category": 0,
+            "first_release_date": 1312156800,
+            "involved_companies": [
+                44740
+            ],
+            "name": "The Stanley Parable Mod",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 90.78770142312861
+        },
+        {
+            "id": 13137,
+            "category": 2,
+            "first_release_date": 1314662400,
+            "involved_companies": [
+                26768,
+                26769
+            ],
+            "name": "The Sims Medieval: Pirates and Nobles",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 88.3802285603355
+        },
+        {
+            "id": 27867,
+            "category": 0,
+            "first_release_date": 1533686400,
+            "involved_companies": [
+                65846,
+                65847
+            ],
+            "name": "Unavowed",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 87.8328823743049
+        },
+        {
+            "id": 16538,
+            "category": 0,
+            "first_release_date": 1386633600,
+            "involved_companies": [
+                126770,
+                126771
+            ],
+            "name": "Samurai Gunn",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 87.6844601705846
+        },
+        {
+            "id": 848,
+            "category": 0,
+            "first_release_date": 1053388800,
+            "involved_companies": [
+                1865,
+                1866
+            ],
+            "name": "Rise of Nations",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 81.4680155653995
+        },
+        {
+            "id": 918,
+            "category": 0,
+            "first_release_date": 875577600,
+            "involved_companies": [
+                1985,
+                1986
+            ],
+            "name": "Total Annihilation",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 82.31854196463911
+        },
+        {
+            "id": 650,
+            "category": 2,
+            "first_release_date": 1064188800,
+            "involved_companies": [
+                7440,
+                20416,
+                20418,
+                52162
+            ],
+            "name": "Command \u0026 Conquer: Generals - Zero Hour",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 81.5595033424529
+        },
+        {
+            "id": 24146,
+            "category": 0,
+            "first_release_date": 1142294400,
+            "involved_companies": [
+                116294,
+                116295
+            ],
+            "name": "Rome: Total War - Gold Edition",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 83.5053446369333
+        },
+        {
+            "id": 21972,
+            "category": 0,
+            "first_release_date": 1469664000,
+            "involved_companies": [
+                48603,
+                48648
+            ],
+            "name": "The Secret Monster Society: Chapter 1 - Monsters, Fires and Forbidden Forests",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 85.1175811870101
+        },
+        {
+            "id": 1955,
+            "category": 0,
+            "first_release_date": 878256000,
+            "involved_companies": [
+                4012
+            ],
+            "name": "Zork: Grand Inquisitor",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 86.27044550082401
+        },
+        {
+            "id": 5534,
+            "category": 2,
+            "first_release_date": 1126569600,
+            "involved_companies": [
+                13390,
+                13392,
+                91858
+            ],
+            "name": "The Sims 2: Nightlife",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 80.0862553207852
+        },
+        {
+            "id": 28763,
+            "category": 0,
+            "first_release_date": 1494460800,
+            "involved_companies": [
+                66991
+            ],
+            "name": "Mystic Journey: Tri Peaks Solitaire",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 90.0
+        },
+        {
+            "id": 28911,
+            "category": 0,
+            "first_release_date": 1492473600,
+            "name": "Magic Heroes: Save Our Park",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 90.0
+        },
+        {
+            "id": 8974,
+            "category": 0,
+            "first_release_date": 1351814400,
+            "involved_companies": [
+                22016,
+                22017
+            ],
+            "name": "Football Manager 2013",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 88.3572527623251
+        },
+        {
+            "id": 2922,
+            "category": 0,
+            "first_release_date": 1089849600,
+            "involved_companies": [
+                24246,
+                24247,
+                24248,
+                24249,
+                24250,
+                24251,
+                24252,
+                24253,
+                45068
+            ],
+            "name": "Crusader Kings",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 85.2320666449429
+        },
+        {
+            "id": 121338,
+            "category": 0,
+            "first_release_date": 1575849600,
+            "involved_companies": [
+                88181,
+                88183,
+                88184,
+                90000
+            ],
+            "name": "Frog Detective 2: The Case of the Invisible Wizard",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 91.3438320209974
+        },
+        {
+            "id": 18997,
+            "category": 0,
+            "first_release_date": 1462406400,
+            "involved_companies": [
+                35099,
+                35100
+            ],
+            "name": "Kathy Rain",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 80.717229300962
+        },
+        {
+            "id": 14544,
+            "category": 0,
+            "first_release_date": 1381363200,
+            "involved_companies": [
+                28039
+            ],
+            "name": "The Stanley Parable Demonstration",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 88.1010622844413
+        },
+        {
+            "id": 14554,
+            "category": 0,
+            "first_release_date": 1416787200,
+            "involved_companies": [
+                28102,
+                28103
+            ],
+            "name": "Craft The World",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 80.5297588433818
+        },
+        {
+            "id": 246,
+            "category": 2,
+            "first_release_date": 993600000,
+            "involved_companies": [
+                4891,
+                4892,
+                4893
+            ],
+            "name": "Diablo II: Lord of Destruction",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 88.6145395865271
+        },
+        {
+            "id": 636,
+            "category": 0,
+            "first_release_date": 982713600,
+            "involved_companies": [
+                2077,
+                2078,
+                20187,
+                21579
+            ],
+            "name": "Clive Barker\u0027s Undying",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 83.2147567488602
+        },
+        {
+            "id": 282,
+            "category": 0,
+            "first_release_date": 921542400,
+            "involved_companies": [
+                597,
+                598,
+                599
+            ],
+            "name": "EverQuest",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 82.4059270478707
+        },
+        {
+            "id": 140,
+            "category": 2,
+            "first_release_date": 1021334400,
+            "involved_companies": [
+                1165,
+                56449,
+                56450
+            ],
+            "name": "Star Wars: Galactic Battlegrounds - Clone Campaigns",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 80.5909563174775
+        },
+        {
+            "id": 27278,
+            "category": 0,
+            "first_release_date": 1555459200,
+            "involved_companies": [
+                44356,
+                59587,
+                84229
+            ],
+            "name": "Whispers of a Machine",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 82.1323608792631
+        },
+        {
+            "id": 649,
+            "category": 0,
+            "first_release_date": 1044835200,
+            "involved_companies": [
+                1524,
+                20413,
+                20414,
+                52161
+            ],
+            "name": "Command \u0026 Conquer: Generals",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 80.8317492338675
+        },
+        {
+            "id": 820,
+            "category": 0,
+            "first_release_date": 1033344000,
+            "involved_companies": [
+                21582,
+                21583,
+                21584,
+                21585,
+                21586
+            ],
+            "name": "No One Lives Forever 2: A Spy in H.A.R.M.\u0027s Way",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 86.25702471410109
+        },
+        {
+            "id": 7899,
+            "category": 2,
+            "first_release_date": 1056153600,
+            "involved_companies": [
+                18491,
+                18492,
+                18493,
+                18494,
+                18495,
+                18496
+            ],
+            "name": "Neverwinter Nights: Shadows of Undrentide",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 83.182736456616
+        },
+        {
+            "id": 27870,
+            "category": 0,
+            "first_release_date": 1455494400,
+            "involved_companies": [
+                89178,
+                123216,
+                123217
+            ],
+            "name": "We Know the Devil",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 80.0724414960155
+        },
+        {
+            "id": 227,
+            "category": 2,
+            "first_release_date": 1168819200,
+            "involved_companies": [
+                7671
+            ],
+            "name": "World of Warcraft: The Burning Crusade",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 91.0239887417165
+        },
+        {
+            "id": 239,
+            "category": 0,
+            "first_release_date": 1280188800,
+            "involved_companies": [
+                892
+            ],
+            "name": "StarCraft II: Wings of Liberty",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 87.0828027492263
+        },
+        {
+            "id": 6325,
+            "category": 0,
+            "first_release_date": 1298505600,
+            "involved_companies": [
+                15075
+            ],
+            "name": "Gemini Rue",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 87.1400333479474
+        },
+        {
+            "id": 18870,
+            "category": 0,
+            "first_release_date": 1046476800,
+            "involved_companies": [
+                34849,
+                34850
+            ],
+            "name": "Championship Manager 4",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 89.935113776475
+        },
+        {
+            "id": 853,
+            "category": 0,
+            "first_release_date": 973382400,
+            "involved_companies": [
+                1874,
+                1875,
+                2302
+            ],
+            "name": "Sacrifice",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 81.4184392538943
+        },
+        {
+            "id": 22,
+            "category": 0,
+            "first_release_date": 934329600,
+            "involved_companies": [
+                751,
+                752,
+                753
+            ],
+            "name": "System Shock 2",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 90.5109832303563
+        },
+        {
+            "id": 81,
+            "category": 2,
+            "first_release_date": 925430400,
+            "involved_companies": [
+                164,
+                165,
+                18472,
+                18473
+            ],
+            "name": "Baldur\u0027s Gate: Tales of the Sword Coast",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 80.17983045525989
+        },
+        {
+            "id": 8973,
+            "category": 0,
+            "first_release_date": 1319155200,
+            "involved_companies": [
+                22014,
+                22015
+            ],
+            "name": "Football Manager 2012",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 92.4234727024939
+        },
+        {
+            "id": 3189,
+            "category": 0,
+            "first_release_date": 1383868800,
+            "involved_companies": [
+                8224
+            ],
+            "name": "Project Zomboid",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 84.6433698763166
+        },
+        {
+            "id": 682,
+            "category": 0,
+            "first_release_date": 1005523200,
+            "involved_companies": [
+                1583,
+                1584,
+                2149,
+                2150
+            ],
+            "name": "Europa Universalis II",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 80.14005268970291
+        },
+        {
+            "id": 456,
+            "category": 2,
+            "first_release_date": 912384000,
+            "involved_companies": [
+                889,
+                890,
+                891
+            ],
+            "name": "StarCraft: Brood War",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 90.36016811273359
+        },
+        {
+            "id": 457,
+            "category": 4,
+            "first_release_date": 1363046400,
+            "involved_companies": [
+                2332
+            ],
+            "name": "StarCraft II: Heart of the Swarm",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 86.5329437938653
+        },
+        {
+            "id": 594,
+            "category": 0,
+            "first_release_date": 1003708800,
+            "involved_companies": [
+                1429,
+                1430,
+                2065
+            ],
+            "name": "Aliens versus Predator 2",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 83.248974551374
+        },
+        {
+            "id": 310,
+            "category": 0,
+            "first_release_date": 1004400000,
+            "involved_companies": [
+                3518,
+                3519,
+                3520,
+                3521,
+                42064
+            ],
+            "name": "Sid Meier\u0027s Civilization III",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 81.47981941454921
+        },
+        {
+            "id": 132,
+            "category": 0,
+            "first_release_date": 1025654400,
+            "involved_companies": [
+                8012,
+                19472,
+                19473
+            ],
+            "name": "Warcraft III: Reign of Chaos",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 88.3356979449093
+        },
+        {
+            "id": 3230,
+            "category": 0,
+            "first_release_date": 1364515200,
+            "involved_companies": [
+                38510
+            ],
+            "name": "The Night of the Rabbit",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 91.2210327525071
+        },
+        {
+            "id": 9059,
+            "category": 0,
+            "first_release_date": 1116288000,
+            "involved_companies": [
+                22155,
+                22156,
+                22157,
+                22158
+            ],
+            "name": "Imperial Glory",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 85.1986009323579
+        },
+        {
+            "id": 599,
+            "category": 2,
+            "first_release_date": 967075200,
+            "involved_companies": [
+                7570,
+                52259
+            ],
+            "name": "Age of Empires II: The Conquerors",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 82.2489885133447
+        },
+        {
+            "id": 324,
+            "category": 0,
+            "first_release_date": 1035936000,
+            "involved_companies": [
+                266,
+                267,
+                123910
+            ],
+            "name": "Age of Mythology",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 81.96827586645661
+        },
+        {
+            "id": 80,
+            "category": 0,
+            "first_release_date": 1193356800,
+            "involved_companies": [
+                498,
+                14532
+            ],
+            "name": "The Witcher",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 82.4816452825271
+        },
+        {
+            "id": 29920,
+            "category": 0,
+            "first_release_date": 1431993600,
+            "involved_companies": [
+                97575
+            ],
+            "name": "Nancy Drew: Sea of Darkness",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 90.0
+        },
+        {
+            "id": 741,
+            "category": 0,
+            "first_release_date": 1249603200,
+            "involved_companies": [
+                1684
+            ],
+            "name": "Hearts of Iron III",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 90.4775262736172
+        },
+        {
+            "id": 18829,
+            "category": 0,
+            "first_release_date": 1479340800,
+            "involved_companies": [
+                38592
+            ],
+            "name": "Planet Coaster",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 88.8375244611885
+        },
+        {
+            "id": 5408,
+            "category": 0,
+            "first_release_date": 1238630400,
+            "involved_companies": [
+                13113,
+                13114
+            ],
+            "name": "The Book of Unwritten Tales",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 81.0362953771574
+        },
+        {
+            "id": 1369,
+            "category": 0,
+            "first_release_date": 1372118400,
+            "involved_companies": [
+                7837,
+                7838
+            ],
+            "name": "Company of Heroes 2",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 80.0449041346174
+        },
+        {
+            "id": 14813,
+            "category": 0,
+            "first_release_date": 1220400000,
+            "involved_companies": [
+                98074
+            ],
+            "name": "Peggle Nights",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 84.9554149843454
+        },
+        {
+            "id": 11550,
+            "category": 0,
+            "first_release_date": 1495065600,
+            "involved_companies": [
+                47109,
+                47110
+            ],
+            "name": "Endless Space 2",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 85.011588615008
+        },
+        {
+            "id": 5039,
+            "category": 0,
+            "first_release_date": 1222128000,
+            "involved_companies": [
+                19124,
+                19125,
+                19126,
+                19127,
+                19128,
+                19129
+            ],
+            "name": "King\u0027s Bounty: The Legend",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 88.2496903886861
+        },
+        {
+            "id": 840,
+            "category": 0,
+            "first_release_date": 1067212800,
+            "involved_companies": [
+                1851,
+                1852
+            ],
+            "name": "Railroad Tycoon 3",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 81.4158169367188
+        },
+        {
+            "id": 7859,
+            "category": 8,
+            "first_release_date": 1413331200,
+            "involved_companies": [
+                18351,
+                18352
+            ],
+            "name": "Gabriel Knight: Sins of the Fathers - 20th Anniversary Edition",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 80.0607029604619
+        },
+        {
+            "id": 126,
+            "category": 0,
+            "first_release_date": 962236800,
+            "involved_companies": [
+                6010,
+                6011,
+                19453,
+                19454
+            ],
+            "name": "Diablo II",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 88.8416280675435
+        },
+        {
+            "id": 123,
+            "category": 0,
+            "first_release_date": 1101168000,
+            "involved_companies": [
+                7678
+            ],
+            "name": "World of Warcraft",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 84.89503333054859
+        },
+        {
+            "id": 273,
+            "category": 0,
+            "first_release_date": 895795200,
+            "involved_companies": [
+                479,
+                480,
+                87876
+            ],
+            "name": "Unreal",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 80.6863565066518
+        },
+        {
+            "id": 133,
+            "category": 2,
+            "first_release_date": 1057017600,
+            "involved_companies": [
+                8011,
+                19474,
+                19475
+            ],
+            "name": "Warcraft III: The Frozen Throne",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 87.8119061875198
+        },
+        {
+            "id": 139,
+            "category": 0,
+            "first_release_date": 979689600,
+            "involved_companies": [
+                116,
+                56447,
+                56448
+            ],
+            "name": "Star Wars: Galactic Battlegrounds",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 80.86133683006389
+        },
+        {
+            "id": 230,
+            "category": 0,
+            "first_release_date": 891302400,
+            "involved_companies": [
+                906
+            ],
+            "name": "StarCraft",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 89.38693554477959
+        },
+        {
+            "id": 965,
+            "category": 0,
+            "first_release_date": 1003449600,
+            "involved_companies": [
+                2119,
+                2120
+            ],
+            "name": "Stronghold",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 82.88673478178691
+        },
+        {
+            "id": 1275,
+            "category": 0,
+            "first_release_date": 1042329600,
+            "involved_companies": [
+                2927,
+                2928,
+                20472,
+                82866
+            ],
+            "name": "SimCity 4",
+            "platforms": [
+                6,
+                14
+            ],
+            "rating": 81.49411412664509
+        }
+    ]
+}

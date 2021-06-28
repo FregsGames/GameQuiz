@@ -1,0 +1,260 @@
+{
+    "Games": [
+        {
+            "id": 233,
+            "category": 0,
+            "first_release_date": 1100563200,
+            "involved_companies": [
+                18928,
+                18929,
+                88970
+            ],
+            "name": "Half-Life 2",
+            "platforms": [
+                3,
+                6,
+                9,
+                11,
+                12,
+                14,
+                34
+            ],
+            "rating": 90.98080398444861
+        },
+        {
+            "id": 5982,
+            "category": 0,
+            "first_release_date": 1056931200,
+            "involved_companies": [
+                14381,
+                95360
+            ],
+            "name": "Pirates of the Caribbean",
+            "platforms": [
+                6,
+                11
+            ],
+            "rating": 91.34904926881079
+        },
+        {
+            "id": 4041,
+            "category": 0,
+            "first_release_date": 1073952000,
+            "involved_companies": [
+                10468,
+                10469,
+                20135
+            ],
+            "name": "NFL Street",
+            "platforms": [
+                8,
+                11,
+                21
+            ],
+            "rating": 90.2990436970465
+        },
+        {
+            "id": 39521,
+            "category": 0,
+            "first_release_date": 854409600,
+            "involved_companies": [
+                57304
+            ],
+            "name": "Real Bout Fatal Fury Special",
+            "platforms": [
+                5,
+                52,
+                79,
+                80,
+                136
+            ],
+            "rating": 90.83651637819051
+        },
+        {
+            "id": 18735,
+            "category": 10,
+            "first_release_date": 1127174400,
+            "involved_companies": [
+                34610,
+                95621
+            ],
+            "name": "Ninja Gaiden Black",
+            "platforms": [
+                11
+            ],
+            "rating": 90.7118988579594
+        },
+        {
+            "id": 2547,
+            "category": 0,
+            "first_release_date": 717897600,
+            "involved_companies": [
+                5991,
+                5994
+            ],
+            "name": "Zool",
+            "platforms": [
+                13,
+                16,
+                19,
+                29,
+                35,
+                63,
+                64,
+                114,
+                116
+            ],
+            "rating": 90.830903511632
+        },
+        {
+            "id": 796,
+            "category": 0,
+            "first_release_date": 1109030400,
+            "involved_companies": [
+                1781,
+                2326
+            ],
+            "name": "MVP Baseball 2005",
+            "platforms": [
+                6,
+                8,
+                11,
+                21,
+                38
+            ],
+            "rating": 98.8921151395448
+        },
+        {
+            "id": 732,
+            "category": 0,
+            "first_release_date": 1098748800,
+            "involved_companies": [
+                55974,
+                55979,
+                55980
+            ],
+            "name": "Grand Theft Auto: San Andreas",
+            "platforms": [
+                6,
+                8,
+                9,
+                11,
+                12,
+                14,
+                34,
+                39,
+                48
+            ],
+            "rating": 90.1727954267517
+        },
+        {
+            "id": 4036,
+            "category": 0,
+            "first_release_date": 1051488000,
+            "involved_companies": [
+                10458,
+                10459
+            ],
+            "name": "NBA Street Vol. 2",
+            "platforms": [
+                8,
+                11,
+                21
+            ],
+            "rating": 90.2214504923648
+        },
+        {
+            "id": 7881,
+            "category": 0,
+            "first_release_date": 1090281600,
+            "involved_companies": [
+                18404,
+                18406,
+                21749
+            ],
+            "name": "ESPN NFL 2K5",
+            "platforms": [
+                8,
+                11
+            ],
+            "rating": 99.3777361047616
+        },
+        {
+            "id": 5951,
+            "category": 0,
+            "first_release_date": 1159142400,
+            "involved_companies": [
+                14306,
+                14307
+            ],
+            "name": "NBA Live 07",
+            "platforms": [
+                6,
+                8,
+                11,
+                12,
+                38,
+                55
+            ],
+            "rating": 99.74893680601261
+        },
+        {
+            "id": 9143,
+            "category": 10,
+            "first_release_date": 1048636800,
+            "involved_companies": [
+                24541,
+                24542,
+                24543,
+                24544,
+                24545,
+                24546
+            ],
+            "name": "Guilty Gear X2 #Reload",
+            "platforms": [
+                6,
+                8,
+                11,
+                38,
+                52
+            ],
+            "rating": 97.20601558443241
+        },
+        {
+            "id": 116,
+            "category": 0,
+            "first_release_date": 1058227200,
+            "involved_companies": [
+                18949,
+                18950,
+                18951,
+                42058
+            ],
+            "name": "Star Wars: Knights of the Old Republic",
+            "platforms": [
+                6,
+                11,
+                14,
+                34,
+                39
+            ],
+            "rating": 90.80291283122021
+        },
+        {
+            "id": 481,
+            "category": 0,
+            "first_release_date": 1001289600,
+            "involved_companies": [
+                99380,
+                99381
+            ],
+            "name": "Silent Hill 2",
+            "platforms": [
+                6,
+                8,
+                11
+            ],
+            "rating": 92.1859128201423
+        }
+    ]
+}
