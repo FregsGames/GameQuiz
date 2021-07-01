@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using Questions;
 
 public class QuestionTests : MonoBehaviour
 {
@@ -13,31 +14,32 @@ public class QuestionTests : MonoBehaviour
 
     public GamesDB gamesDB;
 
+    public int year = 2000;
+
+    private QuestionGenerator questionGenerator;
+
+    private void Start()
+    {
+        questionGenerator = new QuestionGenerator();
+    }
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.L))
         {
-            List<Game> lists = gamesDB.GetXGamesFromYearX(4, 2006);
+            Question question = questionGenerator.GameFromPlatform(3, 5);
 
-            List<string> answers = new List<string>();
-
-            foreach (var item in lists)
-            {
-                answers.Add(item.name);
-            }
-
-            SetQuestion("Games from 2006: ", answers.ToArray());
+            SetQuestion(question.Statement, question.WrongOptions.ToArray(), question.CorrectAnswer);
         }
     }
 
-    public void SetQuestion(string question, string[] answers)
+    public void SetQuestion(string question, string[] answers, string correct)
     {
         questionText.text = question;
         answer1ButtonText.text = answers[0];
         answer2ButtonText.text = answers[1];
         answer3ButtonText.text = answers[2];
-        answer4ButtonText.text = answers[3];
+        answer4ButtonText.text = correct;
     }
 
 }

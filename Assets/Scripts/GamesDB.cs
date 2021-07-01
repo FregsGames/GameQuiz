@@ -15,6 +15,29 @@ public class GamesDB : MonoBehaviour
         }
     }
 
+    public Game GetFromCompany(int company, bool searchOnThatCompany)
+    {
+        List<Game> games = allGames.Values.ToList().Where(x => searchOnThatCompany ? x.involved_companies.Contains(company) 
+        : !x.involved_companies.Contains(company)).ToList();
+
+        return games[Random.Range(0, games.Count)];
+    }
+
+    public Game GetFromPlatform(int platform, bool searchOnThatPlatform)
+    {
+        List<Game> games = allGames.Values.ToList().Where(x => searchOnThatPlatform ? x.platforms.Contains(platform)
+        : !x.platforms.Contains(platform)).ToList();
+
+        return games[Random.Range(0, games.Count)];
+    }
+
+    public Game GetRandomGameFromYear(int year, bool searchOnThatYear)
+    {
+        List<Game> games = allGames.Values.ToList().Where(x => searchOnThatYear? x.realDate.Year == year : x.realDate.Year != year).ToList();
+
+        return games[Random.Range(0, games.Count)];
+    }
+
     public List<Game> GetXGamesFromYearX(int count, int year)
     {
         List<Game> games = allGames.Values.ToList().Where(x => x.realDate.Year == year).ToList();
