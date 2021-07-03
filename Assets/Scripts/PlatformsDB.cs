@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlatformsDB : MonoBehaviour
+public class PlatformsDB : Singleton<PlatformsDB>
 {
     public Dictionary<int, Platform> allPlatforms = new Dictionary<int, Platform>();
 

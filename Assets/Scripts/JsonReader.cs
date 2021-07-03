@@ -8,12 +8,10 @@ public class JsonReader : MonoBehaviour
     public GamesDB gamesDB;
     public PlatformsDB platformsDB;
 
-    private void Start()
+    private void Awake()
     {
         ReadPlatforms();
         ReadAllGames();
-        ShowPlatforms();
-
     }
 
     public void ReadAllGames()

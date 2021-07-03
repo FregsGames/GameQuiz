@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class GamesDB : MonoBehaviour
+public class GamesDB : Singleton<GamesDB>
 {
     public Dictionary<int, Game> allGames = new Dictionary<int, Game>();
 

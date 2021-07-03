@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
 using UnityEngine;
 
 namespace Questions
@@ -13,11 +9,38 @@ namespace Questions
         [SerializeField]
         Vector2Int yearRange = new Vector2Int(1986, 2020);
 
+        private GamesDB gamesDB;
+        private PlatformsDB platformsDB;
+
+        public Question GetRandomGenericQuestion(int options)
+        {
+            if(gamesDB == null)
+            {
+                gamesDB = GamesDB.instance;
+            }
+
+            if(platformsDB == null)
+            {
+                platformsDB = PlatformsDB.instance;
+            }
+
+
+            var random = Random.Range(0, 2);
+
+            switch (random)
+            {
+                case 0:
+                    return GameFromYear(options);
+                case 1:
+                    return GameFromPlatform(options);
+                default:
+                    return GameFromCompany(options);
+            }
+        }
+
         public Question GameFromYear(int options)
         {
-            GamesDB gamesDB = GameObject.FindObjectOfType<GamesDB>();
-
-            int year = UnityEngine.Random.Range(yearRange.x, yearRange.y);
+            int year = Random.Range(yearRange.x, yearRange.y);
 
             Game correctAnswer = gamesDB.GetRandomGameFromYear(year, searchOnThatYear: true);
 
@@ -33,11 +56,9 @@ namespace Questions
 
         public Question GameFromCompany(int options)
         {
-            GamesDB gamesDB = GameObject.FindObjectOfType<GamesDB>();
-
             List<Game> allGames = gamesDB.allGames.Values.ToList();
 
-            Game correctAnswer = allGames[UnityEngine.Random.Range(0, allGames.Count)];
+            Game correctAnswer = allGames[Random.Range(0, allGames.Count)];
 
             int company = correctAnswer.involved_companies[0];
 
@@ -53,16 +74,15 @@ namespace Questions
 
         public Question GameFromPlatform(int options, int minimumGames = 1)
         {
-            GamesDB gamesDB = GameObject.FindObjectOfType<GamesDB>();
-            PlatformsDB platformsDB = GameObject.FindObjectOfType<PlatformsDB>();
-
             Dictionary<int, Platform> validPlaforms = platformsDB.allPlatforms.Where(p => p.Value.games.Count >= minimumGames).ToDictionary(t => t.Key, t => t.Value);
 
             List<Platform> validPlatformsList = validPlaforms.Values.ToList();
 
-            Platform platform = validPlatformsList[UnityEngine.Random.Range(0, validPlatformsList.Count)];
+            Platform platform = validPlatformsList[Random.Range(0, validPlatformsList.Count)];
 
-            Game correctAnswer = gamesDB.allGames.Values.First(g => g.platforms.Contains(platform.id));
+            Game[] potentialAnswers = gamesDB.allGames.Values.Where(g => g.platforms.Contains(platform.id)).ToArray();
+
+            Game correctAnswer = potentialAnswers[Random.Range(0, potentialAnswers.Length)];
 
             List<string> otherOptions = new List<string>();
 

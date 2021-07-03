@@ -27,7 +27,7 @@ public class QuestionTests : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.L))
         {
-            Question question = questionGenerator.GameFromPlatform(3, 5);
+            Question question = questionGenerator.GameFromPlatform(3);
 
             SetQuestion(question.Statement, question.WrongOptions.ToArray(), question.CorrectAnswer);
         }
