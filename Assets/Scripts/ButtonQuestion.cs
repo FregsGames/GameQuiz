@@ -5,10 +5,13 @@ using UnityEngine;
 using TMPro;
 using System;
 using SuperMaxim.Messaging;
+using UnityEngine.UI;
 
 public class ButtonQuestion : MonoBehaviour
 {
-    public string AssignedQuestion { get; private set; }
+    public string AssignedAnswer { get; private set; }
+    [SerializeField]
+    Button button;
 
     [SerializeField]
     TextMeshProUGUI buttonText;
@@ -17,11 +20,16 @@ public class ButtonQuestion : MonoBehaviour
     public void SetQuestion(string answer)
     {
         buttonText.text = answer;
-        AssignedQuestion = answer;
+        AssignedAnswer = answer;
     }
 
     public void OnClick()
     {
-        Messenger.Default.Publish(AssignedQuestion);
+        Messenger.Default.Publish(this);
+    }
+
+    public void SetInteractable(bool state)
+    {
+        button.interactable = state;
     }
 }

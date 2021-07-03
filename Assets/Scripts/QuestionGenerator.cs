@@ -38,7 +38,7 @@ namespace Questions
             }
         }
 
-        public Question GameFromYear(int options)
+        public Question GameFromYear(int options, int difficulty = 0)
         {
             int year = Random.Range(yearRange.x, yearRange.y);
 

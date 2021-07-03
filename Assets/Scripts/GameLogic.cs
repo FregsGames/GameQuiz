@@ -1,4 +1,5 @@
-﻿using Questions;
+﻿using Assets.Scripts.Payloads;
+using Questions;
 using SuperMaxim.Messaging;
 using System;
 using System.Collections;
@@ -26,19 +27,27 @@ public class GameLogic : MonoBehaviour
     }
     private void OnEnable()
     {
-        Messenger.Default.Subscribe<string>(OnAnswerReceived);
+        Application.targetFrameRate = 30;
+
+        Messenger.Default.Subscribe<AnswerFromUI>(OnAnswerReceived);
+        Messenger.Default.Subscribe<GameRestartPayload>(OnRestart);
     }
 
     private void OnDisable()
     {
-        Messenger.Default.Unsubscribe<string>(OnAnswerReceived);
+        Messenger.Default.Unsubscribe<AnswerFromUI>(OnAnswerReceived);
+        Messenger.Default.Unsubscribe<GameRestartPayload>(OnRestart);
+    }
+    private void OnRestart(GameRestartPayload obj)
+    {
+        StartGame(totalAwswers);
     }
 
-    private void OnAnswerReceived(string answer)
+    private void OnAnswerReceived(AnswerFromUI answer)
     {
         currentQuestionIndex++;
 
-        if(currentQuestion.CorrectAnswer == answer)
+        if(currentQuestion.CorrectAnswer == answer.Answer)
         {
             correctAwswers++;
         }
