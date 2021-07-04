@@ -6,11 +6,9 @@ namespace Questions
 {
     public class QuestionGenerator
     {
-        [SerializeField]
-        Vector2Int yearRange = new Vector2Int(1986, 2020);
-
         private GamesDB gamesDB;
         private PlatformsDB platformsDB;
+        private CompaniesDB companiesDB;
 
         public Question GetRandomGenericQuestion(int options)
         {
@@ -24,22 +22,28 @@ namespace Questions
                 platformsDB = PlatformsDB.instance;
             }
 
+            if (companiesDB == null)
+            {
+                companiesDB = CompaniesDB.instance;
+            }
 
-            var random = Random.Range(0, 2);
+            var random = Random.Range(0, 3);
 
             switch (random)
             {
                 case 0:
-                    return GameFromYear(options);
+                    return GameFromCompany(options);
                 case 1:
                     return GameFromPlatform(options);
                 default:
-                    return GameFromCompany(options);
+                    return GameFromYear(options);
             }
         }
 
-        public Question GameFromYear(int options, int difficulty = 0)
+        public Question GameFromYear(int options, int difficulty = 1)
         {
+            Vector2Int yearRange = DifficultyParameters.instance.GetYearRange(difficulty);
+
             int year = Random.Range(yearRange.x, yearRange.y);
 
             Game correctAnswer = gamesDB.GetRandomGameFromYear(year, searchOnThatYear: true);
@@ -54,27 +58,38 @@ namespace Questions
             return new Question($"Game from {year}", correctAnswer.name, otherOptions);
         }
 
-        public Question GameFromCompany(int options)
+        public Question GameFromCompany(int options, int difficulty = 1)
         {
-            List<Game> allGames = gamesDB.allGames.Values.ToList();
+            List<Company> companies = companiesDB.allCompanies.Values.Where(
+                c => c.developed.Length > DifficultyParameters.instance.GetMinimumGameForCompany(difficulty)).ToList();
 
-            Game correctAnswer = allGames[Random.Range(0, allGames.Count)];
+            Company randomCompnay = companies[Random.Range(0, companies.Count)];
 
-            int company = correctAnswer.involved_companies[0];
+            int involvedCompanyID = companiesDB.involved_companies.FirstOrDefault(ic => ic.Value.company == randomCompnay.id).Key;
+
+            Game choosenGame = gamesDB.GetFromCompany(involvedCompanyID, searchOnThatCompany: true);
 
             List<string> otherOptions = new List<string>();
 
             for (int i = 0; i < options; i++)
             {
-                otherOptions.Add(gamesDB.GetFromCompany(company, searchOnThatCompany: false).name);
+                otherOptions.Add(gamesDB.GetFromCompany(involvedCompanyID, searchOnThatCompany: false).name);
             }
 
-            return new Question($"Game developed by {company}", correctAnswer.name, otherOptions);
+            return new Question($"Game developed or published by {randomCompnay.name}", choosenGame.name, otherOptions);
+
         }
 
-        public Question GameFromPlatform(int options, int minimumGames = 1)
+        public Question GameFromPlatform(int options, int minimumGames = 1, int difficulty = 1)
         {
             Dictionary<int, Platform> validPlaforms = platformsDB.allPlatforms.Where(p => p.Value.games.Count >= minimumGames).ToDictionary(t => t.Key, t => t.Value);
+
+            if(difficulty < 3)
+            {
+                int[] platformFilter = DifficultyParameters.instance.GetPlatforms(difficulty);
+                validPlaforms = platformsDB.allPlatforms.Where(p => platformFilter.Contains(p.Key)).ToDictionary(t => t.Key, t => t.Value);
+            }
+
 
             List<Platform> validPlatformsList = validPlaforms.Values.ToList();
 
@@ -88,7 +103,7 @@ namespace Questions
 
             for (int i = 0; i < options; i++)
             {
-                otherOptions.Add(gamesDB.GetFromPlatform(platform.id, searchOnThatPlatform: false).name);
+                otherOptions.Add(gamesDB.GetFromPlatform(platform.id, searchOnThatPlatform: false).name); // could be the same
             }
 
             return new Question($"{platform.name} game", correctAnswer.name, otherOptions);

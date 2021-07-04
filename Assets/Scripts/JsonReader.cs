@@ -1,17 +1,62 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class JsonReader : MonoBehaviour
 {
     public GamesDB gamesDB;
     public PlatformsDB platformsDB;
+    public CompaniesDB companiesDB;
 
     private void Awake()
     {
         ReadPlatforms();
         ReadAllGames();
+        ReadInvolvedCompanies();
+        ReadCompanies();
+        //ShowCompanies();
+    }
+
+    public void ReadCompanies()
+    {
+        TextAsset[] jsons = Resources.LoadAll<TextAsset>("Companies/");
+
+        foreach (var json in jsons)
+        {
+            ReadCompany(json);
+        }
+    }
+
+    private void ReadCompany(TextAsset jsonFile)
+    {
+        Companies companies = JsonConvert.DeserializeObject<Companies>(jsonFile.text);
+
+        foreach (Company company in companies.companies)
+        {
+            companiesDB.AddCompany(company);
+        }
+    }
+
+    public void ReadInvolvedCompanies()
+    {
+        TextAsset[] jsons = Resources.LoadAll<TextAsset>("InvolvedCompanies/");
+
+        foreach (var json in jsons)
+        {
+            ReadInvolvedCompany(json);
+        }
+    }
+
+    private void ReadInvolvedCompany(TextAsset jsonFile)
+    {
+        Involved_Companies involved_Companies = JsonConvert.DeserializeObject<Involved_Companies>(jsonFile.text);
+
+        foreach (Involved_Company involved_Company in involved_Companies.involved_Companies)
+        {
+            companiesDB.AddInvolvedCompany(involved_Company);
+        }
     }
 
     public void ReadAllGames()
@@ -32,7 +77,6 @@ public class JsonReader : MonoBehaviour
         {
             ReadPlatform(json);
         }
-
     }
 
     public void ReadPlatform(TextAsset jsonFile)
@@ -59,6 +103,7 @@ public class JsonReader : MonoBehaviour
             {
                 gamesDB.AddGame(game);
                 platformsDB.AddGame(game);
+                //companiesDB.AddGameToCompany(game);
             }
         }
     }
@@ -67,41 +112,45 @@ public class JsonReader : MonoBehaviour
     {
         foreach (var platform in platformsDB.allPlatforms.Values)
         {
-            Debug.Log(platform.name);
-            foreach (var game in platform.games)
+            Debug.Log(platform.id + " " + platform.name);
+            /*foreach (var game in platform.games)
             {
                 Debug.Log(game.name);
-            }
-            Debug.Log("\n");
+            }*/
+            //Debug.Log("\n");
         }
     }
 
     public void ShowCompanies()
     {
-        Dictionary<int, int> companies = new Dictionary<int, int>();
+        Dictionary<int, Involved_Company> involved_companies = companiesDB.involved_companies;
 
-        foreach (var item in gamesDB.allGames.Values)
-        {
-            if (item.involved_companies == null)
-                continue;
-
-
-            if (!companies.ContainsKey(item.involved_companies[0]))
-            {
-                companies.Add(item.involved_companies[0], 1);
-            }
-        }
-
-        Debug.Log("COMPANIES IDs");
         string comps = "";
 
-        foreach (var company in companies.Keys)
+        foreach (var item in involved_companies.Values)
         {
-            comps += company + ",";
+            comps += item.company + ",";
         }
+
         Debug.Log(comps);
-        Debug.Log(companies.Count);
-        Debug.Log(gamesDB.allGames.Count);
+
+
+        /*Dictionary<int, Company> involved_companies = companiesDB.involved_companies;
+
+        Debug.Log("Companies count: " + involved_companies.Count);
+
+        List<Company> filteredCompanies = involved_companies.Values.Where(c => c.games.Count > 2).ToList();
+
+        Debug.Log("Companies with more than two games: " + filteredCompanies.Count);
+
+        string comps = "";
+
+        foreach (var item in filteredCompanies)
+        {
+            comps += item.id + ",";
+        }
+
+        Debug.Log(comps);*/
     }
 
     public void ShowYearStats()
