@@ -1,9 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DifficultyParameters : Singleton<DifficultyParameters>
 {
+
+
     private Dictionary<int, Vector2Int> years = new Dictionary<int, Vector2Int>()
     {
         {1, new Vector2Int(2015, 2020) },

@@ -113,20 +113,32 @@ public class GameUI : MonoBehaviour
         Messenger.Default.Unsubscribe<ButtonQuestion>(OnAnswerReceived);
     }
 
+    private void SetButtonAnswersColors(ButtonQuestion.State state)
+    {
+        answer1Button.SetColor(state);
+        answer2Button.SetColor(state);
+        answer3Button.SetColor(state);
+        answer4Button.SetColor(state);
+    }
+
     private void OnAnswerReceived(ButtonQuestion answer)
     {
+        SetButtonAnswersColors(ButtonQuestion.State.Plain);
         SetButtonsInteractables(false);
 
         var sequence = DOTween.Sequence();
 
         if (answer.AssignedAnswer != currentQuestion.CorrectAnswer)
         {
-            sequence.Insert(0, answer.transform.DOShakePosition(0.5f, strength: 100));
+            answer.SetColor(ButtonQuestion.State.Wrong);
+            sequence.Insert(0, answer.transform.DOShakePosition(0.3f, strength: 100));
             sequence.OnComplete(() => TweenOptionsOut(answer));
         }
         else
         {
-            TweenOptionsOut(answer);
+            answer.SetColor(ButtonQuestion.State.Correct);
+            sequence.Insert(0, answer.transform.DOPunchScale(Vector3.one * 0.3f, 0.2f, 10, 0.1f));
+            sequence.OnComplete(() => TweenOptionsOut(answer));
         }
 
     }
@@ -141,7 +153,7 @@ public class GameUI : MonoBehaviour
         }
 
         sequence.OnComplete(() => PublishUIFinishedUpdate(answer.AssignedAnswer));
-
+        SetButtonAnswersColors(ButtonQuestion.State.Normal);
         //sequence.Play();
     }
 
