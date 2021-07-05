@@ -23,20 +23,29 @@ public class GameLogic : MonoBehaviour
         questionGenerator = new QuestionGenerator();
         gameUI = FindObjectOfType<GameUI>();
 
-        StartGame(totalAwswers);
+        currentQuestion = questionGenerator.GetRandomGenericQuestion(3);
+        gameUI.SetQuestion(currentQuestion);
     }
+
     private void OnEnable()
     {
         Application.targetFrameRate = 30;
 
         Messenger.Default.Subscribe<AnswerFromUI>(OnAnswerReceived);
         Messenger.Default.Subscribe<GameRestartPayload>(OnRestart);
+        Messenger.Default.Subscribe<UIReadyPayload>(OnUiReady);
+    }
+
+    private void OnUiReady(UIReadyPayload obj)
+    {
+        StartGame(totalAwswers);
     }
 
     private void OnDisable()
     {
         Messenger.Default.Unsubscribe<AnswerFromUI>(OnAnswerReceived);
         Messenger.Default.Unsubscribe<GameRestartPayload>(OnRestart);
+        Messenger.Default.Unsubscribe<UIReadyPayload>(OnUiReady);
     }
     private void OnRestart(GameRestartPayload obj)
     {
@@ -68,13 +77,15 @@ public class GameLogic : MonoBehaviour
 
         this.questionCount = questionCount;
         currentQuestionIndex = 1;
-        NextQuestion();
+        gameUI.TriggerQuestion();
     }
+
 
     public void NextQuestion()
     {
         currentQuestion = questionGenerator.GetRandomGenericQuestion(3);
         gameUI.SetQuestion(currentQuestion);
+        gameUI.TriggerQuestion();
     }
 
 }

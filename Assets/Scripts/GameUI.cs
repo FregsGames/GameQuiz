@@ -28,6 +28,9 @@ public class GameUI : MonoBehaviour
 
     private Question currentQuestion;
 
+    [SerializeField]
+    private GameObject content;
+
     private void Awake()
     {
         buttons = new Transform[] { answer1Button.transform, answer2Button.transform, answer3Button.transform, answer4Button.transform };
@@ -60,7 +63,10 @@ public class GameUI : MonoBehaviour
         answer2Button.SetQuestion(options[1]);
         answer3Button.SetQuestion(options[2]);
         answer4Button.SetQuestion(options[3]);
+    }
 
+    public void TriggerQuestion()
+    {
         for (int i = 0; i < buttons.Length; i++)
         {
             buttons[i].DOMoveX(Screen.width / 2, 1f + (i * 0.2f)).SetDelay(0.1f).SetEase(Ease.InCubic);
@@ -106,6 +112,9 @@ public class GameUI : MonoBehaviour
     private void OnEnable()
     {
         Messenger.Default.Subscribe<ButtonQuestion>(OnAnswerReceived);
+
+        content.transform.DOMoveX(-Screen.width / 2, 0);
+        content.transform.DOMoveX(Screen.width / 2, 1f).SetEase(Ease.OutBack).OnComplete(() => Messenger.Default.Publish(new UIReadyPayload()));
     }
 
     private void OnDisable()
@@ -154,7 +163,6 @@ public class GameUI : MonoBehaviour
 
         sequence.OnComplete(() => PublishUIFinishedUpdate(answer.AssignedAnswer));
         SetButtonAnswersColors(ButtonQuestion.State.Normal);
-        //sequence.Play();
     }
 
     private void PublishUIFinishedUpdate(string answer)
