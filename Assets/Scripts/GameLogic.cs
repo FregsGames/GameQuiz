@@ -16,7 +16,11 @@ public class GameLogic : MonoBehaviour
     private Question currentQuestion;
 
     private int correctAwswers;
-    private int totalAwswers = 10;
+    private int totalQuestions = 10;
+
+    [Header("Timer")]
+    [SerializeField]
+    private float timePerQuestion;
 
     void Start()
     {
@@ -24,6 +28,8 @@ public class GameLogic : MonoBehaviour
         gameUI = FindObjectOfType<GameUI>();
 
         currentQuestion = questionGenerator.GetRandomGenericQuestion(3);
+        gameUI.Initialize(timePerQuestion);
+
         gameUI.SetQuestion(currentQuestion);
     }
 
@@ -38,7 +44,7 @@ public class GameLogic : MonoBehaviour
 
     private void OnUiReady(UIReadyPayload obj)
     {
-        StartGame(totalAwswers);
+        StartGame(totalQuestions);
     }
 
     private void OnDisable()
@@ -49,7 +55,7 @@ public class GameLogic : MonoBehaviour
     }
     private void OnRestart(GameRestartPayload obj)
     {
-        StartGame(totalAwswers);
+        StartGame(totalQuestions);
     }
 
     private void OnAnswerReceived(AnswerFromUI answer)
@@ -67,7 +73,7 @@ public class GameLogic : MonoBehaviour
         }
         else
         {
-            gameUI.ShowResults(correctAwswers, totalAwswers);
+            gameUI.ShowResults(correctAwswers, totalQuestions);
         }
     }
 

@@ -17,6 +17,14 @@ public class JsonReader : MonoBehaviour
         ReadInvolvedCompanies();
         ReadCompanies();
         //ShowCompanies();
+
+        //ExportAllGamesToJson();
+    }
+
+    public void ExportAllGamesToJson()
+    {
+        Game[] games = gamesDB.allGames.Values.ToArray();
+        System.IO.File.WriteAllText(Application.persistentDataPath + "/Allgames_1.json", JsonConvert.SerializeObject(games));
     }
 
     public void ReadCompanies()

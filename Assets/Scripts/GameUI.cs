@@ -31,6 +31,9 @@ public class GameUI : MonoBehaviour
     [SerializeField]
     private GameObject content;
 
+    [SerializeField]
+    private GameTimer timer;
+
     private void Awake()
     {
         buttons = new Transform[] { answer1Button.transform, answer2Button.transform, answer3Button.transform, answer4Button.transform };
@@ -39,6 +42,20 @@ public class GameUI : MonoBehaviour
         {
             button.DOMoveX(-Screen.width / 2, 0);
         }
+    }
+
+    public void Initialize(float time)
+    {
+        content.transform.DOMoveX(-Screen.width / 2, 0);
+
+        var sequence = DOTween.Sequence();
+
+        sequence.Insert(0, content.transform.DOMoveX(Screen.width / 2, 1f).SetEase(Ease.OutBack));
+
+        timer.Setup(sequence, time);
+
+
+        sequence.OnComplete(() => Messenger.Default.Publish(new UIReadyPayload()));
     }
 
     public void SetQuestion(Question question)
@@ -111,10 +128,7 @@ public class GameUI : MonoBehaviour
 
     private void OnEnable()
     {
-        Messenger.Default.Subscribe<ButtonQuestion>(OnAnswerReceived);
-
-        content.transform.DOMoveX(-Screen.width / 2, 0);
-        content.transform.DOMoveX(Screen.width / 2, 1f).SetEase(Ease.OutBack).OnComplete(() => Messenger.Default.Publish(new UIReadyPayload()));
+        Messenger.Default.Subscribe<ButtonQuestion>(OnAnswerReceived);   
     }
 
     private void OnDisable()
