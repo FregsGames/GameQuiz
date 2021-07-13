@@ -62,7 +62,7 @@ public class GameLogic : MonoBehaviour
     {
         currentQuestionIndex++;
 
-        if(currentQuestion.CorrectAnswer == answer.Answer)
+        if(answer != null && currentQuestion.CorrectAnswer == answer.Answer)
         {
             correctAwswers++;
         }

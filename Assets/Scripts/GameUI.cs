@@ -52,6 +52,8 @@ public class GameUI : MonoBehaviour
 
         sequence.Insert(0, content.transform.DOMoveX(Screen.width / 2, 1f).SetEase(Ease.OutBack));
 
+        SetButtonsInteractables(false);
+
         timer.Setup(sequence, time);
 
 
@@ -80,13 +82,27 @@ public class GameUI : MonoBehaviour
         answer2Button.SetQuestion(options[1]);
         answer3Button.SetQuestion(options[2]);
         answer4Button.SetQuestion(options[3]);
+
     }
 
     public void TriggerQuestion()
     {
+        var sequence = DOTween.Sequence();
+
         for (int i = 0; i < buttons.Length; i++)
         {
-            buttons[i].DOMoveX(Screen.width / 2, 1f + (i * 0.2f)).SetDelay(0.1f).SetEase(Ease.InCubic);
+            sequence.Insert(0, buttons[i].DOMoveX(Screen.width / 2, 1f + (i * 0.2f)).SetDelay(0.1f).SetEase(Ease.InCubic));
+        }
+        sequence.OnComplete(OnAnswerShowCompleted);
+    }
+
+    private void OnAnswerShowCompleted()
+    {
+        SetButtonsInteractables(true);
+
+        if (timer.UsesTime)
+        {
+            timer.TimeQuestion();
         }
     }
 
@@ -129,11 +145,18 @@ public class GameUI : MonoBehaviour
     private void OnEnable()
     {
         Messenger.Default.Subscribe<ButtonQuestion>(OnAnswerReceived);   
+        Messenger.Default.Subscribe<TimeOut>(OnTimeOut);   
     }
+
 
     private void OnDisable()
     {
         Messenger.Default.Unsubscribe<ButtonQuestion>(OnAnswerReceived);
+        Messenger.Default.Unsubscribe<TimeOut>(OnTimeOut);
+    }
+    private void OnTimeOut(TimeOut payload)
+    {
+        OnAnswerReceived(null);
     }
 
     private void SetButtonAnswersColors(ButtonQuestion.State state)
@@ -149,9 +172,15 @@ public class GameUI : MonoBehaviour
         SetButtonAnswersColors(ButtonQuestion.State.Plain);
         SetButtonsInteractables(false);
 
+        timer.StopTimer();
+
         var sequence = DOTween.Sequence();
 
-        if (answer.AssignedAnswer != currentQuestion.CorrectAnswer)
+        if (answer == null)
+        {
+            sequence.OnComplete(() => TweenOptionsOut(answer));
+        }
+        else if (answer.AssignedAnswer != currentQuestion.CorrectAnswer)
         {
             answer.SetColor(ButtonQuestion.State.Wrong);
             sequence.Insert(0, answer.transform.DOShakePosition(0.3f, strength: 100));
@@ -175,18 +204,17 @@ public class GameUI : MonoBehaviour
             sequence.Insert(0, buttons[i].DOMoveX(Screen.width * 2, 1f).SetDelay(i * 0.2f)).SetEase(Ease.InCubic);
         }
 
-        sequence.OnComplete(() => PublishUIFinishedUpdate(answer.AssignedAnswer));
+        sequence.OnComplete(() => PublishUIFinishedUpdate(answer));
         SetButtonAnswersColors(ButtonQuestion.State.Normal);
     }
 
-    private void PublishUIFinishedUpdate(string answer)
+    private void PublishUIFinishedUpdate(ButtonQuestion answer)
     {
         foreach (Transform button in buttons)
         {
             button.DOMoveX(-Screen.width / 2, 0);
         }
-        SetButtonsInteractables(true);
 
-        Messenger.Default.Publish(new AnswerFromUI() { Answer = answer });
+        Messenger.Default.Publish(new AnswerFromUI() { Answer = answer == null? null : answer.AssignedAnswer });
     }
 }

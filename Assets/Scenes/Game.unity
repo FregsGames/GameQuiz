@@ -512,6 +512,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rectTransform: {fileID: 1806938467}
+  timerImage: {fileID: 1806938465}
 --- !u!1001 &836341034461137834
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -872,7 +873,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3104833191920474923, guid: 3c5e5c2a6462a5748886122fae23fac3, type: 3}
       propertyPath: timePerQuestion
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c5e5c2a6462a5748886122fae23fac3, type: 3}
