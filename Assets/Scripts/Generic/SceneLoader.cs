@@ -21,4 +21,9 @@ public class SceneLoader : Singleton<SceneLoader>
     {
         SceneManager.LoadScene("Menu");
     }
+
+    public void LoadLobby()
+    {
+        SceneManager.LoadScene("Lobby");
+    }
 }
