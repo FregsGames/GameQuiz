@@ -170,6 +170,7 @@ public class SaveManager : MonoBehaviour
 
         Read();
         Translations.instance.LoadTranslations();
+        AudioManager.instance.LoadAudioSettings();
     }
     #endregion
 }
