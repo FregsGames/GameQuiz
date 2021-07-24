@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using DG.Tweening;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -24,6 +25,18 @@ public class Options : MonoBehaviour
     private void Start()
     {
         UpdateButtonSprites();
+    }
+
+    public void ShowOptions()
+    {
+        transform.DOMoveX(-Screen.width, 0);
+        gameObject.SetActive(true);
+        transform.DOMoveX(0, 0.5f);
+    }
+
+    public void HideOptions()
+    {
+        transform.DOMoveX(-Screen.width, 0.5f).OnComplete(() => gameObject.SetActive(false));
     }
 
     public void OnSoundButtonClick()

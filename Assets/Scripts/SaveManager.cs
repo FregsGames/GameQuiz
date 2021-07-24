@@ -169,6 +169,10 @@ public class SaveManager : MonoBehaviour
         }
 
         Read();
+    }
+
+    private void Start()
+    {
         Translations.instance.LoadTranslations();
         AudioManager.instance.LoadAudioSettings();
     }
