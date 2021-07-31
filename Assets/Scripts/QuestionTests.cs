@@ -20,7 +20,7 @@ public class QuestionTests : MonoBehaviour
 
     private void Start()
     {
-        questionGenerator = new QuestionGenerator();
+        questionGenerator = QuestionGenerator.instance;
     }
 
     private void Update()

@@ -1,0 +1,134 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
+using static Levels;
+using UnityEngine.SceneManagement;
+using Questions;
+
+public class LevelSelectionScreen : MonoBehaviour
+{
+    [SerializeField]
+    private GameObject levelContainter;
+    [SerializeField]
+    private Transform grid;
+    [SerializeField]
+    private LevelButton levelButtonPrefab;
+    [SerializeField]
+    private Button playButton;
+
+    [SerializeField]
+    private TextMeshProUGUI cupName;
+    [SerializeField]
+    private TextMeshProUGUI levelName;
+    [SerializeField]
+    private TextMeshProUGUI levelDesc;
+
+    [SerializeField]
+    private Color selectedColor;
+    [SerializeField]
+    private Color normalColor;
+
+    private List<LevelButton> buttons = new List<LevelButton>();
+
+    private Level currentSelectedLevel;
+
+    private QuestionGenerator questionGenerator;
+
+
+    public bool IsActive { get; set; }
+
+    private void OnEnable()
+    {
+        levelContainter.SetActive(false);
+    }
+
+    private void Start()
+    {
+        questionGenerator = QuestionGenerator.instance;
+    }
+
+    public void DeactivateSection()
+    {
+        levelContainter.SetActive(false);
+    }
+
+    public void Setup(Cup cup)
+    {
+        IsActive = true;
+        buttons.Clear();
+
+        ClearGrid();
+        levelContainter.SetActive(true);
+
+        cupName.text = cup.title;
+
+        for (int i = 0; i < cup.levels.Count; i++)
+        {
+            var btn = Instantiate(levelButtonPrefab, grid);
+            btn.Level = Levels.instance.GetLevel(cup.levels[i]);
+            btn.OnClick = SelectLevel;
+
+            buttons.Add(btn);
+        }
+
+        buttons[0].OnClick.Invoke(buttons[0]);
+    }
+
+    public void SelectLevel(LevelButton levelButton)
+    {
+        currentSelectedLevel = levelButton.Level;
+        SetAllButtonsToNormalColor();
+        levelButton.SetColor(selectedColor);
+        levelName.text = levelButton.Level.levelTitle;
+        levelDesc.text = levelButton.Level.levelDesc;
+    }
+
+    private void SetAllButtonsToNormalColor()
+    {
+        foreach (var btn in buttons)
+        {
+            btn.SetColor(normalColor);
+        }
+    }
+
+    private void ClearGrid()
+    {
+        for (int i = grid.childCount - 1; i >= 0; i--)
+        {
+            Destroy(grid.GetChild(i).gameObject);
+        }
+    }
+
+    public void Play()
+    {
+        playButton.interactable = false;
+        //disable go back
+        StartCoroutine(LoadGame());
+    }
+
+    IEnumerator LoadGame()
+    {
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Game", LoadSceneMode.Additive);
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
+        }
+        yield return null;
+
+        //generate questions
+
+        List<Question> questions = new List<Question>();
+
+        foreach (var questionTemplate in currentSelectedLevel.questionTemplates)
+        {
+            questions.Add(questionGenerator.FromTemplate(questionTemplate));
+        }
+
+
+        FindObjectOfType<GameLogic>().StartGame(questions, 20f);
+
+        SceneManager.UnloadSceneAsync("Lobby");
+    }
+}

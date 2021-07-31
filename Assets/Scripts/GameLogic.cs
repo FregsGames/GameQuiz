@@ -8,7 +8,6 @@ using UnityEngine;
 
 public class GameLogic : MonoBehaviour
 {
-    private QuestionGenerator questionGenerator;
     private GameUI gameUI;
 
     private int questionCount;
@@ -22,12 +21,25 @@ public class GameLogic : MonoBehaviour
     [SerializeField]
     private float timePerQuestion;
 
+    private List<Question> questions;
+
     void Start()
     {
-        questionGenerator = new QuestionGenerator();
         gameUI = FindObjectOfType<GameUI>();
 
-        currentQuestion = questionGenerator.GetRandomGenericQuestion(3);
+        /*currentQuestion = questionGenerator.GetRandomGenericQuestion(3);
+        gameUI.Initialize(timePerQuestion);
+
+        gameUI.SetQuestion(currentQuestion);*/
+    }
+
+    public void StartGame(List<Question> questions, float timePerQuestion = 20f)
+    {
+        this.questions = questions;
+        currentQuestionIndex = 0;
+
+        totalQuestions = questions.Count;
+        currentQuestion = questions[0];
         gameUI.Initialize(timePerQuestion);
 
         gameUI.SetQuestion(currentQuestion);
@@ -35,7 +47,7 @@ public class GameLogic : MonoBehaviour
 
     private void OnEnable()
     {
-        Application.targetFrameRate = 30;
+        Application.targetFrameRate = 0;
 
         Messenger.Default.Subscribe<AnswerFromUI>(OnAnswerReceived);
         Messenger.Default.Subscribe<GameRestartPayload>(OnRestart);
@@ -55,7 +67,7 @@ public class GameLogic : MonoBehaviour
     }
     private void OnRestart(GameRestartPayload obj)
     {
-        StartGame(totalQuestions);
+        SceneLoader.instance.LoadLobby();
     }
 
     private void OnAnswerReceived(AnswerFromUI answer)
@@ -82,14 +94,14 @@ public class GameLogic : MonoBehaviour
         correctAwswers = 0;
 
         this.questionCount = questionCount;
-        currentQuestionIndex = 1;
+        currentQuestionIndex = 0;
         gameUI.TriggerQuestion();
     }
 
 
     public void NextQuestion()
     {
-        currentQuestion = questionGenerator.GetRandomGenericQuestion(3);
+        currentQuestion = questions[currentQuestionIndex];
         gameUI.SetQuestion(currentQuestion);
         gameUI.TriggerQuestion();
     }

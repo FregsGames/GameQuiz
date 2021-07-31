@@ -42,6 +42,9 @@ public class GamesDB : Singleton<GamesDB>
     {
         List<Game> games = allGames.Values.ToList().Where(x => x.realDate.Year == year).ToList();
 
+        if (games.Count < count)
+            return new List<Game>();
+
         var rnd = new System.Random();
 
         games = games.OrderBy(item => rnd.Next()).ToList();

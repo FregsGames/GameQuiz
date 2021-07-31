@@ -6,6 +6,12 @@ using UnityEngine;
 public class CupSelectionScreen : MonoBehaviour
 {
     [SerializeField]
+    private GameObject selectionContainer;
+
+    [SerializeField]
+    private MenuManager menuManager;
+
+    [SerializeField]
     private GameObject leftButton;
     [SerializeField]
     private GameObject rightButton;
@@ -21,9 +27,14 @@ public class CupSelectionScreen : MonoBehaviour
     private CupSection alternativeSection;
 
     [SerializeField]
+    private LevelSelectionScreen levelSelectionScreen;
+
+    [SerializeField]
     private List<Cup> cups;
     private void OnEnable()
     {
+        selectionContainer.SetActive(true);
+
         currentSection = cupSection;
         alternativeSection = cupSectionAlt;
 
@@ -61,5 +72,29 @@ public class CupSelectionScreen : MonoBehaviour
     {
         currentSection.EnableButton(state);
         alternativeSection.EnableButton(state);
+    }
+
+    public void SelectCup()
+    {
+        selectionContainer.SetActive(false);
+        levelSelectionScreen.Setup(cups[cupIndex]);
+    }
+
+    public void ActivateCupSection()
+    {
+        selectionContainer.SetActive(true);
+    }
+
+    public void ReturnButton()
+    {
+        if (levelSelectionScreen.IsActive)
+        {
+            levelSelectionScreen.DeactivateSection();
+            ActivateCupSection();
+        }
+        else
+        {
+            menuManager.Load();
+        }
     }
 }

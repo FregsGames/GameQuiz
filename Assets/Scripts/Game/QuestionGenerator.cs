@@ -4,20 +4,20 @@ using UnityEngine;
 
 namespace Questions
 {
-    public class QuestionGenerator
+    public class QuestionGenerator : Singleton<QuestionGenerator>
     {
         private GamesDB gamesDB;
         private PlatformsDB platformsDB;
         private CompaniesDB companiesDB;
 
-        public Question GetRandomGenericQuestion(int options)
+        private void Start()
         {
-            if(gamesDB == null)
+            if (gamesDB == null)
             {
                 gamesDB = GamesDB.instance;
             }
 
-            if(platformsDB == null)
+            if (platformsDB == null)
             {
                 platformsDB = PlatformsDB.instance;
             }
@@ -26,7 +26,33 @@ namespace Questions
             {
                 companiesDB = CompaniesDB.instance;
             }
+        }
 
+        public Question FromTemplate(QuestionTemplate template)
+        {
+            switch (template.ContentType)
+            {
+                case QuestionTemplate.QuestionContent.fromYear:
+                    return GameFromYear(difficulty: int.Parse(template.ExtraData));
+                case QuestionTemplate.QuestionContent.fromPlatform:
+                    return GameFromPlatform(difficulty: int.Parse(template.ExtraData));
+                case QuestionTemplate.QuestionContent.fromCompany:
+                    return GameFromCompany(difficulty: int.Parse(template.ExtraData));
+                case QuestionTemplate.QuestionContent.handwriten:
+                    return GetRandomGenericQuestion(4);
+                case QuestionTemplate.QuestionContent.notFromYear:
+                    return GameNotFromYear(difficulty: int.Parse(template.ExtraData));
+                case QuestionTemplate.QuestionContent.notFromPlatform:
+                    return GetRandomGenericQuestion(4);
+                case QuestionTemplate.QuestionContent.notFromCompany:
+                    return GetRandomGenericQuestion(4);
+                default:
+                    return GetRandomGenericQuestion(4);
+            }
+        }
+
+        public Question GetRandomGenericQuestion(int options)
+        {
             var random = Random.Range(0, 3);
 
             switch (random)
@@ -40,7 +66,7 @@ namespace Questions
             }
         }
 
-        public Question GameFromYear(int options, int difficulty = 1)
+        public Question GameFromYear(int options = 4, int difficulty = 1)
         {
             Vector2Int yearRange = DifficultyParameters.instance.GetYearRange(difficulty);
 
@@ -58,7 +84,24 @@ namespace Questions
             return new Question($"Game from {year}", correctAnswer.name, otherOptions);
         }
 
-        public Question GameFromCompany(int options, int difficulty = 1)
+        public Question GameNotFromYear(int options = 4, int difficulty = 1)
+        {
+            Vector2Int yearRange = DifficultyParameters.instance.GetYearRange(difficulty);
+
+            int year = Random.Range(yearRange.x, yearRange.y);
+
+            List<Game> gamesNotFromYear = gamesDB.GetXGamesFromYearX(options - 1, year);
+
+            if (gamesNotFromYear.Count == 0)
+                return null;
+
+            Game correctAnswer = gamesDB.GetRandomGameFromYear(year, searchOnThatYear: false);
+
+
+            return new Question($"Game NOT from {year}", correctAnswer.name, gamesNotFromYear.Select(s => s.name).ToList());
+        }
+
+        public Question GameFromCompany(int options = 4, int difficulty = 1)
         {
             List<Company> companies = companiesDB.allCompanies.Values.Where(
                 c => c.developed.Length > DifficultyParameters.instance.GetMinimumGameForCompany(difficulty)).ToList();
@@ -80,7 +123,7 @@ namespace Questions
 
         }
 
-        public Question GameFromPlatform(int options, int minimumGames = 1, int difficulty = 1)
+        public Question GameFromPlatform(int options = 4, int minimumGames = 1, int difficulty = 1)
         {
             Dictionary<int, Platform> validPlaforms = platformsDB.allPlatforms.Where(p => p.Value.games.Count >= minimumGames).ToDictionary(t => t.Key, t => t.Value);
 
