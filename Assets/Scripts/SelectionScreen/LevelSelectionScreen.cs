@@ -26,9 +26,14 @@ public class LevelSelectionScreen : MonoBehaviour
     private TextMeshProUGUI levelDesc;
 
     [SerializeField]
-    private Color selectedColor;
+    private Sprite normalSprite;
     [SerializeField]
-    private Color normalColor;
+    private Sprite completedSprite;
+    [SerializeField]
+    private Sprite selectedSprite;
+    [SerializeField]
+    private Sprite completedSelectedSprite;
+
 
     private List<LevelButton> buttons = new List<LevelButton>();
 
@@ -71,16 +76,32 @@ public class LevelSelectionScreen : MonoBehaviour
             btn.OnClick = SelectLevel;
 
             buttons.Add(btn);
+
+            btn.Button.interactable = !LevelIsLocked(cup.levels[i]) || btn.Level.alwaysUnlocked;
+
+            btn.Button.GetComponent<Image>().sprite = LevelIsCompleted(cup.levels[i]) ? completedSprite : normalSprite;
         }
 
         buttons[0].OnClick.Invoke(buttons[0]);
+    }
+
+    private static bool LevelIsLocked(string levelID)
+    {
+        return SaveManager.instance.RetrieveInt(levelID) == (int)LevelState.locked;
+    }
+
+    private static bool LevelIsCompleted(string levelID)
+    {
+        return SaveManager.instance.RetrieveInt(levelID) == (int)LevelState.completed;
     }
 
     public void SelectLevel(LevelButton levelButton)
     {
         currentSelectedLevel = levelButton.Level;
         SetAllButtonsToNormalColor();
-        levelButton.SetColor(selectedColor);
+
+        levelButton.SetSprite(levelButton.Level.state == LevelState.completed ? completedSelectedSprite : selectedSprite);
+
         levelName.text = levelButton.Level.levelTitle;
         levelDesc.text = levelButton.Level.levelDesc;
     }
@@ -89,7 +110,7 @@ public class LevelSelectionScreen : MonoBehaviour
     {
         foreach (var btn in buttons)
         {
-            btn.SetColor(normalColor);
+            btn.SetSprite(btn.Level.state == LevelState.completed? completedSprite : normalSprite);
         }
     }
 

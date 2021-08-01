@@ -11,14 +11,17 @@ public class LevelButton : MonoBehaviour
 
     public Button Button { get; set; }
 
+    private Image image;
+
     private void OnEnable()
     {
         Button = GetComponent<Button>();
+        image = GetComponent<Image>();
         Button.onClick.AddListener(() => { OnClick?.Invoke(this); });
     }
 
-    public void SetColor(Color color)
+    public void SetSprite(Sprite sprite)
     {
-        GetComponent<Image>().color = color;
+        image.sprite = sprite;
     }
 }

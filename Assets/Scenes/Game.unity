@@ -675,6 +675,14 @@ PrefabInstance:
       propertyPath: m_Colors.m_DisabledColor.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 836341033658309441, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7136812374736436185, guid: dfea2997fadc8d1478321e18a5d0931c, type: 3}
+    - target: {fileID: 836341033658309441, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 836341033888883722, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
       propertyPath: m_margin.w
       value: 20
@@ -711,6 +719,14 @@ PrefabInstance:
       propertyPath: m_Colors.m_DisabledColor.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 836341034166767595, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7136812374736436185, guid: dfea2997fadc8d1478321e18a5d0931c, type: 3}
+    - target: {fileID: 836341034166767595, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 836341034189022248, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
       propertyPath: m_Colors.m_DisabledColor.a
       value: 1
@@ -725,6 +741,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 836341034189022248, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
       propertyPath: m_Colors.m_DisabledColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 836341034189022249, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7136812374736436185, guid: dfea2997fadc8d1478321e18a5d0931c, type: 3}
+    - target: {fileID: 836341034189022249, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+      propertyPath: m_PreserveAspect
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 836341034778969588, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
@@ -744,7 +768,15 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 836341034778969589, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7136812374736436185, guid: dfea2997fadc8d1478321e18a5d0931c, type: 3}
+    - target: {fileID: 836341034778969589, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 836341034778969589, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+      propertyPath: m_PreserveAspect
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
