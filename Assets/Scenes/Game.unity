@@ -779,6 +779,10 @@ PrefabInstance:
       propertyPath: m_PreserveAspect
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8882416028502114472, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
 --- !u!1001 &1778801050341558373

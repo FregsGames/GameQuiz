@@ -11,12 +11,15 @@ public class Levels : Singleton<Levels>
     private List<LevelEntry> levels = new List<LevelEntry>();
 
     public enum LevelState { locked = 0, completed = 2, unlocked = 1};
+    public enum LevelCondition { half = 0, full = 1, one = 2};
 
     private void Start()
     {
         foreach (var level in levels)
         {
             level.level.state = (LevelState) SaveManager.instance.RetrieveInt(level.levelID);
+            level.level.id = level.levelID;
+
             if (level.level.alwaysUnlocked)
             {
                 if(level.level.state == LevelState.locked)
@@ -35,11 +38,14 @@ public class Levels : Singleton<Levels>
     [Serializable]
     public class Level
     {
+        [NonSerialized]
+        public string id;
         public string levelTitle;
         public string levelDesc;
         public List<QuestionTemplate> questionTemplates;
         public LevelState state;
         public bool alwaysUnlocked = false;
+        public LevelCondition winCondition;
 
     }
     [Serializable]

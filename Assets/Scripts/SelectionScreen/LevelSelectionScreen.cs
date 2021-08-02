@@ -1,11 +1,12 @@
-﻿using System.Collections;
+﻿using Questions;
+using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using TMPro;
-using UnityEngine.UI;
-using static Levels;
+using UnityEngine;
 using UnityEngine.SceneManagement;
-using Questions;
+using UnityEngine.UI;
+using static Cups;
+using static Levels;
 
 public class LevelSelectionScreen : MonoBehaviour
 {
@@ -110,7 +111,7 @@ public class LevelSelectionScreen : MonoBehaviour
     {
         foreach (var btn in buttons)
         {
-            btn.SetSprite(btn.Level.state == LevelState.completed? completedSprite : normalSprite);
+            btn.SetSprite(btn.Level.state == LevelState.completed ? completedSprite : normalSprite);
         }
     }
 
@@ -148,7 +149,7 @@ public class LevelSelectionScreen : MonoBehaviour
         }
 
 
-        FindObjectOfType<GameLogic>().StartGame(questions, 20f);
+        FindObjectOfType<GameLogic>().StartGame(currentSelectedLevel, questions, 20f);
 
         SceneManager.UnloadSceneAsync("Lobby");
     }

@@ -152,7 +152,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1453111500499754524, guid: 95994a43d449b06478c361619bb13ff3, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1453111500499754524, guid: 95994a43d449b06478c361619bb13ff3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -706,7 +706,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &173762485
 PrefabInstance:
@@ -733,7 +733,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3666624614043932756, guid: f185f147beffa9b499071b2662dfeb53, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3666624614043932757, guid: f185f147beffa9b499071b2662dfeb53, type: 3}
       propertyPath: m_Pivot.x
@@ -1343,17 +1343,6 @@ MonoBehaviour:
   cupSection: {fileID: 759221822}
   cupSectionAlt: {fileID: 1332314254}
   levelSelectionScreen: {fileID: 1658248319}
-  cups:
-  - title: Copa Manzana
-    levels:
-    - level_0_0
-    - level_0_1
-    - level_0_2
-    cupImage: {fileID: 21300000, guid: 2230faa717739a845a208f45229809e8, type: 3}
-  - title: Copa Manzana
-    levels:
-    - level_1_0
-    cupImage: {fileID: 21300000, guid: 2230faa717739a845a208f45229809e8, type: 3}
 --- !u!4 &470897921
 Transform:
   m_ObjectHideFlags: 0
@@ -1557,7 +1546,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2197653059809024717, guid: bc7cb2d5bd4bc3b44a223f2ba2381193, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2197653059809024717, guid: bc7cb2d5bd4bc3b44a223f2ba2381193, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1649,7 +1638,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &759221822 stripped
 MonoBehaviour:
@@ -1794,6 +1783,66 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 827189498}
   m_CullTransparentMesh: 0
+--- !u!1 &921262938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 921262940}
+  - component: {fileID: 921262939}
+  m_Layer: 0
+  m_Name: CupContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &921262939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921262938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ab76d17aa808a45a8eb1aa3587751c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cups:
+  - cupID: cup_0
+    cup:
+      title: Copa manzana
+      levels:
+      - level_0_0
+      - level_0_1
+      - level_0_2
+      cupImage: {fileID: 21300000, guid: 2230faa717739a845a208f45229809e8, type: 3}
+      state: 1
+  - cupID: cup_1
+    cup:
+      title: Copa seta
+      levels:
+      - level_0_2
+      cupImage: {fileID: 21300000, guid: 311ac4a0dc9473645a856f0904e53e96, type: 3}
+      state: 1
+--- !u!4 &921262940
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921262938}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &995671089
 GameObject:
   m_ObjectHideFlags: 0
@@ -2180,7 +2229,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1475192485
 GameObject:
@@ -2329,7 +2378,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1778801049534445354, guid: eabe22eb0b8b53b448206349977f89f2, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1778801049534445354, guid: eabe22eb0b8b53b448206349977f89f2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2516,7 +2565,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1826273398
 GameObject:
@@ -2634,7 +2683,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3743170898838725354, guid: 936b6d5a978de3c4db3186f982df0ec3, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3743170898838725354, guid: 936b6d5a978de3c4db3186f982df0ec3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2893,7 +2942,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2059719600
 GameObject:
@@ -3173,7 +3222,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3492270359845409110, guid: fad78446d846cd84ea9a7b04e27eda3e, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 3492270359845409110, guid: fad78446d846cd84ea9a7b04e27eda3e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3258,6 +3307,7 @@ MonoBehaviour:
         extraData: 1
       state: 0
       alwaysUnlocked: 1
+      winCondition: 0
   - levelID: level_0_1
     level:
       levelTitle: Nivel uno
@@ -3277,6 +3327,7 @@ MonoBehaviour:
         extraData: 1
       state: 0
       alwaysUnlocked: 0
+      winCondition: 0
   - levelID: level_0_2
     level:
       levelTitle: Nivel dos
@@ -3296,6 +3347,7 @@ MonoBehaviour:
         extraData: 1
       state: 0
       alwaysUnlocked: 0
+      winCondition: 0
   - levelID: level_1_0
     level:
       levelTitle: Nivel uno de la copa 2
@@ -3315,6 +3367,7 @@ MonoBehaviour:
         extraData: 1
       state: 0
       alwaysUnlocked: 1
+      winCondition: 0
 --- !u!1001 &6231099194511572917
 PrefabInstance:
   m_ObjectHideFlags: 0

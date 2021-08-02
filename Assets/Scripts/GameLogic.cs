@@ -5,6 +5,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static Levels;
 
 public class GameLogic : MonoBehaviour
 {
@@ -22,6 +23,7 @@ public class GameLogic : MonoBehaviour
     private float timePerQuestion;
 
     private List<Question> questions;
+    private Level currentLevel;
 
     void Start()
     {
@@ -33,8 +35,9 @@ public class GameLogic : MonoBehaviour
         gameUI.SetQuestion(currentQuestion);*/
     }
 
-    public void StartGame(List<Question> questions, float timePerQuestion = 20f)
+    public void StartGame(Level level, List<Question> questions, float timePerQuestion = 20f)
     {
+        currentLevel = level;
         this.questions = questions;
         currentQuestionIndex = 0;
 
@@ -86,7 +89,40 @@ public class GameLogic : MonoBehaviour
         else
         {
             gameUI.ShowResults(correctAwswers, totalQuestions);
+            CheckUnlocks(correctAwswers, totalQuestions);
         }
+    }
+
+    private void CheckUnlocks(int correctAnswers, int totalQuestions)
+    {
+        switch (currentLevel.winCondition)
+        {
+            case LevelCondition.half:
+                if(correctAnswers > totalQuestions / 2)
+                {
+                    SendUnlockMessage();
+                }
+                break;
+            case LevelCondition.full:
+                if (correctAnswers == totalQuestions)
+                {
+                    SendUnlockMessage();
+                }
+                break;
+            case LevelCondition.one:
+                if(correctAnswers > 0)
+                {
+                    SendUnlockMessage();
+                }
+                break;
+            default:
+                break;
+        }
+    }
+
+    private void SendUnlockMessage()
+    {
+        Messenger.Default.Publish(new UnlockLevelPayload(currentLevel.id));
     }
 
     public void StartGame(int questionCount)

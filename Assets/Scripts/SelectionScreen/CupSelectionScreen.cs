@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static Cups;
 
 public class CupSelectionScreen : MonoBehaviour
 {
@@ -29,14 +30,19 @@ public class CupSelectionScreen : MonoBehaviour
     [SerializeField]
     private LevelSelectionScreen levelSelectionScreen;
 
-    [SerializeField]
     private List<Cup> cups;
+
     private void OnEnable()
     {
         selectionContainer.SetActive(true);
 
         currentSection = cupSection;
         alternativeSection = cupSectionAlt;
+    }
+
+    private void Start()
+    {
+        cups = Cups.instance.GetAllCups();
 
         currentSection.Setup(cups[cupIndex]);
 
