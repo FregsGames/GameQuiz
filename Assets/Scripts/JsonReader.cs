@@ -4,21 +4,22 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class JsonReader : MonoBehaviour
+public class JsonReader : Singleton<JsonReader>
 {
-    public GamesDB gamesDB;
-    public PlatformsDB platformsDB;
-    public CompaniesDB companiesDB;
+    private GamesDB gamesDB;
+    private PlatformsDB platformsDB;
+    private CompaniesDB companiesDB;
 
-    private void Awake()
+    private void Start()
     {
+        gamesDB = GamesDB.Instance;
+        platformsDB = PlatformsDB.Instance;
+        companiesDB = CompaniesDB.Instance;
+
         ReadPlatforms();
         ReadAllGames();
         ReadInvolvedCompanies();
         ReadCompanies();
-        //ShowCompanies();
-
-        //ExportAllGamesToJson();
     }
 
     public void ExportAllGamesToJson()

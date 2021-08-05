@@ -70,7 +70,7 @@ public class GameLogic : MonoBehaviour
     }
     private void OnRestart(GameRestartPayload obj)
     {
-        SceneLoader.instance.LoadLobby();
+        SceneLoader.Instance.LoadLobby();
     }
 
     private void OnAnswerReceived(AnswerFromUI answer)

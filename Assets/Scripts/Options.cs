@@ -41,18 +41,18 @@ public class Options : MonoBehaviour
 
     public void OnSoundButtonClick()
     {
-        AudioManager.instance.ToggleSound();
+        AudioManager.Instance.ToggleSound();
         UpdateButtonSprites();
     }
     public void OnMusicButtonClick()
     {
-        AudioManager.instance.ToggleMusic();
+        AudioManager.Instance.ToggleMusic();
         UpdateButtonSprites();
     }
 
     private void UpdateButtonSprites()
     {
-        soundButton.image.sprite = AudioManager.instance.SoundMuted ? muteSoundSprite : openSoundSprite;
-        musicButton.image.sprite = AudioManager.instance.MusicMuted ? muteMusicSprite : openMusicSprite;
+        soundButton.image.sprite = AudioManager.Instance.SoundMuted ? muteSoundSprite : openSoundSprite;
+        musicButton.image.sprite = AudioManager.Instance.MusicMuted ? muteMusicSprite : openMusicSprite;
     }
 }

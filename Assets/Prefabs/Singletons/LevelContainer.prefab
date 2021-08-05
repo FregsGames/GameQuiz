@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4744743787827246805
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3492270359845409110}
+  - component: {fileID: 5119109254258265453}
+  m_Layer: 0
+  m_Name: LevelContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3492270359845409110
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4744743787827246805}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 603.39484, y: 1475.7196, z: -2144.6902}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5119109254258265453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4744743787827246805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1772669398f1697458e2938d915767c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levels:
+  - levelID: level_0_0
+    level:
+      levelTitle: Nivel cero
+      levelDesc: "Este es el nivel n\xFAmero cero."
+      questionTemplates:
+      - contentType: 1
+        structureType: 1
+        extraData: 1
+      - contentType: 2
+        structureType: 1
+        extraData: 1
+      - contentType: 5
+        structureType: 1
+        extraData: 1
+      - contentType: 3
+        structureType: 1
+        extraData: 1
+      state: 0
+      alwaysUnlocked: 1
+      winCondition: 0
+  - levelID: level_0_1
+    level:
+      levelTitle: Nivel uno
+      levelDesc: "Este es el nivel n\xFAmero cero."
+      questionTemplates:
+      - contentType: 1
+        structureType: 1
+        extraData: 1
+      - contentType: 2
+        structureType: 1
+        extraData: 1
+      - contentType: 5
+        structureType: 1
+        extraData: 1
+      - contentType: 3
+        structureType: 1
+        extraData: 1
+      state: 0
+      alwaysUnlocked: 0
+      winCondition: 0
+  - levelID: level_0_2
+    level:
+      levelTitle: Nivel dos
+      levelDesc: "Este es el nivel n\xFAmero cero."
+      questionTemplates:
+      - contentType: 1
+        structureType: 1
+        extraData: 1
+      - contentType: 2
+        structureType: 1
+        extraData: 1
+      - contentType: 5
+        structureType: 1
+        extraData: 1
+      - contentType: 3
+        structureType: 1
+        extraData: 1
+      state: 0
+      alwaysUnlocked: 0
+      winCondition: 0
+  - levelID: level_1_0
+    level:
+      levelTitle: Nivel uno de la copa 2
+      levelDesc: Este es el nivel uno de la segunda copa.
+      questionTemplates:
+      - contentType: 1
+        structureType: 1
+        extraData: 1
+      - contentType: 2
+        structureType: 1
+        extraData: 1
+      - contentType: 5
+        structureType: 1
+        extraData: 1
+      - contentType: 3
+        structureType: 1
+        extraData: 1
+      state: 0
+      alwaysUnlocked: 1
+      winCondition: 0

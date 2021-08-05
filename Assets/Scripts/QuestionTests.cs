@@ -20,7 +20,7 @@ public class QuestionTests : MonoBehaviour
 
     private void Start()
     {
-        questionGenerator = QuestionGenerator.instance;
+        questionGenerator = QuestionGenerator.Instance;
     }
 
     private void Update()

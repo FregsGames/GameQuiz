@@ -37,13 +37,13 @@ public class MenuManager : MonoBehaviour
         switch (sceneToLoad)
         {
             case SceneToLoad.Game:
-                panelToMove.transform.DOMove(GetPositionToMove(), 1f).SetEase(Ease.InOutBack).OnComplete(() => SceneLoader.instance.LoadGame());
+                panelToMove.transform.DOMove(GetPositionToMove(), 1f).SetEase(Ease.InOutBack).OnComplete(() => SceneLoader.Instance.LoadGame());
                 break;
             case SceneToLoad.Menu:
-                panelToMove.transform.DOMove(GetPositionToMove(), 1f).SetEase(Ease.InOutBack).OnComplete(() => SceneLoader.instance.LoadMenu());
+                panelToMove.transform.DOMove(GetPositionToMove(), 1f).SetEase(Ease.InOutBack).OnComplete(() => SceneLoader.Instance.LoadMenu());
                 break;
             case SceneToLoad.Selector:
-                panelToMove.transform.DOMove(GetPositionToMove(), 1f).SetEase(Ease.InOutBack).OnComplete(() => SceneLoader.instance.LoadLobby());
+                panelToMove.transform.DOMove(GetPositionToMove(), 1f).SetEase(Ease.InOutBack).OnComplete(() => SceneLoader.Instance .LoadLobby());
                 break;
         }
     }

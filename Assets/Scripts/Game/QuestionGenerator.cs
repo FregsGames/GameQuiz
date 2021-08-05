@@ -14,17 +14,17 @@ namespace Questions
         {
             if (gamesDB == null)
             {
-                gamesDB = GamesDB.instance;
+                gamesDB = GamesDB.Instance;
             }
 
             if (platformsDB == null)
             {
-                platformsDB = PlatformsDB.instance;
+                platformsDB = PlatformsDB.Instance;
             }
 
             if (companiesDB == null)
             {
-                companiesDB = CompaniesDB.instance;
+                companiesDB = CompaniesDB.Instance;
             }
         }
 
@@ -68,7 +68,7 @@ namespace Questions
 
         public Question GameFromYear(int options = 4, int difficulty = 1)
         {
-            Vector2Int yearRange = DifficultyParameters.instance.GetYearRange(difficulty);
+            Vector2Int yearRange = DifficultyParameters.Instance.GetYearRange(difficulty);
 
             int year = Random.Range(yearRange.x, yearRange.y);
 
@@ -86,7 +86,7 @@ namespace Questions
 
         public Question GameNotFromYear(int options = 4, int difficulty = 1)
         {
-            Vector2Int yearRange = DifficultyParameters.instance.GetYearRange(difficulty);
+            Vector2Int yearRange = DifficultyParameters.Instance.GetYearRange(difficulty);
 
             int year = Random.Range(yearRange.x, yearRange.y);
 
@@ -104,7 +104,7 @@ namespace Questions
         public Question GameFromCompany(int options = 4, int difficulty = 1)
         {
             List<Company> companies = companiesDB.allCompanies.Values.Where(
-                c => c.developed.Length > DifficultyParameters.instance.GetMinimumGameForCompany(difficulty)).ToList();
+                c => c.developed.Length > DifficultyParameters.Instance.GetMinimumGameForCompany(difficulty)).ToList();
 
             Company randomCompnay = companies[Random.Range(0, companies.Count)];
 
@@ -129,7 +129,7 @@ namespace Questions
 
             if(difficulty < 3)
             {
-                int[] platformFilter = DifficultyParameters.instance.GetPlatforms(difficulty);
+                int[] platformFilter = DifficultyParameters.Instance.GetPlatforms(difficulty);
                 validPlaforms = platformsDB.allPlatforms.Where(p => platformFilter.Contains(p.Key)).ToDictionary(t => t.Key, t => t.Value);
             }
 

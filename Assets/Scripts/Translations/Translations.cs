@@ -111,7 +111,7 @@ public class Translations : MonoBehaviour
         }
         else
         {
-            Destroy(this);
+            Destroy(gameObject);
         }
     }
     #endregion

@@ -42,7 +42,7 @@ public class CupSelectionScreen : MonoBehaviour
 
     private void Start()
     {
-        cups = Cups.instance.GetAllCups();
+        cups = Cups.Instance.GetAllCups();
 
         currentSection.Setup(cups[cupIndex]);
 

@@ -27,20 +27,20 @@ public class ButtonQuestion : MonoBehaviour
         switch (state)
         {
             case State.Correct:
-                button.colors = ColorSettings.instance.Correct;
-                buttonText.color = ColorSettings.instance.C_textColor;
+                button.colors = ColorSettings.Instance.Correct;
+                buttonText.color = ColorSettings.Instance.C_textColor;
                 break;
             case State.Plain:
-                button.colors = ColorSettings.instance.Plain;
-                buttonText.color = ColorSettings.instance.P_textColor;
+                button.colors = ColorSettings.Instance.Plain;
+                buttonText.color = ColorSettings.Instance.P_textColor;
                 break;
             case State.Wrong:
-                button.colors = ColorSettings.instance.Wrong;
-                buttonText.color = ColorSettings.instance.W_textColor;
+                button.colors = ColorSettings.Instance.Wrong;
+                buttonText.color = ColorSettings.Instance.W_textColor;
                 break;
             case State.Normal:
-                button.colors = ColorSettings.instance.Normal;
-                buttonText.color = ColorSettings.instance.N_textColor;
+                button.colors = ColorSettings.Instance.Normal;
+                buttonText.color = ColorSettings.Instance.N_textColor;
                 break;
         }
     }

@@ -52,7 +52,7 @@ public class LevelSelectionScreen : MonoBehaviour
 
     private void Start()
     {
-        questionGenerator = QuestionGenerator.instance;
+        questionGenerator = QuestionGenerator.Instance;
     }
 
     public void DeactivateSection()
@@ -73,7 +73,7 @@ public class LevelSelectionScreen : MonoBehaviour
         for (int i = 0; i < cup.levels.Count; i++)
         {
             var btn = Instantiate(levelButtonPrefab, grid);
-            btn.Level = Levels.instance.GetLevel(cup.levels[i]);
+            btn.Level = Levels.Instance.GetLevel(cup.levels[i]);
             btn.OnClick = SelectLevel;
 
             buttons.Add(btn);

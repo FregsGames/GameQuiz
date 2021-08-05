@@ -165,7 +165,7 @@ public class SaveManager : MonoBehaviour
         }
         else
         {
-            Destroy(this);
+            Destroy(gameObject);
         }
 
         Read();
@@ -174,7 +174,7 @@ public class SaveManager : MonoBehaviour
     private void Start()
     {
         Translations.instance.LoadTranslations();
-        AudioManager.instance.LoadAudioSettings();
+        AudioManager.Instance.LoadAudioSettings();
     }
     #endregion
 }
