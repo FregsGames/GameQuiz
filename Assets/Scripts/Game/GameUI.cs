@@ -176,18 +176,26 @@ public class GameUI : MonoBehaviour
         if (answer == null)
         {
             sequence.OnComplete(() => TweenOptionsOut(answer));
+
+            Messenger.Default.Publish(new AnswerGiven(false));
         }
         else if (answer.AssignedAnswer != currentQuestion.CorrectAnswer)
         {
             answer.SetColor(ButtonQuestion.State.Wrong);
             sequence.Insert(0, answer.transform.DOShakePosition(0.3f, strength: 100));
             sequence.OnComplete(() => TweenOptionsOut(answer));
+
+            Messenger.Default.Publish(new AnswerGiven(false));
+
         }
         else
         {
             answer.SetColor(ButtonQuestion.State.Correct);
             sequence.Insert(0, answer.transform.DOPunchScale(Vector3.one * 0.3f, 0.2f, 10, 0.1f));
             sequence.OnComplete(() => TweenOptionsOut(answer));
+
+            Messenger.Default.Publish(new AnswerGiven(true));
+
         }
 
     }

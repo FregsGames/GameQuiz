@@ -47,6 +47,8 @@ public class CupSelectionScreen : MonoBehaviour
         currentSection.Setup(cups[cupIndex]);
 
         UpdateArrows();
+
+        EnableButtons(true);
     }
 
     private void UpdateArrows()
@@ -58,6 +60,7 @@ public class CupSelectionScreen : MonoBehaviour
     public void ArrowButton(int direction) // 1 right -1 left
     {
         EnableButtons(false);
+        alternativeSection.gameObject.SetActive(true);
         cupIndex += direction;
 
         var temp = currentSection;
@@ -78,6 +81,7 @@ public class CupSelectionScreen : MonoBehaviour
     {
         currentSection.EnableButton(state);
         alternativeSection.EnableButton(state);
+        alternativeSection.gameObject.SetActive(false);
     }
 
     public void SelectCup()

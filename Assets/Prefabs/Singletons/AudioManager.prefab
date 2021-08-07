@@ -47,6 +47,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundAudioSource: {fileID: 5749203383661648356}
   musicAudioSource: {fileID: 5749203383661648355}
+  accept: {fileID: 8300000, guid: 3de5a660bb912ea42a48d0ed96eeb13c, type: 3}
+  back: {fileID: 8300000, guid: 164d194689a5f56499965d029ccc4568, type: 3}
+  win: {fileID: 8300000, guid: 8fb05ec95cb6cd64bbea1a0318fbc1ca, type: 3}
+  fail: {fileID: 8300000, guid: c25eaa802d9774d458be46bbdabe3254, type: 3}
+  correct: {fileID: 8300000, guid: 9549f724454523948a328f2c0defea9b, type: 3}
+  win2: {fileID: 8300000, guid: d628739d22d795442b7ede99616e1765, type: 3}
 --- !u!82 &5749203383661648356
 AudioSource:
   m_ObjectHideFlags: 0

@@ -74,8 +74,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4286665816
+  m_fontColor: {r: 0.34509805, g: 0.32941177, b: 0.5058824, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -460,6 +460,7 @@ GameObject:
   - component: {fileID: 3030059640064339382}
   - component: {fileID: 3036486129906145936}
   - component: {fileID: 6867077392522031363}
+  - component: {fileID: 71282862140233957}
   m_Layer: 5
   m_Name: Sound_Button
   m_TagString: Untagged
@@ -579,6 +580,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &71282862140233957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6688913036886648672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af4f7f865effdcb4bbc557595a908d16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sfx: 3
 --- !u!1 &6875202826670458371
 GameObject:
   m_ObjectHideFlags: 0
@@ -591,6 +605,7 @@ GameObject:
   - component: {fileID: 2112547786440662771}
   - component: {fileID: 8205850555359880823}
   - component: {fileID: 2293731963401477854}
+  - component: {fileID: 3735160958453721671}
   m_Layer: 5
   m_Name: CloseButton
   m_TagString: Untagged
@@ -639,15 +654,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.33333334, g: 0.31764707, b: 0.48627454, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -7136812374736436185, guid: dfea2997fadc8d1478321e18a5d0931c, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -699,6 +714,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3735160958453721671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6875202826670458371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af4f7f865effdcb4bbc557595a908d16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sfx: 1
 --- !u!1 &7373409534414908135
 GameObject:
   m_ObjectHideFlags: 0
@@ -711,6 +739,7 @@ GameObject:
   - component: {fileID: 7131232300381927189}
   - component: {fileID: 6333069680548157806}
   - component: {fileID: 6718641127289985775}
+  - component: {fileID: 6868952263938936147}
   m_Layer: 5
   m_Name: Music_Button
   m_TagString: Untagged
@@ -830,6 +859,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &6868952263938936147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7373409534414908135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af4f7f865effdcb4bbc557595a908d16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sfx: 3
 --- !u!1 &9093957644078736034
 GameObject:
   m_ObjectHideFlags: 0

@@ -43,7 +43,7 @@ public class LevelSelectionScreen : MonoBehaviour
     private QuestionGenerator questionGenerator;
 
 
-    public bool IsActive { get; set; }
+    public bool IsActive { get { return levelContainter.activeSelf; } }
 
     private void OnEnable()
     {
@@ -62,7 +62,6 @@ public class LevelSelectionScreen : MonoBehaviour
 
     public void Setup(Cup cup)
     {
-        IsActive = true;
         buttons.Clear();
 
         ClearGrid();
