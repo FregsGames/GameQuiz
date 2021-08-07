@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1453111500499754522}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 417.55438, y: -1250.4885, z: -2584.9158}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -50,5 +50,14 @@ MonoBehaviour:
   - id: MainMenu_createdBy@Nacho13t
     en: Created By @nacho13t
     es: Creado por @nacho13t
+  - id: MainMenu_options
+    en: Options
+    es: Opciones
+  - id: completedLevel
+    en: Level Completed!
+    es: "\xA1Nivel completado!"
+  - id: failedLevel
+    en: Level failed
+    es: Nivel mal
   currentLanguage: 34
   availableLanguages: 220000000a000000

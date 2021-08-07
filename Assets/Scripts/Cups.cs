@@ -1,7 +1,10 @@
-﻿using System;
+﻿using Assets.Scripts.Payloads;
+using SuperMaxim.Messaging;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using static Levels;
 
 public class Cups : Singleton<Cups>
 {
@@ -16,6 +19,23 @@ public class Cups : Singleton<Cups>
             cup.cup.state = (CupState)SaveManager.instance.RetrieveInt(cup.cupID);
             cup.cup.id = cup.cupID;
         }
+    }
+
+    public bool CheckUnlocks(string levelId)
+    {
+        Levels.Instance.SetCompleted(levelId);
+
+        Cup currentCup = cups.FirstOrDefault(c => c.cup.levels.Contains(levelId)).cup;
+
+        int index = currentCup.levels.IndexOf(levelId);
+
+        if(currentCup.levels.Count - 1 > index)
+        {
+            Levels.Instance.SetUnlocked(currentCup.levels[index + 1]);
+            return true;
+        }
+
+        return false;
     }
 
     public List<Cup> GetAllCups()

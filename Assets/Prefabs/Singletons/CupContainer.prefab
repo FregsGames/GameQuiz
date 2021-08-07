@@ -53,10 +53,3 @@ MonoBehaviour:
       - level_0_2
       cupImage: {fileID: 21300000, guid: 2230faa717739a845a208f45229809e8, type: 3}
       state: 1
-  - cupID: cup_1
-    cup:
-      title: Copa seta
-      levels:
-      - level_0_2
-      cupImage: {fileID: 21300000, guid: 311ac4a0dc9473645a856f0904e53e96, type: 3}
-      state: 1

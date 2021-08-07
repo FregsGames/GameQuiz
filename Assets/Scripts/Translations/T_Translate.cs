@@ -1,12 +1,14 @@
-﻿using TMPro;
+﻿using System.Collections;
+using TMPro;
 using UnityEngine;
 
 public class T_Translate : MonoBehaviour
 {
     public string id;
     public TextMeshProUGUI customText; //if not asigned it will take the existing text in the gameobject if exists
-    void Start()
+    IEnumerator Start()
     {
+        yield return null;
         UpdateText();
     }
 

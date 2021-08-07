@@ -1,4 +1,6 @@
-﻿using Questions;
+﻿using Assets.Scripts.Payloads;
+using Questions;
+using SuperMaxim.Messaging;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -33,6 +35,20 @@ public class Levels : Singleton<Levels>
     public Level GetLevel(string id)
     {
         return levels.FirstOrDefault(l => l.levelID == id).level;
+    }
+
+    public void SetUnlocked(string id)
+    {
+        SaveManager.instance.Save(id, (int)LevelState.unlocked);
+
+        GetLevel(id).state = LevelState.unlocked;
+    }
+
+    public void SetCompleted(string id)
+    {
+        SaveManager.instance.Save(id, (int)LevelState.completed);
+
+        GetLevel(id).state = LevelState.completed;
     }
 
     [Serializable]

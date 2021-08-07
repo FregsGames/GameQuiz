@@ -21,9 +21,6 @@ public class GameUI : MonoBehaviour
     [SerializeField]
     private ButtonQuestion answer4Button;
 
-    [SerializeField]
-    private Button restartButton;
-
     private Transform[] buttons;
 
     private Question currentQuestion;
@@ -33,6 +30,10 @@ public class GameUI : MonoBehaviour
 
     [SerializeField]
     private GameTimer timer;
+
+    [SerializeField]
+    private EndScreen endScreenPrefab;
+
 
     private void Awake()
     {
@@ -106,12 +107,14 @@ public class GameUI : MonoBehaviour
         }
     }
 
-    public void ShowResults(int correctAnswers, int totalAnswers)
+    public void ShowResults(bool completed, int correctAnswers, int totalAnswers, bool unlocks)
     {
-        EnableOptionButtons(false);
-        EnableRestartButton(true);
+        questionText.text = "";
 
-        questionText.text = $"{correctAnswers}/{totalAnswers}";
+        EnableOptionButtons(false);
+
+        var endScreen = Instantiate(endScreenPrefab);
+        endScreen.Setup(completed, correctAnswers, totalAnswers, unlocks);
     }
 
     private void EnableOptionButtons(bool enable)
@@ -130,14 +133,8 @@ public class GameUI : MonoBehaviour
         answer4Button.SetInteractable(state);
     }
 
-    private void EnableRestartButton(bool enable)
-    {
-        restartButton.gameObject.SetActive(enable);
-    }
-
     public void OnRestart()
     {
-        EnableRestartButton(false);
         EnableOptionButtons(true);
         Messenger.Default.Publish(new GameRestartPayload());
     }

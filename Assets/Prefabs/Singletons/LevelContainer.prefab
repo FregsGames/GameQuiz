@@ -61,7 +61,7 @@ MonoBehaviour:
       - contentType: 3
         structureType: 1
         extraData: 1
-      state: 0
+      state: 1
       alwaysUnlocked: 1
       winCondition: 0
   - levelID: level_0_1
@@ -121,6 +121,6 @@ MonoBehaviour:
       - contentType: 3
         structureType: 1
         extraData: 1
-      state: 0
+      state: 1
       alwaysUnlocked: 1
       winCondition: 0

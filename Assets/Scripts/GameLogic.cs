@@ -15,7 +15,7 @@ public class GameLogic : MonoBehaviour
     private int currentQuestionIndex;
     private Question currentQuestion;
 
-    private int correctAwswers;
+    private int correctAnswers;
     private int totalQuestions = 10;
 
     [Header("Timer")]
@@ -79,7 +79,7 @@ public class GameLogic : MonoBehaviour
 
         if(answer != null && currentQuestion.CorrectAnswer == answer.Answer)
         {
-            correctAwswers++;
+            correctAnswers++;
         }
 
         if (currentQuestionIndex < questionCount)
@@ -88,46 +88,43 @@ public class GameLogic : MonoBehaviour
         }
         else
         {
-            gameUI.ShowResults(correctAwswers, totalQuestions);
-            CheckUnlocks(correctAwswers, totalQuestions);
+            bool levelCompleted = CheckWinCondition(correctAnswers, totalQuestions);
+            bool unlocks = levelCompleted? Cups.Instance.CheckUnlocks(currentLevel.id) : false;
+            gameUI.ShowResults(levelCompleted, correctAnswers, totalQuestions, unlocks);
         }
     }
 
-    private void CheckUnlocks(int correctAnswers, int totalQuestions)
+    private bool CheckWinCondition(int correctAnswers, int totalQuestions)
     {
         switch (currentLevel.winCondition)
         {
             case LevelCondition.half:
-                if(correctAnswers > totalQuestions / 2)
+                if (this.correctAnswers >= totalQuestions / 2)
                 {
-                    SendUnlockMessage();
+                    return true;
                 }
                 break;
             case LevelCondition.full:
-                if (correctAnswers == totalQuestions)
+                if (this.correctAnswers == totalQuestions)
                 {
-                    SendUnlockMessage();
+                    return true;
                 }
                 break;
             case LevelCondition.one:
-                if(correctAnswers > 0)
+                if (this.correctAnswers > 0)
                 {
-                    SendUnlockMessage();
+                    return true;
                 }
                 break;
             default:
-                break;
+                return false;
         }
-    }
-
-    private void SendUnlockMessage()
-    {
-        Messenger.Default.Publish(new UnlockLevelPayload(currentLevel.id));
+        return false;
     }
 
     public void StartGame(int questionCount)
     {
-        correctAwswers = 0;
+        correctAnswers = 0;
 
         this.questionCount = questionCount;
         currentQuestionIndex = 0;
