@@ -140,11 +140,30 @@ public class LevelSelectionScreen : MonoBehaviour
 
         //generate questions
 
+        if(currentSelectedLevel.handwrittenQuestionSet != null)
+        {
+            currentSelectedLevel.handwrittenQuestionSet.Initialize();
+        }
+
         List<Question> questions = new List<Question>();
+
+        List<string> toExclude = new List<string>();
 
         foreach (var questionTemplate in currentSelectedLevel.questionTemplates)
         {
-            questions.Add(questionGenerator.FromTemplate(questionTemplate));
+            Question question = null;
+
+            if(questionTemplate.ContentType == QuestionTemplate.QuestionContent.handwriten)
+            {
+                question = currentSelectedLevel.handwrittenQuestionSet.GetQuestion(toExclude);
+                toExclude.Add(question.Id);
+            }
+            else
+            {
+                question = questionGenerator.FromTemplate(questionTemplate);
+            }
+
+            questions.Add(question);
         }
 
 

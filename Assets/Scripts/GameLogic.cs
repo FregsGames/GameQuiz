@@ -80,6 +80,10 @@ public class GameLogic : MonoBehaviour
         if(answer != null && currentQuestion.CorrectAnswer == answer.Answer)
         {
             correctAnswers++;
+            if (currentQuestion.Handwritten)
+            {
+                SaveManager.instance.Save(currentQuestion.Id, 1); // Set as answered
+            }
         }
 
         if (currentQuestionIndex < questionCount)

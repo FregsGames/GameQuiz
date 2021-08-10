@@ -58,6 +58,7 @@ public class Levels : Singleton<Levels>
         public string id;
         public string levelTitle;
         public string levelDesc;
+        public HandwrittenQuestionSet handwrittenQuestionSet;
         public List<QuestionTemplate> questionTemplates;
         public LevelState state;
         public bool alwaysUnlocked = false;

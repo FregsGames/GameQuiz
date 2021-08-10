@@ -81,7 +81,7 @@ namespace Questions
                 otherOptions.Add(gamesDB.GetRandomGameFromYear(year, searchOnThatYear: false).name);
             }
 
-            return new Question($"Game from {year}", correctAnswer.name, otherOptions);
+            return new Question("", $"Game from {year}", correctAnswer.name, otherOptions);
         }
 
         public Question GameNotFromYear(int options = 4, int difficulty = 1)
@@ -98,7 +98,7 @@ namespace Questions
             Game correctAnswer = gamesDB.GetRandomGameFromYear(year, searchOnThatYear: false);
 
 
-            return new Question($"Game NOT from {year}", correctAnswer.name, gamesNotFromYear.Select(s => s.name).ToList());
+            return new Question("", $"Game NOT from {year}", correctAnswer.name, gamesNotFromYear.Select(s => s.name).ToList());
         }
 
         public Question GameFromCompany(int options = 4, int difficulty = 1)
@@ -119,7 +119,7 @@ namespace Questions
                 otherOptions.Add(gamesDB.GetFromCompany(involvedCompanyID, searchOnThatCompany: false).name);
             }
 
-            return new Question($"Game developed or published by {randomCompnay.name}", choosenGame.name, otherOptions);
+            return new Question("", $"Game developed or published by {randomCompnay.name}", choosenGame.name, otherOptions);
 
         }
 
@@ -149,7 +149,7 @@ namespace Questions
                 otherOptions.Add(gamesDB.GetFromPlatform(platform.id, searchOnThatPlatform: false).name); // could be the same
             }
 
-            return new Question($"{platform.name} game", correctAnswer.name, otherOptions);
+            return new Question("", $"{platform.name} game", correctAnswer.name, otherOptions);
         }
     }
 }

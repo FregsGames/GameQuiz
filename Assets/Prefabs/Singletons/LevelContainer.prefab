@@ -48,17 +48,12 @@ MonoBehaviour:
     level:
       levelTitle: Nivel cero
       levelDesc: "Este es el nivel n\xFAmero cero."
+      handwrittenQuestionSet: {fileID: 11400000, guid: 4d317cf1ea1f24f4ebb4c8f857a6b51d, type: 2}
       questionTemplates:
-      - contentType: 1
+      - contentType: 4
         structureType: 1
         extraData: 1
-      - contentType: 2
-        structureType: 1
-        extraData: 1
-      - contentType: 5
-        structureType: 1
-        extraData: 1
-      - contentType: 3
+      - contentType: 4
         structureType: 1
         extraData: 1
       state: 1
@@ -68,6 +63,7 @@ MonoBehaviour:
     level:
       levelTitle: Nivel uno
       levelDesc: "Este es el nivel n\xFAmero cero."
+      handwrittenQuestionSet: {fileID: 0}
       questionTemplates:
       - contentType: 1
         structureType: 1
@@ -88,6 +84,7 @@ MonoBehaviour:
     level:
       levelTitle: Nivel dos
       levelDesc: "Este es el nivel n\xFAmero cero."
+      handwrittenQuestionSet: {fileID: 0}
       questionTemplates:
       - contentType: 1
         structureType: 1
@@ -108,6 +105,7 @@ MonoBehaviour:
     level:
       levelTitle: Nivel uno de la copa 2
       levelDesc: Este es el nivel uno de la segunda copa.
+      handwrittenQuestionSet: {fileID: 0}
       questionTemplates:
       - contentType: 1
         structureType: 1
