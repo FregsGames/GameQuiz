@@ -220,8 +220,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: GAME QUIZ
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 009c0b2d9d8a3314b9025bb1a26498d5, type: 2}
-  m_sharedMaterial: {fileID: -5937847785566323303, guid: 009c0b2d9d8a3314b9025bb1a26498d5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 538755676d30f194099f2fac62bc01f8, type: 2}
+  m_sharedMaterial: {fileID: 8907708188704849006, guid: 538755676d30f194099f2fac62bc01f8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -240,18 +240,18 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
+  m_TextStyleHashCode: 97690656
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 84.88
-  m_fontSizeBase: 84.88
+  m_fontSize: 188.3
+  m_fontSizeBase: 229.5
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontSizeMax: 300
+  m_fontStyle: 32
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -355,8 +355,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Options
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 009c0b2d9d8a3314b9025bb1a26498d5, type: 2}
-  m_sharedMaterial: {fileID: -5937847785566323303, guid: 009c0b2d9d8a3314b9025bb1a26498d5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 88d33c2725dd1d148b7f7aa004d09372, type: 2}
+  m_sharedMaterial: {fileID: -2321413061916306350, guid: 88d33c2725dd1d148b7f7aa004d09372, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -380,8 +380,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.4
-  m_fontSizeBase: 44.4
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -840,8 +840,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Play
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 009c0b2d9d8a3314b9025bb1a26498d5, type: 2}
-  m_sharedMaterial: {fileID: -5937847785566323303, guid: 009c0b2d9d8a3314b9025bb1a26498d5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 88d33c2725dd1d148b7f7aa004d09372, type: 2}
+  m_sharedMaterial: {fileID: -2321413061916306350, guid: 88d33c2725dd1d148b7f7aa004d09372, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -865,8 +865,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.4
-  m_fontSizeBase: 44.4
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1238,8 +1238,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Created by  @nacho13t
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c43215e7cefc2d944abb8b5d0c4e7e24, type: 2}
-  m_sharedMaterial: {fileID: 1724418896586206078, guid: c43215e7cefc2d944abb8b5d0c4e7e24, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 538755676d30f194099f2fac62bc01f8, type: 2}
+  m_sharedMaterial: {fileID: 8907708188704849006, guid: 538755676d30f194099f2fac62bc01f8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1263,13 +1263,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 54.8
-  m_fontSizeBase: 54.8
+  m_fontSize: 70
+  m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535

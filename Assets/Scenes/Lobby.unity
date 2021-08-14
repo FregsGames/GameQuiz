@@ -321,8 +321,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: PLAY
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 009c0b2d9d8a3314b9025bb1a26498d5, type: 2}
-  m_sharedMaterial: {fileID: -5937847785566323303, guid: 009c0b2d9d8a3314b9025bb1a26498d5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 88d33c2725dd1d148b7f7aa004d09372, type: 2}
+  m_sharedMaterial: {fileID: -2321413061916306350, guid: 88d33c2725dd1d148b7f7aa004d09372, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -346,8 +346,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 57.8
-  m_fontSizeBase: 57.8
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -414,6 +414,14 @@ PrefabInstance:
     - target: {fileID: 1192424174314353131, guid: f185f147beffa9b499071b2662dfeb53, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: CupSelectionScreen, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661494652741651314, guid: f185f147beffa9b499071b2662dfeb53, type: 3}
+      propertyPath: m_fontSize
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1661494652741651314, guid: f185f147beffa9b499071b2662dfeb53, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3666624614043932756, guid: f185f147beffa9b499071b2662dfeb53, type: 3}
       propertyPath: m_Name
@@ -789,8 +797,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 009c0b2d9d8a3314b9025bb1a26498d5, type: 2}
-  m_sharedMaterial: {fileID: -5937847785566323303, guid: 009c0b2d9d8a3314b9025bb1a26498d5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 88d33c2725dd1d148b7f7aa004d09372, type: 2}
+  m_sharedMaterial: {fileID: -2321413061916306350, guid: 88d33c2725dd1d148b7f7aa004d09372, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -853,7 +861,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &399109718
@@ -923,8 +931,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: <
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0c4c010f470ad8b43bc3bbcd1db21f8f, type: 2}
+  m_sharedMaterial: {fileID: 7288657524543068567, guid: 0c4c010f470ad8b43bc3bbcd1db21f8f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -948,12 +956,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 71.9
-  m_fontSizeBase: 71.9
+  m_fontSize: 114.1
+  m_fontSizeBase: 106
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 300
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -1767,8 +1775,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '>'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c43215e7cefc2d944abb8b5d0c4e7e24, type: 2}
-  m_sharedMaterial: {fileID: 1724418896586206078, guid: c43215e7cefc2d944abb8b5d0c4e7e24, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0c4c010f470ad8b43bc3bbcd1db21f8f, type: 2}
+  m_sharedMaterial: {fileID: 7288657524543068567, guid: 0c4c010f470ad8b43bc3bbcd1db21f8f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1792,13 +1800,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 420
-  m_fontSizeBase: 420
+  m_fontSize: 301.8
+  m_fontSizeBase: 301.8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontSizeMax: 400
+  m_fontStyle: 0
   m_HorizontalAlignment: 4
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -2063,8 +2071,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: CUP_NAME
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 009c0b2d9d8a3314b9025bb1a26498d5, type: 2}
-  m_sharedMaterial: {fileID: -5937847785566323303, guid: 009c0b2d9d8a3314b9025bb1a26498d5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 88d33c2725dd1d148b7f7aa004d09372, type: 2}
+  m_sharedMaterial: {fileID: -2321413061916306350, guid: 88d33c2725dd1d148b7f7aa004d09372, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2127,7 +2135,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &2001842322
@@ -2281,8 +2289,8 @@ MonoBehaviour:
   m_text: "Description of the level. bla bla bla palabras, texto, etc etc etc mas
     texto y m\xE1s palabras"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 009c0b2d9d8a3314b9025bb1a26498d5, type: 2}
-  m_sharedMaterial: {fileID: -5937847785566323303, guid: 009c0b2d9d8a3314b9025bb1a26498d5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 88d33c2725dd1d148b7f7aa004d09372, type: 2}
+  m_sharedMaterial: {fileID: -2321413061916306350, guid: 88d33c2725dd1d148b7f7aa004d09372, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2345,7 +2353,7 @@ MonoBehaviour:
   m_margin: {x: 50, y: 20, z: 50, w: 20}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &2059719603
@@ -2415,8 +2423,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: <
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c43215e7cefc2d944abb8b5d0c4e7e24, type: 2}
-  m_sharedMaterial: {fileID: 1724418896586206078, guid: c43215e7cefc2d944abb8b5d0c4e7e24, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0c4c010f470ad8b43bc3bbcd1db21f8f, type: 2}
+  m_sharedMaterial: {fileID: 7288657524543068567, guid: 0c4c010f470ad8b43bc3bbcd1db21f8f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2440,13 +2448,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 420
-  m_fontSizeBase: 420
+  m_fontSize: 301.8
+  m_fontSizeBase: 301.8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontSizeMax: 400
+  m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -2498,33 +2506,9 @@ PrefabInstance:
     m_TransformParent: {fileID: 177496028}
     m_Modifications:
     - target: {fileID: 1192424174314353131, guid: f185f147beffa9b499071b2662dfeb53, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1192424174314353131, guid: f185f147beffa9b499071b2662dfeb53, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1192424174314353131, guid: f185f147beffa9b499071b2662dfeb53, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 470897920}
-    - target: {fileID: 1192424174314353131, guid: f185f147beffa9b499071b2662dfeb53, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1192424174314353131, guid: f185f147beffa9b499071b2662dfeb53, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SelectCup
-      objectReference: {fileID: 0}
-    - target: {fileID: 1192424174314353131, guid: f185f147beffa9b499071b2662dfeb53, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: CupSelectionScreen, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 1192424174314353131, guid: f185f147beffa9b499071b2662dfeb53, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: MenuManager, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 3666624614043932756, guid: f185f147beffa9b499071b2662dfeb53, type: 3}
       propertyPath: m_Name
       value: CupSection
@@ -2612,30 +2596,6 @@ PrefabInstance:
     - target: {fileID: 3666624614043932757, guid: f185f147beffa9b499071b2662dfeb53, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5597080568128350756, guid: f185f147beffa9b499071b2662dfeb53, type: 3}
-      propertyPath: m_fontSize
-      value: 95
-      objectReference: {fileID: 0}
-    - target: {fileID: 5597080568128350756, guid: f185f147beffa9b499071b2662dfeb53, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 95
-      objectReference: {fileID: 0}
-    - target: {fileID: 8873343902116160069, guid: f185f147beffa9b499071b2662dfeb53, type: 3}
-      propertyPath: m_Type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8873343902116160069, guid: f185f147beffa9b499071b2662dfeb53, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 5353362635029247211, guid: dfea2997fadc8d1478321e18a5d0931c, type: 3}
-    - target: {fileID: 8873343902116160069, guid: f185f147beffa9b499071b2662dfeb53, type: 3}
-      propertyPath: m_PreserveAspect
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9134222295733230729, guid: f185f147beffa9b499071b2662dfeb53, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f185f147beffa9b499071b2662dfeb53, type: 3}

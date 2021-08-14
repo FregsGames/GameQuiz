@@ -1,6 +1,7 @@
 ﻿
 using System.Collections.Generic;
 
+[System.Serializable]
 public class Platform
 {
     public int id;

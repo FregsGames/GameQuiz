@@ -1,4 +1,4 @@
-﻿class Platforms
+﻿public class Platforms
 {
     public Platform[] platforms;
 }

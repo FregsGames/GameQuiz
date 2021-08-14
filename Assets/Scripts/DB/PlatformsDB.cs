@@ -25,5 +25,4 @@ public class PlatformsDB : Singleton<PlatformsDB>
         }
     }
 
-
 }
