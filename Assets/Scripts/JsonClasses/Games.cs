@@ -1,4 +1,4 @@
-﻿    class Games
+﻿    public class Games
     {
         public Game[] games;
     }

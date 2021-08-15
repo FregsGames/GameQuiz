@@ -6,6 +6,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "GamesContainer", menuName = "ScriptableObjects/Games")]
 public class GamesContainer : ScriptableObject
 {
+    [SerializeField]
     public List<Game> allGames = new List<Game>();
 
     public void AddGame(Game game)

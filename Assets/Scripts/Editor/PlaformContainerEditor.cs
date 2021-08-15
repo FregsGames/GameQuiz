@@ -80,7 +80,7 @@ public class PlaformContainerEditor : Editor
                     }
                 }
 
-                if (GUILayout.Button("Games"))
+                if (GUILayout.Button($"Games ({plat.games.Count})"))
                 {
                     {
                         showingGames = true;
