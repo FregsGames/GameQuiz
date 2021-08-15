@@ -46,7 +46,7 @@ public class JsonProcessorEditor : EditorWindow
                 AssetDatabase.SaveAssets();
                 break;
             case JsonType.Games:
-                // Probably, give the option to create a new file with just these games, add games to GLOBAL CONTANER, or both
+
                 break;
             case JsonType.Companies:
                 break;
