@@ -1,4 +1,5 @@
 ﻿using System;
+using UnityEngine;
 
 [Serializable]
 public class Game
@@ -11,5 +12,6 @@ public class Game
     public int[] platforms;
     public double rating;
 
+    [SerializeField]
     public DateTime realDate;
 }

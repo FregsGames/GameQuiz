@@ -17,8 +17,19 @@ public class PlatformsContainer : ScriptableObject
         }
     }
 
+    public void ClearAllGames()
+    {
+        foreach (var plat in allPlatforms)
+        {
+            plat.games.Clear();
+        }
+    }
+
     public void AddGame(Game game)
     {
+        if (game.platforms == null)
+            return;
+
         foreach (var plat in game.platforms)
         {
             Platform platform = allPlatforms.FirstOrDefault(p => p.id == plat);
@@ -26,6 +37,15 @@ public class PlatformsContainer : ScriptableObject
             {
                 platform.games.Add(game);
             }
+        }
+    }
+
+    public void OnGameDeleted(int id)
+    {
+        foreach (var plat in allPlatforms.Where(g => g.games.FirstOrDefault(gm => gm.id == id) != null))
+        {
+            Game game = plat.games.FirstOrDefault(gm => gm.id == id);
+            plat.games.Remove(game);
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using System;
 using UnityEditor;
 using UnityEngine;
 
@@ -31,26 +32,29 @@ public class JsonProcessor : EditorWindow
 
         if (GUILayout.Button("Process"))
         {
+            EditorUtility.SetDirty(this);
             Process();
         }
     }
 
     private void Process()
     {
+        gamesContainer.OnGameDeleted = platformsContainer.OnGameDeleted;
+        gamesContainer.OnAllGamesDeleted = platformsContainer.ClearAllGames;
+
         switch (jsonType)
         {
             case JsonType.Platforms:
-                AssetDatabase.Refresh();
-                EditorUtility.SetDirty(platformsContainer);
+                Undo.RecordObject(platformsContainer, "Platform container read");
                 ReadPlatforms();
-                AssetDatabase.SaveAssets();
+                EditorUtility.SetDirty(platformsContainer);
                 break;
             case JsonType.Games:
-                AssetDatabase.Refresh();
-                EditorUtility.SetDirty(gamesContainer);
-                EditorUtility.SetDirty(platformsContainer);
+                Undo.RecordObject(gamesContainer, "Games container read");
+                Undo.RecordObject(platformsContainer, "Platform container read");
                 ReadGames();
-                AssetDatabase.SaveAssets();
+                EditorUtility.SetDirty(platformsContainer);
+                EditorUtility.SetDirty(gamesContainer);
                 break;
             case JsonType.Companies:
                 break;
@@ -68,6 +72,10 @@ public class JsonProcessor : EditorWindow
 
         foreach (Game game in games.games)
         {
+            DateTime dtDateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc);
+            dtDateTime = dtDateTime.AddSeconds(game.first_release_date).ToLocalTime();
+            game.realDate = dtDateTime;
+
             gamesContainer.AddGame(game);
             platformsContainer.AddGame(game);
         }

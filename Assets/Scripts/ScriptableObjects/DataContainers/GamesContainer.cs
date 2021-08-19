@@ -1,7 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 [CreateAssetMenu(fileName = "GamesContainer", menuName = "ScriptableObjects/Games")]
 public class GamesContainer : ScriptableObject
@@ -9,12 +11,23 @@ public class GamesContainer : ScriptableObject
     [SerializeField]
     public List<Game> allGames = new List<Game>();
 
+
+    public Action<int> OnGameDeleted;
+    public Action OnAllGamesDeleted;
+
     public void AddGame(Game game)
     {
+        Debug.Log(game.name);
         if (!allGames.Contains(game))
         {
             allGames.Add(game);
         }
+    }
+
+    public void Clear()
+    {
+        allGames.Clear();
+        OnAllGamesDeleted?.Invoke();
     }
 
     public Game GetFromCompany(int company, bool searchOnThatCompany)
@@ -63,5 +76,10 @@ public class GamesContainer : ScriptableObject
         }
 
         return result;
+    }
+
+    public void RemoveDuplicates()
+    {
+        allGames = allGames.GroupBy(x => x.id).Select(y => y.First()).ToList();
     }
 }
