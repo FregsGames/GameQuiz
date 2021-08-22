@@ -1,0 +1,737 @@
+[
+  {
+    "id": 5561,
+    "category": 0,
+    "first_release_date": 846201600,
+    "involved_companies": [
+      13442
+    ],
+    "name": "Vandal Hearts",
+    "platforms": [
+      6,
+      7,
+      32
+    ]
+  },
+  {
+    "id": 5075,
+    "category": 0,
+    "first_release_date": 836524800,
+    "involved_companies": [
+      118099,
+      118100,
+      118101
+    ],
+    "name": "Nights into Dreams...",
+    "platforms": [
+      6,
+      8,
+      9,
+      12,
+      32
+    ]
+  },
+  {
+    "id": 8291,
+    "category": 0,
+    "first_release_date": 820368000,
+    "involved_companies": [
+      20266,
+      20267
+    ],
+    "name": "Discworld",
+    "platforms": [
+      7,
+      13,
+      32
+    ]
+  },
+  {
+    "id": 6980,
+    "category": 0,
+    "first_release_date": 694137600,
+    "involved_companies": [
+      16505
+    ],
+    "name": "Three Wonders",
+    "platforms": [
+      7,
+      32,
+      52
+    ]
+  },
+  {
+    "id": 1547,
+    "category": 0,
+    "first_release_date": 783648000,
+    "involved_companies": [
+      20804,
+      20805,
+      20806
+    ],
+    "name": "Virtua Fighter 2",
+    "platforms": [
+      5,
+      6,
+      8,
+      9,
+      12,
+      29,
+      32,
+      52
+    ]
+  },
+  {
+    "id": 673,
+    "category": 0,
+    "first_release_date": 755481600,
+    "involved_companies": [
+      19609,
+      19610,
+      19611,
+      19612,
+      19613,
+      19614,
+      19615,
+      19616,
+      19618,
+      23065,
+      43076,
+      43077,
+      43078,
+      43079,
+      107662,
+      107663,
+      107664,
+      133661
+    ],
+    "name": "DOOM",
+    "platforms": [
+      3,
+      6,
+      7,
+      12,
+      13,
+      14,
+      19,
+      24,
+      30,
+      32,
+      39,
+      48,
+      49,
+      50,
+      58,
+      62,
+      130
+    ]
+  },
+  {
+    "id": 5502,
+    "category": 10,
+    "first_release_date": 820368000,
+    "involved_companies": [
+      13329,
+      13330
+    ],
+    "name": "Transport Tycoon Deluxe",
+    "platforms": [
+      7,
+      13,
+      32
+    ]
+  },
+  {
+    "id": 6788,
+    "category": 0,
+    "first_release_date": 778377600,
+    "involved_companies": [
+      124512,
+      124513,
+      124514,
+      124515,
+      124516
+    ],
+    "name": "Darius Gaiden",
+    "platforms": [
+      6,
+      7,
+      32,
+      52
+    ]
+  },
+  {
+    "id": 5550,
+    "category": 0,
+    "first_release_date": 812937600,
+    "involved_companies": [
+      37779,
+      37780,
+      37781,
+      37782,
+      37783
+    ],
+    "name": "Tactics Ogre: Let Us Cling Together",
+    "platforms": [
+      7,
+      19,
+      32,
+      38,
+      47
+    ]
+  },
+  {
+    "id": 5422,
+    "category": 0,
+    "first_release_date": 896313600,
+    "involved_companies": [
+      13143,
+      13144,
+      13145,
+      13146
+    ],
+    "name": "Radiant Silvergun",
+    "platforms": [
+      12,
+      32,
+      52
+    ]
+  },
+  {
+    "id": 1665,
+    "category": 0,
+    "first_release_date": 815184000,
+    "involved_companies": [
+      20349,
+      20350,
+      20352,
+      55015,
+      126540
+    ],
+    "name": "DonPachi",
+    "platforms": [
+      7,
+      9,
+      32,
+      52
+    ]
+  },
+  {
+    "id": 1447,
+    "category": 0,
+    "first_release_date": 818985600,
+    "involved_companies": [
+      3094,
+      3095
+    ],
+    "name": "Suikoden",
+    "platforms": [
+      6,
+      7,
+      32
+    ]
+  },
+  {
+    "id": 2968,
+    "category": 0,
+    "first_release_date": 828057600,
+    "involved_companies": [
+      7275,
+      7276
+    ],
+    "name": "Dragon Force",
+    "platforms": [
+      8,
+      9,
+      32
+    ]
+  },
+  {
+    "id": 23094,
+    "category": 11,
+    "first_release_date": 862876800,
+    "name": "Pocket Fighter",
+    "platforms": [
+      7,
+      32,
+      57
+    ]
+  },
+  {
+    "id": 4415,
+    "category": 0,
+    "first_release_date": 768182400,
+    "involved_companies": [
+      20559,
+      20560,
+      20562,
+      21374
+    ],
+    "name": "Magic Carpet",
+    "platforms": [
+      6,
+      7,
+      9,
+      13,
+      14,
+      32
+    ]
+  },
+  {
+    "id": 3578,
+    "category": 0,
+    "first_release_date": 820454400,
+    "involved_companies": [
+      104029
+    ],
+    "name": "Puyo Puyo SUN",
+    "platforms": [
+      4,
+      6,
+      22,
+      32,
+      33,
+      52
+    ]
+  },
+  {
+    "id": 1666,
+    "category": 0,
+    "first_release_date": 855100800,
+    "involved_companies": [
+      13638,
+      13639,
+      126533
+    ],
+    "name": "DoDonPachi",
+    "platforms": [
+      7,
+      32,
+      52
+    ]
+  },
+  {
+    "id": 647,
+    "category": 0,
+    "first_release_date": 809827200,
+    "involved_companies": [
+      1519,
+      1520,
+      2083,
+      2084,
+      91420
+    ],
+    "name": "Command \u0026 Conquer",
+    "platforms": [
+      4,
+      6,
+      7,
+      13,
+      14,
+      32
+    ]
+  },
+  {
+    "id": 1671,
+    "category": 0,
+    "first_release_date": 886032000,
+    "involved_companies": [
+      20904,
+      20905
+    ],
+    "name": "Panzer Dragoon Saga",
+    "platforms": [
+      32
+    ]
+  },
+  {
+    "id": 6704,
+    "category": 0,
+    "first_release_date": 899078400,
+    "involved_companies": [
+      15923
+    ],
+    "name": "Street Fighter Alpha 3",
+    "platforms": [
+      7,
+      23,
+      24,
+      32,
+      38,
+      52
+    ]
+  },
+  {
+    "id": 6684,
+    "category": 0,
+    "first_release_date": 511660800,
+    "involved_companies": [
+      47239,
+      47240,
+      47241,
+      47242,
+      94551,
+      94552
+    ],
+    "name": "Fantasy Zone",
+    "platforms": [
+      5,
+      18,
+      27,
+      32,
+      37,
+      52,
+      64,
+      86,
+      121
+    ]
+  },
+  {
+    "id": 45506,
+    "category": 0,
+    "first_release_date": 870307200,
+    "involved_companies": [
+      70901,
+      70902
+    ],
+    "name": "Herc\u0027s Adventures",
+    "platforms": [
+      7,
+      32
+    ]
+  },
+  {
+    "id": 817,
+    "category": 0,
+    "first_release_date": 846720000,
+    "involved_companies": [
+      1816,
+      2269,
+      2270,
+      2271,
+      2272
+    ],
+    "name": "NHL 97",
+    "platforms": [
+      6,
+      7,
+      19,
+      29,
+      32
+    ]
+  },
+  {
+    "id": 4290,
+    "category": 0,
+    "first_release_date": 775440000,
+    "involved_companies": [
+      81361
+    ],
+    "name": "Policenauts",
+    "platforms": [
+      7,
+      9,
+      32,
+      50,
+      149
+    ]
+  },
+  {
+    "id": 21838,
+    "category": 0,
+    "first_release_date": 851990400,
+    "involved_companies": [
+      45185
+    ],
+    "name": "Guardian Heroes",
+    "platforms": [
+      12,
+      32
+    ]
+  },
+  {
+    "id": 1253,
+    "category": 0,
+    "first_release_date": 857001600,
+    "involved_companies": [
+      2800,
+      19489,
+      19490
+    ],
+    "name": "The Lost Vikings 2",
+    "platforms": [
+      6,
+      7,
+      19,
+      32
+    ]
+  },
+  {
+    "id": 20298,
+    "category": 0,
+    "first_release_date": 788832000,
+    "involved_companies": [
+      76471
+    ],
+    "name": "Revolution X",
+    "platforms": [
+      6,
+      7,
+      19,
+      29,
+      32,
+      52
+    ]
+  },
+  {
+    "id": 28396,
+    "category": 0,
+    "first_release_date": 881798400,
+    "involved_companies": [
+      46383
+    ],
+    "name": "Shining Force III",
+    "platforms": [
+      32
+    ]
+  },
+  {
+    "id": 1669,
+    "category": 0,
+    "first_release_date": 827452800,
+    "involved_companies": [
+      20937,
+      20938
+    ],
+    "name": "Panzer Dragoon II Zwei",
+    "platforms": [
+      32
+    ]
+  },
+  {
+    "id": 39299,
+    "category": 0,
+    "first_release_date": 883526400,
+    "involved_companies": [
+      59705,
+      60230,
+      111841,
+      111842
+    ],
+    "name": "Strikers 1945 II",
+    "platforms": [
+      7,
+      32,
+      34,
+      39,
+      52,
+      130
+    ]
+  },
+  {
+    "id": 912,
+    "category": 0,
+    "first_release_date": 846201600,
+    "involved_companies": [
+      21227,
+      42061,
+      143531,
+      143532
+    ],
+    "name": "Tomb Raider",
+    "platforms": [
+      6,
+      7,
+      9,
+      13,
+      32,
+      38,
+      42,
+      46
+    ]
+  },
+  {
+    "id": 705,
+    "category": 0,
+    "first_release_date": 852076800,
+    "involved_companies": [
+      2210,
+      5400,
+      5401,
+      5402,
+      5403,
+      5404
+    ],
+    "name": "FIFA: Road to World Cup 98",
+    "platforms": [
+      4,
+      6,
+      7,
+      19,
+      29,
+      32,
+      33
+    ]
+  },
+  {
+    "id": 1128,
+    "category": 0,
+    "first_release_date": 858816000,
+    "involved_companies": [
+      94424
+    ],
+    "name": "Castlevania: Symphony of the Night",
+    "platforms": [
+      7,
+      12,
+      32,
+      34,
+      39
+    ]
+  },
+  {
+    "id": 130,
+    "category": 0,
+    "first_release_date": 818467200,
+    "involved_companies": [
+      19462,
+      19464,
+      19465,
+      69108,
+      69109
+    ],
+    "name": "Warcraft II: Tides of Darkness",
+    "platforms": [
+      6,
+      7,
+      13,
+      14,
+      32
+    ]
+  },
+  {
+    "id": 131,
+    "category": 2,
+    "first_release_date": 830822400,
+    "involved_companies": [
+      19468,
+      19469,
+      19470,
+      19471
+    ],
+    "name": "Warcraft II: Beyond the Dark Portal",
+    "platforms": [
+      6,
+      7,
+      13,
+      14,
+      32
+    ]
+  },
+  {
+    "id": 333,
+    "category": 0,
+    "first_release_date": 835401600,
+    "involved_companies": [
+      1009,
+      1011,
+      103611,
+      103612,
+      103615,
+      103616,
+      103617,
+      103618,
+      103619,
+      103620,
+      103623,
+      103624,
+      103625
+    ],
+    "name": "Quake",
+    "platforms": [
+      3,
+      4,
+      6,
+      13,
+      14,
+      16,
+      32,
+      55,
+      240
+    ]
+  },
+  {
+    "id": 1404,
+    "category": 0,
+    "first_release_date": 822009600,
+    "involved_companies": [
+      98414,
+      126717,
+      126718
+    ],
+    "name": "Metal Slug",
+    "platforms": [
+      5,
+      6,
+      7,
+      32,
+      34,
+      39,
+      47,
+      52,
+      79,
+      80,
+      130,
+      136
+    ]
+  },
+  {
+    "id": 1744,
+    "category": 0,
+    "first_release_date": 870393600,
+    "involved_companies": [
+      20834,
+      20835
+    ],
+    "name": "Mega Man X4",
+    "platforms": [
+      6,
+      7,
+      32,
+      55
+    ]
+  },
+  {
+    "id": 342,
+    "category": 0,
+    "first_release_date": 822873600,
+    "involved_companies": [
+      556,
+      557,
+      558,
+      559,
+      560,
+      561,
+      562,
+      563,
+      564,
+      565,
+      34962,
+      34963
+    ],
+    "name": "Duke Nukem 3D",
+    "platforms": [
+      6,
+      7,
+      9,
+      12,
+      13,
+      14,
+      29,
+      32,
+      39,
+      46,
+      48
+    ]
+  }
+]

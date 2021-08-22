@@ -1,0 +1,887 @@
+[
+  {
+    "id": 1175,
+    "category": 0,
+    "first_release_date": 860716800,
+    "involved_companies": [
+      2856,
+      2857,
+      2858,
+      2859
+    ],
+    "name": "Alundra",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 19418,
+    "category": 0,
+    "first_release_date": 846720000,
+    "involved_companies": [
+      35840
+    ],
+    "name": "Soviet Strike",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 20654,
+    "category": 0,
+    "first_release_date": 849312000,
+    "involved_companies": [
+      59834,
+      59835,
+      59836
+    ],
+    "name": "Disruptor",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 18683,
+    "category": 4,
+    "first_release_date": 938649600,
+    "involved_companies": [
+      34510
+    ],
+    "name": "Metal Gear Solid VR Missions",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 43914,
+    "category": 0,
+    "first_release_date": 901756800,
+    "involved_companies": [
+      115499,
+      115500
+    ],
+    "name": "Vanguard Bandits",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 18943,
+    "category": 0,
+    "first_release_date": 954201600,
+    "involved_companies": [
+      106210,
+      106211,
+      106212
+    ],
+    "name": "Jackie Chan: Stuntmaster",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 19678,
+    "category": 0,
+    "first_release_date": 1023235200,
+    "involved_companies": [
+      36607
+    ],
+    "name": "Digimon World 3",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 4119,
+    "category": 0,
+    "first_release_date": 954460800,
+    "involved_companies": [
+      10680,
+      10681
+    ],
+    "name": "Speed Punks",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 1804,
+    "category": 0,
+    "first_release_date": 942883200,
+    "involved_companies": [
+      94303
+    ],
+    "name": "Chrono Cross",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 4140,
+    "category": 0,
+    "first_release_date": 917481600,
+    "involved_companies": [
+      10749,
+      10750,
+      10751,
+      10752
+    ],
+    "name": "Bloody Roar 2",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 36508,
+    "category": 0,
+    "first_release_date": 964656000,
+    "involved_companies": [
+      48106,
+      48107
+    ],
+    "name": "Digimon World 2",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 26130,
+    "category": 0,
+    "first_release_date": 907113600,
+    "involved_companies": [
+      105967,
+      105968,
+      105969,
+      105970,
+      105971
+    ],
+    "name": "Cool Boarders 3",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 1810,
+    "category": 0,
+    "first_release_date": 900547200,
+    "involved_companies": [
+      18343,
+      18344,
+      18345
+    ],
+    "name": "Brave Fencer Musashi",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 45106,
+    "category": 0,
+    "first_release_date": 927244800,
+    "involved_companies": [
+      60380
+    ],
+    "name": "3Xtreme",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 423,
+    "category": 3,
+    "first_release_date": 938649600,
+    "involved_companies": [
+      5152,
+      5153,
+      5154
+    ],
+    "name": "Final Fantasy Anthology",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 14691,
+    "category": 0,
+    "first_release_date": 804470400,
+    "involved_companies": [
+      28447,
+      28448
+    ],
+    "name": "Air Combat",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 14750,
+    "category": 0,
+    "first_release_date": 864950400,
+    "involved_companies": [
+      29914,
+      29915
+    ],
+    "name": "Ace Combat 2",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 44998,
+    "category": 8,
+    "first_release_date": 979516800,
+    "involved_companies": [
+      66117,
+      115505,
+      115506
+    ],
+    "name": "Lunar 2: Eternal Blue Complete",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 4002,
+    "category": 0,
+    "first_release_date": 956102400,
+    "involved_companies": [
+      10378,
+      10379
+    ],
+    "name": "MediEvil 2",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 44884,
+    "category": 0,
+    "first_release_date": 1004140800,
+    "name": "Looney Tunes: Sheep Raider",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 18786,
+    "category": 0,
+    "first_release_date": 913248000,
+    "involved_companies": [
+      34725,
+      34726,
+      34727
+    ],
+    "name": "Bomberman: Party Edition",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 1818,
+    "category": 0,
+    "first_release_date": 967248000,
+    "involved_companies": [
+      24060,
+      24061,
+      24062,
+      24063
+    ],
+    "name": "Dragon Quest VII",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 4169,
+    "category": 0,
+    "first_release_date": 943920000,
+    "involved_companies": [
+      25568,
+      25569,
+      25570
+    ],
+    "name": "Koudelka",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 10610,
+    "category": 11,
+    "first_release_date": 974160000,
+    "involved_companies": [
+      95473,
+      95474
+    ],
+    "name": "Donald Duck: Goin\u0027 Quackers",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 3259,
+    "category": 0,
+    "first_release_date": 970531200,
+    "involved_companies": [
+      8500,
+      8501,
+      8502,
+      95819
+    ],
+    "name": "Muppet RaceMania",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 4697,
+    "category": 0,
+    "first_release_date": 909792000,
+    "involved_companies": [
+      11280
+    ],
+    "name": "Twisted Metal III",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 4698,
+    "category": 0,
+    "first_release_date": 941328000,
+    "involved_companies": [
+      11281,
+      11282
+    ],
+    "name": "Twisted Metal 4",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 1578,
+    "category": 0,
+    "first_release_date": 972432000,
+    "involved_companies": [
+      10972,
+      10973
+    ],
+    "name": "Spyro: Year of the Dragon",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 18698,
+    "category": 0,
+    "first_release_date": 849571200,
+    "involved_companies": [
+      34535
+    ],
+    "name": "Rage Racer",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 14986,
+    "category": 0,
+    "first_release_date": 931996800,
+    "involved_companies": [
+      29431
+    ],
+    "name": "Legend of Mana",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 4117,
+    "category": 0,
+    "first_release_date": 1005004800,
+    "involved_companies": [
+      127364,
+      127365
+    ],
+    "name": "Syphon Filter 3",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 4959,
+    "category": 0,
+    "first_release_date": 881798400,
+    "involved_companies": [
+      11944
+    ],
+    "name": "Klonoa: Door to Phantomile",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 43702,
+    "category": 0,
+    "first_release_date": 1071446400,
+    "name": "Digimon World 2003",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 43729,
+    "category": 0,
+    "first_release_date": 946512000,
+    "name": "Music 2000",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 24009,
+    "category": 0,
+    "first_release_date": 924739200,
+    "involved_companies": [
+      39584,
+      39585
+    ],
+    "name": "Omega Boost",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 4133,
+    "category": 0,
+    "first_release_date": 1007596800,
+    "involved_companies": [
+      10730,
+      10731
+    ],
+    "name": "Digimon Rumble Arena",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 4113,
+    "category": 0,
+    "first_release_date": 888451200,
+    "involved_companies": [
+      105983,
+      105984,
+      105986
+    ],
+    "name": "Tenchu: Stealth Assassins",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 9678,
+    "category": 0,
+    "first_release_date": 900028800,
+    "involved_companies": [
+      24538,
+      127246
+    ],
+    "name": "Roll Away",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 44819,
+    "category": 0,
+    "first_release_date": 997574400,
+    "involved_companies": [
+      84409,
+      84410
+    ],
+    "name": "Digimon Digital Card Battle",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 417,
+    "category": 3,
+    "first_release_date": 1036022400,
+    "involved_companies": [
+      881,
+      5162,
+      5163
+    ],
+    "name": "Final Fantasy Origins",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 3127,
+    "category": 0,
+    "first_release_date": 885081600,
+    "involved_companies": [
+      115502,
+      115503
+    ],
+    "name": "Brigandine: The Legend of Forsena",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 4104,
+    "category": 0,
+    "first_release_date": 869702400,
+    "involved_companies": [
+      10642,
+      10643
+    ],
+    "name": "Monster Rancher",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 13676,
+    "category": 0,
+    "first_release_date": 909619200,
+    "involved_companies": [
+      27191,
+      27192
+    ],
+    "name": "Legend of Legaia",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 2814,
+    "category": 0,
+    "first_release_date": 1014940800,
+    "involved_companies": [
+      6793,
+      6794
+    ],
+    "name": "Dexter\u0027s Laboratory: Mandark\u0027s Lab?",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 44837,
+    "category": 0,
+    "first_release_date": 839116800,
+    "name": "Sonic Wings Special",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 10917,
+    "category": 0,
+    "first_release_date": 886204800,
+    "involved_companies": [
+      24049,
+      24050,
+      24051,
+      24052
+    ],
+    "name": "Skullmonkeys",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 11210,
+    "category": 0,
+    "first_release_date": 901756800,
+    "involved_companies": [
+      27317,
+      27318,
+      27319
+    ],
+    "name": "Star Ocean: The Second Story",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 8336,
+    "category": 0,
+    "first_release_date": 869097600,
+    "involved_companies": [
+      20509,
+      20510,
+      20511
+    ],
+    "name": "Ghost in the Shell",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 1540,
+    "category": 0,
+    "first_release_date": 936748800,
+    "involved_companies": [
+      20313
+    ],
+    "name": "Wipeout 3",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 3998,
+    "category": 0,
+    "first_release_date": 945820800,
+    "involved_companies": [
+      10364,
+      10365
+    ],
+    "name": "Valkyrie Profile",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 4114,
+    "category": 0,
+    "first_release_date": 966297600,
+    "involved_companies": [
+      10670,
+      105985
+    ],
+    "name": "Tenchu 2: Birth of the Stealth Assassins",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 4139,
+    "category": 0,
+    "first_release_date": 922838400,
+    "involved_companies": [
+      10747,
+      10748
+    ],
+    "name": "Bust a Groove 2",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 1419,
+    "category": 0,
+    "first_release_date": 890265600,
+    "involved_companies": [
+      19536,
+      19537,
+      19538,
+      19539
+    ],
+    "name": "Bushido Blade 2",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 4144,
+    "category": 0,
+    "first_release_date": 868492800,
+    "involved_companies": [
+      10760,
+      10761,
+      10762
+    ],
+    "name": "Armored Core",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 14751,
+    "category": 0,
+    "first_release_date": 927763200,
+    "involved_companies": [
+      29916,
+      70532
+    ],
+    "name": "Ace Combat 3: Electrosphere",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 1597,
+    "category": 0,
+    "first_release_date": 944870400,
+    "involved_companies": [
+      19837,
+      19838
+    ],
+    "name": "Gran Turismo 2",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 3140,
+    "category": 0,
+    "first_release_date": 944092800,
+    "involved_companies": [
+      65259,
+      65260
+    ],
+    "name": "The Legend of Dragoon",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 4130,
+    "category": 0,
+    "first_release_date": 907113600,
+    "involved_companies": [
+      10722,
+      10723,
+      10724
+    ],
+    "name": "Duke Nukem: Time to Kill",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 4106,
+    "category": 0,
+    "first_release_date": 919900800,
+    "involved_companies": [
+      98063
+    ],
+    "name": "Monster Rancher 2",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 26143,
+    "category": 0,
+    "first_release_date": 907113600,
+    "involved_companies": [
+      42203,
+      42204
+    ],
+    "name": "Rogue Trip: Vacation 2012",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 1594,
+    "category": 0,
+    "first_release_date": 882835200,
+    "involved_companies": [
+      19836,
+      107600,
+      107601
+    ],
+    "name": "Gran Turismo",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 28403,
+    "category": 0,
+    "first_release_date": 926380800,
+    "involved_companies": [
+      46402,
+      46403
+    ],
+    "name": "ISS Pro Evolution",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 18681,
+    "category": 0,
+    "first_release_date": 967075200,
+    "involved_companies": [
+      34506,
+      34507
+    ],
+    "name": "ISS Pro Evolution Soccer 2",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 341,
+    "category": 0,
+    "first_release_date": 1005782400,
+    "involved_companies": [
+      81606,
+      81607
+    ],
+    "name": "Harry Potter and the Sorcerer\u0027s Stone",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 4118,
+    "category": 0,
+    "first_release_date": 1003449600,
+    "involved_companies": [
+      10678,
+      10679
+    ],
+    "name": "Spider-Man 2 : Enter Electro",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 44994,
+    "category": 0,
+    "first_release_date": 959558400,
+    "involved_companies": [
+      83360
+    ],
+    "name": "Army Men: World War",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 480,
+    "category": 0,
+    "first_release_date": 917740800,
+    "involved_companies": [
+      21011,
+      99100
+    ],
+    "name": "Silent Hill",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 1577,
+    "category": 0,
+    "first_release_date": 941500800,
+    "involved_companies": [
+      15818,
+      15819
+    ],
+    "name": "Spyro 2: Ripto\u0027s Rage!",
+    "platforms": [
+      7
+    ]
+  }
+]

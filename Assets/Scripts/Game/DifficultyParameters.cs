@@ -5,11 +5,9 @@ using UnityEngine.UI;
 
 public class DifficultyParameters : Singleton<DifficultyParameters>
 {
-
-
     private Dictionary<int, Vector2Int> years = new Dictionary<int, Vector2Int>()
     {
-        {1, new Vector2Int(2015, 2020) },
+        {1, new Vector2Int(1985, 2020) }, // check
         {2, new Vector2Int(2000, 2020) },
         { 3, new Vector2Int(1985, 2020)}
     };
@@ -29,7 +27,7 @@ public class DifficultyParameters : Singleton<DifficultyParameters>
     {
         if (platforms.ContainsKey(difficulty))
         {
-            return platforms[difficulty];
+            return platforms[3]; //check
         }
         else
         {

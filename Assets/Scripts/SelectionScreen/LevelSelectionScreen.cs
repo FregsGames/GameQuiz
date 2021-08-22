@@ -42,6 +42,8 @@ public class LevelSelectionScreen : MonoBehaviour
 
     private QuestionGenerator questionGenerator;
 
+    private Cup currentCup;
+
 
     public bool IsActive { get { return levelContainter.activeSelf; } }
 
@@ -63,6 +65,8 @@ public class LevelSelectionScreen : MonoBehaviour
     public void Setup(Cup cup)
     {
         buttons.Clear();
+
+        currentCup = cup;
 
         ClearGrid();
         levelContainter.SetActive(true);
@@ -138,8 +142,6 @@ public class LevelSelectionScreen : MonoBehaviour
         }
         yield return null;
 
-        //generate questions
-
         if(currentSelectedLevel.handwrittenQuestionSet != null)
         {
             currentSelectedLevel.handwrittenQuestionSet.Initialize();
@@ -148,6 +150,8 @@ public class LevelSelectionScreen : MonoBehaviour
         List<Question> questions = new List<Question>();
 
         List<string> toExclude = new List<string>();
+
+        questionGenerator.CurrentGamesContainer = currentCup.gamesContainer;
 
         foreach (var questionTemplate in currentSelectedLevel.questionTemplates)
         {
@@ -165,7 +169,6 @@ public class LevelSelectionScreen : MonoBehaviour
 
             questions.Add(question);
         }
-
 
         FindObjectOfType<GameLogic>().StartGame(currentSelectedLevel, questions, 20f);
 

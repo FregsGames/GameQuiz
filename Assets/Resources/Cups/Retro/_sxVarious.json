@@ -1,0 +1,1609 @@
+[
+  {
+    "id": 1187,
+    "category": 0,
+    "first_release_date": 909792000,
+    "involved_companies": [
+      119768,
+      119769,
+      119770
+    ],
+    "name": "Crash Bandicoot: Warped",
+    "platforms": [
+      7,
+      9,
+      38
+    ]
+  },
+  {
+    "id": 45319,
+    "category": 0,
+    "first_release_date": 966988800,
+    "involved_companies": [
+      61171
+    ],
+    "name": "Magical Drop 3",
+    "platforms": [
+      5,
+      7
+    ]
+  },
+  {
+    "id": 5561,
+    "category": 0,
+    "first_release_date": 846201600,
+    "involved_companies": [
+      13442
+    ],
+    "name": "Vandal Hearts",
+    "platforms": [
+      6,
+      7,
+      32
+    ]
+  },
+  {
+    "id": 1156,
+    "category": 0,
+    "first_release_date": 878256000,
+    "involved_companies": [
+      7041,
+      7042
+    ],
+    "name": "Tomb Raider II",
+    "platforms": [
+      6,
+      7,
+      9,
+      14,
+      38,
+      46
+    ]
+  },
+  {
+    "id": 8291,
+    "category": 0,
+    "first_release_date": 820368000,
+    "involved_companies": [
+      20266,
+      20267
+    ],
+    "name": "Discworld",
+    "platforms": [
+      7,
+      13,
+      32
+    ]
+  },
+  {
+    "id": 6980,
+    "category": 0,
+    "first_release_date": 694137600,
+    "involved_companies": [
+      16505
+    ],
+    "name": "Three Wonders",
+    "platforms": [
+      7,
+      32,
+      52
+    ]
+  },
+  {
+    "id": 5568,
+    "category": 0,
+    "first_release_date": 942537600,
+    "involved_companies": [
+      100183,
+      100184,
+      100215
+    ],
+    "name": "40 Winks",
+    "platforms": [
+      4,
+      6,
+      7
+    ]
+  },
+  {
+    "id": 6692,
+    "category": 0,
+    "first_release_date": 938563200,
+    "involved_companies": [
+      15898,
+      15902,
+      15903,
+      15904,
+      42791,
+      42792,
+      42793
+    ],
+    "name": "Tony Hawk\u0027s Pro Skater",
+    "platforms": [
+      4,
+      7,
+      22,
+      23,
+      42
+    ]
+  },
+  {
+    "id": 20654,
+    "category": 0,
+    "first_release_date": 849312000,
+    "involved_companies": [
+      59834,
+      59835,
+      59836
+    ],
+    "name": "Disruptor",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 902,
+    "category": 0,
+    "first_release_date": 662688000,
+    "involved_companies": [
+      1955,
+      5001
+    ],
+    "name": "Sid Meier\u0027s Civilization",
+    "platforms": [
+      6,
+      7,
+      13,
+      14,
+      16,
+      19,
+      63
+    ]
+  },
+  {
+    "id": 5404,
+    "category": 0,
+    "first_release_date": 780969600,
+    "involved_companies": [
+      13096,
+      13097,
+      13098,
+      13099,
+      13100
+    ],
+    "name": "Mickey Mania: The Timeless Adventures of Mickey Mouse",
+    "platforms": [
+      7,
+      19,
+      29,
+      78
+    ]
+  },
+  {
+    "id": 21840,
+    "category": 0,
+    "first_release_date": 938736000,
+    "involved_companies": [
+      71565,
+      92489
+    ],
+    "name": "Mr. Driller",
+    "platforms": [
+      6,
+      7,
+      22,
+      23,
+      52,
+      123
+    ]
+  },
+  {
+    "id": 1192,
+    "category": 0,
+    "first_release_date": 938649600,
+    "involved_companies": [
+      2820,
+      2821
+    ],
+    "name": "Crash Team Racing",
+    "platforms": [
+      7,
+      9
+    ]
+  },
+  {
+    "id": 1186,
+    "category": 0,
+    "first_release_date": 878256000,
+    "involved_companies": [
+      119765,
+      119766,
+      119767
+    ],
+    "name": "Crash Bandicoot 2: Cortex Strikes Back",
+    "platforms": [
+      7,
+      9,
+      38
+    ]
+  },
+  {
+    "id": 43914,
+    "category": 0,
+    "first_release_date": 901756800,
+    "involved_companies": [
+      115499,
+      115500
+    ],
+    "name": "Vanguard Bandits",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 3440,
+    "category": 0,
+    "first_release_date": 938476800,
+    "involved_companies": [
+      8966
+    ],
+    "name": "Army Men: Sarge\u0027s Heroes",
+    "platforms": [
+      4,
+      6,
+      7,
+      23
+    ]
+  },
+  {
+    "id": 20712,
+    "category": 0,
+    "first_release_date": 791596800,
+    "involved_companies": [
+      78588
+    ],
+    "name": "Tetris Plus",
+    "platforms": [
+      7,
+      33,
+      52
+    ]
+  },
+  {
+    "id": 793,
+    "category": 0,
+    "first_release_date": 949276800,
+    "involved_companies": [
+      1775,
+      1776,
+      2241
+    ],
+    "name": "Mobil 1 Rally Championship",
+    "platforms": [
+      6,
+      7
+    ]
+  },
+  {
+    "id": 8293,
+    "category": 0,
+    "first_release_date": 931132800,
+    "involved_companies": [
+      20270,
+      20271
+    ],
+    "name": "Discworld Noir",
+    "platforms": [
+      6,
+      7
+    ]
+  },
+  {
+    "id": 673,
+    "category": 0,
+    "first_release_date": 755481600,
+    "involved_companies": [
+      19609,
+      19610,
+      19611,
+      19612,
+      19613,
+      19614,
+      19615,
+      19616,
+      19618,
+      23065,
+      43076,
+      43077,
+      43078,
+      43079,
+      107662,
+      107663,
+      107664,
+      133661
+    ],
+    "name": "DOOM",
+    "platforms": [
+      3,
+      6,
+      7,
+      12,
+      13,
+      14,
+      19,
+      24,
+      30,
+      32,
+      39,
+      48,
+      49,
+      50,
+      58,
+      62,
+      130
+    ]
+  },
+  {
+    "id": 1150,
+    "category": 0,
+    "first_release_date": 878256000,
+    "involved_companies": [
+      2692,
+      2693,
+      18961,
+      95828
+    ],
+    "name": "Broken Sword II: The Smoking Mirror",
+    "platforms": [
+      6,
+      7
+    ]
+  },
+  {
+    "id": 5502,
+    "category": 10,
+    "first_release_date": 820368000,
+    "involved_companies": [
+      13329,
+      13330
+    ],
+    "name": "Transport Tycoon Deluxe",
+    "platforms": [
+      7,
+      13,
+      32
+    ]
+  },
+  {
+    "id": 1804,
+    "category": 0,
+    "first_release_date": 942883200,
+    "involved_companies": [
+      94303
+    ],
+    "name": "Chrono Cross",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 6788,
+    "category": 0,
+    "first_release_date": 778377600,
+    "involved_companies": [
+      124512,
+      124513,
+      124514,
+      124515,
+      124516
+    ],
+    "name": "Darius Gaiden",
+    "platforms": [
+      6,
+      7,
+      32,
+      52
+    ]
+  },
+  {
+    "id": 3053,
+    "category": 0,
+    "first_release_date": 928108800,
+    "involved_companies": [
+      7727,
+      7728
+    ],
+    "name": "Bugs Bunny: Lost in Time",
+    "platforms": [
+      6,
+      7
+    ]
+  },
+  {
+    "id": 4000,
+    "category": 0,
+    "first_release_date": 907200000,
+    "involved_companies": [
+      25901,
+      25902
+    ],
+    "name": "MediEvil",
+    "platforms": [
+      7,
+      9,
+      46
+    ]
+  },
+  {
+    "id": 626,
+    "category": 0,
+    "first_release_date": 867628800,
+    "involved_companies": [
+      8316,
+      8318,
+      60043
+    ],
+    "name": "Carmageddon",
+    "platforms": [
+      6,
+      7,
+      13,
+      14,
+      34,
+      39
+    ]
+  },
+  {
+    "id": 5550,
+    "category": 0,
+    "first_release_date": 812937600,
+    "involved_companies": [
+      37779,
+      37780,
+      37781,
+      37782,
+      37783
+    ],
+    "name": "Tactics Ogre: Let Us Cling Together",
+    "platforms": [
+      7,
+      19,
+      32,
+      38,
+      47
+    ]
+  },
+  {
+    "id": 18699,
+    "category": 0,
+    "first_release_date": 912643200,
+    "involved_companies": [
+      34536
+    ],
+    "name": "Ridge Racer Type 4",
+    "platforms": [
+      7,
+      9,
+      38,
+      46
+    ]
+  },
+  {
+    "id": 423,
+    "category": 3,
+    "first_release_date": 938649600,
+    "involved_companies": [
+      5152,
+      5153,
+      5154
+    ],
+    "name": "Final Fantasy Anthology",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 699,
+    "category": 0,
+    "first_release_date": 897436800,
+    "involved_companies": [
+      1608,
+      2209
+    ],
+    "name": "FIFA 99",
+    "platforms": [
+      4,
+      6,
+      7
+    ]
+  },
+  {
+    "id": 14750,
+    "category": 0,
+    "first_release_date": 864950400,
+    "involved_companies": [
+      29914,
+      29915
+    ],
+    "name": "Ace Combat 2",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 1454,
+    "category": 0,
+    "first_release_date": 913852800,
+    "involved_companies": [
+      3096
+    ],
+    "name": "Suikoden II",
+    "platforms": [
+      6,
+      7,
+      9,
+      38,
+      46
+    ]
+  },
+  {
+    "id": 1677,
+    "category": 0,
+    "first_release_date": 851040000,
+    "involved_companies": [
+      16122,
+      28409
+    ],
+    "name": "Wild Arms",
+    "platforms": [
+      7,
+      9,
+      38,
+      46
+    ]
+  },
+  {
+    "id": 44998,
+    "category": 8,
+    "first_release_date": 979516800,
+    "involved_companies": [
+      66117,
+      115505,
+      115506
+    ],
+    "name": "Lunar 2: Eternal Blue Complete",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 1665,
+    "category": 0,
+    "first_release_date": 815184000,
+    "involved_companies": [
+      20349,
+      20350,
+      20352,
+      55015,
+      126540
+    ],
+    "name": "DonPachi",
+    "platforms": [
+      7,
+      9,
+      32,
+      52
+    ]
+  },
+  {
+    "id": 843,
+    "category": 0,
+    "first_release_date": 941155200,
+    "involved_companies": [
+      1857,
+      2304,
+      2305,
+      2306,
+      2307
+    ],
+    "name": "Rayman 2: The Great Escape",
+    "platforms": [
+      4,
+      6,
+      7,
+      22,
+      23,
+      39
+    ]
+  },
+  {
+    "id": 642,
+    "category": 0,
+    "first_release_date": 962928000,
+    "involved_companies": [
+      18709,
+      73303,
+      73304,
+      73305
+    ],
+    "name": "Colin McRae Rally 2.0",
+    "platforms": [
+      6,
+      7,
+      24
+    ]
+  },
+  {
+    "id": 9335,
+    "category": 0,
+    "first_release_date": 946684800,
+    "involved_companies": [
+      24500,
+      98212
+    ],
+    "name": "Worms Pinball",
+    "platforms": [
+      6,
+      7
+    ]
+  },
+  {
+    "id": 4002,
+    "category": 0,
+    "first_release_date": 956102400,
+    "involved_companies": [
+      10378,
+      10379
+    ],
+    "name": "MediEvil 2",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 24413,
+    "category": 0,
+    "first_release_date": 857174400,
+    "involved_companies": [
+      39919,
+      39920,
+      39921,
+      39922,
+      39923
+    ],
+    "name": "Micro Machines V3",
+    "platforms": [
+      6,
+      7,
+      22
+    ]
+  },
+  {
+    "id": 1447,
+    "category": 0,
+    "first_release_date": 818985600,
+    "involved_companies": [
+      3094,
+      3095
+    ],
+    "name": "Suikoden",
+    "platforms": [
+      6,
+      7,
+      32
+    ]
+  },
+  {
+    "id": 1258,
+    "category": 0,
+    "first_release_date": 939686400,
+    "involved_companies": [
+      101482,
+      101483
+    ],
+    "name": "South Park: Chef\u0027s Luv Shack",
+    "platforms": [
+      4,
+      6,
+      7,
+      23
+    ]
+  },
+  {
+    "id": 23094,
+    "category": 11,
+    "first_release_date": 862876800,
+    "name": "Pocket Fighter",
+    "platforms": [
+      7,
+      32,
+      57
+    ]
+  },
+  {
+    "id": 8246,
+    "category": 0,
+    "first_release_date": 884563200,
+    "involved_companies": [
+      20070,
+      100141
+    ],
+    "name": "Marvel vs. Capcom: Clash of Super Heroes",
+    "platforms": [
+      7,
+      9,
+      12,
+      23,
+      52
+    ]
+  },
+  {
+    "id": 1818,
+    "category": 0,
+    "first_release_date": 967248000,
+    "involved_companies": [
+      24060,
+      24061,
+      24062,
+      24063
+    ],
+    "name": "Dragon Quest VII",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 4415,
+    "category": 0,
+    "first_release_date": 768182400,
+    "involved_companies": [
+      20559,
+      20560,
+      20562,
+      21374
+    ],
+    "name": "Magic Carpet",
+    "platforms": [
+      6,
+      7,
+      9,
+      13,
+      14,
+      32
+    ]
+  },
+  {
+    "id": 3380,
+    "category": 0,
+    "first_release_date": 945302400,
+    "involved_companies": [
+      8821,
+      119686
+    ],
+    "name": "Harvest Moon: Back to Nature",
+    "platforms": [
+      7,
+      9,
+      38,
+      46
+    ]
+  },
+  {
+    "id": 426,
+    "category": 0,
+    "first_release_date": 765244800,
+    "involved_companies": [
+      19596,
+      19597,
+      95829,
+      125717,
+      125718,
+      125719,
+      125720
+    ],
+    "name": "Final Fantasy VI",
+    "platforms": [
+      5,
+      6,
+      7,
+      58
+    ]
+  },
+  {
+    "id": 1624,
+    "category": 0,
+    "first_release_date": 855014400,
+    "involved_companies": [
+      6012,
+      6013,
+      6014,
+      19096
+    ],
+    "name": "Theme Hospital",
+    "platforms": [
+      6,
+      7,
+      13
+    ]
+  },
+  {
+    "id": 1666,
+    "category": 0,
+    "first_release_date": 855100800,
+    "involved_companies": [
+      13638,
+      13639,
+      126533
+    ],
+    "name": "DoDonPachi",
+    "platforms": [
+      7,
+      32,
+      52
+    ]
+  },
+  {
+    "id": 3259,
+    "category": 0,
+    "first_release_date": 970531200,
+    "involved_companies": [
+      8500,
+      8501,
+      8502,
+      95819
+    ],
+    "name": "Muppet RaceMania",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 24,
+    "category": 0,
+    "first_release_date": 765072000,
+    "involved_companies": [
+      107658,
+      107659,
+      107660
+    ],
+    "name": "X-COM: UFO Defense",
+    "platforms": [
+      6,
+      7,
+      13,
+      16
+    ]
+  },
+  {
+    "id": 285,
+    "category": 0,
+    "first_release_date": 883612800,
+    "involved_companies": [
+      1082,
+      1083,
+      1084
+    ],
+    "name": "Railroad Tycoon II",
+    "platforms": [
+      3,
+      6,
+      7,
+      14,
+      23
+    ]
+  },
+  {
+    "id": 1715,
+    "category": 0,
+    "first_release_date": 598924800,
+    "involved_companies": [
+      132218
+    ],
+    "name": "Mega Man 2",
+    "platforms": [
+      5,
+      7,
+      18,
+      37,
+      39,
+      41
+    ]
+  },
+  {
+    "id": 1843,
+    "category": 0,
+    "first_release_date": 936057600,
+    "involved_companies": [
+      95533,
+      95544,
+      95545
+    ],
+    "name": "Tom Clancy\u0027s Rainbow Six: Rogue Spear",
+    "platforms": [
+      6,
+      7,
+      14,
+      23,
+      24
+    ]
+  },
+  {
+    "id": 647,
+    "category": 0,
+    "first_release_date": 809827200,
+    "involved_companies": [
+      1519,
+      1520,
+      2083,
+      2084,
+      91420
+    ],
+    "name": "Command \u0026 Conquer",
+    "platforms": [
+      4,
+      6,
+      7,
+      13,
+      14,
+      32
+    ]
+  },
+  {
+    "id": 1578,
+    "category": 0,
+    "first_release_date": 972432000,
+    "involved_companies": [
+      10972,
+      10973
+    ],
+    "name": "Spyro: Year of the Dragon",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 18698,
+    "category": 0,
+    "first_release_date": 849571200,
+    "involved_companies": [
+      34535
+    ],
+    "name": "Rage Racer",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 14986,
+    "category": 0,
+    "first_release_date": 931996800,
+    "involved_companies": [
+      29431
+    ],
+    "name": "Legend of Mana",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 1502,
+    "category": 0,
+    "first_release_date": 936230400,
+    "involved_companies": [
+      101956,
+      101957,
+      101958,
+      101959,
+      101960,
+      101961
+    ],
+    "name": "Front Mission 3",
+    "platforms": [
+      7,
+      9,
+      38,
+      46
+    ]
+  },
+  {
+    "id": 8292,
+    "category": 0,
+    "first_release_date": 849312000,
+    "involved_companies": [
+      20268,
+      20269
+    ],
+    "name": "Discworld II: Missing Presumed...!?",
+    "platforms": [
+      6,
+      7
+    ]
+  },
+  {
+    "id": 4959,
+    "category": 0,
+    "first_release_date": 881798400,
+    "involved_companies": [
+      11944
+    ],
+    "name": "Klonoa: Door to Phantomile",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 10560,
+    "category": 0,
+    "first_release_date": 872985600,
+    "involved_companies": [
+      35680,
+      35681
+    ],
+    "name": "Moto Racer",
+    "platforms": [
+      6,
+      7
+    ]
+  },
+  {
+    "id": 43702,
+    "category": 0,
+    "first_release_date": 1071446400,
+    "name": "Digimon World 2003",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 157,
+    "category": 0,
+    "first_release_date": 793929600,
+    "involved_companies": [
+      20537,
+      20538,
+      20539,
+      20540,
+      20541
+    ],
+    "name": "Star Wars: Dark Forces",
+    "platforms": [
+      6,
+      7,
+      13,
+      14
+    ]
+  },
+  {
+    "id": 43729,
+    "category": 0,
+    "first_release_date": 946512000,
+    "name": "Music 2000",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 6704,
+    "category": 0,
+    "first_release_date": 899078400,
+    "involved_companies": [
+      15923
+    ],
+    "name": "Street Fighter Alpha 3",
+    "platforms": [
+      7,
+      23,
+      24,
+      32,
+      38,
+      52
+    ]
+  },
+  {
+    "id": 634,
+    "category": 0,
+    "first_release_date": 825552000,
+    "involved_companies": [
+      26293,
+      26294
+    ],
+    "name": "Sid Meier\u0027s Civilization II",
+    "platforms": [
+      6,
+      7,
+      14
+    ]
+  },
+  {
+    "id": 25,
+    "category": 0,
+    "first_release_date": 788918400,
+    "involved_companies": [
+      107654,
+      107655
+    ],
+    "name": "X-COM: Terror From The Deep",
+    "platforms": [
+      6,
+      7,
+      13
+    ]
+  },
+  {
+    "id": 3045,
+    "category": 0,
+    "first_release_date": 967766400,
+    "involved_companies": [
+      7687,
+      7688
+    ],
+    "name": "Bugs Bunny \u0026 Taz: Time Busters",
+    "platforms": [
+      6,
+      7
+    ]
+  },
+  {
+    "id": 8001,
+    "category": 0,
+    "first_release_date": 915062400,
+    "involved_companies": [
+      18779,
+      18780
+    ],
+    "name": "TOCA 2: Touring Car Challenge",
+    "platforms": [
+      6,
+      7
+    ]
+  },
+  {
+    "id": 8002,
+    "category": 0,
+    "first_release_date": 967075200,
+    "involved_companies": [
+      18781,
+      18782,
+      18783
+    ],
+    "name": "TOCA World Touring Cars",
+    "platforms": [
+      7,
+      24
+    ]
+  },
+  {
+    "id": 45506,
+    "category": 0,
+    "first_release_date": 870307200,
+    "involved_companies": [
+      70901,
+      70902
+    ],
+    "name": "Herc\u0027s Adventures",
+    "platforms": [
+      7,
+      32
+    ]
+  },
+  {
+    "id": 6294,
+    "category": 0,
+    "first_release_date": 986515200,
+    "involved_companies": [
+      14990,
+      14991,
+      14994,
+      14995,
+      14996,
+      14997,
+      17358,
+      98292
+    ],
+    "name": "Worms World Party",
+    "platforms": [
+      6,
+      7,
+      23,
+      24,
+      42
+    ]
+  },
+  {
+    "id": 817,
+    "category": 0,
+    "first_release_date": 846720000,
+    "involved_companies": [
+      1816,
+      2269,
+      2270,
+      2271,
+      2272
+    ],
+    "name": "NHL 97",
+    "platforms": [
+      6,
+      7,
+      19,
+      29,
+      32
+    ]
+  },
+  {
+    "id": 8515,
+    "category": 0,
+    "first_release_date": 780969600,
+    "involved_companies": [
+      21082,
+      21083,
+      21084,
+      21085,
+      21086
+    ],
+    "name": "Little Big Adventure",
+    "platforms": [
+      6,
+      7,
+      13,
+      14,
+      34,
+      39
+    ]
+  },
+  {
+    "id": 4290,
+    "category": 0,
+    "first_release_date": 775440000,
+    "involved_companies": [
+      81361
+    ],
+    "name": "Policenauts",
+    "platforms": [
+      7,
+      9,
+      32,
+      50,
+      149
+    ]
+  },
+  {
+    "id": 1000,
+    "category": 0,
+    "first_release_date": 911260800,
+    "involved_companies": [
+      63949,
+      113091,
+      113092
+    ],
+    "name": "Oddworld: Abe\u0027s Exoddus",
+    "platforms": [
+      6,
+      7,
+      9,
+      22,
+      38,
+      46
+    ]
+  },
+  {
+    "id": 4126,
+    "category": 0,
+    "first_release_date": 854668800,
+    "involved_companies": [
+      10705,
+      10706
+    ],
+    "name": "Intelligent Qube",
+    "platforms": [
+      7,
+      55
+    ]
+  },
+  {
+    "id": 11235,
+    "category": 0,
+    "first_release_date": 904521600,
+    "involved_companies": [
+      108439,
+      108440
+    ],
+    "name": "Future Cop: LAPD",
+    "platforms": [
+      6,
+      7,
+      9,
+      14
+    ]
+  },
+  {
+    "id": 4113,
+    "category": 0,
+    "first_release_date": 888451200,
+    "involved_companies": [
+      105983,
+      105984,
+      105986
+    ],
+    "name": "Tenchu: Stealth Assassins",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 9678,
+    "category": 0,
+    "first_release_date": 900028800,
+    "involved_companies": [
+      24538,
+      127246
+    ],
+    "name": "Roll Away",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 6546,
+    "category": 0,
+    "first_release_date": 696816000,
+    "involved_companies": [
+      15547
+    ],
+    "name": "Mr. Gimmick",
+    "platforms": [
+      7,
+      18
+    ]
+  },
+  {
+    "id": 375,
+    "category": 0,
+    "first_release_date": 904780800,
+    "involved_companies": [
+      52250,
+      63900,
+      112682,
+      112683
+    ],
+    "name": "Metal Gear Solid",
+    "platforms": [
+      7,
+      9,
+      38
+    ]
+  },
+  {
+    "id": 15020,
+    "category": 0,
+    "first_release_date": 804470400,
+    "involved_companies": [
+      42645,
+      119750,
+      119751
+    ],
+    "name": "Arc the Lad",
+    "platforms": [
+      7,
+      9,
+      38,
+      46
+    ]
+  },
+  {
+    "id": 1253,
+    "category": 0,
+    "first_release_date": 857001600,
+    "involved_companies": [
+      2800,
+      19489,
+      19490
+    ],
+    "name": "The Lost Vikings 2",
+    "platforms": [
+      6,
+      7,
+      19,
+      32
+    ]
+  },
+  {
+    "id": 3127,
+    "category": 0,
+    "first_release_date": 885081600,
+    "involved_companies": [
+      115502,
+      115503
+    ],
+    "name": "Brigandine: The Legend of Forsena",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 1498,
+    "category": 0,
+    "first_release_date": 793584000,
+    "involved_companies": [
+      29904
+    ],
+    "name": "Front Mission",
+    "platforms": [
+      7,
+      20,
+      58,
+      123
+    ]
+  },
+  {
+    "id": 13676,
+    "category": 0,
+    "first_release_date": 909619200,
+    "involved_companies": [
+      27191,
+      27192
+    ],
+    "name": "Legend of Legaia",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 8032,
+    "category": 0,
+    "first_release_date": 975024000,
+    "involved_companies": [
+      18883,
+      18884,
+      18885,
+      18886
+    ],
+    "name": "Tom and Jerry in House Trap",
+    "platforms": [
+      7,
+      22
+    ]
+  },
+  {
+    "id": 20298,
+    "category": 0,
+    "first_release_date": 788832000,
+    "involved_companies": [
+      76471
+    ],
+    "name": "Revolution X",
+    "platforms": [
+      6,
+      7,
+      19,
+      29,
+      32,
+      52
+    ]
+  },
+  {
+    "id": 3163,
+    "category": 0,
+    "first_release_date": 922233600,
+    "involved_companies": [
+      8135,
+      8136,
+      8137,
+      8138
+    ],
+    "name": "Rollcage Stage II",
+    "platforms": [
+      6,
+      7
+    ]
+  },
+  {
+    "id": 8397,
+    "category": 0,
+    "first_release_date": 567907200,
+    "involved_companies": [
+      20685,
+      53019,
+      53020
+    ],
+    "name": "International Karate +",
+    "platforms": [
+      5,
+      7,
+      15,
+      16,
+      24,
+      25,
+      26,
+      63,
+      114
+    ]
+  },
+  {
+    "id": 934,
+    "category": 0,
+    "first_release_date": 817776000,
+    "involved_companies": [
+      6174,
+      6175
+    ],
+    "name": "Wing Commander IV: The Price of Freedom",
+    "platforms": [
+      6,
+      7,
+      9,
+      13,
+      14
+    ]
+  },
+  {
+    "id": 1201,
+    "category": 0,
+    "first_release_date": 882835200,
+    "involved_companies": [
+      2903,
+      2904,
+      2905
+    ],
+    "name": "Tales of Destiny",
+    "platforms": [
+      7,
+      8
+    ]
+  },
+  {
+    "id": 11210,
+    "category": 0,
+    "first_release_date": 901756800,
+    "involved_companies": [
+      27317,
+      27318,
+      27319
+    ],
+    "name": "Star Ocean: The Second Story",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 1540,
+    "category": 0,
+    "first_release_date": 936748800,
+    "involved_companies": [
+      20313
+    ],
+    "name": "Wipeout 3",
+    "platforms": [
+      7
+    ]
+  },
+  {
+    "id": 6080,
+    "category": 0,
+    "first_release_date": 849830400,
+    "involved_companies": [
+      14620,
+      14621
+    ],
+    "name": "PaRappa the Rapper",
+    "platforms": [
+      7,
+      38
+    ]
+  },
+  {
+    "id": 1716,
+    "category": 0,
+    "first_release_date": 652752000,
+    "involved_companies": [
+      132031
+    ],
+    "name": "Mega Man 3",
+    "platforms": [
+      5,
+      7,
+      18,
+      37,
+      41
+    ]
+  }
+]

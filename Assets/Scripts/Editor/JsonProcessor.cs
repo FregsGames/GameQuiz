@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using System;
+using System.IO;
 using UnityEditor;
 using UnityEngine;
 
@@ -9,6 +10,7 @@ public class JsonProcessor : EditorWindow
 
     PlatformsContainer platformsContainer;
     GamesContainer gamesContainer;
+    CompaniesContainer companiesContainer;
 
     TextAsset json;
     JsonType jsonType;
@@ -24,6 +26,7 @@ public class JsonProcessor : EditorWindow
     {
         platformsContainer = (PlatformsContainer)EditorGUILayout.ObjectField(platformsContainer, typeof(PlatformsContainer), false);
         gamesContainer = (GamesContainer)EditorGUILayout.ObjectField(gamesContainer, typeof(GamesContainer), false);
+        companiesContainer = (CompaniesContainer)EditorGUILayout.ObjectField(companiesContainer, typeof(CompaniesContainer), false);
 
         GUILayout.Label("JSON Processor", EditorStyles.boldLabel);
         GUILayout.Label("JsonFile");
@@ -32,8 +35,60 @@ public class JsonProcessor : EditorWindow
 
         if (GUILayout.Button("Process"))
         {
-            EditorUtility.SetDirty(this);
             Process();
+        }
+
+        if (jsonType == JsonType.Games)
+        {
+            WriteInvolvedCompaniesRequest();
+        }
+
+        if (jsonType == JsonType.InvolvedCompanies)
+        {
+            WriteCompaniesRequest();
+        }
+    }
+
+    private void WriteCompaniesRequest()
+    {
+        if (GUILayout.Button("Generate Companies Request"))
+        {
+            string companiesRequest = "fields name, developed; where id = (";
+
+            Involved_Companies involved_companies = JsonConvert.DeserializeObject<Involved_Companies>(json.text);
+
+            foreach (Involved_Company inv in involved_companies.involved_Companies)
+            {
+                companiesRequest += $"{inv.company},";
+            }
+
+            companiesRequest = companiesRequest.Substring(0, companiesRequest.Length - 1); // remove last comma
+            companiesRequest += "); limit 500;";
+
+            File.WriteAllText(Application.persistentDataPath + "/requestCompaniesTemp.txt", companiesRequest);
+        }
+    }
+
+    private void WriteInvolvedCompaniesRequest()
+    {
+        if (GUILayout.Button("Generate Involved Request"))
+        {
+            string involvedCompaniesRequest = "fields company, developed; where id = (";
+
+            Games games = JsonConvert.DeserializeObject<Games>(json.text);
+
+            foreach (Game game in games.games)
+            {
+                foreach (var item in game.involved_companies)
+                {
+                    involvedCompaniesRequest += $"{item},";
+                }
+            }
+
+            involvedCompaniesRequest = involvedCompaniesRequest.Substring(0, involvedCompaniesRequest.Length - 1); // remove last comma
+            involvedCompaniesRequest += "); limit 500;";
+
+            File.WriteAllText(Application.persistentDataPath + "/requestInvolvedTemp.txt", involvedCompaniesRequest);
         }
     }
 
@@ -45,37 +100,69 @@ public class JsonProcessor : EditorWindow
         switch (jsonType)
         {
             case JsonType.Platforms:
-                Undo.RecordObject(platformsContainer, "Platform container read");
                 ReadPlatforms();
-                EditorUtility.SetDirty(platformsContainer);
                 break;
             case JsonType.Games:
-                Undo.RecordObject(gamesContainer, "Games container read");
-                Undo.RecordObject(platformsContainer, "Platform container read");
                 ReadGames();
-                EditorUtility.SetDirty(platformsContainer);
-                EditorUtility.SetDirty(gamesContainer);
                 break;
             case JsonType.Companies:
+                ReadCompanies();
                 break;
             case JsonType.InvolvedCompanies:
-                // Same as platforms
+                ReadInvolvedCompanies();
                 break;
             default:
                 break;
         }
     }
 
+    private void ReadCompanies()
+    {
+        string rawJson = json.text;
+
+        if (json.text[0] != '{')
+        {
+            rawJson = string.Concat("{\"Companies\":", rawJson, "}");
+        }
+
+        Companies companies = JsonConvert.DeserializeObject<Companies>(rawJson);
+
+        foreach (Company company in companies.companies)
+        {
+            companiesContainer.AddCompany(company);
+        }
+    }
+
+    private void ReadInvolvedCompanies()
+    {
+        string rawJson = json.text;
+
+        if (json.text[0] != '{')
+        {
+            rawJson = string.Concat("{\"Involved_Companies\":", rawJson, "}");
+        }
+
+        Involved_Companies companies = JsonConvert.DeserializeObject<Involved_Companies>(rawJson);
+
+        foreach (Involved_Company company in companies.involved_Companies)
+        {
+            companiesContainer.AddInvolvedCompany(company);
+        }
+    }
+
     private void ReadGames()
     {
-        Games games = JsonConvert.DeserializeObject<Games>(json.text);
+        string rawJson = json.text;
+
+        if (json.text[0] != '{')
+        {
+            rawJson = string.Concat("{\"Games\":", rawJson, "}");
+        }
+
+        Games games = JsonConvert.DeserializeObject<Games>(rawJson);
 
         foreach (Game game in games.games)
         {
-            DateTime dtDateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc);
-            dtDateTime = dtDateTime.AddSeconds(game.first_release_date).ToLocalTime();
-            game.realDate = dtDateTime;
-
             gamesContainer.AddGame(game);
             platformsContainer.AddGame(game);
         }
@@ -83,7 +170,14 @@ public class JsonProcessor : EditorWindow
 
     private void ReadPlatforms()
     {
-        Platforms platforms = JsonConvert.DeserializeObject<Platforms>(json.text);
+        string rawJson = json.text;
+
+        if (json.text[0] != '{')
+        {
+            rawJson = string.Concat("{\"Platforms\":", rawJson, "}");
+        }
+
+        Platforms platforms = JsonConvert.DeserializeObject<Platforms>(rawJson);
 
         foreach (Platform platform in platforms.platforms)
         {

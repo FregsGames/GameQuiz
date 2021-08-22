@@ -46,10 +46,11 @@ MonoBehaviour:
   cups:
   - cupID: cup_0
     cup:
-      title: Copa manzana
+      title: Copa Retro
       levels:
       - level_0_0
       - level_0_1
       - level_0_2
       cupImage: {fileID: 21300000, guid: 2230faa717739a845a208f45229809e8, type: 3}
       state: 1
+      gamesContainer: {fileID: 11400000, guid: 90284dc9afa6ea54099f9c5c1a2d60c0, type: 2}

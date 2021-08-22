@@ -57,6 +57,7 @@ public class Cups : Singleton<Cups>
         public List<string> levels;
         public Sprite cupImage;
         public CupState state;
+        public GamesContainer gamesContainer;
     }
 
     [Serializable]

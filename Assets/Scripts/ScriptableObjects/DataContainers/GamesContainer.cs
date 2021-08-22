@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -11,21 +10,43 @@ public class GamesContainer : ScriptableObject
     [SerializeField]
     public List<Game> allGames = new List<Game>();
 
-
     public Action<int> OnGameDeleted;
     public Action OnAllGamesDeleted;
 
+    public List<int> Years { get; set; } = new List<int>();
+    public List<int> Platforms { get; set; } = new List<int>();
+
+    public static DateTime GetDate(Game game)
+    {
+        DateTime dtDateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc);
+        dtDateTime = dtDateTime.AddSeconds(game.first_release_date).ToLocalTime();
+        return dtDateTime;
+    }
+
     public void AddGame(Game game)
     {
-        Debug.Log(game.name);
         if (!allGames.Contains(game))
         {
+            if (!Years.Contains(GetDate(game).Year))
+            {
+                Years.Add(GetDate(game).Year);
+            }
+
+            foreach (var plat in game.platforms)
+            {
+                if (!Platforms.Contains(plat))
+                {
+                    Platforms.Add(plat);
+                }
+            }
+
             allGames.Add(game);
         }
     }
 
     public void Clear()
     {
+        Years.Clear();
         allGames.Clear();
         OnAllGamesDeleted?.Invoke();
     }
@@ -48,14 +69,14 @@ public class GamesContainer : ScriptableObject
 
     public Game GetRandomGameFromYear(int year, bool searchOnThatYear)
     {
-        List<Game> games = allGames.Where(x => searchOnThatYear ? x.realDate.Year == year : x.realDate.Year != year).ToList();
+        List<Game> games = allGames.Where(x => searchOnThatYear ? GetDate(x).Year == year : GetDate(x).Year != year).ToList();
 
         return games[Random.Range(0, games.Count)];
     }
 
     public List<Game> GetXGamesFromYearX(int count, int year)
     {
-        List<Game> games = allGames.Where(x => x.realDate.Year == year).ToList();
+        List<Game> games = allGames.Where(x => GetDate(x).Year == year).ToList();
 
         if (games.Count < count)
             return new List<Game>();

@@ -47,10 +47,7 @@ public class GamesContainerEditor : Editor
 
             if (editing && editingId == gamesContainer.allGames[i].id)
             {
-                /*AssetDatabase.Refresh();
-                EditorUtility.SetDirty(gamesContainer);*/
                 gamesContainer.allGames[i].name = GUILayout.TextField(gamesContainer.allGames[i].name);
-                //AssetDatabase.SaveAssets();
             }
             else
             {
@@ -61,7 +58,7 @@ public class GamesContainerEditor : Editor
 
             GUILayout.BeginHorizontal();
             GUILayout.Label($"Date: ");
-            GUILayout.Label($"{gamesContainer.allGames[i].realDate:dd/MM/yyyy}");
+            GUILayout.Label($"{GamesContainer.GetDate(gamesContainer.allGames[i]):dd/MM/yyyy}");
             GUILayout.EndHorizontal();
 
             if (editing && editingId == gamesContainer.allGames[i].id)

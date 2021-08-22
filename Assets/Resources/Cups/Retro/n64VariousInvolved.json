@@ -1,0 +1,1439 @@
+{
+    "Involved_Companies": [
+        {
+            "id": 123,
+            "company": 10,
+            "developer": true
+        },
+        {
+            "id": 124,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 221,
+            "company": 107,
+            "developer": false
+        },
+        {
+            "id": 678,
+            "company": 10,
+            "developer": true
+        },
+        {
+            "id": 1218,
+            "company": 392,
+            "developer": true
+        },
+        {
+            "id": 1519,
+            "company": 141,
+            "developer": false
+        },
+        {
+            "id": 1520,
+            "company": 113,
+            "developer": true
+        },
+        {
+            "id": 1608,
+            "company": 454,
+            "developer": true
+        },
+        {
+            "id": 1642,
+            "company": 287,
+            "developer": false
+        },
+        {
+            "id": 1643,
+            "company": 532,
+            "developer": true
+        },
+        {
+            "id": 1808,
+            "company": 1,
+            "developer": false
+        },
+        {
+            "id": 1809,
+            "company": 327,
+            "developer": true
+        },
+        {
+            "id": 1857,
+            "company": 104,
+            "developer": false
+        },
+        {
+            "id": 2083,
+            "company": 112,
+            "developer": false
+        },
+        {
+            "id": 2084,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 2209,
+            "company": 1,
+            "developer": false
+        },
+        {
+            "id": 2304,
+            "company": 61,
+            "developer": true
+        },
+        {
+            "id": 2305,
+            "company": 702,
+            "developer": true
+        },
+        {
+            "id": 2306,
+            "company": 104,
+            "developer": true
+        },
+        {
+            "id": 2307,
+            "company": 165,
+            "developer": true
+        },
+        {
+            "id": 2334,
+            "company": 696,
+            "developer": true
+        },
+        {
+            "id": 2464,
+            "company": 421,
+            "developer": true
+        },
+        {
+            "id": 2806,
+            "company": 806,
+            "developer": true
+        },
+        {
+            "id": 2807,
+            "company": 287,
+            "developer": false
+        },
+        {
+            "id": 2814,
+            "company": 810,
+            "developer": true
+        },
+        {
+            "id": 2815,
+            "company": 811,
+            "developer": true
+        },
+        {
+            "id": 2816,
+            "company": 287,
+            "developer": false
+        },
+        {
+            "id": 2817,
+            "company": 812,
+            "developer": false
+        },
+        {
+            "id": 3042,
+            "company": 810,
+            "developer": true
+        },
+        {
+            "id": 3044,
+            "company": 287,
+            "developer": false
+        },
+        {
+            "id": 3066,
+            "company": 771,
+            "developer": true
+        },
+        {
+            "id": 3174,
+            "company": 771,
+            "developer": true
+        },
+        {
+            "id": 3175,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 5329,
+            "company": 864,
+            "developer": true
+        },
+        {
+            "id": 5330,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 5683,
+            "company": 327,
+            "developer": true
+        },
+        {
+            "id": 5685,
+            "company": 888,
+            "developer": true
+        },
+        {
+            "id": 6858,
+            "company": 66,
+            "developer": false
+        },
+        {
+            "id": 6859,
+            "company": 139,
+            "developer": false
+        },
+        {
+            "id": 6860,
+            "company": 292,
+            "developer": true
+        },
+        {
+            "id": 7327,
+            "company": 425,
+            "developer": true
+        },
+        {
+            "id": 7328,
+            "company": 327,
+            "developer": false
+        },
+        {
+            "id": 7734,
+            "company": 1295,
+            "developer": true
+        },
+        {
+            "id": 7735,
+            "company": 325,
+            "developer": true
+        },
+        {
+            "id": 7957,
+            "company": 1271,
+            "developer": true
+        },
+        {
+            "id": 8405,
+            "company": 810,
+            "developer": true
+        },
+        {
+            "id": 8406,
+            "company": 1642,
+            "developer": true
+        },
+        {
+            "id": 8407,
+            "company": 287,
+            "developer": false
+        },
+        {
+            "id": 8568,
+            "company": 1031,
+            "developer": true
+        },
+        {
+            "id": 8569,
+            "company": 4,
+            "developer": false
+        },
+        {
+            "id": 8570,
+            "company": 667,
+            "developer": false
+        },
+        {
+            "id": 8719,
+            "company": 327,
+            "developer": false
+        },
+        {
+            "id": 8720,
+            "company": 1746,
+            "developer": true
+        },
+        {
+            "id": 8724,
+            "company": 1748,
+            "developer": true
+        },
+        {
+            "id": 8735,
+            "company": 818,
+            "developer": false
+        },
+        {
+            "id": 8736,
+            "company": 1751,
+            "developer": true
+        },
+        {
+            "id": 8737,
+            "company": 818,
+            "developer": false
+        },
+        {
+            "id": 8738,
+            "company": 1751,
+            "developer": true
+        },
+        {
+            "id": 8749,
+            "company": 183,
+            "developer": false
+        },
+        {
+            "id": 8750,
+            "company": 1758,
+            "developer": true
+        },
+        {
+            "id": 8788,
+            "company": 1,
+            "developer": false
+        },
+        {
+            "id": 8789,
+            "company": 1046,
+            "developer": true
+        },
+        {
+            "id": 8815,
+            "company": 1767,
+            "developer": true
+        },
+        {
+            "id": 8816,
+            "company": 1768,
+            "developer": true
+        },
+        {
+            "id": 8897,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 8910,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 8912,
+            "company": 861,
+            "developer": true
+        },
+        {
+            "id": 8916,
+            "company": 1779,
+            "developer": true
+        },
+        {
+            "id": 8937,
+            "company": 536,
+            "developer": true
+        },
+        {
+            "id": 8938,
+            "company": 1783,
+            "developer": false
+        },
+        {
+            "id": 8939,
+            "company": 578,
+            "developer": false
+        },
+        {
+            "id": 8940,
+            "company": 251,
+            "developer": false
+        },
+        {
+            "id": 8941,
+            "company": 1784,
+            "developer": true
+        },
+        {
+            "id": 8945,
+            "company": 665,
+            "developer": true
+        },
+        {
+            "id": 8947,
+            "company": 327,
+            "developer": true
+        },
+        {
+            "id": 8948,
+            "company": 425,
+            "developer": true
+        },
+        {
+            "id": 8966,
+            "company": 487,
+            "developer": true
+        },
+        {
+            "id": 8967,
+            "company": 487,
+            "developer": true
+        },
+        {
+            "id": 9001,
+            "company": 864,
+            "developer": true
+        },
+        {
+            "id": 9002,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 9052,
+            "company": 1250,
+            "developer": true
+        },
+        {
+            "id": 9054,
+            "company": 5,
+            "developer": false
+        },
+        {
+            "id": 9071,
+            "company": 287,
+            "developer": false
+        },
+        {
+            "id": 9072,
+            "company": 532,
+            "developer": true
+        },
+        {
+            "id": 9076,
+            "company": 1278,
+            "developer": true
+        },
+        {
+            "id": 9077,
+            "company": 1489,
+            "developer": true
+        },
+        {
+            "id": 9106,
+            "company": 327,
+            "developer": false
+        },
+        {
+            "id": 9111,
+            "company": 667,
+            "developer": false
+        },
+        {
+            "id": 9115,
+            "company": 1468,
+            "developer": true
+        },
+        {
+            "id": 9174,
+            "company": 454,
+            "developer": false
+        },
+        {
+            "id": 9175,
+            "company": 555,
+            "developer": true
+        },
+        {
+            "id": 9176,
+            "company": 684,
+            "developer": true
+        },
+        {
+            "id": 9199,
+            "company": 566,
+            "developer": true
+        },
+        {
+            "id": 9200,
+            "company": 665,
+            "developer": true
+        },
+        {
+            "id": 9201,
+            "company": 458,
+            "developer": true
+        },
+        {
+            "id": 9221,
+            "company": 454,
+            "developer": false
+        },
+        {
+            "id": 9222,
+            "company": 277,
+            "developer": true
+        },
+        {
+            "id": 9247,
+            "company": 1830,
+            "developer": true
+        },
+        {
+            "id": 9248,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 9249,
+            "company": 768,
+            "developer": true
+        },
+        {
+            "id": 9279,
+            "company": 1783,
+            "developer": false
+        },
+        {
+            "id": 9280,
+            "company": 887,
+            "developer": true
+        },
+        {
+            "id": 9281,
+            "company": 1295,
+            "developer": true
+        },
+        {
+            "id": 9295,
+            "company": 1746,
+            "developer": true
+        },
+        {
+            "id": 9298,
+            "company": 1746,
+            "developer": true
+        },
+        {
+            "id": 9299,
+            "company": 327,
+            "developer": false
+        },
+        {
+            "id": 9301,
+            "company": 1841,
+            "developer": true
+        },
+        {
+            "id": 9302,
+            "company": 287,
+            "developer": false
+        },
+        {
+            "id": 9322,
+            "company": 1836,
+            "developer": false
+        },
+        {
+            "id": 9323,
+            "company": 287,
+            "developer": false
+        },
+        {
+            "id": 9338,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 9339,
+            "company": 1749,
+            "developer": true
+        },
+        {
+            "id": 9352,
+            "company": 1281,
+            "developer": true
+        },
+        {
+            "id": 9353,
+            "company": 327,
+            "developer": false
+        },
+        {
+            "id": 9354,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 9355,
+            "company": 1844,
+            "developer": true
+        },
+        {
+            "id": 9387,
+            "company": 421,
+            "developer": true
+        },
+        {
+            "id": 9396,
+            "company": 1,
+            "developer": true
+        },
+        {
+            "id": 9397,
+            "company": 1852,
+            "developer": true
+        },
+        {
+            "id": 9398,
+            "company": 197,
+            "developer": false
+        },
+        {
+            "id": 9399,
+            "company": 1853,
+            "developer": true
+        },
+        {
+            "id": 9403,
+            "company": 197,
+            "developer": false
+        },
+        {
+            "id": 9404,
+            "company": 1408,
+            "developer": true
+        },
+        {
+            "id": 9405,
+            "company": 1850,
+            "developer": true
+        },
+        {
+            "id": 9406,
+            "company": 1754,
+            "developer": true
+        },
+        {
+            "id": 9407,
+            "company": 139,
+            "developer": false
+        },
+        {
+            "id": 9408,
+            "company": 1058,
+            "developer": false
+        },
+        {
+            "id": 9409,
+            "company": 191,
+            "developer": false
+        },
+        {
+            "id": 9410,
+            "company": 1271,
+            "developer": false
+        },
+        {
+            "id": 9413,
+            "company": 327,
+            "developer": false
+        },
+        {
+            "id": 9414,
+            "company": 764,
+            "developer": true
+        },
+        {
+            "id": 9419,
+            "company": 277,
+            "developer": true
+        },
+        {
+            "id": 9420,
+            "company": 285,
+            "developer": true
+        },
+        {
+            "id": 9421,
+            "company": 454,
+            "developer": false
+        },
+        {
+            "id": 9422,
+            "company": 197,
+            "developer": false
+        },
+        {
+            "id": 9425,
+            "company": 287,
+            "developer": false
+        },
+        {
+            "id": 9427,
+            "company": 197,
+            "developer": false
+        },
+        {
+            "id": 9428,
+            "company": 1850,
+            "developer": true
+        },
+        {
+            "id": 9429,
+            "company": 1408,
+            "developer": true
+        },
+        {
+            "id": 9430,
+            "company": 287,
+            "developer": false
+        },
+        {
+            "id": 9431,
+            "company": 1813,
+            "developer": true
+        },
+        {
+            "id": 9432,
+            "company": 532,
+            "developer": true
+        },
+        {
+            "id": 9433,
+            "company": 1850,
+            "developer": true
+        },
+        {
+            "id": 9434,
+            "company": 1408,
+            "developer": true
+        },
+        {
+            "id": 9435,
+            "company": 716,
+            "developer": true
+        },
+        {
+            "id": 9436,
+            "company": 197,
+            "developer": false
+        },
+        {
+            "id": 14829,
+            "company": 1,
+            "developer": false
+        },
+        {
+            "id": 14830,
+            "company": 1053,
+            "developer": false
+        },
+        {
+            "id": 14831,
+            "company": 1271,
+            "developer": false
+        },
+        {
+            "id": 14832,
+            "company": 82,
+            "developer": false
+        },
+        {
+            "id": 14833,
+            "company": 213,
+            "developer": true
+        },
+        {
+            "id": 14834,
+            "company": 1910,
+            "developer": true
+        },
+        {
+            "id": 14835,
+            "company": 352,
+            "developer": true
+        },
+        {
+            "id": 15898,
+            "company": 90,
+            "developer": true
+        },
+        {
+            "id": 15902,
+            "company": 66,
+            "developer": false
+        },
+        {
+            "id": 15903,
+            "company": 667,
+            "developer": false
+        },
+        {
+            "id": 15904,
+            "company": 2421,
+            "developer": false
+        },
+        {
+            "id": 20259,
+            "company": 650,
+            "developer": true
+        },
+        {
+            "id": 20260,
+            "company": 3,
+            "developer": true
+        },
+        {
+            "id": 20261,
+            "company": 764,
+            "developer": false
+        },
+        {
+            "id": 20262,
+            "company": 197,
+            "developer": false
+        },
+        {
+            "id": 20404,
+            "company": 4285,
+            "developer": true
+        },
+        {
+            "id": 20807,
+            "company": 2005,
+            "developer": true
+        },
+        {
+            "id": 20808,
+            "company": 287,
+            "developer": false
+        },
+        {
+            "id": 22199,
+            "company": 1695,
+            "developer": true
+        },
+        {
+            "id": 22200,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 23723,
+            "company": 327,
+            "developer": true
+        },
+        {
+            "id": 23724,
+            "company": 1783,
+            "developer": true
+        },
+        {
+            "id": 23725,
+            "company": 1468,
+            "developer": true
+        },
+        {
+            "id": 23726,
+            "company": 901,
+            "developer": true
+        },
+        {
+            "id": 23812,
+            "company": 762,
+            "developer": true
+        },
+        {
+            "id": 23813,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 24394,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 24395,
+            "company": 5953,
+            "developer": true
+        },
+        {
+            "id": 24584,
+            "company": 425,
+            "developer": true
+        },
+        {
+            "id": 24585,
+            "company": 224,
+            "developer": true
+        },
+        {
+            "id": 24586,
+            "company": 205,
+            "developer": false
+        },
+        {
+            "id": 28297,
+            "company": 771,
+            "developer": true
+        },
+        {
+            "id": 28298,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 35563,
+            "company": 771,
+            "developer": true
+        },
+        {
+            "id": 37204,
+            "company": 66,
+            "developer": false
+        },
+        {
+            "id": 37205,
+            "company": 65,
+            "developer": true
+        },
+        {
+            "id": 38423,
+            "company": 1792,
+            "developer": true
+        },
+        {
+            "id": 42791,
+            "company": 223,
+            "developer": false
+        },
+        {
+            "id": 42792,
+            "company": 716,
+            "developer": false
+        },
+        {
+            "id": 42793,
+            "company": 428,
+            "developer": false
+        },
+        {
+            "id": 43398,
+            "company": 1835,
+            "developer": false
+        },
+        {
+            "id": 43399,
+            "company": 1837,
+            "developer": false
+        },
+        {
+            "id": 43400,
+            "company": 1835,
+            "developer": false
+        },
+        {
+            "id": 43401,
+            "company": 1837,
+            "developer": false
+        },
+        {
+            "id": 46501,
+            "company": 421,
+            "developer": true
+        },
+        {
+            "id": 46502,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 46503,
+            "company": 762,
+            "developer": true
+        },
+        {
+            "id": 48752,
+            "company": 806,
+            "developer": false
+        },
+        {
+            "id": 48753,
+            "company": 12819,
+            "developer": false
+        },
+        {
+            "id": 49010,
+            "company": 421,
+            "developer": true
+        },
+        {
+            "id": 49011,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 50982,
+            "company": 163,
+            "developer": false
+        },
+        {
+            "id": 51017,
+            "company": 1475,
+            "developer": false
+        },
+        {
+            "id": 51018,
+            "company": 1476,
+            "developer": false
+        },
+        {
+            "id": 54008,
+            "company": 334,
+            "developer": false
+        },
+        {
+            "id": 54009,
+            "company": 45,
+            "developer": false
+        },
+        {
+            "id": 54010,
+            "company": 66,
+            "developer": false
+        },
+        {
+            "id": 58646,
+            "company": 387,
+            "developer": false
+        },
+        {
+            "id": 60417,
+            "company": 425,
+            "developer": true
+        },
+        {
+            "id": 60418,
+            "company": 66,
+            "developer": false
+        },
+        {
+            "id": 63810,
+            "company": 771,
+            "developer": true
+        },
+        {
+            "id": 63813,
+            "company": 197,
+            "developer": false
+        },
+        {
+            "id": 72051,
+            "company": 864,
+            "developer": false
+        },
+        {
+            "id": 72052,
+            "company": 1922,
+            "developer": true
+        },
+        {
+            "id": 82099,
+            "company": 95,
+            "developer": false
+        },
+        {
+            "id": 82100,
+            "company": 907,
+            "developer": false
+        },
+        {
+            "id": 91420,
+            "company": 3,
+            "developer": false
+        },
+        {
+            "id": 91490,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 91491,
+            "company": 784,
+            "developer": true
+        },
+        {
+            "id": 94428,
+            "company": 129,
+            "developer": true
+        },
+        {
+            "id": 94429,
+            "company": 129,
+            "developer": true
+        },
+        {
+            "id": 94432,
+            "company": 129,
+            "developer": true
+        },
+        {
+            "id": 95411,
+            "company": 1809,
+            "developer": true
+        },
+        {
+            "id": 98352,
+            "company": 421,
+            "developer": true
+        },
+        {
+            "id": 98353,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 98361,
+            "company": 421,
+            "developer": true
+        },
+        {
+            "id": 98362,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 100183,
+            "company": 205,
+            "developer": false
+        },
+        {
+            "id": 100184,
+            "company": 12540,
+            "developer": false
+        },
+        {
+            "id": 100209,
+            "company": 864,
+            "developer": true
+        },
+        {
+            "id": 100211,
+            "company": 2334,
+            "developer": true
+        },
+        {
+            "id": 100215,
+            "company": 425,
+            "developer": true
+        },
+        {
+            "id": 101479,
+            "company": 13332,
+            "developer": true
+        },
+        {
+            "id": 101480,
+            "company": 421,
+            "developer": true
+        },
+        {
+            "id": 101481,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 101482,
+            "company": 287,
+            "developer": false
+        },
+        {
+            "id": 101483,
+            "company": 2005,
+            "developer": true
+        },
+        {
+            "id": 101484,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 101486,
+            "company": 717,
+            "developer": false
+        },
+        {
+            "id": 101487,
+            "company": 16965,
+            "developer": true
+        },
+        {
+            "id": 101488,
+            "company": 901,
+            "developer": true
+        },
+        {
+            "id": 101489,
+            "company": 699,
+            "developer": true
+        },
+        {
+            "id": 101490,
+            "company": 717,
+            "developer": true
+        },
+        {
+            "id": 101491,
+            "company": 1813,
+            "developer": true
+        },
+        {
+            "id": 101492,
+            "company": 327,
+            "developer": false
+        },
+        {
+            "id": 101493,
+            "company": 163,
+            "developer": false
+        },
+        {
+            "id": 101494,
+            "company": 327,
+            "developer": false
+        },
+        {
+            "id": 101508,
+            "company": 277,
+            "developer": true
+        },
+        {
+            "id": 101509,
+            "company": 3694,
+            "developer": true
+        },
+        {
+            "id": 101510,
+            "company": 552,
+            "developer": true
+        },
+        {
+            "id": 101517,
+            "company": 4,
+            "developer": false
+        },
+        {
+            "id": 101518,
+            "company": 1746,
+            "developer": true
+        },
+        {
+            "id": 101519,
+            "company": 1474,
+            "developer": false
+        },
+        {
+            "id": 101520,
+            "company": 26270,
+            "developer": false
+        },
+        {
+            "id": 101521,
+            "company": 1746,
+            "developer": false
+        },
+        {
+            "id": 101715,
+            "company": 26323,
+            "developer": false
+        },
+        {
+            "id": 102698,
+            "company": 784,
+            "developer": true
+        },
+        {
+            "id": 102699,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 104029,
+            "company": 1831,
+            "developer": true
+        },
+        {
+            "id": 105532,
+            "company": 51,
+            "developer": false
+        },
+        {
+            "id": 110729,
+            "company": 888,
+            "developer": true
+        },
+        {
+            "id": 110730,
+            "company": 887,
+            "developer": false
+        },
+        {
+            "id": 110731,
+            "company": 1267,
+            "developer": false
+        },
+        {
+            "id": 110732,
+            "company": 243,
+            "developer": false
+        },
+        {
+            "id": 110733,
+            "company": 5461,
+            "developer": true
+        },
+        {
+            "id": 110867,
+            "company": 29,
+            "developer": false
+        },
+        {
+            "id": 126440,
+            "company": 532,
+            "developer": false
+        },
+        {
+            "id": 126441,
+            "company": 10535,
+            "developer": false
+        },
+        {
+            "id": 126442,
+            "company": 817,
+            "developer": true
+        },
+        {
+            "id": 126443,
+            "company": 901,
+            "developer": false
+        },
+        {
+            "id": 126444,
+            "company": 3952,
+            "developer": false
+        },
+        {
+            "id": 126445,
+            "company": 24213,
+            "developer": false
+        },
+        {
+            "id": 126446,
+            "company": 74,
+            "developer": false
+        },
+        {
+            "id": 130384,
+            "company": 70,
+            "developer": true
+        },
+        {
+            "id": 130387,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 132595,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 133248,
+            "company": 70,
+            "developer": true
+        },
+        {
+            "id": 133249,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 133433,
+            "company": 716,
+            "developer": false
+        },
+        {
+            "id": 133578,
+            "company": 73,
+            "developer": false
+        },
+        {
+            "id": 133594,
+            "company": 762,
+            "developer": true
+        },
+        {
+            "id": 133596,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 134506,
+            "company": 861,
+            "developer": true
+        },
+        {
+            "id": 134507,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 135011,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 135135,
+            "company": 70,
+            "developer": false
+        },
+        {
+            "id": 135142,
+            "company": 70,
+            "developer": true
+        },
+        {
+            "id": 135291,
+            "company": 421,
+            "developer": true
+        },
+        {
+            "id": 139988,
+            "company": 82,
+            "developer": false
+        },
+        {
+            "id": 140352,
+            "company": 327,
+            "developer": true
+        },
+        {
+            "id": 140353,
+            "company": 70,
+            "developer": false
+        }
+    ]
+}

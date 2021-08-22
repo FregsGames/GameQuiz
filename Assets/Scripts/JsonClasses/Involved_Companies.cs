@@ -1,5 +1,10 @@
-﻿    class Involved_Companies
-    {
-        public Involved_Company[] involved_Companies;
-    }
+﻿using System;
+using UnityEngine;
+
+[Serializable]
+public class Involved_Companies
+{
+    [SerializeField]
+    public Involved_Company[] involved_Companies;
+}
 
