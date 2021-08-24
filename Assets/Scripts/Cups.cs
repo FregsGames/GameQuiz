@@ -9,62 +9,47 @@ using static Levels;
 public class Cups : Singleton<Cups>
 {
     [SerializeField]
-    private List<CupEntry> cups = new List<CupEntry>();
+    private List<CupScriptable> cups = new List<CupScriptable>();
     public enum CupState { locked = 0, completed = 2, unlocked = 1 };
 
     private void Start()
     {
         foreach (var cup in cups)
         {
-            cup.cup.state = (CupState)SaveManager.instance.RetrieveInt(cup.cupID);
-            cup.cup.id = cup.cupID;
+            cup.state = (CupState)SaveManager.instance.RetrieveInt(cup.id);
         }
     }
 
-    public bool CheckUnlocks(string levelId)
+    public bool CheckUnlocks(Level level)
     {
-        Levels.Instance.SetCompleted(levelId);
+        SaveManager.instance.Save(level.id, (int)LevelState.completed);
 
-        Cup currentCup = cups.FirstOrDefault(c => c.cup.levels.Contains(levelId)).cup;
+        level.state = LevelState.completed;
 
-        int index = currentCup.levels.IndexOf(levelId);
+        CupScriptable currentCup = cups.FirstOrDefault(c => c.levels.FirstOrDefault(l => l.id == level.id) != null);
+
+        int index = currentCup.levels.IndexOf(currentCup.levels.FirstOrDefault(l => l.id == level.id));
 
         if(currentCup.levels.Count - 1 > index)
         {
-            Levels.Instance.SetUnlocked(currentCup.levels[index + 1]);
+            SaveManager.instance.Save(currentCup.levels[index + 1].id, (int)LevelState.unlocked);
+            currentCup.levels[index + 1].state = LevelState.unlocked;
+
             return true;
         }
 
         return false;
     }
 
-    public List<Cup> GetAllCups()
+    public List<CupScriptable> GetAllCups()
     {
-        return cups.Select(c => c.cup).ToList();
+        return cups;
     }
 
-    public Cup GetCup(string id)
+    public CupScriptable GetCup(string id)
     {
-        return cups.FirstOrDefault(c => c.cupID == id).cup;
+        return cups.FirstOrDefault(c => c.id == id);
     }
 
-    [Serializable]
-    public class Cup
-    {
-        [NonSerialized]
-        public string id;
-        public string title;
-        public List<string> levels;
-        public Sprite cupImage;
-        public CupState state;
-        public GamesContainer gamesContainer;
-    }
-
-    [Serializable]
-    public class CupEntry
-    {
-        public string cupID;
-        public Cup cup;
-    }
 
 }

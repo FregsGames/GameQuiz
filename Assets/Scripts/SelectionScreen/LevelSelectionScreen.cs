@@ -42,7 +42,7 @@ public class LevelSelectionScreen : MonoBehaviour
 
     private QuestionGenerator questionGenerator;
 
-    private Cup currentCup;
+    private CupScriptable currentCup;
 
 
     public bool IsActive { get { return levelContainter.activeSelf; } }
@@ -62,7 +62,7 @@ public class LevelSelectionScreen : MonoBehaviour
         levelContainter.SetActive(false);
     }
 
-    public void Setup(Cup cup)
+    public void Setup(CupScriptable cup)
     {
         buttons.Clear();
 
@@ -76,14 +76,14 @@ public class LevelSelectionScreen : MonoBehaviour
         for (int i = 0; i < cup.levels.Count; i++)
         {
             var btn = Instantiate(levelButtonPrefab, grid);
-            btn.Level = Levels.Instance.GetLevel(cup.levels[i]);
+            btn.Level = cup.levels[i];
             btn.OnClick = SelectLevel;
 
             buttons.Add(btn);
 
-            btn.Button.interactable = !LevelIsLocked(cup.levels[i]) || btn.Level.alwaysUnlocked;
+            btn.Button.interactable = !LevelIsLocked(cup.levels[i].id) || btn.Level.alwaysUnlocked;
 
-            btn.Button.GetComponent<Image>().sprite = LevelIsCompleted(cup.levels[i]) ? completedSprite : normalSprite;
+            btn.Button.GetComponent<Image>().sprite = LevelIsCompleted(cup.levels[i].id) ? completedSprite : normalSprite;
         }
 
         buttons[0].OnClick.Invoke(buttons[0]);

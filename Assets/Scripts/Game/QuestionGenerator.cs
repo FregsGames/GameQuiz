@@ -57,9 +57,8 @@ namespace Questions
 
         public Question GameFromYear(int options = 4, int difficulty = 1)
         {
-            //Vector2Int yearRange = DifficultyParameters.Instance.GetYearRange(difficulty);
-
-            int year = CurrentGamesContainer.Years[Random.Range(0, CurrentGamesContainer.Years.Count - 1)];
+            List<int> allYears = CurrentGamesContainer.Years().Keys.ToList();
+            int year = allYears[Random.Range(0, allYears.Count)];
 
             Game correctAnswer = CurrentGamesContainer.GetRandomGameFromYear(year, searchOnThatYear: true);
 
@@ -75,9 +74,9 @@ namespace Questions
 
         public Question GameNotFromYear(int options = 4, int difficulty = 1)
         {
-            //Vector2Int yearRange = DifficultyParameters.Instance.GetYearRange(difficulty);
+            List<int> years = CurrentGamesContainer.Years().Where(y => y.Value >= options).Select(yr => yr.Key).ToList();
 
-            int year = CurrentGamesContainer.Years[Random.Range(0, CurrentGamesContainer.Years.Count - 1)];
+            int year = years[Random.Range(0, years.Count)];
 
             List<Game> gamesNotFromYear = CurrentGamesContainer.GetXGamesFromYearX(options - 1, year);
 
@@ -114,9 +113,8 @@ namespace Questions
 
         public Question GameFromPlatform(int options = 4, int minimumGames = 1, int difficulty = 1)
         {
-            Dictionary<int, Platform> validPlaforms = platformsDB.allPlatforms.Where(p => p.games.Count >= minimumGames).ToDictionary(t => t.id, t => t);
-
-            int platformID = CurrentGamesContainer.Platforms[Random.Range(0, CurrentGamesContainer.Platforms.Count - 1)];
+            List<int> allPlatforms = CurrentGamesContainer.Platforms().Where(c => c.Value >= minimumGames).Select(yr => yr.Key).ToList();
+            int platformID = allPlatforms[Random.Range(0, allPlatforms.Count)];
 
             Platform platform = platformsDB.allPlatforms.FirstOrDefault(p => p.id == platformID);
 

@@ -93,7 +93,7 @@ public class GameLogic : MonoBehaviour
         else
         {
             bool levelCompleted = CheckWinCondition(correctAnswers, totalQuestions);
-            bool unlocks = levelCompleted? Cups.Instance.CheckUnlocks(currentLevel.id) : false;
+            bool unlocks = levelCompleted? Cups.Instance.CheckUnlocks(currentLevel) : false;
             gameUI.ShowResults(levelCompleted, correctAnswers, totalQuestions, unlocks);
         }
     }

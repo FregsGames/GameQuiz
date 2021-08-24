@@ -12,7 +12,7 @@ public class CupSection : MonoBehaviour
     [SerializeField]
     private Button button;
 
-    public void Setup(Cup cup)
+    public void Setup(CupScriptable cup)
     {
         this.cupTitle.text = cup.title;
         image.sprite = cup.cupImage;

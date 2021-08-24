@@ -13,8 +13,6 @@ public class GamesContainer : ScriptableObject
     public Action<int> OnGameDeleted;
     public Action OnAllGamesDeleted;
 
-    public List<int> Years { get; set; } = new List<int>();
-    public List<int> Platforms { get; set; } = new List<int>();
 
     public static DateTime GetDate(Game game)
     {
@@ -23,22 +21,48 @@ public class GamesContainer : ScriptableObject
         return dtDateTime;
     }
 
+    public Dictionary<int, int> Platforms()
+    {
+        Dictionary<int, int> platforms = new Dictionary<int, int>();
+        foreach (var item in allGames)
+        {
+            foreach (var plat in item.platforms)
+            {
+                if (platforms.ContainsKey(plat))
+                {
+                    platforms[plat]++;
+                }
+                else
+                {
+                    platforms.Add(plat, 1);
+                }
+            }
+        }
+        return platforms;
+    }
+
+    public Dictionary<int, int> Years()
+    {
+        Dictionary<int, int> years = new Dictionary<int, int>();
+        foreach (var item in allGames)
+        {
+            int year = GetDate(item).Year;
+            if (years.ContainsKey(year))
+            {
+                years[year]++;
+            }
+            else
+            {
+                years.Add(year, 1);
+            }
+        }
+        return years;
+    }
+
     public void AddGame(Game game)
     {
         if (!allGames.Contains(game))
         {
-            if (!Years.Contains(GetDate(game).Year))
-            {
-                Years.Add(GetDate(game).Year);
-            }
-
-            foreach (var plat in game.platforms)
-            {
-                if (!Platforms.Contains(plat))
-                {
-                    Platforms.Add(plat);
-                }
-            }
 
             allGames.Add(game);
         }
@@ -46,7 +70,6 @@ public class GamesContainer : ScriptableObject
 
     public void Clear()
     {
-        Years.Clear();
         allGames.Clear();
         OnAllGamesDeleted?.Invoke();
     }

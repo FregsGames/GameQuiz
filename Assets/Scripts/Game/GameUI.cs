@@ -37,6 +37,8 @@ public class GameUI : MonoBehaviour
 
     private void Awake()
     {
+        content.transform.DOMoveX(-Screen.width / 2, 0);
+
         buttons = new Transform[] { answer1Button.transform, answer2Button.transform, answer3Button.transform, answer4Button.transform };
 
         foreach (Transform button in buttons)
@@ -47,16 +49,15 @@ public class GameUI : MonoBehaviour
 
     public void Initialize(float time)
     {
-        content.transform.DOMoveX(-Screen.width / 2, 0);
-
         var sequence = DOTween.Sequence();
 
-        sequence.Insert(0, content.transform.DOMoveX(Screen.width / 2, 1f).SetEase(Ease.OutBack));
+        sequence.SetDelay(1);
+
+        sequence.Append(content.transform.DOMoveX(Screen.width / 2, 1f).SetEase(Ease.OutBack));
 
         SetButtonsInteractables(false);
 
         timer.Setup(sequence, time);
-
 
         sequence.OnComplete(() => Messenger.Default.Publish(new UIReadyPayload()));
     }
@@ -83,7 +84,6 @@ public class GameUI : MonoBehaviour
         answer2Button.SetQuestion(options[1]);
         answer3Button.SetQuestion(options[2]);
         answer4Button.SetQuestion(options[3]);
-
     }
 
     public void TriggerQuestion()
@@ -195,9 +195,7 @@ public class GameUI : MonoBehaviour
             sequence.OnComplete(() => TweenOptionsOut(answer));
 
             Messenger.Default.Publish(new AnswerGiven(true));
-
         }
-
     }
 
     private void TweenOptionsOut(ButtonQuestion answer)

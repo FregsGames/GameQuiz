@@ -54,7 +54,6 @@ public class Levels : Singleton<Levels>
     [Serializable]
     public class Level
     {
-        [NonSerialized]
         public string id;
         public string levelTitle;
         public string levelDesc;

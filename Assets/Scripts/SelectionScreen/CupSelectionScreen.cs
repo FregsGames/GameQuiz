@@ -30,7 +30,7 @@ public class CupSelectionScreen : MonoBehaviour
     [SerializeField]
     private LevelSelectionScreen levelSelectionScreen;
 
-    private List<Cup> cups;
+    private List<CupScriptable> cups;
 
     private void OnEnable()
     {
