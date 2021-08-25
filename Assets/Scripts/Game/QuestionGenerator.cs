@@ -62,12 +62,7 @@ namespace Questions
 
             Game correctAnswer = CurrentGamesContainer.GetRandomGameFromYear(year, searchOnThatYear: true);
 
-            List<string> otherOptions = new List<string>();
-
-            for (int i = 0; i < options; i++)
-            {
-                otherOptions.Add(CurrentGamesContainer.GetRandomGameFromYear(year, searchOnThatYear: false).name);
-            }
+            List<string> otherOptions = CurrentGamesContainer.GetXGamesFromYearX(options - 1, year).Select(g => g.name).ToList();
 
             return new Question("", $"Game from {year}", correctAnswer.name, otherOptions);
         }

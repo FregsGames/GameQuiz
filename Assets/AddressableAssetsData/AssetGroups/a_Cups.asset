@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: a_Cups
+  m_EditorClassIdentifier: 
+  m_GroupName: a_Cups
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 257b45f305bf1d848b0285c8adb68470
+  m_SerializeEntries:
+  - m_GUID: 4d317cf1ea1f24f4ebb4c8f857a6b51d
+    m_Address: 00_Handwritten
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 11400000, guid: 4d317cf1ea1f24f4ebb4c8f857a6b51d, type: 2}
+    m_TargetAsset: {fileID: 11400000, guid: 4d317cf1ea1f24f4ebb4c8f857a6b51d, type: 2}
+  - m_GUID: 7072ef8249e270941a08405ac5778f16
+    m_Address: 00_RetroCup
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 11400000, guid: 7072ef8249e270941a08405ac5778f16, type: 2}
+    m_TargetAsset: {fileID: 11400000, guid: 7072ef8249e270941a08405ac5778f16, type: 2}
+  - m_GUID: 90284dc9afa6ea54099f9c5c1a2d60c0
+    m_Address: 00_Games
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 11400000, guid: 90284dc9afa6ea54099f9c5c1a2d60c0, type: 2}
+    m_TargetAsset: {fileID: 11400000, guid: 90284dc9afa6ea54099f9c5c1a2d60c0, type: 2}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 99c74957a8697df4486cace21a2c5827, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7a7dd0342315b664bbdf13d3225d9e94, type: 2}
+    - {fileID: 11400000, guid: 41601090b63ab6e408be15649327f98a, type: 2}

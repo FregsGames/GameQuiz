@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Global
+  m_EditorClassIdentifier: 
+  m_GroupName: Global
+  m_Data:
+    m_SerializedData: []
+  m_GUID: fc12c9ee8ba4aae44a374e97cc8362bd
+  m_SerializeEntries:
+  - m_GUID: 95994a43d449b06478c361619bb13ff3
+    m_Address: Translations
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 1453111500499754522, guid: 95994a43d449b06478c361619bb13ff3, type: 3}
+    m_TargetAsset: {fileID: 1453111500499754522, guid: 95994a43d449b06478c361619bb13ff3, type: 3}
+  - m_GUID: ccb2995c1e8607f4c84222dcafb79493
+    m_Address: CupContainer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 7115009121114643737, guid: ccb2995c1e8607f4c84222dcafb79493, type: 3}
+    m_TargetAsset: {fileID: 7115009121114643737, guid: ccb2995c1e8607f4c84222dcafb79493, type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 99c74957a8697df4486cace21a2c5827, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: bd61d4eb7d8e8414793cb6d4e3c11593, type: 2}
+    - {fileID: 11400000, guid: 4bb6f958f753ba742ad71e10a5b5603d, type: 2}
