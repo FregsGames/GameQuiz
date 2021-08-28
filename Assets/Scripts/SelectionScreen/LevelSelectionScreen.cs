@@ -1,6 +1,7 @@
 ﻿using Questions;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -73,15 +74,33 @@ public class LevelSelectionScreen : MonoBehaviour
 
         cupName.text = cup.title;
 
+        int completedLevels = 0;
+
         for (int i = 0; i < cup.levels.Count; i++)
         {
+            if (cup.levels[i].isFinalLevel)
+            {
+                if(completedLevels != cup.levels.Count - 1)
+                {
+                    return;
+                }
+            }
+
             var btn = Instantiate(levelButtonPrefab, grid);
             btn.Level = cup.levels[i];
             btn.OnClick = SelectLevel;
 
             buttons.Add(btn);
 
+            var loadedState = LevelIsCompleted(cup.levels[i].id) ? LevelState.completed : LevelIsLocked(cup.levels[i].id) ? LevelState.locked : LevelState.unlocked;
+
+            cup.levels[i].state = loadedState;
             btn.Button.interactable = !LevelIsLocked(cup.levels[i].id) || btn.Level.alwaysUnlocked;
+
+            if(cup.levels[i].state == LevelState.completed)
+            {
+                completedLevels++;
+            }
 
             btn.Button.GetComponent<Image>().sprite = LevelIsCompleted(cup.levels[i].id) ? completedSprite : normalSprite;
         }
@@ -107,7 +126,29 @@ public class LevelSelectionScreen : MonoBehaviour
         levelButton.SetSprite(levelButton.Level.state == LevelState.completed ? completedSelectedSprite : selectedSprite);
 
         levelName.text = levelButton.Level.levelTitle;
-        levelDesc.text = levelButton.Level.levelDesc;
+        SetLevelWinCondition(levelButton);
+    }
+
+    private void SetLevelWinCondition(LevelButton levelButton)
+    {
+        if(levelButton.Level.state == LevelState.completed)
+        {
+            levelDesc.text = $"Level completed!";
+            return;
+        }
+
+        switch (levelButton.Level.winCondition)
+        {
+            case LevelCondition.half:
+                levelDesc.text = $"Answer {Mathf.CeilToInt(levelButton.Level.questionTemplates.Count / 2f)} question(s) correctly to complete the level";
+                break;
+            case LevelCondition.full:
+                levelDesc.text = $"Answer all questions correctly to complete the level";
+                break;
+            case LevelCondition.one:
+                levelDesc.text = $"Answer one question correctly to complete the level";
+                break;
+        }
     }
 
     private void SetAllButtonsToNormalColor()

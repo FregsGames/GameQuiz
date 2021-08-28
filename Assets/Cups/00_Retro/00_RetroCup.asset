@@ -17,7 +17,6 @@ MonoBehaviour:
   levels:
   - id: level_0
     levelTitle: level_0
-    levelDesc: Level zero
     handwrittenQuestionSet: {fileID: 11400000, guid: 4d317cf1ea1f24f4ebb4c8f857a6b51d, type: 2}
     questionTemplates:
     - contentType: 1
@@ -25,7 +24,33 @@ MonoBehaviour:
       extraData: 1
     state: 2
     alwaysUnlocked: 1
+    isFinalLevel: 0
     winCondition: 0
+  - id: level_1
+    levelTitle: EL LEVELASO
+    handwrittenQuestionSet: {fileID: 11400000, guid: 4d317cf1ea1f24f4ebb4c8f857a6b51d, type: 2}
+    questionTemplates:
+    - contentType: 1
+      structureType: 1
+      extraData: 1
+    state: 2
+    alwaysUnlocked: 1
+    isFinalLevel: 0
+    winCondition: 2
+  - id: level_2
+    levelTitle: otro level
+    handwrittenQuestionSet: {fileID: 11400000, guid: 4d317cf1ea1f24f4ebb4c8f857a6b51d, type: 2}
+    questionTemplates:
+    - contentType: 0
+      structureType: 0
+      extraData: 
+    - contentType: 0
+      structureType: 0
+      extraData: 
+    state: 1
+    alwaysUnlocked: 1
+    isFinalLevel: 1
+    winCondition: 1
   cupImage: {fileID: 21300000, guid: 1071d6cb0172e464da664d8c99f654f5, type: 3}
   state: 0
   gamesContainer: {fileID: 11400000, guid: 90284dc9afa6ea54099f9c5c1a2d60c0, type: 2}

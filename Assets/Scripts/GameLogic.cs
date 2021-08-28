@@ -103,7 +103,7 @@ public class GameLogic : MonoBehaviour
         switch (currentLevel.winCondition)
         {
             case LevelCondition.half:
-                if (this.correctAnswers >= totalQuestions / 2)
+                if (this.correctAnswers >= Mathf.CeilToInt(totalQuestions / 2f))
                 {
                     return true;
                 }

@@ -92,7 +92,14 @@ public class GamesContainer : ScriptableObject
 
     public Game GetRandomGameFromYear(int year, bool searchOnThatYear)
     {
-        List<Game> games = allGames.Where(x => searchOnThatYear ? GetDate(x).Year == year : GetDate(x).Year != year).ToList();
+        List<Game> games = allGames.Where(x => searchOnThatYear ? GetDate(x).Year == year: GetDate(x).Year != year).ToList();
+
+        return games[Random.Range(0, games.Count)];
+    }
+
+    public Game GetRandomGameFromYear(int year, bool searchOnThatYear, int[] toExclude)
+    {
+        List<Game> games = allGames.Where(x => searchOnThatYear ? GetDate(x).Year == year && !toExclude.Contains(x.id): GetDate(x).Year != year && !toExclude.Contains(x.id)).ToList();
 
         return games[Random.Range(0, games.Count)];
     }

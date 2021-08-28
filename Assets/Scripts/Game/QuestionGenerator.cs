@@ -61,10 +61,17 @@ namespace Questions
             int year = allYears[Random.Range(0, allYears.Count)];
 
             Game correctAnswer = CurrentGamesContainer.GetRandomGameFromYear(year, searchOnThatYear: true);
+            List<Game> otherOptions = new List<Game>();
 
-            List<string> otherOptions = CurrentGamesContainer.GetXGamesFromYearX(options - 1, year).Select(g => g.name).ToList();
+            for (int i = 1; i < options; i++)
+            {
+                Game other = CurrentGamesContainer.GetRandomGameFromYear(year, searchOnThatYear: false, otherOptions.Select(g => g.id).ToArray());
+                otherOptions.Add(other);
+            }
 
-            return new Question("", $"Game from {year}", correctAnswer.name, otherOptions);
+            //List<string> otherOptions = CurrentGamesContainer.GetXGamesFromYearX(options - 1, year).Select(g => g.name).ToList();
+
+            return new Question("", $"Game from {year}", correctAnswer.name, otherOptions.Select(g => g.name).ToList());
         }
 
         public Question GameNotFromYear(int options = 4, int difficulty = 1)
