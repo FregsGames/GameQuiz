@@ -69,8 +69,6 @@ namespace Questions
                 otherOptions.Add(other);
             }
 
-            //List<string> otherOptions = CurrentGamesContainer.GetXGamesFromYearX(options - 1, year).Select(g => g.name).ToList();
-
             return new Question("", $"Game from {year}", correctAnswer.name, otherOptions.Select(g => g.name).ToList());
         }
 
