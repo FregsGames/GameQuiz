@@ -17,5 +17,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Singletons.unity
     guid: 9ace257eaa623ba4f87b2d6bd4e0fe8d
+  - enabled: 1
+    path: Assets/Scenes/CupSelection.unity
+    guid: e00e568db6f0f874296a4d4148775c7a
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 5f130209fdac12a4b931a4a45a08579e, type: 2}

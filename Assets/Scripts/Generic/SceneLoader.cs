@@ -24,6 +24,6 @@ public class SceneLoader : Singleton<SceneLoader>
 
     public void LoadLobby()
     {
-        SceneManager.LoadScene("Lobby");
+        SceneManager.LoadScene("CupSelection");
     }
 }

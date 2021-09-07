@@ -1,4 +1,6 @@
 ﻿using Questions;
+using SuperMaxim.Messaging;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -56,6 +58,19 @@ public class LevelSelectionScreen : MonoBehaviour
     private void Start()
     {
         questionGenerator = QuestionGenerator.Instance;
+        Messenger.Default.Subscribe<CupScriptable>(OnCupSelected);
+    }
+
+    private void OnCupSelected(CupScriptable obj)
+    {
+        if(obj == null)
+        {
+            levelContainter.SetActive(false);
+        }
+        else
+        {
+            Setup(obj);
+        }
     }
 
     public void DeactivateSection()
@@ -214,5 +229,10 @@ public class LevelSelectionScreen : MonoBehaviour
         FindObjectOfType<GameLogic>().StartGame(currentSelectedLevel, questions, 20f);
 
         SceneManager.UnloadSceneAsync("Lobby");
+    }
+
+    public void Back()
+    {
+        Messenger.Default.Publish<CupScriptable>(null);
     }
 }

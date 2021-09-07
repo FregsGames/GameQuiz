@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
+using SuperMaxim.Messaging;
+using System;
 
 public class CupDropdown : MonoBehaviour
 {
@@ -14,9 +17,44 @@ public class CupDropdown : MonoBehaviour
 
     private bool updatingSize;
 
+    public CupScriptable Cup { get; set; }
+    [SerializeField]
+    private TextMeshProUGUI cupName;
+
     private void Start()
     {
         rectTransform = GetComponent<RectTransform>();
+
+        Messenger.Default.Subscribe<CupDropdown>(OnCupToggle);
+    }
+
+    private void OnCupToggle(CupDropdown obj)
+    {
+        if(obj != this)
+        {
+            Close();
+        }
+    }
+
+    public void Setup(CupScriptable cup)
+    {
+        Cup = cup;
+        cupName.text = cup.name;
+    }
+
+    public void PlayLevel()
+    {
+        Messenger.Default.Publish<CupScriptable>(Cup);
+    }
+
+    public void Close()
+    {
+        if (!shown)
+            return;
+
+        rectTransform.DOSizeDelta(new Vector2(rectTransform.sizeDelta.x, 200), 0.2f);
+        innerPanel.DOSizeDelta(new Vector2(innerPanel.sizeDelta.x, 0), 0.2f).onComplete = () => updatingSize = false;
+        shown = !shown;
     }
 
     public void Toggle()
@@ -24,6 +62,7 @@ public class CupDropdown : MonoBehaviour
         updatingSize = true;
         if (!shown)
         {
+            Messenger.Default.Publish(this);
             rectTransform.DOSizeDelta(new Vector2(rectTransform.sizeDelta.x, 800), 0.2f);
             innerPanel.DOSizeDelta(new Vector2(innerPanel.sizeDelta.x, 600), 0.2f).onComplete = () => updatingSize = false;
         }
