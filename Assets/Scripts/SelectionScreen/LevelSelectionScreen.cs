@@ -93,13 +93,6 @@ public class LevelSelectionScreen : MonoBehaviour
 
         for (int i = 0; i < cup.levels.Count; i++)
         {
-            if (cup.levels[i].isFinalLevel)
-            {
-                if(completedLevels != cup.levels.Count - 1)
-                {
-                    return;
-                }
-            }
 
             var btn = Instantiate(levelButtonPrefab, grid);
             btn.Level = cup.levels[i];

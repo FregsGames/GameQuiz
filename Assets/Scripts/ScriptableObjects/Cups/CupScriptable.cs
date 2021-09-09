@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using static Cups;
 using static Levels;
@@ -22,6 +23,12 @@ public class CupScriptable : ScriptableObject
     public void RemoveLevel(int index)
     {
         levels.RemoveAt(index);
+    }
+
+    public int GetCompletedLevelsCount()
+    {
+        int count = levels.Count(l => l.state == LevelState.completed);
+        return count;
     }
 
 }

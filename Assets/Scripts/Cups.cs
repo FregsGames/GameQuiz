@@ -17,6 +17,15 @@ public class Cups : Singleton<Cups>
         foreach (var cup in cups)
         {
             cup.state = (CupState)SaveManager.instance.RetrieveInt(cup.id);
+
+            foreach (var level in cup.levels)
+            {
+                level.state = (LevelState) SaveManager.instance.RetrieveInt(level.id);
+                if(level.alwaysUnlocked && level.state == LevelState.locked)
+                {
+                    level.state = LevelState.unlocked;
+                }
+            }
         }
     }
 

@@ -22,9 +22,8 @@ MonoBehaviour:
     - contentType: 1
       structureType: 1
       extraData: 1
-    state: 2
+    state: 0
     alwaysUnlocked: 1
-    isFinalLevel: 0
     winCondition: 0
   - id: level_1
     levelTitle: EL LEVELASO
@@ -33,9 +32,8 @@ MonoBehaviour:
     - contentType: 1
       structureType: 1
       extraData: 1
-    state: 2
-    alwaysUnlocked: 1
-    isFinalLevel: 0
+    state: 0
+    alwaysUnlocked: 0
     winCondition: 2
   - id: level_2
     levelTitle: otro level
@@ -47,9 +45,8 @@ MonoBehaviour:
     - contentType: 0
       structureType: 0
       extraData: 
-    state: 1
-    alwaysUnlocked: 1
-    isFinalLevel: 1
+    state: 0
+    alwaysUnlocked: 0
     winCondition: 1
   cupImage: {fileID: 21300000, guid: 1071d6cb0172e464da664d8c99f654f5, type: 3}
   state: 0

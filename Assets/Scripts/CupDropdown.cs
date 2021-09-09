@@ -20,6 +20,8 @@ public class CupDropdown : MonoBehaviour
     public CupScriptable Cup { get; set; }
     [SerializeField]
     private TextMeshProUGUI cupName;
+    [SerializeField]
+    private TextMeshProUGUI levelsText;
 
     private void Start()
     {
@@ -40,6 +42,7 @@ public class CupDropdown : MonoBehaviour
     {
         Cup = cup;
         cupName.text = cup.name;
+        levelsText.text = $"{cup.GetCompletedLevelsCount()}/{cup.levels.Count}"; 
     }
 
     public void PlayLevel()

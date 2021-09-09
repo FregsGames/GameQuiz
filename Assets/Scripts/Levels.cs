@@ -60,7 +60,6 @@ public class Levels : Singleton<Levels>
         public List<QuestionTemplate> questionTemplates;
         public LevelState state;
         public bool alwaysUnlocked = false;
-        public bool isFinalLevel = false;
         public LevelCondition winCondition;
 
     }
