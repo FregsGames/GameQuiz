@@ -1,4 +1,5 @@
-﻿using UnityEditor;
+﻿using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 [CustomEditor(typeof(CupScriptable))]
@@ -11,8 +12,12 @@ public class CupScriptableEditor : Editor
     SerializedProperty state;
     SerializedProperty gamesContainer;
 
+    List<Levels.Level> cupLevels;
+
     private void OnEnable()
     {
+        //cupLevels = (serializedObject.targetObject as CupScriptable).levels;
+
         id = serializedObject.FindProperty("id");
         title = serializedObject.FindProperty("title");
         levels = serializedObject.FindProperty("levels");
@@ -37,6 +42,8 @@ public class CupScriptableEditor : Editor
         for (int i = 0; i < levels.arraySize; i++)
         {
             EditorGUILayout.PropertyField(levels.GetArrayElementAtIndex(i));
+
+
             if (GUILayout.Button("Remove"))
             {
                 ((CupScriptable)target).RemoveLevel(i);

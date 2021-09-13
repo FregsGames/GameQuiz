@@ -19,20 +19,16 @@ MonoBehaviour:
     levelTitle: level_0
     handwrittenQuestionSet: {fileID: 11400000, guid: 4d317cf1ea1f24f4ebb4c8f857a6b51d, type: 2}
     questionTemplates:
-    - contentType: 1
-      structureType: 1
-      extraData: 1
-    state: 0
+    - contentType: 0
+    state: 2
     alwaysUnlocked: 1
     winCondition: 0
   - id: level_1
     levelTitle: EL LEVELASO
     handwrittenQuestionSet: {fileID: 11400000, guid: 4d317cf1ea1f24f4ebb4c8f857a6b51d, type: 2}
     questionTemplates:
-    - contentType: 1
-      structureType: 1
-      extraData: 1
-    state: 0
+    - contentType: 3
+    state: 2
     alwaysUnlocked: 0
     winCondition: 2
   - id: level_2
@@ -40,12 +36,8 @@ MonoBehaviour:
     handwrittenQuestionSet: {fileID: 11400000, guid: 4d317cf1ea1f24f4ebb4c8f857a6b51d, type: 2}
     questionTemplates:
     - contentType: 0
-      structureType: 0
-      extraData: 
     - contentType: 0
-      structureType: 0
-      extraData: 
-    state: 0
+    state: 2
     alwaysUnlocked: 0
     winCondition: 1
   cupImage: {fileID: 21300000, guid: 1071d6cb0172e464da664d8c99f654f5, type: 3}

@@ -188,6 +188,7 @@ MonoBehaviour:
   innerPanel: {fileID: 1158237003868419702}
   cupName: {fileID: 1158237003498754684}
   levelsText: {fileID: 1158237004276672208}
+  infiniteButton: {fileID: 1150258327342890295}
 --- !u!114 &1158237003775059883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -700,7 +701,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 82596073639064783, guid: ee8edcc915e22d54bafbba3d2b5e0aba, type: 3}
   m_Type: 1
   m_PreserveAspect: 1
   m_FillCenter: 1

@@ -22,17 +22,14 @@ namespace Questions
             notFromCompany = 7,
         }
 
+        public CupScriptable cup { get; set; }
+
         public QuestionContent ContentType => contentType;
-        public QuestionStructure StructureType => structureType;
         public string ExtraData => extraData;
 
         [SerializeField]
         private QuestionContent contentType;
 
-        [SerializeField]
-        private QuestionStructure structureType;
-
-        [SerializeField]
         private string extraData;
 
     }

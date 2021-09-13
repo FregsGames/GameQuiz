@@ -182,6 +182,11 @@ public class LevelSelectionScreen : MonoBehaviour
         StartCoroutine(LoadGame());
     }
 
+    public void PlayInfinite()
+    {
+
+    }
+
     IEnumerator LoadGame()
     {
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Game", LoadSceneMode.Additive);
@@ -191,11 +196,20 @@ public class LevelSelectionScreen : MonoBehaviour
         }
         yield return null;
 
-        if(currentSelectedLevel.handwrittenQuestionSet != null)
+        if (currentSelectedLevel.handwrittenQuestionSet != null)
         {
             currentSelectedLevel.handwrittenQuestionSet.Initialize();
         }
 
+        List<Question> questions = GenerateQuestions();
+
+        FindObjectOfType<GameLogic>().StartGame(currentSelectedLevel, questions, 20f);
+
+        SceneManager.UnloadSceneAsync("CupSelection");
+    }
+
+    private List<Question> GenerateQuestions()
+    {
         List<Question> questions = new List<Question>();
 
         List<string> toExclude = new List<string>();
@@ -206,7 +220,7 @@ public class LevelSelectionScreen : MonoBehaviour
         {
             Question question = null;
 
-            if(questionTemplate.ContentType == QuestionTemplate.QuestionContent.handwriten)
+            if (questionTemplate.ContentType == QuestionTemplate.QuestionContent.handwriten)
             {
                 question = currentSelectedLevel.handwrittenQuestionSet.GetQuestion(toExclude);
                 toExclude.Add(question.Id);
@@ -219,9 +233,7 @@ public class LevelSelectionScreen : MonoBehaviour
             questions.Add(question);
         }
 
-        FindObjectOfType<GameLogic>().StartGame(currentSelectedLevel, questions, 20f);
-
-        SceneManager.UnloadSceneAsync("Lobby");
+        return questions;
     }
 
     public void Back()
