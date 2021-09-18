@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using Random = UnityEngine.Random;
+using Sirenix.OdinInspector;
 
 [CreateAssetMenu(fileName = "GamesContainer", menuName = "ScriptableObjects/Games")]
-public class GamesContainer : ScriptableObject
+[InlineEditor]
+public class GamesContainer : SerializedScriptableObject
 {
     [SerializeField]
     public List<Game> allGames = new List<Game>();

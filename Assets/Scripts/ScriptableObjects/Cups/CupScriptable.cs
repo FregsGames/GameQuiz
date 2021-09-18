@@ -31,17 +31,6 @@ public class CupScriptable : ScriptableObject
         return count;
     }
 
-    private void OnValidate()
-    {
-        foreach (var level in levels)
-        {
-            foreach (var item in level.questionTemplates)
-            {
-                item.cup = this;
-            }
-        }
-    }
-
 }
 
 
