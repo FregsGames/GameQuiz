@@ -10,14 +10,14 @@ public class CupScriptable : ScriptableObject
 {
     public string id;
     public string title;
-    public List<Level> levels = new List<Level>();
+    public List<LevelScriptable> levels = new List<LevelScriptable>();
     public Sprite cupImage;
     public CupState state;
     public GamesContainer gamesContainer;
 
     public void AddLevel()
     {
-        levels.Add(new Level());
+        levels.Add(new LevelScriptable());
     }
 
     public void RemoveLevel(int index)

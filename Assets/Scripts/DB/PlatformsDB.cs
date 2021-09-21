@@ -25,4 +25,16 @@ public class PlatformsDB : Singleton<PlatformsDB>
         }
     }
 
+    public Platform GetPlatform(int id)
+    {
+        if (allPlatforms.ContainsKey(id))
+        {
+            return allPlatforms[id];
+        }
+        else
+        {
+            return null;
+        }
+    }
+
 }

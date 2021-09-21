@@ -23,7 +23,7 @@ public class GameLogic : MonoBehaviour
     private float timePerQuestion;
 
     private List<Question> questions;
-    private Level currentLevel;
+    private LevelScriptable currentLevel;
 
     void Start()
     {
@@ -35,7 +35,7 @@ public class GameLogic : MonoBehaviour
         gameUI.SetQuestion(currentQuestion);*/
     }
 
-    public void StartGame(Level level, List<Question> questions, float timePerQuestion = 20f)
+    public void StartGame(LevelScriptable level, List<Question> questions, float timePerQuestion = 20f)
     {
         currentLevel = level;
         this.questions = questions;

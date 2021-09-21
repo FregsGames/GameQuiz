@@ -43,6 +43,26 @@ public class GamesContainer : SerializedScriptableObject
         return platforms;
     }
 
+    public Dictionary<int, int> Involved()
+    {
+        Dictionary<int, int> companies = new Dictionary<int, int>();
+        foreach (var item in allGames)
+        {
+            foreach (var plat in item.involved_companies)
+            {
+                if (companies.ContainsKey(plat))
+                {
+                    companies[plat]++;
+                }
+                else
+                {
+                    companies.Add(plat, 1);
+                }
+            }
+        }
+        return companies;
+    }
+
     public Dictionary<int, int> Years()
     {
         Dictionary<int, int> years = new Dictionary<int, int>();

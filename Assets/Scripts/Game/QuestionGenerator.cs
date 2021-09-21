@@ -17,12 +17,12 @@ namespace Questions
             CurrentGamesContainer = gamesContainer;
         }
 
-        public Question FromTemplate(QuestionTemplate template)
+        public Question FromTemplate(QuestionTemplate template, LevelScriptable level)
         {
             switch (template.ContentType)
             {
                 case QuestionTemplate.QuestionContent.fromYear:
-                    return GameFromYear(difficulty: int.Parse(template.ExtraData));
+                    return GameFromYear(level.years);
                 case QuestionTemplate.QuestionContent.fromPlatform:
                     return GameFromPlatform(difficulty: int.Parse(template.ExtraData));
                 case QuestionTemplate.QuestionContent.fromCompany:
@@ -51,14 +51,24 @@ namespace Questions
                 case 1:
                     return GameFromPlatform(options);
                 default:
-                    return GameFromYear(options);
+                    return GameFromYear(null, options);
             }
         }
 
-        public Question GameFromYear(int options = 4, int difficulty = 1)
+        public Question GameFromYear(List<int> years, int options = 4)
         {
-            List<int> allYears = CurrentGamesContainer.Years().Keys.ToList();
-            int year = allYears[Random.Range(0, allYears.Count)];
+            List<int> validYears = new List<int>();
+
+            if(years != null)
+            {
+                validYears = years;
+            }
+            else
+            {
+                validYears = CurrentGamesContainer.Years().Keys.ToList();
+            }
+
+            int year = validYears[Random.Range(0, validYears.Count)];
 
             Game correctAnswer = CurrentGamesContainer.GetRandomGameFromYear(year, searchOnThatYear: true);
             List<Game> otherOptions = new List<Game>();

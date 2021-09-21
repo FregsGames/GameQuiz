@@ -41,7 +41,7 @@ public class LevelSelectionScreen : MonoBehaviour
 
     private List<LevelButton> buttons = new List<LevelButton>();
 
-    private Level currentSelectedLevel;
+    private LevelScriptable currentSelectedLevel;
 
     private QuestionGenerator questionGenerator;
 
@@ -227,7 +227,7 @@ public class LevelSelectionScreen : MonoBehaviour
             }
             else
             {
-                question = questionGenerator.FromTemplate(questionTemplate);
+                question = questionGenerator.FromTemplate(questionTemplate, currentSelectedLevel);
             }
 
             questions.Add(question);
