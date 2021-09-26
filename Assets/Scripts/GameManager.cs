@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour
+public class GameManager : Singleton<GameManager>
 {
-    void Awake()
+    void Start()
     {
         SceneManager.LoadScene("Singletons", LoadSceneMode.Additive);
     }

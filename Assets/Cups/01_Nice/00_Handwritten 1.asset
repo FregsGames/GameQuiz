@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5ba473f0a530d6489166986ed474f83, type: 3}
+  m_Name: 00_Handwritten 1
+  m_EditorClassIdentifier: 
+  setId: bronze_0
+  questions:
+  - questionId: question_test_0
+    entries:
+    - statement: question answer a
+    correctAnswer: a
+    wrongAnswers:
+    - b
+    - c
+    - d
+    - e
+    - f
+    - g
+    - h
+    - i
+    - j
+  - questionId: question_test_1
+    entries:
+    - statement: question answer 1
+    correctAnswer: 1
+    wrongAnswers:
+    - 2
+    - 3
+    - 4
+    - 5
+  langs: 0a000000

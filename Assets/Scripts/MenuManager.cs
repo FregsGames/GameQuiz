@@ -4,10 +4,11 @@ using UnityEngine;
 using DG.Tweening;
 using UnityEngine.UI;
 using System.Threading.Tasks;
+using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
-    public enum SceneToLoad {Menu, Selector, Game }
+    public enum SceneToLoad {Menu, CupSelection, Game }
     public enum DirectionToHide {Up, Down, Right, Left}
 
     [SerializeField]
@@ -16,6 +17,8 @@ public class MenuManager : MonoBehaviour
     private GameObject panelToMove;
     [SerializeField]
     private Button playButton;
+    [SerializeField]
+    private SceneToLoad thisScene;
     [SerializeField]
     private SceneToLoad sceneToLoad;
     [SerializeField]
@@ -45,18 +48,8 @@ public class MenuManager : MonoBehaviour
     {
         playButton.interactable = false;
 
-        switch (sceneToLoad)
-        {
-            case SceneToLoad.Game:
-                panelToMove.transform.DOMove(GetPositionToMove(), 0.5f).SetEase(Ease.InOutBack).OnComplete(() => SceneLoader.Instance.LoadGame());
-                break;
-            case SceneToLoad.Menu:
-                panelToMove.transform.DOMove(GetPositionToMove(), 0.5f).SetEase(Ease.InOutBack).OnComplete(() => SceneLoader.Instance.LoadMenu());
-                break;
-            case SceneToLoad.Selector:
-                panelToMove.transform.DOMove(GetPositionToMove(), 0.5f).SetEase(Ease.InOutBack).OnComplete(() => SceneLoader.Instance .LoadLobby());
-                break;
-        }
+        SceneManager.LoadScene(sceneToLoad.ToString(), LoadSceneMode.Additive);
+        panelToMove.transform.DOMove(GetPositionToMove(), 0.5f).SetEase(Ease.InOutBack).OnComplete(() => SceneManager.UnloadSceneAsync(thisScene.ToString()));
     }
 
     private Vector2 GetPositionToMove()

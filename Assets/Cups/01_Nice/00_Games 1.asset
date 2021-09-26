@@ -1,0 +1,730 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32ea974e34bbccd4da2108f3db813e91, type: 3}
+  m_Name: 00_Games 1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: OnGameDeleted
+      Entry: 6
+      Data: 
+    - Name: OnAllGamesDeleted
+      Entry: 6
+      Data: 
+  allGames:
+  - id: 10662
+    category: 0
+    first_release_date: 917740800
+    involved_companies: 01ec000002ec0000
+    name: Disney's Tarzan
+    platforms: 040000000600000007000000
+    rating: 0
+  - id: 3401
+    category: 0
+    first_release_date: 929059200
+    involved_companies: 2a9101002b910100
+    name: Mario Golf
+    platforms: 040000000500000029000000
+    rating: 0
+  - id: 3342
+    category: 0
+    first_release_date: 881884800
+    involved_companies: 1f22000020220000
+    name: Snowboard Kids
+    platforms: 04000000
+    rating: 0
+  - id: 5568
+    category: 0
+    first_release_date: 942537600
+    involved_companies: 578701005887010077870100
+    name: 40 Winks
+    platforms: 040000000600000007000000
+    rating: 0
+  - id: 6692
+    category: 0
+    first_release_date: 938563200
+    involved_companies: 1a3e00001e3e00001f3e0000203e000027a7000028a7000029a70000
+    name: Tony Hawk's Pro Skater
+    platforms: 040000000700000016000000170000002a000000
+    rating: 0
+  - id: 3348
+    category: 0
+    first_release_date: 911174400
+    involved_companies: 2d2200002e220000
+    name: Glover
+    platforms: 040000000600000007000000
+    rating: 0
+  - id: 1074
+    category: 0
+    first_release_date: 835488000
+    involved_companies: 3080010031800100
+    name: Super Mario 64
+    platforms: 04000000050000002900000082000000
+    rating: 0
+  - id: 3440
+    category: 0
+    first_release_date: 938476800
+    involved_companies: 06230000
+    name: 'Army Men: Sarge''s Heroes'
+    platforms: 04000000060000000700000017000000
+    rating: 0
+  - id: 3441
+    category: 0
+    first_release_date: 974764800
+    involved_companies: 07230000
+    name: 'Army Men: Sarge''s Heroes 2'
+    platforms: 04000000070000000800000016000000
+    rating: 0
+  - id: 3426
+    category: 0
+    first_release_date: 845769600
+    involved_companies: e9220000ea220000eb220000
+    name: Body Harvest
+    platforms: 04000000
+    rating: 0
+  - id: 3455
+    category: 11
+    first_release_date: 828057600
+    involved_companies: e8ed0100e9ed0100eaed0100ebed0100eced0100eded0100eeed0100
+    name: 'Bust-A-Move 2: Arcade Edition'
+    platforms: 0400000006000000070000000d0000000e0000002000000021000000
+    rating: 0
+  - id: 3335
+    category: 0
+    first_release_date: 883612800
+    involved_companies: 0f22000010220000
+    name: California Speed
+    platforms: 0400000034000000
+    rating: 0
+  - id: 80368
+    category: 0
+    first_release_date: 1008806400
+    involved_companies: 7319010074190100
+    name: Bomberman 64
+    platforms: 04000000
+    rating: 0
+  - id: 10613
+    category: 0
+    first_release_date: 848966400
+    involved_companies: 896e00008a6e0000
+    name: Killer Instinct Gold
+    platforms: 0400000031000000
+    rating: 0
+  - id: 3574
+    category: 0
+    first_release_date: 969840000
+    involved_companies: 2024000021240000
+    name: "Pok\xE9mon Puzzle League"
+    platforms: 04000000050000002f000000
+    rating: 0
+  - id: 1259
+    category: 0
+    first_release_date: 947030400
+    involved_companies: f60a0000f70a0000
+    name: South Park Rally
+    platforms: 04000000060000000700000017000000
+    rating: 0
+  - id: 3617
+    category: 0
+    first_release_date: 875664000
+    involved_companies: 88240000892400008a2400008b24000070be000071be0000
+    name: Top Gear Rally
+    platforms: 040000001600000018000000
+    rating: 0
+  - id: 422
+    category: 0
+    first_release_date: 933379200
+    involved_companies: dd000000c204000026c70000
+    name: LEGO Racers
+    platforms: 04000000060000000700000016000000
+    rating: 0
+  - id: 3587
+    category: 0
+    first_release_date: 972259200
+    involved_companies: 3f2400004024000041240000
+    name: 'Ready 2 Rumble Boxing: Round 2'
+    platforms: 0400000007000000080000001700000018000000
+    rating: 0
+  - id: 3516
+    category: 0
+    first_release_date: 865123200
+    involved_companies: dd700100
+    name: International Superstar Soccer 64
+    platforms: 04000000
+    rating: 0
+  - id: 1168
+    category: 0
+    first_release_date: 814147200
+    involved_companies: 234f0000244f0000254f0000264f0000
+    name: Destruction Derby
+    platforms: 04000000070000000d00000020000000
+    rating: 0
+  - id: 3645
+    category: 0
+    first_release_date: 896659200
+    involved_companies: d6240000d7240000d8240000
+    name: WWF War Zone
+    platforms: 040000000700000021000000
+    rating: 0
+  - id: 3634
+    category: 0
+    first_release_date: 852076800
+    involved_companies: b6240000b7240000
+    name: WCW Nitro
+    platforms: 040000000600000007000000
+    rating: 0
+  - id: 3332
+    category: 0
+    first_release_date: 896659200
+    involved_companies: 5491000055910000
+    name: Vigilante 8
+    platforms: 0400000007000000
+    rating: 0
+  - id: 3486
+    category: 0
+    first_release_date: 911260800
+    involved_companies: 6f23000070230000
+    name: Extreme-G 2
+    platforms: 0400000006000000
+    rating: 0
+  - id: 3489
+    category: 0
+    first_release_date: 900374400
+    involved_companies: 630f02007b100200
+    name: F-Zero X
+    platforms: 0400000005000000290000002f000000
+    rating: 0
+  - id: 718
+    category: 0
+    first_release_date: 891388800
+    involved_companies: 6a0600006b060000b44f0000
+    name: Forsaken
+    platforms: 040000000600000007000000
+    rating: 0
+  - id: 1539
+    category: 0
+    first_release_date: 910051200
+    involved_companies: c5240000c6240000
+    name: Wipeout 64
+    platforms: 04000000
+    rating: 0
+  - id: 699
+    category: 0
+    first_release_date: 897436800
+    involved_companies: 48060000a1080000
+    name: FIFA 99
+    platforms: 040000000600000007000000
+    rating: 0
+  - id: 3479
+    category: 0
+    first_release_date: 941328000
+    involved_companies: 5c2300005e23000013b10100
+    name: Earthworm Jim 3D
+    platforms: 0400000006000000
+    rating: 0
+  - id: 811
+    category: 0
+    first_release_date: 909792000
+    involved_companies: 100700001e090000848c0100858c0100
+    name: NBA Live 99
+    platforms: 040000000600000007000000
+    rating: 0
+  - id: 3429
+    category: 0
+    first_release_date: 786240000
+    involved_companies: f12200004024020041240200
+    name: Cruis'n USA
+    platforms: 040000000500000034000000
+    rating: 0
+  - id: 10163
+    category: 0
+    first_release_date: 946598400
+    involved_companies: ab5c0000ac5c0000ad5c0000ae5c0000
+    name: Cruis'n Exotica
+    platforms: 040000001600000034000000
+    rating: 0
+  - id: 6225
+    category: 0
+    first_release_date: 875577600
+    involved_companies: ed390000ee390000ef390000f0390000f1390000f2390000f3390000
+    name: 'V-Rally: Championship Edition'
+    platforms: 04000000060000000700000016000000
+    rating: 0
+  - id: 843
+    category: 0
+    first_release_date: 941155200
+    involved_companies: 4107000000090000010900000209000003090000
+    name: 'Rayman 2: The Great Escape'
+    platforms: 040000000600000007000000160000001700000027000000
+    rating: 0
+  - id: 2290
+    category: 0
+    first_release_date: 976752000
+    involved_companies: a5b50000a6b50000a7b50000
+    name: "Pok\xE9mon Stadium 2"
+    platforms: 04000000
+    rating: 0
+  - id: 188
+    category: 0
+    first_release_date: 943315200
+    involved_companies: a6020000
+    name: Indiana Jones and the Infernal Machine
+    platforms: 040000000600000016000000
+    rating: 0
+  - id: 3488
+    category: 0
+    first_release_date: 938649600
+    involved_companies: 7423000075230000
+    name: F-1 World Grand Prix II
+    platforms: 040000001600000017000000
+    rating: 0
+  - id: 9067
+    category: 11
+    first_release_date: 960854400
+    involved_companies: b7560000b85600003c9c0100
+    name: StarCraft 64
+    platforms: 04000000
+    rating: 0
+  - id: 3633
+    category: 0
+    first_release_date: 936057600
+    involved_companies: b4240000b5240000
+    name: WCW Mayhem
+    platforms: 040000000700000016000000
+    rating: 0
+  - id: 3585
+    category: 0
+    first_release_date: 933379200
+    involved_companies: 6a2400006b2400001796000086a9000087a9000088a9000089a90000
+    name: Re-Volt
+    platforms: 030000000400000006000000070000001700000022000000
+    rating: 0
+  - id: 1257
+    category: 0
+    first_release_date: 913420800
+    involved_companies: fe0a0000ff0a0000000b0000010b0000
+    name: South Park
+    platforms: 040000000600000007000000
+    rating: 0
+  - id: 3539
+    category: 0
+    first_release_date: 1000252800
+    involved_companies: d6230000d7230000d8230000
+    name: Madden NFL 2002
+    platforms: 040000000600000007000000080000000b000000150000001600000018000000
+    rating: 0
+  - id: 2289
+    category: 0
+    first_release_date: 925430400
+    involved_companies: 045d0000055d0000
+    name: "Pok\xE9mon Stadium"
+    platforms: 04000000
+    rating: 0
+  - id: 3056
+    category: 0
+    first_release_date: 875577600
+    involved_companies: 361e0000371e000089b001008ab001008bb001008cb001008db00100
+    name: Rampage World Tour
+    platforms: 04000000070000000900000016000000200000004a000000
+    rating: 0
+  - id: 3641
+    category: 0
+    first_release_date: 891302400
+    involved_companies: cb240000cc240000cd240000ce240000
+    name: World Cup 98
+    platforms: 04000000060000000700000021000000
+    rating: 0
+  - id: 2847
+    category: 0
+    first_release_date: 909792000
+    involved_companies: ca1a0000cb1a0000cc1a0000b3400100b4400100
+    name: Disney/Pixar A Bug's Life
+    platforms: 040000000600000007000000
+    rating: 0
+  - id: 3412
+    category: 0
+    first_release_date: 867369600
+    involved_companies: ce220000d0220000538d0100
+    name: Mischief Makers
+    platforms: 04000000
+    rating: 0
+  - id: 1258
+    category: 0
+    first_release_date: 939686400
+    involved_companies: 6a8c01006b8c0100
+    name: 'South Park: Chef''s Luv Shack'
+    platforms: 04000000060000000700000017000000
+    rating: 0
+  - id: 3561
+    category: 0
+    first_release_date: 907113600
+    involved_companies: 0524000006240000
+    name: NHL 99
+    platforms: 040000000600000007000000
+    rating: 0
+  - id: 3408
+    category: 0
+    first_release_date: 974073600
+    involved_companies: c1220000eb8a0000
+    name: Mickey's Speedway USA
+    platforms: 0400000016000000
+    rating: 0
+  - id: 3453
+    category: 0
+    first_release_date: 893894400
+    involved_companies: 292300002a230000
+    name: Bomberman Hero
+    platforms: 04000000050000002f000000
+    rating: 0
+  - id: 3578
+    category: 0
+    first_release_date: 820454400
+    involved_companies: 5d960100
+    name: Puyo Puyo SUN
+    platforms: 040000000600000016000000200000002100000034000000
+    rating: 0
+  - id: 3414
+    category: 0
+    first_release_date: 875577600
+    involved_companies: d4220000f8d20000f9d20000fad20000
+    name: Nightmare Creatures
+    platforms: 040000000600000007000000
+    rating: 0
+  - id: 3430
+    category: 0
+    first_release_date: 846806400
+    involved_companies: f3220000f42200006c8c0100
+    name: Cruis'n World
+    platforms: 0400000034000000
+    rating: 0
+  - id: 3612
+    category: 0
+    first_release_date: 871257600
+    involved_companies: 7a2400007b240000
+    name: Tetrisphere
+    platforms: 04000000
+    rating: 0
+  - id: 3629
+    category: 0
+    first_release_date: 843782400
+    involved_companies: ab24000050fd010053fd0100
+    name: Wave Race 64
+    platforms: 0400000005000000290000002f000000
+    rating: 0
+  - id: 3636
+    category: 0
+    first_release_date: 912384000
+    involved_companies: bb240000bc240000bd240000
+    name: WCW/nWo Revenge
+    platforms: 04000000
+    rating: 0
+  - id: 3343
+    category: 0
+    first_release_date: 919382400
+    involved_companies: 2122000022220000
+    name: Snowboard Kids 2
+    platforms: 04000000
+    rating: 0
+  - id: 1328
+    category: 0
+    first_release_date: 967593600
+    involved_companies: 4751000048510000
+    name: 'Turok 3: Shadow of Oblivion'
+    platforms: 04000000
+    rating: 0
+  - id: 3501
+    category: 0
+    first_release_date: 907200000
+    involved_companies: 922300008e8c01008f8c0100908c0100918c0100
+    name: Gauntlet Legends
+    platforms: 04000000070000001700000034000000
+    rating: 0
+  - id: 2713
+    category: 0
+    first_release_date: 961977600
+    involved_companies: da090200dc090200
+    name: 'Kirby 64: The Crystal Shards'
+    platforms: 0400000005000000290000002f000000
+    rating: 0
+  - id: 2329
+    category: 0
+    first_release_date: 976147200
+    involved_companies: d1140000d2140000
+    name: Mario Party 3
+    platforms: 04000000
+    rating: 0
+  - id: 3475
+    category: 0
+    first_release_date: 986688000
+    involved_companies: 4a5f00004b5f0000
+    name: Dr. Mario 64
+    platforms: 04000000
+    rating: 0
+  - id: 3550
+    category: 0
+    first_release_date: 829612800
+    involved_companies: ef230000f0230000f1230000
+    name: NBA Hangtime
+    platforms: 040000000600000007000000130000001d00000034000000
+    rating: 0
+  - id: 3573
+    category: 0
+    first_release_date: 835488000
+    involved_companies: 1f240000678c0100688c0100698c0100
+    name: Pilotwings 64
+    platforms: 04000000
+    rating: 0
+  - id: 3595
+    category: 0
+    first_release_date: 851385600
+    involved_companies: 4f240000748c0100758c0100768c0100
+    name: 'San Francisco Rush: Extreme Racing'
+    platforms: 040000000700000034000000
+    rating: 0
+  - id: 3596
+    category: 0
+    first_release_date: 915148800
+    involved_companies: 5224000053240000
+    name: San Francisco Rush 2049
+    platforms: 04000000160000001700000034000000
+    rating: 0
+  - id: 3643
+    category: 0
+    first_release_date: 928368000
+    involved_companies: d1240000738c0100
+    name: WWF Attitude
+    platforms: 04000000070000001600000017000000
+    rating: 0
+  - id: 647
+    category: 0
+    first_release_date: 809827200
+    involved_companies: ef050000f005000023080000240800001c650100
+    name: Command & Conquer
+    platforms: 0400000006000000070000000d0000000e00000020000000
+    rating: 0
+  - id: 3123
+    category: 0
+    first_release_date: 873936000
+    involved_companies: 151f000049c700004ac70000
+    name: 'Mission: Impossible'
+    platforms: 0400000007000000
+    rating: 0
+  - id: 2328
+    category: 0
+    first_release_date: 945388800
+    involved_companies: 7187010073870100df0f0200
+    name: Mario Party 2
+    platforms: 040000000500000029000000
+    rating: 0
+  - id: 1463
+    category: 0
+    first_release_date: 958953600
+    involved_companies: 660c0000670c0000
+    name: Perfect Dark
+    platforms: 04000000
+    rating: 0
+  - id: 10680
+    category: 11
+    first_release_date: 878256000
+    involved_companies: 08600000096000000a600000
+    name: Duke Nukem 64
+    platforms: 04000000
+    rating: 0
+  - id: 3337
+    category: 0
+    first_release_date: 957052800
+    involved_companies: 142200008008020081080200
+    name: Excitebike 64
+    platforms: 0400000029000000
+    rating: 0
+  - id: 80891
+    category: 8
+    first_release_date: 0
+    involved_companies: d4220200
+    name: Paperboy
+    platforms: 04000000
+    rating: 0
+  - id: 3427
+    category: 0
+    first_release_date: 880848000
+    involved_companies: ec220000ed220000
+    name: Chameleon Twist
+    platforms: 04000000
+    rating: 0
+  - id: 1355
+    category: 0
+    first_release_date: 939600000
+    involved_companies: fa0b0000
+    name: Jet Force Gemini
+    platforms: 04000000
+    rating: 0
+  - id: 2542
+    category: 0
+    first_release_date: 876355200
+    involved_companies: 78210000792100007a210000
+    name: Fighting Force
+    platforms: 04000000060000000700000009000000
+    rating: 0
+  - id: 3505
+    category: 0
+    first_release_date: 922147200
+    involved_companies: 972300009b230000868c01008d8c0100
+    name: 'Gex 3: Deep Cover Gecko'
+    platforms: 0400000007000000
+    rating: 0
+  - id: 3545
+    category: 0
+    first_release_date: 870912000
+    involved_companies: dc700100
+    name: Mystical Ninja Starring Goemon
+    platforms: 04000000
+    rating: 0
+  - id: 812
+    category: 0
+    first_release_date: 852076800
+    involved_companies: 11070000
+    name: NFL Blitz
+    platforms: 0400000006000000070000001600000034000000
+    rating: 0
+  - id: 3378
+    category: 0
+    first_release_date: 918172800
+    involved_companies: 6f2200007022000039090200
+    name: Harvest Moon 64
+    platforms: 0400000029000000
+    rating: 0
+  - id: 1622
+    category: 0
+    first_release_date: 873936000
+    involved_companies: 33160000351600009f1c0000a01c0000
+    name: Mortal Kombat 4
+    platforms: 0400000006000000070000001600000034000000
+    rating: 0
+  - id: 3371
+    category: 0
+    first_release_date: 936057600
+    involved_companies: 5422000055220000
+    name: Hot Wheels Turbo Racing
+    platforms: 0400000007000000
+    rating: 0
+  - id: 1326
+    category: 0
+    first_release_date: 908928000
+    involved_companies: d5200000d6200000d7200000
+    name: 'Turok 2: Seeds of Evil'
+    platforms: 040000000600000016000000
+    rating: 0
+  - id: 1286
+    category: 0
+    first_release_date: 983750400
+    involved_companies: 42f9000045f90000
+    name: Conker's Bad Fur Day
+    platforms: 04000000
+    rating: 0
+  - id: 154
+    category: 0
+    first_release_date: 926985600
+    involved_companies: 7b0000007c000000ca090200
+    name: 'Star Wars: Episode I - Racer'
+    platforms: 04000000060000000e0000001600000017000000300000003100000082000000
+    rating: 0
+  - id: 1321
+    category: 0
+    first_release_date: 857088000
+    involved_companies: e20b0000e40b000016e50000
+    name: 'Turok: Dinosaur Hunter'
+    platforms: 0400000006000000
+    rating: 0
+  - id: 2591
+    category: 0
+    first_release_date: 862099200
+    involved_companies: 72bf000073bf0000
+    name: Star Fox 64
+    platforms: 0400000005000000290000002f000000
+    rating: 0
+  - id: 3406
+    category: 0
+    first_release_date: 964137600
+    involved_companies: 6265010063650100
+    name: Mario Tennis
+    platforms: 040000000500000029000000
+    rating: 0
+  - id: 3637
+    category: 0
+    first_release_date: 912124800
+    involved_companies: be240000bf240000c0240000c1240000c2240000
+    name: Wetrix
+    platforms: 04000000060000001600000017000000
+    rating: 0
+  - id: 1467
+    category: 0
+    first_release_date: 974764800
+    involved_companies: b37401006a0d02006b0d0200
+    name: Sin and Punishment
+    platforms: 0400000005000000290000002f000000
+    rating: 0
+  - id: 3514
+    category: 0
+    first_release_date: 896918400
+    involved_companies: e0700100
+    name: International Superstar Soccer '98
+    platforms: 04000000
+    rating: 0
+  - id: 3598
+    category: 0
+    first_release_date: 936057600
+    involved_companies: 5524000056240000
+    name: Shadow Man
+    platforms: 04000000060000000700000017000000
+    rating: 0
+  - id: 3644
+    category: 0
+    first_release_date: 974419200
+    involved_companies: d3240000d4240000d5240000
+    name: WWF No Mercy
+    platforms: 04000000
+    rating: 0
+  - id: 3646
+    category: 0
+    first_release_date: 939772800
+    involved_companies: d9240000da240000db240000dc240000
+    name: WWF WrestleMania 2000
+    platforms: 0400000016000000
+    rating: 0
+  - id: 1030
+    category: 0
+    first_release_date: 956793600
+    involved_companies: a0090000f3050200
+    name: 'The Legend of Zelda: Majora''s Mask'
+    platforms: 040000000500000015000000290000002f000000
+    rating: 0
+  - id: 2342
+    category: 0
+    first_release_date: 850521600
+    involved_companies: 398001003a800100e60f0200
+    name: Mario Kart 64
+    platforms: 040000000500000029000000
+    rating: 0
+  - id: 1842
+    category: 0
+    first_release_date: 903657600
+    involved_companies: 6e8c01006f8c0100708c0100718c0100728c0100
+    name: Tom Clancy's Rainbow Six
+    platforms: 0400000006000000070000000e0000001600000017000000
+    rating: 0
