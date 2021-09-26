@@ -85,7 +85,6 @@ public class GamesContainer : SerializedScriptableObject
     {
         if (!allGames.Contains(game))
         {
-
             allGames.Add(game);
         }
     }
@@ -96,10 +95,23 @@ public class GamesContainer : SerializedScriptableObject
         OnAllGamesDeleted?.Invoke();
     }
 
-    public Game GetFromCompany(int company, bool searchOnThatCompany)
+    public Game GetFromCompany(List<Involved_Company> involved_Companies, bool searchOnThatCompany)
     {
-        List<Game> games = allGames.Where(x => searchOnThatCompany ? x.involved_companies.Contains(company)
-        : !x.involved_companies.Contains(company)).ToList();
+        /*List<Game> games = allGames.Where(x => searchOnThatCompany ? x.involved_companies.Any(i => x.involved_companies.Contains(i))
+        : !x.involved_companies.Any(i => x.involved_companies.Contains(i))).ToList();*/
+
+        List<int> involvedIds = involved_Companies.Select(i => i.id).ToList();
+
+        List<Game> games = new List<Game>();
+
+        if (searchOnThatCompany)
+        {
+            games = allGames.Where(x => x.involved_companies.Any(i => involvedIds.Contains(i))).ToList();
+        }
+        else
+        {
+            games = allGames.Where(x => !x.involved_companies.Any(i => involvedIds.Contains(i))).ToList();
+        }
 
         return games[Random.Range(0, games.Count)];
     }
@@ -122,6 +134,21 @@ public class GamesContainer : SerializedScriptableObject
     public Game GetRandomGameFromYear(int year, bool searchOnThatYear, int[] toExclude)
     {
         List<Game> games = allGames.Where(x => searchOnThatYear ? GetDate(x).Year == year && !toExclude.Contains(x.id): GetDate(x).Year != year && !toExclude.Contains(x.id)).ToList();
+
+        return games[Random.Range(0, games.Count)];
+    }
+
+    public Game GetFromPlatform(int platform, bool searchOnThatPlatform, int[] toExclude)
+    {
+        List<Game> games = allGames.Where(x => searchOnThatPlatform ? x.platforms.Contains(platform) && !toExclude.Contains(x.id)
+        : !x.platforms.Contains(platform) && !toExclude.Contains(x.id)).ToList();
+
+        return games[Random.Range(0, games.Count)];
+    }
+    public Game GetFromCompany(int company, bool searchOnThatCompany, int[] toExclude)
+    {
+        List<Game> games = allGames.Where(x => searchOnThatCompany ? x.involved_companies.Contains(company) && !toExclude.Contains(x.id)
+        : !x.involved_companies.Contains(company) && !toExclude.Contains(x.id)).ToList();
 
         return games[Random.Range(0, games.Count)];
     }

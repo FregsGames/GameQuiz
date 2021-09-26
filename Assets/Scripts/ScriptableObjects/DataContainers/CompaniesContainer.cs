@@ -29,6 +29,19 @@ public class CompaniesContainer : ScriptableObject
         }
     }
 
+    public string GetName(int id)
+    {
+        string name = "";
+        Company company = allCompanies.FirstOrDefault(c => c.id == id);
+
+        if(company != null)
+        {
+            name = company.name;
+        }
+
+        return name;
+    }
+
     public void AddCompany(Company company)
     {
         Company cmp = allCompanies.FirstOrDefault(c => c.id == company.id);

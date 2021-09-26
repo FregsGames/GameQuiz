@@ -17,6 +17,12 @@ public class PlatformsContainer : ScriptableObject
         }
     }
 
+    public string GetName(int id)
+    {
+        Platform platform = allPlatforms.FirstOrDefault(p => p.id == id);
+        return platform != null? platform.name : "";
+    }
+
     public void ClearAllGames()
     {
         foreach (var plat in allPlatforms)

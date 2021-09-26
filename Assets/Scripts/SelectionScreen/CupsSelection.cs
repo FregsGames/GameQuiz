@@ -1,7 +1,10 @@
-﻿using SuperMaxim.Messaging;
+﻿using Assets.Scripts.Payloads;
+using Questions;
+using SuperMaxim.Messaging;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CupsSelection : MonoBehaviour
 {
@@ -10,6 +13,13 @@ public class CupsSelection : MonoBehaviour
     [SerializeField]
     private CupDropdown cupDropdownPrefab;
     private List<CupScriptable> cups;
+
+    private CupScriptable currentCup;
+
+    [SerializeField]
+    private MenuManager menuManagerToGame;
+
+    private bool loadingGame = false;
 
     private void Start()
     {
@@ -21,19 +31,56 @@ public class CupsSelection : MonoBehaviour
             dropdown.Setup(cup);
         }
 
-        Messenger.Default.Subscribe<CupScriptable>(OnCupSelected);
+        Messenger.Default.Subscribe<CupSelectedPayload>(OnCupSelected);
     }
 
-    private void OnCupSelected(CupScriptable obj)
+    private void OnDestroy()
+    {
+        Messenger.Default.Unsubscribe<CupSelectedPayload>(OnCupSelected);
+    }
+
+    private void OnCupSelected(CupSelectedPayload obj)
     {
         if (obj == null)
         {
             content.gameObject.SetActive(true);
         }
-        else
+        else if(obj.Cup != null && !obj.endless)
         {
+            currentCup = obj.Cup;
             content.gameObject.SetActive(false);
         }
+        else if(obj.Cup != null && obj.endless)
+        {
+            currentCup = obj.Cup;
+            PlayEndless();
+        }
+    }
+
+    private async void PlayEndless()
+    {
+        if (loadingGame)
+            return;
+
+        loadingGame = true;
+        QuestionGenerator.Instance.CurrentGamesContainer = currentCup.gamesContainer;
+
+        await menuManagerToGame.AnimatePanel();
+        StartCoroutine(LoadGame());
+    }
+
+    IEnumerator LoadGame()
+    {
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Game", LoadSceneMode.Additive);
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
+        }
+        yield return null;
+
+        FindObjectOfType<GameLogic>().StartEndless(currentCup);
+
+        SceneManager.UnloadSceneAsync("CupSelection");
     }
 
     public void Back()

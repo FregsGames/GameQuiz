@@ -17,9 +17,9 @@ public class JsonReader : Singleton<JsonReader>
         companiesDB = CompaniesDB.Instance;
 
         ReadPlatforms();
-        ReadAllGames();
         ReadInvolvedCompanies();
         ReadCompanies();
+        ReadAllGames();
     }
 
     public void ExportAllGamesToJson()

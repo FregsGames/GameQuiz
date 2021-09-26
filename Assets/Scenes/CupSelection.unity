@@ -158,7 +158,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
 --- !u!114 &86489835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1230,6 +1230,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   content: {fileID: 1291423313}
   cupDropdownPrefab: {fileID: 1158237003775059882, guid: f13c47dcf7c621844896cb7eef9c46d6, type: 3}
+  menuManagerToGame: {fileID: 1750919501}
 --- !u!4 &470897921
 Transform:
   m_ObjectHideFlags: 0
@@ -2245,7 +2246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDefault: 0
-  panelToMove: {fileID: 0}
+  panelToMove: {fileID: 1467190877}
   playButton: {fileID: 0}
   sceneToLoad: 2
   directionToHide: 2

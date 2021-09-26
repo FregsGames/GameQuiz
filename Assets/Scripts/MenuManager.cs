@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 using UnityEngine.UI;
+using System.Threading.Tasks;
 
 public class MenuManager : MonoBehaviour
 {
@@ -28,6 +29,22 @@ public class MenuManager : MonoBehaviour
 
         panelToMove.transform.DOMove(GetPositionToMove() * -1, 1f).From().SetEase(Ease.InOutBack);
         playButton.interactable = true;
+    }
+
+    public async Task AnimatePanel()
+    {
+        switch (sceneToLoad)
+        {
+            case SceneToLoad.Game:
+                await panelToMove.transform.DOMove(GetPositionToMove(), 1f).SetEase(Ease.InOutBack).AsyncWaitForCompletion();
+                break;
+            case SceneToLoad.Menu:
+                await panelToMove.transform.DOMove(GetPositionToMove(), 1f).SetEase(Ease.InOutBack).AsyncWaitForCompletion();
+                break;
+            case SceneToLoad.Selector:
+                await panelToMove.transform.DOMove(GetPositionToMove(), 1f).SetEase(Ease.InOutBack).AsyncWaitForCompletion();
+                break;
+        }
     }
 
     public void Load()

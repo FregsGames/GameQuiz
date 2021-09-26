@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using SuperMaxim.Messaging;
 using System;
+using Assets.Scripts.Payloads;
 
 public class CupDropdown : MonoBehaviour
 {
@@ -32,6 +33,11 @@ public class CupDropdown : MonoBehaviour
         Messenger.Default.Subscribe<CupDropdown>(OnCupToggle);
     }
 
+    private void OnDestroy()
+    {
+        Messenger.Default.Unsubscribe<CupDropdown>(OnCupToggle);
+    }
+
     private void OnCupToggle(CupDropdown obj)
     {
         if(obj != this)
@@ -50,7 +56,20 @@ public class CupDropdown : MonoBehaviour
 
     public void PlayLevel()
     {
-        Messenger.Default.Publish<CupScriptable>(Cup);
+        Messenger.Default.Publish<CupSelectedPayload>(new CupSelectedPayload() {
+            Cup = Cup,
+            endless = false
+        });
+    }
+
+    public void PlayEndless()
+    {
+        Close();
+        Messenger.Default.Publish<CupSelectedPayload>(new CupSelectedPayload()
+        {
+            Cup = Cup,
+            endless = true
+        });
     }
 
     public void Close()

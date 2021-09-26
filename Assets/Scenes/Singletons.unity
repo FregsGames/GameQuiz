@@ -246,7 +246,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7115009121114643736, guid: ccb2995c1e8607f4c84222dcafb79493, type: 3}
       propertyPath: cups.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7115009121114643736, guid: ccb2995c1e8607f4c84222dcafb79493, type: 3}
       propertyPath: cups.Array.data[0]

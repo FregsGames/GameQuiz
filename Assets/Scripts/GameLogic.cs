@@ -18,12 +18,15 @@ public class GameLogic : MonoBehaviour
     private int correctAnswers;
     private int totalQuestions = 10;
 
+    private bool endless = false;
+
     [Header("Timer")]
     [SerializeField]
     private float timePerQuestion;
 
     private List<Question> questions;
     private LevelScriptable currentLevel;
+    private CupScriptable currentCup;
 
     void Start()
     {
@@ -37,6 +40,8 @@ public class GameLogic : MonoBehaviour
 
     public void StartGame(LevelScriptable level, List<Question> questions, float timePerQuestion = 20f)
     {
+        endless = false;
+
         currentLevel = level;
         this.questions = questions;
         currentQuestionIndex = 0;
@@ -44,6 +49,19 @@ public class GameLogic : MonoBehaviour
         totalQuestions = questions.Count;
         currentQuestion = questions[0];
         gameUI.Initialize(timePerQuestion);
+
+        gameUI.SetQuestion(currentQuestion);
+    }
+
+    public void StartEndless(CupScriptable cup)
+    {
+        currentCup = cup;
+        totalQuestions = 0;
+        endless = true;
+        gameUI.Initialize(0);
+
+        currentQuestion = QuestionGenerator.Instance.GetRandomGenericQuestion(
+            currentCup.levels[UnityEngine.Random.Range(0, currentCup.levels.Count)]);
 
         gameUI.SetQuestion(currentQuestion);
     }
@@ -86,7 +104,7 @@ public class GameLogic : MonoBehaviour
             }
         }
 
-        if (currentQuestionIndex < questionCount)
+        if (currentQuestionIndex < questionCount || endless)
         {
             NextQuestion();
         }
@@ -138,9 +156,21 @@ public class GameLogic : MonoBehaviour
 
     public void NextQuestion()
     {
-        currentQuestion = questions[currentQuestionIndex];
-        gameUI.SetQuestion(currentQuestion);
-        gameUI.TriggerQuestion();
+        if (endless)
+        {
+            currentQuestion = QuestionGenerator.Instance.GetRandomGenericQuestion(
+            currentCup.levels[UnityEngine.Random.Range(0, currentCup.levels.Count)]);
+
+            gameUI.SetQuestion(currentQuestion);
+            gameUI.TriggerQuestion();
+        }
+        else
+        {
+            currentQuestion = questions[currentQuestionIndex];
+            gameUI.SetQuestion(currentQuestion);
+            gameUI.TriggerQuestion();
+        }
+        
     }
 
 }

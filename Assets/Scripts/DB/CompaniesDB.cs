@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using System.Collections.Generic;
 
 public class CompaniesDB : Singleton<CompaniesDB>
 {
@@ -22,6 +20,8 @@ public class CompaniesDB : Singleton<CompaniesDB>
             allCompanies.Add(company.id, company);
         }
     }
+
+
 
 
     /*public void AddGameToCompany(Game game)

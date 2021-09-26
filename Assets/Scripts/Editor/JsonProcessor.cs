@@ -73,7 +73,7 @@ public class JsonProcessor : EditorWindow
     {
         if (GUILayout.Button("Generate Involved Request"))
         {
-            string involvedCompaniesRequest = "fields company, developed; where id = (";
+            string involvedCompaniesRequest = "fields company, developer; where id = (";
 
             Games games = JsonConvert.DeserializeObject<Games>(json.text);
 

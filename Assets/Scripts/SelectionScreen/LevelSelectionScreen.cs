@@ -1,4 +1,5 @@
-﻿using Questions;
+﻿using Assets.Scripts.Payloads;
+using Questions;
 using SuperMaxim.Messaging;
 using System;
 using System.Collections;
@@ -58,18 +59,18 @@ public class LevelSelectionScreen : MonoBehaviour
     private void Start()
     {
         questionGenerator = QuestionGenerator.Instance;
-        Messenger.Default.Subscribe<CupScriptable>(OnCupSelected);
+        Messenger.Default.Subscribe<CupSelectedPayload>(OnCupSelected);
     }
 
-    private void OnCupSelected(CupScriptable obj)
+    private void OnCupSelected(CupSelectedPayload obj)
     {
         if(obj == null)
         {
             levelContainter.SetActive(false);
         }
-        else
+        else if(!obj.endless)
         {
-            Setup(obj);
+            Setup(obj.Cup);
         }
     }
 
@@ -182,11 +183,6 @@ public class LevelSelectionScreen : MonoBehaviour
         StartCoroutine(LoadGame());
     }
 
-    public void PlayInfinite()
-    {
-
-    }
-
     IEnumerator LoadGame()
     {
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Game", LoadSceneMode.Additive);
@@ -208,7 +204,7 @@ public class LevelSelectionScreen : MonoBehaviour
         SceneManager.UnloadSceneAsync("CupSelection");
     }
 
-    private List<Question> GenerateQuestions()
+    public List<Question> GenerateQuestions()
     {
         List<Question> questions = new List<Question>();
 
@@ -227,7 +223,10 @@ public class LevelSelectionScreen : MonoBehaviour
             }
             else
             {
-                question = questionGenerator.FromTemplate(questionTemplate, currentSelectedLevel);
+                while (question == null || (questions.FirstOrDefault(q => q.CorrectAnswer == question.CorrectAnswer) != null))
+                {
+                    question = questionGenerator.FromTemplate(questionTemplate, currentSelectedLevel);
+                }
             }
 
             questions.Add(question);
@@ -238,6 +237,6 @@ public class LevelSelectionScreen : MonoBehaviour
 
     public void Back()
     {
-        Messenger.Default.Publish<CupScriptable>(null);
+        Messenger.Default.Publish<CupSelectedPayload>(null);
     }
 }

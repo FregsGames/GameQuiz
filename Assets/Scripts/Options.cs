@@ -39,6 +39,11 @@ public class Options : MonoBehaviour
         transform.DOMoveX(-Screen.width, 0.5f).OnComplete(() => gameObject.SetActive(false));
     }
 
+    public void GoMenu()
+    {
+        SceneLoader.Instance.LoadLobby();
+    }
+
     public void OnSoundButtonClick()
     {
         AudioManager.Instance.ToggleSound();
