@@ -1,4 +1,5 @@
 ﻿using Assets.Scripts.Payloads;
+using DG.Tweening;
 using Questions;
 using SuperMaxim.Messaging;
 using System;
@@ -59,18 +60,21 @@ public class LevelSelectionScreen : MonoBehaviour
     private void Start()
     {
         questionGenerator = QuestionGenerator.Instance;
+        levelContainter.transform.DOMove(new Vector2(Screen.width, 0), 0f).SetEase(Ease.InOutBack);
         Messenger.Default.Subscribe<CupSelectedPayload>(OnCupSelected);
     }
 
-    private void OnCupSelected(CupSelectedPayload obj)
+    private async void OnCupSelected(CupSelectedPayload obj)
     {
         if(obj == null)
         {
+            await levelContainter.transform.DOMove(new Vector2(Screen.width, 0), 0.5f).SetEase(Ease.InOutBack).AsyncWaitForCompletion();
             levelContainter.SetActive(false);
         }
         else if(!obj.endless)
         {
             Setup(obj.Cup);
+            await levelContainter.transform.DOMove(Vector2.zero, 0.5f).SetEase(Ease.InOutBack).AsyncWaitForCompletion();
         }
     }
 
@@ -176,10 +180,11 @@ public class LevelSelectionScreen : MonoBehaviour
         }
     }
 
-    public void Play()
+    public async void Play()
     {
         playButton.interactable = false;
         //disable go back
+        await levelContainter.transform.DOMove(new Vector2(Screen.width, 0), 0.5f).SetEase(Ease.InOutBack).AsyncWaitForCompletion();
         StartCoroutine(LoadGame());
     }
 

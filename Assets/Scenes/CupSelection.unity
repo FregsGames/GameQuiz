@@ -649,7 +649,7 @@ RectTransform:
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &232592492
 GameObject:
   m_ObjectHideFlags: 0
@@ -869,7 +869,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 470897920}
         m_TargetAssemblyTypeName: CupsSelection, Assembly-CSharp
-        m_MethodName: Back
+        m_MethodName: ReturnButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1149,7 +1149,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 97.6
+  m_fontSize: 110.8
   m_fontSizeBase: 106
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1231,6 +1231,7 @@ MonoBehaviour:
   content: {fileID: 1291423313}
   cupDropdownPrefab: {fileID: 1158237003775059882, guid: f13c47dcf7c621844896cb7eef9c46d6, type: 3}
   menuManagerToGame: {fileID: 1750919501}
+  menuManagerToMenu: {fileID: 511129408}
 --- !u!4 &470897921
 Transform:
   m_ObjectHideFlags: 0
@@ -1889,7 +1890,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 97.6
+  m_fontSize: 110.8
   m_fontSizeBase: 106
   m_fontWeight: 400
   m_enableAutoSizing: 1

@@ -56,19 +56,22 @@ public class CupDropdown : MonoBehaviour
 
     public void PlayLevel()
     {
-        Messenger.Default.Publish<CupSelectedPayload>(new CupSelectedPayload() {
+        Close();
+        Messenger.Default.Publish(new CupSelectedPayload() {
             Cup = Cup,
-            endless = false
+            endless = false,
+            CupDropdown = this
         });
     }
 
     public void PlayEndless()
     {
         Close();
-        Messenger.Default.Publish<CupSelectedPayload>(new CupSelectedPayload()
+        Messenger.Default.Publish(new CupSelectedPayload()
         {
             Cup = Cup,
-            endless = true
+            endless = true,
+            CupDropdown = this
         });
     }
 
