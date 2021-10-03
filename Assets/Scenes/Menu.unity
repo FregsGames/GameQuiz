@@ -567,6 +567,7 @@ MonoBehaviour:
   isDefault: 1
   panelToMove: {fileID: 446498254}
   playButton: {fileID: 2056605059}
+  thisScene: 0
   sceneToLoad: 1
   directionToHide: 2
 --- !u!4 &1151538837
@@ -943,7 +944,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: -1000
   m_TargetDisplay: 0

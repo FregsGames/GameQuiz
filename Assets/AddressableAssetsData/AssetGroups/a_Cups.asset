@@ -16,25 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 257b45f305bf1d848b0285c8adb68470
-  m_SerializeEntries:
-  - m_GUID: 4d317cf1ea1f24f4ebb4c8f857a6b51d
-    m_Address: 00_Handwritten
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 11400000, guid: 4d317cf1ea1f24f4ebb4c8f857a6b51d, type: 2}
-    m_TargetAsset: {fileID: 11400000, guid: 4d317cf1ea1f24f4ebb4c8f857a6b51d, type: 2}
-  - m_GUID: 7072ef8249e270941a08405ac5778f16
-    m_Address: 00_RetroCup
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 11400000, guid: 7072ef8249e270941a08405ac5778f16, type: 2}
-    m_TargetAsset: {fileID: 11400000, guid: 7072ef8249e270941a08405ac5778f16, type: 2}
-  - m_GUID: 90284dc9afa6ea54099f9c5c1a2d60c0
-    m_Address: 00_Games
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 11400000, guid: 90284dc9afa6ea54099f9c5c1a2d60c0, type: 2}
-    m_TargetAsset: {fileID: 11400000, guid: 90284dc9afa6ea54099f9c5c1a2d60c0, type: 2}
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 99c74957a8697df4486cace21a2c5827, type: 2}
   m_SchemaSet:

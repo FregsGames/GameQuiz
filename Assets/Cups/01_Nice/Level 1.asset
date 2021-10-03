@@ -9023,9 +9023,8 @@ MonoBehaviour:
   companiesContainer: {fileID: 11400000, guid: 064a482e508683e4c8418b4bbb2132ad, type: 2}
   handwrittenQuestionSet: {fileID: 11400000, guid: 4d317cf1ea1f24f4ebb4c8f857a6b51d, type: 2}
   questionTemplates:
-  - contentType: 3
-  - contentType: 2
-  - contentType: 1
+  - contentType: 4
+  - contentType: 4
   state: 2
   alwaysUnlocked: 1
   winCondition: 0

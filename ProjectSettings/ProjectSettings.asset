@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: Fregs
   productName: GameQuiz
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -126,7 +126,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.0
+  bundleVersion: 0.1.2
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -171,8 +171,8 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier: {}
   buildNumber: {}
-  AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 19
+  AndroidBundleVersionCode: 7
+  AndroidMinSdkVersion: 28
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -246,18 +246,18 @@ PlayerSettings:
   clonedFromGUID: 10ad67313f4034357812315f3c407484
   templatePackageId: com.unity.template.2d@4.0.3
   templateDefaultScene: Assets/Scenes/SampleScene.unity
-  AndroidTargetArchitectures: 1
+  AndroidTargetArchitectures: 3
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: 
-  AndroidKeyaliasName: 
+  AndroidKeystoreName: E:/user.keystore
+  AndroidKeyaliasName: fregs
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
   AndroidIsGame: 1
   AndroidEnableTango: 0
   androidEnableBanner: 1
   androidUseLowAccuracyLocation: 0
-  androidUseCustomKeystore: 0
+  androidUseCustomKeystore: 1
   m_AndroidBanners:
   - width: 320
     height: 180
@@ -644,7 +644,8 @@ PlayerSettings:
   scriptingDefineSymbols:
     7: ODIN_INSPECTOR;ODIN_INSPECTOR_3
   platformArchitecture: {}
-  scriptingBackend: {}
+  scriptingBackend:
+    Android: 1
   il2cppCompilerConfiguration: {}
   managedStrippingLevel: {}
   incrementalIl2cppBuild: {}
@@ -714,7 +715,13 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    Analytics: 1
+    Build: 0
+    Collab: 0
+    Game Performance: 0
+    Purchasing: 1
+    Unity Ads: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -727,10 +734,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: c75429b9-165b-4a7c-aa52-6a939c3e18f3
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: GameQuiz (2)
+  organizationId: fregs
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

@@ -59,5 +59,17 @@ MonoBehaviour:
   - id: failedLevel
     en: Level failed
     es: Nivel mal
+  - id: s_developedBy_0
+    en: Game developed by
+    es: Juego desarrollado por
+  - id: s_year_0
+    en: Game published in
+    es: 'Juego publicado en '
+  - id: s_plat_0
+    en: Game for
+    es: Juego para
+  - id: s_plat_1
+    en: You can play this game on
+    es: 'Puedes jugar a este juego en '
   currentLanguage: 34
   availableLanguages: 220000000a000000

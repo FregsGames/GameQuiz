@@ -27,6 +27,14 @@ public class CupsSelection : MonoBehaviour
 
     private void Start()
     {
+        InstatiateCups();
+
+        Messenger.Default.Subscribe<CupSelectedPayload>(OnCupSelected);
+        Messenger.Default.Subscribe<CupDropdown>(OnCupToggle);
+    }
+
+    private void InstatiateCups()
+    {
         cups = Cups.Instance.GetAllCups();
 
         foreach (var cup in cups)
@@ -34,9 +42,26 @@ public class CupsSelection : MonoBehaviour
             var dropdown = Instantiate(cupDropdownPrefab, content);
             dropdown.Setup(cup);
         }
+    }
 
-        Messenger.Default.Subscribe<CupSelectedPayload>(OnCupSelected);
-        Messenger.Default.Subscribe<CupDropdown>(OnCupToggle);
+    private void OnEnable()
+    {
+        IAPManager.Instance.OnPurchaseResolved += Refresh;
+    }
+
+    private void Refresh()
+    {
+        for (int i = content.transform.childCount - 1; i >= 0; i--)
+        {
+            Destroy(content.transform.GetChild(i).gameObject);
+        }
+
+        InstatiateCups();
+    }
+
+    private void OnDisable()
+    {
+        IAPManager.Instance.OnPurchaseResolved -= Refresh;
     }
 
     private void OnCupToggle(CupDropdown obj)

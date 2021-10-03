@@ -10,14 +10,13 @@ public class Cups : Singleton<Cups>
 {
     [SerializeField]
     private List<CupScriptable> cups = new List<CupScriptable>();
-    public enum CupState { locked = 0, completed = 2, unlocked = 1 };
+    [Serializable]
+    public enum CupType { free = 0, premium = 1};
 
     private void Start()
     {
         foreach (var cup in cups)
         {
-            cup.state = (CupState)SaveManager.instance.RetrieveInt(cup.id);
-
             foreach (var level in cup.levels)
             {
                 level.state = (LevelState) SaveManager.instance.RetrieveInt(level.id);

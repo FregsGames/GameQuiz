@@ -14,27 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   setId: bronze_0
   questions:
-  - questionId: question_test_0
-    entries:
-    - statement: question answer a
-    correctAnswer: a
-    wrongAnswers:
-    - b
-    - c
-    - d
-    - e
-    - f
-    - g
-    - h
-    - i
-    - j
-  - questionId: question_test_1
-    entries:
-    - statement: question answer 1
-    correctAnswer: 1
-    wrongAnswers:
-    - 2
-    - 3
-    - 4
-    - 5
-  langs: 0a000000
+  - {fileID: 11400000, guid: 94ed7700796d59b4cab81a0eb2d96742, type: 2}
+  - {fileID: 11400000, guid: f0253390d7c22a1409f5d8e98e6599d2, type: 2}
+  langs: 0a00000022000000

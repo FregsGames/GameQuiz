@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c71ec6c37f0556f4f82fa6aaaf792e52, type: 3}
   m_Name: 00_RetroCup
   m_EditorClassIdentifier: 
-  id: cup_0
+  id: test_product
   title: Retro cup
   levels:
   - {fileID: 11400000, guid: 59e16149964304c40a2832b8bcace43b, type: 2}
   cupImage: {fileID: 21300000, guid: 1071d6cb0172e464da664d8c99f654f5, type: 3}
-  state: 0
+  state: 1
   gamesContainer: {fileID: 11400000, guid: 90284dc9afa6ea54099f9c5c1a2d60c0, type: 2}

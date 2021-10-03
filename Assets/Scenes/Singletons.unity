@@ -180,6 +180,49 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9df5edc5cd486f2489fc4b45272378f4, type: 3}
+--- !u!1 &53124907
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 53124909}
+  - component: {fileID: 53124908}
+  m_Layer: 0
+  m_Name: Purchases
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &53124908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53124907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb3b28bd1b5ff3446925ec45313b9caa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &53124909
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53124907}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &303609378
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -244,18 +287,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7115009121114643736, guid: ccb2995c1e8607f4c84222dcafb79493, type: 3}
-      propertyPath: cups.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7115009121114643736, guid: ccb2995c1e8607f4c84222dcafb79493, type: 3}
-      propertyPath: cups.Array.data[0]
-      value: 
-      objectReference: {fileID: 11400000, guid: 7072ef8249e270941a08405ac5778f16, type: 2}
-    - target: {fileID: 7115009121114643736, guid: ccb2995c1e8607f4c84222dcafb79493, type: 3}
-      propertyPath: cups.Array.data[1]
-      value: 
-      objectReference: {fileID: 11400000, guid: 84f1c5f43eeef1248abc3bf4b79c3736, type: 2}
     - target: {fileID: 7115009121114643737, guid: ccb2995c1e8607f4c84222dcafb79493, type: 3}
       propertyPath: m_Name
       value: CupContainer

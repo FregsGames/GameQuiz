@@ -143,6 +143,9 @@ public class GamesContainer : SerializedScriptableObject
         List<Game> games = allGames.Where(x => searchOnThatPlatform ? x.platforms.Contains(platform) && !toExclude.Contains(x.id)
         : !x.platforms.Contains(platform) && !toExclude.Contains(x.id)).ToList();
 
+        if (games == null || games.Count == 0)
+            return null;
+
         return games[Random.Range(0, games.Count)];
     }
     public Game GetFromCompany(int company, bool searchOnThatCompany, int[] toExclude)

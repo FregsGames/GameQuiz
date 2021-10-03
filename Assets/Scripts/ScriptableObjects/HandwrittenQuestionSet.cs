@@ -56,9 +56,9 @@ public class HandwrittenQuestionSet : ScriptableObject
 
         int langIndex = GetCurrentLanguageIndex();
 
-        List<string> wrongOptions = chosenQuestion.wrongAnswers.OrderBy(x => Random.value).Take(3).ToList();
+        List<string> wrongOptions = chosenQuestion.WrongAnswers.OrderBy(x => Random.value).Take(3).ToList();
 
-        Question question = new Question(questionId, chosenQuestion.entries[langIndex].statement, chosenQuestion.correctAnswer, wrongOptions, true);
+        Question question = new Question(questionId, chosenQuestion.Statement, chosenQuestion.CorrectAnswer, wrongOptions, true);
 
         return question;
 
@@ -76,17 +76,5 @@ public class HandwrittenQuestionSet : ScriptableObject
     }
 }
 
-[Serializable]
-public class HandwrittenQuestion
-{
-    public string questionId;
-    public List<HandwrittenQuestionEntry> entries;
-    public string correctAnswer;
-    public List<string> wrongAnswers;
 
-}
-[Serializable]
-public class HandwrittenQuestionEntry
-{
-    public string statement;
-}
+

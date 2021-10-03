@@ -12,7 +12,7 @@ public class CupScriptable : ScriptableObject
     public string title;
     public List<LevelScriptable> levels = new List<LevelScriptable>();
     public Sprite cupImage;
-    public CupState state;
+    public CupType state;
     public GamesContainer gamesContainer;
 
     public void AddLevel()

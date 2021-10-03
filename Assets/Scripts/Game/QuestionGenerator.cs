@@ -28,6 +28,11 @@ namespace Questions
                     break;
                 case QuestionTemplate.QuestionContent.fromPlatform:
                     question = GameFromPlatform(level.platforms.Select(p => p.Item1).ToList());
+                    if(question == null)
+                    {
+                        Debug.LogWarning($"Generating generic question because getting from platform was impossible");
+                    }
+                    question = GetRandomGenericQuestion(level);
                     break;
                 case QuestionTemplate.QuestionContent.fromCompany:
                     question = GameFromCompany(level.companies.Where(c => c.Item2 >= 3).Select(p => p.Item1.id).ToList());
@@ -77,8 +82,9 @@ namespace Questions
                 Game other = CurrentGamesContainer.GetRandomGameFromYear(year, searchOnThatYear: false, otherOptions.Select(g => g.id).ToArray());
                 otherOptions.Add(other);
             }
+            string statement = Translations.instance.GetText("s_year_0");
 
-            return new Question("", $"Game from {year}", correctAnswer.name, otherOptions.Select(g => g.name).ToList());
+            return new Question("", $"{statement} {year}", correctAnswer.name, otherOptions.Select(g => g.name).ToList());
         }
 
         public Question GameFromPlatform(List<int> platforms, int options = 4)
@@ -94,18 +100,45 @@ namespace Questions
                 validPlats = CurrentGamesContainer.Platforms().Keys.ToList();
             }
 
-            int platform = validPlats[Random.Range(0, validPlats.Count)];
-
-            Game correctAnswer = CurrentGamesContainer.GetFromPlatform(platform, true);
+            bool platformObtained = false;
+            int platform = 0;
+            int tries = 0;
+            Game correctAnswer = new Game();
             List<Game> otherOptions = new List<Game>();
 
-            for (int i = 1; i < options; i++)
+            while (!platformObtained && tries < 20)
             {
-                Game other = CurrentGamesContainer.GetFromPlatform(platform, searchOnThatPlatform: false, otherOptions.Select(g => g.id).ToArray());
-                otherOptions.Add(other);
+                platform = validPlats[Random.Range(0, validPlats.Count)];
+
+                correctAnswer = CurrentGamesContainer.GetFromPlatform(platform, true);
+                platformObtained = true;
+
+                for (int i = 1; i < options; i++)
+                {
+                    Game other = CurrentGamesContainer.GetFromPlatform(platform, searchOnThatPlatform: false, otherOptions.Select(g => g.id).ToArray());
+                    if(other == null)
+                    {
+                        otherOptions.Clear();
+                        platformObtained = false;
+                        tries++;
+                        break;
+                    }
+                    else
+                    {
+                        otherOptions.Add(other);
+                    }
+
+                }
             }
 
-            return new Question("", $"Game from {platformsDB.GetName(platform)}", correctAnswer.name, otherOptions.Select(g => g.name).ToList());
+            if(otherOptions.Count == 0)
+            {
+                return null;
+            }
+
+            string statement = Translations.instance.GetText($"s_plat_{Random.Range(0,2)}");
+
+            return new Question("", $"{statement} {platformsDB.GetName(platform)}", correctAnswer.name, otherOptions.Select(g => g.name).ToList());
         }
 
         public Question GameFromCompany(List<int> companies, int options = 4, int methodTries = 0)
@@ -158,7 +191,9 @@ namespace Questions
                 otherOptions.Add(other);
             }
 
-            return new Question("", $"Game from {companiesDB.GetName(company)}", correctAnswer.name, otherOptions.Select(g => g.name).ToList());
+            string statement = Translations.instance.GetText("s_developedBy_0");
+
+            return new Question("", $"{statement} {companiesDB.GetName(company)}", correctAnswer.name, otherOptions.Select(g => g.name).ToList());
         }
 
         public Question GameNotFromYear(int options = 4, int difficulty = 1)

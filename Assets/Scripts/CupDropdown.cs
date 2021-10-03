@@ -22,9 +22,19 @@ public class CupDropdown : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI cupName;
     [SerializeField]
+    private TextMeshProUGUI levelsTitleText;
+    [SerializeField]
     private TextMeshProUGUI levelsText;
     [SerializeField]
     private Button infiniteButton;
+    [SerializeField]
+    private Button playButton;
+    [SerializeField]
+    private Button buyButton;
+    [SerializeField]
+    private Text priceText;
+    [SerializeField]
+    private Image cupImage;
 
     private void Start()
     {
@@ -52,6 +62,21 @@ public class CupDropdown : MonoBehaviour
         cupName.text = cup.name;
         levelsText.text = $"{cup.GetCompletedLevelsCount()}/{cup.levels.Count}";
         infiniteButton.interactable = cup.GetCompletedLevelsCount() == cup.levels.Count;
+
+        if(cup.state == Cups.CupType.free || IAPManager.Instance.HasBought(cup.id))
+        {
+            cupImage.sprite = cup.cupImage;
+        }
+        else
+        {
+            playButton.gameObject.SetActive(false);
+            infiniteButton.gameObject.SetActive(false);
+
+            buyButton.gameObject.SetActive(true);
+            priceText.gameObject.SetActive(true);
+            levelsText.gameObject.SetActive(false);
+            levelsTitleText.gameObject.SetActive(false);
+        }
     }
 
     public void PlayLevel()
@@ -73,6 +98,11 @@ public class CupDropdown : MonoBehaviour
             endless = true,
             CupDropdown = this
         });
+    }
+
+    public void Buy()
+    {
+        IAPManager.Instance.BuyProductID(Cup.id);
     }
 
     public void Close()
