@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Purchasing;
+using UnityEngine.UI;
 
 public class IAPManager : Singleton<IAPManager>, IStoreListener
 {
@@ -11,14 +13,18 @@ public class IAPManager : Singleton<IAPManager>, IStoreListener
 
     public Action OnPurchaseResolved;
 
+    private int initTries = 0;
+
+    private ConfigurationBuilder configurationBuilder;
+
     private void Start()
     {
-        var builder = ConfigurationBuilder.Instance(StandardPurchasingModule.Instance());
-        builder.AddProduct("test_product", ProductType.NonConsumable);
-        builder.AddProduct("test_2", ProductType.NonConsumable);
-        builder.AddProduct("test_3", ProductType.NonConsumable);
-        builder.AddProduct("test_4", ProductType.NonConsumable);
-        UnityPurchasing.Initialize(this, builder);
+        configurationBuilder = ConfigurationBuilder.Instance(StandardPurchasingModule.Instance());
+        configurationBuilder.AddProduct("test_product", ProductType.NonConsumable);
+        configurationBuilder.AddProduct("test_2", ProductType.NonConsumable);
+        configurationBuilder.AddProduct("test_3", ProductType.NonConsumable);
+        configurationBuilder.AddProduct("test_4", ProductType.NonConsumable);
+        UnityPurchasing.Initialize(this, configurationBuilder);
     }
 
     /// <summary>
@@ -33,11 +39,14 @@ public class IAPManager : Singleton<IAPManager>, IStoreListener
     public bool HasBought(string id)
     {
         if (!IsInitialized())
+        {
             return false;
+        }
 
         if(controller.products.WithID(id) == null)
+        {
             return false;
-
+        }
         return controller.products.WithID(id).hasReceipt;
     }
 
@@ -49,7 +58,17 @@ public class IAPManager : Singleton<IAPManager>, IStoreListener
     /// </summary>
     public void OnInitializeFailed(InitializationFailureReason error)
     {
-        Debug.LogError(error);
+        if(initTries < 10)
+        {
+            StartCoroutine(TryInit());
+            initTries++;
+        }
+    }
+
+    private IEnumerator TryInit()
+    {
+        yield return new WaitForSeconds(1f);
+        UnityPurchasing.Initialize(this, configurationBuilder);
     }
 
     /// <summary>

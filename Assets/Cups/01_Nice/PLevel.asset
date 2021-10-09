@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 681de88eb5048cd41aadcef0a05e44bd, type: 3}
-  m_Name: Level 1
+  m_Name: PLevel
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -9023,7 +9023,7 @@ MonoBehaviour:
   companiesContainer: {fileID: 11400000, guid: 064a482e508683e4c8418b4bbb2132ad, type: 2}
   handwrittenQuestionSet: {fileID: 11400000, guid: 4d317cf1ea1f24f4ebb4c8f857a6b51d, type: 2}
   questionTemplates:
-  - contentType: 1
+  - contentType: 2
   - contentType: 4
   state: 2
   alwaysUnlocked: 1

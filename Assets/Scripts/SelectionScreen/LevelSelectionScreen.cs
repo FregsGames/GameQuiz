@@ -201,8 +201,8 @@ public class LevelSelectionScreen : MonoBehaviour
         {
             currentSelectedLevel.handwrittenQuestionSet.Initialize();
         }
-
         List<Question> questions = GenerateQuestions();
+
 
         FindObjectOfType<GameLogic>().StartGame(currentSelectedLevel, questions, 20f);
 
@@ -215,7 +215,12 @@ public class LevelSelectionScreen : MonoBehaviour
 
         List<string> toExclude = new List<string>();
 
+
         questionGenerator.CurrentGamesContainer = currentCup.gamesContainer;
+
+
+        int i = 0;
+
 
         foreach (var questionTemplate in currentSelectedLevel.questionTemplates)
         {
@@ -223,17 +228,27 @@ public class LevelSelectionScreen : MonoBehaviour
 
             if (questionTemplate.ContentType == QuestionTemplate.QuestionContent.handwriten)
             {
+
                 question = currentSelectedLevel.handwrittenQuestionSet.GetQuestion(toExclude);
                 toExclude.Add(question.Id);
             }
             else
             {
+
                 while (question == null || (questions.FirstOrDefault(q => q.CorrectAnswer == question.CorrectAnswer) != null))
                 {
+                    CustomDebug.Instance.Log($"while...");
+
+                    if(questionTemplate == null)
+                    CustomDebug.Instance.Log($"questionTemplate is null");
+                    if (questionTemplate == null)
+                        CustomDebug.Instance.Log($"currentSelectedLevel is null");
+
                     question = questionGenerator.FromTemplate(questionTemplate, currentSelectedLevel);
                 }
             }
-
+            CustomDebug.Instance.Log($"{i}...");
+            i++;
             questions.Add(question);
         }
 

@@ -22,10 +22,9 @@ public class LevelScriptable : SerializedScriptableObject
     public LevelCondition winCondition;
 
     public List<int> years;
-    public List<(int,int)> platforms;
-    public List<(int,int)> involved;
-    public List<(Company,int)> companies;
-
+    public List<PlatformTuple> platforms;
+    public List<InvolvedTuple> involved;
+    public List<CompanyTuple> companies;
 
     public void AddQuestion()
     {
@@ -52,16 +51,16 @@ public class LevelScriptable : SerializedScriptableObject
         }
         else
         {
-            platforms = new List<(int,int)>();
+            platforms = new List<PlatformTuple>();
         }
 
         if(gamesContainer != null)
         {
             foreach (var plat in gamesContainer.Platforms())
             {
-                platforms.Add((plat.Key,plat.Value));
+                platforms.Add(new PlatformTuple(plat.Key, plat.Value));
             }
-            platforms = platforms.OrderByDescending(i => i.Item2).ToList<(int,int)>();
+            platforms = platforms.OrderByDescending(i => i.counter).ToList();
         }
     }
     private void UpdateCompanies()
@@ -75,19 +74,19 @@ public class LevelScriptable : SerializedScriptableObject
         }
         else
         {
-            involved = new List<(int, int)>();
+            involved = new List<InvolvedTuple>();
         }
 
         if (gamesContainer != null)
         {
             foreach (var comp in gamesContainer.Involved())
             {
-                involved.Add((comp.Key, comp.Value));
+                involved.Add(new InvolvedTuple(comp.Key, comp.Value));
             }
         }
 
         companies = companiesContainer.GetCompanies(involved);
-        companies = companies.OrderByDescending(i => i.Item2).ToList<(Company, int)>();
+        companies = companies.OrderByDescending(i => i.counter).ToList();
 
     }
 
@@ -109,5 +108,45 @@ public class LevelScriptable : SerializedScriptableObject
                 years.Add(year.Key);
             }
         }
+    }
+}
+
+[Serializable]
+public class CompanyTuple
+{
+    public Company company;
+    public int counter;
+
+    public CompanyTuple(Company c, int co)
+    {
+        company = c;
+        counter = co;
+    }
+}
+
+
+[Serializable]
+public class PlatformTuple
+{
+    public int platform;
+    public int counter;
+
+    public PlatformTuple(int p, int c)
+    {
+        platform = p;
+        counter = c;
+    }
+}
+
+[Serializable]
+public class InvolvedTuple
+{
+    public int involved;
+    public int counter;
+
+    public InvolvedTuple(int i, int c)
+    {
+        involved = i;
+        counter = c;
     }
 }

@@ -27,7 +27,7 @@ namespace Questions
                     question = GameFromYear(level.years);
                     break;
                 case QuestionTemplate.QuestionContent.fromPlatform:
-                    question = GameFromPlatform(level.platforms.Select(p => p.Item1).ToList());
+                    question = GameFromPlatform(level.platforms.Select(p => p.platform).ToList());
                     if(question == null)
                     {
                         Debug.LogWarning($"Generating generic question because getting from platform was impossible");
@@ -35,7 +35,42 @@ namespace Questions
                     question = GetRandomGenericQuestion(level);
                     break;
                 case QuestionTemplate.QuestionContent.fromCompany:
-                    question = GameFromCompany(level.companies.Where(c => c.Item2 >= 3).Select(p => p.Item1.id).ToList());
+                    CustomDebug.Instance.Log("Getting from company");
+
+                    if(level == null)
+                    {
+                        CustomDebug.Instance.Log("[ERROR] level is null");
+                    }
+
+                    if (level.companies == null)
+                    {
+                        CustomDebug.Instance.Log("[ERROR] level.companies is null");
+                    }
+
+                    IEnumerable<CompanyTuple> enumerable = level.companies.Where(c => c.counter >= 3);
+
+                    if (enumerable == null)
+                    {
+                        CustomDebug.Instance.Log("[ERROR] enumerable is null");
+                    }
+                    else
+                    {
+                        CustomDebug.Instance.Log($"enumerable fine, casting...");
+                        CustomDebug.Instance.Log($"{enumerable.ToList().Count}");
+                    }
+                    IEnumerable<int> selection = enumerable.Select(p => p.company.id);
+
+                    if (selection == null)
+                    {
+                        CustomDebug.Instance.Log("[ERROR] selection is null");
+                    }
+                    else
+                    {
+                        CustomDebug.Instance.Log($"selection fine, casting...");
+                        CustomDebug.Instance.Log($"{selection.ToList().Count}");
+                    }
+
+                    question = GameFromCompany(selection.ToList());
                     break;
             }
 
@@ -53,9 +88,9 @@ namespace Questions
                 case 0:
                     return GameFromYear(level.years);
                 case 1:
-                    return GameFromPlatform(level.platforms.Select(p => p.Item1).ToList());
+                    return GameFromPlatform(level.platforms.Select(p => p.platform).ToList());
                 default:
-                    return GameFromCompany(level.companies.Where(c => c.Item2 >= 3).Select(p => p.Item1.id).ToList());
+                    return GameFromCompany(level.companies.Where(c => c.counter >= 3).Select(p => p.company.id).ToList());
             }
         }
 
@@ -145,14 +180,26 @@ namespace Questions
         {
             List<int> validCompanies = new List<int>();
 
+            CustomDebug.Instance.Log($"companies has {companies.Count} values");
+
             if (companies != null)
             {
                 validCompanies = companies;
             }
             else
             {
+                if(CurrentGamesContainer == null) { 
+                    CustomDebug.Instance.Log($"[ERROR] CurrentGamesContainer is null");
+                }
+                else
+                {
+                    CustomDebug.Instance.Log($"CurrentGamesContainer is fine");
+                }
+
                 validCompanies = CurrentGamesContainer.Involved().Keys.ToList();
             }
+
+            CustomDebug.Instance.Log($"valid companies has {companies.Count} values");
 
             bool validCompanyGot = false;
             int tries = 0;
@@ -173,7 +220,8 @@ namespace Questions
             {
                 if(methodTries < 10)
                 {
-                    return GameFromCompany(companies, methodTries: methodTries++);
+                    int mTries = methodTries + 1;
+                    return GameFromCompany(companies, methodTries: mTries);
                 }
                 else
                 {
@@ -181,17 +229,24 @@ namespace Questions
                 }
             }
 
-
+            CustomDebug.Instance.Log($"Getting game from company");
             Game correctAnswer = CurrentGamesContainer.GetFromCompany(involved, true);
+            CustomDebug.Instance.Log($"Game: {correctAnswer.name}");
+
             List<Game> otherOptions = new List<Game>();
+
+            CustomDebug.Instance.Log($"Getting other options");
 
             for (int i = 1; i < options; i++)
             {
                 Game other = CurrentGamesContainer.GetFromCompany(involved, false);
                 otherOptions.Add(other);
+                CustomDebug.Instance.Log($"Other options: {other.name}");
             }
 
             string statement = Translations.instance.GetText("s_developedBy_0");
+
+            CustomDebug.Instance.Log($"Statement: {statement}");
 
             return new Question("", $"{statement} {companiesDB.GetName(company)}", correctAnswer.name, otherOptions.Select(g => g.name).ToList());
         }

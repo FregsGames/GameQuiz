@@ -127,27 +127,27 @@ public class CompaniesContainer : ScriptableObject
         return cmp != null;
     }
 
-    public List<(Company, int)> GetCompanies(List<(int, int)> involved)
+    public List<CompanyTuple> GetCompanies(List<InvolvedTuple> involved)
     {
-        List<(Company, int)> companies = new List<(Company, int)>();
+        List<CompanyTuple> companies = new List<CompanyTuple>();
 
         foreach (var item in involved)
         {
-            var inv = involved_companies.FirstOrDefault(i => i.id == item.Item1);
+            var inv = involved_companies.FirstOrDefault(i => i.id == item.involved);
             if (inv != null)
             {
                 var comp = allCompanies.FirstOrDefault(c => c.id == inv.company);
                 if(comp != null)
                 {
-                    var result = companies.FirstOrDefault(r => r.Item1.id == comp.id);
-                    if (result.Item1 == null)
+                    var result = companies.FirstOrDefault(r => r.company.id == comp.id);
+                    if (result == null)
                     {
-                        companies.Add((new Company() {name = comp.name, id = comp.id }, 1));
+                        companies.Add(new CompanyTuple(new Company() { name = comp.name, id = comp.id }, 1));
                     }
                     else
                     {
                         var index = companies.IndexOf(result);
-                        companies[index] = (companies[index].Item1, companies[index].Item2 + 1);
+                        companies[index] = new CompanyTuple(companies[index].company, companies[index].counter + 1);
                     }
                 }
             }
