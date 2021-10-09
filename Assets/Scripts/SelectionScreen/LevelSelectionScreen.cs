@@ -237,17 +237,9 @@ public class LevelSelectionScreen : MonoBehaviour
 
                 while (question == null || (questions.FirstOrDefault(q => q.CorrectAnswer == question.CorrectAnswer) != null))
                 {
-                    CustomDebug.Instance.Log($"while...");
-
-                    if(questionTemplate == null)
-                    CustomDebug.Instance.Log($"questionTemplate is null");
-                    if (questionTemplate == null)
-                        CustomDebug.Instance.Log($"currentSelectedLevel is null");
-
                     question = questionGenerator.FromTemplate(questionTemplate, currentSelectedLevel);
                 }
             }
-            CustomDebug.Instance.Log($"{i}...");
             i++;
             questions.Add(question);
         }
