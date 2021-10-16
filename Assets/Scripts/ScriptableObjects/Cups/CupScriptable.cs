@@ -10,6 +10,9 @@ public class CupScriptable : ScriptableObject
 {
     public string id;
     public string title;
+    public string packTitle;
+    public string desc;
+    public string packDesc;
     public List<LevelScriptable> levels = new List<LevelScriptable>();
     public Sprite cupImage;
     public CupType state;

@@ -14,6 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: test_2
   title: Retro cup
+  packTitle: free cup
+  desc: cup_freeTestDesc
+  packDesc: cup_freeTestDesc
   levels:
   - {fileID: 11400000, guid: 89394b83d3783044991fad21daf5d297, type: 2}
   cupImage: {fileID: 21300000, guid: 1071d6cb0172e464da664d8c99f654f5, type: 3}

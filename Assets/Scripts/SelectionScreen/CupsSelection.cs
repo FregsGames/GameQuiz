@@ -25,6 +25,8 @@ public class CupsSelection : MonoBehaviour
 
     private bool loadingGame = false;
 
+    private List<string> alreadyInstantiatedPremiumCups = new List<string>();
+
     private void Start()
     {
         InstatiateCups();
@@ -39,6 +41,18 @@ public class CupsSelection : MonoBehaviour
 
         foreach (var cup in cups)
         {
+            if(cup.state == Cups.CupType.premium && !IAPManager.Instance.HasBought(cup.id))
+            {
+                if (!alreadyInstantiatedPremiumCups.Contains(cup.id))
+                {
+                    alreadyInstantiatedPremiumCups.Add(cup.id);
+                }
+                else
+                {
+                    continue;
+                }
+            }
+
             var dropdown = Instantiate(cupDropdownPrefab, content);
             dropdown.Setup(cup);
         }
@@ -51,6 +65,8 @@ public class CupsSelection : MonoBehaviour
 
     private void Refresh()
     {
+        alreadyInstantiatedPremiumCups = new List<string>();
+
         for (int i = content.transform.childCount - 1; i >= 0; i--)
         {
             Destroy(content.transform.GetChild(i).gameObject);
@@ -80,7 +96,7 @@ public class CupsSelection : MonoBehaviour
         if (obj == null)
         {
             content.gameObject.SetActive(true);
-            await menuManagerToGame.AnimatePaneIn();
+            await menuManagerToGame.AnimatePanelIn();
             if(currentCupDropdown != null)
             {
                 currentCupDropdown.Toggle();

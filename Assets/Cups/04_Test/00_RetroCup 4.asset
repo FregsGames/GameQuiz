@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c71ec6c37f0556f4f82fa6aaaf792e52, type: 3}
   m_Name: 00_RetroCup 4
   m_EditorClassIdentifier: 
-  id: test_4
-  title: Retro cup
+  id: pack_test_0
+  title: Last cup
+  packTitle: Last cup of the day
+  desc: cup_freeTestDesc
+  packDesc: cup_lockTestDesc
   levels:
   - {fileID: 11400000, guid: 89394b83d3783044991fad21daf5d297, type: 2}
   cupImage: {fileID: 21300000, guid: 1071d6cb0172e464da664d8c99f654f5, type: 3}

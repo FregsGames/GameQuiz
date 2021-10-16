@@ -39,7 +39,7 @@ public class MenuManager : MonoBehaviour
         await panelToMove.transform.DOMove(GetPositionToMove(), 0.5f).SetEase(Ease.InOutBack).AsyncWaitForCompletion();
     }
 
-    public async Task AnimatePaneIn()
+    public async Task AnimatePanelIn()
     {
         await panelToMove.transform.DOMove(Vector2.zero, 0.5f).SetEase(Ease.InOutBack).AsyncWaitForCompletion();
     }

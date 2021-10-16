@@ -24,6 +24,8 @@ public class CupDropdown : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI levelsTitleText;
     [SerializeField]
+    private TextMeshProUGUI descText;
+    [SerializeField]
     private TextMeshProUGUI levelsText;
     [SerializeField]
     private Button infiniteButton;
@@ -59,16 +61,20 @@ public class CupDropdown : MonoBehaviour
     public void Setup(CupScriptable cup)
     {
         Cup = cup;
-        cupName.text = cup.name;
         levelsText.text = $"{cup.GetCompletedLevelsCount()}/{cup.levels.Count}";
         infiniteButton.interactable = cup.GetCompletedLevelsCount() == cup.levels.Count;
 
         if(cup.state == Cups.CupType.free || IAPManager.Instance.HasBought(cup.id))
         {
             cupImage.sprite = cup.cupImage;
+            cupName.text = cup.title;
+            descText.text = Translations.instance.GetText(cup.desc);
         }
         else
         {
+            descText.text = Translations.instance.GetText(cup.packDesc);
+            cupName.text = cup.packTitle;
+
             playButton.gameObject.SetActive(false);
             infiniteButton.gameObject.SetActive(false);
 

@@ -71,5 +71,14 @@ MonoBehaviour:
   - id: s_plat_1
     en: You can play this game on
     es: 'Puedes jugar a este juego en '
+  - id: cup_freeTestDesc
+    en: This is the description of a free cup
+    es: "Esta es la descripci\xF3n de una copa gratuita"
+  - id: cup_lockTestDesc
+    en: This a pack of many cups, you will receive three cups if you buy this pack.
+    es: "Esto es un pack de varias copas, recibir\xE1s 3 copas si compras este pack"
+  - id: cup_premiumCup
+    en: A premium cup
+    es: Una copa premium
   currentLanguage: 34
   availableLanguages: 220000000a000000

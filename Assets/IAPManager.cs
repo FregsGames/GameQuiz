@@ -17,6 +17,8 @@ public class IAPManager : Singleton<IAPManager>, IStoreListener
 
     private ConfigurationBuilder configurationBuilder;
 
+    public bool IsInit { get {return IsInitialized(); } }
+
     private void Start()
     {
         configurationBuilder = ConfigurationBuilder.Instance(StandardPurchasingModule.Instance());
@@ -24,6 +26,7 @@ public class IAPManager : Singleton<IAPManager>, IStoreListener
         configurationBuilder.AddProduct("test_2", ProductType.NonConsumable);
         configurationBuilder.AddProduct("test_3", ProductType.NonConsumable);
         configurationBuilder.AddProduct("test_4", ProductType.NonConsumable);
+        configurationBuilder.AddProduct("pack_test_0", ProductType.NonConsumable);
         UnityPurchasing.Initialize(this, configurationBuilder);
     }
 
@@ -34,19 +37,27 @@ public class IAPManager : Singleton<IAPManager>, IStoreListener
     {
         this.controller = controller;
         this.extensions = extensions;
+
+        foreach (var product in controller.products.all)
+        {
+            if (product.hasReceipt)
+            {
+                PlayerPrefs.SetInt(product.definition.id, 1);
+            }
+        }
     }
 
     public bool HasBought(string id)
     {
+        if (PlayerPrefs.GetInt(id, 0) == 1)
+            return true;
+
         if (!IsInitialized())
-        {
             return false;
-        }
 
         if(controller.products.WithID(id) == null)
-        {
             return false;
-        }
+
         return controller.products.WithID(id).hasReceipt;
     }
 

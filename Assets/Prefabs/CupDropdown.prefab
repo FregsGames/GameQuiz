@@ -188,6 +188,7 @@ MonoBehaviour:
   innerPanel: {fileID: 1158237003868419702}
   cupName: {fileID: 1158237003498754684}
   levelsTitleText: {fileID: 1158237003826765509}
+  descText: {fileID: 2299179523517057420}
   levelsText: {fileID: 1158237004276672208}
   infiniteButton: {fileID: 1150258327342890295}
   playButton: {fileID: 8058380711050618097}
