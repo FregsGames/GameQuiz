@@ -24,24 +24,29 @@ public class MenuManager : MonoBehaviour
     [SerializeField]
     private DirectionToHide directionToHide;
 
+    [SerializeField]
+    private Ease ease = Ease.InOutBack;
+
+    public Ease MenuEase { get => ease;}
+
 
     private void OnEnable()
     {
         if (!isDefault)
             return;
 
-        panelToMove.transform.DOMove(GetPositionToMove() * -1, 0.5f).From().SetEase(Ease.InOutBack);
+        panelToMove.transform.DOMove(GetPositionToMove() * -1, 0.5f).From().SetEase(ease);
         playButton.interactable = true;
     }
 
     public async Task AnimatePanel()
     {
-        await panelToMove.transform.DOMove(GetPositionToMove(), 0.5f).SetEase(Ease.InOutBack).AsyncWaitForCompletion();
+        await panelToMove.transform.DOMove(GetPositionToMove(), 0.5f).SetEase(ease).AsyncWaitForCompletion();
     }
 
     public async Task AnimatePanelIn()
     {
-        await panelToMove.transform.DOMove(Vector2.zero, 0.5f).SetEase(Ease.InOutBack).AsyncWaitForCompletion();
+        await panelToMove.transform.DOMove(Vector2.zero, 0.5f).SetEase(ease).AsyncWaitForCompletion();
     }
 
     public void Load()
@@ -49,7 +54,7 @@ public class MenuManager : MonoBehaviour
         playButton.interactable = false;
 
         SceneManager.LoadScene(sceneToLoad.ToString(), LoadSceneMode.Additive);
-        panelToMove.transform.DOMove(GetPositionToMove(), 0.5f).SetEase(Ease.InOutBack).OnComplete(() => SceneManager.UnloadSceneAsync(thisScene.ToString()));
+        panelToMove.transform.DOMove(GetPositionToMove(), 0.5f).SetEase(ease).OnComplete(() => SceneManager.UnloadSceneAsync(thisScene.ToString()));
     }
 
     private Vector2 GetPositionToMove()

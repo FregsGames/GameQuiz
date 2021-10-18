@@ -50,7 +50,7 @@ public class Options : MonoBehaviour
             await Task.Delay(5);
             gameObject.SetActive(true);
             _ = menuManager.AnimatePanel();
-            content.DOMoveX(0, 0.5f).SetEase(Ease.InOutBack);
+            content.DOMoveX(0, 0.5f).SetEase(menuManager.MenuEase);
         }
         else
         {
@@ -64,7 +64,7 @@ public class Options : MonoBehaviour
     {
         if (!overlapOptions)
         {
-            content.DOMoveX(-Screen.width, 0.5f).SetEase(Ease.InOutBack).OnComplete(() => gameObject.SetActive(false));
+            content.DOMoveX(-Screen.width, 0.5f).SetEase(menuManager.MenuEase).OnComplete(() => gameObject.SetActive(false));
             _ = menuManager.AnimatePanelIn();
         }
         else

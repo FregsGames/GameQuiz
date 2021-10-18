@@ -1,25 +1,13 @@
 fileFormatVersion: 2
-guid: 52a13b9d88a7c514fa0b8506e0be5773
+guid: 6a1c7acd8f1a93f4a96141eab84a00ac
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2973427954044206231
-    second: _ettings_0
+      213: -3586259710925016994
+    second: _ups_0
   - first:
-      213: -2348134007233574860
-    second: _ettings_1
-  - first:
-      213: 9190609591684864225
-    second: _ettings_2
-  - first:
-      213: 6049642010986396669
-    second: _ettings_3
-  - first:
-      213: 985639092462486899
-    second: _ettings_4
-  - first:
-      213: -3939878701962158294
-    second: _ettings_5
+      213: 1488817982313930658
+    second: _ups_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -50,7 +38,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -131,97 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: _ettings_0
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 1256
-        width: 570
-        height: 569
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9638af997034cb6d0800000000000000
-      internalID: -2973427954044206231
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _ettings_1
-      rect:
-        serializedVersion: 2
-        x: 649
-        y: 1256
-        width: 570
-        height: 569
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43804d5bf80c96fd0800000000000000
-      internalID: -2348134007233574860
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _ettings_2
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 625
-        width: 570
-        height: 570
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e89cadcaba9b8f70800000000000000
-      internalID: 9190609591684864225
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _ettings_3
-      rect:
-        serializedVersion: 2
-        x: 649
-        y: 625
-        width: 570
-        height: 570
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dfbbf1b4b55a4f350800000000000000
-      internalID: 6049642010986396669
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _ettings_4
+      name: _ups_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 24
-        width: 569
-        height: 569
+        y: 524
+        width: 900
+        height: 226
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +133,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37507fe4881bdad00800000000000000
-      internalID: 985639092462486899
+      spriteID: e50f4023bcb0b3ec0800000000000000
+      internalID: -3586259710925016994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _ettings_5
+      name: _ups_1
       rect:
         serializedVersion: 2
-        x: 659
+        x: 1
         y: 0
-        width: 569
-        height: 569
+        width: 898
+        height: 453
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2f1b67e13db259c0800000000000000
-      internalID: -3939878701962158294
+      spriteID: 2af190b111859a410800000000000000
+      internalID: 1488817982313930658
       vertices: []
       indices: 
       edges: []
