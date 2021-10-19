@@ -153,7 +153,7 @@ public class CupsSelection : MonoBehaviour
 
         if (content.gameObject.activeSelf)
         {
-            menuManagerToMenu.Load();
+            StartCoroutine(menuManagerToMenu.Load());
         }
     }
 

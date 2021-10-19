@@ -12,6 +12,13 @@ public class MenuManager : MonoBehaviour
     public enum DirectionToHide {Up, Down, Right, Left}
 
     [SerializeField]
+    private GameObject extra;
+    [SerializeField]
+    private bool hideExtraOnShow;
+    [SerializeField]
+    private bool hideExtraOnHide;
+
+    [SerializeField]
     private bool isDefault = true;
     [SerializeField]
     private GameObject panelToMove;
@@ -21,6 +28,11 @@ public class MenuManager : MonoBehaviour
     private SceneToLoad thisScene;
     [SerializeField]
     private SceneToLoad sceneToLoad;
+    [SerializeField]
+    private DirectionToHide directionToShow;
+
+    [SerializeField]
+    private bool differentHideDir;
     [SerializeField]
     private DirectionToHide directionToHide;
 
@@ -35,7 +47,15 @@ public class MenuManager : MonoBehaviour
         if (!isDefault)
             return;
 
-        panelToMove.transform.DOMove(GetPositionToMove() * -1, 0.5f).From().SetEase(ease);
+        if(hideExtraOnShow && extra != null)
+        {
+            extra.SetActive(false);
+            panelToMove.transform.DOMove(GetPositionToMove() * -1, 0.5f).From().SetEase(ease).OnComplete(() => extra.SetActive(true));
+        }
+        else
+        {
+            panelToMove.transform.DOMove(GetPositionToMove() * -1, 0.5f).From().SetEase(ease);
+        }
         playButton.interactable = true;
     }
 
@@ -49,28 +69,66 @@ public class MenuManager : MonoBehaviour
         await panelToMove.transform.DOMove(Vector2.zero, 0.5f).SetEase(ease).AsyncWaitForCompletion();
     }
 
-    public void Load()
+    public void LoadButton()
+    {
+        StartCoroutine(Load());
+    }
+
+    public IEnumerator Load()
     {
         playButton.interactable = false;
 
-        SceneManager.LoadScene(sceneToLoad.ToString(), LoadSceneMode.Additive);
-        panelToMove.transform.DOMove(GetPositionToMove(), 0.5f).SetEase(ease).OnComplete(() => SceneManager.UnloadSceneAsync(thisScene.ToString()));
+        if(hideExtraOnHide && extra != null)
+        {
+            extra.SetActive(false);
+        }
+
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneToLoad.ToString(), LoadSceneMode.Additive);
+
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
+        }
+
+        panelToMove.transform.DOMove(GetPositionToMove(true), 0.5f).SetEase(ease).OnComplete(() => SceneManager.UnloadSceneAsync(thisScene.ToString()));
+
     }
 
-    private Vector2 GetPositionToMove()
+    private Vector2 GetPositionToMove(bool hide = false)
     {
-        switch (directionToHide)
+        if (hide && differentHideDir)
         {
-            case DirectionToHide.Up:
-                return new Vector2(0, Screen.height * 2);
-            case DirectionToHide.Down:
-                return new Vector2(0, - Screen.height * 2);
-            case DirectionToHide.Left:
-                return new Vector2(-Screen.width, 0);
-            case DirectionToHide.Right:
-                return new Vector2(Screen.width, 0);
-            default:
-                return Vector2.one;
+            switch (directionToHide)
+            {
+                case DirectionToHide.Up:
+                    return new Vector2(0, Screen.height * 2);
+                case DirectionToHide.Down:
+                    return new Vector2(0, -Screen.height * 2);
+                case DirectionToHide.Left:
+                    return new Vector2(-Screen.width, 0);
+                case DirectionToHide.Right:
+                    return new Vector2(Screen.width, 0);
+                default:
+                    return Vector2.one;
+            }
         }
+        else
+        {
+
+            switch (directionToShow)
+            {
+                case DirectionToHide.Up:
+                    return new Vector2(0, Screen.height * 2);
+                case DirectionToHide.Down:
+                    return new Vector2(0, -Screen.height * 2);
+                case DirectionToHide.Left:
+                    return new Vector2(-Screen.width, 0);
+                case DirectionToHide.Right:
+                    return new Vector2(Screen.width, 0);
+                default:
+                    return Vector2.one;
+            }
+        }
+
     }
 }

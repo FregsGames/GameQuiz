@@ -106,7 +106,7 @@ public class CupSelectionScreen : MonoBehaviour
         }
         else
         {
-            menuManager.Load();
+            StartCoroutine(menuManager.Load());
         }
     }
 }
