@@ -111,6 +111,8 @@ public class GameUI : MonoBehaviour
     {
         questionText.text = "";
 
+        timer.FadeOut();
+
         EnableOptionButtons(false);
 
         var endScreen = Instantiate(endScreenPrefab);

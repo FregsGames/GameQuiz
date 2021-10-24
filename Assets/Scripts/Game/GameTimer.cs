@@ -21,12 +21,12 @@ public class GameTimer : MonoBehaviour
         timerImage.enabled = time != 0;
         Timer = time;
 
-        rectTransform.DOAnchorPosY(Screen.height * 2, 0);
+        GetComponent<Image>().DOFade(0, 0f);
 
         if (Timer > 0)
         {
             UsesTime = true;
-            sequence.Append(rectTransform.DOAnchorPosY(0, 1f).SetEase(Ease.OutBack));
+            sequence.Append(GetComponent<Image>().DOFade(1, 0.5f));
         }
     }
 
@@ -52,5 +52,10 @@ public class GameTimer : MonoBehaviour
         }
 
         Messenger.Default.Publish(new TimeOut());
+    }
+
+    public void FadeOut()
+    {
+        GetComponent<Image>().DOFade(0, 0.25f);
     }
 }

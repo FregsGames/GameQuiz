@@ -40,6 +40,9 @@ public class LevelSelectionScreen : MonoBehaviour
     [SerializeField]
     private Sprite completedSelectedSprite;
 
+    [SerializeField]
+    private Ease ease;
+
 
     private List<LevelButton> buttons = new List<LevelButton>();
 
@@ -60,7 +63,7 @@ public class LevelSelectionScreen : MonoBehaviour
     private void Start()
     {
         questionGenerator = QuestionGenerator.Instance;
-        levelContainter.transform.DOMove(new Vector2(Screen.width, 0), 0f).SetEase(Ease.InOutBack);
+        levelContainter.transform.DOMove(new Vector2(-Screen.width, 0), 0f).SetEase(ease);
         Messenger.Default.Subscribe<CupSelectedPayload>(OnCupSelected);
     }
 
@@ -68,13 +71,13 @@ public class LevelSelectionScreen : MonoBehaviour
     {
         if(obj == null)
         {
-            await levelContainter.transform.DOMove(new Vector2(Screen.width, 0), 0.5f).SetEase(Ease.InOutBack).AsyncWaitForCompletion();
+            await levelContainter.transform.DOMove(new Vector2(-Screen.width, 0), 0.5f).SetEase(ease).AsyncWaitForCompletion();
             levelContainter.SetActive(false);
         }
         else if(!obj.endless)
         {
             Setup(obj.Cup);
-            await levelContainter.transform.DOMove(Vector2.zero, 0.5f).SetEase(Ease.InOutBack).AsyncWaitForCompletion();
+            await levelContainter.transform.DOMove(Vector2.zero, 0.5f).SetEase(ease).AsyncWaitForCompletion();
         }
     }
 

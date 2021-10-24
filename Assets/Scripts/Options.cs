@@ -19,6 +19,8 @@ public class Options : MonoBehaviour
     private Transform content;
     [SerializeField]
     private GameObject background;
+    [SerializeField]
+    private GameObject quitButton;
 
     [Header("Sound")]
     [SerializeField]
@@ -54,7 +56,8 @@ public class Options : MonoBehaviour
         }
         else
         {
-            content.DOMoveX(0, 0f);
+            content.DOMoveX(-Screen.width, 0);
+            content.DOMoveX(0, 0.5f).SetEase(menuManager.MenuEase);
             background.SetActive(true);
             gameObject.SetActive(true);
         }
@@ -69,9 +72,7 @@ public class Options : MonoBehaviour
         }
         else
         {
-            content.DOMoveX(-Screen.width, 0);
-            gameObject.SetActive(false);
-            background.SetActive(false);
+            content.DOMoveX(-Screen.width, 0.5f).SetEase(menuManager.MenuEase).OnComplete(() => gameObject.SetActive(false));
         }
     }
 
