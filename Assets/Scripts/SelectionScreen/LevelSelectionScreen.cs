@@ -149,20 +149,20 @@ public class LevelSelectionScreen : MonoBehaviour
     {
         if(levelButton.Level.state == LevelState.completed)
         {
-            levelDesc.text = $"Level completed!";
+            levelDesc.text = $"\n Level completed!";
             return;
         }
 
         switch (levelButton.Level.winCondition)
         {
             case LevelCondition.half:
-                levelDesc.text = $"Answer {Mathf.CeilToInt(levelButton.Level.questionTemplates.Count / 2f)} question(s) correctly to complete the level";
+                levelDesc.text = $"\n Answer {Mathf.CeilToInt(levelButton.Level.questionTemplates.Count / 2f)} question(s) correctly to complete the level.";
                 break;
             case LevelCondition.full:
-                levelDesc.text = $"Answer all questions correctly to complete the level";
+                levelDesc.text = $"\n Answer all questions correctly to complete the level";
                 break;
             case LevelCondition.one:
-                levelDesc.text = $"Answer one question correctly to complete the level";
+                levelDesc.text = $"\n Answer one question correctly to complete the level";
                 break;
         }
     }

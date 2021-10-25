@@ -30,6 +30,12 @@ public class GameTimer : MonoBehaviour
         }
     }
 
+    public void Restart()
+    {
+
+        timerImage.DOFillAmount(1, 0.3f);
+    }
+
     public void TimeQuestion()
     {
         StartCoroutine("StartTimer");

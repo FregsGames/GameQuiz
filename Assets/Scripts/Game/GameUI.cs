@@ -37,13 +37,13 @@ public class GameUI : MonoBehaviour
 
     private void Awake()
     {
-        content.transform.DOMoveX(-Screen.width / 2, 0);
+        content.transform.DOLocalMoveX(-Screen.width / 2, 0);
 
         buttons = new Transform[] { answer1Button.transform, answer2Button.transform, answer3Button.transform, answer4Button.transform };
 
         foreach (Transform button in buttons)
         {
-            button.DOMoveX(-Screen.width / 2, 0);
+            button.DOLocalMoveX(-Screen.width / 2, 0);
         }
     }
 
@@ -53,7 +53,7 @@ public class GameUI : MonoBehaviour
 
         sequence.SetDelay(1);
 
-        sequence.Append(content.transform.DOMoveX(Screen.width / 2, 1f).SetEase(Ease.OutBack));
+        sequence.Append(content.transform.DOLocalMoveX(Screen.width / 2, 1f).SetEase(Ease.OutBack));
 
         SetButtonsInteractables(false);
 
@@ -89,6 +89,8 @@ public class GameUI : MonoBehaviour
     public void TriggerQuestion()
     {
         var sequence = DOTween.Sequence();
+
+        sequence.SetDelay(2f);
 
         for (int i = 0; i < buttons.Length; i++)
         {
@@ -218,6 +220,11 @@ public class GameUI : MonoBehaviour
         foreach (Transform button in buttons)
         {
             button.DOMoveX(-Screen.width / 2, 0);
+        }
+
+        if (timer.UsesTime)
+        {
+            timer.Restart();
         }
 
         Messenger.Default.Publish(new AnswerFromUI() { Answer = answer == null? null : answer.AssignedAnswer });
