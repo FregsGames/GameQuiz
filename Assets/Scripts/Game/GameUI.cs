@@ -34,6 +34,12 @@ public class GameUI : MonoBehaviour
     [SerializeField]
     private EndScreen endScreenPrefab;
 
+    private IAPManager iAPManager;
+
+    private void Start()
+    {
+        iAPManager = IAPManager.Instance;
+    }
 
     private void Awake()
     {
@@ -60,6 +66,15 @@ public class GameUI : MonoBehaviour
         timer.Setup(sequence, time);
 
         sequence.OnComplete(() => Messenger.Default.Publish(new UIReadyPayload()));
+        LoadAd();
+    }
+
+    private void LoadAd()
+    {
+        if (iAPManager != null && iAPManager.showAds)
+        {
+            AdsManager.Instance.LoadAd();
+        }
     }
 
     public void SetQuestion(Question question)
@@ -111,6 +126,8 @@ public class GameUI : MonoBehaviour
 
     public void ShowResults(bool completed, int correctAnswers, int totalAnswers, bool unlocks)
     {
+        ShowAd();
+
         questionText.text = "";
 
         timer.FadeOut();
@@ -119,6 +136,14 @@ public class GameUI : MonoBehaviour
 
         var endScreen = Instantiate(endScreenPrefab);
         endScreen.Setup(completed, correctAnswers, totalAnswers, unlocks);
+    }
+
+    private void ShowAd()
+    {
+        if (iAPManager != null && iAPManager.showAds)
+        {
+            AdsManager.Instance.ShowAd();
+        }
     }
 
     private void EnableOptionButtons(bool enable)

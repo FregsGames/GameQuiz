@@ -19,15 +19,21 @@ public class IAPManager : Singleton<IAPManager>, IStoreListener
 
     public bool IsInit { get {return IsInitialized(); } }
 
+    public bool showAds = true;
+    public bool ShowAds { get => showAds; set => showAds = value; }
+
     private void Start()
     {
         configurationBuilder = ConfigurationBuilder.Instance(StandardPurchasingModule.Instance());
         configurationBuilder.AddProduct("test_product", ProductType.NonConsumable);
+        configurationBuilder.AddProduct("remove_ads", ProductType.NonConsumable);
         configurationBuilder.AddProduct("test_2", ProductType.NonConsumable);
         configurationBuilder.AddProduct("test_3", ProductType.NonConsumable);
         configurationBuilder.AddProduct("test_4", ProductType.NonConsumable);
         configurationBuilder.AddProduct("pack_test_0", ProductType.NonConsumable);
         UnityPurchasing.Initialize(this, configurationBuilder);
+
+        ShowAds = !HasBought("remove_ads");
     }
 
     /// <summary>
