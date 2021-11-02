@@ -7,8 +7,8 @@ public class AudioManager : Singleton<AudioManager>
 {
     [SerializeField]
     private AudioSource soundAudioSource;
-    [SerializeField]
-    private AudioSource musicAudioSource;
+    //[SerializeField]
+    //private AudioSource musicAudioSource;
 
     [SerializeField]
     private AudioClip accept;
@@ -22,6 +22,8 @@ public class AudioManager : Singleton<AudioManager>
     private AudioClip correct;
     [SerializeField]
     private AudioClip win2;
+    [SerializeField]
+    private AudioClip simple;
 
     private SaveManager saveManager;
 
@@ -32,7 +34,8 @@ public class AudioManager : Singleton<AudioManager>
         Win,
         Fail,
         Correct,
-        WinAlt
+        WinAlt,
+        Simple
     }
 
     private void OnEnable()
@@ -81,6 +84,9 @@ public class AudioManager : Singleton<AudioManager>
             case SoundEffect.WinAlt:
                 soundAudioSource.PlayOneShot(win2);
                 break;
+            case SoundEffect.Simple:
+                soundAudioSource.PlayOneShot(simple);
+                break;
             default:
                 break;
         }
@@ -91,13 +97,13 @@ public class AudioManager : Singleton<AudioManager>
         saveManager = SaveManager.instance;
 
         soundAudioSource.volume = saveManager.RetrieveFloat("soundVolume", 1);
-        musicAudioSource.volume = saveManager.RetrieveFloat("musicVolume", 1);
+        //musicAudioSource.volume = saveManager.RetrieveFloat("musicVolume", 1);
 
         soundAudioSource.mute = saveManager.RetrieveInt("soundMuted", 0) == 1;
-        musicAudioSource.mute = saveManager.RetrieveInt("musicMuted", 0) == 1;
+        //musicAudioSource.mute = saveManager.RetrieveInt("musicMuted", 0) == 1;
 
         SoundMuted = soundAudioSource.mute;
-        MusicMuted = musicAudioSource.mute;
+        //MusicMuted = musicAudioSource.mute;
     }
 
     public void ToggleSound()
@@ -108,8 +114,8 @@ public class AudioManager : Singleton<AudioManager>
     }
     public void ToggleMusic()
     {
-        musicAudioSource.mute = !musicAudioSource.mute;
-        MusicMuted = musicAudioSource.mute;
+       // musicAudioSource.mute = !musicAudioSource.mute;
+        //MusicMuted = musicAudioSource.mute;
         saveManager.Save("musicMuted", MusicMuted ? 1 : 0);
     }
 }

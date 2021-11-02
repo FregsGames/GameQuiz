@@ -53,6 +53,7 @@ MonoBehaviour:
   fail: {fileID: 8300000, guid: c25eaa802d9774d458be46bbdabe3254, type: 3}
   correct: {fileID: 8300000, guid: 9549f724454523948a328f2c0defea9b, type: 3}
   win2: {fileID: 8300000, guid: d628739d22d795442b7ede99616e1765, type: 3}
+  simple: {fileID: 8300000, guid: 9c36112e2e347834a988476e57153da3, type: 3}
 --- !u!82 &5749203383661648356
 AudioSource:
   m_ObjectHideFlags: 0
