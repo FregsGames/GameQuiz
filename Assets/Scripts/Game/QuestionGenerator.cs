@@ -38,6 +38,12 @@ namespace Questions
 
                     question = GameFromCompany(selection.ToList());
                     break;
+                case QuestionTemplate.QuestionContent.notFromYear:
+                    question = GameNotFromYear();
+                    break;
+                case QuestionTemplate.QuestionContent.notFromPlatform:
+                    question = GameNotFromPlatform();
+                    break;
             }
             return question;
         }
@@ -61,7 +67,7 @@ namespace Questions
         {
             List<int> validYears = new List<int>();
 
-            if(years != null)
+            if (years != null)
             {
                 validYears = years;
             }
@@ -114,7 +120,7 @@ namespace Questions
                 for (int i = 1; i < options; i++)
                 {
                     Game other = CurrentGamesContainer.GetFromPlatform(platform, searchOnThatPlatform: false, otherOptions.Select(g => g.id).ToArray());
-                    if(other == null)
+                    if (other == null)
                     {
                         otherOptions.Clear();
                         platformObtained = false;
@@ -129,12 +135,12 @@ namespace Questions
                 }
             }
 
-            if(otherOptions.Count == 0)
+            if (otherOptions.Count == 0)
             {
                 return null;
             }
 
-            string statement = Translations.instance.GetText($"s_plat_{Random.Range(0,2)}");
+            string statement = Translations.instance.GetText($"s_plat_{Random.Range(0, 2)}");
 
             return new Question("", $"{statement} {platformsDB.GetName(platform)}", correctAnswer.name, otherOptions.Select(g => g.name).ToList());
         }
@@ -169,7 +175,7 @@ namespace Questions
 
             if (!validCompanyGot)
             {
-                if(methodTries < 10)
+                if (methodTries < 10)
                 {
                     int mTries = methodTries + 1;
                     return GameFromCompany(companies, methodTries: mTries);
@@ -201,15 +207,15 @@ namespace Questions
 
             int year = years[Random.Range(0, years.Count)];
 
-            List<Game> gamesNotFromYear = CurrentGamesContainer.GetXGamesFromYearX(options - 1, year);
+            List<Game> gamesFromYear = CurrentGamesContainer.GetXGamesFromYearX(options - 1, year);
 
-            if (gamesNotFromYear.Count == 0)
+            if (gamesFromYear.Count == 0)
                 return null;
 
             Game correctAnswer = CurrentGamesContainer.GetRandomGameFromYear(year, searchOnThatYear: false);
 
 
-            return new Question("", $"Game NOT from {year}", correctAnswer.name, gamesNotFromYear.Select(s => s.name).ToList());
+            return new Question("", $"Game NOT from {year}", correctAnswer.name, gamesFromYear.Select(s => s.name).ToList());
         }
 
         public Question GameFromPlatform(int options = 4, int minimumGames = 1, int difficulty = 1)
@@ -231,6 +237,31 @@ namespace Questions
             }
 
             return new Question("", $"{platform.name} game", correctAnswer.name, otherOptions);
+        }
+
+        public Question GameNotFromPlatform(int options = 4, int minimumGames = 1, int difficulty = 1)
+        {
+            Game correctAnswer = null;
+            List<Game> gamesForPlatform = new List<Game>();
+            int platform = -1;
+            int tries = 0;
+
+            while (correctAnswer == null && tries < 20)
+            {
+                List<int> platforms = CurrentGamesContainer.Platforms().Where(p => p.Value >= options).Select(plt => plt.Key).ToList();
+                platform = platforms[Random.Range(0, platforms.Count)];
+
+               gamesForPlatform = CurrentGamesContainer.GetXGamesFromPlafformX(options - 1, platform);
+
+                if (gamesForPlatform.Count == 0)
+                    return null;
+
+                correctAnswer = CurrentGamesContainer.GetRandomGameNotForPlaform(platform);
+
+            }
+
+            string platName = platformsDB.allPlatforms.FirstOrDefault(p => p.id == platform).name;
+            return new Question("", $"Game NOT playeable in {platName}", correctAnswer.name, gamesForPlatform.Select(s => s.name).ToList());
         }
     }
 }

@@ -11,8 +11,12 @@ public class HandwrittenQuestion : SerializedScriptableObject
 
     public DictionaryLanguageListString wrongAnswers;
     public DictionaryLanguageString statement;
-    public DictionaryLanguageString correctAnswer;
+    public DictionaryLanguageListString correctAnswer;
 
+    private void OnValidate()
+    {
+        questionId = name;
+    }
     public List<string> WrongAnswers
     {
         get
@@ -40,11 +44,11 @@ public class HandwrittenQuestion : SerializedScriptableObject
             SystemLanguage currentLanguage = Translations.instance.currentLanguage;
             if (correctAnswer.ContainsKey(currentLanguage))
             {
-                return correctAnswer.Get(currentLanguage);
+                return correctAnswer.Get(currentLanguage)[UnityEngine.Random.Range(0, correctAnswer.Get(currentLanguage).Count)];
             }
             else if (correctAnswer.ContainsKey(SystemLanguage.English))
             {
-                return correctAnswer.Get(SystemLanguage.English);
+                return correctAnswer.Get(SystemLanguage.English)[UnityEngine.Random.Range(0, correctAnswer.Get(currentLanguage).Count)];
             }
             else
             {

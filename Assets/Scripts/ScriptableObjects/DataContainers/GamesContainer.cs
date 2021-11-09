@@ -131,6 +131,16 @@ public class GamesContainer : SerializedScriptableObject
         return games[Random.Range(0, games.Count)];
     }
 
+    public Game GetRandomGameNotForPlaform(int platform)
+    {
+        List<Game> games = allGames.Where(x => !x.platforms.Contains(platform)).ToList();
+
+        if (games == null || games.Count == 0)
+            return null;
+
+        return games[Random.Range(0, games.Count)];
+    }
+
     public Game GetRandomGameFromYear(int year, bool searchOnThatYear, int[] toExclude)
     {
         List<Game> games = allGames.Where(x => searchOnThatYear ? GetDate(x).Year == year && !toExclude.Contains(x.id): GetDate(x).Year != year && !toExclude.Contains(x.id)).ToList();
@@ -159,6 +169,30 @@ public class GamesContainer : SerializedScriptableObject
     public List<Game> GetXGamesFromYearX(int count, int year)
     {
         List<Game> games = allGames.Where(x => GetDate(x).Year == year).ToList();
+
+        if (games.Count < count)
+            return new List<Game>();
+
+        var rnd = new System.Random();
+
+        games = games.OrderBy(item => rnd.Next()).ToList();
+
+        List<Game> result = new List<Game>();
+
+        for (int i = 0; i < count; i++)
+        {
+            if (i > games.Count - 1)
+            {
+                break;
+            }
+            result.Add(games[i]);
+        }
+
+        return result;
+    }
+    public List<Game> GetXGamesFromPlafformX(int count, int platform)
+    {
+        List<Game> games = allGames.Where(x => (x).platforms.Contains(platform)).ToList();
 
         if (games.Count < count)
             return new List<Game>();

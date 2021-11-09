@@ -438,6 +438,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7115009121114643736, guid: ccb2995c1e8607f4c84222dcafb79493, type: 3}
+      propertyPath: cups.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115009121114643736, guid: ccb2995c1e8607f4c84222dcafb79493, type: 3}
+      propertyPath: cups.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: dfef8e78c38f3614e83841020a05dd61, type: 2}
+    - target: {fileID: 7115009121114643736, guid: ccb2995c1e8607f4c84222dcafb79493, type: 3}
+      propertyPath: cups.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 35a9073cf6562ce4cbefaf21d64586ce, type: 2}
+    - target: {fileID: 7115009121114643736, guid: ccb2995c1e8607f4c84222dcafb79493, type: 3}
+      propertyPath: cups.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 35a9073cf6562ce4cbefaf21d64586ce, type: 2}
+    - target: {fileID: 7115009121114643736, guid: ccb2995c1e8607f4c84222dcafb79493, type: 3}
+      propertyPath: cups.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 35a9073cf6562ce4cbefaf21d64586ce, type: 2}
     - target: {fileID: 7115009121114643737, guid: ccb2995c1e8607f4c84222dcafb79493, type: 3}
       propertyPath: m_Name
       value: CupContainer
