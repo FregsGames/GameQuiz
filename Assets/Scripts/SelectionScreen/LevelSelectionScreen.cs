@@ -218,8 +218,8 @@ public class LevelSelectionScreen : MonoBehaviour
 
         List<string> toExclude = new List<string>();
 
-
-        questionGenerator.CurrentGamesContainer = currentCup.gamesContainer;
+        questionGenerator.CurrentCompaniesContainer = currentSelectedLevel.companiesContainer;
+        questionGenerator.CurrentGamesContainer = currentSelectedLevel.gamesContainer;
 
 
         int i = 0;

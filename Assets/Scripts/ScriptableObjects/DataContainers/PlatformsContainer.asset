@@ -1584,6 +1584,20 @@ MonoBehaviour:
       name: Madden NFL 2002
       platforms: 040000000600000007000000080000000b000000150000001600000018000000
       rating: 0
+    - id: 2968
+      category: 0
+      first_release_date: 828057600
+      involved_companies: 6b1c00006c1c0000
+      name: Dragon Force
+      platforms: 080000000900000020000000
+      rating: 0
+    - id: 2968
+      category: 0
+      first_release_date: 828057600
+      involved_companies: 6b1c00006c1c0000
+      name: Dragon Force
+      platforms: 080000000900000020000000
+      rating: 0
   - id: 39
     name: iOS
     games:
@@ -2699,6 +2713,104 @@ MonoBehaviour:
       involved_companies: 4107000000090000010900000209000003090000
       name: 'Rayman 2: The Great Escape'
       platforms: 040000000600000007000000160000001700000027000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 1715
+      category: 0
+      first_release_date: 598924800
+      involved_companies: 7a040200
+      name: Mega Man 2
+      platforms: 050000000700000012000000250000002700000029000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
+    - id: 1200
+      category: 0
+      first_release_date: 818985600
+      involved_companies: 40620000
+      name: Tales of Phantasia
+      platforms: 070000001800000026000000270000003a000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 8515
+      category: 0
+      first_release_date: 780969600
+      involved_companies: 5a5200005b5200005c5200005d5200005e520000
+      name: Little Big Adventure
+      platforms: 06000000070000000d0000000e0000002200000027000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 1715
+      category: 0
+      first_release_date: 598924800
+      involved_companies: 7a040200
+      name: Mega Man 2
+      platforms: 050000000700000012000000250000002700000029000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
+    - id: 1200
+      category: 0
+      first_release_date: 818985600
+      involved_companies: 40620000
+      name: Tales of Phantasia
+      platforms: 070000001800000026000000270000003a000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 8515
+      category: 0
+      first_release_date: 780969600
+      involved_companies: 5a5200005b5200005c5200005d5200005e520000
+      name: Little Big Adventure
+      platforms: 06000000070000000d0000000e0000002200000027000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
       rating: 0
   - id: 6
     name: PC
@@ -10180,6 +10292,524 @@ MonoBehaviour:
       name: Tom Clancy's Rainbow Six
       platforms: 0400000006000000070000000e0000001600000017000000
       rating: 0
+    - id: 3637
+      category: 0
+      first_release_date: 912124800
+      involved_companies: be240000bf240000c0240000c1240000c2240000
+      name: Wetrix
+      platforms: 040000000600000016000000
+      rating: 0
+    - id: 3578
+      category: 0
+      first_release_date: 820454400
+      involved_companies: 5d960100
+      name: Puyo Puyo SUN
+      platforms: 040000000600000016000000200000002100000034000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 21840
+      category: 0
+      first_release_date: 938736000
+      involved_companies: 8d17010049690100
+      name: Mr. Driller
+      platforms: 06000000070000001600000017000000340000007b000000
+      rating: 0
+    - id: 426
+      category: 0
+      first_release_date: 765244800
+      involved_companies: 8c4c00008d4c00005576010015eb010016eb010017eb010018eb0100
+      name: Final Fantasy VI
+      platforms: 0500000006000000070000003a000000
+      rating: 0
+    - id: 8293
+      category: 0
+      first_release_date: 931132800
+      involved_companies: 2e4f00002f4f0000
+      name: Discworld Noir
+      platforms: 0600000007000000
+      rating: 0
+    - id: 1843
+      category: 0
+      first_release_date: 936057600
+      involved_companies: 3875010039750100
+      name: 'Tom Clancy''s Rainbow Six: Rogue Spear'
+      platforms: 06000000070000000e0000001700000018000000
+      rating: 0
+    - id: 2164
+      category: 0
+      first_release_date: 846720000
+      involved_companies: d4110000f55d0000f65d0000
+      name: The Neverhood
+      platforms: 0600000007000000
+      rating: 0
+    - id: 6788
+      category: 0
+      first_release_date: 778377600
+      involved_companies: 60e6010061e6010062e6010063e6010064e60100
+      name: Darius Gaiden
+      platforms: 06000000070000002000000034000000
+      rating: 0
+    - id: 24
+      category: 0
+      first_release_date: 765072000
+      involved_companies: 8aa401008ba401008ca40100
+      name: 'X-COM: UFO Defense'
+      platforms: 06000000070000000d00000010000000
+      rating: 0
+    - id: 934
+      category: 0
+      first_release_date: 817776000
+      involved_companies: 1e1800001f180000
+      name: 'Wing Commander IV: The Price of Freedom'
+      platforms: 0600000007000000090000000d0000000e000000
+      rating: 0
+    - id: 24413
+      category: 0
+      first_release_date: 857174400
+      involved_companies: ef9b0000f09b0000f19b0000f29b0000f39b0000
+      name: Micro Machines V3
+      platforms: 060000000700000016000000
+      rating: 0
+    - id: 1454
+      category: 0
+      first_release_date: 913852800
+      involved_companies: 180c0000
+      name: Suikoden II
+      platforms: 060000000700000009000000260000002e000000
+      rating: 0
+    - id: 10561
+      category: 0
+      first_release_date: 904521600
+      involved_companies: 628b0000638b0000
+      name: Moto Racer 2
+      platforms: 0600000007000000
+      rating: 0
+    - id: 8292
+      category: 0
+      first_release_date: 849312000
+      involved_companies: 2c4f00002d4f0000
+      name: 'Discworld II: Missing Presumed...!?'
+      platforms: 060000000700000020000000
+      rating: 0
+    - id: 902
+      category: 0
+      first_release_date: 662688000
+      involved_companies: a307000089130000
+      name: Sid Meier's Civilization
+      platforms: 06000000070000000d0000000e00000010000000130000003f000000
+      rating: 0
+    - id: 924
+      category: 0
+      first_release_date: 631152000
+      involved_companies: 1b180000f7b80100f8b80100f9b80100fab80100fbb80100fcb80100
+      name: Wing Commander
+      platforms: 06000000070000000d0000000e0000001000000013000000180000004e00000072000000
+      rating: 0
+    - id: 3045
+      category: 0
+      first_release_date: 967766400
+      involved_companies: 071e0000081e0000
+      name: 'Bugs Bunny & Taz: Time Busters'
+      platforms: 0600000007000000
+      rating: 0
+    - id: 817
+      category: 0
+      first_release_date: 846720000
+      involved_companies: 18070000dd080000de080000df080000e0080000
+      name: NHL 97
+      platforms: 0600000007000000130000001d00000020000000
+      rating: 0
+    - id: 1754
+      category: 0
+      first_release_date: 956188800
+      involved_companies: 798800007a8800007b8800007c880000
+      name: Mega Man Legends 2
+      platforms: 060000000700000026000000
+      rating: 0
+    - id: 238
+      category: 0
+      first_release_date: 878256000
+      involved_companies: 4d0400004e040000e0d001005af30100
+      name: 'Riven: The Sequel to Myst'
+      platforms: 06000000070000000e000000
+      rating: 0
+    - id: 295
+      category: 0
+      first_release_date: 848620800
+      involved_companies: 250100001751010018510100195101001a5101001b510100
+      name: 'Command & Conquer: Red Alert'
+      platforms: 0600000007000000090000000d00000026000000
+      rating: 0
+    - id: 6294
+      category: 0
+      first_release_date: 986515200
+      involved_companies: 8e3a00008f3a0000923a0000933a0000943a0000953a0000ce430000f47f0100
+      name: Worms World Party
+      platforms: 060000000700000017000000180000002a000000
+      rating: 0
+    - id: 634
+      category: 0
+      first_release_date: 825552000
+      involved_companies: b5660000b6660000
+      name: Sid Meier's Civilization II
+      platforms: 06000000070000000e000000
+      rating: 0
+    - id: 1253
+      category: 0
+      first_release_date: 857001600
+      involved_companies: f00a0000214c0000224c0000
+      name: The Lost Vikings 2
+      platforms: 06000000070000001300000020000000
+      rating: 0
+    - id: 427
+      category: 0
+      first_release_date: 854668800
+      involved_companies: c01600006f4c0000eb040200a0380200
+      name: Final Fantasy VII
+      platforms: 06000000070000003000000082000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 8515
+      category: 0
+      first_release_date: 780969600
+      involved_companies: 5a5200005b5200005c5200005d5200005e520000
+      name: Little Big Adventure
+      platforms: 06000000070000000d0000000e0000002200000027000000
+      rating: 0
+    - id: 1802
+      category: 0
+      first_release_date: 794880000
+      involved_companies: 50600200
+      name: Chrono Trigger
+      platforms: 050000000600000007000000090000001300000014000000220000003a000000
+      rating: 0
+    - id: 3578
+      category: 0
+      first_release_date: 820454400
+      involved_companies: 5d960100
+      name: Puyo Puyo SUN
+      platforms: 040000000600000016000000200000002100000034000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 6788
+      category: 0
+      first_release_date: 778377600
+      involved_companies: 60e6010061e6010062e6010063e6010064e60100
+      name: Darius Gaiden
+      platforms: 06000000070000002000000034000000
+      rating: 0
+    - id: 8292
+      category: 0
+      first_release_date: 849312000
+      involved_companies: 2c4f00002d4f0000
+      name: 'Discworld II: Missing Presumed...!?'
+      platforms: 060000000700000020000000
+      rating: 0
+    - id: 817
+      category: 0
+      first_release_date: 846720000
+      involved_companies: 18070000dd080000de080000df080000e0080000
+      name: NHL 97
+      platforms: 0600000007000000130000001d00000020000000
+      rating: 0
+    - id: 1253
+      category: 0
+      first_release_date: 857001600
+      involved_companies: f00a0000214c0000224c0000
+      name: The Lost Vikings 2
+      platforms: 06000000070000001300000020000000
+      rating: 0
+    - id: 3637
+      category: 0
+      first_release_date: 912124800
+      involved_companies: be240000bf240000c0240000c1240000c2240000
+      name: Wetrix
+      platforms: 040000000600000016000000
+      rating: 0
+    - id: 3578
+      category: 0
+      first_release_date: 820454400
+      involved_companies: 5d960100
+      name: Puyo Puyo SUN
+      platforms: 040000000600000016000000200000002100000034000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 21840
+      category: 0
+      first_release_date: 938736000
+      involved_companies: 8d17010049690100
+      name: Mr. Driller
+      platforms: 06000000070000001600000017000000340000007b000000
+      rating: 0
+    - id: 426
+      category: 0
+      first_release_date: 765244800
+      involved_companies: 8c4c00008d4c00005576010015eb010016eb010017eb010018eb0100
+      name: Final Fantasy VI
+      platforms: 0500000006000000070000003a000000
+      rating: 0
+    - id: 8293
+      category: 0
+      first_release_date: 931132800
+      involved_companies: 2e4f00002f4f0000
+      name: Discworld Noir
+      platforms: 0600000007000000
+      rating: 0
+    - id: 1843
+      category: 0
+      first_release_date: 936057600
+      involved_companies: 3875010039750100
+      name: 'Tom Clancy''s Rainbow Six: Rogue Spear'
+      platforms: 06000000070000000e0000001700000018000000
+      rating: 0
+    - id: 2164
+      category: 0
+      first_release_date: 846720000
+      involved_companies: d4110000f55d0000f65d0000
+      name: The Neverhood
+      platforms: 0600000007000000
+      rating: 0
+    - id: 6788
+      category: 0
+      first_release_date: 778377600
+      involved_companies: 60e6010061e6010062e6010063e6010064e60100
+      name: Darius Gaiden
+      platforms: 06000000070000002000000034000000
+      rating: 0
+    - id: 24
+      category: 0
+      first_release_date: 765072000
+      involved_companies: 8aa401008ba401008ca40100
+      name: 'X-COM: UFO Defense'
+      platforms: 06000000070000000d00000010000000
+      rating: 0
+    - id: 934
+      category: 0
+      first_release_date: 817776000
+      involved_companies: 1e1800001f180000
+      name: 'Wing Commander IV: The Price of Freedom'
+      platforms: 0600000007000000090000000d0000000e000000
+      rating: 0
+    - id: 24413
+      category: 0
+      first_release_date: 857174400
+      involved_companies: ef9b0000f09b0000f19b0000f29b0000f39b0000
+      name: Micro Machines V3
+      platforms: 060000000700000016000000
+      rating: 0
+    - id: 1454
+      category: 0
+      first_release_date: 913852800
+      involved_companies: 180c0000
+      name: Suikoden II
+      platforms: 060000000700000009000000260000002e000000
+      rating: 0
+    - id: 10561
+      category: 0
+      first_release_date: 904521600
+      involved_companies: 628b0000638b0000
+      name: Moto Racer 2
+      platforms: 0600000007000000
+      rating: 0
+    - id: 8292
+      category: 0
+      first_release_date: 849312000
+      involved_companies: 2c4f00002d4f0000
+      name: 'Discworld II: Missing Presumed...!?'
+      platforms: 060000000700000020000000
+      rating: 0
+    - id: 902
+      category: 0
+      first_release_date: 662688000
+      involved_companies: a307000089130000
+      name: Sid Meier's Civilization
+      platforms: 06000000070000000d0000000e00000010000000130000003f000000
+      rating: 0
+    - id: 924
+      category: 0
+      first_release_date: 631152000
+      involved_companies: 1b180000f7b80100f8b80100f9b80100fab80100fbb80100fcb80100
+      name: Wing Commander
+      platforms: 06000000070000000d0000000e0000001000000013000000180000004e00000072000000
+      rating: 0
+    - id: 3045
+      category: 0
+      first_release_date: 967766400
+      involved_companies: 071e0000081e0000
+      name: 'Bugs Bunny & Taz: Time Busters'
+      platforms: 0600000007000000
+      rating: 0
+    - id: 817
+      category: 0
+      first_release_date: 846720000
+      involved_companies: 18070000dd080000de080000df080000e0080000
+      name: NHL 97
+      platforms: 0600000007000000130000001d00000020000000
+      rating: 0
+    - id: 1754
+      category: 0
+      first_release_date: 956188800
+      involved_companies: 798800007a8800007b8800007c880000
+      name: Mega Man Legends 2
+      platforms: 060000000700000026000000
+      rating: 0
+    - id: 238
+      category: 0
+      first_release_date: 878256000
+      involved_companies: 4d0400004e040000e0d001005af30100
+      name: 'Riven: The Sequel to Myst'
+      platforms: 06000000070000000e000000
+      rating: 0
+    - id: 295
+      category: 0
+      first_release_date: 848620800
+      involved_companies: 250100001751010018510100195101001a5101001b510100
+      name: 'Command & Conquer: Red Alert'
+      platforms: 0600000007000000090000000d00000026000000
+      rating: 0
+    - id: 6294
+      category: 0
+      first_release_date: 986515200
+      involved_companies: 8e3a00008f3a0000923a0000933a0000943a0000953a0000ce430000f47f0100
+      name: Worms World Party
+      platforms: 060000000700000017000000180000002a000000
+      rating: 0
+    - id: 634
+      category: 0
+      first_release_date: 825552000
+      involved_companies: b5660000b6660000
+      name: Sid Meier's Civilization II
+      platforms: 06000000070000000e000000
+      rating: 0
+    - id: 1253
+      category: 0
+      first_release_date: 857001600
+      involved_companies: f00a0000214c0000224c0000
+      name: The Lost Vikings 2
+      platforms: 06000000070000001300000020000000
+      rating: 0
+    - id: 427
+      category: 0
+      first_release_date: 854668800
+      involved_companies: c01600006f4c0000eb040200a0380200
+      name: Final Fantasy VII
+      platforms: 06000000070000003000000082000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 8515
+      category: 0
+      first_release_date: 780969600
+      involved_companies: 5a5200005b5200005c5200005d5200005e520000
+      name: Little Big Adventure
+      platforms: 06000000070000000d0000000e0000002200000027000000
+      rating: 0
+    - id: 1802
+      category: 0
+      first_release_date: 794880000
+      involved_companies: 50600200
+      name: Chrono Trigger
+      platforms: 050000000600000007000000090000001300000014000000220000003a000000
+      rating: 0
+    - id: 3578
+      category: 0
+      first_release_date: 820454400
+      involved_companies: 5d960100
+      name: Puyo Puyo SUN
+      platforms: 040000000600000016000000200000002100000034000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 6788
+      category: 0
+      first_release_date: 778377600
+      involved_companies: 60e6010061e6010062e6010063e6010064e60100
+      name: Darius Gaiden
+      platforms: 06000000070000002000000034000000
+      rating: 0
+    - id: 8292
+      category: 0
+      first_release_date: 849312000
+      involved_companies: 2c4f00002d4f0000
+      name: 'Discworld II: Missing Presumed...!?'
+      platforms: 060000000700000020000000
+      rating: 0
+    - id: 817
+      category: 0
+      first_release_date: 846720000
+      involved_companies: 18070000dd080000de080000df080000e0080000
+      name: NHL 97
+      platforms: 0600000007000000130000001d00000020000000
+      rating: 0
+    - id: 1253
+      category: 0
+      first_release_date: 857001600
+      involved_companies: f00a0000214c0000224c0000
+      name: The Lost Vikings 2
+      platforms: 06000000070000001300000020000000
+      rating: 0
   - id: 35
     name: Sega Game Gear
     games:
@@ -10329,6 +10959,34 @@ MonoBehaviour:
       name: Golden Axe
       platforms: 05000000090000000c0000000d0000000f00000010000000190000001a0000001d000000340000003f00000040000000560000007b000000
       rating: 75.9810708503914
+    - id: 1498
+      category: 0
+      first_release_date: 793584000
+      involved_companies: d0740000
+      name: Front Mission
+      platforms: 07000000140000003a0000007b000000
+      rating: 0
+    - id: 21840
+      category: 0
+      first_release_date: 938736000
+      involved_companies: 8d17010049690100
+      name: Mr. Driller
+      platforms: 06000000070000001600000017000000340000007b000000
+      rating: 0
+    - id: 1498
+      category: 0
+      first_release_date: 793584000
+      involved_companies: d0740000
+      name: Front Mission
+      platforms: 07000000140000003a0000007b000000
+      rating: 0
+    - id: 21840
+      category: 0
+      first_release_date: 938736000
+      involved_companies: 8d17010049690100
+      name: Mr. Driller
+      platforms: 06000000070000001600000017000000340000007b000000
+      rating: 0
   - id: 134
     name: Acorn Electron
     games:
@@ -11784,6 +12442,160 @@ MonoBehaviour:
       name: Command & Conquer
       platforms: 0400000006000000070000000d0000000e00000020000000
       rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 5502
+      category: 10
+      first_release_date: 820368000
+      involved_companies: 1134000012340000
+      name: Transport Tycoon Deluxe
+      platforms: 070000000d00000020000000
+      rating: 0
+    - id: 24
+      category: 0
+      first_release_date: 765072000
+      involved_companies: 8aa401008ba401008ca40100
+      name: 'X-COM: UFO Defense'
+      platforms: 06000000070000000d00000010000000
+      rating: 0
+    - id: 934
+      category: 0
+      first_release_date: 817776000
+      involved_companies: 1e1800001f180000
+      name: 'Wing Commander IV: The Price of Freedom'
+      platforms: 0600000007000000090000000d0000000e000000
+      rating: 0
+    - id: 902
+      category: 0
+      first_release_date: 662688000
+      involved_companies: a307000089130000
+      name: Sid Meier's Civilization
+      platforms: 06000000070000000d0000000e00000010000000130000003f000000
+      rating: 0
+    - id: 924
+      category: 0
+      first_release_date: 631152000
+      involved_companies: 1b180000f7b80100f8b80100f9b80100fab80100fbb80100fcb80100
+      name: Wing Commander
+      platforms: 06000000070000000d0000000e0000001000000013000000180000004e00000072000000
+      rating: 0
+    - id: 295
+      category: 0
+      first_release_date: 848620800
+      involved_companies: 250100001751010018510100195101001a5101001b510100
+      name: 'Command & Conquer: Red Alert'
+      platforms: 0600000007000000090000000d00000026000000
+      rating: 0
+    - id: 8515
+      category: 0
+      first_release_date: 780969600
+      involved_companies: 5a5200005b5200005c5200005d5200005e520000
+      name: Little Big Adventure
+      platforms: 06000000070000000d0000000e0000002200000027000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 5502
+      category: 10
+      first_release_date: 820368000
+      involved_companies: 1134000012340000
+      name: Transport Tycoon Deluxe
+      platforms: 070000000d00000020000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 5502
+      category: 10
+      first_release_date: 820368000
+      involved_companies: 1134000012340000
+      name: Transport Tycoon Deluxe
+      platforms: 070000000d00000020000000
+      rating: 0
+    - id: 24
+      category: 0
+      first_release_date: 765072000
+      involved_companies: 8aa401008ba401008ca40100
+      name: 'X-COM: UFO Defense'
+      platforms: 06000000070000000d00000010000000
+      rating: 0
+    - id: 934
+      category: 0
+      first_release_date: 817776000
+      involved_companies: 1e1800001f180000
+      name: 'Wing Commander IV: The Price of Freedom'
+      platforms: 0600000007000000090000000d0000000e000000
+      rating: 0
+    - id: 902
+      category: 0
+      first_release_date: 662688000
+      involved_companies: a307000089130000
+      name: Sid Meier's Civilization
+      platforms: 06000000070000000d0000000e00000010000000130000003f000000
+      rating: 0
+    - id: 924
+      category: 0
+      first_release_date: 631152000
+      involved_companies: 1b180000f7b80100f8b80100f9b80100fab80100fbb80100fcb80100
+      name: Wing Commander
+      platforms: 06000000070000000d0000000e0000001000000013000000180000004e00000072000000
+      rating: 0
+    - id: 295
+      category: 0
+      first_release_date: 848620800
+      involved_companies: 250100001751010018510100195101001a5101001b510100
+      name: 'Command & Conquer: Red Alert'
+      platforms: 0600000007000000090000000d00000026000000
+      rating: 0
+    - id: 8515
+      category: 0
+      first_release_date: 780969600
+      involved_companies: 5a5200005b5200005c5200005d5200005e520000
+      name: Little Big Adventure
+      platforms: 06000000070000000d0000000e0000002200000027000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 5502
+      category: 10
+      first_release_date: 820368000
+      involved_companies: 1134000012340000
+      name: Transport Tycoon Deluxe
+      platforms: 070000000d00000020000000
+      rating: 0
   - id: 128
     name: PC Engine SuperGrafx
     games:
@@ -12503,6 +13315,76 @@ MonoBehaviour:
       involved_companies: 6e8c01006f8c0100708c0100718c0100728c0100
       name: Tom Clancy's Rainbow Six
       platforms: 0400000006000000070000000e0000001600000017000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 21840
+      category: 0
+      first_release_date: 938736000
+      involved_companies: 8d17010049690100
+      name: Mr. Driller
+      platforms: 06000000070000001600000017000000340000007b000000
+      rating: 0
+    - id: 1843
+      category: 0
+      first_release_date: 936057600
+      involved_companies: 3875010039750100
+      name: 'Tom Clancy''s Rainbow Six: Rogue Spear'
+      platforms: 06000000070000000e0000001700000018000000
+      rating: 0
+    - id: 6294
+      category: 0
+      first_release_date: 986515200
+      involved_companies: 8e3a00008f3a0000923a0000933a0000943a0000953a0000ce430000f47f0100
+      name: Worms World Party
+      platforms: 060000000700000017000000180000002a000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 21840
+      category: 0
+      first_release_date: 938736000
+      involved_companies: 8d17010049690100
+      name: Mr. Driller
+      platforms: 06000000070000001600000017000000340000007b000000
+      rating: 0
+    - id: 1843
+      category: 0
+      first_release_date: 936057600
+      involved_companies: 3875010039750100
+      name: 'Tom Clancy''s Rainbow Six: Rogue Spear'
+      platforms: 06000000070000000e0000001700000018000000
+      rating: 0
+    - id: 6294
+      category: 0
+      first_release_date: 986515200
+      involved_companies: 8e3a00008f3a0000923a0000933a0000943a0000953a0000ce430000f47f0100
+      name: Worms World Party
+      platforms: 060000000700000017000000180000002a000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
       rating: 0
   - id: 65
     name: Atari 8-bit
@@ -15186,6 +16068,20 @@ MonoBehaviour:
       name: 'Star Wars: Episode I - Racer'
       platforms: 04000000060000000e0000001600000017000000300000003100000082000000
       rating: 0
+    - id: 427
+      category: 0
+      first_release_date: 854668800
+      involved_companies: c01600006f4c0000eb040200a0380200
+      name: Final Fantasy VII
+      platforms: 06000000070000003000000082000000
+      rating: 0
+    - id: 427
+      category: 0
+      first_release_date: 854668800
+      involved_companies: c01600006f4c0000eb040200a0380200
+      name: Final Fantasy VII
+      platforms: 06000000070000003000000082000000
+      rating: 0
   - id: 132
     name: Amazon Fire TV
     games:
@@ -15890,6 +16786,34 @@ MonoBehaviour:
       involved_companies: d6230000d7230000d8230000
       name: Madden NFL 2002
       platforms: 040000000600000007000000080000000b000000150000001600000018000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
       rating: 0
   - id: 47
     name: Virtual Console (Nintendo)
@@ -16725,6 +17649,20 @@ MonoBehaviour:
       name: Snatcher
       platforms: 0700000020000000350000004e000000560000007d000000
       rating: 79.9444539990359
+    - id: 924
+      category: 0
+      first_release_date: 631152000
+      involved_companies: 1b180000f7b80100f8b80100f9b80100fab80100fbb80100fcb80100
+      name: Wing Commander
+      platforms: 06000000070000000d0000000e0000001000000013000000180000004e00000072000000
+      rating: 0
+    - id: 924
+      category: 0
+      first_release_date: 631152000
+      involved_companies: 1b180000f7b80100f8b80100f9b80100fab80100fbb80100fcb80100
+      name: Wing Commander
+      platforms: 06000000070000000d0000000e0000001000000013000000180000004e00000072000000
+      rating: 0
   - id: 24
     name: Game Boy Advance
     games:
@@ -17441,6 +18379,104 @@ MonoBehaviour:
       involved_companies: d6230000d7230000d8230000
       name: Madden NFL 2002
       platforms: 040000000600000007000000080000000b000000150000001600000018000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 1843
+      category: 0
+      first_release_date: 936057600
+      involved_companies: 3875010039750100
+      name: 'Tom Clancy''s Rainbow Six: Rogue Spear'
+      platforms: 06000000070000000e0000001700000018000000
+      rating: 0
+    - id: 924
+      category: 0
+      first_release_date: 631152000
+      involved_companies: 1b180000f7b80100f8b80100f9b80100fab80100fbb80100fcb80100
+      name: Wing Commander
+      platforms: 06000000070000000d0000000e0000001000000013000000180000004e00000072000000
+      rating: 0
+    - id: 8002
+      category: 0
+      first_release_date: 967075200
+      involved_companies: 5d4900005e4900005f490000
+      name: TOCA World Touring Cars
+      platforms: 0700000018000000
+      rating: 0
+    - id: 6294
+      category: 0
+      first_release_date: 986515200
+      involved_companies: 8e3a00008f3a0000923a0000933a0000943a0000953a0000ce430000f47f0100
+      name: Worms World Party
+      platforms: 060000000700000017000000180000002a000000
+      rating: 0
+    - id: 1200
+      category: 0
+      first_release_date: 818985600
+      involved_companies: 40620000
+      name: Tales of Phantasia
+      platforms: 070000001800000026000000270000003a000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 1843
+      category: 0
+      first_release_date: 936057600
+      involved_companies: 3875010039750100
+      name: 'Tom Clancy''s Rainbow Six: Rogue Spear'
+      platforms: 06000000070000000e0000001700000018000000
+      rating: 0
+    - id: 924
+      category: 0
+      first_release_date: 631152000
+      involved_companies: 1b180000f7b80100f8b80100f9b80100fab80100fbb80100fcb80100
+      name: Wing Commander
+      platforms: 06000000070000000d0000000e0000001000000013000000180000004e00000072000000
+      rating: 0
+    - id: 8002
+      category: 0
+      first_release_date: 967075200
+      involved_companies: 5d4900005e4900005f490000
+      name: TOCA World Touring Cars
+      platforms: 0700000018000000
+      rating: 0
+    - id: 6294
+      category: 0
+      first_release_date: 986515200
+      involved_companies: 8e3a00008f3a0000923a0000933a0000943a0000953a0000ce430000f47f0100
+      name: Worms World Party
+      platforms: 060000000700000017000000180000002a000000
+      rating: 0
+    - id: 1200
+      category: 0
+      first_release_date: 818985600
+      involved_companies: 40620000
+      name: Tales of Phantasia
+      platforms: 070000001800000026000000270000003a000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
       rating: 0
   - id: 30
     name: Sega 32X
@@ -20675,6 +21711,314 @@ MonoBehaviour:
       name: Tom Clancy's Rainbow Six
       platforms: 0400000006000000070000000e0000001600000017000000
       rating: 0
+    - id: 3637
+      category: 0
+      first_release_date: 912124800
+      involved_companies: be240000bf240000c0240000c1240000c2240000
+      name: Wetrix
+      platforms: 040000000600000016000000
+      rating: 0
+    - id: 3578
+      category: 0
+      first_release_date: 820454400
+      involved_companies: 5d960100
+      name: Puyo Puyo SUN
+      platforms: 040000000600000016000000200000002100000034000000
+      rating: 0
+    - id: 2591
+      category: 0
+      first_release_date: 862099200
+      involved_companies: 72bf000073bf0000
+      name: Star Fox 64
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 9067
+      category: 11
+      first_release_date: 960854400
+      involved_companies: b7560000b85600003c9c0100
+      name: StarCraft 64
+      platforms: 04000000
+      rating: 0
+    - id: 1029
+      category: 0
+      first_release_date: 911606400
+      involved_companies: ae5a0000f1050200
+      name: 'The Legend of Zelda: Ocarina of Time'
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 3378
+      category: 0
+      first_release_date: 918172800
+      involved_companies: 6f2200007022000039090200
+      name: Harvest Moon 64
+      platforms: 0400000029000000
+      rating: 0
+    - id: 1463
+      category: 0
+      first_release_date: 958953600
+      involved_companies: 660c0000670c0000
+      name: Perfect Dark
+      platforms: 04000000
+      rating: 0
+    - id: 3340
+      category: 0
+      first_release_date: 965952000
+      involved_companies: f6420200f7420200
+      name: Paper Mario
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 1030
+      category: 0
+      first_release_date: 956793600
+      involved_companies: ed420200ee420200
+      name: 'The Legend of Zelda: Majora''s Mask'
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 45142
+      category: 10
+      first_release_date: 1046390400
+      involved_companies: 5d5602005e560200
+      name: 'The Legend of Zelda: Ocarina of Time - Master Quest'
+      platforms: 0400000015000000
+      rating: 0
+    - id: 3418
+      category: 0
+      first_release_date: 974678400
+      involved_companies: da220000db22000080b10000
+      name: Banjo-Tooie
+      platforms: 040000000c000000
+      rating: 0
+    - id: 3545
+      category: 0
+      first_release_date: 870912000
+      involved_companies: dc700100
+      name: Mystical Ninja Starring Goemon
+      platforms: 04000000
+      rating: 0
+    - id: 1638
+      category: 0
+      first_release_date: 872294400
+      involved_companies: 4c4e0000e98a0000
+      name: GoldenEye 007
+      platforms: 04000000
+      rating: 0
+    - id: 2148
+      category: 0
+      first_release_date: 899078400
+      involved_companies: 781100007a11000055ab010056ab0100
+      name: Banjo-Kazooie
+      platforms: 040000000c000000
+      rating: 0
+    - id: 3568
+      category: 0
+      first_release_date: 931910400
+      involved_companies: 122400001424000016240000cd420200ce420200cf420200
+      name: 'Ogre Battle 64: Person of Lordly Caliber'
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 1074
+      category: 0
+      first_release_date: 835488000
+      involved_companies: 318001003c420200
+      name: Super Mario 64
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 3578
+      category: 0
+      first_release_date: 820454400
+      involved_companies: 5d960100
+      name: Puyo Puyo SUN
+      platforms: 040000000600000016000000200000002100000034000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 3637
+      category: 0
+      first_release_date: 912124800
+      involved_companies: be240000bf240000c0240000c1240000c2240000
+      name: Wetrix
+      platforms: 040000000600000016000000
+      rating: 0
+    - id: 3578
+      category: 0
+      first_release_date: 820454400
+      involved_companies: 5d960100
+      name: Puyo Puyo SUN
+      platforms: 040000000600000016000000200000002100000034000000
+      rating: 0
+    - id: 2591
+      category: 0
+      first_release_date: 862099200
+      involved_companies: 72bf000073bf0000
+      name: Star Fox 64
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 9067
+      category: 11
+      first_release_date: 960854400
+      involved_companies: b7560000b85600003c9c0100
+      name: StarCraft 64
+      platforms: 04000000
+      rating: 0
+    - id: 1029
+      category: 0
+      first_release_date: 911606400
+      involved_companies: ae5a0000f1050200
+      name: 'The Legend of Zelda: Ocarina of Time'
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 3378
+      category: 0
+      first_release_date: 918172800
+      involved_companies: 6f2200007022000039090200
+      name: Harvest Moon 64
+      platforms: 0400000029000000
+      rating: 0
+    - id: 1463
+      category: 0
+      first_release_date: 958953600
+      involved_companies: 660c0000670c0000
+      name: Perfect Dark
+      platforms: 04000000
+      rating: 0
+    - id: 3340
+      category: 0
+      first_release_date: 965952000
+      involved_companies: f6420200f7420200
+      name: Paper Mario
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 1030
+      category: 0
+      first_release_date: 956793600
+      involved_companies: ed420200ee420200
+      name: 'The Legend of Zelda: Majora''s Mask'
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 45142
+      category: 10
+      first_release_date: 1046390400
+      involved_companies: 5d5602005e560200
+      name: 'The Legend of Zelda: Ocarina of Time - Master Quest'
+      platforms: 0400000015000000
+      rating: 0
+    - id: 3418
+      category: 0
+      first_release_date: 974678400
+      involved_companies: da220000db22000080b10000
+      name: Banjo-Tooie
+      platforms: 040000000c000000
+      rating: 0
+    - id: 3545
+      category: 0
+      first_release_date: 870912000
+      involved_companies: dc700100
+      name: Mystical Ninja Starring Goemon
+      platforms: 04000000
+      rating: 0
+    - id: 1638
+      category: 0
+      first_release_date: 872294400
+      involved_companies: 4c4e0000e98a0000
+      name: GoldenEye 007
+      platforms: 04000000
+      rating: 0
+    - id: 2148
+      category: 0
+      first_release_date: 899078400
+      involved_companies: 781100007a11000055ab010056ab0100
+      name: Banjo-Kazooie
+      platforms: 040000000c000000
+      rating: 0
+    - id: 3568
+      category: 0
+      first_release_date: 931910400
+      involved_companies: 122400001424000016240000cd420200ce420200cf420200
+      name: 'Ogre Battle 64: Person of Lordly Caliber'
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 1074
+      category: 0
+      first_release_date: 835488000
+      involved_companies: 318001003c420200
+      name: Super Mario 64
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 3578
+      category: 0
+      first_release_date: 820454400
+      involved_companies: 5d960100
+      name: Puyo Puyo SUN
+      platforms: 040000000600000016000000200000002100000034000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
   - id: 18
     name: Nintendo Entertainment System (NES)
     games:
@@ -21189,6 +22533,20 @@ MonoBehaviour:
       name: 'Gargoyle''s Quest II: The Demon Darkness'
       platforms: 12000000210000002500000029000000
       rating: 81
+    - id: 1715
+      category: 0
+      first_release_date: 598924800
+      involved_companies: 7a040200
+      name: Mega Man 2
+      platforms: 050000000700000012000000250000002700000029000000
+      rating: 0
+    - id: 1715
+      category: 0
+      first_release_date: 598924800
+      involved_companies: 7a040200
+      name: Mega Man 2
+      platforms: 050000000700000012000000250000002700000029000000
+      rating: 0
   - id: 16
     name: Amiga
     games:
@@ -21920,6 +23278,48 @@ MonoBehaviour:
       name: Wings
       platforms: 1000000018000000
       rating: 89.8317844470933
+    - id: 24
+      category: 0
+      first_release_date: 765072000
+      involved_companies: 8aa401008ba401008ca40100
+      name: 'X-COM: UFO Defense'
+      platforms: 06000000070000000d00000010000000
+      rating: 0
+    - id: 902
+      category: 0
+      first_release_date: 662688000
+      involved_companies: a307000089130000
+      name: Sid Meier's Civilization
+      platforms: 06000000070000000d0000000e00000010000000130000003f000000
+      rating: 0
+    - id: 924
+      category: 0
+      first_release_date: 631152000
+      involved_companies: 1b180000f7b80100f8b80100f9b80100fab80100fbb80100fcb80100
+      name: Wing Commander
+      platforms: 06000000070000000d0000000e0000001000000013000000180000004e00000072000000
+      rating: 0
+    - id: 24
+      category: 0
+      first_release_date: 765072000
+      involved_companies: 8aa401008ba401008ca40100
+      name: 'X-COM: UFO Defense'
+      platforms: 06000000070000000d00000010000000
+      rating: 0
+    - id: 902
+      category: 0
+      first_release_date: 662688000
+      involved_companies: a307000089130000
+      name: Sid Meier's Civilization
+      platforms: 06000000070000000d0000000e00000010000000130000003f000000
+      rating: 0
+    - id: 924
+      category: 0
+      first_release_date: 631152000
+      involved_companies: 1b180000f7b80100f8b80100f9b80100fab80100fbb80100fcb80100
+      name: Wing Commander
+      platforms: 06000000070000000d0000000e0000001000000013000000180000004e00000072000000
+      rating: 0
   - id: 22
     name: Game Boy Color
     games:
@@ -22783,6 +24183,104 @@ MonoBehaviour:
       involved_companies: 6e8c01006f8c0100708c0100718c0100728c0100
       name: Tom Clancy's Rainbow Six
       platforms: 0400000006000000070000000e0000001600000017000000
+      rating: 0
+    - id: 3637
+      category: 0
+      first_release_date: 912124800
+      involved_companies: be240000bf240000c0240000c1240000c2240000
+      name: Wetrix
+      platforms: 040000000600000016000000
+      rating: 0
+    - id: 3578
+      category: 0
+      first_release_date: 820454400
+      involved_companies: 5d960100
+      name: Puyo Puyo SUN
+      platforms: 040000000600000016000000200000002100000034000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 21840
+      category: 0
+      first_release_date: 938736000
+      involved_companies: 8d17010049690100
+      name: Mr. Driller
+      platforms: 06000000070000001600000017000000340000007b000000
+      rating: 0
+    - id: 24413
+      category: 0
+      first_release_date: 857174400
+      involved_companies: ef9b0000f09b0000f19b0000f29b0000f39b0000
+      name: Micro Machines V3
+      platforms: 060000000700000016000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 3578
+      category: 0
+      first_release_date: 820454400
+      involved_companies: 5d960100
+      name: Puyo Puyo SUN
+      platforms: 040000000600000016000000200000002100000034000000
+      rating: 0
+    - id: 3637
+      category: 0
+      first_release_date: 912124800
+      involved_companies: be240000bf240000c0240000c1240000c2240000
+      name: Wetrix
+      platforms: 040000000600000016000000
+      rating: 0
+    - id: 3578
+      category: 0
+      first_release_date: 820454400
+      involved_companies: 5d960100
+      name: Puyo Puyo SUN
+      platforms: 040000000600000016000000200000002100000034000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 21840
+      category: 0
+      first_release_date: 938736000
+      involved_companies: 8d17010049690100
+      name: Mr. Driller
+      platforms: 06000000070000001600000017000000340000007b000000
+      rating: 0
+    - id: 24413
+      category: 0
+      first_release_date: 857174400
+      involved_companies: ef9b0000f09b0000f19b0000f29b0000f39b0000
+      name: Micro Machines V3
+      platforms: 060000000700000016000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 3578
+      category: 0
+      first_release_date: 820454400
+      involved_companies: 5d960100
+      name: Puyo Puyo SUN
+      platforms: 040000000600000016000000200000002100000034000000
       rating: 0
   - id: 41
     name: Wii U
@@ -24117,6 +25615,118 @@ MonoBehaviour:
       name: Mario Kart 64
       platforms: 040000000500000029000000
       rating: 0
+    - id: 2591
+      category: 0
+      first_release_date: 862099200
+      involved_companies: 72bf000073bf0000
+      name: Star Fox 64
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 1029
+      category: 0
+      first_release_date: 911606400
+      involved_companies: ae5a0000f1050200
+      name: 'The Legend of Zelda: Ocarina of Time'
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 3378
+      category: 0
+      first_release_date: 918172800
+      involved_companies: 6f2200007022000039090200
+      name: Harvest Moon 64
+      platforms: 0400000029000000
+      rating: 0
+    - id: 3340
+      category: 0
+      first_release_date: 965952000
+      involved_companies: f6420200f7420200
+      name: Paper Mario
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 1030
+      category: 0
+      first_release_date: 956793600
+      involved_companies: ed420200ee420200
+      name: 'The Legend of Zelda: Majora''s Mask'
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 3568
+      category: 0
+      first_release_date: 931910400
+      involved_companies: 122400001424000016240000cd420200ce420200cf420200
+      name: 'Ogre Battle 64: Person of Lordly Caliber'
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 1074
+      category: 0
+      first_release_date: 835488000
+      involved_companies: 318001003c420200
+      name: Super Mario 64
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 1715
+      category: 0
+      first_release_date: 598924800
+      involved_companies: 7a040200
+      name: Mega Man 2
+      platforms: 050000000700000012000000250000002700000029000000
+      rating: 0
+    - id: 2591
+      category: 0
+      first_release_date: 862099200
+      involved_companies: 72bf000073bf0000
+      name: Star Fox 64
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 1029
+      category: 0
+      first_release_date: 911606400
+      involved_companies: ae5a0000f1050200
+      name: 'The Legend of Zelda: Ocarina of Time'
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 3378
+      category: 0
+      first_release_date: 918172800
+      involved_companies: 6f2200007022000039090200
+      name: Harvest Moon 64
+      platforms: 0400000029000000
+      rating: 0
+    - id: 3340
+      category: 0
+      first_release_date: 965952000
+      involved_companies: f6420200f7420200
+      name: Paper Mario
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 1030
+      category: 0
+      first_release_date: 956793600
+      involved_companies: ed420200ee420200
+      name: 'The Legend of Zelda: Majora''s Mask'
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 3568
+      category: 0
+      first_release_date: 931910400
+      involved_companies: 122400001424000016240000cd420200ce420200cf420200
+      name: 'Ogre Battle 64: Person of Lordly Caliber'
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 1074
+      category: 0
+      first_release_date: 835488000
+      involved_companies: 318001003c420200
+      name: Super Mario 64
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 1715
+      category: 0
+      first_release_date: 598924800
+      involved_companies: 7a040200
+      name: Mega Man 2
+      platforms: 050000000700000012000000250000002700000029000000
+      rating: 0
   - id: 77
     name: Sharp X1
     games:
@@ -24234,6 +25844,20 @@ MonoBehaviour:
       name: Cannon Fodder
       platforms: 0d0000001000000012000000130000001d000000320000003e0000003f0000007200000074000000
       rating: 83.3271439348712
+    - id: 924
+      category: 0
+      first_release_date: 631152000
+      involved_companies: 1b180000f7b80100f8b80100f9b80100fab80100fbb80100fcb80100
+      name: Wing Commander
+      platforms: 06000000070000000d0000000e0000001000000013000000180000004e00000072000000
+      rating: 0
+    - id: 924
+      category: 0
+      first_release_date: 631152000
+      involved_companies: 1b180000f7b80100f8b80100f9b80100fab80100fbb80100fcb80100
+      name: Wing Commander
+      platforms: 06000000070000000d0000000e0000001000000013000000180000004e00000072000000
+      rating: 0
   - id: 121
     name: Sharp X68000
     games:
@@ -25881,6 +27505,20 @@ MonoBehaviour:
       name: 'Animal Crossing: New Leaf'
       platforms: 25000000
       rating: 85.6142929833079
+    - id: 1715
+      category: 0
+      first_release_date: 598924800
+      involved_companies: 7a040200
+      name: Mega Man 2
+      platforms: 050000000700000012000000250000002700000029000000
+      rating: 0
+    - id: 1715
+      category: 0
+      first_release_date: 598924800
+      involved_companies: 7a040200
+      name: Mega Man 2
+      platforms: 050000000700000012000000250000002700000029000000
+      rating: 0
   - id: 29
     name: Sega Mega Drive/Genesis
     games:
@@ -26352,6 +27990,34 @@ MonoBehaviour:
       involved_companies: ef230000f0230000f1230000
       name: NBA Hangtime
       platforms: 040000000600000007000000130000001d00000034000000
+      rating: 0
+    - id: 817
+      category: 0
+      first_release_date: 846720000
+      involved_companies: 18070000dd080000de080000df080000e0080000
+      name: NHL 97
+      platforms: 0600000007000000130000001d00000020000000
+      rating: 0
+    - id: 817
+      category: 0
+      first_release_date: 846720000
+      involved_companies: 18070000dd080000de080000df080000e0080000
+      name: NHL 97
+      platforms: 0600000007000000130000001d00000020000000
+      rating: 0
+    - id: 817
+      category: 0
+      first_release_date: 846720000
+      involved_companies: 18070000dd080000de080000df080000e0080000
+      name: NHL 97
+      platforms: 0600000007000000130000001d00000020000000
+      rating: 0
+    - id: 817
+      category: 0
+      first_release_date: 846720000
+      involved_companies: 18070000dd080000de080000df080000e0080000
+      name: NHL 97
+      platforms: 0600000007000000130000001d00000020000000
       rating: 0
   - id: 64
     name: Sega Master System
@@ -27115,6 +28781,188 @@ MonoBehaviour:
       name: Space Invaders Extreme
       platforms: 060000000c0000001400000026000000
       rating: 80.27502948175228
+    - id: 1454
+      category: 0
+      first_release_date: 913852800
+      involved_companies: 180c0000
+      name: Suikoden II
+      platforms: 060000000700000009000000260000002e000000
+      rating: 0
+    - id: 3380
+      category: 0
+      first_release_date: 945302400
+      involved_companies: 7522000086d30100
+      name: 'Harvest Moon: Back to Nature'
+      platforms: 0700000009000000260000002e000000
+      rating: 0
+    - id: 15020
+      category: 0
+      first_release_date: 804470400
+      involved_companies: 95a60000c6d30100c7d30100
+      name: Arc the Lad
+      platforms: 0700000009000000260000002e000000
+      rating: 0
+    - id: 5550
+      category: 0
+      first_release_date: 812937600
+      involved_companies: 949300009693000097930000eb42020010600200
+      name: 'Tactics Ogre: Let Us Cling Together'
+      platforms: 0500000007000000130000002000000026000000
+      rating: 0
+    - id: 1754
+      category: 0
+      first_release_date: 956188800
+      involved_companies: 798800007a8800007b8800007c880000
+      name: Mega Man Legends 2
+      platforms: 060000000700000026000000
+      rating: 0
+    - id: 295
+      category: 0
+      first_release_date: 848620800
+      involved_companies: 250100001751010018510100195101001a5101001b510100
+      name: 'Command & Conquer: Red Alert'
+      platforms: 0600000007000000090000000d00000026000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
+    - id: 1200
+      category: 0
+      first_release_date: 818985600
+      involved_companies: 40620000
+      name: Tales of Phantasia
+      platforms: 070000001800000026000000270000003a000000
+      rating: 0
+    - id: 375
+      category: 0
+      first_release_date: 904780800
+      involved_companies: 1acc00009cf900002ab801002bb80100
+      name: Metal Gear Solid
+      platforms: 070000000900000026000000
+      rating: 0
+    - id: 18699
+      category: 0
+      first_release_date: 912643200
+      involved_companies: e8860000
+      name: Ridge Racer Type 4
+      platforms: 0700000009000000260000002e000000
+      rating: 0
+    - id: 6080
+      category: 0
+      first_release_date: 849830400
+      involved_companies: 1c3900001d390000
+      name: PaRappa the Rapper
+      platforms: 0700000026000000
+      rating: 0
+    - id: 5550
+      category: 0
+      first_release_date: 812937600
+      involved_companies: 949300009693000097930000eb42020010600200
+      name: 'Tactics Ogre: Let Us Cling Together'
+      platforms: 0500000007000000130000002000000026000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
+    - id: 1454
+      category: 0
+      first_release_date: 913852800
+      involved_companies: 180c0000
+      name: Suikoden II
+      platforms: 060000000700000009000000260000002e000000
+      rating: 0
+    - id: 3380
+      category: 0
+      first_release_date: 945302400
+      involved_companies: 7522000086d30100
+      name: 'Harvest Moon: Back to Nature'
+      platforms: 0700000009000000260000002e000000
+      rating: 0
+    - id: 15020
+      category: 0
+      first_release_date: 804470400
+      involved_companies: 95a60000c6d30100c7d30100
+      name: Arc the Lad
+      platforms: 0700000009000000260000002e000000
+      rating: 0
+    - id: 5550
+      category: 0
+      first_release_date: 812937600
+      involved_companies: 949300009693000097930000eb42020010600200
+      name: 'Tactics Ogre: Let Us Cling Together'
+      platforms: 0500000007000000130000002000000026000000
+      rating: 0
+    - id: 1754
+      category: 0
+      first_release_date: 956188800
+      involved_companies: 798800007a8800007b8800007c880000
+      name: Mega Man Legends 2
+      platforms: 060000000700000026000000
+      rating: 0
+    - id: 295
+      category: 0
+      first_release_date: 848620800
+      involved_companies: 250100001751010018510100195101001a5101001b510100
+      name: 'Command & Conquer: Red Alert'
+      platforms: 0600000007000000090000000d00000026000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
+    - id: 1200
+      category: 0
+      first_release_date: 818985600
+      involved_companies: 40620000
+      name: Tales of Phantasia
+      platforms: 070000001800000026000000270000003a000000
+      rating: 0
+    - id: 375
+      category: 0
+      first_release_date: 904780800
+      involved_companies: 1acc00009cf900002ab801002bb80100
+      name: Metal Gear Solid
+      platforms: 070000000900000026000000
+      rating: 0
+    - id: 18699
+      category: 0
+      first_release_date: 912643200
+      involved_companies: e8860000
+      name: Ridge Racer Type 4
+      platforms: 0700000009000000260000002e000000
+      rating: 0
+    - id: 6080
+      category: 0
+      first_release_date: 849830400
+      involved_companies: 1c3900001d390000
+      name: PaRappa the Rapper
+      platforms: 0700000026000000
+      rating: 0
+    - id: 5550
+      category: 0
+      first_release_date: 812937600
+      involved_companies: 949300009693000097930000eb42020010600200
+      name: 'Tactics Ogre: Let Us Cling Together'
+      platforms: 0500000007000000130000002000000026000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
   - id: 86
     name: TurboGrafx-16/PC Engine
     games:
@@ -27736,6 +29584,132 @@ MonoBehaviour:
       involved_companies: ef230000f0230000f1230000
       name: NBA Hangtime
       platforms: 040000000600000007000000130000001d00000034000000
+      rating: 0
+    - id: 902
+      category: 0
+      first_release_date: 662688000
+      involved_companies: a307000089130000
+      name: Sid Meier's Civilization
+      platforms: 06000000070000000d0000000e00000010000000130000003f000000
+      rating: 0
+    - id: 924
+      category: 0
+      first_release_date: 631152000
+      involved_companies: 1b180000f7b80100f8b80100f9b80100fab80100fbb80100fcb80100
+      name: Wing Commander
+      platforms: 06000000070000000d0000000e0000001000000013000000180000004e00000072000000
+      rating: 0
+    - id: 817
+      category: 0
+      first_release_date: 846720000
+      involved_companies: 18070000dd080000de080000df080000e0080000
+      name: NHL 97
+      platforms: 0600000007000000130000001d00000020000000
+      rating: 0
+    - id: 5550
+      category: 0
+      first_release_date: 812937600
+      involved_companies: 949300009693000097930000eb42020010600200
+      name: 'Tactics Ogre: Let Us Cling Together'
+      platforms: 0500000007000000130000002000000026000000
+      rating: 0
+    - id: 1253
+      category: 0
+      first_release_date: 857001600
+      involved_companies: f00a0000214c0000224c0000
+      name: The Lost Vikings 2
+      platforms: 06000000070000001300000020000000
+      rating: 0
+    - id: 1802
+      category: 0
+      first_release_date: 794880000
+      involved_companies: 50600200
+      name: Chrono Trigger
+      platforms: 050000000600000007000000090000001300000014000000220000003a000000
+      rating: 0
+    - id: 817
+      category: 0
+      first_release_date: 846720000
+      involved_companies: 18070000dd080000de080000df080000e0080000
+      name: NHL 97
+      platforms: 0600000007000000130000001d00000020000000
+      rating: 0
+    - id: 5550
+      category: 0
+      first_release_date: 812937600
+      involved_companies: 949300009693000097930000eb42020010600200
+      name: 'Tactics Ogre: Let Us Cling Together'
+      platforms: 0500000007000000130000002000000026000000
+      rating: 0
+    - id: 1253
+      category: 0
+      first_release_date: 857001600
+      involved_companies: f00a0000214c0000224c0000
+      name: The Lost Vikings 2
+      platforms: 06000000070000001300000020000000
+      rating: 0
+    - id: 902
+      category: 0
+      first_release_date: 662688000
+      involved_companies: a307000089130000
+      name: Sid Meier's Civilization
+      platforms: 06000000070000000d0000000e00000010000000130000003f000000
+      rating: 0
+    - id: 924
+      category: 0
+      first_release_date: 631152000
+      involved_companies: 1b180000f7b80100f8b80100f9b80100fab80100fbb80100fcb80100
+      name: Wing Commander
+      platforms: 06000000070000000d0000000e0000001000000013000000180000004e00000072000000
+      rating: 0
+    - id: 817
+      category: 0
+      first_release_date: 846720000
+      involved_companies: 18070000dd080000de080000df080000e0080000
+      name: NHL 97
+      platforms: 0600000007000000130000001d00000020000000
+      rating: 0
+    - id: 5550
+      category: 0
+      first_release_date: 812937600
+      involved_companies: 949300009693000097930000eb42020010600200
+      name: 'Tactics Ogre: Let Us Cling Together'
+      platforms: 0500000007000000130000002000000026000000
+      rating: 0
+    - id: 1253
+      category: 0
+      first_release_date: 857001600
+      involved_companies: f00a0000214c0000224c0000
+      name: The Lost Vikings 2
+      platforms: 06000000070000001300000020000000
+      rating: 0
+    - id: 1802
+      category: 0
+      first_release_date: 794880000
+      involved_companies: 50600200
+      name: Chrono Trigger
+      platforms: 050000000600000007000000090000001300000014000000220000003a000000
+      rating: 0
+    - id: 817
+      category: 0
+      first_release_date: 846720000
+      involved_companies: 18070000dd080000de080000df080000e0080000
+      name: NHL 97
+      platforms: 0600000007000000130000001d00000020000000
+      rating: 0
+    - id: 5550
+      category: 0
+      first_release_date: 812937600
+      involved_companies: 949300009693000097930000eb42020010600200
+      name: 'Tactics Ogre: Let Us Cling Together'
+      platforms: 0500000007000000130000002000000026000000
+      rating: 0
+    - id: 1253
+      category: 0
+      first_release_date: 857001600
+      involved_companies: f00a0000214c0000224c0000
+      name: The Lost Vikings 2
+      platforms: 06000000070000001300000020000000
       rating: 0
   - id: 306
     name: Satellaview
@@ -31037,6 +33011,174 @@ MonoBehaviour:
       name: Tom Clancy's Rainbow Six
       platforms: 0400000006000000070000000e0000001600000017000000
       rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 1843
+      category: 0
+      first_release_date: 936057600
+      involved_companies: 3875010039750100
+      name: 'Tom Clancy''s Rainbow Six: Rogue Spear'
+      platforms: 06000000070000000e0000001700000018000000
+      rating: 0
+    - id: 934
+      category: 0
+      first_release_date: 817776000
+      involved_companies: 1e1800001f180000
+      name: 'Wing Commander IV: The Price of Freedom'
+      platforms: 0600000007000000090000000d0000000e000000
+      rating: 0
+    - id: 902
+      category: 0
+      first_release_date: 662688000
+      involved_companies: a307000089130000
+      name: Sid Meier's Civilization
+      platforms: 06000000070000000d0000000e00000010000000130000003f000000
+      rating: 0
+    - id: 924
+      category: 0
+      first_release_date: 631152000
+      involved_companies: 1b180000f7b80100f8b80100f9b80100fab80100fbb80100fcb80100
+      name: Wing Commander
+      platforms: 06000000070000000d0000000e0000001000000013000000180000004e00000072000000
+      rating: 0
+    - id: 238
+      category: 0
+      first_release_date: 878256000
+      involved_companies: 4d0400004e040000e0d001005af30100
+      name: 'Riven: The Sequel to Myst'
+      platforms: 06000000070000000e000000
+      rating: 0
+    - id: 634
+      category: 0
+      first_release_date: 825552000
+      involved_companies: b5660000b6660000
+      name: Sid Meier's Civilization II
+      platforms: 06000000070000000e000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 8515
+      category: 0
+      first_release_date: 780969600
+      involved_companies: 5a5200005b5200005c5200005d5200005e520000
+      name: Little Big Adventure
+      platforms: 06000000070000000d0000000e0000002200000027000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 1843
+      category: 0
+      first_release_date: 936057600
+      involved_companies: 3875010039750100
+      name: 'Tom Clancy''s Rainbow Six: Rogue Spear'
+      platforms: 06000000070000000e0000001700000018000000
+      rating: 0
+    - id: 934
+      category: 0
+      first_release_date: 817776000
+      involved_companies: 1e1800001f180000
+      name: 'Wing Commander IV: The Price of Freedom'
+      platforms: 0600000007000000090000000d0000000e000000
+      rating: 0
+    - id: 902
+      category: 0
+      first_release_date: 662688000
+      involved_companies: a307000089130000
+      name: Sid Meier's Civilization
+      platforms: 06000000070000000d0000000e00000010000000130000003f000000
+      rating: 0
+    - id: 924
+      category: 0
+      first_release_date: 631152000
+      involved_companies: 1b180000f7b80100f8b80100f9b80100fab80100fbb80100fcb80100
+      name: Wing Commander
+      platforms: 06000000070000000d0000000e0000001000000013000000180000004e00000072000000
+      rating: 0
+    - id: 238
+      category: 0
+      first_release_date: 878256000
+      involved_companies: 4d0400004e040000e0d001005af30100
+      name: 'Riven: The Sequel to Myst'
+      platforms: 06000000070000000e000000
+      rating: 0
+    - id: 634
+      category: 0
+      first_release_date: 825552000
+      involved_companies: b5660000b6660000
+      name: Sid Meier's Civilization II
+      platforms: 06000000070000000e000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 8515
+      category: 0
+      first_release_date: 780969600
+      involved_companies: 5a5200005b5200005c5200005d5200005e520000
+      name: Little Big Adventure
+      platforms: 06000000070000000d0000000e0000002200000027000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
   - id: 20
     name: Nintendo DS
     games:
@@ -31894,6 +34036,34 @@ MonoBehaviour:
       name: "Pok\xE9mon Black"
       platforms: 14000000
       rating: 81.12147031279919
+    - id: 1498
+      category: 0
+      first_release_date: 793584000
+      involved_companies: d0740000
+      name: Front Mission
+      platforms: 07000000140000003a0000007b000000
+      rating: 0
+    - id: 1802
+      category: 0
+      first_release_date: 794880000
+      involved_companies: 50600200
+      name: Chrono Trigger
+      platforms: 050000000600000007000000090000001300000014000000220000003a000000
+      rating: 0
+    - id: 1498
+      category: 0
+      first_release_date: 793584000
+      involved_companies: d0740000
+      name: Front Mission
+      platforms: 07000000140000003a0000007b000000
+      rating: 0
+    - id: 1802
+      category: 0
+      first_release_date: 794880000
+      involved_companies: 50600200
+      name: Chrono Trigger
+      platforms: 050000000600000007000000090000001300000014000000220000003a000000
+      rating: 0
   - id: 21
     name: Nintendo GameCube
     games:
@@ -32302,6 +34472,20 @@ MonoBehaviour:
       involved_companies: a0090000f3050200
       name: 'The Legend of Zelda: Majora''s Mask'
       platforms: 040000000500000015000000290000002f000000
+      rating: 0
+    - id: 45142
+      category: 10
+      first_release_date: 1046390400
+      involved_companies: 5d5602005e560200
+      name: 'The Legend of Zelda: Ocarina of Time - Master Quest'
+      platforms: 0400000015000000
+      rating: 0
+    - id: 45142
+      category: 10
+      first_release_date: 1046390400
+      involved_companies: 5d5602005e560200
+      name: 'The Legend of Zelda: Ocarina of Time - Master Quest'
+      platforms: 0400000015000000
       rating: 0
   - id: 32
     name: Sega Saturn
@@ -32718,6 +34902,342 @@ MonoBehaviour:
       involved_companies: ef050000f005000023080000240800001c650100
       name: Command & Conquer
       platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 3578
+      category: 0
+      first_release_date: 820454400
+      involved_companies: 5d960100
+      name: Puyo Puyo SUN
+      platforms: 040000000600000016000000200000002100000034000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 5502
+      category: 10
+      first_release_date: 820368000
+      involved_companies: 1134000012340000
+      name: Transport Tycoon Deluxe
+      platforms: 070000000d00000020000000
+      rating: 0
+    - id: 6788
+      category: 0
+      first_release_date: 778377600
+      involved_companies: 60e6010061e6010062e6010063e6010064e60100
+      name: Darius Gaiden
+      platforms: 06000000070000002000000034000000
+      rating: 0
+    - id: 8292
+      category: 0
+      first_release_date: 849312000
+      involved_companies: 2c4f00002d4f0000
+      name: 'Discworld II: Missing Presumed...!?'
+      platforms: 060000000700000020000000
+      rating: 0
+    - id: 817
+      category: 0
+      first_release_date: 846720000
+      involved_companies: 18070000dd080000de080000df080000e0080000
+      name: NHL 97
+      platforms: 0600000007000000130000001d00000020000000
+      rating: 0
+    - id: 5550
+      category: 0
+      first_release_date: 812937600
+      involved_companies: 949300009693000097930000eb42020010600200
+      name: 'Tactics Ogre: Let Us Cling Together'
+      platforms: 0500000007000000130000002000000026000000
+      rating: 0
+    - id: 1253
+      category: 0
+      first_release_date: 857001600
+      involved_companies: f00a0000214c0000224c0000
+      name: The Lost Vikings 2
+      platforms: 06000000070000001300000020000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
+    - id: 1671
+      category: 0
+      first_release_date: 886032000
+      involved_companies: a8510000a9510000
+      name: Panzer Dragoon Saga
+      platforms: 20000000
+      rating: 0
+    - id: 3578
+      category: 0
+      first_release_date: 820454400
+      involved_companies: 5d960100
+      name: Puyo Puyo SUN
+      platforms: 040000000600000016000000200000002100000034000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 5502
+      category: 10
+      first_release_date: 820368000
+      involved_companies: 1134000012340000
+      name: Transport Tycoon Deluxe
+      platforms: 070000000d00000020000000
+      rating: 0
+    - id: 6788
+      category: 0
+      first_release_date: 778377600
+      involved_companies: 60e6010061e6010062e6010063e6010064e60100
+      name: Darius Gaiden
+      platforms: 06000000070000002000000034000000
+      rating: 0
+    - id: 2968
+      category: 0
+      first_release_date: 828057600
+      involved_companies: 6b1c00006c1c0000
+      name: Dragon Force
+      platforms: 080000000900000020000000
+      rating: 0
+    - id: 8292
+      category: 0
+      first_release_date: 849312000
+      involved_companies: 2c4f00002d4f0000
+      name: 'Discworld II: Missing Presumed...!?'
+      platforms: 060000000700000020000000
+      rating: 0
+    - id: 817
+      category: 0
+      first_release_date: 846720000
+      involved_companies: 18070000dd080000de080000df080000e0080000
+      name: NHL 97
+      platforms: 0600000007000000130000001d00000020000000
+      rating: 0
+    - id: 21838
+      category: 0
+      first_release_date: 851990400
+      involved_companies: 81b00000
+      name: Guardian Heroes
+      platforms: 0c00000020000000
+      rating: 0
+    - id: 5550
+      category: 0
+      first_release_date: 812937600
+      involved_companies: 949300009693000097930000eb42020010600200
+      name: 'Tactics Ogre: Let Us Cling Together'
+      platforms: 0500000007000000130000002000000026000000
+      rating: 0
+    - id: 28396
+      category: 0
+      first_release_date: 881798400
+      involved_companies: 2fb50000
+      name: Shining Force III
+      platforms: 20000000
+      rating: 0
+    - id: 1253
+      category: 0
+      first_release_date: 857001600
+      involved_companies: f00a0000214c0000224c0000
+      name: The Lost Vikings 2
+      platforms: 06000000070000001300000020000000
+      rating: 0
+    - id: 5422
+      category: 0
+      first_release_date: 896313600
+      involved_companies: 5733000058330000593300005a330000
+      name: Radiant Silvergun
+      platforms: 0c0000002000000034000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
+    - id: 3578
+      category: 0
+      first_release_date: 820454400
+      involved_companies: 5d960100
+      name: Puyo Puyo SUN
+      platforms: 040000000600000016000000200000002100000034000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 5502
+      category: 10
+      first_release_date: 820368000
+      involved_companies: 1134000012340000
+      name: Transport Tycoon Deluxe
+      platforms: 070000000d00000020000000
+      rating: 0
+    - id: 6788
+      category: 0
+      first_release_date: 778377600
+      involved_companies: 60e6010061e6010062e6010063e6010064e60100
+      name: Darius Gaiden
+      platforms: 06000000070000002000000034000000
+      rating: 0
+    - id: 8292
+      category: 0
+      first_release_date: 849312000
+      involved_companies: 2c4f00002d4f0000
+      name: 'Discworld II: Missing Presumed...!?'
+      platforms: 060000000700000020000000
+      rating: 0
+    - id: 817
+      category: 0
+      first_release_date: 846720000
+      involved_companies: 18070000dd080000de080000df080000e0080000
+      name: NHL 97
+      platforms: 0600000007000000130000001d00000020000000
+      rating: 0
+    - id: 5550
+      category: 0
+      first_release_date: 812937600
+      involved_companies: 949300009693000097930000eb42020010600200
+      name: 'Tactics Ogre: Let Us Cling Together'
+      platforms: 0500000007000000130000002000000026000000
+      rating: 0
+    - id: 1253
+      category: 0
+      first_release_date: 857001600
+      involved_companies: f00a0000214c0000224c0000
+      name: The Lost Vikings 2
+      platforms: 06000000070000001300000020000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
+    - id: 1671
+      category: 0
+      first_release_date: 886032000
+      involved_companies: a8510000a9510000
+      name: Panzer Dragoon Saga
+      platforms: 20000000
+      rating: 0
+    - id: 3578
+      category: 0
+      first_release_date: 820454400
+      involved_companies: 5d960100
+      name: Puyo Puyo SUN
+      platforms: 040000000600000016000000200000002100000034000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 5502
+      category: 10
+      first_release_date: 820368000
+      involved_companies: 1134000012340000
+      name: Transport Tycoon Deluxe
+      platforms: 070000000d00000020000000
+      rating: 0
+    - id: 6788
+      category: 0
+      first_release_date: 778377600
+      involved_companies: 60e6010061e6010062e6010063e6010064e60100
+      name: Darius Gaiden
+      platforms: 06000000070000002000000034000000
+      rating: 0
+    - id: 2968
+      category: 0
+      first_release_date: 828057600
+      involved_companies: 6b1c00006c1c0000
+      name: Dragon Force
+      platforms: 080000000900000020000000
+      rating: 0
+    - id: 8292
+      category: 0
+      first_release_date: 849312000
+      involved_companies: 2c4f00002d4f0000
+      name: 'Discworld II: Missing Presumed...!?'
+      platforms: 060000000700000020000000
+      rating: 0
+    - id: 817
+      category: 0
+      first_release_date: 846720000
+      involved_companies: 18070000dd080000de080000df080000e0080000
+      name: NHL 97
+      platforms: 0600000007000000130000001d00000020000000
+      rating: 0
+    - id: 21838
+      category: 0
+      first_release_date: 851990400
+      involved_companies: 81b00000
+      name: Guardian Heroes
+      platforms: 0c00000020000000
+      rating: 0
+    - id: 5550
+      category: 0
+      first_release_date: 812937600
+      involved_companies: 949300009693000097930000eb42020010600200
+      name: 'Tactics Ogre: Let Us Cling Together'
+      platforms: 0500000007000000130000002000000026000000
+      rating: 0
+    - id: 28396
+      category: 0
+      first_release_date: 881798400
+      involved_companies: 2fb50000
+      name: Shining Force III
+      platforms: 20000000
+      rating: 0
+    - id: 1253
+      category: 0
+      first_release_date: 857001600
+      involved_companies: f00a0000214c0000224c0000
+      name: The Lost Vikings 2
+      platforms: 06000000070000001300000020000000
+      rating: 0
+    - id: 5422
+      category: 0
+      first_release_date: 896313600
+      involved_companies: 5733000058330000593300005a330000
+      name: Radiant Silvergun
+      platforms: 0c0000002000000034000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
       rating: 0
   - id: 34
     name: Android
@@ -33457,6 +35977,62 @@ MonoBehaviour:
       name: Re-Volt
       platforms: 030000000400000006000000070000001700000022000000
       rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
+    - id: 8515
+      category: 0
+      first_release_date: 780969600
+      involved_companies: 5a5200005b5200005c5200005d5200005e520000
+      name: Little Big Adventure
+      platforms: 06000000070000000d0000000e0000002200000027000000
+      rating: 0
+    - id: 1802
+      category: 0
+      first_release_date: 794880000
+      involved_companies: 50600200
+      name: Chrono Trigger
+      platforms: 050000000600000007000000090000001300000014000000220000003a000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
+    - id: 8515
+      category: 0
+      first_release_date: 780969600
+      involved_companies: 5a5200005b5200005c5200005d5200005e520000
+      name: Little Big Adventure
+      platforms: 06000000070000000d0000000e0000002200000027000000
+      rating: 0
+    - id: 1802
+      category: 0
+      first_release_date: 794880000
+      involved_companies: 50600200
+      name: Chrono Trigger
+      platforms: 050000000600000007000000090000001300000014000000220000003a000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
   - id: 42
     name: N-Gage
     games:
@@ -33522,6 +36098,20 @@ MonoBehaviour:
       involved_companies: 1a3e00001e3e00001f3e0000203e000027a7000028a7000029a70000
       name: Tony Hawk's Pro Skater
       platforms: 040000000700000016000000170000002a000000
+      rating: 0
+    - id: 6294
+      category: 0
+      first_release_date: 986515200
+      involved_companies: 8e3a00008f3a0000923a0000933a0000943a0000953a0000ce430000f47f0100
+      name: Worms World Party
+      platforms: 060000000700000017000000180000002a000000
+      rating: 0
+    - id: 6294
+      category: 0
+      first_release_date: 986515200
+      involved_companies: 8e3a00008f3a0000923a0000933a0000943a0000953a0000ce430000f47f0100
+      name: Worms World Party
+      platforms: 060000000700000017000000180000002a000000
       rating: 0
   - id: 73
     name: BlackBerry OS
@@ -36583,6 +39173,216 @@ MonoBehaviour:
       name: Fighting Force
       platforms: 04000000060000000700000009000000
       rating: 0
+    - id: 934
+      category: 0
+      first_release_date: 817776000
+      involved_companies: 1e1800001f180000
+      name: 'Wing Commander IV: The Price of Freedom'
+      platforms: 0600000007000000090000000d0000000e000000
+      rating: 0
+    - id: 1454
+      category: 0
+      first_release_date: 913852800
+      involved_companies: 180c0000
+      name: Suikoden II
+      platforms: 060000000700000009000000260000002e000000
+      rating: 0
+    - id: 3380
+      category: 0
+      first_release_date: 945302400
+      involved_companies: 7522000086d30100
+      name: 'Harvest Moon: Back to Nature'
+      platforms: 0700000009000000260000002e000000
+      rating: 0
+    - id: 15020
+      category: 0
+      first_release_date: 804470400
+      involved_companies: 95a60000c6d30100c7d30100
+      name: Arc the Lad
+      platforms: 0700000009000000260000002e000000
+      rating: 0
+    - id: 295
+      category: 0
+      first_release_date: 848620800
+      involved_companies: 250100001751010018510100195101001a5101001b510100
+      name: 'Command & Conquer: Red Alert'
+      platforms: 0600000007000000090000000d00000026000000
+      rating: 0
+    - id: 1804
+      category: 0
+      first_release_date: 942883200
+      involved_companies: 5f700100
+      name: Chrono Cross
+      platforms: 0700000009000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
+    - id: 1346
+      category: 0
+      first_release_date: 887155200
+      involved_companies: 1353000029600200
+      name: Xenogears
+      platforms: 0700000009000000
+      rating: 0
+    - id: 375
+      category: 0
+      first_release_date: 904780800
+      involved_companies: 1acc00009cf900002ab801002bb80100
+      name: Metal Gear Solid
+      platforms: 070000000900000026000000
+      rating: 0
+    - id: 428
+      category: 0
+      first_release_date: 866764800
+      involved_companies: 02850000038500000485000005850000
+      name: Final Fantasy Tactics
+      platforms: 0700000009000000
+      rating: 0
+    - id: 18699
+      category: 0
+      first_release_date: 912643200
+      involved_companies: e8860000
+      name: Ridge Racer Type 4
+      platforms: 0700000009000000260000002e000000
+      rating: 0
+    - id: 1802
+      category: 0
+      first_release_date: 794880000
+      involved_companies: 50600200
+      name: Chrono Trigger
+      platforms: 050000000600000007000000090000001300000014000000220000003a000000
+      rating: 0
+    - id: 421
+      category: 0
+      first_release_date: 962928000
+      involved_companies: 834c000030f3010031f3010032f30100
+      name: Final Fantasy IX
+      platforms: 0700000009000000
+      rating: 0
+    - id: 2968
+      category: 0
+      first_release_date: 828057600
+      involved_companies: 6b1c00006c1c0000
+      name: Dragon Force
+      platforms: 080000000900000020000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
+    - id: 934
+      category: 0
+      first_release_date: 817776000
+      involved_companies: 1e1800001f180000
+      name: 'Wing Commander IV: The Price of Freedom'
+      platforms: 0600000007000000090000000d0000000e000000
+      rating: 0
+    - id: 1454
+      category: 0
+      first_release_date: 913852800
+      involved_companies: 180c0000
+      name: Suikoden II
+      platforms: 060000000700000009000000260000002e000000
+      rating: 0
+    - id: 3380
+      category: 0
+      first_release_date: 945302400
+      involved_companies: 7522000086d30100
+      name: 'Harvest Moon: Back to Nature'
+      platforms: 0700000009000000260000002e000000
+      rating: 0
+    - id: 15020
+      category: 0
+      first_release_date: 804470400
+      involved_companies: 95a60000c6d30100c7d30100
+      name: Arc the Lad
+      platforms: 0700000009000000260000002e000000
+      rating: 0
+    - id: 295
+      category: 0
+      first_release_date: 848620800
+      involved_companies: 250100001751010018510100195101001a5101001b510100
+      name: 'Command & Conquer: Red Alert'
+      platforms: 0600000007000000090000000d00000026000000
+      rating: 0
+    - id: 1804
+      category: 0
+      first_release_date: 942883200
+      involved_companies: 5f700100
+      name: Chrono Cross
+      platforms: 0700000009000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
+    - id: 1346
+      category: 0
+      first_release_date: 887155200
+      involved_companies: 1353000029600200
+      name: Xenogears
+      platforms: 0700000009000000
+      rating: 0
+    - id: 375
+      category: 0
+      first_release_date: 904780800
+      involved_companies: 1acc00009cf900002ab801002bb80100
+      name: Metal Gear Solid
+      platforms: 070000000900000026000000
+      rating: 0
+    - id: 428
+      category: 0
+      first_release_date: 866764800
+      involved_companies: 02850000038500000485000005850000
+      name: Final Fantasy Tactics
+      platforms: 0700000009000000
+      rating: 0
+    - id: 18699
+      category: 0
+      first_release_date: 912643200
+      involved_companies: e8860000
+      name: Ridge Racer Type 4
+      platforms: 0700000009000000260000002e000000
+      rating: 0
+    - id: 1802
+      category: 0
+      first_release_date: 794880000
+      involved_companies: 50600200
+      name: Chrono Trigger
+      platforms: 050000000600000007000000090000001300000014000000220000003a000000
+      rating: 0
+    - id: 421
+      category: 0
+      first_release_date: 962928000
+      involved_companies: 834c000030f3010031f3010032f30100
+      name: Final Fantasy IX
+      platforms: 0700000009000000
+      rating: 0
+    - id: 2968
+      category: 0
+      first_release_date: 828057600
+      involved_companies: 6b1c00006c1c0000
+      name: Dragon Force
+      platforms: 080000000900000020000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
   - id: 63
     name: Atari ST/STE
     games:
@@ -37153,6 +39953,20 @@ MonoBehaviour:
       name: Double Dragon
       platforms: 0c0000000d0000000f000000100000001200000018000000190000001a0000001b0000001d000000230000002500000029000000340000003b0000003c0000003d0000003f000000400000004f000000500000008200000088000000
       rating: 75.0058043503476
+    - id: 902
+      category: 0
+      first_release_date: 662688000
+      involved_companies: a307000089130000
+      name: Sid Meier's Civilization
+      platforms: 06000000070000000d0000000e00000010000000130000003f000000
+      rating: 0
+    - id: 902
+      category: 0
+      first_release_date: 662688000
+      involved_companies: a307000089130000
+      name: Sid Meier's Civilization
+      platforms: 06000000070000000d0000000e00000010000000130000003f000000
+      rating: 0
   - id: 46
     name: PlayStation Vita
     games:
@@ -38178,6 +40992,90 @@ MonoBehaviour:
       name: Mega Man
       platforms: 050000000700000009000000120000002500000026000000290000002e00000063000000
       rating: 76.3322744856543
+    - id: 1454
+      category: 0
+      first_release_date: 913852800
+      involved_companies: 180c0000
+      name: Suikoden II
+      platforms: 060000000700000009000000260000002e000000
+      rating: 0
+    - id: 3380
+      category: 0
+      first_release_date: 945302400
+      involved_companies: 7522000086d30100
+      name: 'Harvest Moon: Back to Nature'
+      platforms: 0700000009000000260000002e000000
+      rating: 0
+    - id: 15020
+      category: 0
+      first_release_date: 804470400
+      involved_companies: 95a60000c6d30100c7d30100
+      name: Arc the Lad
+      platforms: 0700000009000000260000002e000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
+    - id: 18699
+      category: 0
+      first_release_date: 912643200
+      involved_companies: e8860000
+      name: Ridge Racer Type 4
+      platforms: 0700000009000000260000002e000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
+    - id: 1454
+      category: 0
+      first_release_date: 913852800
+      involved_companies: 180c0000
+      name: Suikoden II
+      platforms: 060000000700000009000000260000002e000000
+      rating: 0
+    - id: 3380
+      category: 0
+      first_release_date: 945302400
+      involved_companies: 7522000086d30100
+      name: 'Harvest Moon: Back to Nature'
+      platforms: 0700000009000000260000002e000000
+      rating: 0
+    - id: 15020
+      category: 0
+      first_release_date: 804470400
+      involved_companies: 95a60000c6d30100c7d30100
+      name: Arc the Lad
+      platforms: 0700000009000000260000002e000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
+    - id: 18699
+      category: 0
+      first_release_date: 912643200
+      involved_companies: e8860000
+      name: Ridge Racer Type 4
+      platforms: 0700000009000000260000002e000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
   - id: 48
     name: PlayStation 4
     games:
@@ -42261,6 +45159,20 @@ MonoBehaviour:
       involved_companies: 7b0000007c000000ca090200
       name: 'Star Wars: Episode I - Racer'
       platforms: 04000000060000000e0000001600000017000000300000003100000082000000
+      rating: 0
+    - id: 427
+      category: 0
+      first_release_date: 854668800
+      involved_companies: c01600006f4c0000eb040200a0380200
+      name: Final Fantasy VII
+      platforms: 06000000070000003000000082000000
+      rating: 0
+    - id: 427
+      category: 0
+      first_release_date: 854668800
+      involved_companies: c01600006f4c0000eb040200a0380200
+      name: Final Fantasy VII
+      platforms: 06000000070000003000000082000000
       rating: 0
   - id: 49
     name: Xbox One
@@ -47990,6 +50902,90 @@ MonoBehaviour:
       name: 'DOOM II: Hell on Earth'
       platforms: 060000000c0000000d0000000e000000180000002c00000082000000
       rating: 85.810025484789
+    - id: 3418
+      category: 0
+      first_release_date: 974678400
+      involved_companies: da220000db22000080b10000
+      name: Banjo-Tooie
+      platforms: 040000000c000000
+      rating: 0
+    - id: 2148
+      category: 0
+      first_release_date: 899078400
+      involved_companies: 781100007a11000055ab010056ab0100
+      name: Banjo-Kazooie
+      platforms: 040000000c000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
+    - id: 21838
+      category: 0
+      first_release_date: 851990400
+      involved_companies: 81b00000
+      name: Guardian Heroes
+      platforms: 0c00000020000000
+      rating: 0
+    - id: 5422
+      category: 0
+      first_release_date: 896313600
+      involved_companies: 5733000058330000593300005a330000
+      name: Radiant Silvergun
+      platforms: 0c0000002000000034000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
+    - id: 3418
+      category: 0
+      first_release_date: 974678400
+      involved_companies: da220000db22000080b10000
+      name: Banjo-Tooie
+      platforms: 040000000c000000
+      rating: 0
+    - id: 2148
+      category: 0
+      first_release_date: 899078400
+      involved_companies: 781100007a11000055ab010056ab0100
+      name: Banjo-Kazooie
+      platforms: 040000000c000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
+    - id: 21838
+      category: 0
+      first_release_date: 851990400
+      involved_companies: 81b00000
+      name: Guardian Heroes
+      platforms: 0c00000020000000
+      rating: 0
+    - id: 5422
+      category: 0
+      first_release_date: 896313600
+      involved_companies: 5733000058330000593300005a330000
+      name: Radiant Silvergun
+      platforms: 0c0000002000000034000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
   - id: 167
     name: PlayStation 5
     games:
@@ -48549,6 +51545,62 @@ MonoBehaviour:
       name: Final Fight 3
       platforms: 050000001300000025000000290000002f0000003a000000
       rating: 82.4638022686962
+    - id: 1498
+      category: 0
+      first_release_date: 793584000
+      involved_companies: d0740000
+      name: Front Mission
+      platforms: 07000000140000003a0000007b000000
+      rating: 0
+    - id: 426
+      category: 0
+      first_release_date: 765244800
+      involved_companies: 8c4c00008d4c00005576010015eb010016eb010017eb010018eb0100
+      name: Final Fantasy VI
+      platforms: 0500000006000000070000003a000000
+      rating: 0
+    - id: 1200
+      category: 0
+      first_release_date: 818985600
+      involved_companies: 40620000
+      name: Tales of Phantasia
+      platforms: 070000001800000026000000270000003a000000
+      rating: 0
+    - id: 1802
+      category: 0
+      first_release_date: 794880000
+      involved_companies: 50600200
+      name: Chrono Trigger
+      platforms: 050000000600000007000000090000001300000014000000220000003a000000
+      rating: 0
+    - id: 1498
+      category: 0
+      first_release_date: 793584000
+      involved_companies: d0740000
+      name: Front Mission
+      platforms: 07000000140000003a0000007b000000
+      rating: 0
+    - id: 426
+      category: 0
+      first_release_date: 765244800
+      involved_companies: 8c4c00008d4c00005576010015eb010016eb010017eb010018eb0100
+      name: Final Fantasy VI
+      platforms: 0500000006000000070000003a000000
+      rating: 0
+    - id: 1200
+      category: 0
+      first_release_date: 818985600
+      involved_companies: 40620000
+      name: Tales of Phantasia
+      platforms: 070000001800000026000000270000003a000000
+      rating: 0
+    - id: 1802
+      category: 0
+      first_release_date: 794880000
+      involved_companies: 50600200
+      name: Chrono Trigger
+      platforms: 050000000600000007000000090000001300000014000000220000003a000000
+      rating: 0
   - id: 55
     name: Mobile
     games:
@@ -48706,6 +51758,20 @@ MonoBehaviour:
       name: Professor Layton and the Curious Village
       platforms: 1400000037000000
       rating: 81.7144546590535
+    - id: 4126
+      category: 0
+      first_release_date: 854668800
+      involved_companies: d1290000d2290000
+      name: Intelligent Qube
+      platforms: 0700000037000000
+      rating: 0
+    - id: 4126
+      category: 0
+      first_release_date: 854668800
+      involved_companies: d1290000d2290000
+      name: Intelligent Qube
+      platforms: 0700000037000000
+      rating: 0
   - id: 52
     name: Arcade
     games:
@@ -49926,6 +52992,90 @@ MonoBehaviour:
       involved_companies: 33160000351600009f1c0000a01c0000
       name: Mortal Kombat 4
       platforms: 0400000006000000070000001600000034000000
+      rating: 0
+    - id: 3578
+      category: 0
+      first_release_date: 820454400
+      involved_companies: 5d960100
+      name: Puyo Puyo SUN
+      platforms: 040000000600000016000000200000002100000034000000
+      rating: 0
+    - id: 21840
+      category: 0
+      first_release_date: 938736000
+      involved_companies: 8d17010049690100
+      name: Mr. Driller
+      platforms: 06000000070000001600000017000000340000007b000000
+      rating: 0
+    - id: 6788
+      category: 0
+      first_release_date: 778377600
+      involved_companies: 60e6010061e6010062e6010063e6010064e60100
+      name: Darius Gaiden
+      platforms: 06000000070000002000000034000000
+      rating: 0
+    - id: 3578
+      category: 0
+      first_release_date: 820454400
+      involved_companies: 5d960100
+      name: Puyo Puyo SUN
+      platforms: 040000000600000016000000200000002100000034000000
+      rating: 0
+    - id: 6788
+      category: 0
+      first_release_date: 778377600
+      involved_companies: 60e6010061e6010062e6010063e6010064e60100
+      name: Darius Gaiden
+      platforms: 06000000070000002000000034000000
+      rating: 0
+    - id: 5422
+      category: 0
+      first_release_date: 896313600
+      involved_companies: 5733000058330000593300005a330000
+      name: Radiant Silvergun
+      platforms: 0c0000002000000034000000
+      rating: 0
+    - id: 3578
+      category: 0
+      first_release_date: 820454400
+      involved_companies: 5d960100
+      name: Puyo Puyo SUN
+      platforms: 040000000600000016000000200000002100000034000000
+      rating: 0
+    - id: 21840
+      category: 0
+      first_release_date: 938736000
+      involved_companies: 8d17010049690100
+      name: Mr. Driller
+      platforms: 06000000070000001600000017000000340000007b000000
+      rating: 0
+    - id: 6788
+      category: 0
+      first_release_date: 778377600
+      involved_companies: 60e6010061e6010062e6010063e6010064e60100
+      name: Darius Gaiden
+      platforms: 06000000070000002000000034000000
+      rating: 0
+    - id: 3578
+      category: 0
+      first_release_date: 820454400
+      involved_companies: 5d960100
+      name: Puyo Puyo SUN
+      platforms: 040000000600000016000000200000002100000034000000
+      rating: 0
+    - id: 6788
+      category: 0
+      first_release_date: 778377600
+      involved_companies: 60e6010061e6010062e6010063e6010064e60100
+      name: Darius Gaiden
+      platforms: 06000000070000002000000034000000
+      rating: 0
+    - id: 5422
+      category: 0
+      first_release_date: 896313600
+      involved_companies: 5733000058330000593300005a330000
+      name: Radiant Silvergun
+      platforms: 0c0000002000000034000000
       rating: 0
   - id: 137
     name: New Nintendo 3DS
@@ -52320,6 +55470,888 @@ MonoBehaviour:
       name: Tom Clancy's Rainbow Six
       platforms: 0400000006000000070000000e0000001600000017000000
       rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 417
+      category: 3
+      first_release_date: 1036022400
+      involved_companies: 710300002a1400002b140000
+      name: Final Fantasy Origins
+      platforms: 07000000
+      rating: 0
+    - id: 1498
+      category: 0
+      first_release_date: 793584000
+      involved_companies: d0740000
+      name: Front Mission
+      platforms: 07000000140000003a0000007b000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 21840
+      category: 0
+      first_release_date: 938736000
+      involved_companies: 8d17010049690100
+      name: Mr. Driller
+      platforms: 06000000070000001600000017000000340000007b000000
+      rating: 0
+    - id: 43914
+      category: 0
+      first_release_date: 901756800
+      involved_companies: 2bc301002cc30100
+      name: Vanguard Bandits
+      platforms: 07000000
+      rating: 0
+    - id: 1715
+      category: 0
+      first_release_date: 598924800
+      involved_companies: 7a040200
+      name: Mega Man 2
+      platforms: 050000000700000012000000250000002700000029000000
+      rating: 0
+    - id: 426
+      category: 0
+      first_release_date: 765244800
+      involved_companies: 8c4c00008d4c00005576010015eb010016eb010017eb010018eb0100
+      name: Final Fantasy VI
+      platforms: 0500000006000000070000003a000000
+      rating: 0
+    - id: 8293
+      category: 0
+      first_release_date: 931132800
+      involved_companies: 2e4f00002f4f0000
+      name: Discworld Noir
+      platforms: 0600000007000000
+      rating: 0
+    - id: 5502
+      category: 10
+      first_release_date: 820368000
+      involved_companies: 1134000012340000
+      name: Transport Tycoon Deluxe
+      platforms: 070000000d00000020000000
+      rating: 0
+    - id: 1843
+      category: 0
+      first_release_date: 936057600
+      involved_companies: 3875010039750100
+      name: 'Tom Clancy''s Rainbow Six: Rogue Spear'
+      platforms: 06000000070000000e0000001700000018000000
+      rating: 0
+    - id: 2164
+      category: 0
+      first_release_date: 846720000
+      involved_companies: d4110000f55d0000f65d0000
+      name: The Neverhood
+      platforms: 0600000007000000
+      rating: 0
+    - id: 6788
+      category: 0
+      first_release_date: 778377600
+      involved_companies: 60e6010061e6010062e6010063e6010064e60100
+      name: Darius Gaiden
+      platforms: 06000000070000002000000034000000
+      rating: 0
+    - id: 24
+      category: 0
+      first_release_date: 765072000
+      involved_companies: 8aa401008ba401008ca40100
+      name: 'X-COM: UFO Defense'
+      platforms: 06000000070000000d00000010000000
+      rating: 0
+    - id: 934
+      category: 0
+      first_release_date: 817776000
+      involved_companies: 1e1800001f180000
+      name: 'Wing Commander IV: The Price of Freedom'
+      platforms: 0600000007000000090000000d0000000e000000
+      rating: 0
+    - id: 13676
+      category: 0
+      first_release_date: 909619200
+      involved_companies: 376a0000386a0000
+      name: Legend of Legaia
+      platforms: 07000000
+      rating: 0
+    - id: 24413
+      category: 0
+      first_release_date: 857174400
+      involved_companies: ef9b0000f09b0000f19b0000f29b0000f39b0000
+      name: Micro Machines V3
+      platforms: 060000000700000016000000
+      rating: 0
+    - id: 1454
+      category: 0
+      first_release_date: 913852800
+      involved_companies: 180c0000
+      name: Suikoden II
+      platforms: 060000000700000009000000260000002e000000
+      rating: 0
+    - id: 4959
+      category: 0
+      first_release_date: 881798400
+      involved_companies: a82e0000
+      name: 'Klonoa: Door to Phantomile'
+      platforms: 07000000
+      rating: 0
+    - id: 10561
+      category: 0
+      first_release_date: 904521600
+      involved_companies: 628b0000638b0000
+      name: Moto Racer 2
+      platforms: 0600000007000000
+      rating: 0
+    - id: 3380
+      category: 0
+      first_release_date: 945302400
+      involved_companies: 7522000086d30100
+      name: 'Harvest Moon: Back to Nature'
+      platforms: 0700000009000000260000002e000000
+      rating: 0
+    - id: 11210
+      category: 0
+      first_release_date: 901756800
+      involved_companies: b56a0000b66a0000b76a0000
+      name: 'Star Ocean: The Second Story'
+      platforms: 07000000
+      rating: 0
+    - id: 18698
+      category: 0
+      first_release_date: 849571200
+      involved_companies: e7860000
+      name: Rage Racer
+      platforms: 07000000
+      rating: 0
+    - id: 8292
+      category: 0
+      first_release_date: 849312000
+      involved_companies: 2c4f00002d4f0000
+      name: 'Discworld II: Missing Presumed...!?'
+      platforms: 060000000700000020000000
+      rating: 0
+    - id: 902
+      category: 0
+      first_release_date: 662688000
+      involved_companies: a307000089130000
+      name: Sid Meier's Civilization
+      platforms: 06000000070000000d0000000e00000010000000130000003f000000
+      rating: 0
+    - id: 43729
+      category: 0
+      first_release_date: 946512000
+      involved_companies: 
+      name: Music 2000
+      platforms: 07000000
+      rating: 0
+    - id: 924
+      category: 0
+      first_release_date: 631152000
+      involved_companies: 1b180000f7b80100f8b80100f9b80100fab80100fbb80100fcb80100
+      name: Wing Commander
+      platforms: 06000000070000000d0000000e0000001000000013000000180000004e00000072000000
+      rating: 0
+    - id: 3045
+      category: 0
+      first_release_date: 967766400
+      involved_companies: 071e0000081e0000
+      name: 'Bugs Bunny & Taz: Time Busters'
+      platforms: 0600000007000000
+      rating: 0
+    - id: 8002
+      category: 0
+      first_release_date: 967075200
+      involved_companies: 5d4900005e4900005f490000
+      name: TOCA World Touring Cars
+      platforms: 0700000018000000
+      rating: 0
+    - id: 817
+      category: 0
+      first_release_date: 846720000
+      involved_companies: 18070000dd080000de080000df080000e0080000
+      name: NHL 97
+      platforms: 0600000007000000130000001d00000020000000
+      rating: 0
+    - id: 4126
+      category: 0
+      first_release_date: 854668800
+      involved_companies: d1290000d2290000
+      name: Intelligent Qube
+      platforms: 0700000037000000
+      rating: 0
+    - id: 15020
+      category: 0
+      first_release_date: 804470400
+      involved_companies: 95a60000c6d30100c7d30100
+      name: Arc the Lad
+      platforms: 0700000009000000260000002e000000
+      rating: 0
+    - id: 5550
+      category: 0
+      first_release_date: 812937600
+      involved_companies: 949300009693000097930000eb42020010600200
+      name: 'Tactics Ogre: Let Us Cling Together'
+      platforms: 0500000007000000130000002000000026000000
+      rating: 0
+    - id: 6546
+      category: 0
+      first_release_date: 696816000
+      involved_companies: bb3c0000
+      name: Mr. Gimmick
+      platforms: 0700000063000000
+      rating: 0
+    - id: 1754
+      category: 0
+      first_release_date: 956188800
+      involved_companies: 798800007a8800007b8800007c880000
+      name: Mega Man Legends 2
+      platforms: 060000000700000026000000
+      rating: 0
+    - id: 238
+      category: 0
+      first_release_date: 878256000
+      involved_companies: 4d0400004e040000e0d001005af30100
+      name: 'Riven: The Sequel to Myst'
+      platforms: 06000000070000000e000000
+      rating: 0
+    - id: 295
+      category: 0
+      first_release_date: 848620800
+      involved_companies: 250100001751010018510100195101001a5101001b510100
+      name: 'Command & Conquer: Red Alert'
+      platforms: 0600000007000000090000000d00000026000000
+      rating: 0
+    - id: 26143
+      category: 0
+      first_release_date: 907113600
+      involved_companies: dba40000dca40000
+      name: 'Rogue Trip: Vacation 2012'
+      platforms: 07000000
+      rating: 0
+    - id: 6294
+      category: 0
+      first_release_date: 986515200
+      involved_companies: 8e3a00008f3a0000923a0000933a0000943a0000953a0000ce430000f47f0100
+      name: Worms World Party
+      platforms: 060000000700000017000000180000002a000000
+      rating: 0
+    - id: 634
+      category: 0
+      first_release_date: 825552000
+      involved_companies: b5660000b6660000
+      name: Sid Meier's Civilization II
+      platforms: 06000000070000000e000000
+      rating: 0
+    - id: 1253
+      category: 0
+      first_release_date: 857001600
+      involved_companies: f00a0000214c0000224c0000
+      name: The Lost Vikings 2
+      platforms: 06000000070000001300000020000000
+      rating: 0
+    - id: 427
+      category: 0
+      first_release_date: 854668800
+      involved_companies: c01600006f4c0000eb040200a0380200
+      name: Final Fantasy VII
+      platforms: 06000000070000003000000082000000
+      rating: 0
+    - id: 1804
+      category: 0
+      first_release_date: 942883200
+      involved_companies: 5f700100
+      name: Chrono Cross
+      platforms: 0700000009000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
+    - id: 1346
+      category: 0
+      first_release_date: 887155200
+      involved_companies: 1353000029600200
+      name: Xenogears
+      platforms: 0700000009000000
+      rating: 0
+    - id: 1200
+      category: 0
+      first_release_date: 818985600
+      involved_companies: 40620000
+      name: Tales of Phantasia
+      platforms: 070000001800000026000000270000003a000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 375
+      category: 0
+      first_release_date: 904780800
+      involved_companies: 1acc00009cf900002ab801002bb80100
+      name: Metal Gear Solid
+      platforms: 070000000900000026000000
+      rating: 0
+    - id: 428
+      category: 0
+      first_release_date: 866764800
+      involved_companies: 02850000038500000485000005850000
+      name: Final Fantasy Tactics
+      platforms: 0700000009000000
+      rating: 0
+    - id: 8515
+      category: 0
+      first_release_date: 780969600
+      involved_companies: 5a5200005b5200005c5200005d5200005e520000
+      name: Little Big Adventure
+      platforms: 06000000070000000d0000000e0000002200000027000000
+      rating: 0
+    - id: 18699
+      category: 0
+      first_release_date: 912643200
+      involved_companies: e8860000
+      name: Ridge Racer Type 4
+      platforms: 0700000009000000260000002e000000
+      rating: 0
+    - id: 6080
+      category: 0
+      first_release_date: 849830400
+      involved_companies: 1c3900001d390000
+      name: PaRappa the Rapper
+      platforms: 0700000026000000
+      rating: 0
+    - id: 1802
+      category: 0
+      first_release_date: 794880000
+      involved_companies: 50600200
+      name: Chrono Trigger
+      platforms: 050000000600000007000000090000001300000014000000220000003a000000
+      rating: 0
+    - id: 421
+      category: 0
+      first_release_date: 962928000
+      involved_companies: 834c000030f3010031f3010032f30100
+      name: Final Fantasy IX
+      platforms: 0700000009000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 5502
+      category: 10
+      first_release_date: 820368000
+      involved_companies: 1134000012340000
+      name: Transport Tycoon Deluxe
+      platforms: 070000000d00000020000000
+      rating: 0
+    - id: 6788
+      category: 0
+      first_release_date: 778377600
+      involved_companies: 60e6010061e6010062e6010063e6010064e60100
+      name: Darius Gaiden
+      platforms: 06000000070000002000000034000000
+      rating: 0
+    - id: 8292
+      category: 0
+      first_release_date: 849312000
+      involved_companies: 2c4f00002d4f0000
+      name: 'Discworld II: Missing Presumed...!?'
+      platforms: 060000000700000020000000
+      rating: 0
+    - id: 817
+      category: 0
+      first_release_date: 846720000
+      involved_companies: 18070000dd080000de080000df080000e0080000
+      name: NHL 97
+      platforms: 0600000007000000130000001d00000020000000
+      rating: 0
+    - id: 5550
+      category: 0
+      first_release_date: 812937600
+      involved_companies: 949300009693000097930000eb42020010600200
+      name: 'Tactics Ogre: Let Us Cling Together'
+      platforms: 0500000007000000130000002000000026000000
+      rating: 0
+    - id: 1253
+      category: 0
+      first_release_date: 857001600
+      involved_companies: f00a0000214c0000224c0000
+      name: The Lost Vikings 2
+      platforms: 06000000070000001300000020000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 417
+      category: 3
+      first_release_date: 1036022400
+      involved_companies: 710300002a1400002b140000
+      name: Final Fantasy Origins
+      platforms: 07000000
+      rating: 0
+    - id: 1498
+      category: 0
+      first_release_date: 793584000
+      involved_companies: d0740000
+      name: Front Mission
+      platforms: 07000000140000003a0000007b000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 21840
+      category: 0
+      first_release_date: 938736000
+      involved_companies: 8d17010049690100
+      name: Mr. Driller
+      platforms: 06000000070000001600000017000000340000007b000000
+      rating: 0
+    - id: 43914
+      category: 0
+      first_release_date: 901756800
+      involved_companies: 2bc301002cc30100
+      name: Vanguard Bandits
+      platforms: 07000000
+      rating: 0
+    - id: 1715
+      category: 0
+      first_release_date: 598924800
+      involved_companies: 7a040200
+      name: Mega Man 2
+      platforms: 050000000700000012000000250000002700000029000000
+      rating: 0
+    - id: 426
+      category: 0
+      first_release_date: 765244800
+      involved_companies: 8c4c00008d4c00005576010015eb010016eb010017eb010018eb0100
+      name: Final Fantasy VI
+      platforms: 0500000006000000070000003a000000
+      rating: 0
+    - id: 8293
+      category: 0
+      first_release_date: 931132800
+      involved_companies: 2e4f00002f4f0000
+      name: Discworld Noir
+      platforms: 0600000007000000
+      rating: 0
+    - id: 5502
+      category: 10
+      first_release_date: 820368000
+      involved_companies: 1134000012340000
+      name: Transport Tycoon Deluxe
+      platforms: 070000000d00000020000000
+      rating: 0
+    - id: 1843
+      category: 0
+      first_release_date: 936057600
+      involved_companies: 3875010039750100
+      name: 'Tom Clancy''s Rainbow Six: Rogue Spear'
+      platforms: 06000000070000000e0000001700000018000000
+      rating: 0
+    - id: 2164
+      category: 0
+      first_release_date: 846720000
+      involved_companies: d4110000f55d0000f65d0000
+      name: The Neverhood
+      platforms: 0600000007000000
+      rating: 0
+    - id: 6788
+      category: 0
+      first_release_date: 778377600
+      involved_companies: 60e6010061e6010062e6010063e6010064e60100
+      name: Darius Gaiden
+      platforms: 06000000070000002000000034000000
+      rating: 0
+    - id: 24
+      category: 0
+      first_release_date: 765072000
+      involved_companies: 8aa401008ba401008ca40100
+      name: 'X-COM: UFO Defense'
+      platforms: 06000000070000000d00000010000000
+      rating: 0
+    - id: 934
+      category: 0
+      first_release_date: 817776000
+      involved_companies: 1e1800001f180000
+      name: 'Wing Commander IV: The Price of Freedom'
+      platforms: 0600000007000000090000000d0000000e000000
+      rating: 0
+    - id: 13676
+      category: 0
+      first_release_date: 909619200
+      involved_companies: 376a0000386a0000
+      name: Legend of Legaia
+      platforms: 07000000
+      rating: 0
+    - id: 24413
+      category: 0
+      first_release_date: 857174400
+      involved_companies: ef9b0000f09b0000f19b0000f29b0000f39b0000
+      name: Micro Machines V3
+      platforms: 060000000700000016000000
+      rating: 0
+    - id: 1454
+      category: 0
+      first_release_date: 913852800
+      involved_companies: 180c0000
+      name: Suikoden II
+      platforms: 060000000700000009000000260000002e000000
+      rating: 0
+    - id: 4959
+      category: 0
+      first_release_date: 881798400
+      involved_companies: a82e0000
+      name: 'Klonoa: Door to Phantomile'
+      platforms: 07000000
+      rating: 0
+    - id: 10561
+      category: 0
+      first_release_date: 904521600
+      involved_companies: 628b0000638b0000
+      name: Moto Racer 2
+      platforms: 0600000007000000
+      rating: 0
+    - id: 3380
+      category: 0
+      first_release_date: 945302400
+      involved_companies: 7522000086d30100
+      name: 'Harvest Moon: Back to Nature'
+      platforms: 0700000009000000260000002e000000
+      rating: 0
+    - id: 11210
+      category: 0
+      first_release_date: 901756800
+      involved_companies: b56a0000b66a0000b76a0000
+      name: 'Star Ocean: The Second Story'
+      platforms: 07000000
+      rating: 0
+    - id: 18698
+      category: 0
+      first_release_date: 849571200
+      involved_companies: e7860000
+      name: Rage Racer
+      platforms: 07000000
+      rating: 0
+    - id: 8292
+      category: 0
+      first_release_date: 849312000
+      involved_companies: 2c4f00002d4f0000
+      name: 'Discworld II: Missing Presumed...!?'
+      platforms: 060000000700000020000000
+      rating: 0
+    - id: 902
+      category: 0
+      first_release_date: 662688000
+      involved_companies: a307000089130000
+      name: Sid Meier's Civilization
+      platforms: 06000000070000000d0000000e00000010000000130000003f000000
+      rating: 0
+    - id: 43729
+      category: 0
+      first_release_date: 946512000
+      involved_companies: 
+      name: Music 2000
+      platforms: 07000000
+      rating: 0
+    - id: 924
+      category: 0
+      first_release_date: 631152000
+      involved_companies: 1b180000f7b80100f8b80100f9b80100fab80100fbb80100fcb80100
+      name: Wing Commander
+      platforms: 06000000070000000d0000000e0000001000000013000000180000004e00000072000000
+      rating: 0
+    - id: 3045
+      category: 0
+      first_release_date: 967766400
+      involved_companies: 071e0000081e0000
+      name: 'Bugs Bunny & Taz: Time Busters'
+      platforms: 0600000007000000
+      rating: 0
+    - id: 8002
+      category: 0
+      first_release_date: 967075200
+      involved_companies: 5d4900005e4900005f490000
+      name: TOCA World Touring Cars
+      platforms: 0700000018000000
+      rating: 0
+    - id: 817
+      category: 0
+      first_release_date: 846720000
+      involved_companies: 18070000dd080000de080000df080000e0080000
+      name: NHL 97
+      platforms: 0600000007000000130000001d00000020000000
+      rating: 0
+    - id: 4126
+      category: 0
+      first_release_date: 854668800
+      involved_companies: d1290000d2290000
+      name: Intelligent Qube
+      platforms: 0700000037000000
+      rating: 0
+    - id: 15020
+      category: 0
+      first_release_date: 804470400
+      involved_companies: 95a60000c6d30100c7d30100
+      name: Arc the Lad
+      platforms: 0700000009000000260000002e000000
+      rating: 0
+    - id: 5550
+      category: 0
+      first_release_date: 812937600
+      involved_companies: 949300009693000097930000eb42020010600200
+      name: 'Tactics Ogre: Let Us Cling Together'
+      platforms: 0500000007000000130000002000000026000000
+      rating: 0
+    - id: 6546
+      category: 0
+      first_release_date: 696816000
+      involved_companies: bb3c0000
+      name: Mr. Gimmick
+      platforms: 0700000063000000
+      rating: 0
+    - id: 1754
+      category: 0
+      first_release_date: 956188800
+      involved_companies: 798800007a8800007b8800007c880000
+      name: Mega Man Legends 2
+      platforms: 060000000700000026000000
+      rating: 0
+    - id: 238
+      category: 0
+      first_release_date: 878256000
+      involved_companies: 4d0400004e040000e0d001005af30100
+      name: 'Riven: The Sequel to Myst'
+      platforms: 06000000070000000e000000
+      rating: 0
+    - id: 295
+      category: 0
+      first_release_date: 848620800
+      involved_companies: 250100001751010018510100195101001a5101001b510100
+      name: 'Command & Conquer: Red Alert'
+      platforms: 0600000007000000090000000d00000026000000
+      rating: 0
+    - id: 26143
+      category: 0
+      first_release_date: 907113600
+      involved_companies: dba40000dca40000
+      name: 'Rogue Trip: Vacation 2012'
+      platforms: 07000000
+      rating: 0
+    - id: 6294
+      category: 0
+      first_release_date: 986515200
+      involved_companies: 8e3a00008f3a0000923a0000933a0000943a0000953a0000ce430000f47f0100
+      name: Worms World Party
+      platforms: 060000000700000017000000180000002a000000
+      rating: 0
+    - id: 634
+      category: 0
+      first_release_date: 825552000
+      involved_companies: b5660000b6660000
+      name: Sid Meier's Civilization II
+      platforms: 06000000070000000e000000
+      rating: 0
+    - id: 1253
+      category: 0
+      first_release_date: 857001600
+      involved_companies: f00a0000214c0000224c0000
+      name: The Lost Vikings 2
+      platforms: 06000000070000001300000020000000
+      rating: 0
+    - id: 427
+      category: 0
+      first_release_date: 854668800
+      involved_companies: c01600006f4c0000eb040200a0380200
+      name: Final Fantasy VII
+      platforms: 06000000070000003000000082000000
+      rating: 0
+    - id: 1804
+      category: 0
+      first_release_date: 942883200
+      involved_companies: 5f700100
+      name: Chrono Cross
+      platforms: 0700000009000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
+    - id: 1346
+      category: 0
+      first_release_date: 887155200
+      involved_companies: 1353000029600200
+      name: Xenogears
+      platforms: 0700000009000000
+      rating: 0
+    - id: 1200
+      category: 0
+      first_release_date: 818985600
+      involved_companies: 40620000
+      name: Tales of Phantasia
+      platforms: 070000001800000026000000270000003a000000
+      rating: 0
+    - id: 913
+      category: 0
+      first_release_date: 969408000
+      involved_companies: b7070000343e00002aa700002ba700002ca700002da700002ea70000
+      name: Tony Hawk's Pro Skater 2
+      platforms: 0400000006000000070000000b0000000e00000016000000170000001800000027000000
+      rating: 0
+    - id: 375
+      category: 0
+      first_release_date: 904780800
+      involved_companies: 1acc00009cf900002ab801002bb80100
+      name: Metal Gear Solid
+      platforms: 070000000900000026000000
+      rating: 0
+    - id: 428
+      category: 0
+      first_release_date: 866764800
+      involved_companies: 02850000038500000485000005850000
+      name: Final Fantasy Tactics
+      platforms: 0700000009000000
+      rating: 0
+    - id: 8515
+      category: 0
+      first_release_date: 780969600
+      involved_companies: 5a5200005b5200005c5200005d5200005e520000
+      name: Little Big Adventure
+      platforms: 06000000070000000d0000000e0000002200000027000000
+      rating: 0
+    - id: 18699
+      category: 0
+      first_release_date: 912643200
+      involved_companies: e8860000
+      name: Ridge Racer Type 4
+      platforms: 0700000009000000260000002e000000
+      rating: 0
+    - id: 6080
+      category: 0
+      first_release_date: 849830400
+      involved_companies: 1c3900001d390000
+      name: PaRappa the Rapper
+      platforms: 0700000026000000
+      rating: 0
+    - id: 1802
+      category: 0
+      first_release_date: 794880000
+      involved_companies: 50600200
+      name: Chrono Trigger
+      platforms: 050000000600000007000000090000001300000014000000220000003a000000
+      rating: 0
+    - id: 421
+      category: 0
+      first_release_date: 962928000
+      involved_companies: 834c000030f3010031f3010032f30100
+      name: Final Fantasy IX
+      platforms: 0700000009000000
+      rating: 0
+    - id: 647
+      category: 0
+      first_release_date: 809827200
+      involved_companies: ef050000f005000023080000240800001c650100
+      name: Command & Conquer
+      platforms: 0400000006000000070000000d0000000e00000020000000
+      rating: 0
+    - id: 5502
+      category: 10
+      first_release_date: 820368000
+      involved_companies: 1134000012340000
+      name: Transport Tycoon Deluxe
+      platforms: 070000000d00000020000000
+      rating: 0
+    - id: 6788
+      category: 0
+      first_release_date: 778377600
+      involved_companies: 60e6010061e6010062e6010063e6010064e60100
+      name: Darius Gaiden
+      platforms: 06000000070000002000000034000000
+      rating: 0
+    - id: 8292
+      category: 0
+      first_release_date: 849312000
+      involved_companies: 2c4f00002d4f0000
+      name: 'Discworld II: Missing Presumed...!?'
+      platforms: 060000000700000020000000
+      rating: 0
+    - id: 817
+      category: 0
+      first_release_date: 846720000
+      involved_companies: 18070000dd080000de080000df080000e0080000
+      name: NHL 97
+      platforms: 0600000007000000130000001d00000020000000
+      rating: 0
+    - id: 5550
+      category: 0
+      first_release_date: 812937600
+      involved_companies: 949300009693000097930000eb42020010600200
+      name: 'Tactics Ogre: Let Us Cling Together'
+      platforms: 0500000007000000130000002000000026000000
+      rating: 0
+    - id: 1253
+      category: 0
+      first_release_date: 857001600
+      involved_companies: f00a0000214c0000224c0000
+      name: The Lost Vikings 2
+      platforms: 06000000070000001300000020000000
+      rating: 0
+    - id: 1128
+      category: 0
+      first_release_date: 858816000
+      involved_companies: f25a0200f35a0200
+      name: 'Castlevania: Symphony of the Night'
+      platforms: 07000000090000000c000000200000002200000026000000270000002e000000
+      rating: 0
   - id: 33
     name: Game Boy
     games:
@@ -52756,6 +56788,34 @@ MonoBehaviour:
       involved_companies: cb240000cc240000cd240000ce240000
       name: World Cup 98
       platforms: 04000000060000000700000021000000
+      rating: 0
+    - id: 3578
+      category: 0
+      first_release_date: 820454400
+      involved_companies: 5d960100
+      name: Puyo Puyo SUN
+      platforms: 040000000600000016000000200000002100000034000000
+      rating: 0
+    - id: 3578
+      category: 0
+      first_release_date: 820454400
+      involved_companies: 5d960100
+      name: Puyo Puyo SUN
+      platforms: 040000000600000016000000200000002100000034000000
+      rating: 0
+    - id: 3578
+      category: 0
+      first_release_date: 820454400
+      involved_companies: 5d960100
+      name: Puyo Puyo SUN
+      platforms: 040000000600000016000000200000002100000034000000
+      rating: 0
+    - id: 3578
+      category: 0
+      first_release_date: 820454400
+      involved_companies: 5d960100
+      name: Puyo Puyo SUN
+      platforms: 040000000600000016000000200000002100000034000000
       rating: 0
     - id: 3578
       category: 0
@@ -55437,6 +59497,160 @@ MonoBehaviour:
       name: Mario Kart 64
       platforms: 040000000500000029000000
       rating: 0
+    - id: 2591
+      category: 0
+      first_release_date: 862099200
+      involved_companies: 72bf000073bf0000
+      name: Star Fox 64
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 1029
+      category: 0
+      first_release_date: 911606400
+      involved_companies: ae5a0000f1050200
+      name: 'The Legend of Zelda: Ocarina of Time'
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 3340
+      category: 0
+      first_release_date: 965952000
+      involved_companies: f6420200f7420200
+      name: Paper Mario
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 1030
+      category: 0
+      first_release_date: 956793600
+      involved_companies: ed420200ee420200
+      name: 'The Legend of Zelda: Majora''s Mask'
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 3568
+      category: 0
+      first_release_date: 931910400
+      involved_companies: 122400001424000016240000cd420200ce420200cf420200
+      name: 'Ogre Battle 64: Person of Lordly Caliber'
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 1074
+      category: 0
+      first_release_date: 835488000
+      involved_companies: 318001003c420200
+      name: Super Mario 64
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 1715
+      category: 0
+      first_release_date: 598924800
+      involved_companies: 7a040200
+      name: Mega Man 2
+      platforms: 050000000700000012000000250000002700000029000000
+      rating: 0
+    - id: 426
+      category: 0
+      first_release_date: 765244800
+      involved_companies: 8c4c00008d4c00005576010015eb010016eb010017eb010018eb0100
+      name: Final Fantasy VI
+      platforms: 0500000006000000070000003a000000
+      rating: 0
+    - id: 5550
+      category: 0
+      first_release_date: 812937600
+      involved_companies: 949300009693000097930000eb42020010600200
+      name: 'Tactics Ogre: Let Us Cling Together'
+      platforms: 0500000007000000130000002000000026000000
+      rating: 0
+    - id: 1802
+      category: 0
+      first_release_date: 794880000
+      involved_companies: 50600200
+      name: Chrono Trigger
+      platforms: 050000000600000007000000090000001300000014000000220000003a000000
+      rating: 0
+    - id: 5550
+      category: 0
+      first_release_date: 812937600
+      involved_companies: 949300009693000097930000eb42020010600200
+      name: 'Tactics Ogre: Let Us Cling Together'
+      platforms: 0500000007000000130000002000000026000000
+      rating: 0
+    - id: 2591
+      category: 0
+      first_release_date: 862099200
+      involved_companies: 72bf000073bf0000
+      name: Star Fox 64
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 1029
+      category: 0
+      first_release_date: 911606400
+      involved_companies: ae5a0000f1050200
+      name: 'The Legend of Zelda: Ocarina of Time'
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 3340
+      category: 0
+      first_release_date: 965952000
+      involved_companies: f6420200f7420200
+      name: Paper Mario
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 1030
+      category: 0
+      first_release_date: 956793600
+      involved_companies: ed420200ee420200
+      name: 'The Legend of Zelda: Majora''s Mask'
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 3568
+      category: 0
+      first_release_date: 931910400
+      involved_companies: 122400001424000016240000cd420200ce420200cf420200
+      name: 'Ogre Battle 64: Person of Lordly Caliber'
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 1074
+      category: 0
+      first_release_date: 835488000
+      involved_companies: 318001003c420200
+      name: Super Mario 64
+      platforms: 040000000500000029000000
+      rating: 0
+    - id: 1715
+      category: 0
+      first_release_date: 598924800
+      involved_companies: 7a040200
+      name: Mega Man 2
+      platforms: 050000000700000012000000250000002700000029000000
+      rating: 0
+    - id: 426
+      category: 0
+      first_release_date: 765244800
+      involved_companies: 8c4c00008d4c00005576010015eb010016eb010017eb010018eb0100
+      name: Final Fantasy VI
+      platforms: 0500000006000000070000003a000000
+      rating: 0
+    - id: 5550
+      category: 0
+      first_release_date: 812937600
+      involved_companies: 949300009693000097930000eb42020010600200
+      name: 'Tactics Ogre: Let Us Cling Together'
+      platforms: 0500000007000000130000002000000026000000
+      rating: 0
+    - id: 1802
+      category: 0
+      first_release_date: 794880000
+      involved_companies: 50600200
+      name: Chrono Trigger
+      platforms: 050000000600000007000000090000001300000014000000220000003a000000
+      rating: 0
+    - id: 5550
+      category: 0
+      first_release_date: 812937600
+      involved_companies: 949300009693000097930000eb42020010600200
+      name: 'Tactics Ogre: Let Us Cling Together'
+      platforms: 0500000007000000130000002000000026000000
+      rating: 0
   - id: 3
     name: Linux
     games:
@@ -56566,6 +60780,20 @@ MonoBehaviour:
       name: Final Fantasy
       platforms: 05000000120000003500000063000000
       rating: 77.924246889744
+    - id: 6546
+      category: 0
+      first_release_date: 696816000
+      involved_companies: bb3c0000
+      name: Mr. Gimmick
+      platforms: 0700000063000000
+      rating: 0
+    - id: 6546
+      category: 0
+      first_release_date: 696816000
+      involved_companies: bb3c0000
+      name: Mr. Gimmick
+      platforms: 0700000063000000
+      rating: 0
   - id: 170
     name: Google Stadia
     games:

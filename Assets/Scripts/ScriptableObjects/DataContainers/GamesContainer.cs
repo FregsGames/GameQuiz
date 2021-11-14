@@ -113,6 +113,9 @@ public class GamesContainer : SerializedScriptableObject
             games = allGames.Where(x => !x.involved_companies.Any(i => involvedIds.Contains(i))).ToList();
         }
 
+        if (games == null || games.Count == 0)
+            return null;
+
         return games[Random.Range(0, games.Count)];
     }
 

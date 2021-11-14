@@ -19,6 +19,11 @@ MonoBehaviour:
   packDesc: cup_freeTestDesc
   levels:
   - {fileID: 11400000, guid: 5c37a6d694b36994babb1aa56bff4039, type: 2}
+  - {fileID: 11400000, guid: ab9d07313a947d34b9d44721cf52f9da, type: 2}
+  - {fileID: 11400000, guid: 11fb9de86447f9a42925537484f6f1a1, type: 2}
+  - {fileID: 11400000, guid: 119cfdba37155ea4598dab118d079662, type: 2}
+  - {fileID: 11400000, guid: 4ee4cc3e9f514d545b35caf5ec4b74b2, type: 2}
+  - {fileID: 11400000, guid: e500acfd5ba67f445aef95315398750e, type: 2}
   cupImage: {fileID: 21300000, guid: 2230faa717739a845a208f45229809e8, type: 3}
   state: 0
-  gamesContainer: {fileID: 11400000, guid: 90284dc9afa6ea54099f9c5c1a2d60c0, type: 2}
+  gamesContainer: {fileID: 11400000, guid: 433efbee759c1124db441389cfc97942, type: 2}

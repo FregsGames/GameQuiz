@@ -1,0 +1,882 @@
+{
+    "Games": [
+        {
+            "id": 417,
+            "category": 3,
+            "first_release_date": 1036022400,
+            "involved_companies": [
+                881,
+                5162,
+                5163
+            ],
+            "name": "Final Fantasy Origins",
+            "platforms": [
+                7
+            ]
+        },
+        {
+            "id": 1498,
+            "category": 0,
+            "first_release_date": 793584000,
+            "involved_companies": [
+                29904
+            ],
+            "name": "Front Mission",
+            "platforms": [
+                7,
+                20,
+                58,
+                123
+            ]
+        },
+        {
+            "id": 647,
+            "category": 0,
+            "first_release_date": 809827200,
+            "involved_companies": [
+                1519,
+                1520,
+                2083,
+                2084,
+                91420
+            ],
+            "name": "Command \u0026 Conquer",
+            "platforms": [
+                4,
+                6,
+                7,
+                13,
+                14,
+                32
+            ]
+        },
+        {
+            "id": 21840,
+            "category": 0,
+            "first_release_date": 938736000,
+            "involved_companies": [
+                71565,
+                92489
+            ],
+            "name": "Mr. Driller",
+            "platforms": [
+                6,
+                7,
+                22,
+                23,
+                52,
+                123
+            ]
+        },
+        {
+            "id": 43914,
+            "category": 0,
+            "first_release_date": 901756800,
+            "involved_companies": [
+                115499,
+                115500
+            ],
+            "name": "Vanguard Bandits",
+            "platforms": [
+                7
+            ]
+        },
+        {
+            "id": 1715,
+            "category": 0,
+            "first_release_date": 598924800,
+            "involved_companies": [
+                132218
+            ],
+            "name": "Mega Man 2",
+            "platforms": [
+                5,
+                7,
+                18,
+                37,
+                39,
+                41
+            ]
+        },
+        {
+            "id": 426,
+            "category": 0,
+            "first_release_date": 765244800,
+            "involved_companies": [
+                19596,
+                19597,
+                95829,
+                125717,
+                125718,
+                125719,
+                125720
+            ],
+            "name": "Final Fantasy VI",
+            "platforms": [
+                5,
+                6,
+                7,
+                58
+            ]
+        },
+        {
+            "id": 8293,
+            "category": 0,
+            "first_release_date": 931132800,
+            "involved_companies": [
+                20270,
+                20271
+            ],
+            "name": "Discworld Noir",
+            "platforms": [
+                6,
+                7
+            ]
+        },
+        {
+            "id": 5502,
+            "category": 10,
+            "first_release_date": 820368000,
+            "involved_companies": [
+                13329,
+                13330
+            ],
+            "name": "Transport Tycoon Deluxe",
+            "platforms": [
+                7,
+                13,
+                32
+            ]
+        },
+        {
+            "id": 1843,
+            "category": 0,
+            "first_release_date": 936057600,
+            "involved_companies": [
+                95544,
+                95545
+            ],
+            "name": "Tom Clancy\u0027s Rainbow Six: Rogue Spear",
+            "platforms": [
+                6,
+                7,
+                14,
+                23,
+                24
+            ]
+        },
+        {
+            "id": 2164,
+            "category": 0,
+            "first_release_date": 846720000,
+            "involved_companies": [
+                4564,
+                24053,
+                24054
+            ],
+            "name": "The Neverhood",
+            "platforms": [
+                6,
+                7
+            ]
+        },
+        {
+            "id": 6788,
+            "category": 0,
+            "first_release_date": 778377600,
+            "involved_companies": [
+                124512,
+                124513,
+                124514,
+                124515,
+                124516
+            ],
+            "name": "Darius Gaiden",
+            "platforms": [
+                6,
+                7,
+                32,
+                52
+            ]
+        },
+        {
+            "id": 24,
+            "category": 0,
+            "first_release_date": 765072000,
+            "involved_companies": [
+                107658,
+                107659,
+                107660
+            ],
+            "name": "X-COM: UFO Defense",
+            "platforms": [
+                6,
+                7,
+                13,
+                16
+            ]
+        },
+        {
+            "id": 934,
+            "category": 0,
+            "first_release_date": 817776000,
+            "involved_companies": [
+                6174,
+                6175
+            ],
+            "name": "Wing Commander IV: The Price of Freedom",
+            "platforms": [
+                6,
+                7,
+                9,
+                13,
+                14
+            ]
+        },
+        {
+            "id": 13676,
+            "category": 0,
+            "first_release_date": 909619200,
+            "involved_companies": [
+                27191,
+                27192
+            ],
+            "name": "Legend of Legaia",
+            "platforms": [
+                7
+            ]
+        },
+        {
+            "id": 24413,
+            "category": 0,
+            "first_release_date": 857174400,
+            "involved_companies": [
+                39919,
+                39920,
+                39921,
+                39922,
+                39923
+            ],
+            "name": "Micro Machines V3",
+            "platforms": [
+                6,
+                7,
+                22
+            ]
+        },
+        {
+            "id": 1454,
+            "category": 0,
+            "first_release_date": 913852800,
+            "involved_companies": [
+                3096
+            ],
+            "name": "Suikoden II",
+            "platforms": [
+                6,
+                7,
+                9,
+                38,
+                46
+            ]
+        },
+        {
+            "id": 4959,
+            "category": 0,
+            "first_release_date": 881798400,
+            "involved_companies": [
+                11944
+            ],
+            "name": "Klonoa: Door to Phantomile",
+            "platforms": [
+                7
+            ]
+        },
+        {
+            "id": 10561,
+            "category": 0,
+            "first_release_date": 904521600,
+            "involved_companies": [
+                35682,
+                35683
+            ],
+            "name": "Moto Racer 2",
+            "platforms": [
+                6,
+                7
+            ]
+        },
+        {
+            "id": 3380,
+            "category": 0,
+            "first_release_date": 945302400,
+            "involved_companies": [
+                8821,
+                119686
+            ],
+            "name": "Harvest Moon: Back to Nature",
+            "platforms": [
+                7,
+                9,
+                38,
+                46
+            ]
+        },
+        {
+            "id": 11210,
+            "category": 0,
+            "first_release_date": 901756800,
+            "involved_companies": [
+                27317,
+                27318,
+                27319
+            ],
+            "name": "Star Ocean: The Second Story",
+            "platforms": [
+                7
+            ]
+        },
+        {
+            "id": 18698,
+            "category": 0,
+            "first_release_date": 849571200,
+            "involved_companies": [
+                34535
+            ],
+            "name": "Rage Racer",
+            "platforms": [
+                7
+            ]
+        },
+        {
+            "id": 8292,
+            "category": 0,
+            "first_release_date": 849312000,
+            "involved_companies": [
+                20268,
+                20269
+            ],
+            "name": "Discworld II: Missing Presumed...!?",
+            "platforms": [
+                6,
+                7,
+                32
+            ]
+        },
+        {
+            "id": 902,
+            "category": 0,
+            "first_release_date": 662688000,
+            "involved_companies": [
+                1955,
+                5001
+            ],
+            "name": "Sid Meier\u0027s Civilization",
+            "platforms": [
+                6,
+                7,
+                13,
+                14,
+                16,
+                19,
+                63
+            ]
+        },
+        {
+            "id": 43729,
+            "category": 0,
+            "first_release_date": 946512000,
+            "name": "Music 2000",
+            "platforms": [
+                7
+            ]
+        },
+        {
+            "id": 924,
+            "category": 0,
+            "first_release_date": 631152000,
+            "involved_companies": [
+                6171,
+                112887,
+                112888,
+                112889,
+                112890,
+                112891,
+                112892
+            ],
+            "name": "Wing Commander",
+            "platforms": [
+                6,
+                7,
+                13,
+                14,
+                16,
+                19,
+                24,
+                78,
+                114
+            ]
+        },
+        {
+            "id": 3045,
+            "category": 0,
+            "first_release_date": 967766400,
+            "involved_companies": [
+                7687,
+                7688
+            ],
+            "name": "Bugs Bunny \u0026 Taz: Time Busters",
+            "platforms": [
+                6,
+                7
+            ]
+        },
+        {
+            "id": 8002,
+            "category": 0,
+            "first_release_date": 967075200,
+            "involved_companies": [
+                18781,
+                18782,
+                18783
+            ],
+            "name": "TOCA World Touring Cars",
+            "platforms": [
+                7,
+                24
+            ]
+        },
+        {
+            "id": 817,
+            "category": 0,
+            "first_release_date": 846720000,
+            "involved_companies": [
+                1816,
+                2269,
+                2270,
+                2271,
+                2272
+            ],
+            "name": "NHL 97",
+            "platforms": [
+                6,
+                7,
+                19,
+                29,
+                32
+            ]
+        },
+        {
+            "id": 4126,
+            "category": 0,
+            "first_release_date": 854668800,
+            "involved_companies": [
+                10705,
+                10706
+            ],
+            "name": "Intelligent Qube",
+            "platforms": [
+                7,
+                55
+            ]
+        },
+        {
+            "id": 15020,
+            "category": 0,
+            "first_release_date": 804470400,
+            "involved_companies": [
+                42645,
+                119750,
+                119751
+            ],
+            "name": "Arc the Lad",
+            "platforms": [
+                7,
+                9,
+                38,
+                46
+            ]
+        },
+        {
+            "id": 5550,
+            "category": 0,
+            "first_release_date": 812937600,
+            "involved_companies": [
+                37780,
+                37782,
+                37783,
+                148203,
+                155664
+            ],
+            "name": "Tactics Ogre: Let Us Cling Together",
+            "platforms": [
+                5,
+                7,
+                19,
+                32,
+                38
+            ]
+        },
+        {
+            "id": 6546,
+            "category": 0,
+            "first_release_date": 696816000,
+            "involved_companies": [
+                15547
+            ],
+            "name": "Mr. Gimmick",
+            "platforms": [
+                7,
+                99
+            ]
+        },
+        {
+            "id": 1754,
+            "category": 0,
+            "first_release_date": 956188800,
+            "involved_companies": [
+                34937,
+                34938,
+                34939,
+                34940
+            ],
+            "name": "Mega Man Legends 2",
+            "platforms": [
+                6,
+                7,
+                38
+            ]
+        },
+        {
+            "id": 238,
+            "category": 0,
+            "first_release_date": 878256000,
+            "involved_companies": [
+                1101,
+                1102,
+                119008,
+                127834
+            ],
+            "name": "Riven: The Sequel to Myst",
+            "platforms": [
+                6,
+                7,
+                14
+            ]
+        },
+        {
+            "id": 295,
+            "category": 0,
+            "first_release_date": 848620800,
+            "involved_companies": [
+                293,
+                86295,
+                86296,
+                86297,
+                86298,
+                86299
+            ],
+            "name": "Command \u0026 Conquer: Red Alert",
+            "platforms": [
+                6,
+                7,
+                9,
+                13,
+                38
+            ]
+        },
+        {
+            "id": 26143,
+            "category": 0,
+            "first_release_date": 907113600,
+            "involved_companies": [
+                42203,
+                42204
+            ],
+            "name": "Rogue Trip: Vacation 2012",
+            "platforms": [
+                7
+            ]
+        },
+        {
+            "id": 6294,
+            "category": 0,
+            "first_release_date": 986515200,
+            "involved_companies": [
+                14990,
+                14991,
+                14994,
+                14995,
+                14996,
+                14997,
+                17358,
+                98292
+            ],
+            "name": "Worms World Party",
+            "platforms": [
+                6,
+                7,
+                23,
+                24,
+                42
+            ]
+        },
+        {
+            "id": 634,
+            "category": 0,
+            "first_release_date": 825552000,
+            "involved_companies": [
+                26293,
+                26294
+            ],
+            "name": "Sid Meier\u0027s Civilization II",
+            "platforms": [
+                6,
+                7,
+                14
+            ]
+        },
+        {
+            "id": 1253,
+            "category": 0,
+            "first_release_date": 857001600,
+            "involved_companies": [
+                2800,
+                19489,
+                19490
+            ],
+            "name": "The Lost Vikings 2",
+            "platforms": [
+                6,
+                7,
+                19,
+                32
+            ]
+        },
+        {
+            "id": 427,
+            "category": 0,
+            "first_release_date": 854668800,
+            "involved_companies": [
+                5824,
+                19567,
+                132331,
+                145568
+            ],
+            "name": "Final Fantasy VII",
+            "platforms": [
+                6,
+                7,
+                48,
+                130
+            ]
+        },
+        {
+            "id": 1804,
+            "category": 0,
+            "first_release_date": 942883200,
+            "involved_companies": [
+                94303
+            ],
+            "name": "Chrono Cross",
+            "platforms": [
+                7,
+                9
+            ]
+        },
+        {
+            "id": 1128,
+            "category": 0,
+            "first_release_date": 858816000,
+            "involved_companies": [
+                154354,
+                154355
+            ],
+            "name": "Castlevania: Symphony of the Night",
+            "platforms": [
+                7,
+                9,
+                12,
+                32,
+                34,
+                38,
+                39,
+                46
+            ]
+        },
+        {
+            "id": 1346,
+            "category": 0,
+            "first_release_date": 887155200,
+            "involved_companies": [
+                21267,
+                155689
+            ],
+            "name": "Xenogears",
+            "platforms": [
+                7,
+                9
+            ]
+        },
+        {
+            "id": 1200,
+            "category": 0,
+            "first_release_date": 818985600,
+            "involved_companies": [
+                25152
+            ],
+            "name": "Tales of Phantasia",
+            "platforms": [
+                7,
+                24,
+                38,
+                39,
+                58
+            ]
+        },
+        {
+            "id": 913,
+            "category": 0,
+            "first_release_date": 969408000,
+            "involved_companies": [
+                1975,
+                15924,
+                42794,
+                42795,
+                42796,
+                42797,
+                42798
+            ],
+            "name": "Tony Hawk\u0027s Pro Skater 2",
+            "platforms": [
+                4,
+                6,
+                7,
+                11,
+                14,
+                22,
+                23,
+                24,
+                39
+            ]
+        },
+        {
+            "id": 375,
+            "category": 0,
+            "first_release_date": 904780800,
+            "involved_companies": [
+                52250,
+                63900,
+                112682,
+                112683
+            ],
+            "name": "Metal Gear Solid",
+            "platforms": [
+                7,
+                9,
+                38
+            ]
+        },
+        {
+            "id": 428,
+            "category": 0,
+            "first_release_date": 866764800,
+            "involved_companies": [
+                34050,
+                34051,
+                34052,
+                34053
+            ],
+            "name": "Final Fantasy Tactics",
+            "platforms": [
+                7,
+                9
+            ]
+        },
+        {
+            "id": 8515,
+            "category": 0,
+            "first_release_date": 780969600,
+            "involved_companies": [
+                21082,
+                21083,
+                21084,
+                21085,
+                21086
+            ],
+            "name": "Little Big Adventure",
+            "platforms": [
+                6,
+                7,
+                13,
+                14,
+                34,
+                39
+            ]
+        },
+        {
+            "id": 18699,
+            "category": 0,
+            "first_release_date": 912643200,
+            "involved_companies": [
+                34536
+            ],
+            "name": "Ridge Racer Type 4",
+            "platforms": [
+                7,
+                9,
+                38,
+                46
+            ]
+        },
+        {
+            "id": 6080,
+            "category": 0,
+            "first_release_date": 849830400,
+            "involved_companies": [
+                14620,
+                14621
+            ],
+            "name": "PaRappa the Rapper",
+            "platforms": [
+                7,
+                38
+            ]
+        },
+        {
+            "id": 1802,
+            "category": 0,
+            "first_release_date": 794880000,
+            "involved_companies": [
+                155728
+            ],
+            "name": "Chrono Trigger",
+            "platforms": [
+                5,
+                6,
+                7,
+                9,
+                19,
+                20,
+                34,
+                58
+            ]
+        },
+        {
+            "id": 421,
+            "category": 0,
+            "first_release_date": 962928000,
+            "involved_companies": [
+                19587,
+                127792,
+                127793,
+                127794
+            ],
+            "name": "Final Fantasy IX",
+            "platforms": [
+                7,
+                9
+            ]
+        }
+    ]
+}

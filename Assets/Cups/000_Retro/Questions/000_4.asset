@@ -32,7 +32,7 @@ MonoBehaviour:
       - Akira Toriyama
   statement:
     langStrings:
-    - lang: 34
+    - lang: 10
       text: 'Personaje jugable en Tony Hawk Pro Skater 2 '
   correctAnswer:
     langStringsList:

@@ -21,7 +21,7 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  questionId: 000_6
+  questionId: 000_8
   wrongAnswers:
     langStringsList:
     - lang: 10
@@ -34,7 +34,7 @@ MonoBehaviour:
       - Hironobu Sakaguchi
   statement:
     langStrings:
-    - lang: 34
+    - lang: 10
       text: "Dise\xF1ador de Super Mario 64"
   correctAnswer:
     langStringsList:

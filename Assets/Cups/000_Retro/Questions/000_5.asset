@@ -31,7 +31,7 @@ MonoBehaviour:
       - Razputin
   statement:
     langStrings:
-    - lang: 34
+    - lang: 10
       text: Protaginista de Perfect Dark
   correctAnswer:
     langStringsList:

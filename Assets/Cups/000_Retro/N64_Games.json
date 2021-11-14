@@ -1,0 +1,1465 @@
+{
+    "Games": [
+        {
+            "id": 1467,
+            "category": 0,
+            "first_release_date": 974764800,
+            "involved_companies": [
+                149090,
+                149091,
+                149092
+            ],
+            "name": "Sin and Punishment",
+            "platforms": [
+                4,
+                5,
+                41
+            ]
+        },
+        {
+            "id": 1286,
+            "category": 0,
+            "first_release_date": 983750400,
+            "involved_companies": [
+                63810,
+                63813
+            ],
+            "name": "Conker\u0027s Bad Fur Day",
+            "platforms": [
+                4
+            ]
+        },
+        {
+            "id": 3342,
+            "category": 0,
+            "first_release_date": 881884800,
+            "involved_companies": [
+                8735,
+                8736
+            ],
+            "name": "Snowboard Kids",
+            "platforms": [
+                4
+            ]
+        },
+        {
+            "id": 5568,
+            "category": 0,
+            "first_release_date": 942537600,
+            "involved_companies": [
+                100183,
+                100184,
+                100215
+            ],
+            "name": "40 Winks",
+            "platforms": [
+                4,
+                6,
+                7
+            ]
+        },
+        {
+            "id": 3619,
+            "category": 0,
+            "first_release_date": 943920000,
+            "involved_companies": [
+                9359,
+                9360,
+                9361,
+                9362
+            ],
+            "name": "Toy Story 2: Buzz Lightyear to the Rescue!",
+            "platforms": [
+                4,
+                6,
+                7,
+                23
+            ]
+        },
+        {
+            "id": 3441,
+            "category": 0,
+            "first_release_date": 974764800,
+            "involved_companies": [
+                8967
+            ],
+            "name": "Army Men: Sarge\u0027s Heroes 2",
+            "platforms": [
+                4,
+                7,
+                8,
+                22
+            ]
+        },
+        {
+            "id": 3426,
+            "category": 0,
+            "first_release_date": 845769600,
+            "involved_companies": [
+                8937,
+                8938,
+                8939
+            ],
+            "name": "Body Harvest",
+            "platforms": [
+                4
+            ]
+        },
+        {
+            "id": 3455,
+            "category": 11,
+            "first_release_date": 828057600,
+            "involved_companies": [
+                126440,
+                126441,
+                126442,
+                126443,
+                126444,
+                126445,
+                126446
+            ],
+            "name": "Bust-A-Move 2: Arcade Edition",
+            "platforms": [
+                4,
+                6,
+                7,
+                13,
+                14,
+                32,
+                33
+            ]
+        },
+        {
+            "id": 3335,
+            "category": 0,
+            "first_release_date": 883612800,
+            "involved_companies": [
+                8719,
+                8720
+            ],
+            "name": "California Speed",
+            "platforms": [
+                4,
+                52
+            ]
+        },
+        {
+            "id": 80368,
+            "category": 0,
+            "first_release_date": 1008806400,
+            "involved_companies": [
+                72051,
+                72052
+            ],
+            "name": "Bomberman 64",
+            "platforms": [
+                4
+            ]
+        },
+        {
+            "id": 1259,
+            "category": 0,
+            "first_release_date": 947030400,
+            "involved_companies": [
+                2806,
+                2807
+            ],
+            "name": "South Park Rally",
+            "platforms": [
+                4,
+                6,
+                7,
+                23
+            ]
+        },
+        {
+            "id": 3617,
+            "category": 0,
+            "first_release_date": 875664000,
+            "involved_companies": [
+                9352,
+                9353,
+                9354,
+                9355,
+                48752,
+                48753
+            ],
+            "name": "Top Gear Rally",
+            "platforms": [
+                4,
+                22,
+                24
+            ]
+        },
+        {
+            "id": 10613,
+            "category": 0,
+            "first_release_date": 848966400,
+            "involved_companies": [
+                28297,
+                28298
+            ],
+            "name": "Killer Instinct Gold",
+            "platforms": [
+                4,
+                49
+            ]
+        },
+        {
+            "id": 3486,
+            "category": 0,
+            "first_release_date": 911260800,
+            "involved_companies": [
+                9071,
+                9072
+            ],
+            "name": "Extreme-G 2",
+            "platforms": [
+                4,
+                6
+            ]
+        },
+        {
+            "id": 2342,
+            "category": 0,
+            "first_release_date": 850521600,
+            "involved_companies": [
+                98361,
+                98362,
+                135142
+            ],
+            "name": "Mario Kart 64",
+            "platforms": [
+                4,
+                5,
+                41
+            ]
+        },
+        {
+            "id": 3634,
+            "category": 0,
+            "first_release_date": 852076800,
+            "involved_companies": [
+                9398,
+                9399
+            ],
+            "name": "WCW Nitro",
+            "platforms": [
+                4,
+                6,
+                7
+            ]
+        },
+        {
+            "id": 6692,
+            "category": 0,
+            "first_release_date": 938563200,
+            "involved_companies": [
+                15898,
+                15902,
+                15903,
+                15904,
+                42791,
+                42792,
+                42793
+            ],
+            "name": "Tony Hawk\u0027s Pro Skater",
+            "platforms": [
+                4,
+                7,
+                22,
+                23,
+                42
+            ]
+        },
+        {
+            "id": 880,
+            "category": 0,
+            "first_release_date": 885340800,
+            "involved_companies": [
+                1920,
+                2140,
+                2141,
+                2143,
+                2144,
+                154502,
+                154503
+            ],
+            "name": "Resident Evil 2",
+            "platforms": [
+                4,
+                6,
+                7,
+                9,
+                21,
+                23
+            ]
+        },
+        {
+            "id": 2715,
+            "category": 0,
+            "first_release_date": 922233600,
+            "involved_companies": [
+                6504,
+                6505
+            ],
+            "name": "Beetle Adventure Racing!",
+            "platforms": [
+                4
+            ]
+        },
+        {
+            "id": 1539,
+            "category": 0,
+            "first_release_date": 910051200,
+            "involved_companies": [
+                9413,
+                9414
+            ],
+            "name": "Wipeout 64",
+            "platforms": [
+                4
+            ]
+        },
+        {
+            "id": 2289,
+            "category": 0,
+            "first_release_date": 925430400,
+            "involved_companies": [
+                23812,
+                23813
+            ],
+            "name": "Pokémon Stadium",
+            "platforms": [
+                4
+            ]
+        },
+        {
+            "id": 1842,
+            "category": 0,
+            "first_release_date": 903657600,
+            "involved_companies": [
+                101486,
+                101487,
+                101488,
+                101489,
+                101490
+            ],
+            "name": "Tom Clancy\u0027s Rainbow Six",
+            "platforms": [
+                4,
+                6,
+                7,
+                14,
+                22,
+                23
+            ]
+        },
+        {
+            "id": 811,
+            "category": 0,
+            "first_release_date": 909792000,
+            "involved_companies": [
+                1808,
+                2334,
+                101508,
+                101509
+            ],
+            "name": "NBA Live 99",
+            "platforms": [
+                4,
+                6,
+                7
+            ]
+        },
+        {
+            "id": 10163,
+            "category": 0,
+            "first_release_date": 946598400,
+            "involved_companies": [
+                23723,
+                23724,
+                23725,
+                23726
+            ],
+            "name": "Cruis\u0027n Exotica",
+            "platforms": [
+                4,
+                22,
+                52
+            ]
+        },
+        {
+            "id": 3406,
+            "category": 0,
+            "first_release_date": 964137600,
+            "involved_companies": [
+                91490,
+                91491
+            ],
+            "name": "Mario Tennis",
+            "platforms": [
+                4,
+                5,
+                41
+            ]
+        },
+        {
+            "id": 188,
+            "category": 0,
+            "first_release_date": 943315200,
+            "involved_companies": [
+                678
+            ],
+            "name": "Indiana Jones and the Infernal Machine",
+            "platforms": [
+                4,
+                6,
+                22
+            ]
+        },
+        {
+            "id": 3488,
+            "category": 0,
+            "first_release_date": 938649600,
+            "involved_companies": [
+                9076,
+                9077
+            ],
+            "name": "F-1 World Grand Prix II",
+            "platforms": [
+                4,
+                22,
+                23
+            ]
+        },
+        {
+            "id": 3539,
+            "category": 0,
+            "first_release_date": 1000252800,
+            "involved_companies": [
+                9174,
+                9175,
+                9176
+            ],
+            "name": "Madden NFL 2002",
+            "platforms": [
+                4,
+                6,
+                7,
+                8,
+                11,
+                21,
+                22,
+                24
+            ]
+        },
+        {
+            "id": 2542,
+            "category": 0,
+            "first_release_date": 876355200,
+            "involved_companies": [
+                8568,
+                8569,
+                8570
+            ],
+            "name": "Fighting Force",
+            "platforms": [
+                4,
+                6,
+                7,
+                9
+            ]
+        },
+        {
+            "id": 2328,
+            "category": 0,
+            "first_release_date": 945388800,
+            "involved_companies": [
+                100209,
+                100211,
+                135135
+            ],
+            "name": "Mario Party 2",
+            "platforms": [
+                4,
+                5,
+                41
+            ]
+        },
+        {
+            "id": 3440,
+            "category": 0,
+            "first_release_date": 938476800,
+            "involved_companies": [
+                8966
+            ],
+            "name": "Army Men: Sarge\u0027s Heroes",
+            "platforms": [
+                4,
+                6,
+                7,
+                23
+            ]
+        },
+        {
+            "id": 3641,
+            "category": 0,
+            "first_release_date": 891302400,
+            "involved_companies": [
+                9419,
+                9420,
+                9421,
+                9422
+            ],
+            "name": "World Cup 98",
+            "platforms": [
+                4,
+                6,
+                7,
+                33
+            ]
+        },
+        {
+            "id": 2847,
+            "category": 0,
+            "first_release_date": 909792000,
+            "involved_companies": [
+                6858,
+                6859,
+                6860,
+                82099,
+                82100
+            ],
+            "name": "Disney/Pixar A Bug\u0027s Life",
+            "platforms": [
+                4,
+                6,
+                7
+            ]
+        },
+        {
+            "id": 1258,
+            "category": 0,
+            "first_release_date": 939686400,
+            "involved_companies": [
+                101482,
+                101483
+            ],
+            "name": "South Park: Chef\u0027s Luv Shack",
+            "platforms": [
+                4,
+                6,
+                7,
+                23
+            ]
+        },
+        {
+            "id": 3430,
+            "category": 0,
+            "first_release_date": 846806400,
+            "involved_companies": [
+                8947,
+                8948,
+                101484
+            ],
+            "name": "Cruis\u0027n World",
+            "platforms": [
+                4,
+                52
+            ]
+        },
+        {
+            "id": 3056,
+            "category": 0,
+            "first_release_date": 875577600,
+            "involved_companies": [
+                7734,
+                7735,
+                110729,
+                110730,
+                110731,
+                110732,
+                110733
+            ],
+            "name": "Rampage World Tour",
+            "platforms": [
+                4,
+                7,
+                9,
+                22,
+                32,
+                74
+            ]
+        },
+        {
+            "id": 3408,
+            "category": 0,
+            "first_release_date": 974073600,
+            "involved_companies": [
+                8897,
+                35563
+            ],
+            "name": "Mickey\u0027s Speedway USA",
+            "platforms": [
+                4,
+                22
+            ]
+        },
+        {
+            "id": 3414,
+            "category": 0,
+            "first_release_date": 875577600,
+            "involved_companies": [
+                8916,
+                54008,
+                54009,
+                54010
+            ],
+            "name": "Nightmare Creatures",
+            "platforms": [
+                4,
+                6,
+                7
+            ]
+        },
+        {
+            "id": 3612,
+            "category": 0,
+            "first_release_date": 871257600,
+            "involved_companies": [
+                9338,
+                9339
+            ],
+            "name": "Tetrisphere",
+            "platforms": [
+                4
+            ]
+        },
+        {
+            "id": 3636,
+            "category": 0,
+            "first_release_date": 912384000,
+            "involved_companies": [
+                9403,
+                9404,
+                9405
+            ],
+            "name": "WCW/nWo Revenge",
+            "platforms": [
+                4
+            ]
+        },
+        {
+            "id": 2723,
+            "category": 0,
+            "first_release_date": 880070400,
+            "involved_companies": [
+                6533,
+                35562
+            ],
+            "name": "Diddy Kong Racing",
+            "platforms": [
+                4
+            ]
+        },
+        {
+            "id": 2327,
+            "category": 0,
+            "first_release_date": 913939200,
+            "involved_companies": [
+                100178,
+                100179,
+                100180
+            ],
+            "name": "Mario Party",
+            "platforms": [
+                4
+            ]
+        },
+        {
+            "id": 3343,
+            "category": 0,
+            "first_release_date": 919382400,
+            "involved_companies": [
+                8737,
+                8738
+            ],
+            "name": "Snowboard Kids 2",
+            "platforms": [
+                4
+            ]
+        },
+        {
+            "id": 3501,
+            "category": 0,
+            "first_release_date": 907200000,
+            "involved_companies": [
+                9106,
+                101518,
+                101519,
+                101520,
+                101521
+            ],
+            "name": "Gauntlet Legends",
+            "platforms": [
+                4,
+                7,
+                23,
+                52
+            ]
+        },
+        {
+            "id": 3550,
+            "category": 0,
+            "first_release_date": 829612800,
+            "involved_companies": [
+                9199,
+                9200,
+                9201
+            ],
+            "name": "NBA Hangtime",
+            "platforms": [
+                4,
+                6,
+                7,
+                19,
+                29,
+                52
+            ]
+        },
+        {
+            "id": 3643,
+            "category": 0,
+            "first_release_date": 928368000,
+            "involved_companies": [
+                9425,
+                101491
+            ],
+            "name": "WWF Attitude",
+            "platforms": [
+                4,
+                7,
+                22,
+                23
+            ]
+        },
+        {
+            "id": 3629,
+            "category": 0,
+            "first_release_date": 843782400,
+            "involved_companies": [
+                149247,
+                149248
+            ],
+            "name": "Wave Race 64",
+            "platforms": [
+                4,
+                5,
+                41
+            ]
+        },
+        {
+            "id": 705,
+            "category": 0,
+            "first_release_date": 852076800,
+            "involved_companies": [
+                2210,
+                5400,
+                5401,
+                5402,
+                5403,
+                5404
+            ],
+            "name": "FIFA: Road to World Cup 98",
+            "platforms": [
+                4,
+                6,
+                7,
+                19,
+                29,
+                32,
+                33
+            ]
+        },
+        {
+            "id": 3505,
+            "category": 0,
+            "first_release_date": 922147200,
+            "involved_companies": [
+                9111,
+                9115,
+                101510,
+                101517
+            ],
+            "name": "Gex 3: Deep Cover Gecko",
+            "platforms": [
+                4,
+                7
+            ]
+        },
+        {
+            "id": 812,
+            "category": 0,
+            "first_release_date": 852076800,
+            "involved_companies": [
+                1809
+            ],
+            "name": "NFL Blitz",
+            "platforms": [
+                4,
+                6,
+                7,
+                22,
+                52
+            ]
+        },
+        {
+            "id": 1355,
+            "category": 0,
+            "first_release_date": 939600000,
+            "involved_companies": [
+                3066
+            ],
+            "name": "Jet Force Gemini",
+            "platforms": [
+                4
+            ]
+        },
+        {
+            "id": 3595,
+            "category": 0,
+            "first_release_date": 851385600,
+            "involved_companies": [
+                9295,
+                101492,
+                101493,
+                101494
+            ],
+            "name": "San Francisco Rush: Extreme Racing",
+            "platforms": [
+                4,
+                7,
+                52
+            ]
+        },
+        {
+            "id": 3644,
+            "category": 0,
+            "first_release_date": 974419200,
+            "involved_companies": [
+                9427,
+                9428,
+                9429
+            ],
+            "name": "WWF No Mercy",
+            "platforms": [
+                4
+            ]
+        },
+        {
+            "id": 3370,
+            "category": 0,
+            "first_release_date": 915148800,
+            "involved_companies": [
+                9561,
+                40647
+            ],
+            "name": "Hydro Thunder",
+            "platforms": [
+                4,
+                6,
+                7,
+                8,
+                11,
+                21,
+                23,
+                52
+            ]
+        },
+        {
+            "id": 699,
+            "category": 0,
+            "first_release_date": 897436800,
+            "involved_companies": [
+                1608,
+                2209
+            ],
+            "name": "FIFA 99",
+            "platforms": [
+                4,
+                6,
+                7
+            ]
+        },
+        {
+            "id": 948,
+            "category": 4,
+            "first_release_date": 917568000,
+            "involved_companies": [
+                2037,
+                98291,
+                143460,
+                143461,
+                143462,
+                143463,
+                143464,
+                143465
+            ],
+            "name": "Worms Armageddon",
+            "platforms": [
+                4,
+                6,
+                7,
+                9,
+                23,
+                38
+            ]
+        },
+        {
+            "id": 3487,
+            "category": 0,
+            "first_release_date": 901843200,
+            "involved_companies": [
+                9075,
+                101495,
+                101496,
+                101497,
+                101498,
+                101499,
+                101500,
+                101501
+            ],
+            "name": "F-1 World Grand Prix",
+            "platforms": [
+                4,
+                6,
+                7,
+                22,
+                23
+            ]
+        },
+        {
+            "id": 3333,
+            "category": 0,
+            "first_release_date": 942883200,
+            "involved_companies": [
+                10012,
+                10013,
+                57160
+            ],
+            "name": "Vigilante 8: 2nd Offense",
+            "platforms": [
+                4,
+                7,
+                23
+            ]
+        },
+        {
+            "id": 1626,
+            "category": 0,
+            "first_release_date": 916876800,
+            "involved_companies": [
+                98843,
+                98844
+            ],
+            "name": "Super Smash Bros.",
+            "platforms": [
+                4,
+                5
+            ]
+        },
+        {
+            "id": 843,
+            "category": 0,
+            "first_release_date": 941155200,
+            "involved_companies": [
+                1857,
+                2304,
+                2305,
+                2306,
+                2307
+            ],
+            "name": "Rayman 2: The Great Escape",
+            "platforms": [
+                4,
+                6,
+                7,
+                22,
+                23,
+                39
+            ]
+        },
+        {
+            "id": 3424,
+            "category": 0,
+            "first_release_date": 858902400,
+            "involved_companies": [
+                8933,
+                8934
+            ],
+            "name": "Blast Corps",
+            "platforms": [
+                4
+            ]
+        },
+        {
+            "id": 2290,
+            "category": 0,
+            "first_release_date": 976752000,
+            "involved_companies": [
+                46501,
+                46502,
+                46503
+            ],
+            "name": "Pokémon Stadium 2",
+            "platforms": [
+                4
+            ]
+        },
+        {
+            "id": 2324,
+            "category": 0,
+            "first_release_date": 921974400,
+            "involved_companies": [
+                43380,
+                43381,
+                43382,
+                43383,
+                43384
+            ],
+            "name": "Pokémon Snap",
+            "platforms": [
+                4,
+                5,
+                41
+            ]
+        },
+        {
+            "id": 3602,
+            "category": 0,
+            "first_release_date": 908928000,
+            "involved_companies": [
+                100200,
+                100204,
+                100205
+            ],
+            "name": "Space Station Silicon Valley",
+            "platforms": [
+                4,
+                7
+            ]
+        },
+        {
+            "id": 3603,
+            "category": 0,
+            "first_release_date": 967593600,
+            "involved_companies": [
+                9312,
+                9315,
+                42808,
+                42809,
+                42810,
+                42811
+            ],
+            "name": "Spider-Man",
+            "platforms": [
+                4,
+                6,
+                7,
+                22,
+                23
+            ]
+        },
+        {
+            "id": 4121,
+            "category": 0,
+            "first_release_date": 844905600,
+            "involved_companies": [
+                10686,
+                10687,
+                10688,
+                10689,
+                10690,
+                10691,
+                10692
+            ],
+            "name": "Mortal Kombat Trilogy",
+            "platforms": [
+                4,
+                6,
+                7,
+                13,
+                32
+            ]
+        },
+        {
+            "id": 333,
+            "category": 0,
+            "first_release_date": 835401600,
+            "involved_companies": [
+                1009,
+                1011,
+                103611,
+                103612,
+                103615,
+                103616,
+                103617,
+                103618,
+                103619,
+                103620,
+                103623,
+                103624,
+                103625
+            ],
+            "name": "Quake",
+            "platforms": [
+                3,
+                4,
+                6,
+                13,
+                14,
+                16,
+                32,
+                55,
+                240
+            ]
+        },
+        {
+            "id": 360,
+            "category": 11,
+            "first_release_date": 973728000,
+            "involved_companies": [
+                95478,
+                95479
+            ],
+            "name": "Donald Duck: Goin\u0027 Quackers",
+            "platforms": [
+                4,
+                6,
+                23
+            ]
+        },
+        {
+            "id": 156,
+            "category": 0,
+            "first_release_date": 977097600,
+            "involved_companies": [
+                143,
+                144,
+                888,
+                56378
+            ],
+            "name": "Star Wars: Episode I - Battle for Naboo",
+            "platforms": [
+                4,
+                6
+            ]
+        },
+        {
+            "id": 286,
+            "category": 0,
+            "first_release_date": 881625600,
+            "involved_companies": [
+                1068,
+                1070,
+                1071,
+                1072,
+                145781,
+                145782,
+                150184,
+                150185
+            ],
+            "name": "Quake II",
+            "platforms": [
+                4,
+                6,
+                7,
+                240
+            ]
+        },
+        {
+            "id": 2329,
+            "category": 0,
+            "first_release_date": 976147200,
+            "involved_companies": [
+                5329,
+                5330
+            ],
+            "name": "Mario Party 3",
+            "platforms": [
+                4
+            ]
+        },
+        {
+            "id": 3598,
+            "category": 0,
+            "first_release_date": 936057600,
+            "involved_companies": [
+                9301,
+                9302
+            ],
+            "name": "Shadow Man",
+            "platforms": [
+                4,
+                6,
+                7,
+                23
+            ]
+        },
+        {
+            "id": 3337,
+            "category": 0,
+            "first_release_date": 957052800,
+            "involved_companies": [
+                8724,
+                133248,
+                133249
+            ],
+            "name": "Excitebike 64",
+            "platforms": [
+                4,
+                41
+            ]
+        },
+        {
+            "id": 1326,
+            "category": 0,
+            "first_release_date": 908928000,
+            "involved_companies": [
+                8405,
+                8406,
+                8407
+            ],
+            "name": "Turok 2: Seeds of Evil",
+            "platforms": [
+                4,
+                6,
+                22
+            ]
+        },
+        {
+            "id": 3516,
+            "category": 0,
+            "first_release_date": 865123200,
+            "involved_companies": [
+                94429
+            ],
+            "name": "International Superstar Soccer 64",
+            "platforms": [
+                4
+            ]
+        },
+        {
+            "id": 10662,
+            "category": 0,
+            "first_release_date": 917740800,
+            "involved_companies": [
+                60417,
+                60418
+            ],
+            "name": "Disney\u0027s Tarzan",
+            "platforms": [
+                4,
+                6,
+                7
+            ]
+        },
+        {
+            "id": 3585,
+            "category": 0,
+            "first_release_date": 933379200,
+            "involved_companies": [
+                9322,
+                9323,
+                38423,
+                43400,
+                43401
+            ],
+            "name": "Re-Volt",
+            "platforms": [
+                3,
+                4,
+                6,
+                7,
+                23,
+                34
+            ]
+        },
+        {
+            "id": 163,
+            "category": 0,
+            "first_release_date": 911260800,
+            "involved_companies": [
+                1179,
+                1180,
+                1181,
+                43402
+            ],
+            "name": "Star Wars: Rogue Squadron",
+            "platforms": [
+                4,
+                6
+            ]
+        },
+        {
+            "id": 3574,
+            "category": 0,
+            "first_release_date": 969840000,
+            "involved_companies": [
+                149099,
+                149100
+            ],
+            "name": "Pokémon Puzzle League",
+            "platforms": [
+                4,
+                5
+            ]
+        },
+        {
+            "id": 2713,
+            "category": 0,
+            "first_release_date": 961977600,
+            "involved_companies": [
+                149134,
+                149135
+            ],
+            "name": "Kirby 64: The Crystal Shards",
+            "platforms": [
+                4,
+                5,
+                41
+            ]
+        },
+        {
+            "id": 330,
+            "category": 0,
+            "first_release_date": 757296000,
+            "involved_companies": [
+                1147,
+                1148,
+                1149,
+                9931,
+                82862
+            ],
+            "name": "SimCity 2000",
+            "platforms": [
+                4,
+                6,
+                7,
+                13,
+                14,
+                16,
+                19,
+                32,
+                58
+            ]
+        },
+        {
+            "id": 3596,
+            "category": 0,
+            "first_release_date": 915148800,
+            "involved_companies": [
+                9298,
+                9299
+            ],
+            "name": "San Francisco Rush 2049",
+            "platforms": [
+                4,
+                22,
+                23,
+                52
+            ]
+        },
+        {
+            "id": 1096,
+            "category": 0,
+            "first_release_date": 943228800,
+            "involved_companies": [
+                149262,
+                149263
+            ],
+            "name": "Donkey Kong 64",
+            "platforms": [
+                4,
+                41
+            ]
+        },
+        {
+            "id": 914,
+            "category": 0,
+            "first_release_date": 1004227200,
+            "involved_companies": [
+                1977,
+                15925,
+                42799,
+                42800,
+                42801,
+                42802,
+                42803
+            ],
+            "name": "Tony Hawk\u0027s Pro Skater 3",
+            "platforms": [
+                4,
+                6,
+                7,
+                8,
+                11,
+                14,
+                21,
+                22,
+                24
+            ]
+        },
+        {
+            "id": 154,
+            "category": 0,
+            "first_release_date": 926985600,
+            "involved_companies": [
+                123,
+                124,
+                147855
+            ],
+            "name": "Star Wars: Episode I - Racer",
+            "platforms": [
+                4,
+                6,
+                14,
+                23,
+                48,
+                49,
+                130
+            ]
+        },
+        {
+            "id": 3489,
+            "category": 0,
+            "first_release_date": 900374400,
+            "involved_companies": [
+                148292,
+                148293
+            ],
+            "name": "F-Zero X",
+            "platforms": [
+                4,
+                5,
+                41
+            ]
+        },
+        {
+            "id": 3401,
+            "category": 0,
+            "first_release_date": 929059200,
+            "involved_companies": [
+                102698,
+                102699
+            ],
+            "name": "Mario Golf",
+            "platforms": [
+                4,
+                5,
+                41
+            ]
+        }
+    ]
+}

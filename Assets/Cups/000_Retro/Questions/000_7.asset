@@ -21,21 +21,25 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  questionId: 000_6
+  questionId: 000_7
   wrongAnswers:
     langStringsList:
     - lang: 10
       texts:
-      - Banjo
-      - Leon Kennedy
-      - Tom Nook
-      - Jody Summer
+      - Tifa Lockhart
+      - Cloud Strife
+      - Sefirot
+      - Aeris Gainsborough
+      - 'Barret Wallace '
   statement:
     langStrings:
-    - lang: 34
-      text: Protagonista de StarFox 64
+    - lang: 10
+      text: Personaje de Final Fantasy VIII
   correctAnswer:
     langStringsList:
     - lang: 10
       texts:
-      - Fox McCloud
+      - Squall Leonhart
+      - Rinoa Heartilly
+      - Zell Dincht
+      - Selphie Tilmitt

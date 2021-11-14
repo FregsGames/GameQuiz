@@ -31,7 +31,7 @@ MonoBehaviour:
       - Atari Jaguar
   statement:
     langStrings:
-    - lang: 34
+    - lang: 10
       text: "Consola que vendi\xF3 aproximadamente 33 millones de unidades"
   correctAnswer:
     langStringsList:

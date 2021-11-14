@@ -31,7 +31,7 @@ MonoBehaviour:
       - Atari Jaguar
   statement:
     langStrings:
-    - lang: 34
+    - lang: 10
       text: El mando original de esta consola contaba con 8 botones
   correctAnswer:
     langStringsList:

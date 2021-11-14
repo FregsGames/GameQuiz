@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3732130c9333f34d994d1ce6d9e8dde, type: 3}
-  m_Name: 000_12
+  m_Name: 000_13
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -21,20 +21,22 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  questionId: 000_12
+  questionId: 000_13
   wrongAnswers:
     langStringsList:
     - lang: 10
       texts:
       - Sega Saturn
       - Play Station
-      - Atari Jaguar
+      - Xbox
+      - Sega Dreamcast
   statement:
     langStrings:
-    - lang: 34
-      text: "Consola que vendi\xF3 aproximadamente 33 millones de unidades"
+    - lang: 10
+      text: Consola que usaba cartuchos para almacenar sus juegos
   correctAnswer:
     langStringsList:
     - lang: 10
       texts:
       - Nintendo 64
+      - Neo Geo

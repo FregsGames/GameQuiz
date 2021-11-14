@@ -32,7 +32,7 @@ MonoBehaviour:
       - Jody Summer
   statement:
     langStrings:
-    - lang: 34
+    - lang: 10
       text: Protagonista de StarFox 64
   correctAnswer:
     langStringsList:

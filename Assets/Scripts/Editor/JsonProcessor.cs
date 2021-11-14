@@ -125,6 +125,8 @@ public class JsonProcessor : EditorWindow
             rawJson = string.Concat("{\"Companies\":", rawJson, "}");
         }
 
+        EditorUtility.SetDirty(companiesContainer);
+
         Companies companies = JsonConvert.DeserializeObject<Companies>(rawJson);
 
         foreach (Company company in companies.companies)
@@ -141,6 +143,8 @@ public class JsonProcessor : EditorWindow
         {
             rawJson = string.Concat("{\"Involved_Companies\":", rawJson, "}");
         }
+
+        EditorUtility.SetDirty(companiesContainer);
 
         Involved_Companies companies = JsonConvert.DeserializeObject<Involved_Companies>(rawJson);
 
@@ -161,6 +165,9 @@ public class JsonProcessor : EditorWindow
 
         Games games = JsonConvert.DeserializeObject<Games>(rawJson);
 
+        EditorUtility.SetDirty(gamesContainer);
+        EditorUtility.SetDirty(platformsContainer);
+
         foreach (Game game in games.games)
         {
             gamesContainer.AddGame(game);
@@ -176,6 +183,8 @@ public class JsonProcessor : EditorWindow
         {
             rawJson = string.Concat("{\"Platforms\":", rawJson, "}");
         }
+
+        EditorUtility.SetDirty(platformsContainer);
 
         Platforms platforms = JsonConvert.DeserializeObject<Platforms>(rawJson);
 

@@ -31,7 +31,7 @@ MonoBehaviour:
       - Xbox
   statement:
     langStrings:
-    - lang: 34
+    - lang: 10
       text: "Consola lanzada en 1994 en Jap\xF3n"
   correctAnswer:
     langStringsList:
@@ -39,3 +39,4 @@ MonoBehaviour:
       texts:
       - Sega Saturn
       - Play Station
+      - Atari Jaguar

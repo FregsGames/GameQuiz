@@ -33,7 +33,7 @@ MonoBehaviour:
       - Sefirot
   statement:
     langStrings:
-    - lang: 34
+    - lang: 10
       text: 'Protagonista de Metal Gear Solid '
   correctAnswer:
     langStringsList:

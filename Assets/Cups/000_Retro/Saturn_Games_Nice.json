@@ -1,0 +1,238 @@
+{
+    "Games": [
+        {
+            "id": 1671,
+            "category": 0,
+            "first_release_date": 886032000,
+            "involved_companies": [
+                20904,
+                20905
+            ],
+            "name": "Panzer Dragoon Saga",
+            "platforms": [
+                32
+            ]
+        },
+        {
+            "id": 3578,
+            "category": 0,
+            "first_release_date": 820454400,
+            "involved_companies": [
+                104029
+            ],
+            "name": "Puyo Puyo SUN",
+            "platforms": [
+                4,
+                6,
+                22,
+                32,
+                33,
+                52
+            ]
+        },
+        {
+            "id": 647,
+            "category": 0,
+            "first_release_date": 809827200,
+            "involved_companies": [
+                1519,
+                1520,
+                2083,
+                2084,
+                91420
+            ],
+            "name": "Command \u0026 Conquer",
+            "platforms": [
+                4,
+                6,
+                7,
+                13,
+                14,
+                32
+            ]
+        },
+        {
+            "id": 5502,
+            "category": 10,
+            "first_release_date": 820368000,
+            "involved_companies": [
+                13329,
+                13330
+            ],
+            "name": "Transport Tycoon Deluxe",
+            "platforms": [
+                7,
+                13,
+                32
+            ]
+        },
+        {
+            "id": 6788,
+            "category": 0,
+            "first_release_date": 778377600,
+            "involved_companies": [
+                124512,
+                124513,
+                124514,
+                124515,
+                124516
+            ],
+            "name": "Darius Gaiden",
+            "platforms": [
+                6,
+                7,
+                32,
+                52
+            ]
+        },
+        {
+            "id": 2968,
+            "category": 0,
+            "first_release_date": 828057600,
+            "involved_companies": [
+                7275,
+                7276
+            ],
+            "name": "Dragon Force",
+            "platforms": [
+                8,
+                9,
+                32
+            ]
+        },
+        {
+            "id": 8292,
+            "category": 0,
+            "first_release_date": 849312000,
+            "involved_companies": [
+                20268,
+                20269
+            ],
+            "name": "Discworld II: Missing Presumed...!?",
+            "platforms": [
+                6,
+                7,
+                32
+            ]
+        },
+        {
+            "id": 817,
+            "category": 0,
+            "first_release_date": 846720000,
+            "involved_companies": [
+                1816,
+                2269,
+                2270,
+                2271,
+                2272
+            ],
+            "name": "NHL 97",
+            "platforms": [
+                6,
+                7,
+                19,
+                29,
+                32
+            ]
+        },
+        {
+            "id": 21838,
+            "category": 0,
+            "first_release_date": 851990400,
+            "involved_companies": [
+                45185
+            ],
+            "name": "Guardian Heroes",
+            "platforms": [
+                12,
+                32
+            ]
+        },
+        {
+            "id": 5550,
+            "category": 0,
+            "first_release_date": 812937600,
+            "involved_companies": [
+                37780,
+                37782,
+                37783,
+                148203,
+                155664
+            ],
+            "name": "Tactics Ogre: Let Us Cling Together",
+            "platforms": [
+                5,
+                7,
+                19,
+                32,
+                38
+            ]
+        },
+        {
+            "id": 28396,
+            "category": 0,
+            "first_release_date": 881798400,
+            "involved_companies": [
+                46383
+            ],
+            "name": "Shining Force III",
+            "platforms": [
+                32
+            ]
+        },
+        {
+            "id": 1253,
+            "category": 0,
+            "first_release_date": 857001600,
+            "involved_companies": [
+                2800,
+                19489,
+                19490
+            ],
+            "name": "The Lost Vikings 2",
+            "platforms": [
+                6,
+                7,
+                19,
+                32
+            ]
+        },
+        {
+            "id": 5422,
+            "category": 0,
+            "first_release_date": 896313600,
+            "involved_companies": [
+                13143,
+                13144,
+                13145,
+                13146
+            ],
+            "name": "Radiant Silvergun",
+            "platforms": [
+                12,
+                32,
+                52
+            ]
+        },
+        {
+            "id": 1128,
+            "category": 0,
+            "first_release_date": 858816000,
+            "involved_companies": [
+                154354,
+                154355
+            ],
+            "name": "Castlevania: Symphony of the Night",
+            "platforms": [
+                7,
+                9,
+                12,
+                32,
+                34,
+                38,
+                39,
+                46
+            ]
+        }
+    ]
+}

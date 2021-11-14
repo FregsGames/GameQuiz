@@ -87,6 +87,7 @@ public class GamesContainerEditor : Editor
 
         if (GUILayout.Button("Remove Duplicates"))
         {
+            EditorUtility.SetDirty(gamesContainer);
             page = 0;
             gamesContainer.RemoveDuplicates();
             Repaint();
