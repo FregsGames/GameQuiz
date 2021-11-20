@@ -95,10 +95,15 @@ public class GamesContainer : SerializedScriptableObject
         OnAllGamesDeleted?.Invoke();
     }
 
-    public Game GetFromCompany(List<Involved_Company> involved_Companies, bool searchOnThatCompany)
+    public Game GetFromCompany(List<Involved_Company> involved_Companies, bool searchOnThatCompany, List<Game> toExclude = null)
     {
         /*List<Game> games = allGames.Where(x => searchOnThatCompany ? x.involved_companies.Any(i => x.involved_companies.Contains(i))
         : !x.involved_companies.Any(i => x.involved_companies.Contains(i))).ToList();*/
+
+        if(toExclude == null)
+        {
+            toExclude = new List<Game>();
+        }
 
         List<int> involvedIds = involved_Companies.Select(i => i.id).ToList();
 
@@ -106,11 +111,11 @@ public class GamesContainer : SerializedScriptableObject
 
         if (searchOnThatCompany)
         {
-            games = allGames.Where(x => x.involved_companies.Any(i => involvedIds.Contains(i))).ToList();
+            games = allGames.Where(x => x.involved_companies.Any(i => involvedIds.Contains(i)) && !toExclude.Contains(x)).ToList();
         }
         else
         {
-            games = allGames.Where(x => !x.involved_companies.Any(i => involvedIds.Contains(i))).ToList();
+            games = allGames.Where(x => x.involved_companies.Any(i => !involvedIds.Contains(i)) && !toExclude.Contains(x)).ToList();
         }
 
         if (games == null || games.Count == 0)

@@ -29,11 +29,11 @@ MonoBehaviour:
   questionTemplates:
   - contentType: 3
   - contentType: 4
-  - contentType: 7
+  - contentType: 3
   - contentType: 4
   - contentType: 3
-  - contentType: 7
-  state: 0
+  - contentType: 3
+  state: 2
   alwaysUnlocked: 0
   winCondition: 0
   years: d0070000d1070000cd070000cf070000cc070000ce070000c9070000ca070000cb070000c8070000c7070000d2070000d4070000c4070000d3070000c3070000d5070000c5070000c6070000c2070000ba070000

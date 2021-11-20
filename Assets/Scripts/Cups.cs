@@ -38,7 +38,7 @@ public class Cups : Singleton<Cups>
 
         int index = currentCup.levels.IndexOf(currentCup.levels.FirstOrDefault(l => l.id == level.id));
 
-        if(currentCup.levels.Count - 1 > index)
+        if(currentCup.levels.Count - 1 > index && currentCup.levels[index + 1].state == LevelState.locked)
         {
             SaveManager.instance.Save(currentCup.levels[index + 1].id, (int)LevelState.unlocked);
             currentCup.levels[index + 1].state = LevelState.unlocked;

@@ -29,11 +29,9 @@ namespace Questions
                     question = GameFromPlatform(level.platforms.Select(p => p.platform).ToList());
                     break;
                 case QuestionTemplate.QuestionContent.fromCompany:
-
                     IEnumerable<CompanyTuple> enumerable = level.companies.Where(c => c.counter >= 3);
                     IEnumerable<int> selection = enumerable.Select(p => p.company.id);
                     question = GameFromCompany(selection.ToList());
-
                     break;
                 case QuestionTemplate.QuestionContent.notFromYear:
                     question = GameNotFromYear();
@@ -41,10 +39,10 @@ namespace Questions
                 case QuestionTemplate.QuestionContent.notFromPlatform:
                     question = GameNotFromPlatform();
                     break;
-                case QuestionTemplate.QuestionContent.notFromCompany:
+                case QuestionTemplate.QuestionContent.notFromCompany: // NOT USED
                     IEnumerable<CompanyTuple> enumerable1 = level.companies.Where(c => c.counter >= 3);
                     IEnumerable<int> selection1 = enumerable1.Select(p => p.company.id);
-                    question = GameNotFromCompany(selection1.ToList());
+                    question = GameFromCompany(selection1.ToList());
                     break;
             }
             return question;
@@ -111,6 +109,8 @@ namespace Questions
             int tries = 0;
             Game correctAnswer = new Game();
             List<Game> otherOptions = new List<Game>();
+
+            validPlats = validPlats.Where(v => platformsDB.allPlatforms.FirstOrDefault(p => p.id == v) != null).ToList();
 
             while (!platformObtained && tries < 20)
             {
@@ -191,10 +191,9 @@ namespace Questions
             Game correctAnswer = CurrentGamesContainer.GetFromCompany(involved, true);
             List<Game> otherOptions = new List<Game>();
 
-
             for (int i = 1; i < options; i++)
             {
-                Game other = CurrentGamesContainer.GetFromCompany(involved, false);
+                Game other = CurrentGamesContainer.GetFromCompany(involved, false, otherOptions);
                 otherOptions.Add(other);
             }
 
@@ -203,61 +202,6 @@ namespace Questions
             return new Question("", $"{statement} {CurrentCompaniesContainer.GetName(company)}", correctAnswer.name, otherOptions.Select(g => g.name).ToList());
         }
 
-        public Question GameNotFromCompany(List<int> companies, int options = 4, int methodTries = 0)
-        {
-            List<int> validCompanies = new List<int>();
-
-            if (companies != null)
-            {
-                validCompanies = companies;
-            }
-            else
-            {
-                validCompanies = CurrentGamesContainer.Involved().Keys.ToList();
-            }
-
-            bool validCompanyGot = false;
-            int tries = 0;
-
-            int company = 0;
-            List<Involved_Company> involved = new List<Involved_Company>();
-
-            while (!validCompanyGot && tries < 20)
-            {
-                company = validCompanies[Random.Range(0, validCompanies.Count)];
-                involved = CurrentCompaniesContainer.involved_companies.Where(c => c.company == company && c.developer).ToList();
-                validCompanyGot = involved.Count > 0;
-
-                tries++;
-            }
-
-            if (!validCompanyGot)
-            {
-                if (methodTries < 10)
-                {
-                    int mTries = methodTries + 1;
-                    return GameFromCompany(companies, methodTries: mTries);
-                }
-                else
-                {
-                    return null;
-                }
-            }
-
-            Game correctAnswer = CurrentGamesContainer.GetFromCompany(involved, false);
-            List<Game> otherOptions = new List<Game>();
-
-
-            for (int i = 1; i < options; i++)
-            {
-                Game other = CurrentGamesContainer.GetFromCompany(involved, true);
-                otherOptions.Add(other);
-            }
-
-            string statement = Translations.instance.GetText("s_developedBy_0");
-
-            return new Question("", $"{statement} {CurrentCompaniesContainer.GetName(company)}", correctAnswer.name, otherOptions.Select(g => g.name).ToList());
-        }
 
         public Question GameNotFromYear(int options = 4, int difficulty = 1)
         {
@@ -307,6 +251,9 @@ namespace Questions
             while (correctAnswer == null && tries < 20)
             {
                 List<int> platforms = CurrentGamesContainer.Platforms().Where(p => p.Value >= options).Select(plt => plt.Key).ToList();
+
+                platforms = platforms.Where(v => platformsDB.allPlatforms.FirstOrDefault(p => p.id == v) != null).ToList();
+
                 platform = platforms[Random.Range(0, platforms.Count)];
 
                gamesForPlatform = CurrentGamesContainer.GetXGamesFromPlafformX(options - 1, platform);

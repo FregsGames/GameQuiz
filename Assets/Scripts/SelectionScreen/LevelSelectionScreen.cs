@@ -237,11 +237,19 @@ public class LevelSelectionScreen : MonoBehaviour
             }
             else
             {
-
-                while (question == null || (questions.FirstOrDefault(q => q.CorrectAnswer == question.CorrectAnswer) != null))
+                int tries = 0;
+                while ((question == null || (questions.FirstOrDefault(q => q.CorrectAnswer == question.CorrectAnswer) != null)) && tries < 20)
                 {
                     question = questionGenerator.FromTemplate(questionTemplate, currentSelectedLevel);
+                    tries++;
                 }
+
+                if(question == null)
+                {
+                    Debug.LogError($"Couldn't get a question from template: {questionTemplate.ContentType}, generating generic.");
+                    question = questionGenerator.GetRandomGenericQuestion(currentSelectedLevel);
+                }
+
             }
             i++;
             questions.Add(question);

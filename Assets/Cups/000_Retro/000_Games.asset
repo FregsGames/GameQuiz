@@ -789,13 +789,6 @@ MonoBehaviour:
     name: Wipeout 2097
     platforms: 06000000070000000e0000001000000020000000
     rating: 0
-  - id: 5568
-    category: 0
-    first_release_date: 942537600
-    involved_companies: 578701005887010077870100
-    name: 40 Winks
-    platforms: 040000000600000007000000
-    rating: 0
   - id: 20654
     category: 0
     first_release_date: 849312000
@@ -816,13 +809,6 @@ MonoBehaviour:
     involved_companies: ce90010059920100
     name: Dance Dance Revolution
     platforms: 0700000034000000
-    rating: 0
-  - id: 3619
-    category: 0
-    first_release_date: 943920000
-    involved_companies: 8f240000902400009124000092240000
-    name: 'Toy Story 2: Buzz Lightyear to the Rescue!'
-    platforms: 04000000060000000700000017000000
     rating: 0
   - id: 4118
     category: 0
@@ -852,26 +838,12 @@ MonoBehaviour:
     name: Descent
     platforms: 06000000070000000d0000000e000000
     rating: 0
-  - id: 3441
-    category: 0
-    first_release_date: 974764800
-    involved_companies: 07230000
-    name: 'Army Men: Sarge''s Heroes 2'
-    platforms: 04000000070000000800000016000000
-    rating: 0
   - id: 20712
     category: 0
     first_release_date: 791596800
     involved_companies: f4570200
     name: Tetris Plus
     platforms: 07000000200000002100000034000000
-    rating: 0
-  - id: 3455
-    category: 11
-    first_release_date: 828057600
-    involved_companies: e8ed0100e9ed0100eaed0100ebed0100eced0100eded0100eeed0100
-    name: 'Bust-A-Move 2: Arcade Edition'
-    platforms: 0400000006000000070000000d0000000e0000002000000021000000
     rating: 0
   - id: 1578
     category: 0
@@ -907,13 +879,6 @@ MonoBehaviour:
     involved_companies: ef060000f0060000c1080000
     name: Mobil 1 Rally Championship
     platforms: 0600000007000000
-    rating: 0
-  - id: 1259
-    category: 0
-    first_release_date: 947030400
-    involved_companies: f60a0000f70a0000
-    name: South Park Rally
-    platforms: 04000000060000000700000017000000
     rating: 0
   - id: 424
     category: 0
@@ -1146,13 +1111,6 @@ MonoBehaviour:
     name: Dark Seed
     platforms: 06000000070000000d0000000e0000001000000020000000
     rating: 0
-  - id: 3634
-    category: 0
-    first_release_date: 852076800
-    involved_companies: b6240000b7240000
-    name: WCW Nitro
-    platforms: 040000000600000007000000
-    rating: 0
   - id: 26130
     category: 0
     first_release_date: 907113600
@@ -1173,13 +1131,6 @@ MonoBehaviour:
     involved_companies: c7840100c8840100c9840100ca840100cb840100cc840100
     name: Primal Rage
     platforms: 070000000d00000010000000130000001d0000001e00000020000000210000002300000032000000340000003e000000
-    rating: 0
-  - id: 6692
-    category: 0
-    first_release_date: 938563200
-    involved_companies: 1a3e00001e3e00001f3e0000203e000027a7000028a7000029a70000
-    name: Tony Hawk's Pro Skater
-    platforms: 040000000700000016000000170000002a000000
     rating: 0
   - id: 45582
     category: 0
@@ -1258,13 +1209,6 @@ MonoBehaviour:
     name: Um Jammer Lammy
     platforms: 0700000034000000
     rating: 0
-  - id: 880
-    category: 0
-    first_release_date: 885340800
-    involved_companies: 800700005c0800005d0800005f08000060080000865b0200875b0200
-    name: Resident Evil 2
-    platforms: 040000000600000007000000090000001500000017000000
-    rating: 0
   - id: 423
     category: 3
     first_release_date: 938649600
@@ -1314,26 +1258,12 @@ MonoBehaviour:
     name: Dino Crisis 2
     platforms: 0600000007000000
     rating: 0
-  - id: 1842
-    category: 0
-    first_release_date: 903657600
-    involved_companies: 6e8c01006f8c0100708c0100718c0100728c0100
-    name: Tom Clancy's Rainbow Six
-    platforms: 0400000006000000070000000e0000001600000017000000
-    rating: 0
   - id: 13899
     category: 0
     first_release_date: 788832000
     involved_companies: 24b5000025b5000026b5000051760100
     name: Point Blank
     platforms: 0700000034000000
-    rating: 0
-  - id: 811
-    category: 0
-    first_release_date: 909792000
-    involved_companies: 100700001e090000848c0100858c0100
-    name: NBA Live 99
-    platforms: 040000000600000007000000
     rating: 0
   - id: 4100
     category: 0
@@ -1496,26 +1426,12 @@ MonoBehaviour:
     name: 'Jackie Chan: Stuntmaster'
     platforms: 07000000
     rating: 0
-  - id: 3539
-    category: 0
-    first_release_date: 1000252800
-    involved_companies: d6230000d7230000d8230000
-    name: Madden NFL 2002
-    platforms: 040000000600000007000000080000000b000000150000001600000018000000
-    rating: 0
   - id: 4133
     category: 0
     first_release_date: 1007596800
     involved_companies: ea290000eb290000
     name: Digimon Rumble Arena
     platforms: 07000000
-    rating: 0
-  - id: 2542
-    category: 0
-    first_release_date: 876355200
-    involved_companies: 78210000792100007a210000
-    name: Fighting Force
-    platforms: 04000000060000000700000009000000
     rating: 0
   - id: 15428
     category: 0
@@ -1531,13 +1447,6 @@ MonoBehaviour:
     name: Twisted Metal 4
     platforms: 07000000
     rating: 0
-  - id: 3440
-    category: 0
-    first_release_date: 938476800
-    involved_companies: 06230000
-    name: 'Army Men: Sarge''s Heroes'
-    platforms: 04000000060000000700000017000000
-    rating: 0
   - id: 19770
     category: 0
     first_release_date: 783648000
@@ -1552,27 +1461,6 @@ MonoBehaviour:
     name: Fear Effect
     platforms: 0700000009000000
     rating: 0
-  - id: 3641
-    category: 0
-    first_release_date: 891302400
-    involved_companies: cb240000cc240000cd240000ce240000
-    name: World Cup 98
-    platforms: 04000000060000000700000021000000
-    rating: 0
-  - id: 2847
-    category: 0
-    first_release_date: 909792000
-    involved_companies: ca1a0000cb1a0000cc1a0000b3400100b4400100
-    name: Disney/Pixar A Bug's Life
-    platforms: 040000000600000007000000
-    rating: 0
-  - id: 1258
-    category: 0
-    first_release_date: 939686400
-    involved_companies: 6a8c01006b8c0100
-    name: 'South Park: Chef''s Luv Shack'
-    platforms: 04000000060000000700000017000000
-    rating: 0
   - id: 23094
     category: 11
     first_release_date: 862876800
@@ -1586,13 +1474,6 @@ MonoBehaviour:
     involved_companies: 324f0000334f0000
     name: Formula 1 97
     platforms: 0600000007000000
-    rating: 0
-  - id: 3056
-    category: 0
-    first_release_date: 875577600
-    involved_companies: 361e0000371e000089b001008ab001008bb001008cb001008db00100
-    name: Rampage World Tour
-    platforms: 04000000070000000900000016000000200000004a000000
     rating: 0
   - id: 18786
     category: 0
@@ -1642,13 +1523,6 @@ MonoBehaviour:
     involved_companies: e0630000e1630000e2630000
     name: Koudelka
     platforms: 07000000
-    rating: 0
-  - id: 3414
-    category: 0
-    first_release_date: 875577600
-    involved_companies: d4220000f8d20000f9d20000fad20000
-    name: Nightmare Creatures
-    platforms: 040000000600000007000000
     rating: 0
   - id: 7894
     category: 0
@@ -1734,13 +1608,6 @@ MonoBehaviour:
     name: 'Carmageddon II: Carpocalypse Now'
     platforms: 06000000070000000e00000016000000
     rating: 0
-  - id: 3501
-    category: 0
-    first_release_date: 907200000
-    involved_companies: 922300008e8c01008f8c0100908c0100918c0100
-    name: Gauntlet Legends
-    platforms: 04000000070000001700000034000000
-    rating: 0
   - id: 11739
     category: 0
     first_release_date: 817776000
@@ -1754,13 +1621,6 @@ MonoBehaviour:
     involved_companies: 910200009202000093020000940200009502000096020000
     name: Hidden & Dangerous
     platforms: 060000000700000017000000
-    rating: 0
-  - id: 3550
-    category: 0
-    first_release_date: 829612800
-    involved_companies: ef230000f0230000f1230000
-    name: NBA Hangtime
-    platforms: 040000000600000007000000130000001d00000034000000
     rating: 0
   - id: 5451
     category: 0
@@ -1783,13 +1643,6 @@ MonoBehaviour:
     name: Harry Potter and the Sorcerer's Stone
     platforms: 07000000
     rating: 0
-  - id: 3643
-    category: 0
-    first_release_date: 928368000
-    involved_companies: d1240000738c0100
-    name: WWF Attitude
-    platforms: 04000000070000001600000017000000
-    rating: 0
   - id: 1192
     category: 0
     first_release_date: 938649600
@@ -1810,13 +1663,6 @@ MonoBehaviour:
     involved_companies: f7720000
     name: Legend of Mana
     platforms: 07000000
-    rating: 0
-  - id: 705
-    category: 0
-    first_release_date: 852076800
-    involved_companies: a208000018150000191500001a1500001b1500001c150000
-    name: 'FIFA: Road to World Cup 98'
-    platforms: 040000000600000007000000130000001d0000002000000021000000
     rating: 0
   - id: 4117
     category: 0
@@ -1937,13 +1783,6 @@ MonoBehaviour:
     name: 'Driver 2: Back on the Streets'
     platforms: 0700000018000000
     rating: 0
-  - id: 3505
-    category: 0
-    first_release_date: 922147200
-    involved_companies: 972300009b230000868c01008d8c0100
-    name: 'Gex 3: Deep Cover Gecko'
-    platforms: 0400000007000000
-    rating: 0
   - id: 813
     category: 0
     first_release_date: 936057600
@@ -2042,26 +1881,12 @@ MonoBehaviour:
     name: F1 Championship Season 2000
     platforms: 06000000070000000800000016000000
     rating: 0
-  - id: 812
-    category: 0
-    first_release_date: 852076800
-    involved_companies: 11070000
-    name: NFL Blitz
-    platforms: 0400000006000000070000001600000034000000
-    rating: 0
   - id: 20717
     category: 0
     first_release_date: 849398400
     involved_companies: 7a6201007b620100
     name: Jet Moto
     platforms: 0600000007000000
-    rating: 0
-  - id: 3595
-    category: 0
-    first_release_date: 851385600
-    involved_companies: 4f240000748c0100758c0100768c0100
-    name: 'San Francisco Rush: Extreme Racing'
-    platforms: 040000000700000034000000
     rating: 0
   - id: 8000
     category: 0
@@ -2203,13 +2028,6 @@ MonoBehaviour:
     name: Wipeout 3
     platforms: 07000000
     rating: 0
-  - id: 3370
-    category: 0
-    first_release_date: 915148800
-    involved_companies: 59250000c79e0000
-    name: Hydro Thunder
-    platforms: 040000000600000007000000080000000b000000150000001700000034000000
-    rating: 0
   - id: 1678
     category: 0
     first_release_date: 936230400
@@ -2238,13 +2056,6 @@ MonoBehaviour:
     name: Strikers 1945 II
     platforms: 070000002000000022000000270000003400000082000000
     rating: 0
-  - id: 699
-    category: 0
-    first_release_date: 897436800
-    involved_companies: 48060000a1080000
-    name: FIFA 99
-    platforms: 040000000600000007000000
-    rating: 0
   - id: 4139
     category: 0
     first_release_date: 922838400
@@ -2272,13 +2083,6 @@ MonoBehaviour:
     involved_companies: 170d0000180d0000
     name: 'Tom Clancy''s Rainbow Six: Lockdown'
     platforms: 06000000070000000b00000015000000
-    rating: 0
-  - id: 948
-    category: 4
-    first_release_date: 917568000
-    involved_companies: f5070000f37f0100643002006530020066300200673002006830020069300200
-    name: Worms Armageddon
-    platforms: 040000000600000007000000090000001700000026000000
     rating: 0
   - id: 3053
     category: 0
@@ -2315,13 +2119,6 @@ MonoBehaviour:
     name: 'Duke Nukem: Time to Kill'
     platforms: 07000000
     rating: 0
-  - id: 3487
-    category: 0
-    first_release_date: 901843200
-    involved_companies: 73230000778c0100788c0100798c01007a8c01007b8c01007c8c01007d8c0100
-    name: F-1 World Grand Prix
-    platforms: 0400000006000000070000001600000017000000
-    rating: 0
   - id: 9140
     category: 0
     first_release_date: 895104000
@@ -2342,13 +2139,6 @@ MonoBehaviour:
     involved_companies: da740000db740000
     name: Ace Combat 2
     platforms: 07000000
-    rating: 0
-  - id: 3333
-    category: 0
-    first_release_date: 942883200
-    involved_companies: 1c2700001d27000048df0000
-    name: 'Vigilante 8: 2nd Offense'
-    platforms: 040000000700000017000000
     rating: 0
   - id: 92
     category: 0
@@ -2377,13 +2167,6 @@ MonoBehaviour:
     involved_companies: 9611010097110100
     name: 'Wing Commander III: Heart of the Tiger'
     platforms: 070000000d00000032000000
-    rating: 0
-  - id: 843
-    category: 0
-    first_release_date: 941155200
-    involved_companies: 4107000000090000010900000209000003090000
-    name: 'Rayman 2: The Great Escape'
-    platforms: 040000000600000007000000160000001700000027000000
     rating: 0
   - id: 44998
     category: 8
@@ -2426,13 +2209,6 @@ MonoBehaviour:
     involved_companies: 3c610000
     name: 'Persona 2: Eternal Punishment'
     platforms: 070000000900000026000000
-    rating: 0
-  - id: 3602
-    category: 0
-    first_release_date: 908928000
-    involved_companies: 688701006c8701006d870100
-    name: Space Station Silicon Valley
-    platforms: 0400000007000000
     rating: 0
   - id: 7967
     category: 0
@@ -2496,20 +2272,6 @@ MonoBehaviour:
     involved_companies: ea1a0000eb1a0000ec1a0000
     name: Scooby-Doo and the Cyber Chase
     platforms: 0700000018000000
-    rating: 0
-  - id: 3603
-    category: 0
-    first_release_date: 967593600
-    involved_companies: 602400006324000038a7000039a700003aa700003ba70000
-    name: Spider-Man
-    platforms: 0400000006000000070000001600000017000000
-    rating: 0
-  - id: 4121
-    category: 0
-    first_release_date: 844905600
-    involved_companies: be290000bf290000c0290000c1290000c2290000c3290000c4290000
-    name: Mortal Kombat Trilogy
-    platforms: 0400000006000000070000000d00000020000000
     rating: 0
   - id: 8338
     category: 0
@@ -2588,26 +2350,12 @@ MonoBehaviour:
     name: 'Spyro 2: Ripto''s Rage!'
     platforms: 07000000
     rating: 0
-  - id: 286
-    category: 0
-    first_release_date: 881625600
-    involved_companies: 2c0400002e0400002f040000300400007539020076390200a84a0200a94a0200
-    name: Quake II
-    platforms: 040000000600000007000000f0000000
-    rating: 0
   - id: 125
     category: 0
     first_release_date: 851990400
     involved_companies: 5f000000600000006100000062000000fb4b0000fc4b0000
     name: Diablo
     platforms: 06000000070000000e000000
-    rating: 0
-  - id: 3598
-    category: 0
-    first_release_date: 936057600
-    involved_companies: 5524000056240000
-    name: Shadow Man
-    platforms: 04000000060000000700000017000000
     rating: 0
   - id: 6592
     category: 0
@@ -2707,13 +2455,6 @@ MonoBehaviour:
     name: Mega Man 3
     platforms: 0500000007000000120000002500000029000000
     rating: 0
-  - id: 10662
-    category: 0
-    first_release_date: 917740800
-    involved_companies: 01ec000002ec0000
-    name: Disney's Tarzan
-    platforms: 040000000600000007000000
-    rating: 0
   - id: 4000
     category: 0
     first_release_date: 907200000
@@ -2748,13 +2489,6 @@ MonoBehaviour:
     involved_companies: 313e0000
     name: 'Street Fighter Alpha: Warrior''s Dreams'
     platforms: 0600000007000000160000002000000034000000
-    rating: 0
-  - id: 3585
-    category: 0
-    first_release_date: 933379200
-    involved_companies: 6a2400006b2400001796000088a9000089a90000
-    name: Re-Volt
-    platforms: 030000000400000006000000070000001700000022000000
     rating: 0
   - id: 1744
     category: 0
@@ -2819,47 +2553,12 @@ MonoBehaviour:
     name: Gex
     platforms: 0600000007000000200000002600000032000000
     rating: 0
-  - id: 3275
-    category: 0
-    first_release_date: 825638400
-    involved_companies: 80210000812100008a210000
-    name: Z
-    platforms: 070000000d00000013000000200000002200000027000000
-    rating: 0
   - id: 6799
     category: 0
     first_release_date: 599529600
     involved_companies: d1d50000d2d50000d4d500008671010087710100
     name: Galaxy Force II
     platforms: 05000000080000000f00000010000000190000001a0000001d00000020000000340000003f0000004000000076000000
-    rating: 0
-  - id: 5561
-    category: 0
-    first_release_date: 846201600
-    involved_companies: 82340000
-    name: Vandal Hearts
-    platforms: 060000000700000020000000
-    rating: 0
-  - id: 4290
-    category: 0
-    first_release_date: 775440000
-    involved_companies: d13d0100
-    name: Policenauts
-    platforms: 0700000009000000200000003200000095000000
-    rating: 0
-  - id: 4127
-    category: 0
-    first_release_date: 882403200
-    involved_companies: d3290000d4290000d5290000
-    name: Grandia
-    platforms: 070000000900000020000000
-    rating: 0
-  - id: 1538
-    category: 0
-    first_release_date: 844041600
-    involved_companies: 82be000083be000084be000085be0000
-    name: Wipeout 2097
-    platforms: 06000000070000000e0000001000000020000000
     rating: 0
   - id: 1667
     category: 0
@@ -2868,75 +2567,12 @@ MonoBehaviour:
     name: Panzer Dragoon
     platforms: 06000000080000000b00000020000000
     rating: 0
-  - id: 12588
-    category: 0
-    first_release_date: 822700800
-    involved_companies: ecd30100
-    name: The King of Fighters '96
-    platforms: 0500000007000000090000002000000021000000340000004f000000500000008200000088000000
-    rating: 0
   - id: 2051
     category: 0
     first_release_date: 527990400
     involved_companies: 76c8000078c8000079c800007ac800005f7101006671010068710100
     name: OutRun
     platforms: 0d0000000f00000010000000190000001a0000001b0000001d0000002000000023000000340000003f0000004000000056000000
-    rating: 0
-  - id: 20712
-    category: 0
-    first_release_date: 791596800
-    involved_companies: f4570200
-    name: Tetris Plus
-    platforms: 07000000200000002100000034000000
-    rating: 0
-  - id: 3455
-    category: 11
-    first_release_date: 828057600
-    involved_companies: e8ed0100e9ed0100eaed0100ebed0100eced0100eded0100eeed0100
-    name: 'Bust-A-Move 2: Arcade Edition'
-    platforms: 0400000006000000070000000d0000000e0000002000000021000000
-    rating: 0
-  - id: 424
-    category: 0
-    first_release_date: 827452800
-    involved_companies: 68030000690300007056020071560200
-    name: Resident Evil
-    platforms: 06000000070000000900000020000000
-    rating: 0
-  - id: 6980
-    category: 0
-    first_release_date: 694137600
-    involved_companies: 79400000
-    name: Three Wonders
-    platforms: 070000002000000034000000
-    rating: 0
-  - id: 1447
-    category: 0
-    first_release_date: 818985600
-    involved_companies: 160c0000170c0000
-    name: Suikoden
-    platforms: 060000000700000020000000
-    rating: 0
-  - id: 19418
-    category: 0
-    first_release_date: 846720000
-    involved_companies: 008c0000
-    name: Soviet Strike
-    platforms: 07000000090000002000000026000000
-    rating: 0
-  - id: 19712
-    category: 0
-    first_release_date: 788832000
-    involved_companies: a48f0000a58f0000a68f0000a78f0000a88f0000a98f0000aa8f0000
-    name: NBA Jam Tournament Edition
-    platforms: 070000000d000000130000001d0000001e000000200000002100000023000000340000003e000000
-    rating: 0
-  - id: 13905
-    category: 8
-    first_release_date: 846201600
-    involved_companies: dcef0100ddef0100deef0100dfef0100e0ef0100e1ef0100
-    name: 'Lunar: Silver Star Story Complete'
-    platforms: 06000000070000002000000027000000
     rating: 0
   - id: 20010
     category: 0
@@ -2952,27 +2588,6 @@ MonoBehaviour:
     name: Virtua Cop
     platforms: 060000002000000034000000
     rating: 0
-  - id: 1619
-    category: 0
-    first_release_date: 757296000
-    involved_companies: 6b590000bcc40100bdc40100bec40100
-    name: Mortal Kombat II
-    platforms: 07000000090000000d00000010000000130000001d0000001e00000020000000210000003400000040000000
-    rating: 0
-  - id: 8291
-    category: 0
-    first_release_date: 820368000
-    involved_companies: 2a4f00002b4f0000
-    name: Discworld
-    platforms: 070000000d00000020000000
-    rating: 0
-  - id: 818
-    category: 0
-    first_release_date: 877564800
-    involved_companies: 19070000e1080000
-    name: NHL 98
-    platforms: 0600000007000000130000001d00000020000000
-    rating: 0
   - id: 8446
     category: 0
     first_release_date: 691545600
@@ -2980,82 +2595,12 @@ MonoBehaviour:
     name: 'QuackShot: Starring Donald Duck'
     platforms: 1d00000020000000
     rating: 0
-  - id: 9260
-    category: 0
-    first_release_date: 725760000
-    involved_companies: 1458000015580000165800001758000018580000
-    name: Dark Seed
-    platforms: 06000000070000000d0000000e0000001000000020000000
-    rating: 0
   - id: 1621
     category: 10
     first_release_date: 812937600
     involved_companies: 8d0c00008f0c00009d1c00009e1c0000ca480000cb480000cd480000ce480000cf480000ba740100
     name: Ultimate Mortal Kombat 3
     platforms: 0c0000001300000014000000180000001d0000002000000034000000
-    rating: 0
-  - id: 4271
-    category: 0
-    first_release_date: 775699200
-    involved_companies: c7840100c8840100c9840100ca840100cb840100cc840100
-    name: Primal Rage
-    platforms: 070000000d00000010000000130000001d0000001e00000020000000210000002300000032000000340000003e000000
-    rating: 0
-  - id: 45582
-    category: 0
-    first_release_date: 846806400
-    involved_companies: df4d0100e04d0100
-    name: FIFA 97
-    platforms: 0600000007000000130000001d00000020000000
-    rating: 0
-  - id: 1743
-    category: 0
-    first_release_date: 817689600
-    involved_companies: 615100007f460200
-    name: Mega Man X3
-    platforms: 0600000007000000130000002000000029000000370000003a00000089000000
-    rating: 0
-  - id: 4331
-    category: 0
-    first_release_date: 758332800
-    involved_companies: ea8f0100eb8f0100
-    name: Cyberia
-    platforms: 070000000d0000002000000032000000
-    rating: 0
-  - id: 1168
-    category: 0
-    first_release_date: 814147200
-    involved_companies: 234f0000244f0000254f0000264f0000
-    name: Destruction Derby
-    platforms: 070000000d00000020000000
-    rating: 0
-  - id: 1666
-    category: 0
-    first_release_date: 855100800
-    involved_companies: 463500004735000045ee0100
-    name: DoDonPachi
-    platforms: 070000002000000034000000
-    rating: 0
-  - id: 1605
-    category: 0
-    first_release_date: 820368000
-    involved_companies: dd5d0000de5d0000df5d0000e05d0000af600000b0600000
-    name: Prisoner of Ice
-    platforms: 0300000006000000070000000d0000000e00000020000000
-    rating: 0
-  - id: 1665
-    category: 0
-    first_release_date: 815184000
-    involved_companies: 7d4f00007e4f0000804f0000e7d600004cee0100
-    name: DonPachi
-    platforms: 07000000090000002000000034000000
-    rating: 0
-  - id: 1083
-    category: 0
-    first_release_date: 812332800
-    involved_companies: 77be000078be0000
-    name: Wipeout
-    platforms: 07000000090000000d00000020000000
     rating: 0
   - id: 3601
     category: 0
@@ -3071,96 +2616,12 @@ MonoBehaviour:
     name: Tempest 2000
     platforms: 060000000d0000000e000000200000003e000000
     rating: 0
-  - id: 15428
-    category: 0
-    first_release_date: 854150400
-    involved_companies: e9f000002d570200
-    name: The King of Fighters '97
-    platforms: 050000000700000020000000340000004f0000005000000088000000
-    rating: 0
-  - id: 19770
-    category: 0
-    first_release_date: 783648000
-    involved_companies: 8a9000008b9000008d900000
-    name: Street Racer
-    platforms: 06000000070000000d00000010000000130000001d0000002000000021000000
-    rating: 0
-  - id: 23094
-    category: 11
-    first_release_date: 862876800
-    involved_companies: 
-    name: Pocket Fighter
-    platforms: 070000002000000039000000
-    rating: 0
-  - id: 3056
-    category: 0
-    first_release_date: 875577600
-    involved_companies: 361e0000371e000089b001008ab001008bb001008cb001008db00100
-    name: Rampage World Tour
-    platforms: 04000000070000000900000016000000200000004a000000
-    rating: 0
-  - id: 4135
-    category: 0
-    first_release_date: 883526400
-    involved_companies: ee290000
-    name: Darkstalkers 3
-    platforms: 07000000090000002000000034000000
-    rating: 0
-  - id: 6345
-    category: 0
-    first_release_date: 846806400
-    involved_companies: 123b0000133b0000153b0000163b0000173b00008e750100
-    name: Casper
-    platforms: 0700000013000000160000002000000021000000320000003a000000
-    rating: 0
-  - id: 4415
-    category: 0
-    first_release_date: 768182400
-    involved_companies: 4f50000050500000525000007e530000
-    name: Magic Carpet
-    platforms: 0600000007000000090000000d0000000e00000020000000
-    rating: 0
   - id: 46796
     category: 0
     first_release_date: 823132800
     involved_companies: 6d5601006e560100
     name: Battle Garegga
     platforms: 2000000034000000
-    rating: 0
-  - id: 19536
-    category: 0
-    first_release_date: 872640000
-    involved_companies: f2b20000f3b20000f4b20000f5b20000
-    name: 'The Lost World: Jurassic Park'
-    platforms: 0700000020000000
-    rating: 0
-  - id: 1404
-    category: 0
-    first_release_date: 822009600
-    involved_companies: 6e800100feee010015430200
-    name: Metal Slug
-    platforms: 050000000600000007000000200000002200000027000000340000004f000000500000008200000088000000
-    rating: 0
-  - id: 5451
-    category: 0
-    first_release_date: 596505600
-    involved_companies: 2c810000
-    name: Snatcher
-    platforms: 0700000020000000350000004e000000560000007d000000
-    rating: 0
-  - id: 705
-    category: 0
-    first_release_date: 852076800
-    involved_companies: a208000018150000191500001a1500001b1500001c150000
-    name: 'FIFA: Road to World Cup 98'
-    platforms: 040000000600000007000000130000001d0000002000000021000000
-    rating: 0
-  - id: 1963
-    category: 0
-    first_release_date: 809913600
-    involved_companies: e13d0200
-    name: Rayman
-    platforms: 070000000d0000002000000022000000270000009f000000
     rating: 0
   - id: 5352
     category: 0
@@ -3176,34 +2637,6 @@ MonoBehaviour:
     name: Fantasy Zone
     platforms: 05000000120000001b000000200000002500000034000000400000005600000079000000
     rating: 0
-  - id: 45506
-    category: 0
-    first_release_date: 870307200
-    involved_companies: f5140100f6140100
-    name: Herc's Adventures
-    platforms: 0700000020000000
-    rating: 0
-  - id: 12434
-    category: 0
-    first_release_date: 820195200
-    involved_companies: ba660000
-    name: Hi-Octane
-    platforms: 070000000d00000020000000
-    rating: 0
-  - id: 10456
-    category: 0
-    first_release_date: 733622400
-    involved_companies: 68630000696300006a630000
-    name: In the Hunt
-    platforms: 06000000070000002000000034000000
-    rating: 0
-  - id: 2579
-    category: 0
-    first_release_date: 828230400
-    involved_companies: f0760100f1760100f2760100
-    name: 'Dragon Ball Z: The Legend'
-    platforms: 0700000020000000
-    rating: 0
   - id: 3249
     category: 0
     first_release_date: 694137600
@@ -3217,27 +2650,6 @@ MonoBehaviour:
     involved_companies: e10c0100
     name: Princess Maker 2
     platforms: 0d000000200000003200000095000000
-    rating: 0
-  - id: 6883
-    category: 0
-    first_release_date: 879379200
-    involved_companies: 983f0000993f0000a2ec0100
-    name: 'Shin Megami Tensei: Devil Summoner - Soul Hackers'
-    platforms: 070000002000000025000000
-    rating: 0
-  - id: 20298
-    category: 0
-    first_release_date: 788832000
-    involved_companies: b72a0100
-    name: Revolution X
-    platforms: 0600000007000000130000001d0000002000000034000000
-    rating: 0
-  - id: 20803
-    category: 0
-    first_release_date: 833500800
-    involved_companies: fb930000fc930000
-    name: Super Puzzle Fighter II Turbo
-    platforms: 070000002000000034000000
     rating: 0
   - id: 8122
     category: 0
@@ -3267,20 +2679,6 @@ MonoBehaviour:
     name: Virtua Cop 2
     platforms: 06000000170000002000000034000000
     rating: 0
-  - id: 39299
-    category: 0
-    first_release_date: 883526400
-    involved_companies: 39e9000046eb0000e1b40100e2b40100
-    name: Strikers 1945 II
-    platforms: 070000002000000022000000270000003400000082000000
-    rating: 0
-  - id: 236
-    category: 0
-    first_release_date: 748828800
-    involved_companies: d6d00100d7d00100d8d001004cec01003af40100
-    name: Myst
-    platforms: 06000000070000000e0000001400000020000000250000002600000027000000320000003e000000
-    rating: 0
   - id: 221
     category: 0
     first_release_date: 807235200
@@ -3288,124 +2686,12 @@ MonoBehaviour:
     name: Phantasmagoria
     platforms: 060000000d0000000e00000020000000
     rating: 0
-  - id: 6268
-    category: 0
-    first_release_date: 846720000
-    involved_companies: 795100007c5100007e510000805100008151000082510000740f0100750f01006fd3010070d3010071d30100
-    name: Pandemonium!
-    platforms: 0600000007000000090000002000000026000000270000002a00000037000000
-    rating: 0
-  - id: 131
-    category: 2
-    first_release_date: 830822400
-    involved_companies: 0c4c00000d4c00000e4c00000f4c0000
-    name: 'Warcraft II: Beyond the Dark Portal'
-    platforms: 06000000070000000d0000000e00000020000000
-    rating: 0
-  - id: 4121
-    category: 0
-    first_release_date: 844905600
-    involved_companies: be290000bf290000c0290000c1290000c2290000c3290000c4290000
-    name: Mortal Kombat Trilogy
-    platforms: 0400000006000000070000000d00000020000000
-    rating: 0
-  - id: 8338
-    category: 0
-    first_release_date: 844128000
-    involved_companies: 295000002a5000002b500000
-    name: PowerSlave
-    platforms: 070000000d00000020000000
-    rating: 0
   - id: 1547
     category: 0
     first_release_date: 783648000
     involved_companies: 445100004551000046510000
     name: Virtua Fighter 2
     platforms: 050000000600000008000000090000000c0000001d0000002000000034000000
-    rating: 0
-  - id: 333
-    category: 0
-    first_release_date: 835401600
-    involved_companies: f1030000f3030000bb940100bc940100bf940100c0940100c1940100c2940100c3940100c4940100c7940100c8940100c9940100
-    name: Quake
-    platforms: 0300000004000000060000000d0000000e000000100000002000000037000000f0000000
-    rating: 0
-  - id: 39300
-    category: 0
-    first_release_date: 812764800
-    involved_companies: e5cd0000e6cd0000e7cd0000e8cd0000
-    name: Strikers 1945
-    platforms: 0600000007000000200000003400000082000000
-    rating: 0
-  - id: 8244
-    category: 0
-    first_release_date: 842227200
-    involved_companies: 624e00002c870100
-    name: X-Men vs. Street Fighter
-    platforms: 070000002000000034000000
-    rating: 0
-  - id: 8245
-    category: 0
-    first_release_date: 867196800
-    involved_companies: 634e0000644e0000
-    name: Marvel Super Heroes vs. Street Fighter
-    platforms: 070000002000000034000000
-    rating: 0
-  - id: 3512
-    category: 0
-    first_release_date: 815011200
-    involved_companies: e8500000e9500000ea500000eb500000ec500000ed500000ee500000
-    name: 'Hexen: Beyond Heretic'
-    platforms: 06000000070000000d0000000e00000020000000
-    rating: 0
-  - id: 9331
-    category: 0
-    first_release_date: 815097600
-    involved_companies: 445f000055300200563002005730020058300200593002005a3002005b300200
-    name: Worms
-    platforms: 0600000007000000090000000c0000000d0000000e00000010000000130000001d00000020000000260000003e00000072000000
-    rating: 0
-  - id: 6702
-    category: 0
-    first_release_date: 802310400
-    involved_companies: 313e0000
-    name: 'Street Fighter Alpha: Warrior''s Dreams'
-    platforms: 0600000007000000160000002000000034000000
-    rating: 0
-  - id: 1744
-    category: 0
-    first_release_date: 870393600
-    involved_companies: 6251000063510000
-    name: Mega Man X4
-    platforms: 06000000070000002000000037000000
-    rating: 0
-  - id: 7840
-    category: 0
-    first_release_date: 809827200
-    involved_companies: aa4f0000ab4f0000ac4f0000
-    name: 'Crusader: No Remorse'
-    platforms: 06000000070000000d0000000e00000020000000
-    rating: 0
-  - id: 912
-    category: 0
-    first_release_date: 846201600
-    involved_companies: eb5200004da40000ab300200ac300200
-    name: Tomb Raider
-    platforms: 0600000007000000090000000d00000020000000260000002a0000002e000000
-    rating: 0
-  - id: 4309
-    category: 0
-    first_release_date: 784944000
-    involved_companies: 465800004758000048580000495800004a5800004b5800004c580000
-    name: Gex
-    platforms: 0600000007000000200000002600000032000000
-    rating: 0
-  - id: 330
-    category: 0
-    first_release_date: 757296000
-    involved_companies: 7b0400007c0400007d040000cb260000ae430100
-    name: SimCity 2000
-    platforms: 0400000006000000070000000d0000000e0000001000000013000000200000003a000000
     rating: 0
   - id: 3481
     category: 0
