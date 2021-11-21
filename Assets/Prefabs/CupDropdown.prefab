@@ -226,6 +226,7 @@ GameObject:
   - component: {fileID: 1158237003826765508}
   - component: {fileID: 1158237003826765510}
   - component: {fileID: 1158237003826765509}
+  - component: {fileID: 7870119604736951497}
   m_Layer: 5
   m_Name: TMP_ProgressionTitle
   m_TagString: Untagged
@@ -289,8 +290,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4291018110
-  m_fontColor: {r: 0.49411768, g: 0.7411765, b: 0.76470596, a: 1}
+    rgba: 4286665816
+  m_fontColor: {r: 0.34509805, g: 0.32941177, b: 0.5058824, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -349,6 +350,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &7870119604736951497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158237003826765507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe9e7825c045634479c473f458d4f757, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: Levels
+  customText: {fileID: 0}
 --- !u!1 &1158237003868419701
 GameObject:
   m_ObjectHideFlags: 0
@@ -503,8 +518,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4291018110
-  m_fontColor: {r: 0.49411768, g: 0.7411765, b: 0.76470596, a: 1}
+    rgba: 4286665816
+  m_fontColor: {r: 0.34509805, g: 0.32941177, b: 0.5058824, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

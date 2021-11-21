@@ -523,11 +523,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2431665508681691764, guid: 7381c32a9de94084c9a1c076827f4ab7, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 234.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2431665508681691764, guid: 7381c32a9de94084c9a1c076827f4ab7, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -168
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2431665508681691764, guid: 7381c32a9de94084c9a1c076827f4ab7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -720,6 +720,7 @@ GameObject:
   - component: {fileID: 830920518}
   - component: {fileID: 830920521}
   - component: {fileID: 830920519}
+  - component: {fileID: 830920520}
   m_Layer: 5
   m_Name: CreatedBy_Text (TMP)
   m_TagString: Untagged
@@ -835,6 +836,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &830920520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830920517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe9e7825c045634479c473f458d4f757, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: MainMenu_createdBy@Nacho13t
+  customText: {fileID: 0}
 --- !u!222 &830920521
 CanvasRenderer:
   m_ObjectHideFlags: 0

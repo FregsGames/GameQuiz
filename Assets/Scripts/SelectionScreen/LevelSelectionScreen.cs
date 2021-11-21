@@ -95,7 +95,7 @@ public class LevelSelectionScreen : MonoBehaviour
         ClearGrid();
         levelContainter.SetActive(true);
 
-        cupName.text = cup.title;
+        cupName.text = Translations.instance.GetText(cup.title);
 
         int completedLevels = 0;
 
@@ -141,7 +141,7 @@ public class LevelSelectionScreen : MonoBehaviour
 
         levelButton.SetSprite(levelButton.Level.state == LevelState.completed ? completedSelectedSprite : selectedSprite);
 
-        levelName.text = levelButton.Level.levelTitle;
+        levelName.text = Translations.instance.GetText(levelButton.Level.levelTitle);
         SetLevelWinCondition(levelButton);
     }
 
@@ -156,13 +156,16 @@ public class LevelSelectionScreen : MonoBehaviour
         switch (levelButton.Level.winCondition)
         {
             case LevelCondition.half:
-                levelDesc.text = $"\n Answer {Mathf.CeilToInt(levelButton.Level.questionTemplates.Count / 2f)} question(s) correctly to complete the level.";
+                string translatedTextPart1 = Translations.instance.GetText("LevelCondition_Custom_Part1");
+                string translatedTextPart12 = Translations.instance.GetText("LevelCondition_Custom_Part2");
+                int count = Mathf.CeilToInt(levelButton.Level.questionTemplates.Count / 2f);
+                levelDesc.text = $"{translatedTextPart1} {count} {translatedTextPart12}";
                 break;
             case LevelCondition.full:
-                levelDesc.text = $"\n Answer all questions correctly to complete the level";
+                levelDesc.text = $"{Translations.instance.GetText("LevelCondition_All")}";
                 break;
             case LevelCondition.one:
-                levelDesc.text = $"\n Answer one question correctly to complete the level";
+                levelDesc.text = $"{Translations.instance.GetText("LevelCondition_One")}";
                 break;
         }
     }

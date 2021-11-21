@@ -67,7 +67,7 @@ public class CupDropdown : MonoBehaviour
         if(cup.state == Cups.CupType.free || IAPManager.Instance.HasBought(cup.id))
         {
             cupImage.sprite = cup.cupImage;
-            cupName.text = cup.title;
+            cupName.text = Translations.instance.GetText(cup.title);
             descText.text = Translations.instance.GetText(cup.desc);
         }
         else

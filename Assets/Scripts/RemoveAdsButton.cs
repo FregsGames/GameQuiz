@@ -19,10 +19,10 @@ public class RemoveAdsButton : MonoBehaviour
         IAPManager.Instance.BuyProductID("remove_ads");
     }
 
-    private void DisableButton()
+    private void DisableButton(bool purchaseSuccessful)
     {
-        IAPManager.Instance.ShowAds = false;
+        IAPManager.Instance.ShowAds = !purchaseSuccessful;
         IAPManager.Instance.OnPurchaseResolved -= DisableButton;
-        gameObject.SetActive(false);
+        gameObject.SetActive(!purchaseSuccessful);
     }
 }

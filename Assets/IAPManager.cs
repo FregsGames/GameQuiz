@@ -11,7 +11,7 @@ public class IAPManager : Singleton<IAPManager>, IStoreListener
     private IStoreController controller;
     private IExtensionProvider extensions;
 
-    public Action OnPurchaseResolved;
+    public Action<bool> OnPurchaseResolved;
 
     private int initTries = 0;
 
@@ -95,7 +95,7 @@ public class IAPManager : Singleton<IAPManager>, IStoreListener
     /// </summary>
     public PurchaseProcessingResult ProcessPurchase(PurchaseEventArgs e)
     {
-        OnPurchaseResolved?.Invoke();
+        OnPurchaseResolved?.Invoke(true);
         return PurchaseProcessingResult.Complete;
     }
 
@@ -104,7 +104,7 @@ public class IAPManager : Singleton<IAPManager>, IStoreListener
     /// </summary>
     public void OnPurchaseFailed(Product i, PurchaseFailureReason p)
     {
-        OnPurchaseResolved?.Invoke();
+        OnPurchaseResolved?.Invoke(false);
     }
     public void BuyProductID(string productId)
     {

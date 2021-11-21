@@ -22,7 +22,7 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   id: 000_level0
-  levelTitle: Guess the Year!
+  levelTitle: Level_GuessTheYear
   gamesContainer: {fileID: 11400000, guid: 433efbee759c1124db441389cfc97942, type: 2}
   companiesContainer: {fileID: 11400000, guid: 91d2b9dc6550bc94f8bcbd3fb6633243, type: 2}
   handwrittenQuestionSet: {fileID: 11400000, guid: 1f04864a676242641a4827b88679d22f, type: 2}

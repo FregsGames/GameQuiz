@@ -48,17 +48,23 @@ MonoBehaviour:
     en: Play
     es: Jugar
   - id: MainMenu_createdBy@Nacho13t
-    en: Created By @nacho13t
-    es: Creado por @nacho13t
+    en: Created By\n@nacho13t
+    es: Creado por\n@nacho13t
   - id: MainMenu_options
     en: Options
     es: Opciones
+  - id: Options_Quit
+    en: Quit
+    es: Salir
+  - id: Cups
+    en: Cups
+    es: Copas
   - id: completedLevel
     en: Level Completed!
     es: "\xA1Nivel completado!"
   - id: failedLevel
-    en: Level failed
-    es: Nivel mal
+    en: Try again!
+    es: "\xA1Vuelve a intentarlo!"
   - id: s_developedBy_0
     en: Game developed by
     es: Juego desarrollado por
@@ -80,5 +86,63 @@ MonoBehaviour:
   - id: cup_premiumCup
     en: A premium cup
     es: Una copa premium
+  - id: level_genericDescription
+    en: This is one of the levels of the cup. Try it!
+    es: "Este es uno de los niveles de la copa. \xA1Int\xE9ntalo!"
+  - id: Levels
+    en: Levels
+    es: Niveles
+  - id: RemoveAds
+    en: Remove Ads
+    es: Quitar anuncios
+  - id: Update_0_Content
+    en: To Translate
+    es: "No te pierdas las pr\xF3ximas actualizaciones de contenido que incluir\xE1n
+      nuevos niveles gratuitos y premium."
+  - id: Update_0_Title
+    en: HEY!
+    es: "\xA1Hey!"
+  - id: Update_0_Subtitle
+    en: Thanks for playing Wizard Saga!
+    es: "\xA1Gracias por jugar a Quizard Saga!"
+  - id: LevelUnlocked
+    en: New level unlocked!
+    es: "\xA1Nivel desbloqueado!"
+  - id: cup_000_title
+    en: Retro cup
+    es: Copa Retro
+  - id: cup_000_desc
+    en: Questions about the fifht generation consoles and games
+    es: "Preguntas sobre juegos y consolas de quinta generaci\xF3n"
+  - id: Level_GuessTheYear
+    en: Guess the year!
+    es: "\xA1Adivina el a\xF1o!"
+  - id: Level_GuessTheYearHard
+    en: Guess the year! (Hard)
+    es: "\xA1Adivina el a\xF1o! (Dif\xEDcil)"
+  - id: Level_GuessTheCompany
+    en: Guess the company!
+    es: "\xA1Adivina la compa\xF1\xEDa!"
+  - id: Level_GuessTheCompanyHard
+    en: Guess the company! (Hard)
+    es: "\xA1Adivina la compa\xF1\xEDa! (Dif\xEDcil)"
+  - id: Level_GuessThePlatform
+    en: Guess the platform!
+    es: "\xA1Adivina la plataforma!"
+  - id: Level_GuessThePlatformHard
+    en: Guess the platform! (Hard)
+    es: "\xA1Adivina la plataforma! (Dif\xEDcil)"
+  - id: LevelCondition_All
+    en: Answer all questions correctly to complete the level
+    es: Acierta todas las preguntas para completar el nivel
+  - id: LevelCondition_One
+    en: Answer one question correctly to complete the level
+    es: Acierta una pregunta para completar el nivel
+  - id: LevelCondition_Custom_Part1
+    en: Answer
+    es: Acierta
+  - id: LevelCondition_Custom_Part2
+    en: question(s) correctly to complete the level
+    es: pregunta(s) correctamente para completar el nivel
   currentLanguage: 34
   availableLanguages: 220000000a000000

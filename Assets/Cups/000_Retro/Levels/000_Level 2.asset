@@ -22,7 +22,7 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   id: 000_level2
-  levelTitle: Guess the platform!
+  levelTitle: Level_GuessThePlatform
   gamesContainer: {fileID: 11400000, guid: 433efbee759c1124db441389cfc97942, type: 2}
   companiesContainer: {fileID: 11400000, guid: 91d2b9dc6550bc94f8bcbd3fb6633243, type: 2}
   handwrittenQuestionSet: {fileID: 11400000, guid: 1f04864a676242641a4827b88679d22f, type: 2}
@@ -33,7 +33,7 @@ MonoBehaviour:
   - contentType: 4
   - contentType: 2
   - contentType: 6
-  state: 0
+  state: 2
   alwaysUnlocked: 0
   winCondition: 0
   years: ce070000cc070000cd070000cb070000d0070000cf070000d3070000d2070000c4070000ca070000c7070000c6070000c8070000d1070000

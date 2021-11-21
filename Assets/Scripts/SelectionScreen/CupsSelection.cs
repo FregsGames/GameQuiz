@@ -63,8 +63,11 @@ public class CupsSelection : MonoBehaviour
         IAPManager.Instance.OnPurchaseResolved += Refresh;
     }
 
-    private void Refresh()
+    private void Refresh(bool purchaseSuccessful)
     {
+        if (!purchaseSuccessful)
+            return;
+
         alreadyInstantiatedPremiumCups = new List<string>();
 
         for (int i = content.transform.childCount - 1; i >= 0; i--)

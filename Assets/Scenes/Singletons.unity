@@ -630,22 +630,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Translations
       objectReference: {fileID: 0}
-    - target: {fileID: 1453111500499754523, guid: 95994a43d449b06478c361619bb13ff3, type: 3}
-      propertyPath: pieces.Array.size
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 1453111500499754523, guid: 95994a43d449b06478c361619bb13ff3, type: 3}
-      propertyPath: pieces.Array.data[12].en
-      value: This is one of the levels of the cup. Try it!
-      objectReference: {fileID: 0}
-    - target: {fileID: 1453111500499754523, guid: 95994a43d449b06478c361619bb13ff3, type: 3}
-      propertyPath: pieces.Array.data[12].es
-      value: "Este es uno de los niveles de la copa. \xA1Int\xE9ntalo!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 1453111500499754523, guid: 95994a43d449b06478c361619bb13ff3, type: 3}
-      propertyPath: pieces.Array.data[12].id
-      value: level_genericDescription
-      objectReference: {fileID: 0}
     - target: {fileID: 1453111500499754524, guid: 95994a43d449b06478c361619bb13ff3, type: 3}
       propertyPath: m_RootOrder
       value: 4
