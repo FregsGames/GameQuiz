@@ -1,0 +1,632 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 594456b049be28d49a2b8075b4986975, type: 3}
+  m_Name: GamesC
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  gamesC:
+  - name: Monster Hunter Rise
+    year: 2021
+    devs:
+    - Capcom
+    plats:
+    - PC
+    - " Nintendo Switch\r"
+  - name: 'Guilty Gear: Strive'
+    year: 2021
+    devs:
+    - Arc System Works
+    plats:
+    - 'Arcade '
+    - ' PlayStation 5 '
+    - PC
+    - " PlayStation 4\r"
+  - name: Psychonauts 2
+    year: 2021
+    devs:
+    - Double Fine Productions
+    plats:
+    - 'Xbox One '
+    - ' PlayStation 4 '
+    - PC
+    - " Xbox Series X|S\r"
+  - name: It Takes Two
+    year: 2021
+    devs:
+    - Hazelight Studios
+    plats:
+    - 'Xbox One '
+    - PC
+    - ' PlayStation 4 '
+    - ' PlayStation 5 '
+    - " Xbox Series X|S\r"
+  - name: The Great Ace Attorney Chronicles
+    year: 2021
+    devs:
+    - Capcom
+    plats:
+    - PC
+    - ' Nintendo Switch '
+    - " PlayStation 4\r"
+  - name: Forza Horizon 5
+    year: 2021
+    devs:
+    - Playground Games
+    plats:
+    - 'Xbox Series X|S '
+    - PC
+    - " Xbox One\r"
+  - name: Dyson Sphere Program
+    year: 2021
+    devs:
+    - Youthcat Studio
+    plats:
+    - PC
+  - name: 'Ratchet & Clank: Rift Apart'
+    year: 2021
+    devs:
+    - Insomniac Games
+    plats:
+    - "PlayStation 5\r"
+  - name: Metroid Dread
+    year: 2021
+    devs:
+    - MercurySteam
+    plats:
+    - "Nintendo Switch\r"
+  - name: 'Disco Elysium: The Final Cut'
+    year: 2021
+    devs:
+    - ZA
+    - UM
+    plats:
+    - PC
+    - ' PlayStation 5 '
+    - ' Nintendo Switch '
+    - ' Xbox One '
+    - ' Xbox Series X|S '
+    - ' PlayStation 4 '
+    - ' Mac '
+    - " Google Stadia\r"
+  - name: Inscryption
+    year: 2021
+    devs:
+    - Daniel Mullins Games
+    plats:
+    - PC
+  - name: Super Mario 3D World + Bowser's Fury
+    year: 2021
+    devs:
+    - Nintendo
+    plats:
+    - "Nintendo Switch\r"
+  - name: Eastward
+    year: 2021
+    devs:
+    - Pixpil Studio
+    plats:
+    - 'Nintendo Switch '
+    - ' Mac '
+    - PC
+  - name: Valheim
+    year: 2021
+    devs:
+    - Iron Gate AB
+    plats:
+    - 'Linux '
+    - PC
+  - name: The Forgotten City
+    year: 2021
+    devs:
+    - Modern Storyteller
+    plats:
+    - 'PlayStation 5 '
+    - ' Xbox One '
+    - PC
+    - ' Nintendo Switch '
+    - ' PlayStation 4 '
+    - " Xbox Series X|S\r"
+  - name: Death's Door
+    year: 2021
+    devs:
+    - Acid Nerve
+    plats:
+    - PC
+    - ' Xbox One '
+    - ' Xbox Series X|S '
+    - ' PlayStation 5 '
+    - ' PlayStation 4 '
+    - " Nintendo Switch\r"
+  - name: 'ENDER LILIES: Quietus of the Knights'
+    year: 2021
+    devs:
+    - adglobe
+    plats:
+    - 'Nintendo Switch '
+    - ' PlayStation 4 '
+    - ' PlayStation 5 '
+    - ' Xbox One '
+    - ' Xbox Series X|S '
+    - PC
+  - name: Strangeland
+    year: 2021
+    devs:
+    - Wormwood Studios
+    plats:
+    - 'Mac '
+    - PC
+  - name: Returnal
+    year: 2021
+    devs:
+    - Housemarque
+    plats:
+    - "PlayStation 5\r"
+  - name: Portal Reloaded
+    year: 2021
+    devs:
+    - PORTANIS
+    plats:
+    - PC
+  - name: Back 4 Blood
+    year: 2021
+    devs:
+    - Turtle Rock Studios
+    plats:
+    - 'Xbox Series X|S '
+    - ' PlayStation 5 '
+    - ' PlayStation 4 '
+    - ' Xbox One '
+    - PC
+  - name: HITMAN 3
+    year: 2021
+    devs:
+    - IO Interactive
+    plats:
+    - 'Xbox One '
+    - ' Google Stadia '
+    - PC
+    - ' PlayStation 5 '
+    - ' Xbox Series X|S '
+    - " PlayStation 4\r"
+  - name: 'Monster Hunter Stories 2: Wings of Ruin'
+    year: 2021
+    devs:
+    - Capcom
+    plats:
+    - PC
+    - " Nintendo Switch\r"
+  - name: Bowser's Fury
+    year: 2021
+    devs:
+    - Nintendo
+    plats:
+    - "Nintendo Switch\r"
+  - name: 'Life is Strange: True Colors'
+    year: 2021
+    devs:
+    - Deck Nine
+    plats:
+    - 'Google Stadia '
+    - PC
+    - ' PlayStation 4 '
+    - ' PlayStation 5 '
+    - ' Nintendo Switch '
+    - ' Xbox One '
+    - " Xbox Series X|S\r"
+  - name: Little Nightmares II
+    year: 2021
+    devs:
+    - Tarsier Studios
+    plats:
+    - PC
+    - ' PlayStation 5 '
+    - ' Xbox Series X|S '
+    - ' Google Stadia '
+    - ' Xbox One '
+    - ' PlayStation 4 '
+    - " Nintendo Switch\r"
+  - name: Resident Evil Village
+    year: 2021
+    devs:
+    - Capcom
+    plats:
+    - 'Xbox One '
+    - ' Google Stadia '
+    - ' PlayStation 4 '
+    - ' Xbox Series X|S '
+    - PC
+    - " PlayStation 5\r"
+  - name: NieR Replicant ver.1.22474487139...
+    year: 2021
+    devs:
+    - Toylogic
+    plats:
+    - 'PlayStation 4 '
+    - PC
+    - " Xbox One\r"
+  - name: 'The Binding of Isaac: Repentance'
+    year: 2021
+    devs:
+    - '"Nicalis'
+    plats:
+    - ' Inc."'
+  - name: DEATHLOOP
+    year: 2021
+    devs:
+    - Arkane Studios
+    plats:
+    - PC
+    - " PlayStation 5\r"
+  - name: Age of Empires IV
+    year: 2021
+    devs:
+    - Relic Entertainment
+    plats:
+    - PC
+  - name: 'NEO: The World Ends with You'
+    year: 2021
+    devs:
+    - Square Enix
+    plats:
+    - 'PlayStation 4 '
+    - PC
+    - " Nintendo Switch\r"
+  - name: No More Heroes III
+    year: 2021
+    devs:
+    - Grasshopper Manufacture
+    plats:
+    - 'Nintendo Switch '
+    - PC
+  - name: Road 96
+    year: 2021
+    devs:
+    - DigixArt
+    plats:
+    - 'Nintendo Switch '
+    - PC
+  - name: Serin Fate
+    year: 2021
+    devs:
+    - Vethergen
+    plats:
+    - PC
+  - name: Encased
+    year: 2021
+    devs:
+    - Dark Crystal Games
+    plats:
+    - PC
+    - ' Mac '
+    - ' Xbox One '
+    - ' PlayStation 4 '
+    - " Nintendo Switch\r"
+  - name: 'Kena: Bridge of Spirits'
+    year: 2021
+    devs:
+    - Ember Lab
+    plats:
+    - PC
+    - ' PlayStation 4 '
+    - " PlayStation 5\r"
+  - name: Alan Wake Remastered
+    year: 2021
+    devs:
+    - Remedy Entertainment
+    plats:
+    - 'PlayStation 4 '
+    - ' PlayStation 5 '
+    - ' Xbox One '
+    - ' Xbox Series X|S '
+    - PC
+  - name: Knockout City
+    year: 2021
+    devs:
+    - Velan Studios
+    plats:
+    - 'PlayStation 4 '
+    - PC
+    - ' Xbox One '
+    - ' PlayStation 5 '
+    - ' Xbox Series X|S '
+    - " Nintendo Switch\r"
+  - name: Far Cry 6
+    year: 2021
+    devs:
+    - Ubisoft Toronto
+    plats:
+    - 'Google Stadia '
+    - ' PlayStation 4 '
+    - ' PlayStation 5 '
+    - ' Xbox Series X|S '
+    - ' Xbox One '
+    - PC
+  - name: Curse of the Dead Gods
+    year: 2021
+    devs:
+    - Passtech Games
+    plats:
+    - 'Xbox One '
+    - PC
+    - ' PlayStation 4 '
+    - " Nintendo Switch\r"
+  - name: The Ascent
+    year: 2021
+    devs:
+    - Neon Giant
+    plats:
+    - 'Xbox Series X|S '
+    - ' Xbox One '
+    - PC
+  - name: Tales of Arise
+    year: 2021
+    devs:
+    - Bandai Namco Entertainment
+    plats:
+    - 'Xbox One '
+    - ' PlayStation 4 '
+    - PC
+    - ' PlayStation 5 '
+    - " Xbox Series X|S\r"
+  - name: Narita Boy
+    year: 2021
+    devs:
+    - Studio Koba
+    plats:
+    - PC
+    - ' Linux '
+    - ' Nintendo Switch '
+    - ' Mac '
+    - ' PlayStation 4 '
+    - " Xbox One\r"
+  - name: HUMANKIND
+    year: 2021
+    devs:
+    - AMPLITUDE Studios
+    plats:
+    - PC
+    - ' Google Stadia '
+    - " Mac\r"
+  - name: Last Stop
+    year: 2021
+    devs:
+    - Variable State
+    plats:
+    - PC
+    - ' PlayStation 4 '
+    - ' Nintendo Switch '
+    - ' Xbox One '
+    - ' PlayStation 5 '
+    - " Xbox Series X|S\r"
+  - name: Outriders
+    year: 2021
+    devs:
+    - People Can Fly
+    plats:
+    - 'Xbox One '
+    - ' PlayStation 4 '
+    - ' PlayStation 5 '
+    - PC
+    - ' Xbox Series X|S '
+    - " Google Stadia\r"
+  - name: 'Call of Duty: Vanguard'
+    year: 2021
+    devs:
+    - Sledgehammer Games
+    plats:
+    - 'Xbox Series X|S '
+    - ' Xbox One '
+    - ' PlayStation 4 '
+    - PC
+    - " PlayStation 5\r"
+  - name: Loop Hero
+    year: 2021
+    devs:
+    - Four Quarters
+    plats:
+    - 'Nintendo Switch '
+    - PC
+    - ' Mac '
+    - " Linux\r"
+  - name: Scarlet Nexus
+    year: 2021
+    devs:
+    - Bandai Namco Studios
+    plats:
+    - 'PlayStation 5 '
+    - PC
+    - ' Xbox Series X|S '
+    - ' PlayStation 4 '
+    - " Xbox One\r"
+  - name: 'The Dark Pictures Anthology: House of Ashes'
+    year: 2021
+    devs:
+    - Supermassive Games
+    plats:
+    - PC
+    - ' Xbox Series X|S '
+    - ' PlayStation 5 '
+    - ' PlayStation 4 '
+    - " Xbox One\r"
+  - name: PAC-MAN 99
+    year: 2021
+    devs:
+    - Arika
+    plats:
+    - "Nintendo Switch\r"
+  - name: Cyber Shadow
+    year: 2021
+    devs:
+    - Mechanical Head Studios
+    plats:
+    - 'Xbox One '
+    - ' PlayStation 5 '
+    - ' Nintendo Switch '
+    - ' PlayStation 4 '
+    - PC
+  - name: 'WarioWare: Get It Together!'
+    year: 2021
+    devs:
+    - Nintendo
+    plats:
+    - "Nintendo Switch\r"
+  - name: Hot Wheels Unleashed
+    year: 2021
+    devs:
+    - Milestone
+    plats:
+    - 'Xbox One '
+    - PC
+    - ' Xbox Series X|S '
+    - ' PlayStation 5 '
+    - ' PlayStation 4 '
+    - " Nintendo Switch\r"
+  - name: Rain on Your Parade
+    year: 2021
+    devs:
+    - Unbound Creations LLC
+    plats:
+    - 'Xbox One '
+    - ' Nintendo Switch '
+    - ' Mac '
+    - ' Linux '
+    - PC
+    - " Xbox Series X|S\r"
+  - name: 'Golf Club: Wasteland'
+    year: 2021
+    devs:
+    - Demagog Studios
+    plats:
+    - 'Nintendo Switch '
+    - PC
+    - ' PlayStation 4 '
+    - " Xbox One\r"
+  - name: Maquette
+    year: 2021
+    devs:
+    - Graceful Decay
+    plats:
+    - PC
+    - ' PlayStation 4 '
+    - " PlayStation 5\r"
+  - name: Totally Accurate Battle Simulator
+    year: 2021
+    devs:
+    - Landfall Games
+    plats:
+    - 'Mac '
+    - ' Xbox One '
+    - PC
+  - name: The Artful Escape
+    year: 2021
+    devs:
+    - Beethoven & Dinosaur
+    plats:
+    - 'Xbox Series X|S '
+    - PC
+    - " Xbox One\r"
+  - name: Lust from Beyond
+    year: 2021
+    devs:
+    - Movie Games Lunarium
+    plats:
+    - PC
+  - name: The Medium
+    year: 2021
+    devs:
+    - Bloober Team
+    plats:
+    - 'PlayStation 5 '
+    - ' Xbox Series X|S '
+    - PC
+  - name: "Pok\xE9mon Unite"
+    year: 2021
+    devs:
+    - Tencent Games
+    plats:
+    - 'Android '
+    - ' iOS '
+    - " Nintendo Switch\r"
+  - name: 'Skul: The Hero Slayer'
+    year: 2021
+    devs:
+    - SouthPaw Games
+    plats:
+    - 'PlayStation 4 '
+    - ' Xbox One '
+    - PC
+    - ' Mac '
+    - ' Linux '
+    - " Nintendo Switch\r"
+  - name: Overboard!
+    year: 2021
+    devs:
+    - inkle
+    plats:
+    - PC
+    - ' Mac '
+    - ' iOS '
+    - " Nintendo Switch\r"
+  - name: Bravely Default II
+    year: 2021
+    devs:
+    - Team Asano
+    plats:
+    - PC
+    - " Nintendo Switch\r"
+  - name: 'Scott Pilgrim vs. the World: The Game - Complete Edition'
+    year: 2021
+    devs:
+    - Ubisoft Chengdu
+    plats:
+    - 'PlayStation 4 '
+    - ' Xbox One '
+    - ' PlayStation 5 '
+    - ' Amazon Fire TV '
+    - ' Google Stadia '
+    - PC
+    - ' Nintendo Switch '
+    - " Xbox Series X|S\r"
+  - name: 'Mario Golf: Super Rush'
+    year: 2021
+    devs:
+    - Camelot
+    plats:
+    - "Nintendo Switch\r"
+  - name: Marvel's Guardians of the Galaxy
+    year: 2021
+    devs:
+    - Camelot
+    plats:
+    - 'Xbox One '
+    - ' Xbox Series X|S '
+    - PC
+    - ' PlayStation 4 '
+    - " PlayStation 5\r"
+  - name: Unpacking
+    year: 2021
+    devs:
+    - Witch Beam
+    plats:
+    - 'Nintendo Switch '
+    - ' Linux '
+    - ' Mac '
+    - PC
+    - ' Xbox One'
