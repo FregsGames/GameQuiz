@@ -2,7 +2,6 @@
 using UnityEditor;
 using UnityEngine;
 
-[CustomEditor(typeof(CupScriptable))]
 public class CupScriptableEditor : Editor
 {
     SerializedProperty id;
@@ -11,7 +10,7 @@ public class CupScriptableEditor : Editor
     SerializedProperty levels;
     SerializedProperty cupImage;
     SerializedProperty state;
-    SerializedProperty gamesContainer;
+    SerializedProperty infiniteFilters;
     SerializedProperty desc;
     SerializedProperty packDesc;
 
@@ -19,29 +18,27 @@ public class CupScriptableEditor : Editor
 
     private void OnEnable()
     {
-        //cupLevels = (serializedObject.targetObject as CupScriptable).levels;
-
         id = serializedObject.FindProperty("id");
         title = serializedObject.FindProperty("title");
         packTitle = serializedObject.FindProperty("packTitle");
         levels = serializedObject.FindProperty("levels");
         cupImage = serializedObject.FindProperty("cupImage");
         state = serializedObject.FindProperty("state");
-        gamesContainer = serializedObject.FindProperty("gamesContainer");
+        infiniteFilters = serializedObject.FindProperty("infiniteFilters");
         desc = serializedObject.FindProperty("desc");
         packDesc = serializedObject.FindProperty("packDesc");
     }
 
     public override void OnInspectorGUI()
     {
-        //base.OnInspectorGUI();
         serializedObject.Update();
         EditorGUILayout.PropertyField(id);
         EditorGUILayout.PropertyField(title);
         EditorGUILayout.PropertyField(packTitle);
+        EditorGUILayout.PropertyField(levels);
         EditorGUILayout.PropertyField(cupImage);
         EditorGUILayout.PropertyField(state);
-        EditorGUILayout.PropertyField(gamesContainer);
+        EditorGUILayout.PropertyField(infiniteFilters);
         EditorGUILayout.PropertyField(desc);
         EditorGUILayout.PropertyField(packDesc);
         EditorGUILayout.Separator(); 

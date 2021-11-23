@@ -12,6 +12,9 @@ public class Translations : MonoBehaviour
 
     public string GetText(string id)
     {
+        if (!dictionary.ContainsKey(id))
+            return id;
+
         switch (currentLanguage)
         {
             case SystemLanguage.Spanish:

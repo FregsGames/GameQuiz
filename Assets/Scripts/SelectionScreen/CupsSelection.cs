@@ -127,7 +127,6 @@ public class CupsSelection : MonoBehaviour
         currentCupDropdown = null;
 
         loadingGame = true;
-        QuestionGenerator.Instance.CurrentGamesContainer = currentCup.gamesContainer;
 
         await menuManagerToGame.AnimatePanel();
         StartCoroutine(LoadGame());

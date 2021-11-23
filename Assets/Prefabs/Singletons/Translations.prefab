@@ -144,5 +144,14 @@ MonoBehaviour:
   - id: LevelCondition_Custom_Part2
     en: question(s) correctly to complete the level
     es: pregunta(s) correctamente para completar el nivel
+  - id: s_plat_not
+    en: You cannot play this game on
+    es: No puedes jugar a este juego en
+  - id: s_year_not
+    en: Game NOT from
+    es: "NO es un juego del a\xF1o"
+  - id: s_developedBy_not
+    en: Game NOT developed by
+    es: Juego NO desarrollado por
   currentLanguage: 34
   availableLanguages: 220000000a000000

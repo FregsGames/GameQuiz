@@ -5,7 +5,7 @@ using static Levels;
 
 public class LevelButton : MonoBehaviour
 {
-    public LevelScriptable Level { get; set; }
+    public LevelScriptableC Level { get; set; }
 
     public Action<LevelButton> OnClick;
 

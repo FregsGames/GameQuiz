@@ -445,7 +445,7 @@ PrefabInstance:
     - target: {fileID: 7115009121114643736, guid: ccb2995c1e8607f4c84222dcafb79493, type: 3}
       propertyPath: cups.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: dfef8e78c38f3614e83841020a05dd61, type: 2}
+      objectReference: {fileID: 11400000, guid: 98ddf941e37b99c4c88897d9e6fb67aa, type: 2}
     - target: {fileID: 7115009121114643736, guid: ccb2995c1e8607f4c84222dcafb79493, type: 3}
       propertyPath: cups.Array.data[1]
       value: 
@@ -687,6 +687,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: QuestionGenerator
       objectReference: {fileID: 0}
+    - target: {fileID: 4696881610412535532, guid: d68c72f1a76cb0c41b094a5856c217fb, type: 3}
+      propertyPath: gamesDB
+      value: 
+      objectReference: {fileID: 11400000, guid: 1f02ddc948da9854591828b272670839, type: 2}
     - target: {fileID: 4696881610412535533, guid: d68c72f1a76cb0c41b094a5856c217fb, type: 3}
       propertyPath: m_RootOrder
       value: 1

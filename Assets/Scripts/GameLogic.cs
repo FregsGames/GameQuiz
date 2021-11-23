@@ -25,20 +25,15 @@ public class GameLogic : MonoBehaviour
     private float timePerQuestion;
 
     private List<Question> questions;
-    private LevelScriptable currentLevel;
+    private LevelScriptableC currentLevel;
     private CupScriptable currentCup;
 
     void Start()
     {
         gameUI = FindObjectOfType<GameUI>();
-
-        /*currentQuestion = questionGenerator.GetRandomGenericQuestion(3);
-        gameUI.Initialize(timePerQuestion);
-
-        gameUI.SetQuestion(currentQuestion);*/
     }
 
-    public void StartGame(LevelScriptable level, List<Question> questions, float timePerQuestion = 20f)
+    public void StartGame(LevelScriptableC level, List<Question> questions, float timePerQuestion = 20f)
     {
         endless = false;
 
@@ -60,8 +55,7 @@ public class GameLogic : MonoBehaviour
         endless = true;
         gameUI.Initialize(0);
 
-        currentQuestion = QuestionGenerator.Instance.GetRandomGenericQuestion(
-            currentCup.levels[UnityEngine.Random.Range(0, currentCup.levels.Count)]);
+        currentQuestion = QuestionGenerator.Instance.GetRandomGenericQuestion(currentCup.infiniteFilters);
 
         gameUI.SetQuestion(currentQuestion);
     }
@@ -158,8 +152,7 @@ public class GameLogic : MonoBehaviour
     {
         if (endless)
         {
-            currentQuestion = QuestionGenerator.Instance.GetRandomGenericQuestion(
-            currentCup.levels[UnityEngine.Random.Range(0, currentCup.levels.Count)]);
+            currentQuestion = QuestionGenerator.Instance.GetRandomGenericQuestion(currentCup.infiniteFilters);
 
             gameUI.SetQuestion(currentQuestion);
             gameUI.TriggerQuestion();

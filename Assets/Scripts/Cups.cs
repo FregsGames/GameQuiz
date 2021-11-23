@@ -28,7 +28,7 @@ public class Cups : Singleton<Cups>
         }
     }
 
-    public bool CheckUnlocks(LevelScriptable level)
+    public bool CheckUnlocks(LevelScriptableC level)
     {
         SaveManager.instance.Save(level.id, (int)LevelState.completed);
 

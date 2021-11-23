@@ -6,267 +6,397 @@ namespace Questions
 {
     public class QuestionGenerator : Singleton<QuestionGenerator>
     {
-        public GamesContainer CurrentGamesContainer { get; set; }
-        public CompaniesContainer CurrentCompaniesContainer { get; set; }
         [SerializeField]
-        private PlatformsContainer platformsDB;
+        private GamesC gamesDB;
 
-        private void SetGamesContainer(GamesContainer gamesContainer)
-        {
-            CurrentGamesContainer = gamesContainer;
-        }
+        System.Random rnd = new System.Random();
 
-        public Question FromTemplate(QuestionTemplate template, LevelScriptable level)
+        public Question FromTemplate(QuestionTemplate template, List<GameFilter> filters, List<string> answersToExlude)
         {
             Question question = null;
 
             switch (template.ContentType)
             {
                 case QuestionTemplate.QuestionContent.fromYear:
-                    question = GameFromYear(level.years);
+                    question = GameFromYear(filters, answersToExlude: answersToExlude);
                     break;
                 case QuestionTemplate.QuestionContent.fromPlatform:
-                    question = GameFromPlatform(level.platforms.Select(p => p.platform).ToList());
+                    question = GameFromPlatform(filters, answersToExlude: answersToExlude);
                     break;
                 case QuestionTemplate.QuestionContent.fromCompany:
-                    IEnumerable<CompanyTuple> enumerable = level.companies.Where(c => c.counter >= 3);
-                    IEnumerable<int> selection = enumerable.Select(p => p.company.id);
-                    question = GameFromCompany(selection.ToList());
+                    question = GameFromCompany(filters, answersToExlude: answersToExlude);
                     break;
                 case QuestionTemplate.QuestionContent.notFromYear:
-                    question = GameNotFromYear();
+                    question = GameFromYear(filters, true, answersToExlude: answersToExlude);
                     break;
                 case QuestionTemplate.QuestionContent.notFromPlatform:
-                    question = GameNotFromPlatform();
+                    question = GameFromPlatform(filters, true, answersToExlude: answersToExlude);
                     break;
-                case QuestionTemplate.QuestionContent.notFromCompany: // NOT USED
-                    IEnumerable<CompanyTuple> enumerable1 = level.companies.Where(c => c.counter >= 3);
-                    IEnumerable<int> selection1 = enumerable1.Select(p => p.company.id);
-                    question = GameFromCompany(selection1.ToList());
+                case QuestionTemplate.QuestionContent.notFromCompany:
+                    question = GameFromCompany(filters, true, answersToExlude: answersToExlude);
                     break;
             }
             return question;
         }
 
-        public Question GetRandomGenericQuestion(LevelScriptable level)
+        public Question GetRandomGenericQuestion(List<GameFilter> filters)
         {
             var random = Random.Range(0, 3);
 
             switch (random)
             {
                 case 0:
-                    return GameFromYear(level.years);
+                    return GameFromYear(filters);
                 case 1:
-                    return GameFromPlatform(level.platforms.Select(p => p.platform).ToList());
+                    return GameFromPlatform(filters);
                 default:
-                    return GameFromCompany(level.companies.Where(c => c.counter >= 1).Select(p => p.company.id).ToList());
+                    return GameFromCompany(filters);
             }
         }
 
-        public Question GameFromYear(List<int> years, int options = 4)
+        public Question GameFromYear(List<GameFilter> filters, bool inverseQuestion = false, List<string> answersToExlude = null)
         {
-            List<int> validYears = new List<int>();
+            List<GameC> filteredGamesForAnswer, filteredGamesForOtherOptions;
+            GetFilteredListsOfGames(filters, out filteredGamesForAnswer, out filteredGamesForOtherOptions);
 
-            if (years != null)
+            Dictionary<int, int> years = GetYearsFromGames(filteredGamesForAnswer);
+
+            int year = 0;
+            string correctAnswer = "";
+            List<string> otherOptions = new List<string>();
+            string statement = "";
+
+            if (inverseQuestion)
             {
-                validYears = years;
-            }
-            else
-            {
-                validYears = CurrentGamesContainer.Years().Keys.ToList();
-            }
-
-            int year = validYears[Random.Range(0, validYears.Count)];
-
-            Game correctAnswer = CurrentGamesContainer.GetRandomGameFromYear(year, searchOnThatYear: true);
-            List<Game> otherOptions = new List<Game>();
-
-            for (int i = 1; i < options; i++)
-            {
-                Game other = CurrentGamesContainer.GetRandomGameFromYear(year, searchOnThatYear: false, otherOptions.Select(g => g.id).ToArray());
-                otherOptions.Add(other);
-            }
-            string statement = Translations.instance.GetText("s_year_0");
-
-            return new Question("", $"{statement} {year}", correctAnswer.name, otherOptions.Select(g => g.name).ToList());
-        }
-
-        public Question GameFromPlatform(List<int> platforms, int options = 4)
-        {
-            List<int> validPlats = new List<int>();
-
-            if (platforms != null)
-            {
-                validPlats = platforms;
-            }
-            else
-            {
-                validPlats = CurrentGamesContainer.Platforms().Keys.ToList();
-            }
-
-            bool platformObtained = false;
-            int platform = 0;
-            int tries = 0;
-            Game correctAnswer = new Game();
-            List<Game> otherOptions = new List<Game>();
-
-            validPlats = validPlats.Where(v => platformsDB.allPlatforms.FirstOrDefault(p => p.id == v) != null).ToList();
-
-            while (!platformObtained && tries < 20)
-            {
-                platform = validPlats[Random.Range(0, validPlats.Count)];
-
-                correctAnswer = CurrentGamesContainer.GetFromPlatform(platform, true);
-                platformObtained = true;
-
-                for (int i = 1; i < options; i++)
+                List<int> validYears = years.Where(y => y.Value >= 3).Select(x => x.Key).ToList();
+                if (validYears == null || validYears.Count == 0)
                 {
-                    Game other = CurrentGamesContainer.GetFromPlatform(platform, searchOnThatPlatform: false, otherOptions.Select(g => g.id).ToArray());
-                    if (other == null)
+                    Debug.Log("Not enough games to do an inverse question.");
+                    year = years.Keys.ToList()[Random.Range(0, years.Keys.Count)];
+
+                    rnd = new System.Random();
+
+                    if(answersToExlude != null)
                     {
-                        otherOptions.Clear();
-                        platformObtained = false;
-                        tries++;
-                        break;
-                    }
-                    else
-                    {
-                        otherOptions.Add(other);
+                        if(filteredGamesForAnswer.Where(g => !answersToExlude.Contains(g.name)).ToList().Count == 0)
+                        {
+                            Debug.LogError("Cannot exclude answer on game from year, getting duplicated question");
+                        }
+                        else
+                        {
+                            filteredGamesForAnswer = filteredGamesForAnswer.Where(g => !answersToExlude.Contains(g.name)).ToList();
+                        }
                     }
 
-                }
-            }
-
-            if (otherOptions.Count == 0)
-            {
-                return null;
-            }
-
-            string statement = Translations.instance.GetText($"s_plat_{Random.Range(0, 2)}");
-
-            return new Question("", $"{statement} {platformsDB.GetName(platform)}", correctAnswer.name, otherOptions.Select(g => g.name).ToList());
-        }
-
-        public Question GameFromCompany(List<int> companies, int options = 4, int methodTries = 0)
-        {
-            List<int> validCompanies = new List<int>();
-
-            if (companies != null)
-            {
-                validCompanies = companies;
-            }
-            else
-            {
-                validCompanies = CurrentGamesContainer.Involved().Keys.ToList();
-            }
-
-            bool validCompanyGot = false;
-            int tries = 0;
-
-            int company = 0;
-            List<Involved_Company> involved = new List<Involved_Company>();
-
-            while (!validCompanyGot && tries < 20)
-            {
-                company = validCompanies[Random.Range(0, validCompanies.Count)];
-                involved = CurrentCompaniesContainer.involved_companies.Where(c => c.company == company && c.developer).ToList();
-                validCompanyGot = involved.Count > 0;
-
-                tries++;
-            }
-
-            if (!validCompanyGot)
-            {
-                if (methodTries < 10)
-                {
-                    int mTries = methodTries + 1;
-                    return GameFromCompany(companies, methodTries: mTries);
+                    correctAnswer = filteredGamesForAnswer.Where(g => g.year == year).OrderBy(x => rnd.Next()).Take(1).ToArray()[0].name;
+                    otherOptions = filteredGamesForOtherOptions.Where(g => g.year != year).OrderBy(x => rnd.Next()).Take(3).Select(g => g.name).ToList();
+                    statement = Translations.instance.GetText("s_year_0");
                 }
                 else
                 {
-                    return null;
+                    rnd = new System.Random();
+                    year = validYears[Random.Range(0, validYears.Count)];
+
+                    if (answersToExlude != null)
+                    {
+                        if (filteredGamesForOtherOptions.Where(g => !answersToExlude.Contains(g.name)).ToList().Count == 0)
+                        {
+                            Debug.LogError("Cannot exclude answer on game from year inverse, getting duplicated question");
+                        }
+                        else
+                        {
+                            filteredGamesForOtherOptions = filteredGamesForOtherOptions.Where(g => !answersToExlude.Contains(g.name)).ToList();
+                        }
+                    }
+
+                    correctAnswer = filteredGamesForOtherOptions.Where(g => g.year != year).OrderBy(x => rnd.Next()).Take(1).ToArray()[0].name;
+                    otherOptions = filteredGamesForAnswer.Where(g => g.year == year).OrderBy(x => rnd.Next()).Take(3).Select(g => g.name).ToList();
+                    statement = Translations.instance.GetText("s_year_not");
+                }
+            }
+            else
+            {
+                year = years.Keys.ToList()[Random.Range(0, years.Keys.Count)];
+
+                rnd = new System.Random();
+
+                if (answersToExlude != null)
+                {
+                    if (filteredGamesForAnswer.Where(g => !answersToExlude.Contains(g.name)).ToList().Count == 0)
+                    {
+                        Debug.LogError("Cannot exclude answer on game from year, getting duplicated question");
+                    }
+                    else
+                    {
+                        filteredGamesForAnswer = filteredGamesForAnswer.Where(g => !answersToExlude.Contains(g.name)).ToList();
+                    }
+                }
+
+                correctAnswer = filteredGamesForAnswer.Where(g => g.year == year).OrderBy(x => rnd.Next()).Take(1).ToArray()[0].name;
+                otherOptions = filteredGamesForOtherOptions.Where(g => g.year != year).OrderBy(x => rnd.Next()).Take(3).Select(g => g.name).ToList();
+                statement = Translations.instance.GetText("s_year_0");
+            }
+
+            return new Question("", $"{statement} {year}", correctAnswer, otherOptions);
+        }
+
+        private void GetFilteredListsOfGames(List<GameFilter> filters, out List<GameC> filteredGamesForAnswer, out List<GameC> filteredGamesForOtherOptions)
+        {
+            filteredGamesForAnswer = new List<GameC>(gamesDB.gamesC);
+            filteredGamesForOtherOptions = new List<GameC>(gamesDB.gamesC);
+            foreach (var filter in filters)
+            {
+                filteredGamesForAnswer = filter.Filter(filteredGamesForAnswer);
+
+                if (filter.otherOptionsUseFilter)
+                {
+                    filteredGamesForOtherOptions = filter.Filter(filteredGamesForOtherOptions);
+                }
+            }
+        }
+
+        private static Dictionary<int, int> GetYearsFromGames(List<GameC> filteredGames)
+        {
+            Dictionary<int, int> years = new Dictionary<int, int>();
+
+            foreach (var game in filteredGames)
+            {
+                if (years.ContainsKey(game.year))
+                {
+                    years[game.year] = years[game.year] + 1;
+                }
+                else
+                {
+                    years.Add(game.year, 1);
                 }
             }
 
-            Game correctAnswer = CurrentGamesContainer.GetFromCompany(involved, true);
-            List<Game> otherOptions = new List<Game>();
-
-            for (int i = 1; i < options; i++)
-            {
-                Game other = CurrentGamesContainer.GetFromCompany(involved, false, otherOptions);
-                otherOptions.Add(other);
-            }
-
-            string statement = Translations.instance.GetText("s_developedBy_0");
-
-            return new Question("", $"{statement} {CurrentCompaniesContainer.GetName(company)}", correctAnswer.name, otherOptions.Select(g => g.name).ToList());
+            return years;
         }
 
-
-        public Question GameNotFromYear(int options = 4, int difficulty = 1)
+        public Question GameFromPlatform(List<GameFilter> filters, bool inverseQuestion = false, List<string> answersToExlude = null)
         {
-            List<int> years = CurrentGamesContainer.Years().Where(y => y.Value >= options).Select(yr => yr.Key).ToList();
+            List<GameC> filteredGamesForAnswer, filteredGamesForOtherOptions;
+            GetFilteredListsOfGames(filters, out filteredGamesForAnswer, out filteredGamesForOtherOptions);
 
-            int year = years[Random.Range(0, years.Count)];
+            Dictionary<string, int> platforms = GetPlatformsFromGames(filteredGamesForAnswer);
 
-            List<Game> gamesFromYear = CurrentGamesContainer.GetXGamesFromYearX(options - 1, year);
-
-            if (gamesFromYear.Count == 0)
-                return null;
-
-            Game correctAnswer = CurrentGamesContainer.GetRandomGameFromYear(year, searchOnThatYear: false);
-
-
-            return new Question("", $"Game NOT from {year}", correctAnswer.name, gamesFromYear.Select(s => s.name).ToList());
-        }
-
-        public Question GameFromPlatform(int options = 4, int minimumGames = 1, int difficulty = 1)
-        {
-            List<int> allPlatforms = CurrentGamesContainer.Platforms().Where(c => c.Value >= minimumGames).Select(yr => yr.Key).ToList();
-            int platformID = allPlatforms[Random.Range(0, allPlatforms.Count)];
-
-            Platform platform = platformsDB.allPlatforms.FirstOrDefault(p => p.id == platformID);
-
-            Game[] potentialAnswers = CurrentGamesContainer.allGames.Where(g => g.platforms.Contains(platform.id)).ToArray();
-
-            Game correctAnswer = potentialAnswers[Random.Range(0, potentialAnswers.Length)];
-
+            string plat = "";
+            string correctAnswer = "";
             List<string> otherOptions = new List<string>();
+            string statement = "";
 
-            for (int i = 0; i < options; i++)
+            if (inverseQuestion)
             {
-                otherOptions.Add(CurrentGamesContainer.GetFromPlatform(platform.id, searchOnThatPlatform: false).name); // could be the same
+                List<string> validPlats = platforms.Where(y => y.Value >= 3).Select(x => x.Key).ToList();
+                if (validPlats == null || validPlats.Count == 0)
+                {
+                    Debug.Log("Not enough games to do an inverse platform question.");
+                    plat = platforms.Keys.ToList()[Random.Range(0, platforms.Keys.Count)];
+
+                    rnd = new System.Random();
+
+                    if (answersToExlude != null)
+                    {
+                        if (filteredGamesForAnswer.Where(g => !answersToExlude.Contains(g.name)).ToList().Count == 0)
+                        {
+                            Debug.LogError("Cannot exclude answer on game from plat, getting duplicated question");
+                        }
+                        else
+                        {
+                            filteredGamesForAnswer = filteredGamesForAnswer.Where(g => !answersToExlude.Contains(g.name)).ToList();
+                        }
+                    }
+
+                    correctAnswer = filteredGamesForAnswer.Where(g => g.plats.Contains(plat)).OrderBy(x => rnd.Next()).Take(1).ToArray()[0].name;
+                    otherOptions = filteredGamesForOtherOptions.Where(g => !g.plats.Contains(plat)).OrderBy(x => rnd.Next()).Take(3).Select(g => g.name).ToList();
+
+                    statement = Translations.instance.GetText("s_plat_1");
+                }
+                else
+                {
+                    rnd = new System.Random();
+
+                    if (answersToExlude != null)
+                    {
+                        if (filteredGamesForOtherOptions.Where(g => !answersToExlude.Contains(g.name)).ToList().Count == 0)
+                        {
+                            Debug.LogError("Cannot exclude answer on game from platform inverse, getting duplicated question");
+                        }
+                        else
+                        {
+                            filteredGamesForOtherOptions = filteredGamesForOtherOptions.Where(g => !answersToExlude.Contains(g.name)).ToList();
+                        }
+                    }
+
+                    plat = validPlats[Random.Range(0, validPlats.Count)];
+
+                    correctAnswer = filteredGamesForOtherOptions.Where(g => !g.plats.Contains(plat)).OrderBy(x => rnd.Next()).Take(1).ToArray()[0].name;
+                    otherOptions = filteredGamesForAnswer.Where(g => g.plats.Contains(plat)).OrderBy(x => rnd.Next()).Take(3).Select(g => g.name).ToList();
+
+                    statement = Translations.instance.GetText("s_plat_not");
+                }
+            }
+            else
+            {
+                plat = platforms.Keys.ToList()[Random.Range(0, platforms.Keys.Count)];
+
+                rnd = new System.Random();
+
+                if (answersToExlude != null)
+                {
+                    if (filteredGamesForAnswer.Where(g => !answersToExlude.Contains(g.name)).ToList().Count == 0)
+                    {
+                        Debug.LogError("Cannot exclude answer on game from plat, getting duplicated question");
+                    }
+                    else
+                    {
+                        filteredGamesForAnswer = filteredGamesForAnswer.Where(g => !answersToExlude.Contains(g.name)).ToList();
+                    }
+                }
+
+                correctAnswer = filteredGamesForAnswer.Where(g => g.plats.Contains(plat)).OrderBy(x => rnd.Next()).Take(1).ToArray()[0].name;
+                otherOptions = filteredGamesForOtherOptions.Where(g => !g.plats.Contains(plat)).OrderBy(x => rnd.Next()).Take(3).Select(g => g.name).ToList();
+
+                statement = Translations.instance.GetText("s_plat_1");
             }
 
-            return new Question("", $"{platform.name} game", correctAnswer.name, otherOptions);
+
+            return new Question("", $"{statement} {plat}", correctAnswer, otherOptions);
         }
 
-        public Question GameNotFromPlatform(int options = 4, int minimumGames = 1, int difficulty = 1)
+        private Dictionary<string, int> GetPlatformsFromGames(List<GameC> filteredGames)
         {
-            Game correctAnswer = null;
-            List<Game> gamesForPlatform = new List<Game>();
-            int platform = -1;
-            int tries = 0;
+            Dictionary<string, int> platforms = new Dictionary<string, int>();
 
-            while (correctAnswer == null && tries < 20)
+            foreach (var game in filteredGames)
             {
-                List<int> platforms = CurrentGamesContainer.Platforms().Where(p => p.Value >= options).Select(plt => plt.Key).ToList();
-
-                platforms = platforms.Where(v => platformsDB.allPlatforms.FirstOrDefault(p => p.id == v) != null).ToList();
-
-                platform = platforms[Random.Range(0, platforms.Count)];
-
-               gamesForPlatform = CurrentGamesContainer.GetXGamesFromPlafformX(options - 1, platform);
-
-                if (gamesForPlatform.Count == 0)
-                    return null;
-
-                correctAnswer = CurrentGamesContainer.GetRandomGameNotForPlaform(platform);
-
+                foreach (var plat in game.plats)
+                {
+                    if (platforms.ContainsKey(plat))
+                    {
+                        platforms[plat] = platforms[plat] + 1;
+                    }
+                    else
+                    {
+                        platforms.Add(plat, 1);
+                    }
+                }
             }
 
-            string platName = platformsDB.allPlatforms.FirstOrDefault(p => p.id == platform).name;
-            return new Question("", $"Game NOT playeable in {platName}", correctAnswer.name, gamesForPlatform.Select(s => s.name).ToList());
+            return platforms;
         }
+
+        public Question GameFromCompany(List<GameFilter> filters, bool inverseQuestion = false, List<string> answersToExlude = null)
+        {
+            List<GameC> filteredGamesForAnswer, filteredGamesForOtherOptions;
+            GetFilteredListsOfGames(filters, out filteredGamesForAnswer, out filteredGamesForOtherOptions);
+
+            Dictionary<string, int> companies = GetCompaniesFromGames(filteredGamesForAnswer);
+
+            string comp = "";
+            string correctAnswer = "";
+            List<string> otherOptions = new List<string>();
+            string statement = "";
+
+            if (inverseQuestion)
+            {
+                List<string> validPlats = companies.Where(y => y.Value >= 3).Select(x => x.Key).ToList();
+                if (validPlats == null || validPlats.Count == 0)
+                {
+                    Debug.Log("Not enough games to do an inverse platform question.");
+                    comp = companies.Keys.ToList()[Random.Range(0, companies.Keys.Count)];
+
+                    rnd = new System.Random();
+
+                    if (answersToExlude != null)
+                    {
+                        if (filteredGamesForAnswer.Where(g => !answersToExlude.Contains(g.name)).ToList().Count == 0)
+                        {
+                            Debug.LogError("Cannot exclude answer on game from comp, getting duplicated question");
+                        }
+                        else
+                        {
+                            filteredGamesForAnswer = filteredGamesForAnswer.Where(g => !answersToExlude.Contains(g.name)).ToList();
+                        }
+                    }
+
+                    correctAnswer = filteredGamesForAnswer.Where(g => g.devs.Contains(comp)).OrderBy(x => rnd.Next()).Take(1).ToArray()[0].name;
+                    otherOptions = filteredGamesForOtherOptions.Where(g => !g.devs.Contains(comp)).OrderBy(x => rnd.Next()).Take(3).Select(g => g.name).ToList();
+
+                    statement = Translations.instance.GetText("s_developedBy_0");
+                }
+                else
+                {
+                    rnd = new System.Random();
+                    comp = validPlats[Random.Range(0, validPlats.Count)];
+
+                    if (answersToExlude != null)
+                    {
+                        if (filteredGamesForOtherOptions.Where(g => !answersToExlude.Contains(g.name)).ToList().Count == 0)
+                        {
+                            Debug.LogError("Cannot exclude answer on game from comp, getting duplicated question");
+                        }
+                        else
+                        {
+                            filteredGamesForOtherOptions = filteredGamesForOtherOptions.Where(g => !answersToExlude.Contains(g.name)).ToList();
+                        }
+                    }
+
+                    correctAnswer = filteredGamesForOtherOptions.Where(g => !g.devs.Contains(comp)).OrderBy(x => rnd.Next()).Take(1).ToArray()[0].name;
+                    otherOptions = filteredGamesForAnswer.Where(g => g.devs.Contains(comp)).OrderBy(x => rnd.Next()).Take(3).Select(g => g.name).ToList();
+
+                    statement = Translations.instance.GetText("s_developedBy_not");
+                }
+            }
+            else
+            {
+                comp = companies.Keys.ToList()[Random.Range(0, companies.Keys.Count)];
+
+                rnd = new System.Random();
+
+                if (answersToExlude != null)
+                {
+                    if (filteredGamesForAnswer.Where(g => !answersToExlude.Contains(g.name)).ToList().Count == 0)
+                    {
+                        Debug.LogError("Cannot exclude answer on game from comp, getting duplicated question");
+                    }
+                    else
+                    {
+                        filteredGamesForAnswer = filteredGamesForAnswer.Where(g => !answersToExlude.Contains(g.name)).ToList();
+                    }
+                }
+
+                correctAnswer = filteredGamesForAnswer.Where(g => g.devs.Contains(comp)).OrderBy(x => rnd.Next()).Take(1).ToArray()[0].name;
+                otherOptions = filteredGamesForOtherOptions.Where(g => !g.devs.Contains(comp)).OrderBy(x => rnd.Next()).Take(3).Select(g => g.name).ToList();
+
+                statement = Translations.instance.GetText("s_developedBy_0");
+            }
+
+            return new Question("", $"{statement} {comp}", correctAnswer, otherOptions);
+        }
+
+        private Dictionary<string, int> GetCompaniesFromGames(List<GameC> filteredGames)
+        {
+            Dictionary<string, int> companies = new Dictionary<string, int>();
+
+            foreach (var game in filteredGames)
+            {
+                foreach (var dev in game.devs)
+                {
+                    if (companies.ContainsKey(dev))
+                    {
+                        companies[dev] = companies[dev] + 1;
+                    }
+                    else
+                    {
+                        companies.Add(dev, 1);
+                    }
+                }
+            }
+
+            return companies;
+        }
+
     }
 }

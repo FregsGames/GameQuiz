@@ -46,7 +46,7 @@ public class LevelSelectionScreen : MonoBehaviour
 
     private List<LevelButton> buttons = new List<LevelButton>();
 
-    private LevelScriptable currentSelectedLevel;
+    private LevelScriptableC currentSelectedLevel;
 
     private QuestionGenerator questionGenerator;
 
@@ -221,12 +221,7 @@ public class LevelSelectionScreen : MonoBehaviour
 
         List<string> toExclude = new List<string>();
 
-        questionGenerator.CurrentCompaniesContainer = currentSelectedLevel.companiesContainer;
-        questionGenerator.CurrentGamesContainer = currentSelectedLevel.gamesContainer;
-
-
         int i = 0;
-
 
         foreach (var questionTemplate in currentSelectedLevel.questionTemplates)
         {
@@ -243,19 +238,20 @@ public class LevelSelectionScreen : MonoBehaviour
                 int tries = 0;
                 while ((question == null || (questions.FirstOrDefault(q => q.CorrectAnswer == question.CorrectAnswer) != null)) && tries < 20)
                 {
-                    question = questionGenerator.FromTemplate(questionTemplate, currentSelectedLevel);
+                    question = questionGenerator.FromTemplate(questionTemplate, currentSelectedLevel.filters, toExclude);
                     tries++;
                 }
 
                 if(question == null)
                 {
                     Debug.LogError($"Couldn't get a question from template: {questionTemplate.ContentType}, generating generic.");
-                    question = questionGenerator.GetRandomGenericQuestion(currentSelectedLevel);
+                    question = questionGenerator.GetRandomGenericQuestion(currentSelectedLevel.filters);
                 }
 
             }
             i++;
             questions.Add(question);
+            toExclude.Add(question.CorrectAnswer);
         }
 
         return questions;
