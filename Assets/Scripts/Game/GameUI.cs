@@ -36,6 +36,9 @@ public class GameUI : MonoBehaviour
 
     private IAPManager iAPManager;
 
+    [SerializeField]
+    private RewardVideoPanel rewardVideoPanel;
+
     private void Start()
     {
         iAPManager = IAPManager.Instance;
@@ -71,7 +74,7 @@ public class GameUI : MonoBehaviour
 
     private void LoadAd()
     {
-        if (iAPManager != null && iAPManager.showAds)
+        if (iAPManager != null && iAPManager.showAds && !AdsManager.Instance.RewardActive())
         {
             AdsManager.Instance.LoadAd();
         }
@@ -140,9 +143,17 @@ public class GameUI : MonoBehaviour
 
     private void ShowAd()
     {
-        if (iAPManager != null && iAPManager.showAds)
+        if (iAPManager != null && iAPManager.showAds && !AdsManager.Instance.RewardActive())
         {
-            AdsManager.Instance.ShowAd();
+            if (AdsManager.Instance.NoAdsPanelDiscarded)
+            {
+                AdsManager.Instance.ShowAd();
+            }
+            else
+            {
+                AdsManager.Instance.LoadRewarded();
+                rewardVideoPanel.ShowPanel();
+            }
         }
     }
 

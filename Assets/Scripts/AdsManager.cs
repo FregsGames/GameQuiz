@@ -14,13 +14,31 @@ public class AdsManager : Singleton<AdsManager>, IUnityAdsLoadListener, IUnityAd
 
     [SerializeField] string _androidAdUnitId = "Interstitial_Android";
     [SerializeField] string _iOsAdUnitId = "Interstitial_iOS";
+    private string _rewardedAndroid = "Rewarded_Android";
+    private string _rewardedIOS = "Rewarded_iOS";
+
     string _adUnitId;
+    string _adRewarded;
+
+    private float lastTimeRewardedVideo;
+
+    private bool rewardActive = false;
+
+    [SerializeField]
+    private int noAdsMinutesReward = 1;
+
+    public bool NoAdsPanelDiscarded { get; set; } = false;
+
 
     private void Start()
     {
         _adUnitId = (Application.platform == RuntimePlatform.IPhonePlayer)
             ? _iOsAdUnitId
             : _androidAdUnitId;
+
+        _adRewarded = (Application.platform == RuntimePlatform.IPhonePlayer)
+            ? _rewardedIOS
+            : _rewardedAndroid;
 
         InitializeAds();
     }
@@ -51,6 +69,19 @@ public class AdsManager : Singleton<AdsManager>, IUnityAdsLoadListener, IUnityAd
         Advertisement.Load(_adUnitId, this);
     }
 
+    public void LoadRewarded()
+    {
+        Advertisement.Load(_adRewarded, this);
+    }
+
+    public void ShowRewarded()
+    {
+        Debug.Log("Showing Ad: " + _adRewarded);
+        rewardActive = true;
+        lastTimeRewardedVideo = Time.time;
+        Advertisement.Show(_adRewarded, this);
+    }
+
     // Show the loaded content in the Ad Unit: 
     public void ShowAd()
     {
@@ -79,5 +110,26 @@ public class AdsManager : Singleton<AdsManager>, IUnityAdsLoadListener, IUnityAd
 
     public void OnUnityAdsShowStart(string adUnitId) { }
     public void OnUnityAdsShowClick(string adUnitId) { }
-    public void OnUnityAdsShowComplete(string adUnitId, UnityAdsShowCompletionState showCompletionState) { }
+    public void OnUnityAdsShowComplete(string adUnitId, UnityAdsShowCompletionState showCompletionState)
+    {
+        if (adUnitId.Equals(_adRewarded) && showCompletionState.Equals(UnityAdsShowCompletionState.COMPLETED))
+        {
+            Debug.Log("Unity Ads Rewarded Ad Completed");
+            rewardActive = true;
+            lastTimeRewardedVideo = Time.time;
+        }
+    }
+
+    public bool RewardActive()
+    {
+        if (!rewardActive)
+        {
+            return false;
+        }
+        else
+        {
+            rewardActive = lastTimeRewardedVideo + noAdsMinutesReward * 60 >= Time.time;
+            return rewardActive;
+        }
+    }
 }

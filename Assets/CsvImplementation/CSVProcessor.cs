@@ -120,5 +120,35 @@ public class CSVProcessor : EditorWindow
             if (devs[i].Contains("Ubisfot"))
                 devs[i] = "Ubisfot";
         }
+
+        for (int i = 0; i < devs.Length; i++)
+        {
+            if (devs[i].Contains("Sega"))
+                devs[i] = "Sega";
+        }
+
+        for (int i = 0; i < devs.Length; i++)
+        {
+            if (devs[i].Contains("Sega"))
+                devs[i] = "Sega";
+        }
+
+        for (int i = 0; i < devs.Length; i++)
+        {
+            if (devs[i].Contains("EA"))
+                devs[i] = "Electronic Arts";
+        }
+
+        for (int i = 0; i < devs.Length; i++)
+        {
+            if (devs[i].Contains("Electronic Arts"))
+                devs[i] = "Electronic Arts";
+        }
+
+        for (int i = 0; i < devs.Length; i++)
+        {
+            if (devs[i].Contains("Konami"))
+                devs[i] = "Konami";
+        }
     }
 }

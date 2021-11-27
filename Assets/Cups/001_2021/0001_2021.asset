@@ -29,16 +29,25 @@ MonoBehaviour:
       Data: 1
     - Name: 
       Entry: 7
-      Data: 1|YearFilter, Assembly-CSharp
+      Data: 1|PlatformFilter, Assembly-CSharp
     - Name: otherOptionsUseFilter
       Entry: 5
       Data: false
-    - Name: from
-      Entry: 3
-      Data: 2021
-    - Name: to
-      Entry: 3
-      Data: 2022
+    - Name: platforms
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: Sega Saturn
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 8
       Data: 
