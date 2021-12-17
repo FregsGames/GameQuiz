@@ -52,6 +52,7 @@ public class CSVProcessor : EditorWindow
                 existingGame.year = game.year;
                 existingGame.devs = game.devs;
                 existingGame.plats = game.plats;
+                existingGame.pack = game.pack;
             }
         }
     }
@@ -76,10 +77,12 @@ public class CSVProcessor : EditorWindow
             plats[i] = plats[i].Trim('\r', ' ');
         }
 
+        string pack = gameInfo[4].Trim('\r', ' ');
+
         ReplaceDevNames(devs);
         ReplacePlats(devs, ref plats);
 
-        GameC game = new GameC(name, year, devs, plats);
+        GameC game = new GameC(name, year, devs, plats, pack);
         return game;
     }
 

@@ -440,7 +440,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7115009121114643736, guid: ccb2995c1e8607f4c84222dcafb79493, type: 3}
       propertyPath: cups.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7115009121114643736, guid: ccb2995c1e8607f4c84222dcafb79493, type: 3}
       propertyPath: cups.Array.data[0]
@@ -449,7 +449,7 @@ PrefabInstance:
     - target: {fileID: 7115009121114643736, guid: ccb2995c1e8607f4c84222dcafb79493, type: 3}
       propertyPath: cups.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: 35a9073cf6562ce4cbefaf21d64586ce, type: 2}
+      objectReference: {fileID: 11400000, guid: 69407ad2b00a855478bddca84ea2dfa6, type: 2}
     - target: {fileID: 7115009121114643736, guid: ccb2995c1e8607f4c84222dcafb79493, type: 3}
       propertyPath: cups.Array.data[2]
       value: 
@@ -548,6 +548,7 @@ MonoBehaviour:
   _enablePerPlacementMode: 1
   _androidAdUnitId: Interstitial_Android
   _iOsAdUnitId: Interstitial_iOS
+  noAdsMinutesReward: 1
 --- !u!4 &1114308452
 Transform:
   m_ObjectHideFlags: 0

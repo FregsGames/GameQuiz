@@ -41,7 +41,7 @@ namespace Questions
 
         public Question GetRandomGenericQuestion(List<GameFilter> filters)
         {
-            var random = Random.Range(0, 3);
+            var random = Random.Range(0, 6);
 
             switch (random)
             {
@@ -49,6 +49,12 @@ namespace Questions
                     return GameFromYear(filters);
                 case 1:
                     return GameFromPlatform(filters);
+                case 2:
+                    return GameFromCompany(filters, true);
+                case 3:
+                    return GameFromYear(filters, true);
+                case 4:
+                    return GameFromPlatform(filters, true);
                 default:
                     return GameFromCompany(filters);
             }
@@ -76,9 +82,9 @@ namespace Questions
 
                     rnd = new System.Random();
 
-                    if(answersToExlude != null)
+                    if (answersToExlude != null)
                     {
-                        if(filteredGamesForAnswer.Where(g => !answersToExlude.Contains(g.name)).ToList().Count == 0)
+                        if (filteredGamesForAnswer.Where(g => !answersToExlude.Contains(g.name)).ToList().Count == 0)
                         {
                             Debug.LogError("Cannot exclude answer on game from year, getting duplicated question");
                         }
@@ -144,6 +150,9 @@ namespace Questions
         {
             filteredGamesForAnswer = new List<GameC>(gamesDB.gamesC);
             filteredGamesForOtherOptions = new List<GameC>(gamesDB.gamesC);
+
+            filters.Add(new PackFilter());
+
             foreach (var filter in filters)
             {
                 filteredGamesForAnswer = filter.Filter(filteredGamesForAnswer);

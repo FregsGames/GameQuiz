@@ -190,6 +190,7 @@ MonoBehaviour:
   levelsTitleText: {fileID: 1158237003826765509}
   descText: {fileID: 2299179523517057420}
   levelsText: {fileID: 1158237004276672208}
+  levelsTitle: {fileID: 1158237003826765509}
   infiniteButton: {fileID: 1150258327342890295}
   playButton: {fileID: 8058380711050618097}
   buyButton: {fileID: 8375813498565781662}

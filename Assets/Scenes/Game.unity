@@ -982,6 +982,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 836341033888883722, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+      propertyPath: m_text
+      value: "\xBFEn la \xF3rbita de qu\xE9 planeta se desarrolla la acci\xF3n en
+        Disc Room?"
+      objectReference: {fileID: 0}
     - target: {fileID: 836341034112651871, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
       propertyPath: rewardVideoPanel
       value: 

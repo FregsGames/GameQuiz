@@ -28,6 +28,8 @@ public class CupDropdown : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI levelsText;
     [SerializeField]
+    private TextMeshProUGUI levelsTitle;
+    [SerializeField]
     private Button infiniteButton;
     [SerializeField]
     private Button playButton;
@@ -61,6 +63,20 @@ public class CupDropdown : MonoBehaviour
     public void Setup(CupScriptable cup)
     {
         Cup = cup;
+
+        if(cup.levels == null || cup.levels.Count == 0)
+        {
+            levelsText.gameObject.SetActive(false);
+            playButton.gameObject.SetActive(false);
+            levelsTitle.gameObject.SetActive(false);
+
+            RectTransform playButtonRect = playButton.GetComponent<RectTransform>();
+
+            infiniteButton.GetComponent<RectTransform>().anchorMin = new Vector2(0, playButtonRect.anchorMin.y);
+
+            cupName.GetComponent<RectTransform>().anchorMax = new Vector2(1f, 1f);
+        }
+
         levelsText.text = $"{cup.GetCompletedLevelsCount()}/{cup.levels.Count}";
         infiniteButton.interactable = cup.GetCompletedLevelsCount() == cup.levels.Count;
 

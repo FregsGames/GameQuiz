@@ -133,6 +133,7 @@ public class LangStringPair
 {
     [SerializeField]
     private SystemLanguage lang;
+    [TextArea]
     [SerializeField]
     private string text;
 

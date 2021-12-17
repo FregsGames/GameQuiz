@@ -58,3 +58,19 @@ public class PlatformFilter : GameFilter
     }
 }
 
+public class PackFilter : GameFilter
+{
+    public override List<GameC> Filter(List<GameC> raw)
+    {
+        if (IAPManager.Instance.IsInit)
+        {
+            return raw.Where(g => g.pack == "free" || IAPManager.Instance.BoughtPacks.Contains(g.pack)).ToList();
+        }
+        else
+        {
+            return raw.Where(g => g.pack == "free").ToList();
+        }
+
+    }
+}
+

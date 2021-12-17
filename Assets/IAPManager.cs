@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Purchasing;
@@ -22,23 +23,27 @@ public class IAPManager : Singleton<IAPManager>, IStoreListener
     public bool showAds = true;
     public bool ShowAds { get => showAds; set => showAds = value; }
 
+    public List<string> BoughtPacks { get; set; } = new List<string>();
+
     private void Start()
     {
         configurationBuilder = ConfigurationBuilder.Instance(StandardPurchasingModule.Instance());
-        configurationBuilder.AddProduct("test_product", ProductType.NonConsumable);
         configurationBuilder.AddProduct("remove_ads", ProductType.NonConsumable);
-        configurationBuilder.AddProduct("test_2", ProductType.NonConsumable);
-        configurationBuilder.AddProduct("test_3", ProductType.NonConsumable);
-        configurationBuilder.AddProduct("test_4", ProductType.NonConsumable);
-        configurationBuilder.AddProduct("pack_test_0", ProductType.NonConsumable);
+
+        configurationBuilder.AddProduct("cup_shuffle", ProductType.NonConsumable);
+
         UnityPurchasing.Initialize(this, configurationBuilder);
+
+        // NOTE: REMEMBER TO ADD THE NEW PACKS TO THE BOUGHT PACK LIST:
+
+        /*if (HasBought("pack"))
+        {
+            BoughtPacks.Add("pack");
+        }*/
 
         ShowAds = !HasBought("remove_ads");
     }
 
-    /// <summary>
-    /// Called when Unity IAP is ready to make purchases.
-    /// </summary>
     public void OnInitialized(IStoreController controller, IExtensionProvider extensions)
     {
         this.controller = controller;
