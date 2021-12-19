@@ -6,17 +6,19 @@ namespace Questions
     {
         public string Id { get; set; }
         public string Statement { get; set; }
+        public string Comparer { get; set; }
         public string CorrectAnswer { get; set; }
         public List<string> WrongOptions { get; set; }
         public bool Handwritten { get; set; }
 
-        public Question(string id, string statement, string correctAnswer, List<string> wrongOptions, bool handwritten = false)
+        public Question(string id, string statement, string correctAnswer, List<string> wrongOptions, bool handwritten = false, string comparer = "")
         {
             Id = id;
             Statement = statement;
             CorrectAnswer = correctAnswer;
             WrongOptions = wrongOptions;
             Handwritten = handwritten;
+            Comparer = comparer == ""? correctAnswer : comparer;
         }
 
     }

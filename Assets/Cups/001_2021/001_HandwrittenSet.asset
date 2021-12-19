@@ -13,6 +13,5 @@ MonoBehaviour:
   m_Name: 001_HandwrittenSet
   m_EditorClassIdentifier: 
   setId: 
-  questions:
-  - {fileID: 0}
+  questions: []
   langs: 

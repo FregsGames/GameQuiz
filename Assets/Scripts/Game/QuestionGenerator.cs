@@ -35,6 +35,12 @@ namespace Questions
                 case QuestionTemplate.QuestionContent.notFromCompany:
                     question = GameFromCompany(filters, true, answersToExlude: answersToExlude);
                     break;
+                case QuestionTemplate.QuestionContent.protagonists:
+                    question = ProtagonistFromGame(filters, answersToExlude: answersToExlude);
+                    break;
+                case QuestionTemplate.QuestionContent.notProtagonist:
+                    question = ProtagonistFromGame(filters, true, answersToExlude: answersToExlude);
+                    break;
             }
             return question;
         }
@@ -150,8 +156,6 @@ namespace Questions
         {
             filteredGamesForAnswer = new List<GameC>(gamesDB.gamesC);
             filteredGamesForOtherOptions = new List<GameC>(gamesDB.gamesC);
-
-            filters.Add(new PackFilter());
 
             foreach (var filter in filters)
             {
@@ -405,6 +409,81 @@ namespace Questions
             }
 
             return companies;
+        }
+
+        private Question ProtagonistFromGame(List<GameFilter> filters, bool inverseQuestion = false, List<string> answersToExlude = null)
+        {
+            List<GameC> filteredGamesForAnswer, filteredGamesForOtherOptions;
+            GetFilteredListsOfGames(filters, out filteredGamesForAnswer, out filteredGamesForOtherOptions);
+
+            filteredGamesForAnswer = filteredGamesForAnswer.Where(g => !g.protagonists.Contains("-")).ToList();
+            filteredGamesForOtherOptions = filteredGamesForOtherOptions.Where(g => !g.protagonists.Contains("-")).ToList();
+
+            string correctAnswer = "";
+            string game = "";
+            List<string> otherOptions = new List<string>();
+            rnd = new System.Random();
+
+            if (!inverseQuestion)
+            {
+                if (answersToExlude != null)
+                {
+
+                    if (filteredGamesForAnswer.Where(g => !answersToExlude.Contains(g.name)).ToList().Count == 0)
+                    {
+                        Debug.LogError("Cannot exclude answer on prot from game, getting duplicated question");
+                    }
+                    else
+                    {
+                        filteredGamesForAnswer = filteredGamesForAnswer.Where(g => !answersToExlude.Contains(g.name)).ToList();
+                    }
+                }
+
+                game = filteredGamesForAnswer.OrderBy(x => rnd.Next()).Take(1).ToArray()[0].name;
+
+                string[] protagonists = filteredGamesForAnswer.FirstOrDefault(g => g.name == game).protagonists;
+
+                correctAnswer = protagonists[Random.Range(0, protagonists.Length)];
+
+                var otherGames = filteredGamesForAnswer.Where(g => g.name != game).OrderBy(x => rnd.Next()).Take(3).ToArray();
+
+                foreach (var otherGame in otherGames)
+                {
+                    var otherProts = filteredGamesForAnswer.FirstOrDefault(g => g.name == otherGame.name).protagonists;
+                    otherOptions.Add(otherProts[Random.Range(0, otherProts.Length)]);
+                }
+
+            }
+            else
+            {
+                if (answersToExlude != null)
+                {
+                    if (filteredGamesForAnswer.Where(g => !answersToExlude.Contains(g.name)).ToList().Count == 0)
+                    {
+                        Debug.LogError("Cannot exclude answer on prot from game, getting duplicated question");
+                    }
+                    else
+                    {
+                        filteredGamesForAnswer = filteredGamesForAnswer.Where(g => !answersToExlude.Contains(g.name)).ToList();
+                    }
+                }
+
+                game = filteredGamesForAnswer.Where(g => g.protagonists.Length >= 3).OrderBy(x => rnd.Next()).Take(1).ToArray()[0].name;
+
+                otherOptions = filteredGamesForAnswer.FirstOrDefault(g => g.name == game).protagonists.OrderBy(y => rnd.Next()).Take(3).ToList();
+
+                bool otherOptionsHaveSameLength = otherOptions[0].Split(' ').Length == otherOptions[1].Split(' ').Length;
+                int length = otherOptionsHaveSameLength? otherOptions[2].Split(' ').Length : -1;
+
+                
+
+                correctAnswer = filteredGamesForAnswer.Where(g => g.name != game && (length > 0 ? g.protagonists.All(p => p.Split(' ').Length == length) : true)).OrderBy(x => rnd.Next()).Take(1).Select(x => x.protagonists[Random.Range(0,x.protagonists.Length)]).ToArray()[0];
+
+            }
+
+            string statement = Translations.instance.GetText(inverseQuestion? "s_notProtagonist_0" : "s_protagonist_0" );
+
+            return new Question("", $"{statement} {game}", correctAnswer, otherOptions, comparer: game);
         }
 
     }

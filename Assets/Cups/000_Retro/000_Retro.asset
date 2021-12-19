@@ -12,18 +12,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c71ec6c37f0556f4f82fa6aaaf792e52, type: 3}
   m_Name: 000_Retro
   m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: infiniteFilters
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[GameFilter, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
   id: 000_Retro
   title: cup_000_title
   packTitle: Retro Cup
   desc: cup_000_desc
   packDesc: cup_freeTestDesc
-  levels:
-  - {fileID: 11400000, guid: 5c37a6d694b36994babb1aa56bff4039, type: 2}
-  - {fileID: 11400000, guid: ab9d07313a947d34b9d44721cf52f9da, type: 2}
-  - {fileID: 11400000, guid: 11fb9de86447f9a42925537484f6f1a1, type: 2}
-  - {fileID: 11400000, guid: 119cfdba37155ea4598dab118d079662, type: 2}
-  - {fileID: 11400000, guid: 4ee4cc3e9f514d545b35caf5ec4b74b2, type: 2}
-  - {fileID: 11400000, guid: e500acfd5ba67f445aef95315398750e, type: 2}
+  levels: []
   cupImage: {fileID: 21300000, guid: 2230faa717739a845a208f45229809e8, type: 3}
   state: 0
-  gamesContainer: {fileID: 11400000, guid: 433efbee759c1124db441389cfc97942, type: 2}

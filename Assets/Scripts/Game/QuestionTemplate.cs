@@ -20,6 +20,8 @@ namespace Questions
             notFromYear = 5,
             notFromPlatform = 6,
             notFromCompany = 7,
+            protagonists = 8,
+            notProtagonist = 9
         }
 
         public CupScriptable cup { get; set; }

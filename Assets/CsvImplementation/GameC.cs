@@ -11,13 +11,15 @@ public class GameC
     public string[] devs;
     public string[] plats;
     public string pack;
+    public string[] protagonists;
 
-    public GameC(string name, int year, string[] devs, string[] plats, string pack)
+    public GameC(string name, int year, string[] devs, string[] plats, string pack, string[] protagonists)
     {
         this.name = name;
         this.year = year;
         this.devs = devs;
         this.plats = plats;
         this.pack = pack;
+        this.protagonists = protagonists;
     }
 }

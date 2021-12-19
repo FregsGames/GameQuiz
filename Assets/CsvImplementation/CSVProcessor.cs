@@ -53,6 +53,7 @@ public class CSVProcessor : EditorWindow
                 existingGame.devs = game.devs;
                 existingGame.plats = game.plats;
                 existingGame.pack = game.pack;
+                existingGame.protagonists = game.protagonists;
             }
         }
     }
@@ -79,10 +80,17 @@ public class CSVProcessor : EditorWindow
 
         string pack = gameInfo[4].Trim('\r', ' ');
 
+        string[] protagonists = gameInfo[5].Split('/');
+
+        for (int i = 0; i < protagonists.Length; i++)
+        {
+            protagonists[i] = protagonists[i].Trim('\r', ' ');
+        }
+
         ReplaceDevNames(devs);
         ReplacePlats(devs, ref plats);
 
-        GameC game = new GameC(name, year, devs, plats, pack);
+        GameC game = new GameC(name, year, devs, plats, pack, protagonists);
         return game;
     }
 
@@ -152,6 +160,12 @@ public class CSVProcessor : EditorWindow
         {
             if (devs[i].Contains("Konami"))
                 devs[i] = "Konami";
+        }
+
+        for (int i = 0; i < devs.Length; i++)
+        {
+            if (devs[i].Contains("Capcom"))
+                devs[i] = "Capcom";
         }
     }
 }

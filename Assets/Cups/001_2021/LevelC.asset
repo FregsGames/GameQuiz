@@ -29,25 +29,16 @@ MonoBehaviour:
       Data: 1
     - Name: 
       Entry: 7
-      Data: 1|PlatformFilter, Assembly-CSharp
+      Data: 1|YearFilter, Assembly-CSharp
     - Name: otherOptionsUseFilter
       Entry: 5
       Data: false
-    - Name: platforms
-      Entry: 7
-      Data: 2|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 1
-      Data: Sega Saturn
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
+    - Name: from
+      Entry: 3
+      Data: 2021
+    - Name: to
+      Entry: 3
+      Data: 2021
     - Name: 
       Entry: 8
       Data: 
@@ -61,11 +52,11 @@ MonoBehaviour:
   levelTitle: 2021 LEVEL 0 (To Translate)
   handwrittenQuestionSet: {fileID: 11400000, guid: 1f04864a676242641a4827b88679d22f, type: 2}
   questionTemplates:
-  - contentType: 7
-  - contentType: 1
-  - contentType: 3
-  - contentType: 5
-  - contentType: 6
+  - contentType: 9
+  - contentType: 9
+  - contentType: 9
+  - contentType: 8
+  - contentType: 8
   state: 2
   alwaysUnlocked: 1
   winCondition: 0

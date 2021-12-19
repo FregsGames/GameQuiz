@@ -251,7 +251,7 @@ public class LevelSelectionScreen : MonoBehaviour
             }
             i++;
             questions.Add(question);
-            toExclude.Add(question.CorrectAnswer);
+            toExclude.Add(question.Comparer);
         }
 
         return questions;

@@ -153,5 +153,11 @@ MonoBehaviour:
   - id: s_developedBy_not
     en: Game NOT developed by
     es: Juego NO desarrollado por
+  - id: s_protagonist_0
+    en: Personaje de
+    es: Main character from
+  - id: s_notProtagonist_0
+    en: No es un personaje de
+    es: Not a character from
   currentLanguage: 34
   availableLanguages: 220000000a000000
