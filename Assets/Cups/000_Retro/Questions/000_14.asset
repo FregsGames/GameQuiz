@@ -26,15 +26,15 @@ MonoBehaviour:
     langStringsList:
     - lang: 10
       texts:
-      - Zelda Ocarina of Time
-      - Super Mario 64
-      - Sin and Punishment
+      - "Ra\xFAl"
+      - Fernando Morientes
+      - Gaizka Mendieta
   statement:
     langStrings:
     - lang: 10
-      text: Puedes manejar un tanque en este videojuego
+      text: "\xBFQ\xFAe jugador de f\xFAtbol fue portada de Fifa 97?"
   correctAnswer:
     langStringsList:
     - lang: 10
       texts:
-      - GoldenEye 007
+      - David Ginola

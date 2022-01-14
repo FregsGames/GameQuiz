@@ -26,7 +26,37 @@ MonoBehaviour:
       Data: 0|System.Collections.Generic.List`1[[GameFilter, Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
-      Data: 0
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 1|PlatformFilter, Assembly-CSharp
+    - Name: otherOptionsUseFilter
+      Entry: 5
+      Data: false
+    - Name: platforms
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 1
+      Data: Sega Saturn
+    - Name: 
+      Entry: 1
+      Data: Nintendo 64
+    - Name: 
+      Entry: 1
+      Data: PlayStation
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -34,10 +64,16 @@ MonoBehaviour:
       Entry: 8
       Data: 
   id: 000_Retro
-  title: cup_000_title
-  packTitle: Retro Cup
-  desc: cup_000_desc
-  packDesc: cup_freeTestDesc
-  levels: []
-  cupImage: {fileID: 21300000, guid: 2230faa717739a845a208f45229809e8, type: 3}
+  title: c_00_title
+  packTitle: 000_Retro
+  desc: c_00_desc
+  packDesc: 000_Retro
+  levels:
+  - {fileID: 11400000, guid: c9596d92f13cb234a81cad80c8db8881, type: 2}
+  - {fileID: 11400000, guid: 64549c797d7615a4aac7c71383273776, type: 2}
+  - {fileID: 11400000, guid: 9e08a4c26aa7d9840a4c839179d3dd87, type: 2}
+  - {fileID: 11400000, guid: aa780c9f24eeed8419d3ebe6a60a72c8, type: 2}
+  - {fileID: 11400000, guid: 813a6d12dd13fb740a5fadfd0f183056, type: 2}
+  - {fileID: 11400000, guid: 62b5e204cb7e841448239093fa6d5ebf, type: 2}
+  cupImage: {fileID: -9116045626424859709, guid: 97df41ae28ce6634da2182ecf24935bc, type: 3}
   state: 0

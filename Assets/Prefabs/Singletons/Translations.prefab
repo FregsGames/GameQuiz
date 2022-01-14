@@ -159,5 +159,11 @@ MonoBehaviour:
   - id: s_notProtagonist_0
     en: No es un personaje de
     es: Not a character from
+  - id: c_01_title
+    en: 2021 Cup
+    es: Copa 2021
+  - id: c_01_desc
+    en: Questions about games released in 2021
+    es: Preguntas sobre juegos lanzados en 2021
   currentLanguage: 34
   availableLanguages: 220000000a000000

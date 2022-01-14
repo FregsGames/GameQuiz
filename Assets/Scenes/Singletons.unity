@@ -440,24 +440,28 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7115009121114643736, guid: ccb2995c1e8607f4c84222dcafb79493, type: 3}
       propertyPath: cups.Array.size
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7115009121114643736, guid: ccb2995c1e8607f4c84222dcafb79493, type: 3}
       propertyPath: cups.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: 98ddf941e37b99c4c88897d9e6fb67aa, type: 2}
+      objectReference: {fileID: 11400000, guid: dfef8e78c38f3614e83841020a05dd61, type: 2}
     - target: {fileID: 7115009121114643736, guid: ccb2995c1e8607f4c84222dcafb79493, type: 3}
       propertyPath: cups.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: 69407ad2b00a855478bddca84ea2dfa6, type: 2}
+      objectReference: {fileID: 11400000, guid: 98ddf941e37b99c4c88897d9e6fb67aa, type: 2}
     - target: {fileID: 7115009121114643736, guid: ccb2995c1e8607f4c84222dcafb79493, type: 3}
       propertyPath: cups.Array.data[2]
       value: 
-      objectReference: {fileID: 11400000, guid: 35a9073cf6562ce4cbefaf21d64586ce, type: 2}
+      objectReference: {fileID: 11400000, guid: a0dc8beb4f0844441a2b474886a2a210, type: 2}
     - target: {fileID: 7115009121114643736, guid: ccb2995c1e8607f4c84222dcafb79493, type: 3}
       propertyPath: cups.Array.data[3]
       value: 
-      objectReference: {fileID: 11400000, guid: 35a9073cf6562ce4cbefaf21d64586ce, type: 2}
+      objectReference: {fileID: 11400000, guid: 36e7bef2151f52a47b99f44c5467ae12, type: 2}
+    - target: {fileID: 7115009121114643736, guid: ccb2995c1e8607f4c84222dcafb79493, type: 3}
+      propertyPath: cups.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: 9a07c5692d9f3c44a80b9e5f3bc88715, type: 2}
     - target: {fileID: 7115009121114643737, guid: ccb2995c1e8607f4c84222dcafb79493, type: 3}
       propertyPath: m_Name
       value: CupContainer
@@ -630,6 +634,58 @@ PrefabInstance:
     - target: {fileID: 1453111500499754522, guid: 95994a43d449b06478c361619bb13ff3, type: 3}
       propertyPath: m_Name
       value: Translations
+      objectReference: {fileID: 0}
+    - target: {fileID: 1453111500499754523, guid: 95994a43d449b06478c361619bb13ff3, type: 3}
+      propertyPath: pieces.Array.size
+      value: 44
+      objectReference: {fileID: 0}
+    - target: {fileID: 1453111500499754523, guid: 95994a43d449b06478c361619bb13ff3, type: 3}
+      propertyPath: pieces.Array.data[40].en
+      value: Questions about game characters,
+      objectReference: {fileID: 0}
+    - target: {fileID: 1453111500499754523, guid: 95994a43d449b06478c361619bb13ff3, type: 3}
+      propertyPath: pieces.Array.data[40].es
+      value: Preguntas sobre personajes de videojuegos.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1453111500499754523, guid: 95994a43d449b06478c361619bb13ff3, type: 3}
+      propertyPath: pieces.Array.data[40].id
+      value: l_prot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1453111500499754523, guid: 95994a43d449b06478c361619bb13ff3, type: 3}
+      propertyPath: pieces.Array.data[41].en
+      value: Try to guess the release year of these games.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1453111500499754523, guid: 95994a43d449b06478c361619bb13ff3, type: 3}
+      propertyPath: pieces.Array.data[41].es
+      value: "\xBFPuedes adivinar el a\xF1o en que se lanzaron estos juegos?."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1453111500499754523, guid: 95994a43d449b06478c361619bb13ff3, type: 3}
+      propertyPath: pieces.Array.data[41].id
+      value: l_year
+      objectReference: {fileID: 0}
+    - target: {fileID: 1453111500499754523, guid: 95994a43d449b06478c361619bb13ff3, type: 3}
+      propertyPath: pieces.Array.data[42].en
+      value: Guess which companies developed these games.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1453111500499754523, guid: 95994a43d449b06478c361619bb13ff3, type: 3}
+      propertyPath: pieces.Array.data[42].es
+      value: "Adivina que compa\xF1\xEDas desarrollaron estos juegos."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1453111500499754523, guid: 95994a43d449b06478c361619bb13ff3, type: 3}
+      propertyPath: pieces.Array.data[42].id
+      value: l_companies
+      objectReference: {fileID: 0}
+    - target: {fileID: 1453111500499754523, guid: 95994a43d449b06478c361619bb13ff3, type: 3}
+      propertyPath: pieces.Array.data[43].en
+      value: Do you know in which platforms you can play these games?
+      objectReference: {fileID: 0}
+    - target: {fileID: 1453111500499754523, guid: 95994a43d449b06478c361619bb13ff3, type: 3}
+      propertyPath: pieces.Array.data[43].es
+      value: "\xBFSabes en qu\xE9 plataformas se pueden jugar?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1453111500499754523, guid: 95994a43d449b06478c361619bb13ff3, type: 3}
+      propertyPath: pieces.Array.data[43].id
+      value: l_plats
       objectReference: {fileID: 0}
     - target: {fileID: 1453111500499754524, guid: 95994a43d449b06478c361619bb13ff3, type: 3}
       propertyPath: m_RootOrder

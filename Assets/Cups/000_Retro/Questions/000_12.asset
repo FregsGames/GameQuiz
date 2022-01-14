@@ -26,15 +26,15 @@ MonoBehaviour:
     langStringsList:
     - lang: 10
       texts:
-      - Sega Saturn
-      - Play Station
-      - Atari Jaguar
+      - Mortal Kombat II
+      - Cyberia
+      - Discworld
   statement:
     langStrings:
     - lang: 10
-      text: "Consola que vendi\xF3 aproximadamente 33 millones de unidades"
+      text: Juego de Saturn adaptado a VR en 2020
   correctAnswer:
     langStringsList:
     - lang: 10
       texts:
-      - Nintendo 64
+      - Myst

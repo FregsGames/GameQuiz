@@ -36,10 +36,10 @@ namespace Questions
                     question = GameFromCompany(filters, true, answersToExlude: answersToExlude);
                     break;
                 case QuestionTemplate.QuestionContent.protagonists:
-                    question = ProtagonistFromGame(filters, answersToExlude: answersToExlude);
+                    question = ProtagonistFromGame(filters, Random.value < 0.5f ,answersToExlude: answersToExlude);
                     break;
                 case QuestionTemplate.QuestionContent.notProtagonist:
-                    question = ProtagonistFromGame(filters, true, answersToExlude: answersToExlude);
+                    question = ProtagonistFromGame(filters, Random.value < 0.5f, answersToExlude: answersToExlude);
                     break;
             }
             return question;

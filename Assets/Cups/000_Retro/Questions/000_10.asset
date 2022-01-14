@@ -21,22 +21,20 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  questionId: 000_10
+  questionId: 000_18
   wrongAnswers:
-    langStringsList:
-    - lang: 10
-      texts:
-      - Nintendo 64
-      - "Sega G\xE9nesis"
-      - Xbox
-  statement:
-    langStrings:
-    - lang: 10
-      text: "Consola lanzada en 1994 en Jap\xF3n"
-  correctAnswer:
     langStringsList:
     - lang: 10
       texts:
       - Sega Saturn
       - Play Station
+      - Nintendo 64
+  statement:
+    langStrings:
+    - lang: 10
+      text: "Fue la \xFAltima consola lanzada por su compa\xF1\xEDa"
+  correctAnswer:
+    langStringsList:
+    - lang: 10
+      texts:
       - Atari Jaguar

@@ -21,22 +21,20 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  questionId: 000_9
+  questionId: 000_17
   wrongAnswers:
     langStringsList:
     - lang: 10
       texts:
-      - Keiji Inafune
-      - Swery
-      - Yuji Horii
-      - Koji Igarashi
-      - Hironobu Sakaguchi
+      - GoldenEye 007
+      - Metal Gear Solid
+      - Perfect Dark
   statement:
     langStrings:
     - lang: 10
-      text: "Dise\xF1ador de Metal Gear Solid"
+      text: Es un juego inspirado en un comic
   correctAnswer:
     langStringsList:
     - lang: 10
       texts:
-      - Hideo Kojima
+      - Turok

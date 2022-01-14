@@ -21,25 +21,20 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  questionId: 000_7
+  questionId: 000_15
   wrongAnswers:
     langStringsList:
     - lang: 10
       texts:
-      - Tifa Lockhart
-      - Cloud Strife
-      - Sefirot
-      - Aeris Gainsborough
-      - 'Barret Wallace '
+      - Ninendo PlayStation
+      - Nintendo oLed
+      - Nintendo eBox
   statement:
     langStrings:
     - lang: 10
-      text: Personaje de Final Fantasy VIII
+      text: Consola de Nintendo lanzada exclusivamente en China
   correctAnswer:
     langStringsList:
     - lang: 10
       texts:
-      - Squall Leonhart
-      - Rinoa Heartilly
-      - Zell Dincht
-      - Selphie Tilmitt
+      - Nintendo iQue

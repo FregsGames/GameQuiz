@@ -26,15 +26,15 @@ MonoBehaviour:
     langStringsList:
     - lang: 10
       texts:
-      - Ninendo PlayStation
-      - Nintendo oLed
-      - Nintendo eBox
+      - Wipeout
+      - Galaxy Force II
+      - Darius Gaiden
   statement:
     langStrings:
     - lang: 10
-      text: Consola de Nintendo lanzada exclusivamente en China
+      text: NO es un juego de naves
   correctAnswer:
     langStringsList:
     - lang: 10
       texts:
-      - Nintendo iQue
+      - Suikoden

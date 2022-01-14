@@ -21,21 +21,20 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  questionId: 000_4
+  questionId: 000_12
   wrongAnswers:
     langStringsList:
     - lang: 10
       texts:
-      - Batman
-      - Pikachu
-      - Doctor Manhattan
-      - Akira Toriyama
+      - Sega Saturn
+      - Play Station
+      - Atari Jaguar
   statement:
     langStrings:
     - lang: 10
-      text: 'Personaje jugable en Tony Hawk Pro Skater 2 '
+      text: "Consola que vendi\xF3 aproximadamente 33 millones de unidades"
   correctAnswer:
     langStringsList:
     - lang: 10
       texts:
-      - Spiderman
+      - Nintendo 64

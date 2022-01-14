@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c71ec6c37f0556f4f82fa6aaaf792e52, type: 3}
+  m_Name: 003_2018
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: infiniteFilters
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[GameFilter, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 1|YearFilter, Assembly-CSharp
+    - Name: otherOptionsUseFilter
+      Entry: 5
+      Data: false
+    - Name: from
+      Entry: 3
+      Data: 2018
+    - Name: to
+      Entry: 3
+      Data: 2018
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  id: 2018 CUP (To Translate)
+  title: 2018 CUP (To Translate)
+  packTitle: 2018 CUP (To Translate)
+  desc: 2018 CUP (To Translate)
+  packDesc: 2018 CUP (To Translate)
+  levels:
+  - {fileID: 11400000, guid: 47a0970595e95ba4cb6bd553f7e3790a, type: 2}
+  - {fileID: 11400000, guid: b8d8c49400396594b817be30f620abcf, type: 2}
+  - {fileID: 11400000, guid: 6479f031fb54ef24cbbce5d20a3a4413, type: 2}
+  - {fileID: 11400000, guid: 5d3cc5dd660bb6249927bc4384d55281, type: 2}
+  - {fileID: 11400000, guid: a8833fcd03206ba448a317858c0b8297, type: 2}
+  - {fileID: 11400000, guid: eeb9421aef97e964fb69ef2464096e82, type: 2}
+  cupImage: {fileID: 5705907991841841712, guid: 97df41ae28ce6634da2182ecf24935bc, type: 3}
+  state: 0

@@ -21,21 +21,20 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  questionId: 000_6
+  questionId: 000_14
   wrongAnswers:
     langStringsList:
     - lang: 10
       texts:
-      - Banjo
-      - Leon Kennedy
-      - Tom Nook
-      - Jody Summer
+      - Zelda Ocarina of Time
+      - Super Mario 64
+      - Sin and Punishment
   statement:
     langStrings:
     - lang: 10
-      text: Protagonista de StarFox 64
+      text: Puedes manejar un tanque en este videojuego
   correctAnswer:
     langStringsList:
     - lang: 10
       texts:
-      - Fox McCloud
+      - GoldenEye 007

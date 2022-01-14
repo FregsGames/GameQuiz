@@ -26,17 +26,16 @@ MonoBehaviour:
     langStringsList:
     - lang: 10
       texts:
-      - Sega Saturn
-      - Play Station
-      - Xbox
-      - Sega Dreamcast
+      - Neil Gaiman
+      - Brandon Sanderson
+      - Stephen King
   statement:
     langStrings:
     - lang: 10
-      text: Consola que usaba cartuchos para almacenar sus juegos
+      text: "\xBFDiscworld es un juego point and click basado en las novelas de qu\xE9
+        autor?"
   correctAnswer:
     langStringsList:
     - lang: 10
       texts:
-      - Nintendo 64
-      - Neo Geo
+      - Terry Pratchett

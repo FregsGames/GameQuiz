@@ -26,15 +26,15 @@ MonoBehaviour:
     langStringsList:
     - lang: 10
       texts:
-      - Nintendo 64
-      - Play Station
-      - Atari Jaguar
+      - Jaguar
+      - Aston Martin
+      - Porsche
   statement:
     langStrings:
     - lang: 10
-      text: El mando original de esta consola contaba con 8 botones
+      text: "\xBFDe qu\xE9 marca es el coche que conducimos en OutRun?"
   correctAnswer:
     langStringsList:
     - lang: 10
       texts:
-      - Sega Saturn
+      - Ferrari

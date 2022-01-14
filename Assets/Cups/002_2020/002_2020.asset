@@ -29,25 +29,16 @@ MonoBehaviour:
       Data: 1
     - Name: 
       Entry: 7
-      Data: 1|PlatformFilter, Assembly-CSharp
+      Data: 1|YearFilter, Assembly-CSharp
     - Name: otherOptionsUseFilter
       Entry: 5
       Data: false
-    - Name: platforms
-      Entry: 7
-      Data: 2|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 1
-      Data: Sega Saturn
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
+    - Name: from
+      Entry: 3
+      Data: 2020
+    - Name: to
+      Entry: 3
+      Data: 2020
     - Name: 
       Entry: 8
       Data: 
@@ -63,6 +54,11 @@ MonoBehaviour:
   desc: 2020 CUP (To Translate)
   packDesc: 2020 CUP (To Translate)
   levels:
-  - {fileID: 11400000, guid: 00cb4ba548bae2f4da0de41cf4ac37f4, type: 2}
-  cupImage: {fileID: 21300000, guid: 311ac4a0dc9473645a856f0904e53e96, type: 3}
+  - {fileID: 11400000, guid: b32d80abd9059c74ba5f2424b45c3a25, type: 2}
+  - {fileID: 11400000, guid: 009cba5f0a5a5da409b24f3c89d3f9d0, type: 2}
+  - {fileID: 11400000, guid: f7d56ace204c3d74b939a46cd97a6a16, type: 2}
+  - {fileID: 11400000, guid: ab8661535b6be274396479b705b0c38a, type: 2}
+  - {fileID: 11400000, guid: 8915b4beee02b364c83aa19c9b643d89, type: 2}
+  - {fileID: 11400000, guid: 9d4af98bbc78c194db939aa220a4bbfd, type: 2}
+  cupImage: {fileID: 2287891177090978429, guid: 97df41ae28ce6634da2182ecf24935bc, type: 3}
   state: 0

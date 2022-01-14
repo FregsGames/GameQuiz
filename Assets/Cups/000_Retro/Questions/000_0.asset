@@ -21,24 +21,23 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  questionId: 000_0
+  questionId: 000_8
   wrongAnswers:
     langStringsList:
     - lang: 10
       texts:
-      - Akira Yuki
-      - Banjo
-      - Diddy Kong
-      - Peach
-      - Scorpion
-      - Liu Kang
-      - Adaro
+      - Hideo Kojima
+      - Tomonobu Itagaki
+      - Goichi Suda
+      - Shinji Mikami
+      - Koji Igarashi
+      - Hironobu Sakaguchi
   statement:
     langStrings:
     - lang: 10
-      text: Personaje protagonista de Panzer Dragoon
+      text: "Dise\xF1ador de Super Mario 64"
   correctAnswer:
     langStringsList:
     - lang: 10
       texts:
-      - Kyle Fluge
+      - Shigeru Miyamoto

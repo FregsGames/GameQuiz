@@ -21,22 +21,22 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  questionId: 000_2
+  questionId: 000_10
   wrongAnswers:
     langStringsList:
     - lang: 10
       texts:
-      - Liquid Snake
-      - Raiden
-      - Cloud
-      - Oak
-      - Sefirot
+      - Nintendo 64
+      - "Sega G\xE9nesis"
+      - Xbox
   statement:
     langStrings:
     - lang: 10
-      text: 'Protagonista de Metal Gear Solid '
+      text: "Consola lanzada en 1994 en Jap\xF3n"
   correctAnswer:
     langStringsList:
     - lang: 10
       texts:
-      - Solid Snake
+      - Sega Saturn
+      - Play Station
+      - Atari Jaguar

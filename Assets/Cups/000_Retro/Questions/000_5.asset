@@ -21,20 +21,22 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  questionId: 000_5
+  questionId: 000_13
   wrongAnswers:
     langStringsList:
     - lang: 10
       texts:
-      - Alan
-      - Guybrush
-      - Razputin
+      - Sega Saturn
+      - Play Station
+      - Xbox
+      - Sega Dreamcast
   statement:
     langStrings:
     - lang: 10
-      text: Protaginista de Perfect Dark
+      text: Consola que usaba cartuchos para almacenar sus juegos
   correctAnswer:
     langStringsList:
     - lang: 10
       texts:
-      - Joanna
+      - Nintendo 64
+      - Neo Geo

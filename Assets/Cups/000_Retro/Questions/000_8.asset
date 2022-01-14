@@ -21,23 +21,22 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  questionId: 000_8
+  questionId: 000_16
   wrongAnswers:
     langStringsList:
     - lang: 10
       texts:
-      - Hideo Kojima
-      - Tomonobu Itagaki
-      - Goichi Suda
-      - Shinji Mikami
-      - Koji Igarashi
-      - Hironobu Sakaguchi
+      - Mario Kart 64
+      - Diddy Kong Racing
+      - F-Zero
   statement:
     langStrings:
     - lang: 10
-      text: "Dise\xF1ador de Super Mario 64"
+      text: NO es un juego de carreras
   correctAnswer:
     langStringsList:
     - lang: 10
       texts:
-      - Shigeru Miyamoto
+      - Super Smash Bros.
+      - Pokemon Stadium
+      - Blast Corps

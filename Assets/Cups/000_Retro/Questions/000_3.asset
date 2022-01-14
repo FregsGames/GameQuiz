@@ -21,28 +21,20 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  questionId: 000_3
+  questionId: 000_11
   wrongAnswers:
     langStringsList:
     - lang: 10
       texts:
-      - Snake
-      - Kuma
-      - Eddy
-      - Ginjirou
-      - Jin
-      - Nicole
-      - Kyle
+      - Nintendo 64
+      - Play Station
+      - Atari Jaguar
   statement:
     langStrings:
     - lang: 10
-      text: Personaje de Final Fantasy VII
+      text: El mando original de esta consola contaba con 8 botones
   correctAnswer:
     langStringsList:
     - lang: 10
       texts:
-      - Tifa
-      - Cloud
-      - Sefirot
-      - Aeris
-      - Barret
+      - Sega Saturn

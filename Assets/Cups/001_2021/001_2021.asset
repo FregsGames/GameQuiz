@@ -26,7 +26,22 @@ MonoBehaviour:
       Data: 0|System.Collections.Generic.List`1[[GameFilter, Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
-      Data: 0
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 1|YearFilter, Assembly-CSharp
+    - Name: otherOptionsUseFilter
+      Entry: 5
+      Data: false
+    - Name: from
+      Entry: 3
+      Data: 2021
+    - Name: to
+      Entry: 3
+      Data: 2021
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -34,11 +49,16 @@ MonoBehaviour:
       Entry: 8
       Data: 
   id: 2021 CUP (To Translate)
-  title: 2021 CUP (To Translate)
+  title: c_01_title
   packTitle: 2021 CUP (To Translate)
-  desc: 2021 CUP (To Translate)
+  desc: c_01_desc
   packDesc: 2021 CUP (To Translate)
   levels:
   - {fileID: 11400000, guid: 00cb4ba548bae2f4da0de41cf4ac37f4, type: 2}
-  cupImage: {fileID: 21300000, guid: 311ac4a0dc9473645a856f0904e53e96, type: 3}
+  - {fileID: 11400000, guid: 0c8049582b225d146acea9926c4937e1, type: 2}
+  - {fileID: 11400000, guid: 94f7c9ad971e0c84ea4f24d724f88d9e, type: 2}
+  - {fileID: 11400000, guid: 7fece26ef222c694d91eb98e44b143ce, type: 2}
+  - {fileID: 11400000, guid: a67d939b3a0743242ad37df5b8e8acf4, type: 2}
+  - {fileID: 11400000, guid: 41b5385f79c96284eb3866b675d47749, type: 2}
+  cupImage: {fileID: 3992986891651333640, guid: 97df41ae28ce6634da2182ecf24935bc, type: 3}
   state: 0

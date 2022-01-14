@@ -21,28 +21,22 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  questionId: 000_1
+  questionId: 000_9
   wrongAnswers:
     langStringsList:
     - lang: 10
       texts:
-      - Snake
-      - King
-      - Cloud
-      - Joanna Dark
-      - Fox McCloud
-      - Raiden
-      - Kyle Fluge
+      - Keiji Inafune
+      - Swery
+      - Yuji Horii
+      - Koji Igarashi
+      - Hironobu Sakaguchi
   statement:
     langStrings:
     - lang: 10
-      text: Es un personaje de Guardian Heores
+      text: "Dise\xF1ador de Metal Gear Solid"
   correctAnswer:
     langStringsList:
     - lang: 10
       texts:
-      - Ginjirou
-      - Han
-      - Randy
-      - Nicole
-      - Serena
+      - Hideo Kojima
