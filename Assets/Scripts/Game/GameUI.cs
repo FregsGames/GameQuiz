@@ -4,6 +4,7 @@ using Questions;
 using SuperMaxim.Messaging;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -21,12 +22,15 @@ public class GameUI : MonoBehaviour
     [SerializeField]
     private ButtonQuestion answer4Button;
 
-    private Transform[] buttons;
+    private RectTransform[] buttons;
+
+    [SerializeField]
+    private VerticalLayoutGroup questionLayout;
 
     private Question currentQuestion;
 
     [SerializeField]
-    private GameObject content;
+    private RectTransform content;
 
     [SerializeField]
     private GameTimer timer;
@@ -39,20 +43,30 @@ public class GameUI : MonoBehaviour
     [SerializeField]
     private RewardVideoPanel rewardVideoPanel;
 
+    public bool test = false;
+
     private void Start()
     {
         iAPManager = IAPManager.Instance;
     }
 
-    private void Awake()
+    private async void Awake()
     {
-        content.transform.DOLocalMoveX(-Screen.width / 2, 0);
+        await Task.Delay(10);
 
-        buttons = new Transform[] { answer1Button.transform, answer2Button.transform, answer3Button.transform, answer4Button.transform };
+        content.DOAnchorPosX(-content.rect.width * 2, 0);
 
-        foreach (Transform button in buttons)
+        buttons = new RectTransform[] { answer1Button.GetComponent<RectTransform>(), answer2Button.GetComponent<RectTransform>(), answer3Button.GetComponent<RectTransform>(), answer4Button.GetComponent<RectTransform>() };
+
+        foreach (RectTransform button in buttons)
         {
-            button.DOLocalMoveX(-Screen.width / 2, 0);
+            button.DOAnchorPosX(-content.rect.width * 1.5f, 0);
+        }
+
+        if (test)
+        {
+            await Task.Delay(2000);
+            Initialize(10);
         }
     }
 
@@ -62,7 +76,7 @@ public class GameUI : MonoBehaviour
 
         sequence.SetDelay(1);
 
-        sequence.Append(content.transform.DOLocalMoveX(Screen.width / 2, 1f).SetEase(Ease.OutBack));
+        sequence.Append(content.DOAnchorPosX(0, 0.75f).SetEase(Ease.OutBack));
 
         SetButtonsInteractables(false);
 
@@ -112,7 +126,7 @@ public class GameUI : MonoBehaviour
 
         for (int i = 0; i < buttons.Length; i++)
         {
-            sequence.Insert(0, buttons[i].DOMoveX(Screen.width / 2, 1f + (i * 0.2f)).SetDelay(0.1f).SetEase(Ease.InCubic));
+            sequence.Insert(0, buttons[i].DOAnchorPosX(0, 1f + (i * 0.2f)).SetDelay(0.1f).SetEase(Ease.InCubic));
         }
         sequence.OnComplete(OnAnswerShowCompleted);
     }
@@ -244,7 +258,7 @@ public class GameUI : MonoBehaviour
 
         for (int i = 0; i < buttons.Length; i++)
         {
-            sequence.Insert(0, buttons[i].DOMoveX(Screen.width * 2, 1f).SetDelay(i * 0.2f)).SetEase(Ease.InCubic);
+            sequence.Insert(0, buttons[i].DOAnchorPosX(content.rect.width * 1.5f, 1f).SetDelay(i * 0.2f)).SetEase(Ease.InCubic);
         }
 
         sequence.OnComplete(() => PublishUIFinishedUpdate(answer));
@@ -253,9 +267,9 @@ public class GameUI : MonoBehaviour
 
     private void PublishUIFinishedUpdate(ButtonQuestion answer)
     {
-        foreach (Transform button in buttons)
+        foreach (RectTransform button in buttons)
         {
-            button.DOMoveX(-Screen.width / 2, 0);
+            button.DOAnchorPosX(-content.rect.width * 1.5f, 0);
         }
 
         if (timer.UsesTime)

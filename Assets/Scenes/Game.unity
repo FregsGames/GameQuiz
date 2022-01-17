@@ -347,6 +347,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2814665552432071767, guid: bce7cdab4c695f24ca45e0cbe7c40cfb, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -47.100098
+      objectReference: {fileID: 0}
     - target: {fileID: 5841262190381589378, guid: bce7cdab4c695f24ca45e0cbe7c40cfb, type: 3}
       propertyPath: content
       value: 
@@ -815,6 +819,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 834934654159ff548a138d6d0ceaa3ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!224 &1659122911 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3544745445166728423, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+  m_PrefabInstance: {fileID: 836341034461137834}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1845901756 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1947173102937781235, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+  m_PrefabInstance: {fileID: 836341034461137834}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &836341034461137834
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -844,6 +864,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 720322068014037556, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 836341033328422894, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+      propertyPath: m_Pivot.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 836341033465285960, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
@@ -958,6 +982,14 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 836341033658309441, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1796140471270974801, guid: d1476180d6374434a91906d52b792988, type: 3}
+    - target: {fileID: 836341033658309443, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 836341033658309443, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -987,9 +1019,25 @@ PrefabInstance:
       value: "La protagonista sufre una maldici\xF3n que vuelve su piel en cristal."
       objectReference: {fileID: 0}
     - target: {fileID: 836341034112651871, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+      propertyPath: test
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 836341034112651871, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+      propertyPath: content
+      value: 
+      objectReference: {fileID: 1659122911}
+    - target: {fileID: 836341034112651871, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+      propertyPath: questionLayout
+      value: 
+      objectReference: {fileID: 1845901756}
+    - target: {fileID: 836341034112651871, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
       propertyPath: rewardVideoPanel
       value: 
       objectReference: {fileID: 607270401}
+    - target: {fileID: 836341034166767509, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 836341034166767509, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1012,6 +1060,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 836341034166767509, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 836341034166767595, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7196619508849735936, guid: d1476180d6374434a91906d52b792988, type: 3}
+    - target: {fileID: 836341034189022249, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2640082182823679230, guid: d1476180d6374434a91906d52b792988, type: 3}
+    - target: {fileID: 836341034189022251, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+      propertyPath: m_Pivot.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 836341034189022251, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
@@ -1046,6 +1106,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ShowOptions
       objectReference: {fileID: 0}
+    - target: {fileID: 836341034778969589, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3345504358686566101, guid: d1476180d6374434a91906d52b792988, type: 3}
+    - target: {fileID: 836341034778969591, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 836341034778969591, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1074,6 +1142,14 @@ PrefabInstance:
       propertyPath: menuManager
       value: 
       objectReference: {fileID: 871859118}
+    - target: {fileID: 1947173102937781235, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544745445166728423, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6153449590941205367, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
       propertyPath: m_IsActive
       value: 0
