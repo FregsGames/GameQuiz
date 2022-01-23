@@ -1016,7 +1016,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 836341033888883722, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
       propertyPath: m_text
-      value: "La protagonista sufre una maldici\xF3n que vuelve su piel en cristal."
+      value: "\xBFDiscworld es un juego point and click basado en las novelas de
+        qu\xE9 autor?"
       objectReference: {fileID: 0}
     - target: {fileID: 836341034112651871, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
       propertyPath: test

@@ -32,6 +32,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: "\rIt is NOT a Roguelike game"
+    - lang: 34
       text: NO es un juego Roguelike
   correctAnswer:
     langStringsList:

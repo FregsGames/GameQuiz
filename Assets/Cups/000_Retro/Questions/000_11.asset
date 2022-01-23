@@ -33,6 +33,8 @@ MonoBehaviour:
     langStrings:
     - lang: 10
       text: "\xBFDe qu\xE9 marca es el coche que conducimos en OutRun?"
+    - lang: 34
+      text: "\rWhat brand is the car we drive in OutRun?"
   correctAnswer:
     langStringsList:
     - lang: 10

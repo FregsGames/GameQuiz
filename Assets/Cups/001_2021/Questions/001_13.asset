@@ -24,20 +24,31 @@ MonoBehaviour:
   questionId: 001_13
   wrongAnswers:
     langStringsList:
-    - lang: 10
+    - lang: 34
       texts:
       - "Par\xEDs"
       - Madrid
-      - Andorra
+    - lang: 10
+      texts:
+      - Paris
+      - Madrid
   statement:
     langStrings:
     - lang: 10
+      text: It's a location from Hitman 3
+    - lang: 34
       text: "Es una ubicaci\xF3n de Hitman 3"
   correctAnswer:
     langStringsList:
-    - lang: 10
+    - lang: 34
       texts:
       - "Dub\xE1i"
       - "Berl\xEDn"
       - Mendoza
       - Dartmoor
+    - lang: 10
+      texts:
+      - Mendoza
+      - Dartmoor
+      - Berlin
+      - ' Dubai'

@@ -27,13 +27,14 @@ MonoBehaviour:
     - lang: 10
       texts:
       - Back 4 Blood
-      - 'Ratchet & Clank: Rift Apart'
       - Loop Hero
       - DEATHLOOP
       - 'Guilty Gear: Strive'
   statement:
     langStrings:
     - lang: 10
+      text: You can drive vehicles in this game
+    - lang: 34
       text: "Puedes conducir veh\xEDculos en este juego"
   correctAnswer:
     langStringsList:

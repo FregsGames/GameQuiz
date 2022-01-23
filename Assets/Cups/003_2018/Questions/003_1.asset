@@ -32,6 +32,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: "\rWhat year does the Red Dead Redemption 2 story take place in?"
+    - lang: 34
       text: "\xBFEn qu\xE9 a\xF1o tiene lugar la historia de Red Dead Redemption
         2?"
   correctAnswer:

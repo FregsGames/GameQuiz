@@ -21,7 +21,7 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  questionId: 000_9
+  questionId: 000_1
   wrongAnswers:
     langStringsList:
     - lang: 10
@@ -34,6 +34,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: Metal Gear Solid designer
+    - lang: 34
       text: "Dise\xF1ador de Metal Gear Solid"
   correctAnswer:
     langStringsList:

@@ -139,7 +139,11 @@ public class CupDropdown : MonoBehaviour
 
     public void Toggle()
     {
+        if (updatingSize)
+            return;
+
         updatingSize = true;
+
         if (!shown)
         {
             Messenger.Default.Publish(this);

@@ -32,6 +32,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: Where does the action take place in Octopath Traveler?
+    - lang: 34
       text: "\xBFD\xF3nde se desarrolla la acci\xF3n en Octopath Traveler?"
   correctAnswer:
     langStringsList:

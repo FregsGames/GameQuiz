@@ -32,8 +32,10 @@ MonoBehaviour:
       - Savali
   statement:
     langStrings:
-    - lang: 10
+    - lang: 34
       text: "\xBFC\xF3mo se llama el planeta donde aterriza la protagonista de Returnal?"
+    - lang: 10
+      text: What is the name of the planet where the protagonist of Returnal lands?
   correctAnswer:
     langStringsList:
     - lang: 10

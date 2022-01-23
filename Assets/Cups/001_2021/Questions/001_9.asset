@@ -27,13 +27,16 @@ MonoBehaviour:
     - lang: 10
       texts:
       - Felyne
-      - Zeugles
+      - Zeugle
       - Pukei-Pukei
   statement:
     langStrings:
-    - lang: 10
+    - lang: 34
       text: "\xBFC\xF3mo se llama la raza de perro que nos acompa\xF1a en Monster
         Hunter Rise?"
+    - lang: 10
+      text: "\rWhich is the breed of the dog that accompanies us in Monster Hunter
+        Rise?"
   correctAnswer:
     langStringsList:
     - lang: 10

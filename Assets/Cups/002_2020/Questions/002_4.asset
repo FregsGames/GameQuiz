@@ -32,6 +32,9 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: "\rWhat is the name of the realm where the action of Demon's Souls takes
+        place?"
+    - lang: 34
       text: "\xBFComo se llama el reino donde transcurre la acci\xF3n en Demon's
         Souls?"
   correctAnswer:

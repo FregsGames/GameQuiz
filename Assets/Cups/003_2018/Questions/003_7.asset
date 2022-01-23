@@ -32,6 +32,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: What saga is Judgment a spin off from?
+    - lang: 34
       text: "\xBFDe qu\xE9 saga es un spin off Judgment?"
   correctAnswer:
     langStringsList:

@@ -32,6 +32,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: "\rIt is an episodic game"
+    - lang: 34
       text: Es un juego lanzado por episodios
   correctAnswer:
     langStringsList:

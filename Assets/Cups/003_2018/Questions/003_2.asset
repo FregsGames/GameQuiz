@@ -26,15 +26,25 @@ MonoBehaviour:
     langStringsList:
     - lang: 10
       texts:
+      - Futuristic
+      - Oriental
+      - Steampunk
+    - lang: 34
+      texts:
       - Futurista
       - Oriental
       - Steampunk
   statement:
     langStrings:
     - lang: 10
+      text: What is the theme of The Banner Saga?
+    - lang: 34
       text: "\xBFQu\xE9 tem\xE1tica tiene The Banner Saga?"
   correctAnswer:
     langStringsList:
     - lang: 10
+      texts:
+      - Nordic
+    - lang: 34
       texts:
       - Vikinga

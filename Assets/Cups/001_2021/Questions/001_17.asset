@@ -33,6 +33,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: "\rThe main character of this game is a bird"
+    - lang: 34
       text: El personaje protagonista de este juego es un ave
   correctAnswer:
     langStringsList:

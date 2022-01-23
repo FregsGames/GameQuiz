@@ -33,6 +33,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: "\rIn this game the protagonist fights the Stallions"
+    - lang: 34
       text: En este juego el protagonista lucha contra los Stallions
   correctAnswer:
     langStringsList:

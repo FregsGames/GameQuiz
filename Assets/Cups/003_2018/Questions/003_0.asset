@@ -24,17 +24,27 @@ MonoBehaviour:
   questionId: 003_0
   wrongAnswers:
     langStringsList:
-    - lang: 10
+    - lang: 34
       texts:
       - Egipcia
       - Romana
       - Griega
+    - lang: 10
+      texts:
+      - Egyptian
+      - Roman
+      - Greek
   statement:
     langStrings:
     - lang: 10
+      text: What mythology is God of War (2018) inspired by?
+    - lang: 34
       text: "\xBFEn qu\xE9 mitolog\xEDa se inspira God of War (2018)?"
   correctAnswer:
     langStringsList:
-    - lang: 10
+    - lang: 34
       texts:
       - "N\xF3rdica"
+    - lang: 10
+      texts:
+      - Nordic

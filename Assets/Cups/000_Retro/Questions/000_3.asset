@@ -21,7 +21,7 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  questionId: 000_11
+  questionId: 000_3
   wrongAnswers:
     langStringsList:
     - lang: 10
@@ -31,8 +31,10 @@ MonoBehaviour:
       - Atari Jaguar
   statement:
     langStrings:
+    - lang: 34
+      text: El mando de esta consola contaba con 8 botones
     - lang: 10
-      text: El mando original de esta consola contaba con 8 botones
+      text: This console's gamepad had 8 buttons
   correctAnswer:
     langStringsList:
     - lang: 10

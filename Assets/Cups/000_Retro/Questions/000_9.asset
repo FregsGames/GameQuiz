@@ -21,7 +21,7 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  questionId: 000_17
+  questionId: 000_9
   wrongAnswers:
     langStringsList:
     - lang: 10
@@ -32,6 +32,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: Game based on a comic
+    - lang: 34
       text: Es un juego inspirado en un comic
   correctAnswer:
     langStringsList:

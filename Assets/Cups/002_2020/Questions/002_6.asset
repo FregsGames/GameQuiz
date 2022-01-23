@@ -31,6 +31,8 @@ MonoBehaviour:
       - Nintendo DS
   statement:
     langStrings:
+    - lang: 34
+      text: In which console was Animal Crossing first released?
     - lang: 10
       text: "\xBFEn qu\xE9 consola debut\xF3 el primer juego de Animal Crossing?"
   correctAnswer:

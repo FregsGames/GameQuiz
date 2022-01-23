@@ -32,7 +32,9 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
-      text: "\xBFQ\xFAe jugador de f\xFAtbol fue portada de Fifa 97?"
+      text: Which football player was on the cover of Fifa 97?
+    - lang: 34
+      text: "\xBFQu\xE9 jugador de f\xFAtbol fue portada de Fifa 97?"
   correctAnswer:
     langStringsList:
     - lang: 10

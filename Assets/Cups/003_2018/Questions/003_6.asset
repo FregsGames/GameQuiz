@@ -32,6 +32,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: "\rCreator of Undertale and Deltarune"
+    - lang: 34
       text: Creador de Undertale y Deltarune
   correctAnswer:
     langStringsList:

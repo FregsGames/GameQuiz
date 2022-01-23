@@ -21,7 +21,7 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  questionId: 000_14
+  questionId: 000_6
   wrongAnswers:
     langStringsList:
     - lang: 10
@@ -31,8 +31,10 @@ MonoBehaviour:
       - Sin and Punishment
   statement:
     langStrings:
-    - lang: 10
+    - lang: 34
       text: Puedes manejar un tanque en este videojuego
+    - lang: 10
+      text: You can drive a tank in this game
   correctAnswer:
     langStringsList:
     - lang: 10

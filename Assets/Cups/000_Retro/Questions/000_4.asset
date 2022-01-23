@@ -21,7 +21,7 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  questionId: 000_12
+  questionId: 000_4
   wrongAnswers:
     langStringsList:
     - lang: 10
@@ -32,6 +32,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: This console sold approximately 33 million units
+    - lang: 34
       text: "Consola que vendi\xF3 aproximadamente 33 millones de unidades"
   correctAnswer:
     langStringsList:

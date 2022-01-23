@@ -32,9 +32,12 @@ MonoBehaviour:
       - Boston
   statement:
     langStrings:
-    - lang: 10
+    - lang: 34
       text: "\xBFC\xF3mo se llama el lugar donde comienza la historia de The Last
         of Us Part II?"
+    - lang: 10
+      text: "\rWhat is the name of the place where the story of The Last of Us Part
+        II begins?"
   correctAnswer:
     langStringsList:
     - lang: 10

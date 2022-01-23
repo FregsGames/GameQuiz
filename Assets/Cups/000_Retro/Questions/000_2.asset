@@ -21,7 +21,7 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  questionId: 000_10
+  questionId: 000_2
   wrongAnswers:
     langStringsList:
     - lang: 10
@@ -31,8 +31,10 @@ MonoBehaviour:
       - Xbox
   statement:
     langStrings:
-    - lang: 10
+    - lang: 34
       text: "Consola lanzada en 1994 en Jap\xF3n"
+    - lang: 10
+      text: 'Console released in 1994 in Japan '
   correctAnswer:
     langStringsList:
     - lang: 10

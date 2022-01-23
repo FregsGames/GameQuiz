@@ -24,17 +24,27 @@ MonoBehaviour:
   questionId: 001_11
   wrongAnswers:
     langStringsList:
-    - lang: 10
+    - lang: 34
       texts:
       - Un robot
       - "Un mu\xF1eco de madera"
       - Un caballo
-  statement:
-    langStrings:
-    - lang: 10
-      text: "\xBFQu\xE9 acompa\xF1a al protagonista de Nier Replicant?"
-  correctAnswer:
-    langStringsList:
     - lang: 10
       texts:
+      - A robot
+      - A wooden doll
+      - A horse
+  statement:
+    langStrings:
+    - lang: 34
+      text: "\xBFQu\xE9 acompa\xF1a al protagonista de Nier Replicant?"
+    - lang: 10
+      text: What accompanies the protagonist of Nier Replicant?
+  correctAnswer:
+    langStringsList:
+    - lang: 34
+      texts:
       - "Un libro m\xE1gico"
+    - lang: 10
+      texts:
+      - A magic book

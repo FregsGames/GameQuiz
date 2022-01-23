@@ -24,17 +24,27 @@ MonoBehaviour:
   questionId: 001_3
   wrongAnswers:
     langStringsList:
-    - lang: 10
+    - lang: 34
       texts:
       - Guerrero
       - "P\xEDcaro"
       - Nigromante
-  statement:
-    langStrings:
-    - lang: 10
-      text: NO es una clase jugable en Loop Hero
-  correctAnswer:
-    langStringsList:
     - lang: 10
       texts:
+      - Warrior
+      - Rogue
+      - Necromancer
+  statement:
+    langStrings:
+    - lang: 34
+      text: NO es una clase jugable en Loop Hero
+    - lang: 10
+      text: "\rNOT a playable class in Loop Hero"
+  correctAnswer:
+    langStringsList:
+    - lang: 34
+      texts:
       - Mago
+    - lang: 10
+      texts:
+      - Mage

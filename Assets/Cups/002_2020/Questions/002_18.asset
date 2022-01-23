@@ -37,6 +37,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: "\rWhat mythology is Immortals Fenyx Rising inspired by?"
+    - lang: 34
       text: "\xBFEn qu\xE9 mitolog\xEDa se inspira Immortals Fenyx Rising?"
   correctAnswer:
     langStringsList:

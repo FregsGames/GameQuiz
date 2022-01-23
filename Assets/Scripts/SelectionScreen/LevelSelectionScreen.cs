@@ -67,6 +67,11 @@ public class LevelSelectionScreen : MonoBehaviour
         Messenger.Default.Subscribe<CupSelectedPayload>(OnCupSelected);
     }
 
+    private void OnDisable()
+    {
+        Messenger.Default.Unsubscribe<CupSelectedPayload>(OnCupSelected);
+    }
+
     private async void OnCupSelected(CupSelectedPayload obj)
     {
         if(obj == null)
@@ -93,6 +98,10 @@ public class LevelSelectionScreen : MonoBehaviour
         currentCup = cup;
 
         ClearGrid();
+
+        if (levelContainter == null)
+            return;
+
         levelContainter.SetActive(true);
 
         cupName.text = Translations.instance.GetText(cup.title);
@@ -149,7 +158,7 @@ public class LevelSelectionScreen : MonoBehaviour
     {
         if(levelButton.Level.state == LevelState.completed)
         {
-            levelDesc.text = $"\n Level completed!";
+            levelDesc.text = Translations.instance.GetText("level_completed");
             return;
         }
 
@@ -180,6 +189,9 @@ public class LevelSelectionScreen : MonoBehaviour
 
     private void ClearGrid()
     {
+        if (grid == null)
+            return;
+
         for (int i = grid.childCount - 1; i >= 0; i--)
         {
             Destroy(grid.GetChild(i).gameObject);

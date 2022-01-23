@@ -26,15 +26,25 @@ MonoBehaviour:
     langStringsList:
     - lang: 10
       texts:
+      - The name of the protagonist
+      - A kind of magic
+      - A lake
+    - lang: 34
+      texts:
       - El nombre de la protagonista
       - Un tipo de magia
       - Un lago
   statement:
     langStrings:
     - lang: 10
+      text: What is Celeste in the homonymous game?
+    - lang: 34
       text: "\xBFQu\xE9 es Celeste en el juego hom\xF3nimo?"
   correctAnswer:
     langStringsList:
     - lang: 10
+      texts:
+      - A mountain
+    - lang: 34
       texts:
       - "Una monta\xF1a"

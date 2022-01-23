@@ -26,15 +26,25 @@ MonoBehaviour:
     langStringsList:
     - lang: 10
       texts:
+      - Defeat ghosts from the afterlife
+      - Escape from the afterlife
+      - Find her mother
+    - lang: 34
+      texts:
       - "Eliminar a los fantasmas del m\xE1s all\xE1"
       - Escapar del otro lado
       - Encontrar a su madre
   statement:
     langStrings:
     - lang: 10
-      text: "\xBFCu\xE1l es el objetivo del protagonista de Spiritfarer?\t"
+      text: "\rWhat is the objective of the protagonist of Spiritfarer?"
+    - lang: 34
+      text: "\xBFCu\xE1l es el objetivo de la protagonista de Spiritfarer?\t"
   correctAnswer:
     langStringsList:
     - lang: 10
+      texts:
+      - Help souls rest in peace
+    - lang: 34
       texts:
       - Ayudar a las almas a descansar en paz

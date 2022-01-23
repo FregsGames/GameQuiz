@@ -67,7 +67,7 @@ MonoBehaviour:
   title: c_00_title
   packTitle: 000_Retro
   desc: c_00_desc
-  packDesc: 000_Retro
+  packDesc: c_00_desc
   levels:
   - {fileID: 11400000, guid: c9596d92f13cb234a81cad80c8db8881, type: 2}
   - {fileID: 11400000, guid: 64549c797d7615a4aac7c71383273776, type: 2}

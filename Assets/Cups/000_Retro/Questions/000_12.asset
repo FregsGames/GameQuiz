@@ -32,6 +32,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: Saturn game adapted to VR in 2020
+    - lang: 34
       text: Juego de Saturn adaptado a VR en 2020
   correctAnswer:
     langStringsList:

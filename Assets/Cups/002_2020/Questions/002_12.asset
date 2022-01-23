@@ -26,15 +26,25 @@ MonoBehaviour:
     langStringsList:
     - lang: 10
       texts:
+      - Defeat the demons
+      - 'Get to the top of the tower '
+      - Escape from the underworld
+    - lang: 34
+      texts:
       - Derrotar a los demonios
       - Llegar a la cima de la torre
       - Escapar del inframundo
   statement:
     langStrings:
     - lang: 10
+      text: What is the player's goal in Monster Train?
+    - lang: 34
       text: "\xBFCu\xE1l es el objetivo del jugador en Monster Train?"
   correctAnswer:
     langStringsList:
     - lang: 10
+      texts:
+      - Restore the flame of hell
+    - lang: 34
       texts:
       - Restaurar el fuego del infierno

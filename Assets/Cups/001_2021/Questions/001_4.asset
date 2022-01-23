@@ -31,9 +31,12 @@ MonoBehaviour:
       - Koopa Troopa
   statement:
     langStrings:
-    - lang: 10
+    - lang: 34
       text: "\xBFC\xF3mo se llaman las criaturas que nos acompa\xF1an en Kena: Bridge
         of Spirits?"
+    - lang: 10
+      text: 'What are the creatures that accompany us in Kena: Bridge of Spirits
+        called?'
   correctAnswer:
     langStringsList:
     - lang: 10

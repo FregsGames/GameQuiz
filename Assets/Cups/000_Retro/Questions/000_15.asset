@@ -32,6 +32,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: NOT a spaceships game
+    - lang: 34
       text: NO es un juego de naves
   correctAnswer:
     langStringsList:

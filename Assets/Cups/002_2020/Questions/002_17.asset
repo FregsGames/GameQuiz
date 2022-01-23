@@ -30,12 +30,23 @@ MonoBehaviour:
       - Demon Hunter
       - Priest
       - Warrior
+    - lang: 34
+      texts:
+      - Caballero de la muerte
+      - Cazador de demonios
+      - Sacerdote
+      - Guerrero
   statement:
     langStrings:
     - lang: 10
+      text: "\rIt is not a playable class in World Of Warcraft"
+    - lang: 34
       text: No es una clase jugable de World Of Warcraft
   correctAnswer:
     langStringsList:
     - lang: 10
       texts:
       - Necromancer
+    - lang: 34
+      texts:
+      - Nigromante

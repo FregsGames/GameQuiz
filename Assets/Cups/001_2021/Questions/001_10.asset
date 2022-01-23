@@ -32,6 +32,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: Planet where the action of Metroid Dread takes place
+    - lang: 34
       text: "Planeta en el que se desarrolla la acci\xF3n en Metroid Dread"
   correctAnswer:
     langStringsList:

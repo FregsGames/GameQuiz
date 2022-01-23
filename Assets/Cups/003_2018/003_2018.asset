@@ -48,10 +48,10 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  id: 2018 CUP (To Translate)
-  title: 2018 CUP (To Translate)
+  id: c_04_title
+  title: c_04_title
   packTitle: 2018 CUP (To Translate)
-  desc: 2018 CUP (To Translate)
+  desc: c_04_desc
   packDesc: 2018 CUP (To Translate)
   levels:
   - {fileID: 11400000, guid: 47a0970595e95ba4cb6bd553f7e3790a, type: 2}

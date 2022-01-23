@@ -26,15 +26,25 @@ MonoBehaviour:
     langStringsList:
     - lang: 10
       texts:
+      - Feathers
+      - Crows
+      - Cameras
+    - lang: 34
+      texts:
       - Plumas
       - Cuervos
       - "C\xE1maras fotogr\xE1ficas"
   statement:
     langStrings:
     - lang: 10
+      text: "\rIt is a collectible in Marvel's Spider-Man."
+    - lang: 34
       text: Es un coleccionable en Marvel's Spider-Man
   correctAnswer:
     langStringsList:
     - lang: 10
+      texts:
+      - Bags
+    - lang: 34
       texts:
       - Mochilas

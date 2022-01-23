@@ -35,6 +35,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: Which is not a Valorant character?
+    - lang: 34
       text: "\xBFCu\xE1l no es un personaje de Valorant?"
   correctAnswer:
     langStringsList:

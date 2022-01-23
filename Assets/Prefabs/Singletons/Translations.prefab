@@ -111,7 +111,7 @@ MonoBehaviour:
   - id: cup_000_title
     en: Retro cup
     es: Copa Retro
-  - id: cup_000_desc
+  - id: c_00_desc
     en: Questions about the fifht generation consoles and games
     es: "Preguntas sobre juegos y consolas de quinta generaci\xF3n"
   - id: Level_GuessTheYear
@@ -165,5 +165,59 @@ MonoBehaviour:
   - id: c_01_desc
     en: Questions about games released in 2021
     es: Preguntas sobre juegos lanzados en 2021
+  - id: l_prot
+    en: Questions about game characters
+    es: Preguntas sobre personajes de videojuegos
+  - id: l_year
+    en: Try to guess the release year of these games
+    es: "\xBFPuedes adivinar el a\xF1o en que se lanzaron estos juegos?"
+  - id: l_companies
+    en: Guess which companies developed these games.
+    es: "Adivina que compa\xF1\xEDas desarrollaron estos juegos"
+  - id: l_plat
+    en: Do you know in which platforms you can play these games?
+    es: "\xBFSabes en qu\xE9 plataformas se pueden jugar?"
+  - id: c_00_title
+    en: Retro Cup
+    es: Copa Retro
+  - id: c_02_title
+    en: 2020 Cup
+    es: Copa 2020
+  - id: c_03_title
+    en: 2019 Cup
+    es: Copa 2019
+  - id: c_04_title
+    en: 2018 Cup
+    es: Copa 2018
+  - id: c_02_desc
+    en: Questions about games released in 2020
+    es: Preguntas sobre juegos lanzados en 2020
+  - id: c_03_desc
+    en: Questions about games released in 2019
+    es: Preguntas sobre juegos lanzados en 2019
+  - id: c_04_desc
+    en: Questions about games released in 2018
+    es: Preguntas sobre juegos lanzados en 2018
+  - id: cup_shuffle_Title
+    en: Shuffle
+    es: Aleatorio
+  - id: cup_shuffle_packTitle
+    en: Shuffle
+    es: Aleatorio
+  - id: cup_shuffle_packDesc
+    en: Unlock shuffle mode, with random questions about all cups
+    es: Desbloquea el modo aleatorio, con preguntas sobre todas las copas
+  - id: cup_shuffle_desc
+    en: Questions about all cups
+    es: Pregutnas sobre todas las copas
+  - id: level_completed
+    en: Level completed!
+    es: "\xA1Nivel completado!"
+  - id: l_4
+    en: Questions with different themes
+    es: Preguntas sobre diferentes temas
+  - id: l_5
+    en: Harded questions with different themes
+    es: "Preguntas m\xE1s dif\xEDciles sobre diferentes temas"
   currentLanguage: 34
   availableLanguages: 220000000a000000

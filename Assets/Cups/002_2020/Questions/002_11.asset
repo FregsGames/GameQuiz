@@ -32,6 +32,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: 'What are the protagonists of 13 Sentinels: Aegis Rim fighting against?'
+    - lang: 34
       text: "\xBFContra qu\xE9 combaten los protagonistas de 13 Sentinels: Aegis
         Rim?"
   correctAnswer:

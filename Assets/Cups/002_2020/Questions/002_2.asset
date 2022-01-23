@@ -37,6 +37,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: "\rIt is NOT a usable weapon in Half Life: Alyx"
+    - lang: 34
       text: 'NO es un arma utilizable en Half Life: Alyx'
   correctAnswer:
     langStringsList:

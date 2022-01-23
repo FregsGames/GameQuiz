@@ -32,6 +32,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: Forza Horizon 5 is set up in which country?
+    - lang: 34
       text: "\xBFEn qu\xE9 pa\xEDs est\xE1 ambientado Forza Horizon 5?"
   correctAnswer:
     langStringsList:

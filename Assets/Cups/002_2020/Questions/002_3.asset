@@ -37,6 +37,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: What is Ku, Ori's partner in Ori and the Will of the Wisps?
+    - lang: 34
       text: "\xBFQu\xE9 es Ku, el compa\xF1ero de Ori en Ori and the Will of the
         Wisps?"
   correctAnswer:

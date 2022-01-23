@@ -37,6 +37,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: "\rIt is NOT a usable weapon in Doom Eternal"
+    - lang: 34
       text: NO es un arma de Doom Eternal
   correctAnswer:
     langStringsList:

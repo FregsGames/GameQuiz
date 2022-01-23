@@ -26,15 +26,25 @@ MonoBehaviour:
     langStringsList:
     - lang: 10
       texts:
+      - A demon
+      - A vampire
+      - A robot
+    - lang: 34
+      texts:
       - Un demonio
       - Una vampira
       - Un robot
   statement:
     langStrings:
     - lang: 10
+      text: 'Who is Sakuna in Sakuna: Of Rice and Ruin?'
+    - lang: 34
       text: "\xBFQui\xE9n es Sakuna en Sakuna: Of Rice and Ruin?"
   correctAnswer:
     langStringsList:
     - lang: 10
+      texts:
+      - A goddess
+    - lang: 34
       texts:
       - Una diosa

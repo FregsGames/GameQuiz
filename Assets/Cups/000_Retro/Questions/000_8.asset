@@ -21,7 +21,7 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  questionId: 000_16
+  questionId: 000_8
   wrongAnswers:
     langStringsList:
     - lang: 10
@@ -32,6 +32,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: NOT a racing game
+    - lang: 34
       text: NO es un juego de carreras
   correctAnswer:
     langStringsList:

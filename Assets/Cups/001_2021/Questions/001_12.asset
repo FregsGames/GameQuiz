@@ -33,8 +33,10 @@ MonoBehaviour:
       - Hidetaka Miyazaki
   statement:
     langStrings:
-    - lang: 10
+    - lang: 34
       text: Guionista de Psychonauts 2
+    - lang: 10
+      text: Psychonauts 2 writer
   correctAnswer:
     langStringsList:
     - lang: 10

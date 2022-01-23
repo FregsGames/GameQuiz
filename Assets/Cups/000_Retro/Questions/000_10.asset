@@ -21,7 +21,7 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  questionId: 000_18
+  questionId: 000_10
   wrongAnswers:
     langStringsList:
     - lang: 10
@@ -32,6 +32,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: It was the last console released by its company
+    - lang: 34
       text: "Fue la \xFAltima consola lanzada por su compa\xF1\xEDa"
   correctAnswer:
     langStringsList:

@@ -27,14 +27,24 @@ MonoBehaviour:
     - lang: 10
       texts:
       - Australia
+      - Mexico
+      - USA
+    - lang: 34
+      texts:
+      - Australia
       - "M\xE9xico"
       - Estados Unidos
   statement:
     langStrings:
     - lang: 10
+      text: "\rWhere is Forza Horizon 4 set?"
+    - lang: 34
       text: "\xBFD\xF3nde se ambienta Forza Horizon 4?"
   correctAnswer:
     langStringsList:
     - lang: 10
+      texts:
+      - Great Britain
+    - lang: 34
       texts:
       - "Gran Breta\xF1a"

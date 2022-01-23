@@ -32,6 +32,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: "\rDiscworld is a point and click game based on the novels of which author?"
+    - lang: 34
       text: "\xBFDiscworld es un juego point and click basado en las novelas de qu\xE9
         autor?"
   correctAnswer:

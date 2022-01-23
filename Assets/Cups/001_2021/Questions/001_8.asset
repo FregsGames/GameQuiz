@@ -32,6 +32,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: "\rThe main character of this game does NOT have superhuman powers"
+    - lang: 34
       text: El personaje protagonista de este juego NO tiene poderes sobrehumanos
   correctAnswer:
     langStringsList:

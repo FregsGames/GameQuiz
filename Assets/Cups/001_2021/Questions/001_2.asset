@@ -24,14 +24,21 @@ MonoBehaviour:
   questionId: 001_2
   wrongAnswers:
     langStringsList:
-    - lang: 10
+    - lang: 34
       texts:
       - Hermanos
       - Ninguna
       - Padre e hija
+    - lang: 10
+      texts:
+      - Siblings
+      - None
+      - Father and daughter
   statement:
     langStrings:
     - lang: 10
+      text: What is the relationship of the protagonists of It Takes Two?
+    - lang: 34
       text: "\xBFQu\xE9 relaci\xF3n tienen los protagonistas de It Takes Two?"
   correctAnswer:
     langStringsList:

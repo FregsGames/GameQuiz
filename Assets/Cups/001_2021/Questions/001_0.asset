@@ -33,6 +33,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: What is the name of the island where the action of Deathloop takes place?
+    - lang: 34
       text: "\xBFC\xF3mo se llama la isla en la que transcurre la acci\xF3n en Deathloop?"
   correctAnswer:
     langStringsList:

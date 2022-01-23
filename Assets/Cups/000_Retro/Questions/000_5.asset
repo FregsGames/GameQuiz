@@ -21,7 +21,7 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  questionId: 000_13
+  questionId: 000_5
   wrongAnswers:
     langStringsList:
     - lang: 10
@@ -32,8 +32,10 @@ MonoBehaviour:
       - Sega Dreamcast
   statement:
     langStrings:
-    - lang: 10
+    - lang: 34
       text: Consola que usaba cartuchos para almacenar sus juegos
+    - lang: 10
+      text: This console stored its games in cartridges
   correctAnswer:
     langStringsList:
     - lang: 10

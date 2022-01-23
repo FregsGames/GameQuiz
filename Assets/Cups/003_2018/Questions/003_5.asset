@@ -26,15 +26,25 @@ MonoBehaviour:
     langStringsList:
     - lang: 10
       texts:
-      - Una especie de insecto
+      - An insect
+      - A demon
+      - A fish
+    - lang: 34
+      texts:
+      - Un insecto
       - Un demonio
-      - Un tipo de pez
+      - Un pez
   statement:
     langStrings:
     - lang: 10
+      text: "\rWhat is Zorah Magdaros in Monster Hunter: World?"
+    - lang: 34
       text: "\xBFQu\xE9 es Zorah Magdaros en Monster Hunter: World?"
   correctAnswer:
     langStringsList:
     - lang: 10
+      texts:
+      - A dragon
+    - lang: 34
       texts:
       - "Un drag\xF3n"

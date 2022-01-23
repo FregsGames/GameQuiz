@@ -42,8 +42,10 @@ MonoBehaviour:
       - Alexios
   statement:
     langStrings:
-    - lang: 10
+    - lang: 34
       text: "\xBFC\xF3mo se llama el protagonista de Hades?"
+    - lang: 10
+      text: What is the name of the protagonist of Hades?
   correctAnswer:
     langStringsList:
     - lang: 10

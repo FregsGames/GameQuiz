@@ -21,7 +21,7 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  questionId: 000_15
+  questionId: 000_7
   wrongAnswers:
     langStringsList:
     - lang: 10
@@ -32,6 +32,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: Nintendo console released exclusively in China
+    - lang: 34
       text: Consola de Nintendo lanzada exclusivamente en China
   correctAnswer:
     langStringsList:

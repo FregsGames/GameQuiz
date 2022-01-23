@@ -33,6 +33,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: "\rIt is a game with more than one playable character"
+    - lang: 34
       text: "Es un juego con m\xE1s de un personaje jugable"
   correctAnswer:
     langStringsList:

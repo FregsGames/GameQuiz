@@ -49,7 +49,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   id: 2021 LEVEL 0 (To Translate)
-  levelTitle: 2021 LEVEL 0 (To Translate)
+  levelTitle: l_5
   handwrittenQuestionSet: {fileID: 11400000, guid: 1f04864a676242641a4827b88679d22f, type: 2}
   questionTemplates:
   - contentType: 8
@@ -61,6 +61,6 @@ MonoBehaviour:
   - contentType: 5
   - contentType: 9
   - contentType: 8
-  state: 1
+  state: 2
   alwaysUnlocked: 1
   winCondition: 0

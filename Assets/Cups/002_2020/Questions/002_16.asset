@@ -37,6 +37,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: In the orbit of which planet does the action of DIsc Room take place?
+    - lang: 34
       text: "\xBFEn la \xF3rbita de qu\xE9 planeta se desarrolla la acci\xF3n en
         Disc Room?"
   correctAnswer:
