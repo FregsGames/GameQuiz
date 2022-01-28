@@ -32,6 +32,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: Game that takes place in a single room
+    - lang: 34
       text: "Juego que se desarrolla en una \xFAnica habitaci\xF3n"
   correctAnswer:
     langStringsList:

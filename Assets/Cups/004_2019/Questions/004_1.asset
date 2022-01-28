@@ -26,15 +26,25 @@ MonoBehaviour:
     langStringsList:
     - lang: 10
       texts:
+      - USA
+      - Australia
+      - Canada
+    - lang: 34
+      texts:
       - Estados Unidos
       - Australia
       - "Canad\xE1"
   statement:
     langStrings:
     - lang: 10
+      text: "\rWhere is the Pathologic 2 development team from?"
+    - lang: 34
       text: "\xBFDe d\xF3nde es el equipo desarrollador de Pathologic 2?"
   correctAnswer:
     langStringsList:
     - lang: 10
+      texts:
+      - Russia
+    - lang: 34
       texts:
       - Rusia

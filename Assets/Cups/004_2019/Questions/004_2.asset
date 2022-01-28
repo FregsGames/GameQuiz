@@ -32,6 +32,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: "\rWhat era of Japan is Sekiro set in?"
+    - lang: 34
       text: "\xBFEn qu\xE9 era de Jap\xF3n se ambienta Sekiro?"
   correctAnswer:
     langStringsList:

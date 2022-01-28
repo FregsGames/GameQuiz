@@ -34,7 +34,7 @@ public class CSVProcessor : EditorWindow
     {
         string rawCsv = csv.text;
 
-        EditorUtility.SetDirty(csv);
+        EditorUtility.SetDirty(gamesCScriptable);
 
         foreach (var line in rawCsv.Split('\n'))
         {

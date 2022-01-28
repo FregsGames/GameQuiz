@@ -374,7 +374,7 @@ MonoBehaviour:
   _enablePerPlacementMode: 1
   _androidAdUnitId: Interstitial_Android
   _iOsAdUnitId: Interstitial_iOS
-  noAdsMinutesReward: 1
+  noAdsMinutesReward: 20
 --- !u!4 &1114308452
 Transform:
   m_ObjectHideFlags: 0

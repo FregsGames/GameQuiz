@@ -29,12 +29,22 @@ MonoBehaviour:
       - Black Eagles
       - Blue Lions
       - Golden Deer
+    - lang: 34
+      texts:
+      - "\xC1guilas Negras"
+      - Leones Azules
+      - Ciervos Dorados
   statement:
     langStrings:
     - lang: 10
+      text: "\rWhich is NOT a house in Fire Emblem: Three Houses?"
+    - lang: 34
       text: "\xBFCual NO es una casa de Fire Emblem: Three Houses?"
   correctAnswer:
     langStringsList:
     - lang: 10
       texts:
       - Red Sharks
+    - lang: 34
+      texts:
+      - Tiburones Rojos

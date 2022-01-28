@@ -96,14 +96,15 @@ MonoBehaviour:
     en: Remove Ads
     es: Quitar anuncios
   - id: Update_0_Content
-    en: To Translate
+    en: Don't miss out on upcoming content updates that will include new free and
+      premium levels.
     es: "No te pierdas las pr\xF3ximas actualizaciones de contenido que incluir\xE1n
       nuevos niveles gratuitos y premium."
   - id: Update_0_Title
-    en: HEY!
-    es: "\xA1Hey!"
+    en: Hi!
+    es: "\xA1Hola!"
   - id: Update_0_Subtitle
-    en: Thanks for playing Wizard Saga!
+    en: Thanks for playing Quizard Saga!
     es: "\xA1Gracias por jugar a Quizard Saga!"
   - id: LevelUnlocked
     en: New level unlocked!
@@ -219,5 +220,19 @@ MonoBehaviour:
   - id: l_5
     en: Harded questions with different themes
     es: "Preguntas m\xE1s dif\xEDciles sobre diferentes temas"
+  - id: reward_title
+    en: WHAT A DILEMA...
+    es: VAYA DILEMA...
+  - id: reward_content
+    en: Do you want to see an entire ad now and turn off ads for 20 minutes?\n\nIf
+      not, you will continue to see ads that you can skip.
+    es: "\xBFQuieres ver un anuncio entero ahora y desactivar anuncios durante 20
+      mintutos?\\n\\nSi no, seguir\xE1s viendo anuncios que podr\xE1s saltar."
+  - id: yes
+    en: Yes
+    es: "S\xED"
+  - id: no
+    en: No
+    es: No
   currentLanguage: 34
   availableLanguages: 220000000a000000

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GamesC
   m_EditorClassIdentifier: 
   serializationData:
-    SerializedFormat: 2
+    SerializedFormat: 0
     SerializedBytes: 
     ReferencedUnityObjects: []
     SerializedBytesString: 
@@ -28,605 +28,7134 @@ MonoBehaviour:
     - Capcom
     plats:
     - PC
-    - " Nintendo Switch\r"
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
   - name: 'Guilty Gear: Strive'
     year: 2021
     devs:
     - Arc System Works
     plats:
-    - 'Arcade '
-    - ' PlayStation 5 '
+    - Arcade
+    - PlayStation 5
     - PC
-    - " PlayStation 4\r"
+    - PlayStation 4
+    pack: free
+    protagonists:
+    - Sol
+    - Ky
+    - May
+    - Axl
+    - Chipp
+    - Millia
   - name: Psychonauts 2
     year: 2021
     devs:
     - Double Fine Productions
     plats:
-    - 'Xbox One '
-    - ' PlayStation 4 '
+    - Xbox One
+    - PlayStation 4
     - PC
-    - " Xbox Series X|S\r"
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Razputin
+    - Ford Cruller
+    - Sasha Nein
   - name: It Takes Two
     year: 2021
     devs:
     - Hazelight Studios
     plats:
-    - 'Xbox One '
+    - Xbox One
     - PC
-    - ' PlayStation 4 '
-    - ' PlayStation 5 '
-    - " Xbox Series X|S\r"
+    - PlayStation 4
+    - PlayStation 5
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - Cody
+    - May
   - name: The Great Ace Attorney Chronicles
     year: 2021
     devs:
     - Capcom
     plats:
     - PC
-    - ' Nintendo Switch '
-    - " PlayStation 4\r"
+    - Nintendo Switch
+    - PlayStation 4
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Herlock Sholmes
+    - Ryunosuke Naruhodo
+    - Susato Mikotoba
   - name: Forza Horizon 5
     year: 2021
     devs:
     - Playground Games
     plats:
-    - 'Xbox Series X|S '
+    - Xbox Series X|S
     - PC
-    - " Xbox One\r"
+    - Xbox One
+    pack: free
+    protagonists:
+    - '-'
   - name: Dyson Sphere Program
     year: 2021
     devs:
     - Youthcat Studio
     plats:
     - PC
+    pack: free
+    protagonists:
+    - '-'
   - name: 'Ratchet & Clank: Rift Apart'
     year: 2021
     devs:
     - Insomniac Games
     plats:
-    - "PlayStation 5\r"
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
   - name: Metroid Dread
     year: 2021
     devs:
     - MercurySteam
     plats:
-    - "Nintendo Switch\r"
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - Samus Aran
   - name: 'Disco Elysium: The Final Cut'
     year: 2021
     devs:
-    - ZA
-    - UM
+    - ZA/UM
     plats:
     - PC
-    - ' PlayStation 5 '
-    - ' Nintendo Switch '
-    - ' Xbox One '
-    - ' Xbox Series X|S '
-    - ' PlayStation 4 '
-    - ' Mac '
-    - " Google Stadia\r"
+    - PlayStation 5
+    - Nintendo Switch
+    - Xbox One
+    - Xbox Series X|S
+    - PlayStation 4
+    - Mac
+    - Google Stadia
+    pack: free
+    protagonists:
+    - Harrier Du Bois
   - name: Inscryption
     year: 2021
     devs:
     - Daniel Mullins Games
     plats:
     - PC
+    pack: free
+    protagonists:
+    - '-'
   - name: Super Mario 3D World + Bowser's Fury
     year: 2021
     devs:
     - Nintendo
     plats:
-    - "Nintendo Switch\r"
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
   - name: Eastward
     year: 2021
     devs:
     - Pixpil Studio
     plats:
-    - 'Nintendo Switch '
-    - ' Mac '
+    - Nintendo Switch
+    - Mac
     - PC
+    pack: free
+    protagonists:
+    - John
+    - Sam
   - name: Valheim
     year: 2021
     devs:
     - Iron Gate AB
     plats:
-    - 'Linux '
+    - Linux
     - PC
+    pack: free
+    protagonists:
+    - '-'
   - name: The Forgotten City
     year: 2021
     devs:
     - Modern Storyteller
     plats:
-    - 'PlayStation 5 '
-    - ' Xbox One '
+    - PlayStation 5
+    - Xbox One
     - PC
-    - ' Nintendo Switch '
-    - ' PlayStation 4 '
-    - " Xbox Series X|S\r"
+    - Nintendo Switch
+    - PlayStation 4
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - '-'
   - name: Death's Door
     year: 2021
     devs:
     - Acid Nerve
     plats:
     - PC
-    - ' Xbox One '
-    - ' Xbox Series X|S '
-    - ' PlayStation 5 '
-    - ' PlayStation 4 '
-    - " Nintendo Switch\r"
+    - Xbox One
+    - Xbox Series X|S
+    - PlayStation 5
+    - PlayStation 4
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
   - name: 'ENDER LILIES: Quietus of the Knights'
     year: 2021
     devs:
     - adglobe
     plats:
-    - 'Nintendo Switch '
-    - ' PlayStation 4 '
-    - ' PlayStation 5 '
-    - ' Xbox One '
-    - ' Xbox Series X|S '
+    - Nintendo Switch
+    - PlayStation 4
+    - PlayStation 5
+    - Xbox One
+    - Xbox Series X|S
     - PC
+    pack: free
+    protagonists:
+    - Lily
   - name: Strangeland
     year: 2021
     devs:
     - Wormwood Studios
     plats:
-    - 'Mac '
+    - Mac
     - PC
+    pack: free
+    protagonists:
+    - '-'
   - name: Returnal
     year: 2021
     devs:
     - Housemarque
     plats:
-    - "PlayStation 5\r"
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Selene
   - name: Portal Reloaded
     year: 2021
     devs:
     - PORTANIS
     plats:
     - PC
+    pack: free
+    protagonists:
+    - '-'
   - name: Back 4 Blood
     year: 2021
     devs:
     - Turtle Rock Studios
     plats:
-    - 'Xbox Series X|S '
-    - ' PlayStation 5 '
-    - ' PlayStation 4 '
-    - ' Xbox One '
+    - Xbox Series X|S
+    - PlayStation 5
+    - PlayStation 4
+    - Xbox One
     - PC
+    pack: free
+    protagonists:
+    - Evangelo
+    - Mom
+    - Holly
   - name: HITMAN 3
     year: 2021
     devs:
     - IO Interactive
     plats:
-    - 'Xbox One '
-    - ' Google Stadia '
+    - Xbox One
+    - Google Stadia
     - PC
-    - ' PlayStation 5 '
-    - ' Xbox Series X|S '
-    - " PlayStation 4\r"
+    - PlayStation 5
+    - Xbox Series X|S
+    - PlayStation 4
+    pack: free
+    protagonists:
+    - '-'
   - name: 'Monster Hunter Stories 2: Wings of Ruin'
     year: 2021
     devs:
     - Capcom
     plats:
     - PC
-    - " Nintendo Switch\r"
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - Ena
+    - Kayna
+    - Navirou
   - name: Bowser's Fury
     year: 2021
     devs:
     - Nintendo
     plats:
-    - "Nintendo Switch\r"
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
   - name: 'Life is Strange: True Colors'
     year: 2021
     devs:
     - Deck Nine
     plats:
-    - 'Google Stadia '
+    - Google Stadia
     - PC
-    - ' PlayStation 4 '
-    - ' PlayStation 5 '
-    - ' Nintendo Switch '
-    - ' Xbox One '
-    - " Xbox Series X|S\r"
+    - PlayStation 4
+    - PlayStation 5
+    - Nintendo Switch
+    - Xbox One
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - Alex Chen
   - name: Little Nightmares II
     year: 2021
     devs:
     - Tarsier Studios
     plats:
     - PC
-    - ' PlayStation 5 '
-    - ' Xbox Series X|S '
-    - ' Google Stadia '
-    - ' Xbox One '
-    - ' PlayStation 4 '
-    - " Nintendo Switch\r"
+    - PlayStation 5
+    - Xbox Series X|S
+    - Google Stadia
+    - Xbox One
+    - PlayStation 4
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
   - name: Resident Evil Village
     year: 2021
     devs:
     - Capcom
     plats:
-    - 'Xbox One '
-    - ' Google Stadia '
-    - ' PlayStation 4 '
-    - ' Xbox Series X|S '
+    - Xbox One
+    - Google Stadia
+    - PlayStation 4
+    - Xbox Series X|S
     - PC
-    - " PlayStation 5\r"
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Ethan Winters
   - name: NieR Replicant ver.1.22474487139...
     year: 2021
     devs:
     - Toylogic
     plats:
-    - 'PlayStation 4 '
+    - PlayStation 4
     - PC
-    - " Xbox One\r"
+    - Xbox One
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - "Kain\xE9"
   - name: 'The Binding of Isaac: Repentance'
     year: 2021
     devs:
-    - '"Nicalis'
+    - Nicalis Inc.
     plats:
-    - ' Inc."'
+    - Mac
+    - PlayStation 5
+    - Nintendo Switch
+    - Xbox Series X|S
+    - PC
+    - Linux
+    pack: free
+    protagonists:
+    - Bethany
   - name: DEATHLOOP
     year: 2021
     devs:
     - Arkane Studios
     plats:
     - PC
-    - " PlayStation 5\r"
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Colt Vahn
   - name: Age of Empires IV
     year: 2021
     devs:
     - Relic Entertainment
     plats:
     - PC
+    pack: free
+    protagonists:
+    - '-'
   - name: 'NEO: The World Ends with You'
     year: 2021
     devs:
     - Square Enix
     plats:
-    - 'PlayStation 4 '
+    - PlayStation 4
     - PC
-    - " Nintendo Switch\r"
+    - Nintendo Switch
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Rindo Kanade
+    - Nagi Usui
+    - Sho Minamimoto
   - name: No More Heroes III
     year: 2021
     devs:
     - Grasshopper Manufacture
     plats:
-    - 'Nintendo Switch '
+    - Nintendo Switch
     - PC
+    pack: free
+    protagonists:
+    - Travis Touchdown
   - name: Road 96
     year: 2021
     devs:
     - DigixArt
     plats:
-    - 'Nintendo Switch '
+    - Nintendo Switch
     - PC
+    pack: free
+    protagonists:
+    - '-'
   - name: Serin Fate
     year: 2021
     devs:
     - Vethergen
     plats:
     - PC
+    pack: free
+    protagonists:
+    - '-'
   - name: Encased
     year: 2021
     devs:
     - Dark Crystal Games
     plats:
     - PC
-    - ' Mac '
-    - ' Xbox One '
-    - ' PlayStation 4 '
-    - " Nintendo Switch\r"
+    - Mac
+    - Xbox One
+    - PlayStation 4
+    - Nintendo Switch
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
   - name: 'Kena: Bridge of Spirits'
     year: 2021
     devs:
     - Ember Lab
     plats:
     - PC
-    - ' PlayStation 4 '
-    - " PlayStation 5\r"
+    - PlayStation 4
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
   - name: Alan Wake Remastered
     year: 2021
     devs:
     - Remedy Entertainment
     plats:
-    - 'PlayStation 4 '
-    - ' PlayStation 5 '
-    - ' Xbox One '
-    - ' Xbox Series X|S '
+    - PlayStation 4
+    - PlayStation 5
+    - Xbox One
+    - Xbox Series X|S
     - PC
+    pack: free
+    protagonists:
+    - '-'
   - name: Knockout City
     year: 2021
     devs:
     - Velan Studios
     plats:
-    - 'PlayStation 4 '
+    - PlayStation 4
     - PC
-    - ' Xbox One '
-    - ' PlayStation 5 '
-    - ' Xbox Series X|S '
-    - " Nintendo Switch\r"
+    - Xbox One
+    - PlayStation 5
+    - Xbox Series X|S
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
   - name: Far Cry 6
     year: 2021
     devs:
     - Ubisoft Toronto
     plats:
-    - 'Google Stadia '
-    - ' PlayStation 4 '
-    - ' PlayStation 5 '
-    - ' Xbox Series X|S '
-    - ' Xbox One '
+    - Google Stadia
+    - PlayStation 4
+    - PlayStation 5
+    - Xbox Series X|S
+    - Xbox One
     - PC
+    pack: free
+    protagonists:
+    - Dani Rojas
   - name: Curse of the Dead Gods
     year: 2021
     devs:
     - Passtech Games
     plats:
-    - 'Xbox One '
+    - Xbox One
     - PC
-    - ' PlayStation 4 '
-    - " Nintendo Switch\r"
+    - PlayStation 4
+    - Nintendo Switch
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Caradog McCallister
   - name: The Ascent
     year: 2021
     devs:
     - Neon Giant
     plats:
-    - 'Xbox Series X|S '
-    - ' Xbox One '
+    - Xbox Series X|S
+    - Xbox One
     - PC
+    pack: free
+    protagonists:
+    - '-'
   - name: Tales of Arise
     year: 2021
     devs:
     - Bandai Namco Entertainment
     plats:
-    - 'Xbox One '
-    - ' PlayStation 4 '
+    - Xbox One
+    - PlayStation 4
     - PC
-    - ' PlayStation 5 '
-    - " Xbox Series X|S\r"
+    - PlayStation 5
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - Alphen
+    - Shionne
+    - Rinwell
+    - Law
+    - Kisara
+    - Dohalim
   - name: Narita Boy
     year: 2021
     devs:
     - Studio Koba
     plats:
     - PC
-    - ' Linux '
-    - ' Nintendo Switch '
-    - ' Mac '
-    - ' PlayStation 4 '
-    - " Xbox One\r"
+    - Linux
+    - Nintendo Switch
+    - Mac
+    - PlayStation 4
+    - Xbox One
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Lionel Pearl
   - name: HUMANKIND
     year: 2021
     devs:
     - AMPLITUDE Studios
     plats:
     - PC
-    - ' Google Stadia '
-    - " Mac\r"
+    - Google Stadia
+    - Mac
+    pack: free
+    protagonists:
+    - '-'
   - name: Last Stop
     year: 2021
     devs:
     - Variable State
     plats:
     - PC
-    - ' PlayStation 4 '
-    - ' Nintendo Switch '
-    - ' Xbox One '
-    - ' PlayStation 5 '
-    - " Xbox Series X|S\r"
+    - PlayStation 4
+    - Nintendo Switch
+    - Xbox One
+    - PlayStation 5
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - '-'
   - name: Outriders
     year: 2021
     devs:
     - People Can Fly
     plats:
-    - 'Xbox One '
-    - ' PlayStation 4 '
-    - ' PlayStation 5 '
+    - Xbox One
+    - PlayStation 4
+    - PlayStation 5
     - PC
-    - ' Xbox Series X|S '
-    - " Google Stadia\r"
+    - Xbox Series X|S
+    - Google Stadia
+    pack: free
+    protagonists:
+    - '-'
   - name: 'Call of Duty: Vanguard'
     year: 2021
     devs:
     - Sledgehammer Games
     plats:
-    - 'Xbox Series X|S '
-    - ' Xbox One '
-    - ' PlayStation 4 '
+    - Xbox Series X|S
+    - Xbox One
+    - PlayStation 4
     - PC
-    - " PlayStation 5\r"
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
   - name: Loop Hero
     year: 2021
     devs:
     - Four Quarters
     plats:
-    - 'Nintendo Switch '
+    - Nintendo Switch
     - PC
-    - ' Mac '
-    - " Linux\r"
+    - Mac
+    - Linux
+    pack: free
+    protagonists:
+    - '-'
   - name: Scarlet Nexus
     year: 2021
     devs:
     - Bandai Namco Studios
     plats:
-    - 'PlayStation 5 '
+    - PlayStation 5
     - PC
-    - ' Xbox Series X|S '
-    - ' PlayStation 4 '
-    - " Xbox One\r"
+    - Xbox Series X|S
+    - PlayStation 4
+    - Xbox One
+    pack: free
+    protagonists:
+    - Yuito Sumeragi
+    - Kasane Randall
   - name: 'The Dark Pictures Anthology: House of Ashes'
     year: 2021
     devs:
     - Supermassive Games
     plats:
     - PC
-    - ' Xbox Series X|S '
-    - ' PlayStation 5 '
-    - ' PlayStation 4 '
-    - " Xbox One\r"
+    - Xbox Series X|S
+    - PlayStation 5
+    - PlayStation 4
+    - Xbox One
+    pack: free
+    protagonists:
+    - Rachel King
+    - Salim Othman
+    - Jason Kolchek
   - name: PAC-MAN 99
     year: 2021
     devs:
     - Arika
     plats:
-    - "Nintendo Switch\r"
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
   - name: Cyber Shadow
     year: 2021
     devs:
     - Mechanical Head Studios
     plats:
-    - 'Xbox One '
-    - ' PlayStation 5 '
-    - ' Nintendo Switch '
-    - ' PlayStation 4 '
+    - Xbox One
+    - PlayStation 5
+    - Nintendo Switch
+    - PlayStation 4
     - PC
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - '-'
   - name: 'WarioWare: Get It Together!'
     year: 2021
     devs:
     - Nintendo
     plats:
-    - "Nintendo Switch\r"
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
   - name: Hot Wheels Unleashed
     year: 2021
     devs:
     - Milestone
     plats:
-    - 'Xbox One '
+    - Xbox One
     - PC
-    - ' Xbox Series X|S '
-    - ' PlayStation 5 '
-    - ' PlayStation 4 '
-    - " Nintendo Switch\r"
+    - Xbox Series X|S
+    - PlayStation 5
+    - PlayStation 4
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
   - name: Rain on Your Parade
     year: 2021
     devs:
     - Unbound Creations LLC
     plats:
-    - 'Xbox One '
-    - ' Nintendo Switch '
-    - ' Mac '
-    - ' Linux '
+    - Xbox One
+    - Nintendo Switch
+    - Mac
+    - Linux
     - PC
-    - " Xbox Series X|S\r"
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - '-'
   - name: 'Golf Club: Wasteland'
     year: 2021
     devs:
     - Demagog Studios
     plats:
-    - 'Nintendo Switch '
+    - Nintendo Switch
     - PC
-    - ' PlayStation 4 '
-    - " Xbox One\r"
+    - PlayStation 4
+    - Xbox One
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
   - name: Maquette
     year: 2021
     devs:
     - Graceful Decay
     plats:
     - PC
-    - ' PlayStation 4 '
-    - " PlayStation 5\r"
+    - PlayStation 4
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
   - name: Totally Accurate Battle Simulator
     year: 2021
     devs:
     - Landfall Games
     plats:
-    - 'Mac '
-    - ' Xbox One '
+    - Mac
+    - Xbox One
     - PC
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - '-'
   - name: The Artful Escape
     year: 2021
     devs:
     - Beethoven & Dinosaur
     plats:
-    - 'Xbox Series X|S '
+    - Xbox Series X|S
     - PC
-    - " Xbox One\r"
+    - Xbox One
+    pack: free
+    protagonists:
+    - '-'
   - name: Lust from Beyond
     year: 2021
     devs:
     - Movie Games Lunarium
     plats:
     - PC
+    pack: free
+    protagonists:
+    - '-'
   - name: The Medium
     year: 2021
     devs:
     - Bloober Team
     plats:
-    - 'PlayStation 5 '
-    - ' Xbox Series X|S '
+    - PlayStation 5
+    - Xbox Series X|S
     - PC
+    pack: free
+    protagonists:
+    - Marianne
   - name: "Pok\xE9mon Unite"
     year: 2021
     devs:
     - Tencent Games
     plats:
-    - 'Android '
-    - ' iOS '
-    - " Nintendo Switch\r"
+    - Android
+    - iOS
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
   - name: 'Skul: The Hero Slayer'
     year: 2021
     devs:
     - SouthPaw Games
     plats:
-    - 'PlayStation 4 '
-    - ' Xbox One '
+    - PlayStation 4
+    - Xbox One
     - PC
-    - ' Mac '
-    - ' Linux '
-    - " Nintendo Switch\r"
+    - Mac
+    - Linux
+    - Nintendo Switch
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
   - name: Overboard!
     year: 2021
     devs:
     - inkle
     plats:
     - PC
-    - ' Mac '
-    - ' iOS '
-    - " Nintendo Switch\r"
+    - Mac
+    - iOS
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - Veronica Villensey
   - name: Bravely Default II
     year: 2021
     devs:
     - Team Asano
     plats:
     - PC
-    - " Nintendo Switch\r"
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - Seth
+    - Gloria
+    - Elvis
   - name: 'Scott Pilgrim vs. the World: The Game - Complete Edition'
     year: 2021
     devs:
     - Ubisoft Chengdu
     plats:
-    - 'PlayStation 4 '
-    - ' Xbox One '
-    - ' PlayStation 5 '
-    - ' Amazon Fire TV '
-    - ' Google Stadia '
+    - PlayStation 4
+    - Xbox One
+    - PlayStation 5
+    - Amazon Fire TV
+    - Google Stadia
     - PC
-    - ' Nintendo Switch '
-    - " Xbox Series X|S\r"
+    - Nintendo Switch
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - '-'
   - name: 'Mario Golf: Super Rush'
     year: 2021
     devs:
     - Camelot
     plats:
-    - "Nintendo Switch\r"
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
   - name: Marvel's Guardians of the Galaxy
     year: 2021
     devs:
     - Camelot
     plats:
-    - 'Xbox One '
-    - ' Xbox Series X|S '
+    - Xbox One
+    - Xbox Series X|S
     - PC
-    - ' PlayStation 4 '
-    - " PlayStation 5\r"
+    - PlayStation 4
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Star-Lord
+    - Drax
+    - Groot
   - name: Unpacking
     year: 2021
     devs:
     - Witch Beam
     plats:
-    - 'Nintendo Switch '
-    - ' Linux '
-    - ' Mac '
+    - Nintendo Switch
+    - Linux
+    - Mac
     - PC
-    - ' Xbox One'
+    - Xbox One
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - '-'
+  - name: Space Invaders
+    year: 1978
+    devs:
+    - Taito
+    plats:
+    - Legacy Cellphone
+    - Arcade
+    - Nintendo Entertainment System (NES)
+    - Sega Saturn
+    - Atari 5200
+    - SG-1000
+    - iOS
+    - Atari 2600
+    - WonderSwan
+    - Game Boy
+    pack: free
+    protagonists:
+    - '-'
+  - name: Fantasy Zone
+    year: 1986
+    devs:
+    - Sega
+    plats:
+    - Arcade
+    - MSX
+    - TurboGrafx-16
+    - PC
+    - Nintendo Entertainment System (NES)
+    - Sharp X68000
+    - Sega Saturn
+    - Wii
+    - Sega Master System
+    - Nintendo 3DS
+    pack: free
+    protagonists:
+    - '-'
+  - name: OutRun
+    year: 1986
+    devs:
+    - Sega
+    plats:
+    - PC
+    - Atari ST-STE
+    - PC
+    - Sega Game Gear
+    - Amiga
+    - ZX Spectrum
+    - MSX
+    - Arcade
+    - TurboGrafx-16
+    - PC
+    - Sega Saturn
+    - Commodore C64-128
+    - Sega Mega Drive
+    - Genesis
+    - Sega Master System
+    pack: free
+    protagonists:
+    - '-'
+  - name: After Burner II
+    year: 1987
+    devs:
+    - Sega
+    plats:
+    - Sharp X68000
+    - PC
+    - Amiga
+    - Sega Saturn
+    - Nintendo 3DS
+    - Atari ST-STE
+    - Sega Mega Drive
+    - Genesis
+    - TurboGrafx-16
+    - PC
+    - PlayStation 2
+    - Arcade
+    pack: free
+    protagonists:
+    - '-'
+  - name: Snatcher
+    year: 1988
+    devs:
+    - Konami
+    plats:
+    - MSX2
+    - Sega Saturn
+    - Sega CD
+    - PlayStation
+    - TurboGrafx-16
+    - PC
+    - PC
+    pack: free
+    protagonists:
+    - Gillian Seed
+  - name: Galaxy Force II
+    year: 1988
+    devs:
+    - Sega
+    plats:
+    - Atari ST-STE
+    - ZX Spectrum
+    - Wii
+    - PC
+    - Sega Master System
+    - Arcade
+    - Sega Saturn
+    - Commodore C64-128
+    - PlayStation 2
+    - Sega Mega Drive
+    - Genesis
+    - FM Towns
+    - Amiga
+    pack: free
+    protagonists:
+    - Halcyon
+  - name: Three Wonders
+    year: 1991
+    devs:
+    - Capcom
+    plats:
+    - Sega Saturn
+    - PlayStation
+    - Arcade
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'QuackShot: Starring Donald Duck'
+    year: 1991
+    devs:
+    - Sega
+    plats:
+    - Sega Mega Drive
+    - Genesis
+    - Sega Saturn
+    pack: free
+    protagonists:
+    - '-'
+  - name: Road Rash
+    year: 1991
+    devs:
+    - Peakstar Software
+    plats:
+    - Sega Mega Drive
+    - Genesis
+    - Amiga
+    - Sega Saturn
+    - Sega Master System
+    - Game Boy Color
+    - Game Boy
+    - Sega Game Gear
+    pack: free
+    protagonists:
+    - '-'
+  - name: Dark Seed
+    year: 1992
+    devs:
+    - Cyberdreams
+    plats:
+    - Amiga
+    - PC
+    - PlayStation
+    - Sega Saturn
+    - PC
+    - Mac
+    pack: free
+    protagonists:
+    - '-'
+  - name: DOOM
+    year: 1993
+    devs:
+    - id Software
+    plats:
+    - Atari Jaguar
+    - Linux
+    - 3DO Interactive Multiplayer
+    - Sega Saturn
+    - PC
+    - Nintendo Switch
+    - Game Boy Advance
+    - PC
+    - Super Nintendo Entertainment System (SNES)
+    - Xbox One
+    - Sega 32X
+    - iOS
+    - Mac
+    - Xbox 360
+    - Super Famicom
+    - PlayStation 4
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: In the Hunt
+    year: 1993
+    devs:
+    - Irem Corporation
+    plats:
+    - Sega Saturn
+    - PlayStation
+    - PC
+    - Arcade
+    pack: free
+    protagonists:
+    - '-'
+  - name: SimCity 2000
+    year: 1993
+    devs:
+    - Maxis
+    plats:
+    - PC
+    - Super Famicom
+    - PC
+    - PlayStation
+    - Mac
+    - Nintendo 64
+    - Super Nintendo Entertainment System (SNES)
+    - Amiga
+    - Sega Saturn
+    pack: free
+    protagonists:
+    - '-'
+  - name: Myst
+    year: 1993
+    devs:
+    - Cyan Worlds
+    plats:
+    - iOS
+    - Mac
+    - Nintendo DS
+    - PC
+    - 3DO Interactive Multiplayer
+    - Atari Jaguar
+    - PlayStation Portable
+    - PlayStation
+    - Sega Saturn
+    - Nintendo 3DS
+    pack: free
+    protagonists:
+    - '-'
+  - name: Mortal Kombat II
+    year: 1993
+    devs:
+    - Midway
+    plats:
+    - Game Boy
+    - PC
+    - Sega Master System
+    - Sega Saturn
+    - Super Nintendo Entertainment System (SNES)
+    - Sega Mega Drive
+    - Genesis
+    - Sega 32X
+    - Arcade
+    - PlayStation 3
+    - PlayStation
+    - Amiga
+    pack: free
+    protagonists:
+    - Johnny Cage
+    - Liu Kang
+    - Raiden
+    - Reptile
+    - Scorpion
+    - Shang Tsung
+    - Sub-Zero
+    - Baraka
+    - Jax Briggs
+    - Kitana
+    - Kung Lao
+    - Mileena
+    - Jade
+    - Smoke
+    - Noob Saibot
+  - name: 'Ogre Battle: The March of the Black Queen'
+    year: 1993
+    devs:
+    - Riverhillsoft
+    plats:
+    - Wii
+    - Wii U
+    - Sega Saturn
+    - PlayStation
+    - Super Nintendo Entertainment System (SNES)
+    pack: free
+    protagonists:
+    - '-'
+  - name: Darius Gaiden
+    year: 1994
+    devs:
+    - Taito
+    plats:
+    - PlayStation
+    - Arcade
+    - PC
+    - Sega Saturn
+    pack: free
+    protagonists:
+    - '-'
+  - name: Virtua Fighter 2
+    year: 1994
+    devs:
+    - Sega
+    plats:
+    - PlayStation 3
+    - Wii
+    - PC
+    - PlayStation 2
+    - Sega Saturn
+    - Arcade
+    - Sega Mega Drive
+    - Genesis
+    - Xbox 360
+    pack: free
+    protagonists:
+    - '-'
+  - name: Revolution X
+    year: 1994
+    devs:
+    - Midway Games
+    plats:
+    - Super Nintendo Entertainment System (SNES)
+    - Sega Saturn
+    - Arcade
+    - PC
+    - PlayStation
+    - Sega Mega Drive
+    - Genesis
+    pack: free
+    protagonists:
+    - '-'
+  - name: Policenauts
+    year: 1994
+    devs:
+    - s
+    plats:
+    - PC
+    - Sega Saturn
+    - PlayStation
+    - 3DO Interactive Multiplayer
+    - PlayStation 3
+    pack: free
+    protagonists:
+    - Jonathan Ingram
+    - Ed Brown
+    - Karen Hojo
+    - Lorraine Hojo
+  - name: Magic Carpet
+    year: 1994
+    devs:
+    - Bullfrog Productions
+    plats:
+    - PlayStation 3
+    - PlayStation
+    - Sega Saturn
+    - Mac
+    - PC
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: Tempest 2000
+    year: 1994
+    devs:
+    - llamasoft
+    plats:
+    - Atari Jaguar
+    - PC
+    - Sega Saturn
+    - Mac
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: Sega Rally Championship
+    year: 1994
+    devs:
+    - United Game Artists
+    - Sega
+    plats:
+    - N-Gage
+    - Arcade
+    - PC
+    - Sega Saturn
+    - Game Boy Advance
+    - PlayStation 2
+    pack: free
+    protagonists:
+    - '-'
+  - name: Street Racer
+    year: 1994
+    devs:
+    - Vivid Image
+    plats:
+    - Super Nintendo Entertainment System (SNES)
+    - Sega Saturn
+    - Game Boy
+    - PlayStation
+    - PC
+    - PC
+    - Amiga
+    - Sega Mega Drive
+    - Genesis
+    pack: free
+    protagonists:
+    - '-'
+  - name: Cyberia
+    year: 1994
+    devs:
+    - Xatrix Entertainment
+    plats:
+    - Sega Saturn
+    - PC
+    - 3DO Interactive Multiplayer
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Virtua Cop
+    year: 1994
+    devs:
+    - Sega
+    plats:
+    - Arcade
+    - Sega Saturn
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: NBA Jam Tournament Edition
+    year: 1994
+    devs:
+    - Torus Games
+    plats:
+    - Sega Saturn
+    - Arcade
+    - PlayStation
+    - Sega 32X
+    - Sega Mega Drive
+    - Genesis
+    - Sega Game Gear
+    - PC
+    - Game Boy
+    - Super Nintendo Entertainment System (SNES)
+    - Atari Jaguar
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Tactics Ogre: Let Us Cling Together'
+    year: 1995
+    devs:
+    - Quest
+    plats:
+    - PlayStation
+    - Super Nintendo Entertainment System (SNES)
+    - Wii
+    - Sega Saturn
+    - PlayStation Portable
+    pack: free
+    protagonists:
+    - '-'
+  - name: Command & Conquer
+    year: 1995
+    devs:
+    - Westwood Studios
+    plats:
+    - PlayStation
+    - PC
+    - Nintendo 64
+    - Mac
+    - Sega Saturn
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: Transport Tycoon Deluxe
+    year: 1995
+    devs:
+    - Chris Sawyer
+    plats:
+    - Sega Saturn
+    - PlayStation
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: Discworld
+    year: 1995
+    devs:
+    - Perfect Entertainment
+    plats:
+    - Sega Saturn
+    - PC
+    - PlayStation
+    pack: free
+    protagonists:
+    - Rincewind
+  - name: DonPachi
+    year: 1995
+    devs:
+    - CAVE Interactive
+    plats:
+    - Sega Saturn
+    - PlayStation
+    - PlayStation 3
+    - Arcade
+    pack: free
+    protagonists:
+    - '-'
+  - name: Tetris Plus
+    year: 1995
+    devs:
+    - Jaleco Ltd.
+    plats:
+    - Arcade
+    - Game Boy
+    - Sega Saturn
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Suikoden
+    year: 1995
+    devs:
+    - Konami
+    plats:
+    - PlayStation
+    - PC
+    - Sega Saturn
+    pack: free
+    protagonists:
+    - '-'
+  - name: Destruction Derby
+    year: 1995
+    devs:
+    - Looking Glass Studios
+    plats:
+    - PlayStation
+    - Sega Saturn
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: Strikers 1945
+    year: 1995
+    devs:
+    - Psikyo
+    plats:
+    - PlayStation
+    - Arcade
+    - Sega Saturn
+    - Nintendo Switch
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: Ultimate Mortal Kombat 3
+    year: 1995
+    devs:
+    - Midway
+    plats:
+    - Arcade
+    - Sega Saturn
+    - Super Nintendo Entertainment System (SNES)
+    - Xbox 360
+    - Sega Mega Drive
+    - Genesis
+    - Nintendo DS
+    - Game Boy Advance
+    pack: free
+    protagonists:
+    - '-'
+  - name: Mega Man X3
+    year: 1995
+    devs:
+    - Capcom
+    plats:
+    - PC
+    - Super Famicom
+    - Super Nintendo Entertainment System (SNES)
+    - New Nintendo 3DS
+    - Wii U
+    - PlayStation
+    - Sega Saturn
+    - Legacy Cellphone
+    pack: free
+    protagonists:
+    - '-'
+  - name: Worms
+    year: 1995
+    devs:
+    - Team17
+    plats:
+    - Sega Saturn
+    - PlayStation
+    - Mac
+    - Amiga
+    - Amiga CD32
+    - PC
+    - Sega Mega Drive
+    - Genesis
+    - PlayStation 3
+    - PlayStation Portable
+    - Xbox 360
+    - Super Nintendo Entertainment System (SNES)
+    - PC
+    - Atari Jaguar
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Crusader: No Remorse'
+    year: 1995
+    devs:
+    - Realtime Associates
+    plats:
+    - Sega Saturn
+    - PC
+    - PlayStation
+    - PC
+    - Mac
+    pack: free
+    protagonists:
+    - '-'
+  - name: Earthworm Jim 2
+    year: 1995
+    devs:
+    - Shiny Entertainment
+    plats:
+    - Sega Mega Drive
+    - Genesis
+    - Wii
+    - Super Nintendo Entertainment System (SNES)
+    - PC
+    - PlayStation
+    - Sega Saturn
+    - Game Boy Advance
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Street Fighter Alpha: Warrior''s Dreams'
+    year: 1995
+    devs:
+    - Capcom
+    plats:
+    - PlayStation
+    - Sega Saturn
+    - PC
+    - Game Boy Color
+    - Arcade
+    pack: free
+    protagonists:
+    - '-'
+  - name: Hi-Octane
+    year: 1995
+    devs:
+    - Bullfrog Productions
+    plats:
+    - PlayStation
+    - Sega Saturn
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Hexen: Beyond Heretic'
+    year: 1995
+    devs:
+    - Atod
+    plats:
+    - PC
+    - PlayStation
+    - PC
+    - Sega Saturn
+    - Mac
+    pack: free
+    protagonists:
+    - '-'
+  - name: Prisoner of Ice
+    year: 1995
+    devs:
+    - Infogrames Europe
+    plats:
+    - PC
+    - PlayStation
+    - Mac
+    - Sega Saturn
+    - PC
+    - Linux
+    pack: free
+    protagonists:
+    - '-'
+  - name: Phantasmagoria
+    year: 1995
+    devs:
+    - Kronos Digital Entertainment
+    plats:
+    - Sega Saturn
+    - PC
+    - PC
+    - Mac
+    pack: free
+    protagonists:
+    - '-'
+  - name: Virtua Cop 2
+    year: 1995
+    devs:
+    - Sega
+    plats:
+    - Dreamcast
+    - Arcade
+    - PC
+    - Sega Saturn
+    pack: free
+    protagonists:
+    - '-'
+  - name: Wipeout
+    year: 1995
+    devs:
+    - Psygnosis
+    plats:
+    - PlayStation
+    - PlayStation 3
+    - PC
+    - Sega Saturn
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Night Warriors: Darkstalkers'' Revenge'
+    year: 1995
+    devs:
+    - Capcom
+    plats:
+    - Sega Saturn
+    - Arcade
+    pack: free
+    protagonists:
+    - '-'
+  - name: Panzer Dragoon
+    year: 1995
+    devs:
+    - Sega
+    plats:
+    - Xbox
+    - PlayStation 2
+    - PC
+    - Sega Saturn
+    pack: free
+    protagonists:
+    - '-'
+  - name: The King of Fighters '95
+    year: 1995
+    devs:
+    - SNK
+    plats:
+    - Game Boy
+    - Neo Geo AES
+    - Neo Geo CD
+    - Neo Geo MVS
+    - Sega Saturn
+    - PlayStation
+    - Nintendo Switch
+    - Wii
+    pack: free
+    protagonists:
+    - Iori Yagami
+    - Eiji Kisaragi
+    - Billy Kane
+    - Saisyu Kusanagi
+    - Omega Rugal
+  - name: 'Discworld II: Missing Presumed...!?'
+    year: 1996
+    devs:
+    - Perfect Entertainment
+    plats:
+    - Sega Saturn
+    - PlayStation
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: Dragon Force
+    year: 1996
+    devs:
+    - J-Force
+    plats:
+    - Sega Saturn
+    - PlayStation 2
+    - PlayStation 3
+    pack: free
+    protagonists:
+    - '-'
+  - name: NHL 97
+    year: 1996
+    devs:
+    - Visual Concepts
+    plats:
+    - PC
+    - Super Nintendo Entertainment System (SNES)
+    - PlayStation
+    - Sega Mega Drive
+    - Genesis
+    - Sega Saturn
+    pack: free
+    protagonists:
+    - '-'
+  - name: Guardian Heroes
+    year: 1996
+    devs:
+    - Treasure
+    plats:
+    - Sega Saturn
+    - Xbox 360
+    pack: free
+    protagonists:
+    - Ginjirou
+    - Han
+    - Randy
+    - Nicole
+    - Serena
+  - name: Puyo Puyo SUN
+    year: 1996
+    devs:
+    - Compile
+    plats:
+    - PC
+    - Game Boy
+    - Nintendo 64
+    - Sega Saturn
+    - Arcade
+    - Game Boy Color
+    pack: free
+    protagonists:
+    - '-'
+  - name: Panzer Dragoon II Zwei
+    year: 1996
+    devs:
+    - Team Andromeda
+    plats:
+    - Sega Saturn
+    pack: free
+    protagonists:
+    - Lundi
+  - name: Duke Nukem 3D
+    year: 1996
+    devs:
+    - Lobotomy Software
+    plats:
+    - iOS
+    - PlayStation
+    - Sega Saturn
+    - PlayStation 4
+    - Xbox 360
+    - Mac
+    - PC
+    - PlayStation Vita
+    - PlayStation 3
+    - Sega Mega Drive
+    - Genesis
+    - PC
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Metal Slug
+    year: 1996
+    devs:
+    - Nazca Corporation
+    plats:
+    - Nintendo Switch
+    - iOS
+    - Wii
+    - Arcade
+    - PC
+    - Android
+    - Neo Geo CD
+    - Neo Geo MVS
+    - Sega Saturn
+    - PlayStation
+    - Neo Geo AES
+    pack: free
+    protagonists:
+    - Marco Rossi
+    - Tarma Roving
+    - Allen O'Neil
+  - name: Tomb Raider
+    year: 1996
+    devs:
+    - Core Design
+    plats:
+    - Sega Saturn
+    - PC
+    - PlayStation
+    - N-Gage
+    - PC
+    - PlayStation 3
+    - PlayStation Portable
+    - PlayStation Vita
+    pack: free
+    protagonists:
+    - Lara Croft
+  - name: Quake
+    year: 1996
+    devs:
+    - id Software
+    plats:
+    - PC
+    - Nintendo 64
+    - Linux
+    - Zeebo
+    - Amiga
+    - Mac
+    - Legacy Cellphone
+    - PC
+    - Sega Saturn
+    pack: free
+    protagonists:
+    - '-'
+  - name: Nights into Dreams...
+    year: 1996
+    devs:
+    - Sonic Team
+    plats:
+    - Sega Saturn
+    - PC
+    - PlayStation 3
+    - Xbox 360
+    - PlayStation 2
+    pack: free
+    protagonists:
+    - '-'
+  - name: Vandal Hearts
+    year: 1996
+    devs:
+    - Konami
+    plats:
+    - PlayStation
+    - PC
+    - Sega Saturn
+    pack: free
+    protagonists:
+    - Ash Lambert
+  - name: 'Warcraft II: Beyond the Dark Portal'
+    year: 1996
+    devs:
+    - Cyberlore Studios
+    plats:
+    - Mac
+    - Sega Saturn
+    - PC
+    - PC
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Battle Garegga
+    year: 1996
+    devs:
+    - Raizing
+    plats:
+    - Arcade
+    - Sega Saturn
+    pack: free
+    protagonists:
+    - '-'
+  - name: Super Puzzle Fighter II Turbo
+    year: 1996
+    devs:
+    - Backbone Entertainment
+    plats:
+    - PlayStation
+    - Sega Saturn
+    - Arcade
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Lunar: Silver Star Story Complete'
+    year: 1996
+    devs:
+    - Japan Art Media
+    plats:
+    - Sega Saturn
+    - PlayStation
+    - PC
+    - iOS
+    pack: free
+    protagonists:
+    - '-'
+  - name: Soviet Strike
+    year: 1996
+    devs:
+    - Electronic Arts
+    plats:
+    - PlayStation
+    - PlayStation 3
+    - PlayStation Portable
+    - Sega Saturn
+    pack: free
+    protagonists:
+    - '-'
+  - name: Magical Drop II
+    year: 1996
+    devs:
+    - Data East
+    plats:
+    - Wii
+    - Arcade
+    - Neo Geo AES
+    - Sega Saturn
+    - Super Famicom
+    - Neo Geo CD
+    pack: free
+    protagonists:
+    - '-'
+  - name: X-Men vs. Street Fighter
+    year: 1996
+    devs:
+    - Capcom
+    plats:
+    - PlayStation
+    - Arcade
+    - Sega Saturn
+    pack: free
+    protagonists:
+    - '-'
+  - name: Resident Evil
+    year: 1996
+    devs:
+    - Capcom
+    plats:
+    - Sega Saturn
+    - PlayStation 3
+    - PlayStation
+    - PC
+    pack: free
+    protagonists:
+    - Chris Redfield
+    - Jill Valentine
+  - name: Pandemonium!
+    year: 1996
+    devs:
+    - Toys for Bob
+    plats:
+    - iOS
+    - PC
+    - Sega Saturn
+    - PlayStation 3
+    - N-Gage
+    - PlayStation
+    - PlayStation Portable
+    - Legacy Cellphone
+    pack: free
+    protagonists:
+    - Fargus
+  - name: Street Fighter Alpha 2
+    year: 1996
+    devs:
+    - Capcom
+    plats:
+    - Sega Saturn
+    - Super Nintendo Entertainment System (SNES)
+    - Nintendo 3DS
+    - Arcade
+    - PlayStation
+    - PC
+    - Wii
+    - Wii U
+    pack: free
+    protagonists:
+    - Ryu
+    - Akuma
+    - Ken Masters
+    - Chun-Li
+    - Cammy
+  - name: FIFA 97
+    year: 1996
+    devs:
+    - Electronic Arts
+    plats:
+    - Sega Saturn
+    - Super Nintendo Entertainment System (SNES)
+    - PC
+    - PlayStation
+    - Sega Mega Drive
+    - Genesis
+    pack: free
+    protagonists:
+    - '-'
+  - name: PowerSlave
+    year: 1996
+    devs:
+    - Lobotomy Software
+    plats:
+    - Sega Saturn
+    - PlayStation
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: Mortal Kombat Trilogy
+    year: 1996
+    devs:
+    - Midway
+    plats:
+    - Sega Saturn
+    - PlayStation
+    - PC
+    - PC
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: Wipeout 2097
+    year: 1996
+    devs:
+    - Psygnosis
+    plats:
+    - PC
+    - Amiga
+    - Mac
+    - PlayStation
+    - Sega Saturn
+    pack: free
+    protagonists:
+    - '-'
+  - name: Waku Waku 7
+    year: 1996
+    devs:
+    - Sunsoft
+    plats:
+    - Neo Geo MVS
+    - Arcade
+    - Nintendo Switch
+    - Wii
+    - Sega Saturn
+    - Neo Geo AES
+    pack: free
+    protagonists:
+    - '-'
+  - name: The King of Fighters '96
+    year: 1996
+    devs:
+    - SNK
+    plats:
+    - Nintendo Switch
+    - PlayStation
+    - Neo Geo CD
+    - Neo Geo AES
+    - Wii
+    - Arcade
+    - Sega Saturn
+    - Neo Geo MVS
+    - Game Boy
+    - PlayStation 3
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Dragon Ball Z: The Legend'
+    year: 1996
+    devs:
+    - Bandai
+    plats:
+    - Sega Saturn
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Z
+    year: 1996
+    devs:
+    - The Bitmap Brothers
+    plats:
+    - iOS
+    - Android
+    - Super Nintendo Entertainment System (SNES)
+    - Sega Saturn
+    - PC
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Shining Force III
+    year: 1997
+    devs:
+    - Camelot Software Planning
+    plats:
+    - Sega Saturn
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Castlevania: Symphony of the Night'
+    year: 1997
+    devs:
+    - Konami
+    plats:
+    - iOS
+    - PlayStation Vita
+    - PlayStation 3
+    - PlayStation Portable
+    - Sega Saturn
+    - Xbox 360
+    - PlayStation
+    - Android
+    pack: free
+    protagonists:
+    - Alucard
+    - Mari Renard
+  - name: 'FIFA: Road to World Cup 98'
+    year: 1997
+    devs:
+    - Electronic Arts
+    plats:
+    - PC
+    - Sega Mega Drive
+    - Genesis
+    - Sega Saturn
+    - Game Boy
+    - Super Nintendo Entertainment System (SNES)
+    - Nintendo 64
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Mega Man X4
+    year: 1997
+    devs:
+    - Capcom
+    plats:
+    - PC
+    - PlayStation
+    - Sega Saturn
+    - Legacy Cellphone
+    pack: free
+    protagonists:
+    - '-'
+  - name: Strikers 1945 II
+    year: 1997
+    devs:
+    - Psikyo
+    plats:
+    - Android
+    - Arcade
+    - PlayStation
+    - Sega Saturn
+    - iOS
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
+  - name: Pocket Fighter
+    year: 1997
+    devs:
+    - Capcom
+    plats:
+    - PlayStation
+    - Sega Saturn
+    - WonderSwan
+    pack: free
+    protagonists:
+    - '-'
+  - name: Herc's Adventures
+    year: 1997
+    devs:
+    - Big Ape Productions
+    plats:
+    - PlayStation
+    - Sega Saturn
+    pack: free
+    protagonists:
+    - '-'
+  - name: DoDonPachi
+    year: 1997
+    devs:
+    - CAVE Interactive
+    plats:
+    - Sega Saturn
+    - PlayStation
+    - Arcade
+    pack: free
+    protagonists:
+    - '-'
+  - name: The King of Fighters '97
+    year: 1997
+    devs:
+    - SNK
+    plats:
+    - PlayStation
+    - Neo Geo CD
+    - Sega Saturn
+    - Neo Geo MVS
+    - Arcade
+    - Neo Geo AES
+    - Wii
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Shin Megami Tensei: Devil Summoner - Soul Hackers'
+    year: 1997
+    devs:
+    - Atlus
+    plats:
+    - Nintendo 3DS
+    - PlayStation
+    - Sega Saturn
+    pack: free
+    protagonists:
+    - '-'
+  - name: NHL 98
+    year: 1997
+    devs:
+    - Electronic Arts
+    plats:
+    - Sega Mega Drive
+    - Genesis
+    - PlayStation
+    - Super Nintendo Entertainment System (SNES)
+    - PC
+    - Sega Saturn
+    pack: free
+    protagonists:
+    - '-'
+  - name: Marvel Super Heroes vs. Street Fighter
+    year: 1997
+    devs:
+    - Capcom
+    plats:
+    - PlayStation
+    - Arcade
+    - Sega Saturn
+    pack: free
+    protagonists:
+    - '-'
+  - name: Darkstalkers 3
+    year: 1997
+    devs:
+    - Capcom
+    plats:
+    - PlayStation 3
+    - PlayStation
+    - Arcade
+    - Sega Saturn
+    pack: free
+    protagonists:
+    - Demitri Maximoff
+  - name: Grandia
+    year: 1997
+    devs:
+    - Game Arts Co. Ltd.
+    plats:
+    - Sega Saturn
+    - PlayStation
+    - PlayStation 3
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'The Lost World: Jurassic Park'
+    year: 1997
+    devs:
+    - Dreamworks Interactive
+    plats:
+    - Sega Saturn
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Rampage World Tour
+    year: 1997
+    devs:
+    - Game Refuge Inc
+    plats:
+    - Nintendo 64
+    - Game Boy Color
+    - Sega Saturn
+    - PlayStation 3
+    - PlayStation
+    - Windows Phone
+    pack: free
+    protagonists:
+    - '-'
+  - name: Radiant Silvergun
+    year: 1998
+    devs:
+    - Treasure
+    plats:
+    - Sega Saturn
+    - Arcade
+    - Xbox 360
+    pack: free
+    protagonists:
+    - '-'
+  - name: Panzer Dragoon Saga
+    year: 1998
+    devs:
+    - Team Andromeda
+    plats:
+    - Sega Saturn
+    pack: free
+    protagonists:
+    - '-'
+  - name: Street Fighter Alpha 3
+    year: 1998
+    devs:
+    - Capcom
+    plats:
+    - PlayStation Portable
+    - Dreamcast
+    - PlayStation
+    - Arcade
+    - Game Boy Advance
+    - Sega Saturn
+    pack: free
+    protagonists:
+    - '-'
+  - name: Wetrix
+    year: 1998
+    devs:
+    - Zed Two
+    plats:
+    - PC
+    - Nintendo 64
+    - Game Boy Color
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Ogre Battle 64: Person of Lordly Caliber'
+    year: 1999
+    devs:
+    - Quest
+    plats:
+    - Wii
+    - Nintendo 64
+    - Wii U
+    pack: free
+    protagonists:
+    - Magnus Gallant
+  - name: 'The Legend of Zelda: Ocarina of Time'
+    year: 1998
+    devs:
+    - Nintendo
+    plats:
+    - Wii U
+    - Nintendo 64
+    - Wii
+    pack: free
+    protagonists:
+    - '-'
+  - name: Super Mario 64
+    year: 1996
+    devs:
+    - Nintendo
+    plats:
+    - Wii
+    - Nintendo 64
+    - Wii U
+    pack: free
+    protagonists:
+    - '-'
+  - name: Perfect Dark
+    year: 2000
+    devs:
+    - Rare
+    plats:
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - Joanna Dark
+  - name: 'The Legend of Zelda: Ocarina of Time - Master Quest'
+    year: 2003
+    devs:
+    - Nintendo
+    plats:
+    - Nintendo GameCube
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: Harvest Moon 64
+    year: 1999
+    devs:
+    - Toy Box Studios
+    plats:
+    - Wii U
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'The Legend of Zelda: Majora''s Mask'
+    year: 2000
+    devs:
+    - Nintendo
+    plats:
+    - Wii U
+    - Wii
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: Banjo-Tooie
+    year: 2000
+    devs:
+    - Rare
+    plats:
+    - Nintendo 64
+    - Xbox 360
+    pack: free
+    protagonists:
+    - '-'
+  - name: Paper Mario
+    year: 2000
+    devs:
+    - Intelligent Systems Co. Ltd.
+    plats:
+    - Wii U
+    - Wii
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - Mumbo
+  - name: StarCraft 64
+    year: 2000
+    devs:
+    - Mass Media Inc
+    plats:
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: GoldenEye 007
+    year: 1997
+    devs:
+    - Westwood Studios
+    plats:
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: Star Fox 64
+    year: 1997
+    devs:
+    - Nintendo
+    plats:
+    - Nintendo 64
+    - Wii
+    - Wii U
+    pack: free
+    protagonists:
+    - Fox McCloud
+    - Peppy Hare
+    - Falco Lombardi
+  - name: Banjo-Kazooie
+    year: 1998
+    devs:
+    - Rare
+    plats:
+    - Xbox 360
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: Tony Hawk's Pro Skater 2
+    year: 2000
+    devs:
+    - Neversoft Entertainment
+    plats:
+    - Dreamcast
+    - Game Boy Advance
+    - Xbox
+    - Game Boy Color
+    - PlayStation
+    - PC
+    - Mac
+    - Nintendo 64
+    - iOS
+    pack: free
+    protagonists:
+    - '-'
+  - name: Resident Evil 2
+    year: 1998
+    devs:
+    - Capcom
+    plats:
+    - Nintendo GameCube
+    - PlayStation 3
+    - Dreamcast
+    - PlayStation
+    - PC
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: Wipeout 64
+    year: 1998
+    devs:
+    - Psygnosis
+    plats:
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: Tony Hawk's Pro Skater
+    year: 1999
+    devs:
+    - Neversoft Entertainment
+    plats:
+    - N-Gage
+    - Game Boy Color
+    - Dreamcast
+    - Nintendo 64
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Quake II
+    year: 1997
+    devs:
+    - id Software
+    plats:
+    - Zeebo
+    - PC
+    - Nintendo 64
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Tetrisphere
+    year: 1997
+    devs:
+    - H2O Entertainment
+    plats:
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: Snowboard Kids 2
+    year: 1999
+    devs:
+    - Racdym
+    plats:
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: Mario Kart 64
+    year: 1996
+    devs:
+    - Nintendo
+    plats:
+    - Nintendo 64
+    - Wii
+    - Wii U
+    pack: free
+    protagonists:
+    - '-'
+  - name: Mystical Ninja Starring Goemon
+    year: 1997
+    devs:
+    - Konami
+    plats:
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: Worms Armageddon
+    year: 1999
+    devs:
+    - Infogrames
+    plats:
+    - PC
+    - PlayStation
+    - Dreamcast
+    - Nintendo 64
+    - PlayStation 3
+    - PlayStation Portable
+    pack: free
+    protagonists:
+    - '-'
+  - name: Conker's Bad Fur Day
+    year: 2001
+    devs:
+    - Rare
+    plats:
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: Extreme-G 2
+    year: 1998
+    devs:
+    - Probe Entertainment
+    plats:
+    - Nintendo 64
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: FIFA 99
+    year: 1998
+    devs:
+    - Electronic Arts
+    plats:
+    - PlayStation
+    - Nintendo 64
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: Mario Party
+    year: 1998
+    devs:
+    - Hudson Soft
+    plats:
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: Super Smash Bros.
+    year: 1999
+    devs:
+    - HAL Laboratory
+    plats:
+    - Wii
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: Tony Hawk's Pro Skater 3
+    year: 2001
+    devs:
+    - Neversoft Entertainment
+    plats:
+    - PlayStation 2
+    - Mac
+    - Nintendo 64
+    - PC
+    - Game Boy Color
+    - PlayStation
+    - Xbox
+    - Nintendo GameCube
+    - Game Boy Advance
+    pack: free
+    protagonists:
+    - '-'
+  - name: Bomberman 64
+    year: 2001
+    devs:
+    - Racjin
+    plats:
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Rayman 2: The Great Escape'
+    year: 1999
+    devs:
+    - Ubisoft Entertainment
+    plats:
+    - Dreamcast
+    - Game Boy Color
+    - PC
+    - iOS
+    - PlayStation
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: Jet Force Gemini
+    year: 1999
+    devs:
+    - Rare
+    plats:
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - Juno
+    - Vela
+    - Lupus
+  - name: F-Zero X
+    year: 1998
+    devs:
+    - Nintendo
+    plats:
+    - Wii U
+    - Wii
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - Falcon
+    - Pico
+    - Jody Summer
+    - Draq
+  - name: 40 Winks
+    year: 1999
+    devs:
+    - Eurocom
+    plats:
+    - PC
+    - Nintendo 64
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Madden NFL 2002
+    year: 2001
+    devs:
+    - Electronic Arts
+    plats:
+    - Nintendo GameCube
+    - Xbox
+    - PlayStation 2
+    - PlayStation
+    - Nintendo 64
+    - Game Boy Color
+    - PC
+    - Game Boy Advance
+    pack: free
+    protagonists:
+    - '-'
+  - name: Mickey's Speedway USA
+    year: 2000
+    devs:
+    - Rare
+    plats:
+    - Game Boy Color
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Mace: The Dark Age'
+    year: 1997
+    devs:
+    - Atari Games Corporation
+    plats:
+    - Arcade
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - Xiao Long
+  - name: NFL Blitz
+    year: 1997
+    devs:
+    - Midway Games
+    plats:
+    - Nintendo 64
+    - Game Boy Color
+    - PC
+    - PlayStation
+    - Arcade
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Donald Duck: Goin'' Quackers'
+    year: 2000
+    devs:
+    - Ubisoft
+    plats:
+    - Nintendo 64
+    - Dreamcast
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Vigilante 8: 2nd Offense'
+    year: 1999
+    devs:
+    - Luxoflux
+    plats:
+    - Dreamcast
+    - PlayStation
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: Sin and Punishment
+    year: 2000
+    devs:
+    - Nintendo
+    plats:
+    - Wii
+    - Wii U
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - Saki
+    - Airan
+  - name: WWF Attitude
+    year: 1999
+    devs:
+    - Acclaim Studios Salt Lake City
+    plats:
+    - Dreamcast
+    - Nintendo 64
+    - Game Boy Color
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Diddy Kong Racing
+    year: 1997
+    devs:
+    - Rare
+    plats:
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - Conker
+    - Banjo
+    - T.T.
+  - name: F-1 World Grand Prix
+    year: 1998
+    devs:
+    - Paradigm Entertainment
+    plats:
+    - Game Boy Color
+    - PC
+    - PlayStation
+    - Nintendo 64
+    - Dreamcast
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Star Wars: Rogue Squadron'
+    year: 1998
+    devs:
+    - Factor 5
+    plats:
+    - Nintendo 64
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'San Francisco Rush: Extreme Racing'
+    year: 1996
+    devs:
+    - Atari Games Corporation
+    plats:
+    - Nintendo 64
+    - PlayStation
+    - Arcade
+    pack: free
+    protagonists:
+    - '-'
+  - name: Cruis'n Exotica
+    year: 1999
+    devs:
+    - Crawfish Interactive
+    plats:
+    - Arcade
+    - Game Boy Color
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: Spider-Man
+    year: 2000
+    devs:
+    - Neversoft Entertainment
+    plats:
+    - Dreamcast
+    - Nintendo 64
+    - PlayStation
+    - PC
+    - Game Boy Color
+    pack: free
+    protagonists:
+    - '-'
+  - name: NBA Live 99
+    year: 1998
+    devs:
+    - HB Studios
+    plats:
+    - PC
+    - Nintendo 64
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Gex 3: Deep Cover Gecko'
+    year: 1999
+    devs:
+    - Gratuitous Games
+    plats:
+    - PlayStation
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Army Men: Sarge''s Heroes 2'
+    year: 2000
+    devs:
+    - 3DO
+    plats:
+    - Nintendo 64
+    - PlayStation 2
+    - Game Boy Color
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Mario Party 2
+    year: 1999
+    devs:
+    - Hudson Soft
+    plats:
+    - Wii U
+    - Nintendo 64
+    - Wii
+    pack: free
+    protagonists:
+    - '-'
+  - name: Mario Tennis
+    year: 2000
+    devs:
+    - Camelot Software Planning
+    plats:
+    - Wii
+    - Nintendo 64
+    - Wii U
+    pack: free
+    protagonists:
+    - '-'
+  - name: California Speed
+    year: 1998
+    devs:
+    - Atari Games Corporation
+    plats:
+    - Nintendo 64
+    - Arcade
+    pack: free
+    protagonists:
+    - '-'
+  - name: Tom Clancy's Rainbow Six
+    year: 1998
+    devs:
+    - Saffire Corporation
+    plats:
+    - PC
+    - PlayStation
+    - Game Boy Color
+    - Dreamcast
+    - Nintendo 64
+    - Mac
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Star Wars: Episode I - Battle for Naboo'
+    year: 2000
+    devs:
+    - Factor 5
+    plats:
+    - Nintendo 64
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: Re-Volt
+    year: 1999
+    devs:
+    - Acclaim Studios London
+    plats:
+    - PlayStation
+    - Dreamcast
+    - PC
+    - Linux
+    - Android
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: Body Harvest
+    year: 1996
+    devs:
+    - DMA Design
+    plats:
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Toy Story 2: Buzz Lightyear to the Rescue!'
+    year: 1999
+    devs:
+    - Tiertex Design Studios
+    plats:
+    - Dreamcast
+    - PlayStation
+    - Nintendo 64
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'South Park: Chef''s Luv Shack'
+    year: 1999
+    devs:
+    - Acclaim Studios Austin
+    plats:
+    - Dreamcast
+    - Nintendo 64
+    - PC
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: "Pok\xE9mon Snap"
+    year: 1999
+    devs:
+    - HAL Laboratory
+    plats:
+    - Nintendo 64
+    - Wii U
+    - Wii
+    pack: free
+    protagonists:
+    - '-'
+  - name: Cruis'n World
+    year: 1996
+    devs:
+    - Midway Games
+    plats:
+    - Arcade
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: Space Station Silicon Valley
+    year: 1998
+    devs:
+    - DMA Design
+    plats:
+    - Nintendo 64
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: International Superstar Soccer 64
+    year: 1997
+    devs:
+    - Konami
+    plats:
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: "Pok\xE9mon Stadium 2"
+    year: 2000
+    devs:
+    - HAL Laboratory
+    plats:
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: Hydro Thunder
+    year: 1999
+    devs:
+    - Midway Studios San Diego
+    plats:
+    - Dreamcast
+    - PlayStation 2
+    - Nintendo 64
+    - PC
+    - PlayStation
+    - Xbox
+    - Nintendo GameCube
+    - Arcade
+    pack: free
+    protagonists:
+    - '-'
+  - name: "Pok\xE9mon Puzzle League"
+    year: 2000
+    devs:
+    - Nintendo
+    plats:
+    - Wii
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: Indiana Jones and the Infernal Machine
+    year: 1999
+    devs:
+    - LucasArts
+    plats:
+    - PC
+    - Nintendo 64
+    - Game Boy Color
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Turok 2: Seeds of Evil'
+    year: 1998
+    devs:
+    - Iguana Entertainment
+    plats:
+    - Game Boy Color
+    - Nintendo 64
+    - PC
+    pack: free
+    protagonists:
+    - Joshua Fireseed
+  - name: Blast Corps
+    year: 1997
+    devs:
+    - Rare
+    plats:
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: WCW Nitro
+    year: 1997
+    devs:
+    - Inland Productions
+    plats:
+    - Nintendo 64
+    - PlayStation
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: WWF No Mercy
+    year: 2000
+    devs:
+    - AKI Corporation
+    plats:
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: Wave Race 64
+    year: 1996
+    devs:
+    - Nintendo
+    plats:
+    - Wii U
+    - Wii
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Kirby 64: The Crystal Shards'
+    year: 2000
+    devs:
+    - HAL Laboratory
+    plats:
+    - Wii
+    - Wii U
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: Excitebike 64
+    year: 2000
+    devs:
+    - Nintendo
+    plats:
+    - Nintendo 64
+    - Wii U
+    pack: free
+    protagonists:
+    - '-'
+  - name: Disney/Pixar A Bug's Life
+    year: 1998
+    devs:
+    - Traveller's Tales
+    plats:
+    - PlayStation
+    - PC
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Star Wars: Episode I - Racer'
+    year: 1999
+    devs:
+    - LucasArts
+    plats:
+    - Nintendo 64
+    - Mac
+    - PlayStation 4
+    - Nintendo Switch
+    - Dreamcast
+    - PC
+    - Xbox One
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Mario Party 3
+    year: 2000
+    devs:
+    - Hudson Soft
+    plats:
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Army Men: Sarge''s Heroes'
+    year: 1999
+    devs:
+    - 3DO
+    plats:
+    - Dreamcast
+    - PC
+    - PlayStation
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: Beetle Adventure Racing!
+    year: 1999
+    devs:
+    - Paradigm Entertainment
+    plats:
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: "Pok\xE9mon Stadium"
+    year: 1999
+    devs:
+    - HAL Laboratory
+    plats:
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: World Cup 98
+    year: 1998
+    devs:
+    - Electronic Arts
+    plats:
+    - Nintendo 64
+    - PlayStation
+    - PC
+    - Game Boy
+    pack: free
+    protagonists:
+    - '-'
+  - name: NBA Hangtime
+    year: 1996
+    devs:
+    - Midway
+    plats:
+    - Arcade
+    - Sega Mega Drive
+    - Genesis
+    - PlayStation
+    - Nintendo 64
+    - Super Nintendo Entertainment System (SNES)
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: Fighting Force
+    year: 1997
+    devs:
+    - Core Design
+    plats:
+    - PlayStation
+    - PC
+    - PlayStation 3
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: Donkey Kong 64
+    year: 1999
+    devs:
+    - Rare
+    plats:
+    - Nintendo 64
+    - Wii U
+    pack: free
+    protagonists:
+    - '-'
+  - name: WCW/nWo Revenge
+    year: 1998
+    devs:
+    - Asmik Ace Entertainment
+    plats:
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: Top Gear Rally
+    year: 1997
+    devs:
+    - Kemco
+    plats:
+    - Game Boy Color
+    - Nintendo 64
+    - Game Boy Advance
+    pack: free
+    protagonists:
+    - '-'
+  - name: Disney's Tarzan
+    year: 1999
+    devs:
+    - Eurocom
+    plats:
+    - Nintendo 64
+    - PlayStation
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: Killer Instinct Gold
+    year: 1996
+    devs:
+    - Rare
+    plats:
+    - Nintendo 64
+    - Xbox One
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - Glacius
+    - Jago
+    - Tusk
+  - name: Gauntlet Legends
+    year: 1998
+    devs:
+    - Atari Games Corporation
+    plats:
+    - Nintendo 64
+    - Dreamcast
+    - Arcade
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Snowboard Kids
+    year: 1997
+    devs:
+    - Racdym
+    plats:
+    - Nintendo 64
+    pack: free
+    protagonists:
+    - '-'
+  - name: Mario Golf
+    year: 1999
+    devs:
+    - Camelot Software Planning
+    plats:
+    - Wii
+    - Nintendo 64
+    - Wii U
+    pack: free
+    protagonists:
+    - '-'
+  - name: Chrono Trigger
+    year: 1995
+    devs:
+    - Square
+    plats:
+    - Wii
+    - PlayStation
+    - PC
+    - PlayStation 3
+    - Super Nintendo Entertainment System (SNES)
+    - Android
+    - Nintendo DS
+    - Super Famicom
+    pack: free
+    protagonists:
+    - Marle
+    - Crono
+    - Frog
+  - name: Sid Meier's Civilization
+    year: 1991
+    devs:
+    - MicroProse
+    plats:
+    - Atari ST
+    - STE
+    - PC
+    - Mac
+    - PlayStation
+    - Super Nintendo Entertainment System (SNES)
+    - PC
+    - Amiga
+    pack: free
+    protagonists:
+    - '-'
+  - name: Suikoden II
+    year: 1998
+    devs:
+    - Konami
+    plats:
+    - PlayStation
+    - PlayStation Portable
+    - PlayStation 3
+    - PlayStation Vita
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: Discworld Noir
+    year: 1999
+    devs:
+    - Perfect Entertainment
+    plats:
+    - PC
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: The Neverhood
+    year: 1996
+    devs:
+    - The Neverhood Inc.
+    plats:
+    - PC
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Xenogears
+    year: 1998
+    devs:
+    - Squaresoft
+    plats:
+    - PlayStation 3
+    - PlayStation
+    pack: free
+    protagonists:
+    - Fei Fong
+  - name: Metal Gear Solid
+    year: 1998
+    devs:
+    - Konami
+    plats:
+    - PlayStation
+    - PlayStation 3
+    - PlayStation Portable
+    pack: free
+    protagonists:
+    - Solid Snake
+  - name: Final Fantasy VII
+    year: 1997
+    devs:
+    - Square Enix
+    plats:
+    - PC
+    - PlayStation
+    - Nintendo Switch
+    - PlayStation 4
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Final Fantasy VI
+    year: 1994
+    devs:
+    - Square Soft
+    plats:
+    - PlayStation
+    - PC
+    - Super Famicom
+    - Wii
+    pack: free
+    protagonists:
+    - Terra
+    - Celes
+    - Kefka
+  - name: Ridge Racer Type 4
+    year: 1998
+    devs:
+    - Namco
+    plats:
+    - PlayStation
+    - PlayStation 3
+    - PlayStation Portable
+    - PlayStation Vita
+    pack: free
+    protagonists:
+    - '-'
+  - name: Rage Racer
+    year: 1996
+    devs:
+    - Namco
+    plats:
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Moto Racer 2
+    year: 1998
+    devs:
+    - Delphine Software
+    plats:
+    - PC
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Wing Commander
+    year: 1990
+    devs:
+    - Origin Systems
+    plats:
+    - Sega CD
+    - PC
+    - Amiga
+    - Mac
+    - Game Boy Advance
+    - PlayStation
+    - Amiga CD32
+    - PC
+    - Super Nintendo Entertainment System (SNES)
+    pack: free
+    protagonists:
+    - '-'
+  - name: Micro Machines V3
+    year: 1997
+    devs:
+    - Novalicious
+    plats:
+    - Game Boy Color
+    - PlayStation
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: Arc the Lad
+    year: 1995
+    devs:
+    - G-Craft
+    plats:
+    - PlayStation Vita
+    - PlayStation
+    - PlayStation 3
+    - PlayStation Portable
+    pack: free
+    protagonists:
+    - Kukuru
+  - name: Music 2000
+    year: 1999
+    devs:
+    - Jester Interactive
+    plats:
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: TOCA World Touring Cars
+    year: 2000
+    devs:
+    - Codemasters Southam
+    plats:
+    - PlayStation
+    - Game Boy Advance
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Star Ocean: The Second Story'
+    year: 1998
+    devs:
+    - tri-Ace
+    plats:
+    - PlayStation
+    pack: free
+    protagonists:
+    - Rena Lanford
+    - Celine Jules
+    - Dias Flac
+  - name: 'Wing Commander IV: The Price of Freedom'
+    year: 1995
+    devs:
+    - Origin Systems
+    plats:
+    - PC
+    - PlayStation 3
+    - PC
+    - Mac
+    - PlayStation
+    pack: free
+    protagonists:
+    - Christopher Blair
+  - name: Front Mission
+    year: 1995
+    devs:
+    - Square
+    plats:
+    - Super Famicom
+    - Nintendo DS
+    - PlayStation
+    - WonderSwan Color
+    pack: free
+    protagonists:
+    - '-'
+  - name: Mr. Gimmick
+    year: 1992
+    devs:
+    - Sunsoft
+    plats:
+    - Family Computer
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'X-COM: UFO Defense'
+    year: 1994
+    devs:
+    - MicroProse
+    plats:
+    - PC
+    - Amiga
+    - PlayStation
+    - PC
+    pack: free
+    protagonists:
+    - Yumetarou
+  - name: Intelligent Qube
+    year: 1997
+    devs:
+    - Sony Computer Entertainment Inc. (SCEI)
+    plats:
+    - Legacy Cellphone
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Mr. Driller
+    year: 1999
+    devs:
+    - Namco
+    plats:
+    - Game Boy Color
+    - Dreamcast
+    - PC
+    - Arcade
+    - WonderSwan Color
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Legend of Legaia
+    year: 1998
+    devs:
+    - Contrail
+    plats:
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Sid Meier's Civilization II
+    year: 1996
+    devs:
+    - MicroProse
+    plats:
+    - PC
+    - PlayStation
+    - Mac
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Harvest Moon: Back to Nature'
+    year: 1999
+    devs:
+    - Victor Interactive Software
+    plats:
+    - PlayStation
+    - PlayStation 3
+    - PlayStation Portable
+    - PlayStation Vita
+    pack: free
+    protagonists:
+    - '-'
+  - name: Final Fantasy IX
+    year: 2000
+    devs:
+    - Square
+    plats:
+    - PlayStation
+    - PlayStation 3
+    pack: free
+    protagonists:
+    - Vivi
+    - Steiner
+    - Amarant
+  - name: 'Rogue Trip: Vacation 2012'
+    year: 1998
+    devs:
+    - SingleTrac
+    plats:
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Little Big Adventure
+    year: 1994
+    devs:
+    - Adeline Software International
+    plats:
+    - PC
+    - PlayStation
+    - iOS
+    - Android
+    - PC
+    - Mac
+    pack: free
+    protagonists:
+    - '-'
+  - name: Mega Man 2
+    year: 1988
+    devs:
+    - Capcom
+    plats:
+    - Nintendo 3DS
+    - PlayStation
+    - Nintendo Entertainment System (NES)
+    - Wii
+    - Wii U
+    - iOS
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Riven: The Sequel to Myst'
+    year: 1997
+    devs:
+    - Cyan Worlds
+    plats:
+    - PlayStation
+    - PC
+    - Mac
+    pack: free
+    protagonists:
+    - '-'
+  - name: Tales of Phantasia
+    year: 1995
+    devs:
+    - Namco
+    plats:
+    - iOS
+    - Super Famicom
+    - PlayStation
+    - Game Boy Advance
+    - PlayStation Portable
+    pack: free
+    protagonists:
+    - Cress
+    - Mint
+    - Chester
+  - name: PaRappa the Rapper
+    year: 1996
+    devs:
+    - NanaOn-Sha
+    plats:
+    - PlayStation Portable
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Vanguard Bandits
+    year: 1998
+    devs:
+    - Human Entertainment
+    plats:
+    - PlayStation
+    pack: free
+    protagonists:
+    - Faulkner
+  - name: Chrono Cross
+    year: 1999
+    devs:
+    - Square
+    plats:
+    - PlayStation 3
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Bugs Bunny & Taz: Time Busters'
+    year: 2000
+    devs:
+    - Artificial Mind & Movement
+    plats:
+    - PC
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Final Fantasy Tactics
+    year: 1997
+    devs:
+    - Square
+    plats:
+    - PlayStation
+    - PlayStation 3
+    pack: free
+    protagonists:
+    - Agrias
+    - Ramza
+    - Boco
+  - name: Mega Man Legends 2
+    year: 2000
+    devs:
+    - Capcom
+    plats:
+    - PlayStation Portable
+    - PlayStation
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Tom Clancy''s Rainbow Six: Rogue Spear'
+    year: 1999
+    devs:
+    - Red Storm Entertainment
+    plats:
+    - PlayStation
+    - Game Boy Advance
+    - Mac
+    - Dreamcast
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: Worms World Party
+    year: 2001
+    devs:
+    - Paragon 5
+    plats:
+    - N-Gage
+    - Dreamcast
+    - Game Boy Advance
+    - PlayStation
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: Tekken 3
+    year: 1997
+    devs:
+    - Namco
+    plats:
+    - PlayStation
+    - Arcade
+    - PlayStation 2
+    pack: free
+    protagonists:
+    - Jin Kazama
+    - Eddy Gordo
+    - King
+  - name: Silent Hill
+    year: 1999
+    devs:
+    - Team Silent
+    plats:
+    - PlayStation 3
+    - PlayStation Portable
+    - PlayStation
+    pack: free
+    protagonists:
+    - Pyramid Head
+    - Incubus
+    - Abstract Daddy
+  - name: Valkyrie Profile
+    year: 1999
+    devs:
+    - tri-Ace
+    plats:
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Tom and Jerry in House Trap
+    year: 2000
+    devs:
+    - Warthog Games
+    plats:
+    - PlayStation
+    - Game Boy Color
+    pack: free
+    protagonists:
+    - '-'
+  - name: Crash Team Racing
+    year: 1999
+    devs:
+    - Naughty Dog
+    plats:
+    - PlayStation
+    - PlayStation 3
+    pack: free
+    protagonists:
+    - '-'
+  - name: The Legend of Dragoon
+    year: 1999
+    devs:
+    - SCE Japan Studio
+    plats:
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Soul Edge
+    year: 1995
+    devs:
+    - Project Soul
+    plats:
+    - Arcade
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Tales of Destiny
+    year: 1997
+    devs:
+    - Wolfteam
+    plats:
+    - PlayStation
+    - PlayStation 2
+    pack: free
+    protagonists:
+    - Stahn Aileron
+    - Rutee Katrea
+    - Leon Magnus
+    - Philia Felice
+  - name: Diablo
+    year: 1996
+    devs:
+    - Blizzard North
+    plats:
+    - PC
+    - PlayStation
+    - Mac
+    pack: free
+    protagonists:
+    - '-'
+  - name: International Karate +
+    year: 1987
+    devs:
+    - System 3 Software
+    plats:
+    - Commodore C64
+    - 128
+    - Amiga
+    - Game Boy Advance
+    - PlayStation
+    - Wii
+    - PC
+    - Amiga CD32
+    - ZX Spectrum
+    - Atari ST
+    - STE
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Oddworld: Abe''s Exoddus'
+    year: 1998
+    devs:
+    - Oddworld Inhabitants
+    plats:
+    - PlayStation 3
+    - PlayStation Portable
+    - PC
+    - Game Boy Color
+    - PlayStation
+    - PlayStation Vita
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Brigandine: The Legend of Forsena'
+    year: 1998
+    devs:
+    - Hearty Robin
+    plats:
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Roll Away
+    year: 1998
+    devs:
+    - Game Design Sweden AB
+    plats:
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Broken Sword II: The Smoking Mirror'
+    year: 1997
+    devs:
+    - Revolution Software
+    plats:
+    - PC
+    - PlayStation
+    pack: free
+    protagonists:
+    - George Stobbart
+  - name: 'Crash Bandicoot 2: Cortex Strikes Back'
+    year: 1997
+    devs:
+    - Naughty Dog
+    plats:
+    - PlayStation 3
+    - PlayStation
+    - PlayStation Portable
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Broken Sword: The Shadow of the Templars'
+    year: 1996
+    devs:
+    - Revolution Software
+    plats:
+    - Mac
+    - Game Boy Advance
+    - PC
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Parasite Eve
+    year: 1998
+    devs:
+    - Square
+    plats:
+    - PlayStation 3
+    - PlayStation
+    pack: free
+    protagonists:
+    - Aya Brea
+  - name: Vagrant Story
+    year: 2000
+    devs:
+    - Squaresoft
+    plats:
+    - PlayStation
+    - PlayStation Portable
+    pack: free
+    protagonists:
+    - Ashley Riot
+  - name: Colin McRae Rally
+    year: 1998
+    devs:
+    - Codemasters Southam
+    plats:
+    - Game Boy Color
+    - PlayStation
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Lunar 2: Eternal Blue Complete'
+    year: 2001
+    devs:
+    - Studio Alex
+    plats:
+    - PlayStation
+    pack: free
+    protagonists:
+    - Hiro
+    - Ruby
+  - name: 'Crash Bandicoot: Warped'
+    year: 1998
+    devs:
+    - Naughty Dog
+    plats:
+    - PlayStation
+    - PlayStation Portable
+    - PlayStation 3
+    pack: free
+    protagonists:
+    - '-'
+  - name: Disruptor
+    year: 1996
+    devs:
+    - Insomniac Games
+    plats:
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Future Cop: LAPD'
+    year: 1998
+    devs:
+    - Electronic Arts
+    plats:
+    - PC
+    - PlayStation 3
+    - PlayStation
+    - Mac
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Need for Speed: Porsche Unleashed'
+    year: 2000
+    devs:
+    - Electronic Arts
+    plats:
+    - PC
+    - Game Boy Advance
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Magical Drop 3
+    year: 2000
+    devs:
+    - Data East
+    plats:
+    - Wii
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Gran Turismo
+    year: 1997
+    devs:
+    - Polyphony Digital
+    plats:
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Mobil 1 Rally Championship
+    year: 2000
+    devs:
+    - Creative Asylum
+    plats:
+    - PlayStation
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: Final Fantasy VIII
+    year: 1999
+    devs:
+    - Square
+    plats:
+    - PlayStation
+    - PC
+    - PlayStation 3
+    pack: free
+    protagonists:
+    - Squall Leonhart
+    - Rinoa Heartilly
+    - Quistis Trepe
+  - name: 'Tenchu 2: Birth of the Stealth Assassins'
+    year: 2000
+    devs:
+    - ACQUIRE Corp.
+    plats:
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Breath of Fire IV
+    year: 2000
+    devs:
+    - Capcom
+    plats:
+    - PlayStation
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Oddworld: Abe''s Oddysee'
+    year: 1997
+    devs:
+    - Oddworld Inhabitants
+    plats:
+    - PlayStation Portable
+    - PC
+    - PC
+    - PlayStation
+    - PlayStation Vita
+    - PlayStation 3
+    pack: free
+    protagonists:
+    - '-'
+  - name: Colin McRae Rally 2.0
+    year: 2000
+    devs:
+    - Codemasters
+    plats:
+    - PlayStation
+    - Game Boy Advance
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: Railroad Tycoon II
+    year: 1998
+    devs:
+    - PopTop Software
+    plats:
+    - PC
+    - Mac
+    - Linux
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Spyro: Year of the Dragon'
+    year: 2000
+    devs:
+    - Insomniac Games
+    plats:
+    - PlayStation
+    - PlayStation 3
+    - PlayStation Portable
+    pack: free
+    protagonists:
+    - '-'
+  - name: Dino Crisis 2
+    year: 2000
+    devs:
+    - Capcom
+    plats:
+    - PC
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: Tomb Raider II
+    year: 1997
+    devs:
+    - Core Design
+    plats:
+    - PlayStation 3
+    - PlayStation Portable
+    - PlayStation Vita
+    - PC
+    - PlayStation
+    - Mac
+    pack: free
+    protagonists:
+    - '-'
+  - name: Final Fantasy Origins
+    year: 2002
+    devs:
+    - Square
+    plats:
+    - PlayStation
+    pack: free
+    protagonists:
+    - '-'
+  - name: The Last of Us Part II
+    year: 2020
+    devs:
+    - Naughty Dog
+    plats:
+    - PlayStation 4
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Ellie
+  - name: Hades
+    year: 2020
+    devs:
+    - Supergiant Games
+    plats:
+    - PlayStation 4
+    - PlayStation 5
+    - Nintendo Switch
+    - Xbox Series X|S
+    - Xbox One
+    - PC
+    - Mac
+    pack: free
+    protagonists:
+    - Zagreus
+    - Hades
+    - Ares
+  - name: 'Half-Life: Alyx'
+    year: 2020
+    devs:
+    - Valve Corporation
+    plats:
+    - SteamVR
+    - Windows Mixed Reality
+    - Oculus Rift
+    pack: free
+    protagonists:
+    - '-'
+  - name: Ori and the Will of the Wisps
+    year: 2020
+    devs:
+    - Moon Studios
+    plats:
+    - Nintendo Switch
+    - PC
+    - Xbox One
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - '-'
+  - name: Demon's Souls
+    year: 2020
+    devs:
+    - Bluepoint Games
+    plats:
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Microsoft Flight Simulator
+    year: 2020
+    devs:
+    - Asobo Studio
+    plats:
+    - Xbox Series X|S
+    - PC
+    - Xbox One
+    pack: free
+    protagonists:
+    - '-'
+  - name: Crusader Kings III
+    year: 2020
+    devs:
+    - Paradox Development Studio
+    plats:
+    - Xbox Series X|S
+    - PC
+    - Xbox One
+    - PlayStation 5
+    - Mac
+    - Linux
+    pack: free
+    protagonists:
+    - '-'
+  - name: F1 2020
+    year: 2020
+    devs:
+    - Codemasters
+    plats:
+    - PlayStation 4
+    - PC
+    - Xbox One
+    - Google Stadia
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Spelunky 2
+    year: 2020
+    devs:
+    - BlitWorks
+    plats:
+    - PC
+    - PlayStation 4
+    - Nintendo Switch
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Ana Spelunky
+    - Margaret Tunnel
+    - Colin Northward
+    - Luz Mutton
+  - name: 'Animal Crossing: New Horizons'
+    year: 2020
+    devs:
+    - Nintendo
+    plats:
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - Tom Nook
+  - name: Factorio
+    year: 2020
+    devs:
+    - Wube Software LTD.
+    plats:
+    - PC
+    - Mac
+    - Linux
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Yakuza: Like a Dragon'
+    year: 2020
+    devs:
+    - "Ry\u016B Ga Gotoku Studios"
+    plats:
+    - Xbox Series X|S
+    - PlayStation 4
+    - PlayStation 5
+    - Xbox One
+    - PC
+    pack: free
+    protagonists:
+    - Ichiban Kasuga
+  - name: 'Xenoblade Chronicles: Definitive Edition'
+    year: 2020
+    devs:
+    - Monolith Soft
+    plats:
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - Shulk
+  - name: 'There Is No Game: Wrong Dimension'
+    year: 2020
+    devs:
+    - Draw Me A Pixel
+    plats:
+    - Android
+    - iOS
+    - PC
+    - Mac
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
+  - name: Dreams
+    year: 2020
+    devs:
+    - Media Molecule
+    plats:
+    - PlayStation 4
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Tony Hawk's Pro Skater 1 + 2
+    year: 2020
+    devs:
+    - Vicarious Visions
+    plats:
+    - PlayStation 4
+    - Nintendo Switch
+    - Xbox Series X|S
+    - Xbox One
+    - PlayStation 5
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Tetris Effect: Connected'
+    year: 2020
+    devs:
+    - Monstars
+    plats:
+    - Xbox One
+    - Oculus Quest
+    - Oculus Quest 2
+    - Nintendo Switch
+    - PC
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - '-'
+  - name: DOOM Eternal
+    year: 2020
+    devs:
+    - id Software
+    plats:
+    - PlayStation 4
+    - PC
+    - Xbox One
+    - PlayStation 5
+    - Xbox Series X|S
+    - Google Stadia
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Kentucky Route Zero: TV Edition'
+    year: 2020
+    devs:
+    - Cardboard Computer
+    plats:
+    - Xbox One
+    - PlayStation 4
+    - Nintendo Switch
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Final Fantasy VII Remake
+    year: 2020
+    devs:
+    - Square Enix
+    plats:
+    - PlayStation 4
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Cloud Strife
+    - Tifa Lockhart
+    - Barret Wallace
+    - Sefirot
+  - name: Legends of Runeterra
+    year: 2020
+    devs:
+    - Riot Games
+    plats:
+    - Android
+    - iOS
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: Streets of Rage 4
+    year: 2020
+    devs:
+    - Lizardcube
+    plats:
+    - PlayStation 4
+    - Linux
+    - Google Stadia
+    - Nintendo Switch
+    - Xbox One
+    - PC
+    - Mac
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Axel Stone
+    - Blaze Fielding
+    - Adam Hunter
+    - Max Thunder
+    - Shiva
+  - name: Desperados III
+    year: 2020
+    devs:
+    - Mimimi Productions
+    plats:
+    - PlayStation 4
+    - PC
+    - Mac
+    - Linux
+    - Xbox One
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Monster Train
+    year: 2020
+    devs:
+    - Shiny Shoe
+    plats:
+    - PC
+    - Xbox One
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - '-'
+  - name: Cyberpunk 2077
+    year: 2020
+    devs:
+    - CD Projekt RED
+    plats:
+    - Xbox Series X|S
+    - PlayStation 5
+    - PC
+    - Google Stadia
+    - PlayStation 4
+    - Xbox One
+    pack: free
+    protagonists:
+    - Judy Alvarez
+    - Jonhy Silverhand
+  - name: Deep Rock Galactic
+    year: 2020
+    devs:
+    - Ghost Ship Games
+    plats:
+    - Xbox One
+    - PlayStation 4
+    - PlayStation 5
+    - PC
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - '-'
+  - name: Wasteland 3
+    year: 2020
+    devs:
+    - inXile Entertainment
+    plats:
+    - Mac
+    - PlayStation 4
+    - Xbox One
+    - PC
+    - Linux
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: '13 Sentinels: Aegis Rim'
+    year: 2019
+    devs:
+    - Vanillaware
+    plats:
+    - PlayStation 4
+    - Nintendo Switch
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Megumi Yakushji
+    - Natsuno Minami
+    - Keitaro Miura
+  - name: 'Marvel''s Spider-Man: Miles Morales'
+    year: 2020
+    devs:
+    - Insomniac Games
+    plats:
+    - PlayStation 5
+    - PlayStation 4
+    pack: free
+    protagonists:
+    - '-'
+  - name: Huntdown
+    year: 2020
+    devs:
+    - Easy Trigger
+    plats:
+    - PC
+    - iOS
+    - Mac
+    - Linux
+    - Nintendo Switch
+    - Xbox One
+    - PlayStation 4
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Planet Coaster: Console Edition'
+    year: 2020
+    devs:
+    - Frontier Developments
+    plats:
+    - PlayStation 5
+    - Xbox One
+    - Xbox Series X|S
+    - PlayStation 4
+    pack: free
+    protagonists:
+    - '-'
+  - name: Nioh 2
+    year: 2020
+    devs:
+    - Team Ninja
+    plats:
+    - PlayStation 4
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Pikmin 3 Deluxe
+    year: 2020
+    devs:
+    - Nintendo
+    plats:
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
+  - name: Football Manager 2021
+    year: 2020
+    devs:
+    - Sports Interactive
+    plats:
+    - PC
+    - Mac
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Crash Bandicoot 4: It''s About Time'
+    year: 2020
+    devs:
+    - Toys for Bob
+    plats:
+    - PC
+    - Xbox One
+    - Nintendo Switch
+    - PlayStation 4
+    - PlayStation 5
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - Aku Aku
+  - name: Assassin's Creed Valhalla
+    year: 2020
+    devs:
+    - Ubisoft Montreal
+    plats:
+    - PlayStation 5
+    - Xbox One
+    - PC
+    - PlayStation 4
+    - Xbox Series X|S
+    - Google Stadia
+    pack: free
+    protagonists:
+    - Eivor
+  - name: Spiritfarer
+    year: 2020
+    devs:
+    - Thunder Lotus Games
+    plats:
+    - Mac
+    - Linux
+    - Nintendo Switch
+    - Xbox One
+    - PC
+    - PlayStation 4
+    - Google Stadia
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Stella
+  - name: Resident Evil 3 (Remake)
+    year: 2020
+    devs:
+    - Capcom
+    plats:
+    - Xbox One
+    - PlayStation 4
+    - PC
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Jill Valentine
+  - name: Genshin Impact
+    year: 2020
+    devs:
+    - miHoYo
+    plats:
+    - PlayStation 5
+    - PlayStation 4
+    - iOS
+    - PC
+    - Nintendo Switch
+    - Android
+    pack: free
+    protagonists:
+    - Amber
+    - Lisa
+    - Kaeya
+  - name: Ghost of Tsushima
+    year: 2020
+    devs:
+    - Sucker Punch Productions
+    plats:
+    - PlayStation 4
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Jin Sakai
+  - name: Astro's Playroom
+    year: 2020
+    devs:
+    - SIE Japan Studio
+    plats:
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: MLB The Show 20
+    year: 2020
+    devs:
+    - SIE San Diego Studio
+    plats:
+    - PlayStation 4
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Sackboy: A Big Adventure'
+    year: 2020
+    devs:
+    - Sumo Digital
+    plats:
+    - PlayStation 5
+    - PlayStation 4
+    pack: free
+    protagonists:
+    - '-'
+  - name: DIRT 5
+    year: 2020
+    devs:
+    - Codemasters Cheshire
+    plats:
+    - Google Stadia
+    - PC
+    - PlayStation 5
+    - Xbox Series X|S
+    - PlayStation 4
+    - Xbox One
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Observer: System Redux'
+    year: 2020
+    devs:
+    - Bloober Team
+    plats:
+    - PlayStation 5
+    - PC
+    - PlayStation 4
+    - Xbox One
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - Daniel Lazarski
+  - name: Mega Man Zero / ZX Legacy Collection
+    year: 2020
+    devs:
+    - Inti Creates
+    plats:
+    - Xbox One
+    - PlayStation 4
+    - Nintendo Switch
+    - PC
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Creaks
+    year: 2020
+    devs:
+    - Amanita Design
+    plats:
+    - Xbox One
+    - Nintendo Switch
+    - PlayStation 4
+    - PC
+    - iOS
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'World of Warcraft: Shadowlands'
+    year: 2020
+    devs:
+    - Blizzard Entertainment
+    plats:
+    - Mac
+    - PC
+    pack: free
+    protagonists:
+    - Sylvanas Windrunner
+  - name: WRC 9 FIA World Rally Championship
+    year: 2020
+    devs:
+    - KT Racing
+    plats:
+    - PlayStation 4
+    - Xbox One
+    - Nintendo Switch
+    - PC
+    - PlayStation 5
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - '-'
+  - name: Disc Room
+    year: 2020
+    devs:
+    - Terri Vellmann
+    plats:
+    - PC
+    - Nintendo Switch
+    - Mac
+    - Linux
+    pack: free
+    protagonists:
+    - '-'
+  - name: The Last Campfire
+    year: 2020
+    devs:
+    - Hello Games
+    plats:
+    - PC
+    - PlayStation 4
+    - Xbox One
+    - Nintendo Switch
+    - iOS
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Ember
+  - name: Crown Trick
+    year: 2020
+    devs:
+    - NExT Studios
+    plats:
+    - PC
+    - Xbox One
+    - PlayStation 4
+    - Nintendo Switch
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Command & Conquer Remastered Collection
+    year: 2020
+    devs:
+    - Petroglyph
+    plats:
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: Gears Tactics
+    year: 2020
+    devs:
+    - Splash Damage
+    plats:
+    - PC
+    - Xbox Series X|S
+    - Xbox One
+    pack: free
+    protagonists:
+    - Gabriel Diaz
+  - name: SnowRunner
+    year: 2020
+    devs:
+    - Saber Interactive
+    plats:
+    - PC
+    - Xbox One
+    - Nintendo Switch
+    - PlayStation 4
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'SUPERHOT: MIND CONTROL DELETE'
+    year: 2020
+    devs:
+    - SUPERHOT Team
+    plats:
+    - Linux
+    - PlayStation 4
+    - Xbox One
+    - PC
+    - Mac
+    - Google Stadia
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: One Step From Eden
+    year: 2020
+    devs:
+    - Thomas Moon Kang
+    plats:
+    - PC
+    - PlayStation 4
+    - Mac
+    - Nintendo Switch
+    - Linux
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Saffron
+    - Reva
+    - Gunner
+  - name: 'Bloodstained: Curse of the Moon 2'
+    year: 2020
+    devs:
+    - Inti Creates
+    plats:
+    - PlayStation 4
+    - PC
+    - Xbox One
+    - Nintendo Switch
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Zangetsu
+    - Dominique
+  - name: Super Mario 3D All-Stars
+    year: 2020
+    devs:
+    - Nintendo
+    plats:
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
+  - name: Filament
+    year: 2020
+    devs:
+    - Beard Envy
+    plats:
+    - Nintendo Switch
+    - PC
+    - Linux
+    pack: free
+    protagonists:
+    - '-'
+  - name: MotoGP 20
+    year: 2020
+    devs:
+    - Milestone
+    plats:
+    - PlayStation 4
+    - Xbox One
+    - Nintendo Switch
+    - PC
+    - Google Stadia
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Clubhouse Games: 51 Worldwide Classics'
+    year: 2020
+    devs:
+    - NDCube
+    plats:
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Sakuna: Of Rice and Ruin'
+    year: 2020
+    devs:
+    - Edelweiss
+    plats:
+    - PlayStation 4
+    - Nintendo Switch
+    - PC
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Call of the Sea
+    year: 2020
+    devs:
+    - Out of the Blue
+    plats:
+    - PlayStation 5
+    - PlayStation 4
+    - PC
+    - Xbox One
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - Norah Everhart
+  - name: Paradise Killer
+    year: 2020
+    devs:
+    - Kaizen Game Works
+    plats:
+    - Nintendo Switch
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: Fuser
+    year: 2020
+    devs:
+    - Harmonix Music Systems
+    plats:
+    - Nintendo Switch
+    - Xbox One
+    - PlayStation 4
+    - PC
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Tokyo Mirage Sessions #FE Encore
+    year: 2020
+    devs:
+    - Intelligent Systems Co. Ltd.
+    plats:
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - Itsuki Aoi
+    - Tsubasa Oribe
+    - Touma Akagi
+  - name: Ghostrunner
+    year: 2020
+    devs:
+    - Slipgate Ironworks
+    plats:
+    - PC
+    - Xbox One
+    - Xbox Series X|S
+    - PlayStation 5
+    - Nintendo Switch
+    - PlayStation 4
+    pack: free
+    protagonists:
+    - '-'
+  - name: The Pedestrian
+    year: 2020
+    devs:
+    - Skookum Arts
+    plats:
+    - PlayStation 5
+    - Nintendo Switch
+    - PlayStation 4
+    - Xbox One
+    - PC
+    - Mac
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - '-'
+  - name: Suzerain
+    year: 2020
+    devs:
+    - Torpor Games
+    plats:
+    - Nintendo Switch
+    - Mac
+    - PC
+    - Linux
+    pack: free
+    protagonists:
+    - '-'
+  - name: Bloodroots
+    year: 2020
+    devs:
+    - Paper Cult
+    plats:
+    - Nintendo Switch
+    - PC
+    - Xbox One
+    - Xbox Series X|S
+    - PlayStation 4
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Operencia: The Stolen Sun'
+    year: 2020
+    devs:
+    - Zen Studios
+    plats:
+    - PlayStation 4
+    - Xbox One
+    - PC
+    - Nintendo Switch
+    - PlayStation VR
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Wunderling
+    year: 2020
+    devs:
+    - Retroid
+    plats:
+    - PlayStation 4
+    - Nintendo Switch
+    - PC
+    - Xbox One
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'The Walking Dead: Saints & Sinners'
+    year: 2020
+    devs:
+    - Skydance Interactive
+    plats:
+    - SteamVR
+    - Oculus Quest
+    - Oculus Quest 2
+    - Windows Mixed Reality
+    - Oculus Rift
+    - PlayStation VR
+    pack: free
+    protagonists:
+    - '-'
+  - name: Going Under
+    year: 2020
+    devs:
+    - Aggro Crab Games
+    plats:
+    - PC
+    - Xbox One
+    - PlayStation 4
+    - Nintendo Switch
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Jackie
+  - name: Visage
+    year: 2020
+    devs:
+    - SadSquare Studio
+    plats:
+    - PlayStation 4
+    - PlayStation 5
+    - Xbox One
+    - PC
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - '-'
+  - name: Neon Abyss
+    year: 2020
+    devs:
+    - Veewo Games
+    plats:
+    - PlayStation 4
+    - Xbox One
+    - Nintendo Switch
+    - PC
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Wade
+    - Matt
+  - name: The Pathless
+    year: 2020
+    devs:
+    - Giant Squid
+    plats:
+    - PC
+    - Mac
+    - PlayStation 4
+    - PlayStation 5
+    - iOS
+    pack: free
+    protagonists:
+    - '-'
+  - name: Necrobarista
+    year: 2020
+    devs:
+    - Route 59
+    plats:
+    - PlayStation 4
+    - Nintendo Switch
+    - PC
+    - iOS
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Immortals Fenyx Rising
+    year: 2020
+    devs:
+    - "Ubisoft Qu\xE9bec"
+    plats:
+    - Xbox One
+    - PlayStation 4
+    - PlayStation 5
+    - PC
+    - Nintendo Switch
+    - Xbox Series X|S
+    - Google Stadia
+    pack: free
+    protagonists:
+    - '-'
+  - name: Get Packed
+    year: 2020
+    devs:
+    - Moonshine Studios
+    plats:
+    - Xbox One
+    - Google Stadia
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - '-'
+  - name: PHOGS!
+    year: 2020
+    devs:
+    - Bit Loom Games
+    plats:
+    - PC
+    - Nintendo Switch
+    - PlayStation 4
+    - Google Stadia
+    - Xbox One
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Fall Guys: Ultimate Knockout'
+    year: 2020
+    devs:
+    - Mediatonic
+    plats:
+    - PC
+    - Xbox Series X|S
+    - Xbox One
+    - Nintendo Switch
+    - PlayStation 4
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Amnesia: Rebirth'
+    year: 2020
+    devs:
+    - Frictional Games
+    plats:
+    - PC
+    - PlayStation 4
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: NBA 2K21
+    year: 2020
+    devs:
+    - Visual Concepts
+    plats:
+    - Nintendo Switch
+    - PlayStation 5
+    - PlayStation 4
+    - PC
+    - Xbox One
+    - Google Stadia
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - '-'
+  - name: ScourgeBringer
+    year: 2020
+    devs:
+    - Flying Oak Games
+    plats:
+    - Nintendo Switch
+    - Linux
+    - PC
+    - Mac
+    - Xbox One
+    - PlayStation 4
+    - PlayStation Vita
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Kyhra
+  - name: Valorant
+    year: 2020
+    devs:
+    - Riot Games
+    plats:
+    - PC
+    pack: free
+    protagonists:
+    - Astra
+    - Breach
+    - Raze
+    - Brimstone
+  - name: Pumpkin Jack
+    year: 2020
+    devs:
+    - Nicolas Meyssonnier
+    plats:
+    - PlayStation 5
+    - Xbox Series X|S
+    - PlayStation 4
+    - PC
+    - Nintendo Switch
+    - Xbox One
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Paper Mario: The Origami King'
+    year: 2020
+    devs:
+    - Intelligent Systems
+    plats:
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Star Wars: Squadrons'
+    year: 2020
+    devs:
+    - Motive Studios
+    plats:
+    - SteamVR
+    - Oculus Rift
+    - Windows Mixed Reality
+    - Xbox One
+    - PC
+    - PlayStation 4
+    - PlayStation VR
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Carto
+    year: 2020
+    devs:
+    - Sunhead Games
+    plats:
+    - PC
+    - Mac
+    - Nintendo Switch
+    - Xbox One
+    - PlayStation 4
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Bugsnax
+    year: 2020
+    devs:
+    - Young Horses
+    plats:
+    - PC
+    - Mac
+    - Nintendo Switch
+    - Xbox One
+    - PlayStation 4
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: The Longing
+    year: 2020
+    devs:
+    - Studio Seufz
+    plats:
+    - PC
+    - Mac
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Mafia: Definitive Edition'
+    year: 2020
+    devs:
+    - Hangar 13
+    plats:
+    - PC
+    - Xbox One
+    - PlayStation 4
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: I Am Dead
+    year: 2020
+    devs:
+    - Hollow Ponds
+    plats:
+    - Nintendo Switch
+    - PlayStation 4
+    - PlayStation 5
+    - Xbox One
+    - Xbox Series X|S
+    - PC
+    - Mac
+    pack: free
+    protagonists:
+    - '-'
+  - name: Paper Beast
+    year: 2020
+    devs:
+    - Pixel Reef
+    plats:
+    - SteamVR
+    - PlayStation VR
+    pack: free
+    protagonists:
+    - '-'
+  - name: Persona 5 Royal
+    year: 2019
+    devs:
+    - Atlus
+    plats:
+    - PlayStation 4
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Yusuke
+    - Joker
+    - Ann
+    - Morgana
+  - name: Pathologic 2
+    year: 2019
+    devs:
+    - Ice-Pick Lodge
+    plats:
+    - Xbox One
+    - PlayStation 4
+    - PC
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Monster Hunter: World - Iceborne'
+    year: 2019
+    devs:
+    - Capcom
+    plats:
+    - Xbox One
+    - PlayStation 4
+    - PC
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - 
+  - name: SEGA AGES VIRTUA RACING
+    year: 2019
+    devs:
+    - M2
+    plats:
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Sekiro: Shadows Die Twice'
+    year: 2019
+    devs:
+    - FromSoftware
+    plats:
+    - Google Stadia
+    - Xbox One
+    - PC
+    - PlayStation 4
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Isshin
+    - Genichiro
+  - name: Outer Wilds
+    year: 2019
+    devs:
+    - Mobius Digital
+    plats:
+    - PC
+    - Nintendo Switch
+    - Xbox One
+    - PlayStation 4
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Anno 1800
+    year: 2019
+    devs:
+    - Ubisoft Blue Byte
+    plats:
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Final Fantasy XIV: Shadowbringers'
+    year: 2019
+    devs:
+    - Square Enix
+    plats:
+    - PlayStation 4
+    - PC
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Age of Empires II: Definitive Edition'
+    year: 2019
+    devs:
+    - Wicked Witch Software
+    plats:
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'NieR: Automata - Game of the YoRHa Edition'
+    year: 2019
+    devs:
+    - Platinum Games
+    plats:
+    - PC
+    - PlayStation 4
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - 2B
+  - name: Death Stranding
+    year: 2019
+    devs:
+    - Kojima Productions
+    plats:
+    - PlayStation 4
+    - PC
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Sam Bridges
+  - name: 'Fire Emblem: Three Houses'
+    year: 2019
+    devs:
+    - Intelligent Systems
+    plats:
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - Dimitri
+    - Edelgard
+    - Byleth
+  - name: 'Druidstone: The Secret of the Menhir Forest'
+    year: 2019
+    devs:
+    - Ctrl Alt Ninja
+    plats:
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: Gunlord X
+    year: 2019
+    devs:
+    - WANZUNGDEV
+    plats:
+    - Nintendo Switch
+    - PlayStation 4
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Slay the Spire
+    year: 2019
+    devs:
+    - Mega Crit Games
+    plats:
+    - Android
+    - PlayStation 4
+    - Nintendo Switch
+    - PC
+    - Mac
+    - Linux
+    - Xbox One
+    - iOS
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - The Ironclad
+  - name: Mini Motorways
+    year: 2019
+    devs:
+    - Dinosaur Polo Club
+    plats:
+    - PC
+    - Mac
+    - iOS
+    pack: free
+    protagonists:
+    - '-'
+  - name: AMID EVIL
+    year: 2019
+    devs:
+    - Indefatigable
+    plats:
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: Disgaea 4 Complete+
+    year: 2019
+    devs:
+    - Nippon Ichi Software Inc.
+    plats:
+    - Nintendo Switch
+    - PC
+    - PlayStation 4
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Valvatorez
+    - Fuka
+    - Vulcanus
+  - name: Guilty Gear 20th Anniversary Edition
+    year: 2019
+    devs:
+    - Arc System Works
+    plats:
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
+  - name: Crash Team Racing Nitro-Fueled
+    year: 2019
+    devs:
+    - Beenox
+    plats:
+    - Xbox One
+    - Nintendo Switch
+    - PlayStation 4
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: The Jackbox Party Pack 6
+    year: 2019
+    devs:
+    - Jackbox Games Inc.
+    plats:
+    - Mac
+    - Nintendo Switch
+    - PC
+    - Xbox One
+    - PlayStation 4
+    - Linux
+    - Amazon Fire TV
+    - Android
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: F1 2019
+    year: 2019
+    devs:
+    - Codemasters
+    plats:
+    - Xbox One
+    - PC
+    - PlayStation 4
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Blood: Fresh Supply'
+    year: 2019
+    devs:
+    - Nightdive Studios
+    plats:
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Arise: A Simple Story'
+    year: 2019
+    devs:
+    - Piccolo Studio
+    plats:
+    - PlayStation 4
+    - Xbox One
+    - PC
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'AI: The Somnium Files'
+    year: 2019
+    devs:
+    - Spike ChunSoft
+    plats:
+    - Nintendo Switch
+    - PlayStation 4
+    - Xbox One
+    - PC
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Outward
+    year: 2019
+    devs:
+    - Maximum Games
+    plats:
+    - PlayStation 4
+    - Xbox One
+    - PC
+    - Google Stadia
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Kind Words
+    year: 2019
+    devs:
+    - Popcannibal
+    plats:
+    - PC
+    - Mac
+    - Linux
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Ni no Kuni: Wrath of the White Witch Remastered'
+    year: 2019
+    devs:
+    - Level-5
+    plats:
+    - PC
+    - PlayStation 4
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Allie
+    - Esther
+    - Oliver
+  - name: Pilgrims
+    year: 2019
+    devs:
+    - Amanita Design
+    plats:
+    - PC
+    - Mac
+    - iOS
+    - Linux
+    pack: free
+    protagonists:
+    - '-'
+  - name: Sunless Skies
+    year: 2019
+    devs:
+    - Failbetter Games
+    plats:
+    - PlayStation 4
+    - Nintendo Switch
+    - Xbox One
+    - PC
+    - Mac
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: MediEvil
+    year: 2019
+    devs:
+    - Other Ocean Interactive
+    plats:
+    - PlayStation 4
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Daniel Fortesque
+  - name: 'Bloodstained: Ritual of the Night'
+    year: 2019
+    devs:
+    - ArtPlay
+    plats:
+    - Xbox One
+    - Google Stadia
+    - PlayStation 4
+    - PC
+    - Nintendo Switch
+    - iOS
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Beat Saber
+    year: 2018
+    devs:
+    - Hyperbolic Magnetism
+    plats:
+    - PlayStation VR
+    - SteamVR
+    - Oculus Rift
+    - Oculus Quest
+    - Windows Mixed Reality
+    - Oculus Quest 2
+    pack: free
+    protagonists:
+    - '-'
+  - name: DEVOTION
+    year: 2019
+    devs:
+    - Red Candle Games
+    plats:
+    - PC
+    - Mac
+    pack: free
+    protagonists:
+    - '-'
+  - name: Mario & Sonic at the Olympic Games Tokyo 2020
+    year: 2019
+    devs:
+    - Sega
+    plats:
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
+  - name: Devil May Cry 5
+    year: 2019
+    devs:
+    - Capcom
+    plats:
+    - PlayStation 4
+    - PC
+    - Xbox One
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - V
+  - name: Lost Ember
+    year: 2019
+    devs:
+    - Mooneye Studios
+    plats:
+    - PlayStation 4
+    - Nintendo Switch
+    - Xbox One
+    - PC
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Shovel Knight: King of Cards'
+    year: 2019
+    devs:
+    - Yacht Club Games
+    plats:
+    - Nintendo 3DS
+    - PC
+    - PlayStation Vita
+    - Xbox One
+    - PlayStation 3
+    - Wii U
+    - PlayStation 4
+    - Linux
+    - Mac
+    - Nintendo Switch
+    - Amazon Fire TV
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Mortal Kombat 11
+    year: 2019
+    devs:
+    - NetherRealm Studios
+    plats:
+    - PlayStation 4
+    - Nintendo Switch
+    - PC
+    - Xbox One
+    - Google Stadia
+    - PlayStation 5
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Sid Meier''s Civilization VI: Gathering Storm'
+    year: 2019
+    devs:
+    - Firaxis Games
+    plats:
+    - PC
+    - Mac
+    - Linux
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'The Legend of Zelda: Link''s Awakening (Remake)'
+    year: 2019
+    devs:
+    - GREZZO Co.Ltd.
+    plats:
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
+  - name: Control
+    year: 2019
+    devs:
+    - Remedy Entertainment
+    plats:
+    - PlayStation 4
+    - Xbox One
+    - PC
+    - Google Stadia
+    - PlayStation 5
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - Jesse Faden
+  - name: Hypnospace Outlaw
+    year: 2019
+    devs:
+    - ThatWhichIs Media
+    plats:
+    - Mac
+    - Xbox One
+    - Linux
+    - Nintendo Switch
+    - PlayStation 4
+    - PC
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: 198X
+    year: 2019
+    devs:
+    - Hi-Bit Studios
+    plats:
+    - PlayStation 4
+    - PC
+    - Xbox One
+    - Nintendo Switch
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Metro Exodus
+    year: 2019
+    devs:
+    - 4A Games
+    plats:
+    - Xbox One
+    - PC
+    - Xbox Series X|S
+    - PlayStation 5
+    - PlayStation 4
+    - Google Stadia
+    pack: free
+    protagonists:
+    - Artyom
+  - name: Superliminal
+    year: 2019
+    devs:
+    - Pillow Castle
+    plats:
+    - PC
+    - Nintendo Switch
+    - PlayStation 4
+    - Xbox One
+    - Linux
+    - Mac
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'A Plague Tale: Innocence'
+    year: 2019
+    devs:
+    - Asobo Studio
+    plats:
+    - PlayStation 4
+    - Xbox Series X|S
+    - PlayStation 5
+    - Xbox One
+    - PC
+    pack: free
+    protagonists:
+    - Amicia
+  - name: Luigi's Mansion 3
+    year: 2019
+    devs:
+    - Next Level Games
+    plats:
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
+  - name: Cytus Alpha
+    year: 2019
+    devs:
+    - Rayark Inc.
+    plats:
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
+  - name: PICROSS LORD OF THE NAZARICK
+    year: 2019
+    devs:
+    - Jupiter Corporation
+    plats:
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Puzzle Quest: The Legend Returns'
+    year: 2019
+    devs:
+    - Infinite Interactive
+    plats:
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
+  - name: Risk of Rain 2
+    year: 2019
+    devs:
+    - Hopoo Games
+    plats:
+    - PC
+    - Google Stadia
+    - Xbox One
+    - Nintendo Switch
+    - PlayStation 4
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Creature in the Well
+    year: 2019
+    devs:
+    - Flight School Studio
+    plats:
+    - PlayStation 4
+    - Nintendo Switch
+    - PC
+    - Xbox One
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Ace Combat 7: Skies Unknown'
+    year: 2019
+    devs:
+    - Project Aces
+    plats:
+    - PlayStation 4
+    - PC
+    - Xbox One
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Divinity: Original Sin II - Definitive Edition'
+    year: 2018
+    devs:
+    - Larian Studios
+    plats:
+    - Xbox One
+    - PC
+    - Mac
+    - PlayStation 4
+    - Nintendo Switch
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Lohse
+    - Fane
+    - Sebille
+    - Beast
+  - name: Apex Legends
+    year: 2019
+    devs:
+    - Respawn Entertainment
+    plats:
+    - Xbox One
+    - PC
+    - Mac
+    - PlayStation 4
+    - Nintendo Switch
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Resident Evil 2 (Remake)
+    year: 2019
+    devs:
+    - Capcom
+    plats:
+    - PC
+    - PlayStation 4
+    - Xbox One
+    - Nintendo Switch
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Gears 5
+    year: 2019
+    devs:
+    - The Coalition
+    plats:
+    - PC
+    - Xbox One
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - Kait Diaz
+  - name: Tom Clancy's The Division 2
+    year: 2019
+    devs:
+    - Massive Entertainment - A Ubisoft Studio
+    plats:
+    - Google Stadia
+    - PlayStation 4
+    - Xbox One
+    - PC
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Super Mario Maker 2
+    year: 2019
+    devs:
+    - Nintendo
+    plats:
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Star Wars Jedi: Fallen Order'
+    year: 2019
+    devs:
+    - Respawn Entertainment
+    plats:
+    - PlayStation 4
+    - Xbox One
+    - Xbox Series X|S
+    - PC
+    - PlayStation 5
+    - Google Stadia
+    pack: free
+    protagonists:
+    - Cal Kestis
+  - name: Baba is You
+    year: 2019
+    devs:
+    - hempuli
+    plats:
+    - Android
+    - iOS
+    - Mac
+    - Linux
+    - Nintendo Switch
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: Kingdom Hearts III
+    year: 2019
+    devs:
+    - Square Enix
+    plats:
+    - Xbox One
+    - PlayStation 4
+    - PC
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Sora
+    - Riku
+    - Kairi
+  - name: Astral Chain
+    year: 2019
+    devs:
+    - Platinum Games
+    plats:
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - Akira Howard
+  - name: TETRIS 99
+    year: 2019
+    devs:
+    - "Alper Sar\u0131kaya"
+    plats:
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
+  - name: Borderlands 3
+    year: 2019
+    devs:
+    - Gearbox Software
+    plats:
+    - PlayStation 4
+    - PlayStation 5
+    - Xbox One
+    - PC
+    - Google Stadia
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - Amara
+  - name: Telling Lies
+    year: 2019
+    devs:
+    - Sam Barlow
+    plats:
+    - Xbox One
+    - Nintendo Switch
+    - PC
+    - Mac
+    - PlayStation 4
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Sayonara Wild Hearts
+    year: 2019
+    devs:
+    - Simogo
+    plats:
+    - Xbox One
+    - PC
+    - Mac
+    - PlayStation 4
+    - Nintendo Switch
+    - iOS
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Untitled Goose Game
+    year: 2019
+    devs:
+    - House House
+    plats:
+    - Nintendo Switch
+    - PlayStation 4
+    - Xbox One
+    - PC
+    - Mac
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: "Pok\xE9mon Sword and Shield"
+    year: 2019
+    devs:
+    - Game Freak
+    plats:
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - Magnolia
+  - name: 'Total War: Three Kingdoms'
+    year: 2019
+    devs:
+    - The Creative Assembly
+    plats:
+    - PC
+    - Mac
+    - Linux
+    pack: free
+    protagonists:
+    - '-'
+  - name: Cadence of Hyrule
+    year: 2019
+    devs:
+    - Brace Yourself Games
+    plats:
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Remnant: From the Ashes'
+    year: 2019
+    devs:
+    - Gunfire Games
+    plats:
+    - PlayStation 5
+    - PlayStation 4
+    - PC
+    - Xbox One
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - '-'
+  - name: Manifold Garden
+    year: 2019
+    devs:
+    - William Chyr Studio
+    plats:
+    - Mac
+    - Xbox One
+    - PlayStation 5
+    - Nintendo Switch
+    - PlayStation 4
+    - iOS
+    - PC
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - '-'
+  - name: Katana ZERO
+    year: 2019
+    devs:
+    - Askiisoft
+    plats:
+    - Mac
+    - Xbox One
+    - Nintendo Switch
+    - PC
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'The Dark Pictures Anthology: Man of Medan'
+    year: 2019
+    devs:
+    - Supermassive Games
+    plats:
+    - Xbox One
+    - PlayStation 4
+    - PC
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Conrad
+    - Alex Smith
+  - name: 'Persona Q2: New Cinema Labyrinth'
+    year: 2018
+    devs:
+    - Atlus
+    plats:
+    - Nintendo 3DS
+    pack: free
+    protagonists:
+    - Yukari Kateba
+    - Jumpei Iori
+  - name: 'Candleman: The Complete Journey'
+    year: 2018
+    devs:
+    - Spotlightor Interactive
+    plats:
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: Rolling Gunner
+    year: 2018
+    devs:
+    - Project Rolling Gunner
+    plats:
+    - PC
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
+  - name: CrossCode
+    year: 2018
+    devs:
+    - Radical Fish Games
+    plats:
+    - PlayStation 4
+    - PC
+    - PlayStation 5
+    - Linux
+    - Mac
+    - Nintendo Switch
+    - Xbox One
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - Lea
+  - name: Mark of the Ninja Remastered
+    year: 2018
+    devs:
+    - Klei Entertainment
+    plats:
+    - PC
+    - Nintendo Switch
+    - Linux
+    - Mac
+    - PlayStation 4
+    - Xbox One
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Sonic Mania Plus
+    year: 2018
+    devs:
+    - Headcannon
+    plats:
+    - Xbox One
+    - PlayStation 4
+    - Nintendo Switch
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Tails
+    - Knuckles
+  - name: God of War
+    year: 2018
+    devs:
+    - Santa Monica Studio
+    plats:
+    - PlayStation 4
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Kratos
+    - Atreus
+  - name: 'ASTRO BOT: Rescue Mission'
+    year: 2018
+    devs:
+    - Japan Studio
+    plats:
+    - PlayStation VR
+    pack: free
+    protagonists:
+    - '-'
+  - name: Light Fall
+    year: 2018
+    devs:
+    - Bishop Games
+    plats:
+    - Nintendo Switch
+    - PC
+    - Mac
+    pack: free
+    protagonists:
+    - '-'
+  - name: Red Dead Redemption 2
+    year: 2018
+    devs:
+    - Rockstar Games
+    plats:
+    - PC
+    - PlayStation 4
+    - Xbox One
+    - Google Stadia
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Arthur Morgan
+    - Dutch
+    - Micah
+  - name: Football Manager 2019
+    year: 2018
+    devs:
+    - Sports Interactive
+    plats:
+    - Nintendo Switch
+    - Mac
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Mario + Rabbids Kingdom Battle: Donkey Kong Adventure'
+    year: 2018
+    devs:
+    - Ubisoft Milan
+    plats:
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
+  - name: Lethal League Blaze
+    year: 2018
+    devs:
+    - Team Reptile
+    plats:
+    - Xbox One
+    - Linux
+    - PlayStation 4
+    - PC
+    - Mac
+    - Nintendo Switch
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: The Banner Saga 3
+    year: 2018
+    devs:
+    - Stoic
+    plats:
+    - Nintendo Switch
+    - Mac
+    - Android
+    - PlayStation 4
+    - iOS
+    - Xbox One
+    - PC
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Rook
+  - name: 'Splatoon 2: Octo Expansion'
+    year: 2018
+    devs:
+    - Nintendo
+    plats:
+    - Nintendo Switch
+    pack: free
+    protagonists:
+    - '-'
+  - name: Detective Pikachu
+    year: 2018
+    devs:
+    - Creatures Inc.
+    plats:
+    - Nintendo 3DS
+    pack: free
+    protagonists:
+    - Tim Goodman
+  - name: Wandersong
+    year: 2018
+    devs:
+    - Greg Lobanov
+    plats:
+    - Nintendo Switch
+    - Mac
+    - Xbox One
+    - PC
+    - PlayStation 4
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Monster Boy and the Cursed Kingdom
+    year: 2018
+    devs:
+    - Game Atelier
+    plats:
+    - PlayStation 4
+    - Nintendo Switch
+    - Xbox One
+    - PC
+    - Google Stadia
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Jin
+  - name: Mega Man X Legacy Collection
+    year: 2018
+    devs:
+    - Capcom
+    plats:
+    - PlayStation 4
+    - PC
+    - Nintendo Switch
+    - Xbox One
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Marvel's Spider-Man
+    year: 2018
+    devs:
+    - Insomniac Games
+    plats:
+    - PlayStation 4
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Wilson Fisk
+  - name: Celeste
+    year: 2018
+    devs:
+    - Extremely OK Games
+    plats:
+    - Google Stadia
+    - Mac
+    - PC
+    - PlayStation 4
+    - Xbox One
+    - Linux
+    - Nintendo Switch
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Madeline
+  - name: Tetris Effect
+    year: 2018
+    devs:
+    - Monstars Inc.
+    plats:
+    - Oculus Rift
+    - Oculus Quest
+    - PlayStation 4
+    - PlayStation VR
+    - PC
+    - SteamVR
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Thronebreaker: The Witcher Tales'
+    year: 2018
+    devs:
+    - CD Projekt RED
+    plats:
+    - Xbox One
+    - PC
+    - iOS
+    - PlayStation 4
+    - Nintendo Switch
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Spyro Reignited Trilogy
+    year: 2018
+    devs:
+    - Toys for Bob
+    plats:
+    - Nintendo Switch
+    - PlayStation 4
+    - Xbox One
+    - PC
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Dark Souls: Remastered'
+    year: 2018
+    devs:
+    - FromSoftware
+    plats:
+    - PlayStation 4
+    - Xbox One
+    - PC
+    - Nintendo Switch
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Solaire
+  - name: Kingdom Two Crowns
+    year: 2018
+    devs:
+    - Noio
+    plats:
+    - PC
+    - PlayStation 4
+    - Nintendo Switch
+    - Xbox One
+    - iOS
+    - Mac
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Frostpunk
+    year: 2018
+    devs:
+    - 11 bit studios
+    plats:
+    - PlayStation 4
+    - Xbox One
+    - Mac
+    - PC
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Monster Hunter: World'
+    year: 2018
+    devs:
+    - Capcom
+    plats:
+    - Xbox One
+    - PC
+    - PlayStation 4
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Dragon Ball FighterZ
+    year: 2018
+    devs:
+    - Arc System Works
+    plats:
+    - PC
+    - Xbox One
+    - PlayStation 4
+    - Nintendo Switch
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Deltarune: Chapter 1'
+    year: 2018
+    devs:
+    - 8-4
+    plats:
+    - Mac
+    - Nintendo Switch
+    - PlayStation 4
+    - PC
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Kris
+  - name: Judgment
+    year: 2018
+    devs:
+    - "Ry\u016B Ga Gotoku Studios"
+    plats:
+    - PlayStation 4
+    - Xbox Series X|S
+    - PlayStation 5
+    - Google Stadia
+    pack: free
+    protagonists:
+    - Takayuki Yagami
+  - name: Dead Cells
+    year: 2018
+    devs:
+    - Motion Twin
+    plats:
+    - Android
+    - Linux
+    - Nintendo Switch
+    - iOS
+    - PC
+    - Mac
+    - PlayStation 4
+    - Xbox One
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Assassin''s Creed: Odyssey'
+    year: 2018
+    devs:
+    - "Ubisoft Qu\xE9bec"
+    plats:
+    - PlayStation 4
+    - Xbox One
+    - PlayStation 5
+    - Google Stadia
+    - PC
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - Alexios
+    - Kassandra
+  - name: 'Pillars of Eternity II: Deadfire'
+    year: 2018
+    devs:
+    - Obsidian Entertainment
+    plats:
+    - PlayStation 4
+    - Xbox One
+    - Linux
+    - Mac
+    - PC
+    - Nintendo Switch
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'Detroit: Become Human'
+    year: 2018
+    devs:
+    - Quantic Dream
+    plats:
+    - PC
+    - PlayStation 4
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Connor
+  - name: HITMAN 2
+    year: 2018
+    devs:
+    - IO Interactive
+    plats:
+    - PlayStation 4
+    - PC
+    - Xbox One
+    - Google Stadia
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: SoulCalibur VI
+    year: 2018
+    devs:
+    - Project Soul
+    plats:
+    - PC
+    - Xbox One
+    - PlayStation 4
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Overcooked! 2
+    year: 2018
+    devs:
+    - Ghost Town Games
+    plats:
+    - PC
+    - Mac
+    - Linux
+    - PlayStation 4
+    - Nintendo Switch
+    - Xbox One
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: GRIS
+    year: 2018
+    devs:
+    - Nomada Studio
+    plats:
+    - PC
+    - Nintendo Switch
+    - PlayStation 4
+    - Android
+    - Mac
+    - iOS
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: The Messenger
+    year: 2018
+    devs:
+    - Sabotage
+    plats:
+    - Xbox One
+    - Nintendo Switch
+    - PC
+    - PlayStation 4
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Guacamelee! 2
+    year: 2018
+    devs:
+    - Drinkbox Studios
+    plats:
+    - PC
+    - PlayStation 4
+    - Xbox One
+    - Nintendo Switch
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Valkyria Chronicles 4
+    year: 2018
+    devs:
+    - Sega
+    plats:
+    - PlayStation 4
+    - Nintendo Switch
+    - Xbox One
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Claude Wallace
+    - Riley Miller
+  - name: 'Pathfinder: Kingmaker'
+    year: 2018
+    devs:
+    - Owlcat Games
+    plats:
+    - Xbox One
+    - Mac
+    - PlayStation 4
+    - PC
+    - Linux
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: Forza Horizon 4
+    year: 2018
+    devs:
+    - Forza Horizon 4
+    plats:
+    - Xbox Series X|S
+    - PC
+    - Xbox One
+    pack: free
+    protagonists:
+    - '-'
+  - name: Octopath Traveler
+    year: 2018
+    devs:
+    - Square Enix
+    plats:
+    - Xbox One
+    - Nintendo Switch
+    - PC
+    - Google Stadia
+    - Xbox Series X|S
+    pack: free
+    protagonists:
+    - Ophilia
+    - Cyrus
+    - Tressa
+    - Alfyn
+  - name: Unravel Two
+    year: 2018
+    devs:
+    - ColdWood Interactive
+    plats:
+    - PC
+    - Nintendo Switch
+    - Xbox One
+    - PlayStation 4
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: NHL 19
+    year: 2018
+    devs:
+    - Electronic Arts
+    plats:
+    - PlayStation 4
+    - Xbox One
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: 'The Walking Dead: The Final Season'
+    year: 2018
+    devs:
+    - Telltale Games
+    plats:
+    - Nintendo Switch
+    - PlayStation 4
+    - Xbox One
+    - PC
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'
+  - name: A Way Out
+    year: 2018
+    devs:
+    - Hazelight Studios
+    plats:
+    - Xbox One
+    - PC
+    - PlayStation 4
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Leo
+    - Vincent
+  - name: RimWorld
+    year: 2018
+    devs:
+    - Ludeon Studios
+    plats:
+    - PC
+    - Mac
+    - Linux
+    pack: free
+    protagonists:
+    - '-'
+  - name: Into the Breach
+    year: 2018
+    devs:
+    - Subset Games
+    plats:
+    - Linux
+    - Nintendo Switch
+    - PC
+    - Mac
+    - Google Stadia
+    pack: free
+    protagonists:
+    - '-'
+  - name: Florence
+    year: 2018
+    devs:
+    - Mountains
+    plats:
+    - Nintendo Switch
+    - iOS
+    - Mac
+    - Android
+    - PC
+    pack: free
+    protagonists:
+    - '-'
+  - name: Steins;Gate Elite
+    year: 2018
+    devs:
+    - MAGES.
+    plats:
+    - Nintendo Switch
+    - PlayStation Vita
+    - PlayStation 4
+    - iOS
+    - PC
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - Rintaro Okabe
+  - name: 'Final Fantasy XV: Pocket Edition'
+    year: 2018
+    devs:
+    - Square Enix
+    plats:
+    - iOS
+    - Android
+    - PC
+    - Xbox One
+    - Nintendo Switch
+    - PlayStation 4
+    - Xbox Series X|S
+    - PlayStation 5
+    pack: free
+    protagonists:
+    - '-'

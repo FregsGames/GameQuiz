@@ -222,7 +222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe9e7825c045634479c473f458d4f757, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: No
+  id: no
   customText: {fileID: 0}
 --- !u!1 &2753674632081349808
 GameObject:
@@ -371,7 +371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe9e7825c045634479c473f458d4f757, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: Yes
+  id: yes
   customText: {fileID: 0}
 --- !u!1 &3035788894718427420
 GameObject:
@@ -520,7 +520,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe9e7825c045634479c473f458d4f757, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: Reward_Title
+  id: reward_title
   customText: {fileID: 0}
 --- !u!1 &3645467740797885055
 GameObject:
@@ -1270,7 +1270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe9e7825c045634479c473f458d4f757, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: Reward_Content
+  id: reward_content
   customText: {fileID: 0}
 --- !u!1 &7698723418881466675
 GameObject:

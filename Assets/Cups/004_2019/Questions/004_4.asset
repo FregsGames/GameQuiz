@@ -32,6 +32,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: Who plays Sam Porter Bridges in Death Stranding?
+    - lang: 34
       text: "\xBFQui\xE9n interpreta a Sam Porter Bridges en Death Stranding?"
   correctAnswer:
     langStringsList:

@@ -39,6 +39,10 @@ public class CupDropdown : MonoBehaviour
     private Text priceText;
     [SerializeField]
     private Image cupImage;
+    [SerializeField]
+    private GameObject infiniteInfo;
+    [SerializeField]
+    private RectTransform contentDescRect;
 
     private void Start()
     {
@@ -80,6 +84,12 @@ public class CupDropdown : MonoBehaviour
         levelsText.text = $"{cup.GetCompletedLevelsCount()}/{cup.levels.Count}";
         infiniteButton.interactable = cup.GetCompletedLevelsCount() == cup.levels.Count;
 
+        if (infiniteButton.interactable)
+        {
+            infiniteInfo.SetActive(false);
+            contentDescRect.anchorMin = new Vector2(0, 0.37f);
+        }
+
         if(cup.state == Cups.CupType.free || IAPManager.Instance.HasBought(cup.id))
         {
             cupImage.sprite = cup.cupImage;
@@ -89,7 +99,7 @@ public class CupDropdown : MonoBehaviour
         else
         {
             descText.text = Translations.instance.GetText(cup.packDesc);
-            cupName.text = cup.packTitle;
+            cupName.text = Translations.instance.GetText(cup.packTitle);
 
             playButton.gameObject.SetActive(false);
             infiniteButton.gameObject.SetActive(false);

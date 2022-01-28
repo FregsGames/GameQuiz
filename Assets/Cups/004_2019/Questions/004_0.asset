@@ -32,6 +32,9 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: What is the name of the new character that joins the group in Persona
+        5 Royal?
+    - lang: 34
       text: "\xBFC\xF3mo se llama el nuevo personaje que se une al grupo en Persona
         5 Royal?"
   correctAnswer:

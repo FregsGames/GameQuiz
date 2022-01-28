@@ -32,8 +32,8 @@ RectTransform:
   m_Father: {fileID: 3005058651744122400}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.1, y: 0.5}
-  m_AnchorMax: {x: 0.9, y: 0.75}
+  m_AnchorMin: {x: 0.1, y: 0.6}
+  m_AnchorMax: {x: 0.9, y: 0.8}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -166,9 +166,10 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 4367348002012334815}
-  - {fileID: 5825846661406773423}
   - {fileID: 4669807903901520872}
   - {fileID: 5622853852659923872}
+  - {fileID: 5825846661406773423}
+  - {fileID: 2491753823777054373}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -253,7 +254,37 @@ MonoBehaviour:
   failedText: failedLevel
   resultText: {fileID: 2903080984074512824}
   answersText: {fileID: 7981003931494749651}
-  newLevelUnlockedGO: {fileID: 6666886190664903720}
+  quoteText: {fileID: 1517246703478309532}
+  quoteAuthor: {fileID: 6470613561479120810}
+  gameQuotes:
+  - lang: 10
+    texts:
+    - quote: We all make choices in life, but in the end our choices make us
+      game: Andrew Ryan, Bioshock
+    - quote: Get over here!
+      game: Scorpion, Mortal Kombat
+    - quote: The right man in the wrong place can make all the difference in the
+        world
+      game: G-Man, Half-Life 2
+    - quote: A hero need not speak. When he is gone, the world will speak for him
+      game: Halo
+    - quote: It's easy to forget what a sin is in the middle of a battlefield
+      game: Solid Snake, Metal Gear Solid
+    - quote: The courage to walk into the Darkness, but strength to return to the
+        Light
+      game: Parables of the Allspring, Destiny
+    - quote: Trust me
+      game: BT-7274, Titanfall 2
+    - quote: Praise the sun!
+      game: Solaire of Astora, Dark Souls
+    - quote: I've struggled a long time with survivin', but no matter what you have
+        to find something to fight for
+      game: Joel, The Last of Us
+    - quote: You are not a good person. You know that, right? Good people don't end
+        up here
+      game: GLaDOS, Portal 2
+    - quote: War. War never changes. But men do, through the roads they walk
+      game: 'Fallout: New Vegas'
 --- !u!1 &3994479158414266269
 GameObject:
   m_ObjectHideFlags: 0
@@ -287,7 +318,7 @@ RectTransform:
   m_Children:
   - {fileID: 288176516311534115}
   m_Father: {fileID: 3005058651744122400}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.1, y: 0.15}
   m_AnchorMax: {x: 0.9, y: 0.25}
@@ -400,6 +431,140 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sfx: 0
+--- !u!1 &5205978491294699778
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2491753823777054373}
+  - component: {fileID: 3400417043134945389}
+  - component: {fileID: 6470613561479120810}
+  m_Layer: 5
+  m_Name: QuoteAuthor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2491753823777054373
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5205978491294699778}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3005058651744122400}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.1, y: 0.3}
+  m_AnchorMax: {x: 0.9, y: 0.4}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3400417043134945389
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5205978491294699778}
+  m_CullTransparentMesh: 0
+--- !u!114 &6470613561479120810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5205978491294699778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: " \xA1Nuevo nivel desbloqueado!"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 1ef18d990dfcf564cb8bdffc761bc0de, type: 2}
+  m_sharedMaterial: {fileID: 7381581806217903326, guid: 1ef18d990dfcf564cb8bdffc761bc0de, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4292793312
+  m_fontColor: {r: 0.87843144, g: 0.82745105, b: 0.8705883, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 50
+  m_fontSizeBase: 50
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &6666886190664903720
 GameObject:
   m_ObjectHideFlags: 0
@@ -411,9 +576,8 @@ GameObject:
   - component: {fileID: 5825846661406773423}
   - component: {fileID: 6102180361126703944}
   - component: {fileID: 1517246703478309532}
-  - component: {fileID: 6025406622733237200}
   m_Layer: 5
-  m_Name: NewUnlock_Text (TMP)
+  m_Name: Quote
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -431,10 +595,10 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3005058651744122400}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.1, y: 0.3}
-  m_AnchorMax: {x: 0.9, y: 0.5}
+  m_AnchorMin: {x: 0.1, y: 0.4}
+  m_AnchorMax: {x: 0.9, y: 0.6}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -466,7 +630,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xA1Nuevo nivel desbloqueado!"
+  m_text: '" We all make choices in life, but in the end our choices make us"'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1ef18d990dfcf564cb8bdffc761bc0de, type: 2}
   m_sharedMaterial: {fileID: 7381581806217903326, guid: 1ef18d990dfcf564cb8bdffc761bc0de, type: 2}
@@ -493,13 +657,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 106.43
-  m_fontSizeBase: 106.43
+  m_fontSize: 80
+  m_fontSizeBase: 80
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 2
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -535,20 +699,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &6025406622733237200
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6666886190664903720}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe9e7825c045634479c473f458d4f757, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: LevelUnlocked
-  customText: {fileID: 0}
 --- !u!1 &8578290407804542443
 GameObject:
   m_ObjectHideFlags: 0
@@ -713,10 +863,10 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3005058651744122400}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.1, y: 0.75}
-  m_AnchorMax: {x: 0.9, y: 0.9}
+  m_AnchorMin: {x: 0.1, y: 0.8}
+  m_AnchorMax: {x: 0.9, y: 0.95}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}

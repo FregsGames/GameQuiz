@@ -33,7 +33,9 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
-      text: "NO luchas con espadas en este juego\t"
+      text: "\rYou do NOT fight with swords in this game"
+    - lang: 34
+      text: NO luchas con espadas en este juego
   correctAnswer:
     langStringsList:
     - lang: 10

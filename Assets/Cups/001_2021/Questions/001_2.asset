@@ -44,4 +44,7 @@ MonoBehaviour:
     langStringsList:
     - lang: 10
       texts:
-      - Pareja
+      - Married
+    - lang: 34
+      texts:
+      - Casados

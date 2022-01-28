@@ -12,7 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5ba473f0a530d6489166986ed474f83, type: 3}
   m_Name: 002_HandwrittenSet
   m_EditorClassIdentifier: 
-  setId: 
+  setId: 002_handwritten
   questions:
   - {fileID: 0}
-  langs: 
+  - {fileID: 11400000, guid: 82a1b8406e425a04da71abe680d34b73, type: 2}
+  - {fileID: 11400000, guid: 523e6e84154eff040a6e68bba3d7f2dc, type: 2}
+  - {fileID: 11400000, guid: 3ba9d44b8de3f3044b8058f0557379ad, type: 2}
+  - {fileID: 11400000, guid: 9319f2bd40a89f2459848d115512b65a, type: 2}
+  - {fileID: 11400000, guid: 1e97f71e4f2c13546a28dd448a833460, type: 2}
+  - {fileID: 11400000, guid: 59c3a979f78a5be46a77606c5500ff29, type: 2}
+  - {fileID: 11400000, guid: cef0f617a151aeb4ea33f68b7da621db, type: 2}
+  - {fileID: 11400000, guid: 632f21800db328548b453d939156c1fa, type: 2}
+  - {fileID: 11400000, guid: f8ff1079f293d8c48a6c1555cdb6ccea, type: 2}
+  - {fileID: 11400000, guid: f81fb775bb50d904fa6736ead5d7bd83, type: 2}
+  - {fileID: 11400000, guid: ddae2f32dfd60ed419535d211cdb97ae, type: 2}
+  - {fileID: 11400000, guid: f4d1a2bcbd39ec540afdefab4325910a, type: 2}
+  - {fileID: 11400000, guid: 58403c56fd838ed4fbdc57de08b1acba, type: 2}
+  - {fileID: 11400000, guid: be6bfa4d1f0dd334191604529c1235ef, type: 2}
+  - {fileID: 11400000, guid: 2368a19f7331e1147becc832bb74c22c, type: 2}
+  - {fileID: 11400000, guid: 4cd126ce34b955945a16658a5406beae, type: 2}
+  langs: 0a00000022000000

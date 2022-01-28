@@ -33,6 +33,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: "\rGame set in the future"
+    - lang: 34
       text: Juego ambientado en el futuro
   correctAnswer:
     langStringsList:

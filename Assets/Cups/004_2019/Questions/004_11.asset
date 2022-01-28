@@ -32,6 +32,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: "\rThis game is the third release in it series"
+    - lang: 34
       text: Es la tercera entrega de una saga
   correctAnswer:
     langStringsList:

@@ -32,7 +32,9 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
-      text: Es un juego sobre bucles temporales
+      text: The game takes place in a time loop
+    - lang: 34
+      text: El juego se desarrolla en un bucle temporal
   correctAnswer:
     langStringsList:
     - lang: 10

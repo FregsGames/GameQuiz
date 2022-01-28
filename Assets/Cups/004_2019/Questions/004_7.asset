@@ -32,7 +32,9 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
-      text: "La protagonista sufre una maldici\xF3n que vuelve su piel en cristal."
+      text: "\rThe protagonist is scarred by0 a curse that turns her skin into crystal"
+    - lang: 34
+      text: "La protagonista sufre una maldici\xF3n que vuelve su piel en cristal"
   correctAnswer:
     langStringsList:
     - lang: 10

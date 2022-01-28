@@ -35,7 +35,7 @@ MonoBehaviour:
       Data: 
   id: cup_shuffle
   title: cup_shuffle_Title
-  packTitle: cup_shuffle_packTitle
+  packTitle: cup_shuffle_Title
   desc: cup_shuffle_desc
   packDesc: cup_shuffle_packDesc
   levels: []

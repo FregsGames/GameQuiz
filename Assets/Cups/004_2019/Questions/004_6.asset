@@ -32,6 +32,8 @@ MonoBehaviour:
   statement:
     langStrings:
     - lang: 10
+      text: "\rIt's a card game"
+    - lang: 34
       text: Es un juego de cartas
   correctAnswer:
     langStringsList:
