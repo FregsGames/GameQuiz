@@ -14,7 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   setId: 002_handwritten
   questions:
-  - {fileID: 0}
   - {fileID: 11400000, guid: 82a1b8406e425a04da71abe680d34b73, type: 2}
   - {fileID: 11400000, guid: 523e6e84154eff040a6e68bba3d7f2dc, type: 2}
   - {fileID: 11400000, guid: 3ba9d44b8de3f3044b8058f0557379ad, type: 2}

@@ -113,7 +113,7 @@ MonoBehaviour:
     en: Retro cup
     es: Copa Retro
   - id: c_00_desc
-    en: Questions about the fifht generation consoles and games
+    en: Questions about the fifth generation consoles and games
     es: "Preguntas sobre juegos y consolas de quinta generaci\xF3n"
   - id: Level_GuessTheYear
     en: Guess the year!
@@ -146,8 +146,8 @@ MonoBehaviour:
     en: question(s) correctly to complete the level
     es: pregunta(s) correctamente para completar el nivel
   - id: s_plat_not
-    en: You cannot play this game on
-    es: No puedes jugar a este juego en
+    en: You CANNOT play this game on
+    es: NO puedes jugar a este juego en
   - id: s_year_not
     en: Game NOT from
     es: "NO es un juego del a\xF1o"
@@ -155,11 +155,11 @@ MonoBehaviour:
     en: Game NOT developed by
     es: Juego NO desarrollado por
   - id: s_protagonist_0
-    en: Personaje de
-    es: Main character from
+    en: Character from
+    es: Personaje de
   - id: s_notProtagonist_0
-    en: No es un personaje de
-    es: Not a character from
+    en: NOT a character from
+    es: NO es un personaje de
   - id: c_01_title
     en: 2021 Cup
     es: Copa 2021

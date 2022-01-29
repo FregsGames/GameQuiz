@@ -285,6 +285,37 @@ MonoBehaviour:
       game: GLaDOS, Portal 2
     - quote: War. War never changes. But men do, through the roads they walk
       game: 'Fallout: New Vegas'
+    - quote: Do a barrel roll!
+      game: Star Fox
+    - quote: FUS-RO-DAH!
+      game: 'The Elder Scrolls V: Skyrim'
+    - quote: The cake is a lie
+      game: GLaDOS, Portal
+  - lang: 34
+    texts:
+    - quote: Es peligroso viajar solo. Toma esto
+      game: The Legend of Zelda
+    - quote: "Mira detr\xE1s de ti, \xA1un mono de tres cabezas!"
+      game: Guybrush Threepwood, Monkey Island
+    - quote: El hombre adecuado en el sitio equivocado puede cambiar el rumbo del
+        mundo
+      game: G-Man, Half-Life 2
+    - quote: La guerra. La guerra no cambia nunca
+      game: Fallout
+    - quote: "Nada es verdad. Todo est\xE1 permitido"
+      game: Assassin's Creed
+    - quote: Soy el Comandante Shepard. Y esta es mi tienda favorita de la Ciudadela
+      game: Comandante Shepard, Mass Effect
+    - quote: FUS-RO-DAH!
+      game: 'The Elder Scrolls V: Skyrim'
+    - quote: "Es incre\xEDble lo que una persona puede llegar a olvidar... pero es
+        m\xE1s sorprendente lo que puede llegar a esconder"
+      game: Tifa Lockhart, Final Fantasy VII
+    - quote: "\xA1Casi te conviertes en un sandwich de Jill!"
+      game: Barry, Resident Evil
+    - quote: La mitad de lo que conocemos es mentira... La otra mitad, una mentira
+        bien construida
+      game: 'EVA, Metal Gear Solid 3: Snake Eater'
 --- !u!1 &3994479158414266269
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,7 +661,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '" We all make choices in life, but in the end our choices make us"'
+  m_text: '" We all make choices in life, but in the end our choices make us"0'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1ef18d990dfcf564cb8bdffc761bc0de, type: 2}
   m_sharedMaterial: {fileID: 7381581806217903326, guid: 1ef18d990dfcf564cb8bdffc761bc0de, type: 2}

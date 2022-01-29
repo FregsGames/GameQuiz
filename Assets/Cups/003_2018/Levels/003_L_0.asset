@@ -32,7 +32,7 @@ MonoBehaviour:
       Data: 1|YearFilter, Assembly-CSharp
     - Name: otherOptionsUseFilter
       Entry: 5
-      Data: true
+      Data: false
     - Name: from
       Entry: 3
       Data: 2018
@@ -57,6 +57,6 @@ MonoBehaviour:
   - contentType: 4
   - contentType: 1
   - contentType: 5
-  state: 2
+  state: 1
   alwaysUnlocked: 1
   winCondition: 0

@@ -98,6 +98,13 @@ namespace Questions
                         {
                             filteredGamesForAnswer = filteredGamesForAnswer.Where(g => !answersToExlude.Contains(g.name)).ToList();
                         }
+
+                        if (filteredGamesForOtherOptions.Where(g => g.year != year).ToList().Count == 0)
+                        {
+                            Debug.LogWarning("Cannot exclude answer on game from year inverse, getting other question");
+                            filteredGamesForOtherOptions = new List<GameC>(gamesDB.gamesC);
+                            filteredGamesForAnswer = new List<GameC>(gamesDB.gamesC);
+                        }
                     }
 
                     correctAnswer = filteredGamesForAnswer.Where(g => g.year == year).OrderBy(x => rnd.Next()).Take(1).ToArray()[0].name;
@@ -113,11 +120,18 @@ namespace Questions
                     {
                         if (filteredGamesForOtherOptions.Where(g => !answersToExlude.Contains(g.name)).ToList().Count == 0)
                         {
-                            Debug.LogError("Cannot exclude answer on game from year inverse, getting duplicated question");
+                            Debug.LogWarning("Cannot exclude answer on game from year inverse, getting duplicated question");
                         }
                         else
                         {
                             filteredGamesForOtherOptions = filteredGamesForOtherOptions.Where(g => !answersToExlude.Contains(g.name)).ToList();
+                        }
+
+                        if(filteredGamesForOtherOptions.Where(g => g.year != year).ToList().Count == 0)
+                        {
+                            Debug.LogWarning("Cannot exclude answer on game from year inverse, getting other question");
+                            filteredGamesForOtherOptions = new List<GameC>(gamesDB.gamesC);
+                            filteredGamesForAnswer = new List<GameC>(gamesDB.gamesC);
                         }
                     }
 
@@ -136,11 +150,18 @@ namespace Questions
                 {
                     if (filteredGamesForAnswer.Where(g => !answersToExlude.Contains(g.name)).ToList().Count == 0)
                     {
-                        Debug.LogError("Cannot exclude answer on game from year, getting duplicated question");
+                        Debug.LogWarning("Cannot exclude answer on game from year, getting duplicated question");
                     }
                     else
                     {
                         filteredGamesForAnswer = filteredGamesForAnswer.Where(g => !answersToExlude.Contains(g.name)).ToList();
+                    }
+
+                    if (filteredGamesForOtherOptions.Where(g => g.year != year).ToList().Count == 0)
+                    {
+                        Debug.LogWarning("Cannot exclude answer on game from year inverse, getting other question");
+                        filteredGamesForOtherOptions = new List<GameC>(gamesDB.gamesC);
+                        filteredGamesForAnswer = new List<GameC>(gamesDB.gamesC);
                     }
                 }
 
@@ -314,10 +335,10 @@ namespace Questions
 
             if (inverseQuestion)
             {
-                List<string> validPlats = companies.Where(y => y.Value >= 3).Select(x => x.Key).ToList();
+                List<string> validPlats = companies.Select(x => x.Key).ToList();
                 if (validPlats == null || validPlats.Count == 0)
                 {
-                    Debug.Log("Not enough games to do an inverse platform question.");
+                    Debug.Log("Not enough games to do an inverse company question.");
                     comp = companies.Keys.ToList()[Random.Range(0, companies.Keys.Count)];
 
                     rnd = new System.Random();

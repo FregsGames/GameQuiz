@@ -34,11 +34,9 @@ namespace SuperMaxim.Messaging
         static Messenger()
         {
             // init MainThreadDispatcher and print main thread ID
-            Debug.LogFormat("Main Thread ID: {0}", MainThreadDispatcher.Default.ThreadId);
 
             // TODO init in case of debug
             // init MessengerMonitor
-            Debug.LogFormat("Messenger Monitor {0}", MessengerMonitor.Default); // TODO print id
         }
 
         /// <summary>

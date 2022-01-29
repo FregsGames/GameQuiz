@@ -71,7 +71,6 @@ namespace UnityEngine.Purchasing
             instance = new CodelessIAPStoreListener();
             if (!unityPurchasingInitialized)
             {
-                Debug.Log("Initializing UnityPurchasing via Codeless IAP");
                 InitializePurchasing();
             }
         }
@@ -104,7 +103,6 @@ namespace UnityEngine.Purchasing
             {
                 return controller.products.WithID(productID);
             }
-            Debug.LogError("CodelessIAPStoreListener attempted to get unknown product " + productID);
             return null;
         }
 
@@ -132,8 +130,6 @@ namespace UnityEngine.Purchasing
         {
             if (controller == null)
             {
-                Debug.LogError("Purchase failed because Purchasing was not initialized correctly");
-
                 foreach (var button in activeButtons)
                 {
                     if (button.productId == productID)

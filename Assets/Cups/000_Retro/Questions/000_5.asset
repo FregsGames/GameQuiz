@@ -32,10 +32,10 @@ MonoBehaviour:
       - Sega Dreamcast
   statement:
     langStrings:
-    - lang: 34
-      text: Consola que usaba cartuchos para almacenar sus juegos
     - lang: 10
       text: This console stored its games in cartridges
+    - lang: 34
+      text: Consola que usaba cartuchos para almacenar sus juegos
   correctAnswer:
     langStringsList:
     - lang: 10

@@ -34,10 +34,10 @@ MonoBehaviour:
       - Hironobu Sakaguchi
   statement:
     langStrings:
-    - lang: 34
-      text: "Dise\xF1ador de Super Mario 64"
     - lang: 10
       text: Super Mario 64 designer
+    - lang: 34
+      text: "Dise\xF1ador de Super Mario 64"
   correctAnswer:
     langStringsList:
     - lang: 10

@@ -31,10 +31,10 @@ MonoBehaviour:
       - Atari Jaguar
   statement:
     langStrings:
-    - lang: 34
-      text: El mando de esta consola contaba con 8 botones
     - lang: 10
       text: This console's gamepad had 8 buttons
+    - lang: 34
+      text: El mando de esta consola contaba con 8 botones
   correctAnswer:
     langStringsList:
     - lang: 10

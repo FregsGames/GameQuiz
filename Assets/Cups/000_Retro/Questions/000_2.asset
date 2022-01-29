@@ -31,10 +31,10 @@ MonoBehaviour:
       - Xbox
   statement:
     langStrings:
-    - lang: 34
-      text: "Consola lanzada en 1994 en Jap\xF3n"
     - lang: 10
       text: 'Console released in 1994 in Japan '
+    - lang: 34
+      text: "Consola lanzada en 1994 en Jap\xF3n"
   correctAnswer:
     langStringsList:
     - lang: 10

@@ -31,10 +31,10 @@ MonoBehaviour:
       - Sin and Punishment
   statement:
     langStrings:
-    - lang: 34
-      text: Puedes manejar un tanque en este videojuego
     - lang: 10
       text: You can drive a tank in this game
+    - lang: 34
+      text: Puedes manejar un tanque en este videojuego
   correctAnswer:
     langStringsList:
     - lang: 10
