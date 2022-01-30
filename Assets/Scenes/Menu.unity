@@ -541,6 +541,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2814665552432071767, guid: 7381c32a9de94084c9a1c076827f4ab7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 100.000244
+      objectReference: {fileID: 0}
     - target: {fileID: 5505791208123430512, guid: 7381c32a9de94084c9a1c076827f4ab7, type: 3}
       propertyPath: menuManager
       value: 
@@ -1024,7 +1028,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 78}
-  m_SizeDelta: {x: 0, y: 400}
+  m_SizeDelta: {x: 0, y: 580}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1201603392
 MonoBehaviour:
@@ -1046,7 +1050,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: VIDEO GAMES
+  m_text: "VIDEO \nGAMES"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1ef18d990dfcf564cb8bdffc761bc0de, type: 2}
   m_sharedMaterial: {fileID: 7381581806217903326, guid: 1ef18d990dfcf564cb8bdffc761bc0de, type: 2}
@@ -1076,9 +1080,9 @@ MonoBehaviour:
   m_fontSize: 280
   m_fontSizeBase: 280
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 280
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
