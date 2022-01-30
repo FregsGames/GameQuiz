@@ -2,9 +2,12 @@
 using UnityEngine;
 using UnityEngine.UI;
 using static Levels;
+using TMPro;
 
 public class LevelButton : MonoBehaviour
 {
+    [SerializeField]
+    private TextMeshProUGUI text;
     public LevelScriptableC Level { get; set; }
 
     public Action<LevelButton> OnClick;
@@ -20,8 +23,12 @@ public class LevelButton : MonoBehaviour
         Button.onClick.AddListener(() => { OnClick?.Invoke(this); });
     }
 
-    public void SetSprite(Sprite sprite)
+    public void SetSprite(Sprite sprite, int number = -1)
     {
         image.sprite = sprite;
+        if(number != -1)
+        {
+            text.text = number.ToString();
+        }
     }
 }

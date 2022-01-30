@@ -1,6 +1,7 @@
 ﻿using Assets.Scripts.Payloads;
 using SuperMaxim.Messaging;
 using System;
+using System.Threading.Tasks;
 using UnityEngine;
 
 public class AudioManager : Singleton<AudioManager>
@@ -24,6 +25,10 @@ public class AudioManager : Singleton<AudioManager>
     private AudioClip win2;
     [SerializeField]
     private AudioClip simple;
+    [SerializeField]
+    private AudioClip woosh;
+    [SerializeField]
+    private AudioClip buttonEnter;
 
     private SaveManager saveManager;
 
@@ -35,7 +40,9 @@ public class AudioManager : Singleton<AudioManager>
         Fail,
         Correct,
         WinAlt,
-        Simple
+        Simple,
+        Woosh,
+        Enter
     }
 
     private void OnEnable()
@@ -62,6 +69,12 @@ public class AudioManager : Singleton<AudioManager>
     public bool SoundMuted { get; private set; }
     public bool MusicMuted { get; private set; }
 
+    public async void PlaySound(SoundEffect sfx, int delay)
+    {
+        await Task.Delay(delay);
+        PlaySound(sfx);
+    }
+
     public void PlaySound(SoundEffect sfx)
     {
         switch (sfx)
@@ -86,6 +99,12 @@ public class AudioManager : Singleton<AudioManager>
                 break;
             case SoundEffect.Simple:
                 soundAudioSource.PlayOneShot(simple);
+                break;
+            case SoundEffect.Woosh:
+                soundAudioSource.PlayOneShot(woosh);
+                break;
+            case SoundEffect.Enter:
+                soundAudioSource.PlayOneShot(buttonEnter, 0.2f);
                 break;
             default:
                 break;

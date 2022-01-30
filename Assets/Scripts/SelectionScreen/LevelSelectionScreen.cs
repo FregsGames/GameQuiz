@@ -181,9 +181,11 @@ public class LevelSelectionScreen : MonoBehaviour
 
     private void SetAllButtonsToNormalColor()
     {
+        int i = 1;
         foreach (var btn in buttons)
         {
-            btn.SetSprite(btn.Level.state == LevelState.completed ? completedSprite : normalSprite);
+            btn.SetSprite(btn.Level.state == LevelState.completed ? completedSprite : normalSprite, i);
+            i++;
         }
     }
 

@@ -71,7 +71,7 @@ MonoBehaviour:
   - contentType: 7
   - contentType: 4
   - contentType: 3
-  - contentType: 7
-  state: 0
+  - contentType: 3
+  state: 2
   alwaysUnlocked: 1
   winCondition: 0

@@ -234,5 +234,8 @@ MonoBehaviour:
   - id: no
     en: No
     es: No
+  - id: complete_all_levels
+    en: Complete all levels to unlock infinite mode
+    es: Completa todos los niveles para desbloquear el modo infinito
   currentLanguage: 34
   availableLanguages: 220000000a000000

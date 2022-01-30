@@ -126,6 +126,7 @@ public class GameUI : MonoBehaviour
 
         for (int i = 0; i < buttons.Length; i++)
         {
+            AudioManager.Instance.PlaySound(AudioManager.SoundEffect.Enter,  i * 120 + 900);
             sequence.Insert(0, buttons[i].DOAnchorPosX(0, 1f + (i * 0.2f)).SetDelay(0.1f).SetEase(Ease.InCubic));
         }
         sequence.OnComplete(OnAnswerShowCompleted);
@@ -265,7 +266,7 @@ public class GameUI : MonoBehaviour
         SetButtonAnswersColors(ButtonQuestion.State.Normal);
     }
 
-    private void PublishUIFinishedUpdate(ButtonQuestion answer)
+    private async void PublishUIFinishedUpdate(ButtonQuestion answer)
     {
         foreach (RectTransform button in buttons)
         {
@@ -276,6 +277,8 @@ public class GameUI : MonoBehaviour
         {
             timer.Restart();
         }
+
+        await Task.Delay(5);
 
         Messenger.Default.Publish(new AnswerFromUI() { Answer = answer == null? null : answer.AssignedAnswer });
     }

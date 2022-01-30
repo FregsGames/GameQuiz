@@ -335,7 +335,7 @@ namespace Questions
 
             if (inverseQuestion)
             {
-                List<string> validPlats = companies.Select(x => x.Key).ToList();
+                List<string> validPlats = companies.Where(c => c.Value >= 3).Select(x => x.Key).ToList();
                 if (validPlats == null || validPlats.Count == 0)
                 {
                     Debug.Log("Not enough games to do an inverse company question.");
