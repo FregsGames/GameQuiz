@@ -174,7 +174,7 @@ MonoBehaviour:
     es: "\xBFPuedes adivinar el a\xF1o en que se lanzaron estos juegos?"
   - id: l_companies
     en: Guess which companies developed these games.
-    es: "Adivina que compa\xF1\xEDas desarrollaron estos juegos"
+    es: "Adivina qu\xE9 compa\xF1\xEDas desarrollaron estos juegos"
   - id: l_plat
     en: Do you know in which platforms you can play these games?
     es: "\xBFSabes en qu\xE9 plataformas se pueden jugar?"
@@ -210,7 +210,7 @@ MonoBehaviour:
     es: Desbloquea el modo aleatorio, con preguntas sobre todas las copas
   - id: cup_shuffle_desc
     en: Questions about all cups
-    es: Pregutnas sobre todas las copas
+    es: Preguntas sobre todas las copas
   - id: level_completed
     en: Level completed!
     es: "\xA1Nivel completado!"
@@ -237,5 +237,14 @@ MonoBehaviour:
   - id: complete_all_levels
     en: Complete all levels to unlock infinite mode
     es: Completa todos los niveles para desbloquear el modo infinito
+  - id: Spanish
+    en: Spanish
+    es: "Espa\xF1ol"
+  - id: l_year_2
+    en: Can you guess which games were released this year?
+    es: "\xBFPuedes adivinar qu\xE9 juegos fueron lanzados de este a\xF1o?"
+  - id: progress
+    en: Progress
+    es: Progreso
   currentLanguage: 34
   availableLanguages: 220000000a000000

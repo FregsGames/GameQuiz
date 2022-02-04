@@ -195,9 +195,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cups:
-  - {fileID: 11400000, guid: dfef8e78c38f3614e83841020a05dd61, type: 2}
   - {fileID: 11400000, guid: 98ddf941e37b99c4c88897d9e6fb67aa, type: 2}
   - {fileID: 11400000, guid: a0dc8beb4f0844441a2b474886a2a210, type: 2}
   - {fileID: 11400000, guid: 36e7bef2151f52a47b99f44c5467ae12, type: 2}
   - {fileID: 11400000, guid: 9a07c5692d9f3c44a80b9e5f3bc88715, type: 2}
+  - {fileID: 11400000, guid: dfef8e78c38f3614e83841020a05dd61, type: 2}
   - {fileID: 11400000, guid: 69407ad2b00a855478bddca84ea2dfa6, type: 2}

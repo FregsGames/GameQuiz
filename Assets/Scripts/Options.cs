@@ -41,7 +41,7 @@ public class Options : MonoBehaviour
     private void Start()
     {
         UpdateButtonSprites();
-        langText.text = Translations.instance.currentLanguage.ToString();
+        langText.text = Translations.instance.GetText(Translations.instance.currentLanguage.ToString());
     }
 
     public async void ShowOptions()
@@ -79,13 +79,13 @@ public class Options : MonoBehaviour
     public void NextLang()
     {
         Translations.instance.SetNextLanguage();
-        langText.text = Translations.instance.currentLanguage.ToString();
+        langText.text = Translations.instance.GetText(Translations.instance.currentLanguage.ToString());
     }
 
     public void PrevLang()
     {
         Translations.instance.SetPrevLanguage();
-        langText.text = Translations.instance.currentLanguage.ToString();
+        langText.text = Translations.instance.GetText(Translations.instance.currentLanguage.ToString());
     }
 
     public void GoMenu()

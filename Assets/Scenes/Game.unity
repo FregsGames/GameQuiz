@@ -536,10 +536,11 @@ MonoBehaviour:
   playButton: {fileID: 836341034461137836}
   thisScene: 2
   sceneToLoad: 1
-  directionToShow: 2
+  directionToShow: 1
   differentHideDir: 0
   directionToHide: 2
-  ease: 16
+  ease: 8
+  firstTimeDoNotAnimate: 0
 --- !u!4 &871859119
 Transform:
   m_ObjectHideFlags: 0
@@ -744,6 +745,10 @@ PrefabInstance:
     - target: {fileID: 6078477470172498336, guid: a898ac3449495fd4d855bd8e354038a6, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -250
+      objectReference: {fileID: 0}
+    - target: {fileID: 6752634148149113637, guid: a898ac3449495fd4d855bd8e354038a6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -125.700195
       objectReference: {fileID: 0}
     - target: {fileID: 7721108082615990954, guid: a898ac3449495fd4d855bd8e354038a6, type: 3}
       propertyPath: m_AnchorMax.y

@@ -122,12 +122,10 @@ public class GameUI : MonoBehaviour
     {
         var sequence = DOTween.Sequence();
 
-        sequence.SetDelay(2f);
-
         for (int i = 0; i < buttons.Length; i++)
         {
-            AudioManager.Instance.PlaySound(AudioManager.SoundEffect.Enter,  i * 120 + 900);
-            sequence.Insert(0, buttons[i].DOAnchorPosX(0, 1f + (i * 0.2f)).SetDelay(0.1f).SetEase(Ease.InCubic));
+            AudioManager.Instance.PlaySound(AudioManager.SoundEffect.Enter,  i * 90 + 450);
+            sequence.Insert(0, buttons[i].DOAnchorPosX(0, 0.5f + (i * 0.2f)).SetDelay(0.1f).SetEase(Ease.InCubic));
         }
         sequence.OnComplete(OnAnswerShowCompleted);
     }

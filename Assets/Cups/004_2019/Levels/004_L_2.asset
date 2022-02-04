@@ -54,7 +54,7 @@ MonoBehaviour:
   questionTemplates:
   - contentType: 3
   - contentType: 7
-  - contentType: 4
+  - contentType: 3
   - contentType: 3
   - contentType: 7
   state: 1

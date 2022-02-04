@@ -394,6 +394,7 @@ MonoBehaviour:
   differentHideDir: 0
   directionToHide: 3
   ease: 21
+  firstTimeDoNotAnimate: 0
 --- !u!4 &365796956
 Transform:
   m_ObjectHideFlags: 0
@@ -543,7 +544,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2814665552432071767, guid: 7381c32a9de94084c9a1c076827f4ab7, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 100.000244
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5505791208123430512, guid: 7381c32a9de94084c9a1c076827f4ab7, type: 3}
       propertyPath: menuManager
@@ -979,6 +980,7 @@ MonoBehaviour:
   differentHideDir: 1
   directionToHide: 3
   ease: 16
+  firstTimeDoNotAnimate: 1
 --- !u!4 &1151538837
 Transform:
   m_ObjectHideFlags: 0
@@ -1369,7 +1371,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   panel: {fileID: 1838937411}
   panelTwo: {fileID: 170504355}
-  speed: 0.33
+  speed: 150
 --- !u!222 &1819482988
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2352,7 +2354,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6752634148149113637, guid: a898ac3449495fd4d855bd8e354038a6, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -125.700195
+      value: -125.69922
       objectReference: {fileID: 0}
     - target: {fileID: 7721108082615990954, guid: a898ac3449495fd4d855bd8e354038a6, type: 3}
       propertyPath: m_AnchorMax.y

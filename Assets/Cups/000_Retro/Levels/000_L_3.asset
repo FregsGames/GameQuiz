@@ -69,7 +69,7 @@ MonoBehaviour:
   questionTemplates:
   - contentType: 8
   - contentType: 9
-  - contentType: 4
+  - contentType: 8
   - contentType: 1
   - contentType: 2
   state: 0

@@ -13,19 +13,38 @@ public class Cups : Singleton<Cups>
     [Serializable]
     public enum CupType { free = 0, premium = 1};
 
+    public float percentageCompleted { get; set; }
+
     private void Start()
     {
+        CheckCups();
+    }
+
+    public void CheckCups()
+    {
+        int totalLevels = 0;
+        int completed = 0;
+
         foreach (var cup in cups)
         {
             foreach (var level in cup.levels)
             {
-                level.state = (LevelState) SaveManager.instance.RetrieveInt(level.id);
-                if(level.alwaysUnlocked && level.state == LevelState.locked)
+                totalLevels++;
+
+                level.state = (LevelState)SaveManager.instance.RetrieveInt(level.id);
+                if (level.alwaysUnlocked && level.state == LevelState.locked)
                 {
                     level.state = LevelState.unlocked;
                 }
+
+                if (level.state == LevelState.completed)
+                {
+                    completed++;
+                }
             }
         }
+
+        percentageCompleted = (float)completed / totalLevels;
     }
 
     public bool CheckUnlocks(LevelScriptableC level)

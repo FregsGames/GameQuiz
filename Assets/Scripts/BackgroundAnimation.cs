@@ -13,8 +13,8 @@ public class BackgroundAnimation : MonoBehaviour
 
     private void Update()
     {
-        panel.transform.position += Vector3.right * speed;
-        panelTwo.transform.position += Vector3.right * speed;
+        panel.transform.position += Vector3.right * speed * Time.deltaTime;
+        panelTwo.transform.position += Vector3.right * speed * Time.deltaTime;
 
         if(panel.transform.position.x > 1080)
         {

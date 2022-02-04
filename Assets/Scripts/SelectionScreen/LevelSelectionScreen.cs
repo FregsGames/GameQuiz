@@ -204,7 +204,7 @@ public class LevelSelectionScreen : MonoBehaviour
     {
         playButton.interactable = false;
         //disable go back
-        await levelContainter.transform.DOMove(new Vector2(Screen.width, 0), 0.5f).SetEase(Ease.InOutBack).AsyncWaitForCompletion();
+        await levelContainter.transform.DOMove(new Vector2(0, -Screen.height), 0.5f).SetEase(Ease.InExpo).AsyncWaitForCompletion();
         StartCoroutine(LoadGame());
     }
 

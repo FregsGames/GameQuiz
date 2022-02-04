@@ -41,11 +41,19 @@ public class MenuManager : MonoBehaviour
 
     public Ease MenuEase { get => ease;}
 
+    [SerializeField]
+    private bool firstTimeDoNotAnimate = false;
+
 
     private void OnEnable()
     {
         if (!isDefault)
             return;
+
+        if(firstTimeDoNotAnimate && Time.time < 1f)
+        {
+            return;
+        }
 
         if(hideExtraOnShow && extra != null)
         {
