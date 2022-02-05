@@ -33,7 +33,7 @@ public class GameLogic : MonoBehaviour
         gameUI = FindObjectOfType<GameUI>();
     }
 
-    public void StartGame(LevelScriptableC level, List<Question> questions, float timePerQuestion = 20f)
+    public void StartGame(LevelScriptableC level, List<Question> questions, CupScriptable currentCup, float timePerQuestion = 20f)
     {
         endless = false;
 
@@ -46,6 +46,8 @@ public class GameLogic : MonoBehaviour
         gameUI.Initialize(timePerQuestion);
 
         gameUI.SetQuestion(currentQuestion);
+
+        this.currentCup = currentCup;
     }
 
     public void StartEndless(CupScriptable cup)
@@ -106,7 +108,7 @@ public class GameLogic : MonoBehaviour
         {
             bool levelCompleted = CheckWinCondition(correctAnswers, totalQuestions);
             bool unlocks = levelCompleted? Cups.Instance.CheckUnlocks(currentLevel) : false;
-            gameUI.ShowResults(levelCompleted, correctAnswers, totalQuestions, unlocks);
+            gameUI.ShowResults(levelCompleted, correctAnswers, totalQuestions, currentCup, currentLevel);
         }
     }
 

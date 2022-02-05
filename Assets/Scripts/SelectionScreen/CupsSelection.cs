@@ -27,6 +27,8 @@ public class CupsSelection : MonoBehaviour
 
     private List<string> alreadyInstantiatedPremiumCups = new List<string>();
 
+    public List<CupDropdown> CupDropdowns { get; set; } = new List<CupDropdown>();
+
     private void Start()
     {
         InstatiateCups();
@@ -54,6 +56,8 @@ public class CupsSelection : MonoBehaviour
             }
 
             var dropdown = Instantiate(cupDropdownPrefab, content);
+            CupDropdowns.Add(dropdown);
+
             dropdown.Setup(cup);
         }
     }

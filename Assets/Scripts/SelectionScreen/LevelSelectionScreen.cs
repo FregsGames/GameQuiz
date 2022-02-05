@@ -154,6 +154,19 @@ public class LevelSelectionScreen : MonoBehaviour
         SetLevelWinCondition(levelButton);
     }
 
+    public void SelectLevel(LevelScriptableC level)
+    {
+        currentSelectedLevel = level;
+        SetAllButtonsToNormalColor();
+
+        LevelButton levelButton = buttons.FirstOrDefault(b => b.Level == level);
+
+        levelButton.SetSprite(levelButton.Level.state == LevelState.completed ? completedSelectedSprite : selectedSprite);
+
+        levelName.text = Translations.instance.GetText(levelButton.Level.levelTitle);
+        SetLevelWinCondition(levelButton);
+    }
+
     private void SetLevelWinCondition(LevelButton levelButton)
     {
         if(levelButton.Level.state == LevelState.completed)
@@ -224,7 +237,7 @@ public class LevelSelectionScreen : MonoBehaviour
         List<Question> questions = GenerateQuestions();
 
 
-        FindObjectOfType<GameLogic>().StartGame(currentSelectedLevel, questions, 20f);
+        FindObjectOfType<GameLogic>().StartGame(currentSelectedLevel, questions, currentCup, 20f);
 
         SceneManager.UnloadSceneAsync("CupSelection");
     }

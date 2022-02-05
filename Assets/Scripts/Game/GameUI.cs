@@ -140,7 +140,7 @@ public class GameUI : MonoBehaviour
         }
     }
 
-    public void ShowResults(bool completed, int correctAnswers, int totalAnswers, bool unlocks)
+    public void ShowResults(bool completed, int correctAnswers, int totalAnswers, CupScriptable currentCup, LevelScriptableC currentLevel)
     {
         ShowAd();
 
@@ -151,7 +151,7 @@ public class GameUI : MonoBehaviour
         EnableOptionButtons(false);
 
         var endScreen = Instantiate(endScreenPrefab);
-        endScreen.Setup(completed, correctAnswers, totalAnswers, unlocks);
+        endScreen.Setup(completed, correctAnswers, totalAnswers, currentCup, currentLevel);
     }
 
     private void ShowAd()

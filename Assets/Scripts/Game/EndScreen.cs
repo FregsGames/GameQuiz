@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using System.Linq;
+using Assets.Scripts.Payloads;
+using SuperMaxim.Messaging;
+using System.Threading.Tasks;
+
 public class EndScreen : MonoBehaviour
 {
     [SerializeField]
@@ -23,7 +27,10 @@ public class EndScreen : MonoBehaviour
     [SerializeField]
     private QuotesList[] gameQuotes;
 
-    public void Setup(bool completed, int answers, int total, bool newUnlocks)
+    private CupScriptable currentCup;
+    private LevelScriptableC currentLevel;
+
+    public void Setup(bool completed, int answers, int total, CupScriptable currentCup, LevelScriptableC currentLevel)
     {
         resultText.text = Translations.instance.GetText(completed ? completedIdText : failedText);
         answersText.text = $"{answers}/{total}";
@@ -44,13 +51,30 @@ public class EndScreen : MonoBehaviour
 
         quoteText.text = "\" " + quote.quote + "\"";
         quoteAuthor.text = quote.game;
+
+        this.currentCup = currentCup;
+        this.currentLevel = currentLevel;
     }
 
-    public void LoadLobby()
+    public async void LoadLobby()
     {
-        SceneLoader.Instance.LoadLobby();
-    }
+        await SceneLoader.Instance.LoadLobbyAsync();
 
+        await Task.Delay(60);
+
+        CupDropdown cupDropdown = FindObjectOfType<CupsSelection>().CupDropdowns.FirstOrDefault(d => d.Cup == currentCup);
+        Messenger.Default.Publish(new CupSelectedPayload()
+        {
+            Cup = currentCup,
+            endless = false,
+            CupDropdown = cupDropdown
+        });
+
+        FindObjectOfType<LevelSelectionScreen>().Setup(currentCup);
+        FindObjectOfType<LevelSelectionScreen>().SelectLevel(currentLevel);
+
+        Messenger.Default.Publish(0);
+    }
 
     [Serializable]
     public class QuotesList
