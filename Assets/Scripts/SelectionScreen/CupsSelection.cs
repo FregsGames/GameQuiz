@@ -6,6 +6,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class CupsSelection : MonoBehaviour
 {
@@ -28,6 +29,11 @@ public class CupsSelection : MonoBehaviour
     private List<string> alreadyInstantiatedPremiumCups = new List<string>();
 
     public List<CupDropdown> CupDropdowns { get; set; } = new List<CupDropdown>();
+
+    private Vector2 firstElementPos;
+
+    [SerializeField]
+    private ScrollRect scrollRect;
 
     private void Start()
     {
@@ -60,6 +66,8 @@ public class CupsSelection : MonoBehaviour
 
             dropdown.Setup(cup);
         }
+
+        firstElementPos = CupDropdowns[0].gameObject.GetComponent<RectTransform>().position;
     }
 
     private void OnEnable()
@@ -90,6 +98,28 @@ public class CupsSelection : MonoBehaviour
     private void OnCupToggle(CupDropdown obj)
     {
         currentCupDropdown = obj;
+        StartCoroutine(RecolocateScroll(obj));
+        //dropdownRect anchorPos = 
+    }
+
+    IEnumerator RecolocateScroll(CupDropdown obj)
+    {
+        yield return new WaitForSeconds(0.2f);
+        RectTransform contentRect = content.GetComponent<RectTransform>();
+        RectTransform dropdownRect = obj.gameObject.GetComponent<RectTransform>();
+        Vector3 originalPos = contentRect.position;
+        float diffToPos = firstElementPos.y - dropdownRect.position.y;
+
+        var elapsedTime = 0.0f;
+        while(elapsedTime < 0.1f)
+        {
+            contentRect.position = Vector3.Lerp(originalPos, originalPos + Vector3.up * diffToPos, elapsedTime / 0.1f);
+            scrollRect.velocity = Vector2.zero;
+            elapsedTime += Time.deltaTime;
+            yield return 0;
+        }
+
+        contentRect.position = originalPos + Vector3.up * diffToPos;
     }
 
     private void OnDestroy()

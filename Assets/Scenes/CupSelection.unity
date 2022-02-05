@@ -1078,6 +1078,7 @@ MonoBehaviour:
   cupDropdownPrefab: {fileID: 1158237003775059882, guid: f13c47dcf7c621844896cb7eef9c46d6, type: 3}
   menuManagerToGame: {fileID: 1750919501}
   menuManagerToMenu: {fileID: 810646774}
+  scrollRect: {fileID: 584519631}
 --- !u!4 &470897921
 Transform:
   m_ObjectHideFlags: 0
