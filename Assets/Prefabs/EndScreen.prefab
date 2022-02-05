@@ -291,9 +291,37 @@ MonoBehaviour:
       game: 'The Elder Scrolls V: Skyrim'
     - quote: The cake is a lie
       game: GLaDOS, Portal
+    - quote: Shadow and light are two sides of the same coin. One cannot exist without
+        the other
+      game: 'Princess Zelda, The Legend of Zelda: Twilight Princess'
+    - quote: A hunter is a hunter, even in a dream
+      game: Micolash, Bloodborne
+    - quote: If our lives are already written, it would take a courageous man to
+        change the script
+      game: Alan Wake
+    - quote: Machines aren't capable of evil. Humans make them that way
+      game: Lucca, Chrono Trigger
+    - quote: The moment you close your eyes on the battlefield is the moment you
+        never open them again
+      game: 'The End, Metal Gear Solid 3: Snake Eater'
+    - quote: After all we've been through. Everything that I've done. It can't be
+        for nothing
+      game: Ellie, The Last of Us
+    - quote: I can't tell you to remember me, but I can't bear for you to forget
+        me
+      game: Mary, Silent Hill 2
+    - quote: Remember those who have passed, and they will forever live on
+      game: Sein, Ori and the Blind Forest
+    - quote: I believe in a universe that doesn't care and people who do
+      game: Angus Delaney, Night in the Woods
+    - quote: Even the good leaders make poor decisions, its the best leaders that
+        take responsibility for them
+      game: Kratos, God of War
+    - quote: Courage need not be remembered, for it is never forgotten
+      game: 'Princess Zelda, Legend of Zelda: Breath of the Wild'
   - lang: 34
     texts:
-    - quote: Es peligroso viajar solo. Toma esto
+    - quote: Es peligroso ir solo. Toma esto
       game: The Legend of Zelda
     - quote: "Mira detr\xE1s de ti, \xA1un mono de tres cabezas!"
       game: Guybrush Threepwood, Monkey Island
@@ -316,6 +344,27 @@ MonoBehaviour:
     - quote: La mitad de lo que conocemos es mentira... La otra mitad, una mentira
         bien construida
       game: 'EVA, Metal Gear Solid 3: Snake Eater'
+    - quote: "Cuanto m\xE1s te acerques a la luz, mayor ser\xE1 tu sombra"
+      game: Kingdom Hearts
+    - quote: "Fue el destino quien me trajo aqu\xED, pero soy yo, quien traz\xF3
+        mi propio camino"
+      game: Jhon Marston, Red Dead Redemption
+    - quote: "Los l\xEDderes y los h\xE9roes no se eligen a s\xED mismos"
+      game: 'Big Boss, Metal Gear Solid: Peace Walker'
+    - quote: "Me siento como si pudiera\u2026 como si pudiera\u2026 \xA1conquistar
+        el mundo"
+      game: Day of Tentacle
+    - quote: "En mi tarjeta de visita, soy un presidente de empresa. En mi mente
+        soy un programador de juegos. Pero en mi coraz\xF3n soy un jugador"
+      game: Satoru Iwata
+    - quote: "Como cualquier programador de juegos sabe, los 3 tipos b\xE1sicos de
+        alimento son Fritos, Cheetos y Doritos"
+      game: Satoru Iwata
+    - quote: Me gusta crear tendencias, no seguirlas
+      game: Shigeru Miyamoto
+    - quote: Un juego que se retrasa al final es bueno, un juego malo, es malo para
+        siempre
+      game: Shigeru Miyamoto
 --- !u!1 &3994479158414266269
 GameObject:
   m_ObjectHideFlags: 0
@@ -661,7 +710,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '" We all make choices in life, but in the end our choices make us"'
+  m_text: "En mi tarjeta de visita, soy un presidente de empresa. En mi mente soy
+    un programador de juegos. Pero en mi coraz\xF3n soy un jugador"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1ef18d990dfcf564cb8bdffc761bc0de, type: 2}
   m_sharedMaterial: {fileID: 7381581806217903326, guid: 1ef18d990dfcf564cb8bdffc761bc0de, type: 2}

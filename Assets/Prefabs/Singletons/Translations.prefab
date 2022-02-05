@@ -246,5 +246,9 @@ MonoBehaviour:
   - id: progress
     en: Progress
     es: Progreso
+  - id: thanks
+    en: '<b>Created by</b>\nNacho Alfonso\n<b>Special thanks</b>\nSandra Vilchez '
+    es: '<b>Creado por</b>\nNacho Alfonso\n<b>Agradecimientos especiales</b>\nSandra
+      Vilchez '
   currentLanguage: 34
   availableLanguages: 220000000a000000

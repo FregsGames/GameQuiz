@@ -1369,8 +1369,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a70f682fcfc9a114d93b3202d689377f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panel: {fileID: 1838937411}
-  panelTwo: {fileID: 170504355}
+  panel: {fileID: 1838937412}
+  panelTwo: {fileID: 170504356}
   speed: 150
 --- !u!222 &1819482988
 CanvasRenderer:
@@ -2216,6 +2216,10 @@ PrefabInstance:
       propertyPath: sfx
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2375991971855806256, guid: a898ac3449495fd4d855bd8e354038a6, type: 3}
+      propertyPath: id
+      value: thanks
+      objectReference: {fileID: 0}
     - target: {fileID: 2431665508681691764, guid: a898ac3449495fd4d855bd8e354038a6, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -2402,7 +2406,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7958229824609850540, guid: a898ac3449495fd4d855bd8e354038a6, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 340
+      value: 540
       objectReference: {fileID: 0}
     - target: {fileID: 7958229824609850540, guid: a898ac3449495fd4d855bd8e354038a6, type: 3}
       propertyPath: m_AnchoredPosition.y

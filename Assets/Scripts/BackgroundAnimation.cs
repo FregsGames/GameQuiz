@@ -5,25 +5,25 @@ using UnityEngine;
 public class BackgroundAnimation : MonoBehaviour
 {
     [SerializeField]
-    private GameObject panel;
+    private RectTransform panel;
     [SerializeField]
-    private GameObject panelTwo;
+    private RectTransform panelTwo;
     [SerializeField]
     private float speed = 1f;
 
     private void Update()
     {
-        panel.transform.position += Vector3.right * speed * Time.deltaTime;
-        panelTwo.transform.position += Vector3.right * speed * Time.deltaTime;
+        panel.anchoredPosition += Vector2.right * speed * Time.deltaTime;
+        panelTwo.anchoredPosition += Vector2.right * speed * Time.deltaTime;
 
-        if(panel.transform.position.x > 1080)
+        if(panel.anchoredPosition.x > 1080)
         {
-            panel.transform.position = new Vector3(-1080, 0, 0);
+            panel.anchoredPosition = new Vector3(-1080, 0, 0);
         }
 
-        if (panelTwo.transform.position.x > 1080)
+        if (panelTwo.anchoredPosition.x > 1080)
         {
-            panelTwo.transform.position = new Vector3(-1080, 0, 0);
+            panelTwo.anchoredPosition = new Vector3(-1080, 0, 0);
         }
     }
 }
