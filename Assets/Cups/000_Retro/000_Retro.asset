@@ -75,6 +75,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: aa780c9f24eeed8419d3ebe6a60a72c8, type: 2}
   - {fileID: 11400000, guid: 813a6d12dd13fb740a5fadfd0f183056, type: 2}
   - {fileID: 11400000, guid: 62b5e204cb7e841448239093fa6d5ebf, type: 2}
-  - {fileID: 11400000, guid: b8a9bbbc58db52344b49df2e6f9d86f1, type: 2}
   cupImage: {fileID: -9116045626424859709, guid: 97df41ae28ce6634da2182ecf24935bc, type: 3}
   state: 0

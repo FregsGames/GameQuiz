@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using System.Linq;
 using Assets.Scripts.Payloads;
 using SuperMaxim.Messaging;
 using System.Threading.Tasks;
+using System.Collections;
 
 public class EndScreen : MonoBehaviour
 {
@@ -26,6 +28,9 @@ public class EndScreen : MonoBehaviour
 
     [SerializeField]
     private QuotesList[] gameQuotes;
+
+    [SerializeField]
+    private Button continueButton;
 
     private CupScriptable currentCup;
     private LevelScriptableC currentLevel;
@@ -56,11 +61,15 @@ public class EndScreen : MonoBehaviour
         this.currentLevel = currentLevel;
     }
 
-    public async void LoadLobby()
+    public void LoadLobbyButton()
     {
-        await SceneLoader.Instance.LoadLobbyAsync();
+        continueButton.interactable = false;
+        StartCoroutine(LoadLobby());
+    }
 
-        await Task.Delay(60);
+    public IEnumerator LoadLobby()
+    {
+        yield return StartCoroutine(SceneLoader.Instance.LoadLobbyAsync());
 
         CupDropdown cupDropdown = FindObjectOfType<CupsSelection>().CupDropdowns.FirstOrDefault(d => d.Cup == currentCup);
         Messenger.Default.Publish(new CupSelectedPayload()

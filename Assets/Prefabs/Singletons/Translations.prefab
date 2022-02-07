@@ -167,8 +167,8 @@ MonoBehaviour:
     en: Questions about games released in 2021
     es: Preguntas sobre juegos lanzados en 2021
   - id: l_prot
-    en: Questions about game characters
-    es: Preguntas sobre personajes de videojuegos
+    en: Questions about game characters and others topics
+    es: Preguntas sobre personajes de videojuegos y otros temas
   - id: l_year
     en: Try to guess the release year of these games
     es: "\xBFPuedes adivinar el a\xF1o en que se lanzaron estos juegos?"
@@ -215,10 +215,10 @@ MonoBehaviour:
     en: Level completed!
     es: "\xA1Nivel completado!"
   - id: l_4
-    en: Questions with different themes
+    en: Questions with different topics
     es: Preguntas sobre diferentes temas
   - id: l_5
-    en: Harded questions with different themes
+    en: Harder questions with different topics
     es: "Preguntas m\xE1s dif\xEDciles sobre diferentes temas"
   - id: reward_title
     en: WHAT A DILEMA...
@@ -242,7 +242,7 @@ MonoBehaviour:
     es: "Espa\xF1ol"
   - id: l_year_2
     en: Can you guess which games were released this year?
-    es: "\xBFPuedes adivinar qu\xE9 juegos fueron lanzados de este a\xF1o?"
+    es: "\xBFPuedes adivinar qu\xE9 juegos fueron lanzados este a\xF1o?"
   - id: progress
     en: Progress
     es: Progreso

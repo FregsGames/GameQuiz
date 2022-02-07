@@ -38,9 +38,15 @@ public class SceneLoader : Singleton<SceneLoader>
         SceneManager.LoadScene("CupSelection");
     }
 
-    public async Task LoadLobbyAsync()
+    public IEnumerator LoadLobbyAsync()
     {
-        SceneManager.LoadSceneAsync("CupSelection", LoadSceneMode.Additive);
+        AsyncOperation asyncOperation = SceneManager.LoadSceneAsync("CupSelection", LoadSceneMode.Additive);
+        while (!asyncOperation.isDone)
+        {
+            yield return null;
+        }
+
+        yield return null;
     }
 
     public void UnloadGame(int a)

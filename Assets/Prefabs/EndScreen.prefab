@@ -365,6 +365,7 @@ MonoBehaviour:
     - quote: Un juego que se retrasa al final es bueno, un juego malo, es malo para
         siempre
       game: Shigeru Miyamoto
+  continueButton: {fileID: 7938197282464676186}
 --- !u!1 &3994479158414266269
 GameObject:
   m_ObjectHideFlags: 0
@@ -488,7 +489,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6703604182740643747}
         m_TargetAssemblyTypeName: EndScreen, Assembly-CSharp
-        m_MethodName: LoadLobby
+        m_MethodName: LoadLobbyButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

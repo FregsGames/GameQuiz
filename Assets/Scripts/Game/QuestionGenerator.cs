@@ -288,8 +288,18 @@ namespace Questions
                         filteredGamesForAnswer = filteredGamesForAnswer.Where(g => !answersToExlude.Contains(g.name)).ToList();
                     }
                 }
+                List<GameC> step1 = filteredGamesForAnswer.Where(g => g.plats.Contains(plat)).ToList();
 
-                correctAnswer = filteredGamesForAnswer.Where(g => g.plats.Contains(plat)).OrderBy(x => rnd.Next()).Take(1).ToArray()[0].name;
+                if(step1.Count == 0)
+                {
+                    return null;
+                }
+
+                IOrderedEnumerable<GameC> step2 = step1.OrderBy(x => rnd.Next());
+                IEnumerable<GameC> step3 = step2.Take(1);
+                string step4 = step3.ToArray()[0].name;
+
+                correctAnswer = step4;
                 otherOptions = filteredGamesForOtherOptions.Where(g => !g.plats.Contains(plat)).OrderBy(x => rnd.Next()).Take(3).Select(g => g.name).ToList();
 
                 statement = Translations.instance.GetText("s_plat_1");
