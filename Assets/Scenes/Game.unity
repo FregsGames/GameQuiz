@@ -1029,8 +1029,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 836341033888883722, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
       propertyPath: m_text
-      value: "\xBFDiscworld es un juego point and click basado en las novelas de
-        qu\xE9 autor?"
+      value: "\rWhat is the name of the place where the story of The Last of Us Part
+        II begins?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 836341033888883722, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+      propertyPath: m_fontSize
+      value: 91.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 836341033888883722, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 836341033888883722, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 88
+      objectReference: {fileID: 0}
+    - target: {fileID: 836341033888883722, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 836341034112651871, guid: 147e403686c2ebf43a979071b21feb51, type: 3}
       propertyPath: test

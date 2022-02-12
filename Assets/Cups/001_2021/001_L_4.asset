@@ -59,6 +59,6 @@ MonoBehaviour:
   - contentType: 2
   - contentType: 4
   - contentType: 5
-  state: 2
+  state: 1
   alwaysUnlocked: 1
   winCondition: 0
